@@ -16,7 +16,3 @@ RUN pip install --no-cache-dir --upgrade pip
 RUN pip install rasa==3.0.8
 
 COPY . .
-
-EXPOSE 5005
-
-CMD ["rasa","run","--enable-api","--cors","*","--debug"]
