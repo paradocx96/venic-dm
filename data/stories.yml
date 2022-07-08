@@ -1,0 +1,1382 @@
+version: "3.0"
+
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+# COMMON - ERROR
+- story: out of scope
+  steps:
+  - intent: outofscope
+  - action: utter_cannot_understand
+
+- story: not identify
+  steps:
+  - intent: notidentify
+  - action: utter_not_identify
+
+- story: not support
+  steps:
+  - intent: notsupport
+  - action: utter_not_support
+
+- story: already exist
+  steps:
+  - intent: existcheck
+  - action: utter_already_exist
+
+# Project
+- story: create a project
+  steps:
+  - intent: createproject
+  - action: utter_project_created
+
+- story: create project unknown
+  steps:
+  - intent: createprojectunknown
+  - action: utter_ask_project_name
+
+# Class
+- story: create a class
+  steps:
+  - intent: createclass
+  - action: utter_class_created
+
+- story: open a class
+  steps:
+  - intent: openclass
+  - action: utter_class_opened
+
+- story: edit class name
+  steps:
+  - intent: editclass
+  - action: utter_change_class
+
+- story: delete class
+  steps:
+  - intent: deleteclass
+  - action: utter_class_deleted
+
+- story: create class unknown
+  steps:
+  - intent: createclassunknown
+  - action: utter_ask_class_name
+
+# Interface
+- story: create a interface
+  steps:
+  - intent: createinterface
+  - action: utter_interface_created
+
+- story: open a interface
+  steps:
+  - intent: openinterface
+  - action: utter_interface_opened
+
+- story: edit interface name
+  steps:
+  - intent: editinterface
+  - action: utter_change_interface
+
+- story: delete interface
+  steps:
+  - intent: deleteinterface
+  - action: utter_interface_deleted
+
+- story: create interface unknown
+  steps:
+  - intent: createinterfaceunknown
+  - action: utter_ask_interface_name
+
+- story: implement interface
+  steps:
+  - intent: implementinterface
+  - action: utter_implement_interface
+
+# Variable
+- story: create a variable
+  steps:
+  - intent: createvariable
+  - action: utter_variable_created
+
+- story: delete a variable
+  steps:
+  - intent: deletevariable
+  - action: utter_variable_deleted
+
+- story: cut a variable
+  steps:
+  - intent: cutvariable
+  - action: utter_done
+
+- story: increment variable
+  steps:
+  - intent: incrementvariable
+  - action: utter_increment_variable
+
+- story: decrement variable
+  steps:
+  - intent: decrementvariable
+  - action: utter_decrement_variable
+
+- story: change variable name
+  steps:
+  - intent: changevariable
+  - action: utter_change_variable
+
+- story: edit variable name
+  steps:
+  - intent: editvariable
+  - action: utter_update_variable
+
+- story: create variable unknown
+  steps:
+  - intent: createvariableunknown
+  - action: utter_ask_variable_name
+
+# PROPERTY
+- story: create a property
+  steps:
+  - intent: createproperty
+  - action: utter_property_created
+
+- story: delete a property
+  steps:
+  - intent: deleteproperty
+  - action: utter_property_deleted
+
+- story: cut a property
+  steps:
+  - intent: cutproperty
+  - action: utter_done
+
+- story: decrement property
+  steps:
+  - intent: decrementproperty
+  - action: utter_decrement_property
+
+- story: increment property
+  steps:
+  - intent: incrementproperty
+  - action: utter_increment_property
+
+- story: change property name
+  steps:
+  - intent: changeproperty
+  - action: utter_change_property
+
+- story: edit property name
+  steps:
+  - intent: editproperty
+  - action: utter_update_property
+
+- story: create property unknown
+  steps:
+  - intent: createpropertyunknown
+  - action: utter_ask_property_name
+
+# ATTRIBUTE
+- story: create a attribute
+  steps:
+  - intent: createattribute
+  - action: utter_attribute_created
+
+- story: delete a attribute
+  steps:
+  - intent: deleteattribute
+  - action: utter_attribute_deleted
+
+- story: cut a attribute
+  steps:
+  - intent: cutattribute
+  - action: utter_done
+
+- story: increment attribute
+  steps:
+  - intent: incrementattribute
+  - action: utter_increment_attribute
+
+- story: decrement attribute
+  steps:
+  - intent: decrementattribute
+  - action: utter_decrement_attribute
+
+- story: change attribute name
+  steps:
+  - intent: changeattribute
+  - action: utter_change_attribute
+
+- story: edit attribute name
+  steps:
+  - intent: editattribute
+  - action: utter_update_attribute
+
+- story: create attribute unknown
+  steps:
+  - intent: createattributeunknown
+  - action: utter_ask_attribute_name
+
+# METHOD
+- story: create a method
+  steps:
+  - intent: createmethod
+  - action: utter_method_created
+
+- story: delete a method
+  steps:
+  - intent: deletemethod
+  - action: utter_method_deleted
+
+- story: cut a method
+  steps:
+  - intent: cutmethod
+  - action: utter_done
+
+- story: change method name
+  steps:
+  - intent: changemethod
+  - action: utter_change_method
+
+- story: edit method name
+  steps:
+  - intent: editmethod
+  - action: utter_update_method
+
+- story: create method unknown
+  steps:
+  - intent: createmethodunknown
+  - action: utter_ask_method_name
+
+- story: create main method
+  steps:
+  - intent: createmainmethod
+  - action: utter_main_method_created
+
+- story: call method
+  steps:
+  - intent: callmethod
+  - action: utter_done
+
+- story: create parameter in method
+  steps:
+  - intent: createparametermethod
+  - action: utter_parameter_created
+
+# FUNCTION
+- story: create a function
+  steps:
+  - intent: createfunction
+  - action: utter_function_created
+
+- story: delete a function
+  steps:
+  - intent: deletefunction
+  - action: utter_function_deleted
+
+- story: cut a function
+  steps:
+  - intent: cutfunction
+  - action: utter_done
+
+- story: change function name
+  steps:
+  - intent: changefunction
+  - action: utter_change_function
+
+- story: edit function name
+  steps:
+  - intent: editfunction
+  - action: utter_update_function
+
+- story: create function unknown
+  steps:
+  - intent: createfunctionunknown
+  - action: utter_ask_function_name
+
+- story: create main function
+  steps:
+  - intent: createmainfunction
+  - action: utter_main_function_created
+
+- story: call function
+  steps:
+  - intent: callfunction
+  - action: utter_done
+
+- story: create parameter in function
+  steps:
+  - intent: createparameterfunction
+  - action: utter_parameter_created
+
+# PROCEDURE
+- story: create a procedure
+  steps:
+  - intent: createprocedure
+  - action: utter_procedure_created
+
+- story: delete a procedure
+  steps:
+  - intent: deleteprocedure
+  - action: utter_procedure_deleted
+
+- story: cut a procedure
+  steps:
+  - intent: cutprocedure
+  - action: utter_done
+
+- story: change procedure name
+  steps:
+  - intent: changeprocedure
+  - action: utter_change_procedure
+
+- story: edit procedure name
+  steps:
+  - intent: editprocedure
+  - action: utter_update_procedure
+
+- story: create procedure unknown
+  steps:
+  - intent: createprocedureunknown
+  - action: utter_ask_procedure_name
+
+- story: create main procedure
+  steps:
+  - intent: createmainprocedure
+  - action: utter_main_procedure_created
+
+- story: call procedure
+  steps:
+  - intent: callprocedure
+  - action: utter_done
+
+- story: create parameter in procedure
+  steps:
+  - intent: createparameterprocedure
+  - action: utter_parameter_created
+
+# CONSTANT
+- story: create a constant
+  steps:
+  - intent: createconstant
+  - action: utter_constant_created
+
+- story: delete a constant
+  steps:
+  - intent: deleteconstant
+  - action: utter_constant_deleted
+
+- story: cut a constant
+  steps:
+  - intent: cutconstant
+  - action: utter_done
+
+- story: increment constant
+  steps:
+  - intent: incrementconstant
+  - action: utter_increment_constant
+
+- story: decrement constant
+  steps:
+  - intent: decrementconstant
+  - action: utter_decrement_constant
+
+- story: change constant name
+  steps:
+  - intent: changeconstant
+  - action: utter_change_constant
+
+- story: edit constant name
+  steps:
+  - intent: editconstant
+  - action: utter_update_constant
+
+- story: create constant unknown
+  steps:
+  - intent: createconstantunknown
+  - action: utter_ask_constant_name
+
+# ENUM
+- story: create a enum
+  steps:
+  - intent: createenum
+  - action: utter_enum_created
+
+- story: open enum
+  steps:
+  - intent: openenum
+  - action: utter_enum_opened
+
+- story: create enum unknown
+  steps:
+  - intent: createenumunknown
+  - action: utter_ask_enum_name
+
+- story: delete a enum
+  steps:
+  - intent: deleteenum
+  - action: utter_enum_deleted
+
+- story: edit enum name
+  steps:
+  - intent: editenum
+  - action: utter_update_enum
+
+# ARRAY
+- story: create array
+  steps:
+  - intent: createarray
+  - action: utter_array_created
+
+- story: delete array
+  steps:
+  - intent: deletearray
+  - action: utter_array_deleted
+
+- story: cut a array
+  steps:
+  - intent: cutarray
+  - action: utter_done
+
+- story: change array name
+  steps:
+  - intent: changearray
+  - action: utter_change_array
+
+- story: edit array name
+  steps:
+  - intent: editarray
+  - action: utter_update_array
+
+# ARRAY-LIST
+- story: create arraylist
+  steps:
+  - intent: createarraylist
+  - action: utter_arraylist_created
+
+- story: delete arraylist
+  steps:
+  - intent: deletearraylist
+  - action: utter_arraylist_deleted
+
+- story: cut a arraylist
+  steps:
+  - intent: cutarraylist
+  - action: utter_done
+
+- story: change arraylist name
+  steps:
+  - intent: changearraylist
+  - action: utter_change_arraylist
+
+- story: edit arraylist name
+  steps:
+  - intent: editarraylist
+  - action: utter_update_arraylist
+
+- story: add value to arraylist
+  steps:
+  - intent: addvaluearraylist
+  - action: utter_add_value
+
+- story: get value from arraylist
+  steps:
+  - intent: getvaluearraylist
+  - action: utter_done
+
+- story: remove value from arraylist
+  steps:
+  - intent: removevaluearraylist
+  - action: utter_remove_value
+
+- story: set value in arraylist
+  steps:
+  - intent: setvaluearraylist
+  - action: utter_done
+
+- story: clear value in arraylist
+  steps:
+  - intent: cleararraylist
+  - action: utter_done
+
+- story: get size in arraylist
+  steps:
+  - intent: sizearraylist
+  - action: utter_done
+
+# HASH-MAP
+- story: create hashmap
+  steps:
+  - intent: createhashmap
+  - action: utter_hashmap_created
+
+- story: delete hashmap
+  steps:
+  - intent: deletehashmap
+  - action: utter_hashmap_deleted
+
+- story: cut a hashmap
+  steps:
+  - intent: cuthashmap
+  - action: utter_done
+
+- story: change hashmap name
+  steps:
+  - intent: changehashmap
+  - action: utter_change_hashmap
+
+- story: edit hashmap name
+  steps:
+  - intent: edithashmap
+  - action: utter_update_hashmap
+
+- story: clear value in hashmap
+  steps:
+  - intent: clearhashmap
+  - action: utter_done
+
+- story: get size in hashmap
+  steps:
+  - intent: sizehashmap
+  - action: utter_done
+
+# HASH-SET
+- story: create hashset
+  steps:
+  - intent: createhashset
+  - action: utter_hashset_created
+
+- story: delete hashset
+  steps:
+  - intent: deletehashset
+  - action: utter_hashset_deleted
+
+- story: cut a hashset
+  steps:
+  - intent: cuthashset
+  - action: utter_done
+
+- story: change hashset name
+  steps:
+  - intent: changehashset
+  - action: utter_change_hashset
+
+- story: edit hashset name
+  steps:
+  - intent: edithashset
+  - action: utter_update_hashset
+
+- story: add value to hashset
+  steps:
+  - intent: addvaluehashset
+  - action: utter_add_value
+
+- story: clear value in hashset
+  steps:
+  - intent: clearhashset
+  - action: utter_done
+
+- story: get size in hashset
+  steps:
+  - intent: sizehashset
+  - action: utter_done
+
+# LINKED-LIST
+- story: create linkedlist
+  steps:
+  - intent: createlinkedlist
+  - action: utter_linkedlist_created
+
+- story: delete linkedlist
+  steps:
+  - intent: deletelinkedlist
+  - action: utter_linkedlist_deleted
+
+- story: cut a linkedlist
+  steps:
+  - intent: cutlinkedlist
+  - action: utter_done
+
+- story: change linkedlist name
+  steps:
+  - intent: changelinkedlist
+  - action: utter_change_linkedlist
+
+- story: edit linkedlist name
+  steps:
+  - intent: editlinkedlist
+  - action: utter_update_linkedlist
+
+- story: add value to linkedlist
+  steps:
+  - intent: addvaluelinkedlist
+  - action: utter_add_value
+
+- story: get value from linkedlist
+  steps:
+  - intent: getvaluelinkedlist
+  - action: utter_done
+
+- story: remove value from linkedlist
+  steps:
+  - intent: removevaluelinkedlist
+  - action: utter_remove_value
+
+- story: set value in linkedlist
+  steps:
+  - intent: setvaluelinkedlist
+  - action: utter_done
+
+- story: clear value in linkedlist
+  steps:
+  - intent: clearlinkedlist
+  - action: utter_done
+
+- story: get size in linkedlist
+  steps:
+  - intent: sizelinkedlist
+  - action: utter_done
+
+# CONSTRUCTOR
+- story: create constructor
+  steps:
+  - intent: create_constructor
+  - action: utter_constructor_created
+
+- story: create default constructor
+  steps:
+  - intent: create_constructor_default
+  - action: utter_default_constructor_created
+
+- story: create overloaded constructor
+  steps:
+  - intent: create_constructor_overloaded
+  - action: utter_overloaded_constructor_created
+
+# ENCAPSULATION
+- story: create getters and setters
+  steps:
+  - intent: create_getters_setters
+  - action: utter_getters_setters_created
+  
+- story: create getters
+  steps:
+  - intent: create_getters
+  - action: utter_getters_created
+  
+- story: create setters
+  steps:
+  - intent: create_setters
+  - action: utter_setters_created
+  
+- story: create getters and setters
+  steps:
+  - intent: create_getter
+  - action: utter_getters_created
+  
+- story: create getters and setters
+  steps:
+  - intent: create_setter
+  - action: utter_setters_created
+
+# INHERITANCE
+- story: create extends
+  steps:
+  - intent: createextends
+  - action: utter_extends_created
+
+# IF-ELSE
+- story: create if else
+  steps:
+  - intent: createifelse
+  - action: utter_done
+
+- story: create else if
+  steps:
+  - intent: createelseif
+  - action: utter_done
+
+# LOOP
+- story: create loop
+  steps:
+  - intent: createloop
+  - action: utter_loop_created
+
+- story: delete loop
+  steps:
+  - intent: deleteloop
+  - action: utter_loop_deleted
+
+- story: cut loop
+  steps:
+  - intent: cutloop
+  - action: utter_done
+
+- story: change loop
+  steps:
+  - intent: changeloop
+  - action: utter_loop_changed
+
+- story: edit loop
+  steps:
+  - intent: editloop
+  - action: utter_loop_updated
+
+# KEY-WORDS
+- story: invoke unwrap
+  steps:
+  - intent: unwrap
+  - action: utter_done
+
+- story: create this keyword
+  steps:
+  - intent: createthis
+  - action: utter_done
+
+- story: delete this keyword
+  steps:
+  - intent: deletethis
+  - action: utter_done
+
+# STATEMENT
+- story: delete statement
+  steps:
+  - intent: deletestatement
+  - action: utter_statement_deleted
+
+- story: cut statement
+  steps:
+  - intent: cutstatement
+  - action: utter_done
+
+- story: create print statement
+  steps:
+  - intent: printstatement
+  - action: utter_print_statement_created
+
+- story: create return statement
+  steps:
+  - intent: returnstatement
+  - action: utter_return_statement_created
+
+- story: create void main statement
+  steps:
+  - intent: vtpublicstaticvoid
+  - action: utter_done
+
+# FILE
+- story: create a file
+  steps:
+  - intent: create_file
+  - action: utter_file_created
+
+- story: open a file
+  steps:
+  - intent: open_file
+  - action: utter_done
+
+- story: delete a file
+  steps:
+  - intent: delete_file
+  - action: utter_file_deleted
+
+# CURSOR
+- story: move cursor
+  steps:
+  - intent: movecursor
+  - action: utter_cursor_moved
+
+# IDE COMMANDS
+- story: start project
+  steps:
+  - intent: startproject
+  - action: utter_start_project
+
+- story: build project
+  steps:
+  - intent: buildproject
+  - action: utter_build_project
+
+- story: clean project
+  steps:
+  - intent: cleanproject
+  - action: utter_clean_project
+
+- story: compile project
+  steps:
+  - intent: compileproject
+  - action: utter_compile_project
+
+- story: debug project
+  steps:
+  - intent: debugproject
+  - action: utter_debug_project
+
+- story: stop project
+  steps:
+  - intent: stopproject
+  - action: utter_stop_project
+
+- story: run simulator
+  steps:
+  - intent: runsimulator
+  - action: utter_run_simulator
+
+- story: run emulator
+  steps:
+  - intent: runemulator
+  - action: utter_run_emulator
+
+- story: new window
+  steps:
+  - intent: newwindow
+  - action: utter_new_window_open
+
+- story: open folder
+  steps:
+  - intent: openfolder
+  - action: utter_open_folder_select
+
+- story: open workspace
+  steps:
+  - intent: openworkspace
+  - action: utter_open_workspace_select
+
+- story: open recent
+  steps:
+  - intent: openrecent
+  - action: utter_open_recent_select
+
+- story: add folder to workspace
+  steps:
+  - intent: addfolderworkspace
+  - action: utter_add_folder_workspace_select
+
+- story: save workspace as
+  steps:
+  - intent: saveworkspaceas
+  - action: utter_save_workspace_as
+
+- story: duplicate workspace
+  steps:
+  - intent: duplicateworkspace
+  - action: utter_duplicate_workspace
+
+- story: save
+  steps:
+  - intent: save
+  - action: utter_saved
+
+- story: save as
+  steps:
+  - intent: saveas
+  - action: utter_save_as_window
+
+- story: save all
+  steps:
+  - intent: saveall
+  - action: utter_save_all
+
+- story: save auto
+  steps:
+  - intent: saveauto
+  - action: utter_save_auto
+
+- story: setting
+  steps:
+  - intent: setting
+  - action: utter_setting
+
+- story: setting telemetry
+  steps:
+  - intent: settingtelemetry
+  - action: utter_setting_telemetry
+
+- story: setting online services
+  steps:
+  - intent: settingonlineservices
+  - action: utter_setting_online_services
+
+- story: extension
+  steps:
+  - intent: extension
+  - action: utter_extension
+
+- story: keyboard shortcuts
+  steps:
+  - intent: keyboardshortcuts
+  - action: utter_keyboard_shortcuts
+
+- story: migrate keyboard shortcuts
+  steps:
+  - intent: keyboardshortcutsmigrate
+  - action: utter_keyboard_shortcuts_migrate
+
+- story: user snippet
+  steps:
+  - intent: usersnippet
+  - action: utter_user_snippet_select
+
+- story: color theme
+  steps:
+  - intent: themecolor
+  - action: utter_theme_color_select
+
+- story: file icon theme
+  steps:
+  - intent: themefileicon
+  - action: utter_theme_file_icon_select
+
+- story: product icon theme
+  steps:
+  - intent: themeproducticon
+  - action: utter_theme_product_icon_select
+
+- story: setting sync
+  steps:
+  - intent: settingsync
+  - action: utter_setting_sync
+
+- story: revert file
+  steps:
+  - intent: filerevert
+  - action: utter_file_revert
+
+- story: close editor
+  steps:
+  - intent: closeeditor
+  - action: utter_close_editor
+
+- story: close folder
+  steps:
+  - intent: closefolder
+  - action: utter_close_folder
+
+- story: close window
+  steps:
+  - intent: closewindow
+  - action: utter_close_window
+
+- story: exit
+  steps:
+  - intent: exit
+  - action: utter_exit
+
+- story: undo
+  steps:
+  - intent: undo
+  - action: utter_undo
+
+- story: redo
+  steps:
+  - intent: redo
+  - action: utter_redo
+
+- story: cut
+  steps:
+  - intent: cut
+  - action: utter_cut
+
+- story: copy
+  steps:
+  - intent: copy
+  - action: utter_copy
+
+- story: paste
+  steps:
+  - intent: paste
+  - action: utter_paste
+
+- story: find
+  steps:
+  - intent: find
+  - action: utter_find
+
+- story: replace
+  steps:
+  - intent: replace
+  - action: utter_replace
+
+- story: find in file
+  steps:
+  - intent: findinfile
+  - action: utter_find_infile
+
+- story: replace in file
+  steps:
+  - intent: replaceinfile
+  - action: utter_replace_infile
+
+- story: line comment
+  steps:
+  - intent: linecomment
+  - action: utter_line_comment
+
+- story: block comment
+  steps:
+  - intent: blockcomment
+  - action: utter_block_comment
+
+- story: emmet
+  steps:
+  - intent: emmet
+  - action: utter_emmet
+
+- story: select all
+  steps:
+  - intent: selectall
+  - action: utter_select_all
+
+- story: expand select
+  steps:
+  - intent: selectexpand
+  - action: utter_select_expand
+
+- story: shrink select
+  steps:
+  - intent: selectshrink
+  - action: utter_select_shrink
+
+- story: copy line up
+  steps:
+  - intent: copylineup
+  - action: utter_copy_line_up
+
+- story: copy line down
+  steps:
+  - intent: copylinedown
+  - action: utter_copy_line_down
+
+- story: move line up
+  steps:
+  - intent: movelineup
+  - action: utter_move_line_up
+
+- story: move line down
+  steps:
+  - intent: movelinedown
+  - action: utter_move_line_down
+
+- story: duplicate select
+  steps:
+  - intent: duplicateselection
+  - action: utter_duplicate_selection
+
+- story: select next occurrence
+  steps:
+  - intent: occurrencenext
+  - action: utter_occurrence_next
+
+- story: select previous occurrence
+  steps:
+  - intent: occurrenceprevious
+  - action: utter_occurrence_previous
+
+- story: select all occurrence
+  steps:
+  - intent: occurrenceall
+  - action: utter_occurrence_all
+
+- story: column selection
+  steps:
+  - intent: columnselection
+  - action: utter_column_selection
+
+- story: command palette
+  steps:
+  - intent: commandpalette
+  - action: utter_command_palette
+
+- story: add cursor above
+  steps:
+  - intent: cursoraddabove
+  - action: utter_cursor_add_above
+
+- story: add cursor below
+  steps:
+  - intent: cursoraddbelow
+  - action: utter_cursor_add_below
+
+- story: add cursor to line end
+  steps:
+  - intent: cursoraddlineend
+  - action: utter_cursor_add_line_end
+
+- story: switch to multi cursor
+  steps:
+  - intent: switchmulticursor
+  - action: utter_switch_multi_cursor
+
+- story: open view
+  steps:
+  - intent: open_view
+  - action: utter_done
+
+- story: full screen
+  steps:
+  - intent: full_screen
+  - action: utter_done
+
+- story: zen mode
+  steps:
+  - intent: zen_mode
+  - action: utter_done
+
+- story: centered layout
+  steps:
+  - intent: centered_layout
+  - action: utter_done
+
+- story: menu bar
+  steps:
+  - intent: menu_bar
+  - action: utter_done
+
+- story: side bar primary
+  steps:
+  - intent: side_bar_primary
+  - action: utter_done
+
+- story: side bar secondary
+  steps:
+  - intent: side_bar_secondary
+  - action: utter_done
+
+- story: status bar
+  steps:
+  - intent: status_bar
+  - action: utter_done
+
+- story: activity bar
+  steps:
+  - intent: activity_bar
+  - action: utter_done
+
+- story: panel show
+  steps:
+  - intent: panel_show
+  - action: utter_done
+
+- story: sidebar move
+  steps:
+  - intent: side_bar_move
+  - action: utter_done
+
+- story: panel position
+  steps:
+  - intent: panel_position
+  - action: utter_done
+
+- story: panel align
+  steps:
+  - intent: panel_align
+  - action: utter_done
+
+- story: zoom in
+  steps:
+  - intent: zoom_in
+  - action: utter_done
+
+- story: zoom out
+  steps:
+  - intent: zoom_out
+  - action: utter_done
+
+- story: zoom reset
+  steps:
+  - intent: zoom_reset
+  - action: utter_done
+
+- story: editor layout split
+  steps:
+  - intent: editor_layout_split
+  - action: utter_done
+
+- story: editor layout split group
+  steps:
+  - intent: editor_layout_split_group
+  - action: utter_done
+
+- story: editor layout join group
+  steps:
+  - intent: editor_layout_join_group
+  - action: utter_done
+
+- story: editor layout
+  steps:
+  - intent: editor_layout
+  - action: utter_done
+
+- story: editor layout flip
+  steps:
+  - intent: editor_layout_flip
+  - action: utter_done
+
+- story: explorer
+  steps:
+  - intent: explorer
+  - action: utter_done
+
+- story: search
+  steps:
+  - intent: search
+  - action: utter_done
+
+- story: source control
+  steps:
+  - intent: source_control
+  - action: utter_done
+
+- story: run debug
+  steps:
+  - intent: run_debug
+  - action: utter_done
+
+- story: testing
+  steps:
+  - intent: testing
+  - action: utter_done
+
+- story: problems
+  steps:
+  - intent: problems
+  - action: utter_done
+
+- story: output
+  steps:
+  - intent: output
+  - action: utter_done
+
+- story: debug_console
+  steps:
+  - intent: debug_console
+  - action: utter_done
+
+- story: terminal
+  steps:
+  - intent: terminal
+  - action: utter_done
+
+- story: word_wrap
+  steps:
+  - intent: word_wrap
+  - action: utter_done
+
+- story: minimap
+  steps:
+  - intent: minimap
+  - action: utter_done
+
+- story: breadcrumb
+  steps:
+  - intent: breadcrumb
+  - action: utter_done
+
+- story: whitespace
+  steps:
+  - intent: whitespace
+  - action: utter_done
+
+- story: control character
+  steps:
+  - intent: control_character
+  - action: utter_done
+
+- story: go back
+  steps:
+  - intent: go_back
+  - action: utter_done
+
+- story: go forward
+  steps:
+  - intent: go_forward
+  - action: utter_done
+
+- story: last edit
+  steps:
+  - intent: last_edit
+  - action: utter_done
+
+- story: switch editor
+  steps:
+  - intent: switch_editor
+  - action: utter_done
+
+- story: switch group
+  steps:
+  - intent: switch_group
+  - action: utter_done
+
+- story: go to file
+  steps:
+  - intent: go_to_file
+  - action: utter_done
+
+
+# GIT COMMANDS
+- story: git init
+  steps:
+  - intent: gitinit
+  - action: utter_git_repository_created
+
+- story: git create new branch
+  steps:
+  - intent: gitcreatebranch
+  - action: utter_git_branch_created
+
+- story: git checkout branch
+  steps:
+  - intent: gitswitchbranch
+  - action: utter_git_branch_checkout
+
+- story: git add to index
+  steps:
+  - intent: gitadd
+  - action: utter_git_add
+
+- story: git commit
+  steps:
+  - intent: gitcommit
+  - action: utter_git_commit
+
+- story: git push
+  steps:
+  - intent: gitpush
+  - action: utter_git_push
+
+- story: git merge
+  steps:
+  - intent: gitmerge
+  - action: utter_git_merge
+
+- story: git status
+  steps:
+  - intent: gitstatus
+  - action: utter_git_status
+
+- story: git pull
+  steps:
+  - intent: gitpull
+  - action: utter_git_pull
+
+- story: git diff
+  steps:
+  - intent: gitdiff
+  - action: utter_git_diff
+
+- story: git log
+  steps:
+  - intent: gitlog
+  - action: utter_git_log
+
+- story: git branch
+  steps:
+  - intent: gitbranch
+  - action: utter_git_branch
+
+- story: git stash
+  steps:
+  - intent: gitstash
+  - action: utter_git_stash
+

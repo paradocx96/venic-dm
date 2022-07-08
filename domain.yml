@@ -1,0 +1,953 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  # COMMON - ERROR
+  - outofscope
+  - nointernet
+  - notidentify
+  - notsupport
+  - inform
+  - informcreate
+  - existcheck
+  # PROJECT
+  - createproject
+  - createprojectunknown
+  # CLASS
+  - createclass
+  - openclass
+  - editclass
+  - deleteclass
+  - createclassunknown
+  # INTERFACE
+  - createinterface
+  - openinterface
+  - createinterfaceunknown
+  - editinterface
+  - deleteinterface
+  - implementinterface
+  # METHOD
+  - createmethod
+  - deletemethod
+  - cutmethod
+  - changemethod
+  - editmethod
+  - createmethodunknown
+  - createmainmethod
+  - callmethod
+  - createparametermethod
+  # FUNCTION
+  - createfunction
+  - deletefunction
+  - cutfunction
+  - changefunction
+  - editfunction
+  - createfunctionunknown
+  - createmainfunction
+  - callfunction
+  - createparameterfunction
+  # PROCEDURE
+  - createprocedure
+  - deleteprocedure
+  - cutprocedure
+  - changeprocedure
+  - editprocedure
+  - createprocedureunknown
+  - createmainprocedure
+  - callprocedure
+  - createparameterprocedure
+  # VARIABLE
+  - createvariable
+  - deletevariable
+  - cutvariable
+  - incrementvariable
+  - decrementvariable
+  - changevariable
+  - editvariable
+  - createvariableunknown
+  # ATTRIBUTE
+  - createattribute
+  - deleteattribute
+  - cutattribute
+  - incrementattribute
+  - decrementattribute
+  - changeattribute
+  - editattribute
+  - createattributeunknown
+  # PROPERTY
+  - createproperty
+  - deleteproperty
+  - cutproperty
+  - incrementproperty
+  - decrementproperty
+  - changeproperty
+  - editproperty
+  - createpropertyunknown
+  # CONSTANT
+  - createconstant
+  - deleteconstant
+  - cutconstant
+  - incrementconstant
+  - decrementconstant
+  - changeconstant
+  - editconstant
+  - createconstantunknown
+  # ENUM
+  - createenum
+  - openenum
+  - createenumunknown
+  - editenum
+  - deleteenum
+  # ARRAY
+  - createarray
+  - deletearray
+  - cutarray
+  - changearray
+  - editarray
+  # ARRAY-LIST
+  - createarraylist
+  - deletearraylist
+  - cutarraylist
+  - changearraylist
+  - editarraylist
+  - addvaluearraylist
+  - getvaluearraylist
+  - removevaluearraylist
+  - setvaluearraylist
+  - cleararraylist
+  - sizearraylist
+  # HASH-MAP
+  - createhashmap
+  - deletehashmap
+  - cuthashmap
+  - changehashmap
+  - edithashmap
+  - clearhashmap
+  - sizehashmap
+  # HASH-SET
+  - createhashset
+  - deletehashset
+  - cuthashset
+  - changehashset
+  - edithashset
+  - addvaluehashset
+  - clearhashset
+  - sizehashset
+  # LINKED-LIST
+  - createlinkedlist
+  - deletelinkedlist
+  - cutlinkedlist
+  - changelinkedlist
+  - editlinkedlist
+  - addvaluelinkedlist
+  - getvaluelinkedlist
+  - removevaluelinkedlist
+  - setvaluelinkedlist
+  - clearlinkedlist
+  - sizelinkedlist
+  # CONSTRUCTOR
+  - create_constructor
+  - create_constructor_default
+  - create_constructor_overloaded
+  # ENCAPSULATION
+  - create_getters_setters
+  - create_getters
+  - create_setters
+  - create_getter
+  - create_setter
+  # INHERITANCE
+  - createextends
+  # IF-ELSE
+  - createifelse
+  - createelseif
+  # LOOP
+  - createloop
+  - deleteloop
+  - cutloop
+  - changeloop
+  - editloop
+  # KEY-WORDS
+  - unwrap
+  - createthis
+  - deletethis
+  # STATEMENT
+  - deletestatement
+  - cutstatement
+  - printstatement
+  - returnstatement
+  - vtpublicstaticvoid
+  # FILE
+  - create_file
+  - open_file
+  - delete_file
+  # CURSOR
+  - movecursor
+  # IDE COMMANDS
+  - startproject
+  - buildproject
+  - cleanproject
+  - compileproject
+  - debugproject
+  - stopproject
+  - runsimulator
+  - runemulator
+  - newwindow
+  - openfolder
+  - openworkspace
+  - openrecent
+  - addfolderworkspace
+  - saveworkspaceas
+  - duplicateworkspace
+  - save
+  - saveas
+  - saveall
+  - saveauto
+  - setting
+  - settingtelemetry
+  - settingonlineservices
+  - extension
+  - keyboardshortcuts
+  - keyboardshortcutsmigrate
+  - usersnippet
+  - themecolor
+  - themefileicon
+  - themeproducticon
+  - settingsync
+  - filerevert
+  - closeeditor
+  - closefolder
+  - closewindow
+  - exit
+  - undo
+  - redo
+  - cut
+  - copy
+  - paste
+  - find
+  - replace
+  - findinfile
+  - replaceinfile
+  - linecomment
+  - blockcomment
+  - emmet
+  - selectall
+  - selectexpand
+  - selectshrink
+  - copylineup
+  - copylinedown
+  - movelineup
+  - movelinedown
+  - duplicateselection
+  - occurrencenext
+  - occurrenceprevious
+  - occurrenceall
+  - columnselection
+  - commandpalette
+  - cursoraddabove
+  - cursoraddbelow
+  - cursoraddlineend
+  - switchmulticursor
+  - open_view
+  - full_screen
+  - zen_mode
+  - centered_layout
+  - menu_bar
+  - side_bar_primary
+  - side_bar_secondary
+  - status_bar
+  - activity_bar
+  - panel_show
+  - side_bar_move
+  - panel_position
+  - panel_align
+  - zoom_in
+  - zoom_out
+  - zoom_reset
+  - editor_layout_split
+  - editor_layout_split_group
+  - editor_layout_join_group
+  - editor_layout
+  - editor_layout_flip
+  - explorer
+  - search
+  - source_control
+  - run_debug
+  - testing
+  - problems
+  - output
+  - debug_console
+  - terminal
+  - word_wrap
+  - minimap
+  - breadcrumb
+  - whitespace
+  - control_character
+  - go_back
+  - go_forward
+  - last_edit
+  - switch_editor
+  - switch_group
+  - go_to_file
+  # GIT COMMANDS
+  - gitinit
+  - gitcreatebranch
+  - gitswitchbranch
+  - gitadd
+  - gitcommit
+  - gitpush
+  - gitmerge
+  - gitstatus
+  - gitpull
+  - gitdiff
+  - gitlog
+  - gitbranch
+  - gitstash
+
+
+entities:
+  - name
+  - type
+  - process
+  - number
+  - message
+
+
+slots:
+   name:
+     type: text
+     mappings:
+     - type: from_entity
+       entity: name
+
+   type:
+     type: text
+     mappings:
+     - type: from_entity
+       entity: type
+
+   process:
+     type: text
+     mappings:
+     - type: from_entity
+       entity: process
+
+   number:
+     type: text
+     mappings:
+     - type: from_entity
+       entity: number
+
+   message:
+     type: text
+     mappings:
+     - type: from_entity
+       entity: message
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  # COMMON - ERROR
+  utter_done:
+  - text: "done"
+
+  utter_cannot_understand:
+  - text: "cannot understand your request"
+
+  utter_not_support:
+  - text: "this type of command is not yet supported. stay tuned."
+
+  utter_already_exist:
+  - text: "{name} already exist."
+
+  utter_not_identify:
+  - text: "could not identify your input"
+
+  # PROJECT
+  utter_project_created:
+  - text: "{name} project created"
+
+  utter_ask_project_name:
+  - text: "what is the name of project?"
+
+  # CLASS
+  utter_class_created:
+  - text: "{name} class created"
+
+  utter_class_opened:
+  - text: "Opened {name} class"
+
+  utter_change_class:
+  - text: "class name changed"
+
+  utter_class_deleted:
+  - text: "{name} class deleted"
+
+  utter_ask_class_name:
+  - text: "what is the name of class?"
+
+  # INTERFACE
+  utter_interface_created:
+  - text: "{name} interface created"
+
+  utter_interface_opened:
+  - text: "Opened {name} interface"
+
+  utter_change_interface:
+  - text: "interface name changed"
+
+  utter_interface_deleted:
+  - text: "{name} interface deleted"
+
+  utter_ask_interface_name:
+  - text: "what is the name of interface?"
+
+  utter_implement_interface:
+  - text: "interface inherited"
+
+  # VARIABLE
+  utter_variable_created:
+  - text: "{name} variable created"
+
+  utter_variable_deleted:
+  - text: "{name} variable deleted"
+
+  utter_increment_variable:
+  - text: "{name} variable incremented by {number}"
+
+  utter_decrement_variable:
+  - text: "{name} variable decremented by {number}"
+
+  utter_change_variable:
+  - text: "variable name changed"
+
+  utter_update_variable:
+  - text: "variable name updated"
+
+  utter_ask_variable_name:
+  - text: "what is the name of variable?"  
+
+  # PROPERTY
+  utter_property_created:
+  - text: "{name} property created"
+
+  utter_property_deleted:
+  - text: "{name} property deleted"
+
+  utter_increment_property:
+  - text: "{name} property incremented by {number}"
+
+  utter_decrement_property:
+  - text: "{name} property decremented by {number}"
+
+  utter_change_property:
+  - text: "property name changed"
+
+  utter_update_property:
+  - text: "property name updated"
+
+  utter_ask_property_name:
+  - text: "what is the name of property?"
+
+  # ATTRIBUTE
+  utter_attribute_created:
+  - text: "{name} attribute created"
+
+  utter_attribute_deleted:
+  - text: "{name} attribute deleted"
+
+  utter_increment_attribute:
+  - text: "{name} attribute incremented by {number}"
+
+  utter_decrement_attribute:
+  - text: "{name} attribute decremented by {number}"
+
+  utter_change_attribute:
+  - text: "attribute name changed"
+
+  utter_update_attribute:
+  - text: "attribute name updated"
+  
+  utter_ask_attribute_name:
+  - text: "what is the name of attribute?"
+
+  # METHOD
+  utter_method_created:
+  - text: "{name} method created"
+
+  utter_method_deleted:
+  - text: "{name} method deleted"
+
+  utter_change_method:
+  - text: "method name changed"
+
+  utter_update_method:
+  - text: "method name updated"
+
+  utter_ask_method_name:
+  - text: "what is the name of method?"
+
+  utter_main_method_created:
+  - text: "main method created"
+
+  utter_parameter_created:
+  - text: "parameter created"
+
+  # FUNCTION
+  utter_function_created:
+  - text: "{name} function created"
+
+  utter_function_deleted:
+  - text: "{name} function deleted"
+
+  utter_change_function:
+  - text: "function name changed"
+
+  utter_update_function:
+  - text: "function name updated"
+
+  utter_ask_function_name:
+  - text: "what is the name of function?"
+
+  utter_main_function_created:
+  - text: "main function created"
+
+  # PROCEDURE
+  utter_procedure_created:
+  - text: "{name} procedure created"
+
+  utter_procedure_deleted:
+  - text: "{name} procedure deleted"
+
+  utter_change_procedure:
+  - text: "procedure name changed"
+
+  utter_update_procedure:
+  - text: "procedure name updated"
+
+  utter_ask_procedure_name:
+  - text: "what is the name of procedure?"
+
+  utter_main_procedure_created:
+  - text: "main procedure created"
+
+  # CONSTANT
+  utter_constant_created:
+  - text: "{name} constant created"
+
+  utter_constant_deleted:
+  - text: "{name} constant deleted"
+
+  utter_increment_constant:
+  - text: "{name} constant incremented by {number}"
+
+  utter_decrement_constant:
+  - text: "{name} constant decremented by {number}"
+
+  utter_change_constant:
+  - text: "constant name changed"
+
+  utter_update_constant:
+  - text: "constant name updated"
+
+  utter_ask_constant_name:
+  - text: "what is the name of constant?"
+
+  # ENUM
+  utter_enum_created:
+  - text: "{name} enum created"
+
+  utter_enum_opened:
+  - text: "Opened {name} enum"
+
+  utter_update_enum:
+  - text: "enum name updated"
+
+  utter_enum_deleted:
+  - text: "{name} enum deleted"
+
+  utter_ask_enum_name:
+  - text: "what is the name of enum?"
+
+  # ARRAY
+  utter_array_created:
+  - text: "{name} array created"
+
+  utter_array_deleted:
+  - text: "{name} array deleted"
+
+  utter_change_array:
+  - text: "array name changed"
+
+  utter_update_array:
+  - text: "array name updated"
+
+  # ARRAY-LIST
+  utter_arraylist_created:
+  - text: "{name} arraylist created"
+
+  utter_arraylist_deleted:
+  - text: "{name} arraylist deleted"
+
+  utter_change_arraylist:
+  - text: "arraylist name changed"
+
+  utter_update_arraylist:
+  - text: "arraylist name updated"
+
+  # LIST-COMMON
+  utter_add_value:
+  - text: "value added"
+
+  utter_remove_value:
+  - text: "value removed"
+
+  # HASH-MAP
+  utter_hashmap_created:
+  - text: "{name} hashmap created"
+
+  utter_hashmap_deleted:
+  - text: "{name} hashmap deleted"
+
+  utter_change_hashmap:
+  - text: "hashmap name changed"
+
+  utter_update_hashmap:
+  - text: "hashmap name updated"
+
+  # HASH-SET
+  utter_hashset_created:
+  - text: "{name} hashset created"
+
+  utter_hashset_deleted:
+  - text: "{name} hashset deleted"
+
+  utter_change_hashset:
+  - text: "hashset name changed"
+
+  utter_update_hashset:
+  - text: "hashset name updated"
+
+  # LINKED-LIST
+  utter_linkedlist_created:
+  - text: "{name} linkedlist created"
+
+  utter_linkedlist_deleted:
+  - text: "{name} linkedlist deleted"
+
+  utter_change_linkedlist:
+  - text: "linkedlist name changed"
+
+  utter_update_linkedlist:
+  - text: "linkedlist name updated"
+
+  # CONSTRUCTOR
+  utter_constructor_created:
+  - text: "constructor created"
+  
+  utter_default_constructor_created:
+  - text: "default constructor created"
+  
+  utter_overloaded_constructor_created:
+  - text: "overloaded constructor created"
+
+  # ENCAPSULATION
+  utter_getters_setters_created:
+  - text: "getters and setters created"
+
+  utter_getters_created:
+  - text: "getters created"
+  
+  utter_setters_created:
+  - text: "setters created"
+
+  # INHERITANCE
+  utter_extends_created:
+  - text: "extends done"
+
+  # LOOP
+  utter_loop_created:
+  - text: "loop created"
+
+  utter_loop_deleted:
+  - text: "loop deleted"
+
+  utter_loop_changed:
+  - text: "loop name changed"
+
+  utter_loop_updated:
+  - text: "loop name updated"
+
+  # LOOP
+  utter_statement_deleted:
+  - text: "statement deleted"
+
+  utter_print_statement_created:
+  - text: "print statement created"
+
+  utter_return_statement_created:
+  - text: "return statement created"
+
+  # FILE
+  utter_file_created:
+  - text: "{name} file created"
+
+  utter_file_deleted:
+  - text: "{name} file deleted"
+
+  # CURSOR
+  utter_cursor_moved:
+  - text: "cursor moved"
+
+  # IDE COMMANDS
+  utter_start_project:
+  - text: "project execution started"
+
+  utter_build_project:
+  - text: "project build execution started"
+
+  utter_clean_project:
+  - text: "project clean execution started"
+
+  utter_compile_project:
+  - text: "project compilation started"
+
+  utter_debug_project:
+  - text: "project debug execution started"
+
+  utter_stop_project:
+  - text: "project execution stopped"
+
+  utter_run_simulator:
+  - text: "simulator execution started"
+
+  utter_run_emulator:
+  - text: "emulator execution started"
+
+  utter_new_window_open:
+  - text: "new window open"
+
+  utter_open_folder_select:
+  - text: "select your folder to be open"
+
+  utter_open_workspace_select:
+  - text: "select your workspace file to be open"
+
+  utter_open_recent_select:
+  - text: "select your recent workspace to be open"
+
+  utter_add_folder_workspace_select:
+  - text: "select your folder to be add to workspace"
+
+  utter_save_workspace_as:
+  - text: "save workspace as window open"
+
+  utter_duplicate_workspace:
+  - text: "workspace duplicated"
+
+  utter_saved:
+  - text: "saved"
+
+  utter_save_as_window:
+  - text: "save as window open"
+
+  utter_save_all:
+  - text: "all file saved"
+
+  utter_save_auto:
+  - text: "save auto done"
+
+  utter_setting:
+  - text: "setting window open"
+
+  utter_setting_telemetry:
+  - text: "telemetry setting window open"
+
+  utter_setting_online_services:
+  - text: "online services setting window open"
+
+  utter_extension:
+  - text: "extension window open"
+
+  utter_keyboard_shortcuts:
+  - text: "keyboard shortcuts setting window open"
+
+  utter_keyboard_shortcuts_migrate:
+  - text: "keyboard shortcuts migrate proceed"
+
+  utter_user_snippet_select:
+  - text: "select user snippet"
+
+  utter_theme_color_select:
+  - text: "select theme color"
+
+  utter_theme_file_icon_select:
+  - text: "select theme file icon"
+
+  utter_theme_product_icon_select:
+  - text: "select theme product icon"
+
+  utter_setting_sync:
+  - text: "setting sync proceed"
+
+  utter_file_revert:
+  - text: "file revert proceed"
+
+  utter_close_editor:
+  - text: "editor close proceed"
+
+  utter_close_folder:
+  - text: "folder close proceed"
+
+  utter_close_window:
+  - text: "window close proceed"
+
+  utter_exit:
+  - text: "exit proceed"
+
+  utter_undo:
+  - text: "undo proceed"
+
+  utter_redo:
+  - text: "redo proceed"
+
+  utter_cut:
+  - text: "cut proceed"
+
+  utter_copy:
+  - text: "copy proceed"
+
+  utter_paste:
+  - text: "paste proceed"
+
+  utter_find:
+  - text: "find open"
+
+  utter_replace:
+  - text: "replace open"
+
+  utter_find_infile:
+  - text: "find in file window open"
+
+  utter_replace_infile:
+  - text: "replace in file window open"
+
+  utter_line_comment:
+  - text: "line comment proceed"
+
+  utter_block_comment:
+  - text: "block comment proceed"
+
+  utter_emmet:
+  - text: "emmet proceed"
+
+  utter_select_all:
+  - text: "all statements selected"
+
+  utter_select_expand:
+  - text: "selection expand"
+
+  utter_select_shrink:
+  - text: "selection shrink"
+
+  utter_copy_line_up:
+  - text: "up line copied"
+
+  utter_copy_line_down:
+  - text: "down line copied"
+
+  utter_move_line_up:
+  - text: "statement line move up"
+
+  utter_move_line_down:
+  - text: "statement line move down"
+
+  utter_duplicate_selection:
+  - text: "duplicate selection proceed"
+
+  utter_occurrence_next:
+  - text: "select next occurrence proceed"
+
+  utter_occurrence_previous:
+  - text: "select previous occurrence proceed"
+
+  utter_occurrence_all:
+  - text: "select all occurrence proceed"
+
+  utter_column_selection:
+  - text: "column selection proceed"
+
+  utter_command_palette:
+  - text: "command palette open"
+
+  utter_cursor_add_above:
+  - text: "cursor add above"
+
+  utter_cursor_add_below:
+  - text: "cursor add below"
+
+  utter_cursor_add_line_end:
+  - text: "cursor add end of the line"
+
+  utter_switch_multi_cursor:
+  - text: "switch to multi cursor proceed"
+
+  # GIT COMMANDS
+  utter_git_repository_created:
+  - text: "git repository created."
+
+  utter_git_branch_created:
+  - text: "git {name} branch created."
+
+  utter_git_branch_checkout:
+  - text: "git branch checkout to {name} branch."
+
+  utter_git_add:
+  - text: "git add proceed."
+
+  utter_git_commit:
+  - text: "git commit proceed."
+
+  utter_git_push:
+  - text: "git push proceed."
+
+  utter_git_merge:
+  - text: "git merge proceed."
+
+  utter_git_status:
+  - text: "git status proceed."
+
+  utter_git_pull:
+  - text: "git pull proceed."
+
+  utter_git_diff:
+  - text: "git diff proceed."
+
+  utter_git_log:
+  - text: "git log proceed."
+
+  utter_git_branch:
+  - text: "git branch proceed."
+
+  utter_git_stash:
+  - text: "git stash proceed."
+
+
+session_config:
+  session_expiration_time: 1  # value in minutes, 0 means infinitely long
+  carry_over_slots_to_new_session: false  # set to false for forget slots between sessions
+
