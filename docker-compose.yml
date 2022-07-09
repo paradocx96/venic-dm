@@ -10,6 +10,7 @@ services:
       - ./data:/app/data
       - ./actions:/app/actions
     command: bash -c "rasa run --enable-api -p 5006 --cors \"*\""
+    public: true
     ports:
       - '5006:5006'
     networks:
