@@ -9,9 +9,9 @@ services:
       - ./models:/app/models
       - ./data:/app/data
       - ./actions:/app/actions
-    command: bash -c "rasa run --enable-api --cors \"*\""
+    command: bash -c "rasa run --enable-api -p 5006 --cors \"*\""
     ports:
-      - '5005:5005'
+      - '5006:5006'
     networks:
       - all
 
