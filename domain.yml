@@ -14,6 +14,8 @@ intents:
   - inform
   - informcreate
   - existcheck
+  - informupdate
+  - informremove
   # PROJECT
   - createproject
   - createprojectunknown
@@ -376,6 +378,15 @@ responses:
 
   utter_not_identify:
   - text: "could not identify your input"
+
+  utter_common_create:
+  - text: "{name} {type} created"
+
+  utter_common_update:
+  - text: "{name} {type} updated"
+
+  utter_common_remove:
+  - text: "{name} {type} removed"
 
   # PROJECT
   utter_project_created:

@@ -27,6 +27,21 @@ stories:
   - intent: existcheck
   - action: utter_already_exist
 
+- story: common create
+  steps:
+  - intent: informcreate
+  - action: utter_common_create
+
+- story: common update
+  steps:
+  - intent: informupdate
+  - action: utter_common_update
+
+- story: common remove
+  steps:
+  - intent: informremove
+  - action: utter_common_remove
+
 # Project
 - story: create a project
   steps:
