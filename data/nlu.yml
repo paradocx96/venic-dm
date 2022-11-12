@@ -48597,12 +48597,18 @@ nlu:
     - git commit
     - git commit message
     - git commit with message
+    - perform commit
+    - perform git commit
+    - perform git commit with message
     - make commit
     - make git commit
+    - make git commit with message
     - initiate commit
     - initiate git commit
+    - initiate git commit with message
     - proceed commit
     - proceed git commit
+    - proceed git commit with message
 
 - intent: gitpush
   examples: |
