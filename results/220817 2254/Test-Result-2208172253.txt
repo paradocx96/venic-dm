@@ -1,0 +1,82 @@
+(venv) C:\Projects\GITLAB\core\audio_feedback\dm>rasa test
+2022-08-17 22:30:08 INFO     rasa.core.processor  - Loading model models\20220806-192027-natural-barbaresco.tar.gz...
+2022-08-17 22:30:57 WARNING  rasa.shared.utils.common  - The UnexpecTED Intent Policy is currently experimental and might change or be removed in the fu
+ture 🔬 Please share your feedback on it in the forum (https://forum.rasa.com) to help us make this feature ready for production.
+2022-08-17 22:31:09 INFO     rasa.shared.utils.validation  - The 'version' key is missing in the training data file C:\Projects\GITLAB\core\audio_feedba
+ck\dm\data_nlu\data_story\test_stories.yml. Rasa Open Source will read the file as a version '3.0' file. See https://rasa.com/docs/rasa/training-data-fo
+rmat.
+2022-08-17 22:31:09 INFO     rasa.shared.utils.validation  - The 'version' key is missing in the training data file C:\Projects\GITLAB\core\audio_feedba
+ck\dm\tests\test_stories.yml. Rasa Open Source will read the file as a version '3.0' file. See https://rasa.com/docs/rasa/training-data-format.
+Processed story blocks: 100%|████████████████████████████████████████████████████████████████████████| 544/544 [00:00<00:00, 1870.48it/s, # trackers=1]
+2022-08-17 22:31:10 INFO     rasa.core.test  - Evaluating 272 stories
+Progress:
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 272/272 [00:11<00:00, 24.67it/s]
+2022-08-17 22:31:21 INFO     rasa.core.test  - Finished collecting predictions.
+2022-08-17 22:31:21 INFO     rasa.core.test  - Evaluation Results on CONVERSATION level:
+2022-08-17 22:31:21 INFO     rasa.core.test  -  Correct:          0 / 272
+2022-08-17 22:31:21 INFO     rasa.core.test  -  Accuracy:         0.000
+2022-08-17 22:31:21 INFO     rasa.core.test  - Stories report saved to results\story_report.json.
+2022-08-17 22:31:21 INFO     rasa.nlu.test  - Evaluation for entity extractor: TEDPolicy
+2022-08-17 22:31:21 INFO     rasa.nlu.test  - Classification report saved to results\TEDPolicy_report.json.
+2022-08-17 22:31:21 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results\TEDPolicy_errors.json.
+2022-08-17 22:31:24 INFO     rasa.utils.plotting  - Confusion matrix, without normalization:
+[[  0  58   0   0]
+ [  0 163   0   0]
+ [  0   8   0   0]
+ [  0   3   0   0]]
+2022-08-17 22:31:27 INFO     rasa.core.test  - Evaluation Results on ACTION level:
+2022-08-17 22:31:27 INFO     rasa.core.test  -  Correct:          503 / 816
+2022-08-17 22:31:27 INFO     rasa.core.test  -  F1-Score:         0.617
+2022-08-17 22:31:27 INFO     rasa.core.test  -  Precision:        0.712
+2022-08-17 22:31:27 INFO     rasa.core.test  -  Accuracy:         0.617
+2022-08-17 22:31:27 INFO     rasa.core.test  -  In-data fraction: 0
+2022-08-17 22:31:27 INFO     rasa.utils.plotting  - Confusion matrix, without normalization:
+[[  0   0   0 ...   0   0   0]
+ [272 272   0 ...   0   0   0]
+ [  0   0   1 ...   0   0   0]
+ ...
+ [  0   0   0 ...   1   0   0]
+ [  0   0   0 ...   0   1   0]
+ [  0   0   0 ...   0   0   1]]
+Failed stories written to 'results\failed_test_stories.yml'
+Stories with prediction warnings written to 'results\stories_with_warnings.yml'
+2022-08-17 22:33:44 INFO     rasa.core.processor  - Loading model models\20220806-192027-natural-barbaresco.tar.gz...
+2022-08-17 22:34:18 WARNING  rasa.shared.utils.common  - The UnexpecTED Intent Policy is currently experimental and might change or be removed in the fu
+ture 🔬 Please share your feedback on it in the forum (https://forum.rasa.com) to help us make this feature ready for production.
+2022-08-17 22:35:03 INFO     rasa.nlu.test  - Running model for predictions:
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47722/47722 [11:35<00:00, 68.66it/s]
+2022-08-17 22:46:38 INFO     rasa.nlu.test  - Intent evaluation results:
+2022-08-17 22:46:38 INFO     rasa.nlu.test  - Intent Evaluation: Only considering those 47722 examples that have a defined intent out of 47722 examples.
+c:\projects\gitlab\core\venv\lib\site-packages\sklearn\metrics\_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined an
+d being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\projects\gitlab\core\venv\lib\site-packages\sklearn\metrics\_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined an
+d being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\projects\gitlab\core\venv\lib\site-packages\sklearn\metrics\_classification.py:1248: UndefinedMetricWarning: Precision and F-score are ill-defined an
+d being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\projects\gitlab\core\venv\lib\site-packages\sklearn\metrics\_classification.py:1248: UndefinedMetricWarning: Precision is ill-defined and being set t
+o 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+2022-08-17 22:46:40 INFO     rasa.nlu.test  - Classification report saved to results\intent_report.json.
+2022-08-17 22:46:40 INFO     rasa.nlu.test  - Incorrect intent predictions saved to results\intent_errors.json.
+2022-08-17 22:46:41 INFO     rasa.utils.plotting  - Confusion matrix, without normalization:
+[[   7    0    0 ...    0    0    0]
+ [   0    4    0 ...    0    0    0]
+ [   0    0 1667 ...    0    0    0]
+ ...
+ [   0    0    0 ...   22    0    0]
+ [   0    0    0 ...    0   22    0]
+ [   0    0    0 ...    0    0    8]]
+2022-08-17 22:50:09 INFO     rasa.nlu.test  - Entity evaluation results:
+2022-08-17 22:50:18 INFO     rasa.nlu.test  - Evaluation for entity extractor: DIETClassifier
+2022-08-17 22:50:24 INFO     rasa.nlu.test  - Classification report saved to results\DIETClassifier_report.json.
+2022-08-17 22:50:24 INFO     rasa.nlu.test  - Incorrect entity predictions saved to results\DIETClassifier_errors.json.
+2022-08-17 22:50:24 INFO     rasa.utils.plotting  - Confusion matrix, without normalization:
+[[ 18607      0      0      0]
+ [     2 233471      0    402]
+ [     0      0     96      0]
+ [     0     19      0   2531]]
+
+(venv) C:\Projects\GITLAB\core\audio_feedback\dm>

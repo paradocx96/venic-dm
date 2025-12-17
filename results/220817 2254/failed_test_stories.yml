@@ -1,0 +1,2171 @@
+version: "3.0"
+stories:
+- story: get size in arraylist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get size arraylist named arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: sizearraylist
+  - action: utter_done
+- story: create hashmap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: list
+    user: |-
+      create hashmap [list](name)
+  - slot_was_set:
+    - name: list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createhashmap
+  - action: utter_hashmap_created
+- story: delete hashmap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: list
+    user: |-
+      delete hashmap named [list](name)
+  - slot_was_set:
+    - name: list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletehashmap
+  - action: utter_hashmap_deleted
+- story: cut a hashmap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: list
+    user: |-
+      cut hashmap named [list](name)
+  - slot_was_set:
+    - name: list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cuthashmap
+  - action: utter_done
+- story: change hashmap name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change hashmap named count to size
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changehashmap
+  - action: utter_change_hashmap
+- story: edit hashmap name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit hashmap named list to arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: edithashmap
+  - action: utter_update_hashmap
+- story: clear value in hashmap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      clear hashmap named list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: clearhashmap
+  - action: utter_done
+- story: get size in hashmap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get size hashmap named arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: sizehashmap
+  - action: utter_done
+- story: create hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: mobile
+    user: |-
+      create hashset named [mobile](name)
+  - slot_was_set:
+    - name: mobile
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createhashset
+  - action: utter_hashset_created
+- story: delete hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: food
+    user: |-
+      delete hashset named [food](name)
+  - slot_was_set:
+    - name: food
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletehashset
+  - action: utter_hashset_deleted
+- story: create a class (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create a new class user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createclass
+  - action: utter_class_created
+- story: cut a hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: fruit
+    user: |-
+      cut hashset named [fruit](name)
+  - slot_was_set:
+    - name: fruit
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cuthashset
+  - action: utter_done
+- story: change hashset name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change hashset named valid to correct
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changehashset
+  - action: utter_change_hashset
+- story: edit hashset name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit hashset named van to bus
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: edithashset
+  - action: utter_update_hashset
+- story: add value to hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add value service to hashset named list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: addvaluehashset
+  - action: utter_add_value
+- story: clear value in hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      clear hashset named arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: clearhashset
+  - action: utter_done
+- story: get size in hashset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get size hashset named list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: sizehashset
+  - action: utter_done
+- story: create linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: x
+    user: |-
+      create new linkedlist named [x](name)
+  - slot_was_set:
+    - name: x
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createlinkedlist
+  - action: utter_linkedlist_created
+- story: delete linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: weight
+    user: |-
+      delete linkedlist [weight](name)
+  - slot_was_set:
+    - name: weight
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletelinkedlist
+  - action: utter_linkedlist_deleted
+- story: cut a linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: contact
+    user: |-
+      cut linkedlist named [contact](name)
+  - slot_was_set:
+    - name: contact
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutlinkedlist
+  - action: utter_done
+- story: change linkedlist name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change linkedlist named value to data
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changelinkedlist
+  - action: utter_change_linkedlist
+- story: open a class (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open java class user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openclass
+  - action: utter_class_opened
+- story: edit linkedlist name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit linkedlist named university to hospital
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editlinkedlist
+  - action: utter_update_linkedlist
+- story: add value to linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add value mobile to linkedlist named email
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: addvaluelinkedlist
+  - action: utter_add_value
+- story: get value from linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get value nine from linkedlist name contacts
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: getvaluelinkedlist
+  - action: utter_done
+- story: remove value from linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      remove value seven from linkedlist vehicle
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: removevaluelinkedlist
+  - action: utter_remove_value
+- story: set value in linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      set value of index ten as white in linkedlist named ab
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: setvaluelinkedlist
+  - action: utter_done
+- story: clear value in linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      clear linkedlist named xyz
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: clearlinkedlist
+  - action: utter_done
+- story: get size in linkedlist (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get size linkedlist named email
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: sizelinkedlist
+  - action: utter_done
+- story: create constructor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      initialize constructor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_constructor
+  - action: utter_constructor_created
+- story: create default constructor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create default constructor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_constructor_default
+  - action: utter_default_constructor_created
+- story: create overloaded constructor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add overloaded constructor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_constructor_overloaded
+  - action: utter_overloaded_constructor_created
+- story: edit class name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit class named mango to fruit
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editclass
+  - action: utter_change_class
+- story: create getters and setters (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create getters and setters
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_getters_setters
+  - action: utter_getters_setters_created
+- story: create getters (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add getters
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_getters
+  - action: utter_getters_created
+- story: create setters (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      generate setters
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_setters
+  - action: utter_setters_created
+- story: create getters and setters (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      generate getter for value attribute
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_getter
+  - action: utter_getters_created
+- story: create getters and setters (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create setter for variable list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_setter
+  - action: utter_setters_created
+- story: create extends (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      service class inherits device class
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createextends
+  - action: utter_extends_created
+- story: create if else (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      if value less than or equal eleven return true else return false
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createifelse
+  - action: utter_done
+- story: create else if (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      else if count less than nine return true else call run method
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createelseif
+  - action: utter_done
+- story: create loop (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create while loop with condition
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createloop
+  - action: utter_loop_created
+- story: delete loop (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      remove for each loop
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteloop
+  - action: utter_loop_deleted
+- story: delete class (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: movie
+    user: |-
+      delete class named [movie](name)
+  - slot_was_set:
+    - name: movie
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteclass
+  - action: utter_class_deleted
+- story: cut loop (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      cut do while loop
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutloop
+  - action: utter_done
+- story: change loop (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change for loop with condition
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changeloop
+  - action: utter_loop_changed
+- story: edit loop (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit for loop
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editloop
+  - action: utter_loop_updated
+- story: invoke unwrap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      unwrap this while loop
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: unwrap
+  - action: utter_done
+- story: create this keyword (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create this keyword
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createthis
+  - action: utter_done
+- story: delete this keyword (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      remove this property
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletethis
+  - action: utter_done
+- story: delete statement (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      delete line twenty three
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletestatement
+  - action: utter_statement_deleted
+- story: cut statement (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      cut line eighty seven
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutstatement
+  - action: utter_done
+- story: create print statement (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create print statement saying hello
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: printstatement
+  - action: utter_print_statement_created
+- story: create return statement (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create return statement null
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: returnstatement
+  - action: utter_return_statement_created
+- story: create class unknown (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create class
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createclassunknown
+  - action: utter_ask_class_name
+- story: create void main statement (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      voice type public static void
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: vtpublicstaticvoid
+  - action: utter_done
+- story: create a file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: repo
+    user: |-
+      create file [repo](name)
+  - slot_was_set:
+    - name: repo
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: create_file
+  - action: utter_file_created
+- story: open a file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: model
+    user: |-
+      open java file [model](name)
+  - slot_was_set:
+    - name: model
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: open_file
+  - action: utter_done
+- story: delete a file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: main
+    user: |-
+      remove file [main](name)
+  - slot_was_set:
+    - name: main
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: delete_file
+  - action: utter_file_deleted
+- story: move cursor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      move cursor to line twelve
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: movecursor
+  - action: utter_cursor_moved
+- story: start project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      start project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: startproject
+  - action: utter_start_project
+- story: build project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      build this project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: buildproject
+  - action: utter_build_project
+- story: clean project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      clean the project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cleanproject
+  - action: utter_clean_project
+- story: compile project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      compile this project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: compileproject
+  - action: utter_compile_project
+- story: debug project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      run in debugging mode
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: debugproject
+  - action: utter_debug_project
+- story: create a interface (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create a new interface user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createinterface
+  - action: utter_interface_created
+- story: stop project (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      stop application
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: stopproject
+  - action: utter_stop_project
+- story: run simulator (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      start this simulator
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: runsimulator
+  - action: utter_run_simulator
+- story: run emulator (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      start emulator
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: runemulator
+  - action: utter_run_emulator
+- story: new window (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open new window
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: newwindow
+  - action: utter_new_window_open
+- story: open folder (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open folder
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openfolder
+  - action: utter_open_folder_select
+- story: open workspace (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show open workspace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openworkspace
+  - action: utter_open_workspace_select
+- story: open recent (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open recent workspace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openrecent
+  - action: utter_open_recent_select
+- story: add folder to workspace (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add folder to current workspace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: addfolderworkspace
+  - action: utter_add_folder_workspace_select
+- story: save workspace as (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      save project workspace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: saveworkspaceas
+  - action: utter_save_workspace_as
+- story: duplicate workspace (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      duplicate project workspace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: duplicateworkspace
+  - action: utter_duplicate_workspace
+- story: open a interface (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open java interface user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openinterface
+  - action: utter_interface_opened
+- story: save (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      save project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: save
+  - action: utter_saved
+- story: save as (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      project save as
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: saveas
+  - action: utter_save_as_window
+- story: save all (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      workspace save all
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: saveall
+  - action: utter_save_all
+- story: save auto (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      auto save
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: saveauto
+  - action: utter_save_auto
+- story: setting (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show setting
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: setting
+  - action: utter_setting
+- story: setting telemetry (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view telemetry setting
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: settingtelemetry
+  - action: utter_setting_telemetry
+- story: setting online services (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show online services setting
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: settingonlineservices
+  - action: utter_setting_online_services
+- story: extension (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show extension
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: extension
+  - action: utter_extension
+- story: keyboard shortcuts (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view keyboard shortcut
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: keyboardshortcuts
+  - action: utter_keyboard_shortcuts
+- story: migrate keyboard shortcuts (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      keyboard shortcut migrate
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: keyboardshortcutsmigrate
+  - action: utter_keyboard_shortcuts_migrate
+- story: edit interface name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit interface named imac to iphone
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editinterface
+  - action: utter_change_interface
+- story: user snippet (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      user snippet option
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: usersnippet
+  - action: utter_user_snippet_select
+- story: color theme (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change color theme
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: themecolor
+  - action: utter_theme_color_select
+- story: file icon theme (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show file icon theme
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: themefileicon
+  - action: utter_theme_file_icon_select
+- story: product icon theme (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change product icon theme
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: themeproducticon
+  - action: utter_theme_product_icon_select
+- story: setting sync (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view setting sync
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: settingsync
+  - action: utter_setting_sync
+- story: revert file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      check revert file
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: filerevert
+  - action: utter_file_revert
+- story: close editor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      close this editor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: closeeditor
+  - action: utter_close_editor
+- story: close folder (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      close this folder
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: closefolder
+  - action: utter_close_folder
+- story: close window (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      close this window
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: closewindow
+  - action: utter_close_window
+- story: exit (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      exit
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: exit
+  - action: utter_exit
+- story: delete interface (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: ikey
+    user: |-
+      delete interface named [ikey](name)
+  - slot_was_set:
+    - name: ikey
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteinterface
+  - action: utter_interface_deleted
+- story: undo (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      undo
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: undo
+  - action: utter_undo
+- story: redo (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      redo
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: redo
+  - action: utter_redo
+- story: cut (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      cut statement
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cut
+  - action: utter_cut
+- story: copy (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      copy the statements
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: copy
+  - action: utter_copy
+- story: paste (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      paste attributes
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: paste
+  - action: utter_paste
+- story: find (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open finder
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: find
+  - action: utter_find
+- story: replace (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open replace option
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: replace
+  - action: utter_replace
+- story: find in file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view find in file
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: findinfile
+  - action: utter_find_infile
+- story: replace in file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open replace in file
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: replaceinfile
+  - action: utter_replace_infile
+- story: line comment (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add line comment
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: linecomment
+  - action: utter_line_comment
+- story: create interface unknown (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create interface
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createinterfaceunknown
+  - action: utter_ask_interface_name
+- story: out of scope (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      I am asking out of scope question
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: outofscope
+  - action: utter_cannot_understand
+- story: block comment (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      toggle block comment
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: blockcomment
+  - action: utter_block_comment
+- story: emmet (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      insert emmet
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: emmet
+  - action: utter_emmet
+- story: select all (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      select all codes
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: selectall
+  - action: utter_select_all
+- story: expand select (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      expand selected
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: selectexpand
+  - action: utter_select_expand
+- story: shrink select (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      shrink the selected
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: selectshrink
+  - action: utter_select_shrink
+- story: copy line up (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      copy up statement
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: copylineup
+  - action: utter_copy_line_up
+- story: copy line down (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      copy down statement
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: copylinedown
+  - action: utter_copy_line_down
+- story: move line up (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      move statement up
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: movelineup
+  - action: utter_move_line_up
+- story: move line down (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      move statement down
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: movelinedown
+  - action: utter_move_line_down
+- story: duplicate select (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      duplicate selected code
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: duplicateselection
+  - action: utter_duplicate_selection
+- story: implement interface (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      computer class implement interface device
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: implementinterface
+  - action: utter_implement_interface
+- story: select next occurrence (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      select next occurrence
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: occurrencenext
+  - action: utter_occurrence_next
+- story: select previous occurrence (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      select previous occurrence from code base
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: occurrenceprevious
+  - action: utter_occurrence_previous
+- story: select all occurrence (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      select all occurrence from code segment
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: occurrenceall
+  - action: utter_occurrence_all
+- story: column selection (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      switch column selection mode
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: columnselection
+  - action: utter_column_selection
+- story: command palette (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      enable command palette
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: commandpalette
+  - action: utter_command_palette
+- story: add cursor above (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add cursor above statement
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cursoraddabove
+  - action: utter_cursor_add_above
+- story: add cursor below (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add cursor below statement
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cursoraddbelow
+  - action: utter_cursor_add_below
+- story: add cursor to line end (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      add cursor to this line end
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cursoraddlineend
+  - action: utter_cursor_add_line_end
+- story: switch to multi cursor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      switch to multi cursor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: switchmulticursor
+  - action: utter_switch_multi_cursor
+- story: open view (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open viewer
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: open_view
+  - action: utter_done
+- story: create a variable (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      create a variable named [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createvariable
+  - action: utter_variable_created
+- story: full screen (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      full screen window
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: full_screen
+  - action: utter_done
+- story: zen mode (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show zen mode
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: zen_mode
+  - action: utter_done
+- story: centered layout (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      centered layout view
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: centered_layout
+  - action: utter_done
+- story: menu bar (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get menu bar
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: menu_bar
+  - action: utter_done
+- story: side bar primary (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      primary side bar
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: side_bar_primary
+  - action: utter_done
+- story: side bar secondary (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      secondary side bar
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: side_bar_secondary
+  - action: utter_done
+- story: status bar (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      enable status bar
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: status_bar
+  - action: utter_done
+- story: activity bar (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view activity bar
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: activity_bar
+  - action: utter_done
+- story: panel show (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show panel
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: panel_show
+  - action: utter_done
+- story: sidebar move (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      switch primary side bar left
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: side_bar_move
+  - action: utter_done
+- story: delete a variable (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      delete variable [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletevariable
+  - action: utter_variable_deleted
+- story: panel position (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      switch panel right
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: panel_position
+  - action: utter_done
+- story: panel align (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      move panel align justify
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: panel_align
+  - action: utter_done
+- story: zoom in (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      increase window size
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: zoom_in
+  - action: utter_done
+- story: zoom out (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      zoom out view
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: zoom_out
+  - action: utter_done
+- story: zoom reset (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      reset zoom
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: zoom_reset
+  - action: utter_done
+- story: editor layout split (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show editor layout split left
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editor_layout_split
+  - action: utter_done
+- story: editor layout split group (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show editor layout split in group
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editor_layout_split_group
+  - action: utter_done
+- story: editor layout join group (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show editor layout join in group
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editor_layout_join_group
+  - action: utter_done
+- story: editor layout (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show editor layout two rows
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editor_layout
+  - action: utter_done
+- story: editor layout flip (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show editor layout flip
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editor_layout_flip
+  - action: utter_done
+- story: cut a variable (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      cut variable named [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutvariable
+  - action: utter_done
+- story: explorer (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view file explorer
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: explorer
+  - action: utter_done
+- story: search (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      open ide search
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: search
+  - action: utter_done
+- story: source control (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      source control management
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: source_control
+  - action: utter_done
+- story: run debug (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      ide run
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: run_debug
+  - action: utter_done
+- story: testing (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show file testing
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: testing
+  - action: utter_done
+- story: problems (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get ide problem
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: problems
+  - action: utter_done
+- story: output (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view output window
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: output
+  - action: utter_done
+- story: debug_console (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view debug console
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: debug_console
+  - action: utter_done
+- story: terminal (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view terminal
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: terminal
+  - action: utter_done
+- story: word_wrap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change word wrap
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: word_wrap
+  - action: utter_done
+- story: increment variable (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: number
+    - number: five
+    user: |-
+      increment attribute [number](name) by [five](number)
+  - slot_was_set:
+    - name: number
+  - slot_was_set:
+    - number: five
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: incrementvariable
+  - action: utter_increment_variable
+- story: minimap (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show minimap
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: minimap
+  - action: utter_done
+- story: breadcrumb (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      display breadcrumb
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: breadcrumb
+  - action: utter_done
+- story: whitespace (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      show render whitespace
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: whitespace
+  - action: utter_done
+- story: control character (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view render control character
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: control_character
+  - action: utter_done
+- story: go back (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      go back
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: go_back
+  - action: utter_done
+- story: go forward (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      go forward
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: go_forward
+  - action: utter_done
+- story: last edit (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view last edit location
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: last_edit
+  - action: utter_done
+- story: switch editor (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      previous editor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: switch_editor
+  - action: utter_done
+- story: switch group (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      next group
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: switch_group
+  - action: utter_done
+- story: go to file (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      go to file
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: go_to_file
+  - action: utter_done
+- story: decrement variable (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: size
+    - number: two
+    user: |-
+      decrement variable [size](name) by [two](number)
+  - slot_was_set:
+    - name: size
+  - slot_was_set:
+    - number: two
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: decrementvariable
+  - action: utter_decrement_variable
+- story: git init (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      initialize git repository
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitinit
+  - action: utter_git_repository_created
+- story: git create new branch (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: dev
+    user: |-
+      create a new branch [dev](name)
+  - slot_was_set:
+    - name: dev
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitcreatebranch
+  - action: utter_git_branch_created
+- story: git checkout branch (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: dev
+    user: |-
+      switch branch name [dev](name)
+  - slot_was_set:
+    - name: dev
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitswitchbranch
+  - action: utter_git_branch_checkout
+- story: git add to index (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git add files
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitadd
+  - action: utter_git_add
+- story: git commit (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git commit with message
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitcommit
+  - action: utter_git_commit
+- story: git push (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git push origin development
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitpush
+  - action: utter_git_push
+- story: git merge (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git merge main
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitmerge
+  - action: utter_git_merge
+- story: git status (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      get git status
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitstatus
+  - action: utter_git_status
+- story: git pull (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git pull master
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitpull
+  - action: utter_git_pull
+- story: git diff (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git difference
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitdiff
+  - action: utter_git_diff
+- story: change variable name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      change property size to height
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changevariable
+  - action: utter_change_variable
+- story: git log (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      view git log
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitlog
+  - action: utter_git_log
+- story: git branch (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git branch main
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitbranch
+  - action: utter_git_branch
+- story: git stash (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      git stash list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: gitstash
+  - action: utter_git_stash
+- story: not identify (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      cannot identify
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: notidentify
+  - action: utter_not_identify
+- story: not support (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      command not support
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: notsupport
+  - action: utter_not_support
+- story: already exist (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: hospital
+    user: |-
+      is [hospital](name) class already exist?
+  - slot_was_set:
+    - name: hospital
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: existcheck
+  - action: utter_already_exist
+- story: common create (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - type: project
+    - name: vehicle
+    user: |-
+      create new [project](type) [vehicle](name)
+  - slot_was_set:
+    - name: vehicle
+  - slot_was_set:
+    - type: project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: informcreate
+  - action: utter_common_create
+- story: common update (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - type: variable
+    - name: car
+    user: |-
+      update [variable](type) [car](name)
+  - slot_was_set:
+    - name: car
+  - slot_was_set:
+    - type: variable
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: informupdate
+  - action: utter_common_update
+- story: common remove (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - type: attribute
+    - name: bike
+    user: |-
+      remove [attribute](type) [bike](name)
+  - slot_was_set:
+    - name: bike
+  - slot_was_set:
+    - type: attribute
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: informremove
+  - action: utter_common_remove
+- story: edit variable name (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      edit variable named height to size
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editvariable
+  - action: utter_update_variable
+- story: create a project (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create a project example
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createproject
+  - action: utter_project_created
+- story: create project unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create project
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createprojectunknown
+  - action: utter_ask_project_name
+- story: create variable unknown (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - user: |-
+      create variable
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createvariableunknown
+  - action: utter_ask_variable_name
+- story: create a property (.\data_nlu\data_story\test_stories.yml)
+  steps:
+  - entities:
+    - name: laptop
+    user: |-
+      create new property named [laptop](name)
+  - slot_was_set:
+    - name: laptop
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createproperty
+  - action: utter_property_created
+- story: delete a property (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: mouse
+    user: |-
+      delete property named [mouse](name)
+  - slot_was_set:
+    - name: mouse
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteproperty
+  - action: utter_property_deleted
+- story: cut a property (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: phone
+    user: |-
+      cut property [phone](name)
+  - slot_was_set:
+    - name: phone
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutproperty
+  - action: utter_done
+- story: decrement property (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: count
+    - number: six
+    user: |-
+      decrement property [count](name) by [six](number)
+  - slot_was_set:
+    - name: count
+  - slot_was_set:
+    - number: six
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: decrementproperty
+  - action: utter_decrement_property
+- story: increment property (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    - number: two
+    user: |-
+      increment property [value](name) by [two](number)
+  - slot_was_set:
+    - name: value
+  - slot_was_set:
+    - number: two
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: incrementproperty
+  - action: utter_increment_property
+- story: change property name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change property count to size
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changeproperty
+  - action: utter_change_property
+- story: edit property name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit property named vegetable to vegan
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editproperty
+  - action: utter_update_property
+- story: create property unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create property
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createpropertyunknown
+  - action: utter_ask_property_name
+- story: create a attribute (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    user: |-
+      add new attribute named [value](name)
+  - slot_was_set:
+    - name: value
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createattribute
+  - action: utter_attribute_created
+- story: delete a attribute (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: email
+    user: |-
+      delete attribute named [email](name)
+  - slot_was_set:
+    - name: email
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteattribute
+  - action: utter_attribute_deleted
+- story: cut a attribute (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: monitor
+    user: |-
+      cut attribute named [monitor](name)
+  - slot_was_set:
+    - name: monitor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutattribute
+  - action: utter_done
+- story: increment attribute (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    - number: two
+    user: |-
+      increment attribute [value](name) by [two](number)
+  - slot_was_set:
+    - name: value
+  - slot_was_set:
+    - number: two
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: incrementattribute
+  - action: utter_increment_attribute
+- story: decrement attribute (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: count
+    - number: six
+    user: |-
+      decrement attribute [count](name) by [six](number)
+  - slot_was_set:
+    - name: count
+  - slot_was_set:
+    - number: six
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: decrementattribute
+  - action: utter_decrement_attribute
+- story: change attribute name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change attribute named screen to monitor
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changeattribute
+  - action: utter_change_attribute
+- story: edit attribute name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit attribute size to count
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editattribute
+  - action: utter_update_attribute
+- story: create attribute unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create attribute
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createattributeunknown
+  - action: utter_ask_attribute_name
+- story: create a method (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      create function [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmethod
+  - action: utter_method_created
+- story: delete a method (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: create
+    user: |-
+      delete method [create](name)
+  - slot_was_set:
+    - name: create
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletemethod
+  - action: utter_method_deleted
+- story: cut a method (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: find
+    user: |-
+      cut method named [find](name)
+  - slot_was_set:
+    - name: find
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutmethod
+  - action: utter_done
+- story: change method name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change method named view to find
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changemethod
+  - action: utter_change_method
+- story: edit method name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit method named valid to correct
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editmethod
+  - action: utter_update_method
+- story: create method unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create method
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmethodunknown
+  - action: utter_ask_method_name
+- story: create main method (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create main method
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmainmethod
+  - action: utter_main_method_created
+- story: call method (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      call method sum
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: callmethod
+  - action: utter_done
+- story: create parameter in method (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      add integer parameter message to get method
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createparametermethod
+  - action: utter_parameter_created
+- story: create a function (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: check
+    user: |-
+      create function [check](name)
+  - slot_was_set:
+    - name: check
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createfunction
+  - action: utter_function_created
+- story: delete a function (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: get
+    user: |-
+      delete function named [get](name)
+  - slot_was_set:
+    - name: get
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletefunction
+  - action: utter_function_deleted
+- story: cut a function (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: answer
+    user: |-
+      cut function named [answer](name)
+  - slot_was_set:
+    - name: answer
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutfunction
+  - action: utter_done
+- story: change function name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change function named validate to check
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changefunction
+  - action: utter_change_function
+- story: edit function name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit function named receive to income
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editfunction
+  - action: utter_update_function
+- story: create function unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create function
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createfunctionunknown
+  - action: utter_ask_function_name
+- story: create main function (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create main function
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmainfunction
+  - action: utter_main_function_created
+- story: call function (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      call function update
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: callfunction
+  - action: utter_done
+- story: create parameter in function (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      add string parameter country to result function
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createparameterfunction
+  - action: utter_parameter_created
+- story: create a procedure (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: counting
+    user: |-
+      create new procedure named [counting](name)
+  - slot_was_set:
+    - name: counting
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createprocedure
+  - action: utter_procedure_created
+- story: delete a procedure (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: find
+    user: |-
+      delete procedure [find](name)
+  - slot_was_set:
+    - name: find
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteprocedure
+  - action: utter_procedure_deleted
+- story: cut a procedure (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: get
+    user: |-
+      cut procedure [get](name)
+  - slot_was_set:
+    - name: get
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutprocedure
+  - action: utter_done
+- story: change procedure name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change procedure named view to show
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changeprocedure
+  - action: utter_change_procedure
+- story: edit procedure name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit procedure named send to out
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editprocedure
+  - action: utter_update_procedure
+- story: create procedure unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create procedure
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createprocedureunknown
+  - action: utter_ask_procedure_name
+- story: create main procedure (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create main procedure
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmainprocedure
+  - action: utter_main_procedure_created
+- story: call procedure (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      invoke procedure result
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: callprocedure
+  - action: utter_done
+- story: create parameter in procedure (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      add boolean parameter check to validate procedure
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createparameterprocedure
+  - action: utter_parameter_created
+- story: create a constant (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: checked
+    user: |-
+      create new constant [checked](name)
+  - slot_was_set:
+    - name: checked
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createconstant
+  - action: utter_constant_created
+- story: delete a constant (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: ide
+    user: |-
+      delete constant named [ide](name)
+  - slot_was_set:
+    - name: ide
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteconstant
+  - action: utter_constant_deleted
+- story: cut a constant (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: mic
+    user: |-
+      cut constant named [mic](name)
+  - slot_was_set:
+    - name: mic
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutconstant
+  - action: utter_done
+- story: increment constant (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: count
+    - number: ten
+    user: |-
+      increment constant [count](name) by [ten](number)
+  - slot_was_set:
+    - name: count
+  - slot_was_set:
+    - number: ten
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: incrementconstant
+  - action: utter_increment_constant
+- story: decrement constant (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    - number: seven
+    user: |-
+      decrement constant [value](name) by [seven](number)
+  - slot_was_set:
+    - name: value
+  - slot_was_set:
+    - number: seven
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: decrementconstant
+  - action: utter_decrement_constant
+- story: change constant name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change constant named email to address
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changeconstant
+  - action: utter_change_constant
+- story: edit constant name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit constant named monitor to ipad
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editconstant
+  - action: utter_update_constant
+- story: create constant unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create constant
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createconstantunknown
+  - action: utter_ask_constant_name
+- story: create a enum (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    user: |-
+      create enum [value](name)
+  - slot_was_set:
+    - name: value
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createenum
+  - action: utter_enum_created
+- story: open enum (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: vehicle
+    user: |-
+      open enum [vehicle](name)
+  - slot_was_set:
+    - name: vehicle
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openenum
+  - action: utter_enum_opened
+- story: create enum unknown (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create enum
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createenumunknown
+  - action: utter_ask_enum_name
+- story: delete a enum (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: device
+    user: |-
+      delete enum named [device](name)
+  - slot_was_set:
+    - name: device
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deleteenum
+  - action: utter_enum_deleted
+- story: edit enum name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit enum named mobile to phone
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editenum
+  - action: utter_update_enum
+- story: create array (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: arr
+    user: |-
+      create new array named [arr](name)
+  - slot_was_set:
+    - name: arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createarray
+  - action: utter_array_created
+- story: delete array (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: value
+    user: |-
+      delete array named [value](name)
+  - slot_was_set:
+    - name: value
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletearray
+  - action: utter_array_deleted
+- story: cut a array (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: wire
+    user: |-
+      cut array named [wire](name)
+  - slot_was_set:
+    - name: wire
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutarray
+  - action: utter_done
+- story: change array name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change array named s to sum
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changearray
+  - action: utter_change_array
+- story: edit array name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit array named count to c
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editarray
+  - action: utter_update_array
+- story: create arraylist (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: list
+    user: |-
+      create arraylist named [list](name)
+  - slot_was_set:
+    - name: list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createarraylist
+  - action: utter_arraylist_created
+- story: delete arraylist (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: arr
+    user: |-
+      delete arraylist named [arr](name)
+  - slot_was_set:
+    - name: arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletearraylist
+  - action: utter_arraylist_deleted
+- story: cut a arraylist (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: x
+    user: |-
+      cut arraylist [x](name)
+  - slot_was_set:
+    - name: x
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutarraylist
+  - action: utter_done
+- story: change arraylist name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change arraylist named id to list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changearraylist
+  - action: utter_change_arraylist
+- story: edit arraylist name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit arraylist named c to x
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editarraylist
+  - action: utter_update_arraylist
+- story: add value to arraylist (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      add value dog to arraylist named list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: addvaluearraylist
+  - action: utter_add_value
+- story: get value from arraylist (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      get value ten from arraylist named arr
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: getvaluearraylist
+  - action: utter_done
+- story: remove value from arraylist (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      remove value two from arraylist named list
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: removevaluearraylist
+  - action: utter_remove_value
+- story: set value in arraylist (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      set size for index three in arraylist user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: setvaluearraylist
+  - action: utter_done
+- story: clear value in arraylist (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      clear arraylist named fruit
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cleararraylist
+  - action: utter_done

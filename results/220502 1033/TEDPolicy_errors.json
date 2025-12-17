@@ -1,0 +1,94 @@
+[
+  {
+    "text": "decrement variable size by two",
+    "entities": [
+      {
+        "text": "decrement variable size by two",
+        "start": 19,
+        "end": 23,
+        "entity": "name",
+        "value": "size"
+      },
+      {
+        "text": "decrement variable size by two",
+        "start": 27,
+        "end": 30,
+        "entity": "number",
+        "value": "two"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "create function user",
+    "entities": [
+      {
+        "text": "create function user",
+        "start": 16,
+        "end": 20,
+        "entity": "name",
+        "value": "user"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "create a variable named user",
+    "entities": [
+      {
+        "text": "create a variable named user",
+        "start": 24,
+        "end": 28,
+        "entity": "name",
+        "value": "user"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "delete variable user",
+    "entities": [
+      {
+        "text": "delete variable user",
+        "start": 16,
+        "end": 20,
+        "entity": "name",
+        "value": "user"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cut variable named user",
+    "entities": [
+      {
+        "text": "cut variable named user",
+        "start": 19,
+        "end": 23,
+        "entity": "name",
+        "value": "user"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "increment attribute num by five",
+    "entities": [
+      {
+        "text": "increment attribute num by five",
+        "start": 20,
+        "end": 23,
+        "entity": "name",
+        "value": "num"
+      },
+      {
+        "text": "increment attribute num by five",
+        "start": 27,
+        "end": 31,
+        "entity": "number",
+        "value": "five"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
