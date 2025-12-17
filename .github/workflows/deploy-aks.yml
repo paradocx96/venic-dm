@@ -1,0 +1,32 @@
+name: Build and Push to DockerHub - venic-rasa
+
+on:
+  push:
+    branches: [ "azure" ]
+  pull_request:
+    branches: [ "azure" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: 'ubuntu-latest'
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+    - name: Log in to registry
+      uses: docker/login-action@v1
+      with:
+        registry: https://index.docker.io/v1/
+        username: ${{ secrets.AzureAppService_ContainerUsername_ad919c2944f64f24a8983b65cb40816e }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_779cd334a72642f09a0d3444959992d7 }}
+
+    - name: Build and push container image to registry
+      uses: docker/build-push-action@v2
+      with:
+        push: true
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_ad919c2944f64f24a8983b65cb40816e }}/venic-dm:latest
+        file: ./Dockerfile
