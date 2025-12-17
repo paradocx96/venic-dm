@@ -17,6 +17,6 @@ RUN pip install rasa==3.0.8
 
 COPY . .
 
-EXPOSE 5005
-
-CMD ["rasa", "run", "--enable-api","-p", "5005", "--cors", "*", "--debug"]
+#EXPOSE 5005
+#
+#CMD ["rasa", "run", "--enable-api","-p", "5005", "--cors", "*", "--debug"]
