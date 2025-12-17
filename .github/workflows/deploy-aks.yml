@@ -2,9 +2,9 @@ name: Build and Push to DockerHub - venic-rasa
 
 on:
   push:
-    branches: [ "azure" ]
+    branches: [ "azure-deploy" ]
   pull_request:
-    branches: [ "azure" ]
+    branches: [ "azure-deploy" ]
   workflow_dispatch:
 
 jobs:
