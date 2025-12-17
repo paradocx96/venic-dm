@@ -1,3 +1,7 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
 version: "3.0"
 
 nlu:
@@ -46616,16 +46620,6 @@ nlu:
     - zoom in ide
     - zoom in vs code
     - zoom in visual studio code
-    - increase window
-    - increase view
-    - increase ide
-    - increase vs code
-    - increase visual studio code
-    - increase window size
-    - increase view size
-    - increase ide size
-    - increase vs code size
-    - increase visual studio code size
     - show zoom in
     - show zoom in window
     - show zoom in view
@@ -46641,16 +46635,6 @@ nlu:
     - zoom out ide
     - zoom out vs code
     - zoom out visual studio code
-    - decrease window
-    - decrease view
-    - decrease ide
-    - decrease vs code
-    - decrease visual studio code
-    - decrease window size
-    - decrease view size
-    - decrease ide size
-    - decrease vs code size
-    - decrease visual studio code size
     - show zoom out
     - show zoom out window
     - show zoom out view
@@ -47321,12 +47305,48 @@ nlu:
 - intent: go_to_file
   examples: |
     - go to file
+    - open go to file
+    - view go to file
+    - show go to file
+    - option go to file
+
+- intent: increase_font
+  examples: |
+    - increase font
+    - increase font size
+    - zoom font 
+    - zoom font size 
+    - make font bigger 
+    - make font size bigger
+    - make font larger
+    - make font size larger
+
+- intent: decrease_font
+  examples: |
+    - decrease font
+    - decrease font size
+    - zoom out font
+    - zoom out font size
+    - make font smaller
+    - make font size smaller
 
 
 # GIT-COMMANDS
 - intent: gitinit
   examples: |
     - git init
+    - init git
+    - init git for project
+    - init git for the project
+    - init git for this project
+    - initialize git
+    - initialize git for project
+    - initialize git for the project
+    - initialize git for this project
+    - git initialize
+    - git initialize for project
+    - git initialize for the project
+    - git initialize for this project
     - create git repository
     - create git repository for project
     - create git repository for the project
@@ -48587,8 +48607,6 @@ nlu:
     - git add file
     - git add files
     - git add all files
-    - initiate git add
-    - initiate git add files
     - proceed git add
     - proceed git add file
 

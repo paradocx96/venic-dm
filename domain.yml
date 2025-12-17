@@ -1,3 +1,7 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
 version: "3.0"
 
 intents:
@@ -294,6 +298,8 @@ intents:
   - switch_editor
   - switch_group
   - go_to_file
+  - increase_font
+  - decrease_font
   # GIT COMMANDS
   - gitinit
   - gitcreatebranch
@@ -450,7 +456,7 @@ responses:
   - text: "variable name updated"
 
   utter_ask_variable_name:
-  - text: "what is the name of variable?"  
+  - text: "what is the name of variable?"
 
   # PROPERTY
   utter_property_created:
@@ -492,7 +498,7 @@ responses:
 
   utter_update_attribute:
   - text: "attribute name updated"
-  
+
   utter_ask_attribute_name:
   - text: "what is the name of attribute?"
 
@@ -669,10 +675,10 @@ responses:
   # CONSTRUCTOR
   utter_constructor_created:
   - text: "constructor created"
-  
+
   utter_default_constructor_created:
   - text: "default constructor created"
-  
+
   utter_overloaded_constructor_created:
   - text: "overloaded constructor created"
 
@@ -682,7 +688,7 @@ responses:
 
   utter_getters_created:
   - text: "getters created"
-  
+
   utter_setters_created:
   - text: "setters created"
 
@@ -917,9 +923,15 @@ responses:
   utter_switch_multi_cursor:
   - text: "switch to multi cursor proceed"
 
+  utter_increase_font:
+  - text: "font size increased"
+
+  utter_decrease_font:
+  - text: "font size decreased"
+
   # GIT COMMANDS
   utter_git_repository_created:
-  - text: "git repository created."
+  - text: "git repository initializing"
 
   utter_git_branch_created:
   - text: "git {name} branch created."
@@ -961,4 +973,3 @@ responses:
 session_config:
   session_expiration_time: 1  # value in minutes, 0 means infinitely long
   carry_over_slots_to_new_session: false  # set to false for forget slots between sessions
-

@@ -1,3 +1,7 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
 version: "3.0"
 
 stories:
@@ -674,22 +678,22 @@ stories:
   steps:
   - intent: create_getters_setters
   - action: utter_getters_setters_created
-  
+
 - story: create getters
   steps:
   - intent: create_getters
   - action: utter_getters_created
-  
+
 - story: create setters
   steps:
   - intent: create_setters
   - action: utter_setters_created
-  
+
 - story: create getters and setters
   steps:
   - intent: create_getter
   - action: utter_getters_created
-  
+
 - story: create getters and setters
   steps:
   - intent: create_setter
@@ -1327,6 +1331,16 @@ stories:
   steps:
   - intent: go_to_file
   - action: utter_done
+
+- story: increase font
+  steps:
+  - intent: increase_font
+  - action: utter_increase_font
+
+- story: decrease font
+  steps:
+  - intent: decrease_font
+  - action: utter_decrease_font
 
 
 # GIT COMMANDS
