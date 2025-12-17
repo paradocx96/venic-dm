@@ -1,0 +1,2912 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createifelse
+  examples: |
+    - if master greater than nine return true else return false
+    - if size less than or equal two return true else return false
+    - if height not equal seven return false else return true
+    - if computer less than eight return true else return false
+    - if phone less than or equal three return true else return false
+    - if laptop greater than or equal eight return true else return false
+    - if smartphone greater than or equal six return false else return true
+    - if phonenumber greater than six return false else return true
+    - if location not equal eight return true else return false
+    - if email greater than or equal two return true else return false
+    - if contact greater than or equal one return false else return true
+    - if emailaddress not equal four return true else return false
+    - if mouse greater than or equal four return false else return true
+    - if keyboard equal ten return true else return false
+    - if screen equal eight return true else return false
+    - if fruit less than nine return true else return false
+    - if vegetable greater than seven return false else return true
+    - if eatables not equal ten return false else return true
+    - if price less than or equal seven return true else return false
+    - if cost greater than one return true else return false
+    - if sum equal nine return false else return true
+    - if b not equal six return true else return false
+    - if c less than four return true else return false
+    - if p less than or equal four return false else return true
+    - if q not equal three return true else return false
+    - if r less than or equal seven return true else return false
+    - if answer greater than four return false else return true
+    - if userid equal ten return false else return true
+    - if num greater than or equal ten return true else return false
+    - if age greater than or equal two return true else return false
+    - if wheel greater than or equal one return false else return true
+    - if car greater than five return false else return true
+    - if bus greater than four return false else return true
+    - if van less than five return true else return false
+    - if bike not equal four return true else return false
+    - if glass less than three return false else return true
+    - if black less than or equal one return true else return false
+    - if valid less than or equal six return true else return false
+    - if subtract equal one return false else return true
+    - if arr equal one return true else return false
+    - if i greater than one return true else return false
+    - if val not equal seven return true else return false
+    - if key equal one return true else return false
+    - if count greater than or equal nine return false else return true
+    - if size variable equal nine return true else return false
+    - if computer variable less than nine return true else return false
+    - if phone variable not equal one return true else return false
+    - if laptop variable less than six return true else return false
+    - if mobilephone variable greater than two return false else return true
+    - if contactnumber variable equal five return false else return true    
+    - if main less than or equal four return false else call minus method
+    - if master greater than or equal eight return false else call communicate method
+    - if size less than or equal eight return true else call clear method
+    - if height not equal ten return true else call notify method
+    - if weight greater than five return true else call append method
+    - if bag greater than nine return false else call build method
+    - if can less than or equal five return false else call get method
+    - if computer less than two return false else call multiply method
+    - if phone not equal five return true else call model method
+    - if laptop equal four return false else call select method
+    - if mobilephone not equal three return true else call min method
+    - if smartphone equal three return false else call create method
+    - if phonenumber less than six return true else call model method
+    - if contactnumber greater than or equal eight return false else call clear method
+    - if address less than or equal six return true else call communicate method
+    - if location less than five return true else call input method
+    - if email less than three return false else call decrement method
+    - if contact greater than one return true else call update method
+    - if emailaddress equal one return true else call generate method
+    - if mouse less than or equal three return true else call answer method
+    - if keyboard equal one return true else call send method
+    - if screen less than or equal three return true else call write method
+    - if touchscreen equal four return false else call sum method
+    - if fruit not equal eight return true else call update method
+    - if food greater than or equal six return false else call add method
+    - if vegetable less than or equal seven return true else call rebuild method
+    - if eatables greater than or equal six return false else call addition method
+    - if price less than or equal two return true else call sum method
+    - if cost equal seven return false else call modulus method
+    - if sum greater than four return true else call buy method
+    - if addition not equal nine return true else call get method
+    - if a less than five return false else call get method
+    - if b greater than or equal five return true else call change method
+    - if c greater than three return true else call receive method
+    - if p equal two return true else call calculate method
+    - if q less than six return true else call max method
+    - if r not equal five return true else call service method
+    - if s less than or equal eight return false else call addition method
+    - if x greater than or equal nine return true else call repository method
+    - if y greater than nine return false else call increment method
+    - if z less than seven return false else call put method
+    - if answer not equal two return false else call calculate method
+    - if result not equal ten return false else call repository method
+    - if user not equal one return true else call generate method
+    - if userid equal three return true else call create method
+    - if id less than or equal eight return true else call send method
+    - if num less than one return true else call check method
+    - if age less than or equal four return false else call write method
+    - if department less than or equal six return true else call delete method
+    - if hospital less than ten return false else call build method
+    - if main greater than four call contain method else return true
+    - if master equal two call increment method else return false
+    - if size less than or equal ten call put method else return true
+    - if height not equal three call change method else return false
+    - if weight greater than or equal five call append method else return true
+    - if bag less than or equal three call controller method else return true
+    - if can equal four call subtract method else return false
+    - if computer not equal eight call subtract method else return false
+    - if phone less than seven call repository method else return true
+    - if laptop less than four call append method else return false
+    - if mobilephone equal nine call modulus method else return true
+    - if smartphone not equal ten call buy method else return false
+    - if phonenumber less than nine call repository method else return false
+    - if contactnumber equal nine call append method else return true
+    - if address greater than or equal five call repository method else return true
+    - if location less than or equal eight call write method else return false
+    - if email not equal nine call receive method else return false
+    - if contact equal eight call display method else return false
+    - if emailaddress greater than or equal one call show method else return true
+    - if mouse less than one call buy method else return true
+    - if keyboard less than or equal six call find method else return true
+    - if screen equal nine call work method else return false
+    - if touchscreen less than ten call controller method else return true
+    - if fruit greater than five call calc method else return false
+    - if food less than or equal nine call output method else return false
+    - if vegetable equal nine call find method else return false
+    - if eatables less than four call get method else return false
+    - if price less than nine call move method else return false
+    - if cost less than or equal four call add method else return true
+    - if sum not equal six call input method else return false
+    - if addition equal five call spec method else return false
+    - if a greater than or equal four call send method else return false
+    - if b less than or equal five call call method else return true
+    - if c greater than eight call update method else return true
+    - if p not equal four call move method else return false
+    - if q less than or equal three call create method else return false
+    - if r greater than three call update method else return true
+    - if s greater than two call result method else return true
+    - if x greater than or equal ten call result method else return true
+    - if y greater than seven call clean method else return false
+    - if z less than or equal seven call repository method else return false
+    - if result greater than or equal six call multiply method else return true
+    - if user less than five call valid method else return false
+    - if userid greater than nine call run method else return false
+    - if id not equal five call increment method else return false
+    - if num greater than or equal two call max method else return false
+    - if age not equal one call repo method else return true
+    - if department less than or equal ten call controller method else return false
+    - if hospital greater than one call clear method else return true
+    - if wheel equal three call call method else return false
+    - if main less than or equal four return false else call minus function
+    - if master greater than or equal eight return false else call communicate function
+    - if size less than or equal eight return true else call clear function
+    - if height not equal ten return true else call notify function
+    - if weight greater than five return true else call append function
+    - if bag greater than nine return false else call build function
+    - if can less than or equal five return false else call get function
+    - if computer less than two return false else call multiply function
+    - if phone not equal five return true else call model function
+    - if laptop equal four return false else call select function
+    - if mobilephone not equal three return true else call min function
+    - if smartphone equal three return false else call create function
+    - if phonenumber less than six return true else call model function
+    - if contactnumber greater than or equal eight return false else call clear function
+    - if address less than or equal six return true else call communicate function
+    - if location less than five return true else call input function
+    - if email less than three return false else call decrement function
+    - if contact greater than one return true else call update function
+    - if emailaddress equal one return true else call generate function
+    - if mouse less than or equal three return true else call answer function
+    - if keyboard equal one return true else call send function
+    - if screen less than or equal three return true else call write function
+    - if touchscreen equal four return false else call sum function
+    - if fruit not equal eight return true else call update function
+    - if food greater than or equal six return false else call add function
+    - if vegetable less than or equal seven return true else call rebuild function
+    - if eatables greater than or equal six return false else call addition function
+    - if price less than or equal two return true else call sum function
+    - if cost equal seven return false else call modulus function
+    - if sum greater than four return true else call buy function
+    - if addition not equal nine return true else call get function
+    - if a less than five return false else call get function
+    - if b greater than or equal five return true else call change function
+    - if c greater than three return true else call receive function
+    - if p equal two return true else call calculate function
+    - if q less than six return true else call max function
+    - if r not equal five return true else call service function
+    - if s less than or equal eight return false else call addition function
+    - if x greater than or equal nine return true else call repository function
+    - if y greater than nine return false else call increment function
+    - if z less than seven return false else call put function
+    - if answer not equal two return false else call calculate function
+    - if result not equal ten return false else call repository function
+    - if user not equal one return true else call generate function
+    - if userid equal three return true else call create function
+    - if id less than or equal eight return true else call send function
+    - if num less than one return true else call check function
+    - if age less than or equal four return false else call write function
+    - if department less than or equal six return true else call delete function
+    - if hospital less than ten return false else call build function
+    - if main greater than four call contain function else return true
+    - if master equal two call increment function else return false
+    - if size less than or equal ten call put function else return true
+    - if height not equal three call change function else return false
+    - if weight greater than or equal five call append function else return true
+    - if bag less than or equal three call controller function else return true
+    - if can equal four call subtract function else return false
+    - if computer not equal eight call subtract function else return false
+    - if phone less than seven call repository function else return true
+    - if laptop less than four call append function else return false
+    - if mobilephone equal nine call modulus function else return true
+    - if smartphone not equal ten call buy function else return false
+    - if phonenumber less than nine call repository function else return false
+    - if contactnumber equal nine call append function else return true
+    - if address greater than or equal five call repository function else return true
+    - if location less than or equal eight call write function else return false
+    - if email not equal nine call receive function else return false
+    - if contact equal eight call display function else return false
+    - if emailaddress greater than or equal one call show function else return true
+    - if mouse less than one call buy function else return true
+    - if keyboard less than or equal six call find function else return true
+    - if screen equal nine call work function else return false
+    - if touchscreen less than ten call controller function else return true
+    - if fruit greater than five call calc function else return false
+    - if food less than or equal nine call output function else return false
+    - if vegetable equal nine call find function else return false
+    - if eatables less than four call get function else return false
+    - if price less than nine call move function else return false
+    - if cost less than or equal four call add function else return true
+    - if sum not equal six call input function else return false
+    - if addition equal five call spec function else return false
+    - if a greater than or equal four call send function else return false
+    - if b less than or equal five call call function else return true
+    - if c greater than eight call update function else return true
+    - if p not equal four call move function else return false
+    - if q less than or equal three call create function else return false
+    - if r greater than three call update function else return true
+    - if s greater than two call result function else return true
+    - if x greater than or equal ten call result function else return true
+    - if y greater than seven call clean function else return false
+    - if z less than or equal seven call repository function else return false
+    - if result greater than or equal six call multiply function else return true
+    - if user less than five call valid function else return false
+    - if userid greater than nine call run function else return false
+    - if id not equal five call increment function else return false
+    - if num greater than or equal two call max function else return false
+    - if age not equal one call repo function else return true
+    - if department less than or equal ten call controller function else return false
+    - if hospital greater than one call clear function else return true
+    - if wheel equal three call call function else return false
+    - if main less than or equal four return false else call minus procedure
+    - if master greater than or equal eight return false else call communicate procedure
+    - if size less than or equal eight return true else call clear procedure
+    - if height not equal ten return true else call notify procedure
+    - if weight greater than five return true else call append procedure
+    - if bag greater than nine return false else call build procedure
+    - if can less than or equal five return false else call get procedure
+    - if computer less than two return false else call multiply procedure
+    - if phone not equal five return true else call model procedure
+    - if laptop equal four return false else call select procedure
+    - if mobilephone not equal three return true else call min procedure
+    - if smartphone equal three return false else call create procedure
+    - if phonenumber less than six return true else call model procedure
+    - if contactnumber greater than or equal eight return false else call clear procedure
+    - if address less than or equal six return true else call communicate procedure
+    - if location less than five return true else call input procedure
+    - if email less than three return false else call decrement procedure
+    - if contact greater than one return true else call update procedure
+    - if emailaddress equal one return true else call generate procedure
+    - if mouse less than or equal three return true else call answer procedure
+    - if keyboard equal one return true else call send procedure
+    - if screen less than or equal three return true else call write procedure
+    - if touchscreen equal four return false else call sum procedure
+    - if fruit not equal eight return true else call update procedure
+    - if food greater than or equal six return false else call add procedure
+    - if vegetable less than or equal seven return true else call rebuild procedure
+    - if eatables greater than or equal six return false else call addition procedure
+    - if price less than or equal two return true else call sum procedure
+    - if cost equal seven return false else call modulus procedure
+    - if sum greater than four return true else call buy procedure
+    - if addition not equal nine return true else call get procedure
+    - if a less than five return false else call get procedure
+    - if b greater than or equal five return true else call change procedure
+    - if c greater than three return true else call receive procedure
+    - if p equal two return true else call calculate procedure
+    - if q less than six return true else call max procedure
+    - if r not equal five return true else call service procedure
+    - if s less than or equal eight return false else call addition procedure
+    - if x greater than or equal nine return true else call repository procedure
+    - if y greater than nine return false else call increment procedure
+    - if z less than seven return false else call put procedure
+    - if answer not equal two return false else call calculate procedure
+    - if result not equal ten return false else call repository procedure
+    - if user not equal one return true else call generate procedure
+    - if userid equal three return true else call create procedure
+    - if id less than or equal eight return true else call send procedure
+    - if num less than one return true else call check procedure
+    - if age less than or equal four return false else call write procedure
+    - if department less than or equal six return true else call delete procedure
+    - if hospital less than ten return false else call build procedure    
+    - if main greater than four call contain procedure else return true
+    - if master equal two call increment procedure else return false
+    - if size less than or equal ten call put procedure else return true
+    - if height not equal three call change procedure else return false
+    - if weight greater than or equal five call append procedure else return true
+    - if bag less than or equal three call controller procedure else return true
+    - if can equal four call subtract procedure else return false
+    - if computer not equal eight call subtract procedure else return false
+    - if phone less than seven call repository procedure else return true
+    - if laptop less than four call append procedure else return false
+    - if mobilephone equal nine call modulus procedure else return true
+    - if smartphone not equal ten call buy procedure else return false
+    - if phonenumber less than nine call repository procedure else return false
+    - if contactnumber equal nine call append procedure else return true
+    - if address greater than or equal five call repository procedure else return true
+    - if location less than or equal eight call write procedure else return false
+    - if email not equal nine call receive procedure else return false
+    - if contact equal eight call display procedure else return false
+    - if emailaddress greater than or equal one call show procedure else return true
+    - if mouse less than one call buy procedure else return true
+    - if keyboard less than or equal six call find procedure else return true
+    - if screen equal nine call work procedure else return false
+    - if touchscreen less than ten call controller procedure else return true
+    - if fruit greater than five call calc procedure else return false
+    - if food less than or equal nine call output procedure else return false
+    - if vegetable equal nine call find procedure else return false
+    - if eatables less than four call get procedure else return false
+    - if price less than nine call move procedure else return false
+    - if cost less than or equal four call add procedure else return true
+    - if sum not equal six call input procedure else return false
+    - if addition equal five call spec procedure else return false
+    - if a greater than or equal four call send procedure else return false
+    - if b less than or equal five call call procedure else return true
+    - if c greater than eight call update procedure else return true
+    - if p not equal four call move procedure else return false
+    - if q less than or equal three call create procedure else return false
+    - if r greater than three call update procedure else return true
+    - if s greater than two call result procedure else return true
+    - if x greater than or equal ten call result procedure else return true
+    - if y greater than seven call clean procedure else return false
+    - if z less than or equal seven call repository procedure else return false
+    - if result greater than or equal six call multiply procedure else return true
+    - if user less than five call valid procedure else return false
+    - if userid greater than nine call run procedure else return false
+    - if id not equal five call increment procedure else return false
+    - if num greater than or equal two call max procedure else return false
+    - if age not equal one call repo procedure else return true
+    - if department less than or equal ten call controller procedure else return false
+    - if hospital greater than one call clear procedure else return true
+    - if wheel equal three call call procedure else return false    
+    - create if master greater than nine return true else return false
+    - create if size less than or equal two return true else return false
+    - create if height not equal seven return false else return true
+    - create if computer less than eight return true else return false
+    - create if phone less than or equal three return true else return false
+    - create if laptop greater than or equal eight return true else return false
+    - create if smartphone greater than or equal six return false else return true
+    - create if phonenumber greater than six return false else return true
+    - create if location not equal eight return true else return false
+    - create if email greater than or equal two return true else return false
+    - create if contact greater than or equal one return false else return true
+    - create if emailaddress not equal four return true else return false
+    - create if mouse greater than or equal four return false else return true
+    - create if keyboard equal ten return true else return false
+    - create if screen equal eight return true else return false
+    - create if fruit less than nine return true else return false
+    - create if vegetable greater than seven return false else return true
+    - create if eatables not equal ten return false else return true
+    - create if price less than or equal seven return true else return false
+    - create if cost greater than one return true else return false
+    - create if sum equal nine return false else return true
+    - create if b not equal six return true else return false
+    - create if c less than four return true else return false
+    - create if p less than or equal four return false else return true
+    - create if q not equal three return true else return false
+    - create if r less than or equal seven return true else return false
+    - create if answer greater than four return false else return true
+    - create if userid equal ten return false else return true
+    - create if num greater than or equal ten return true else return false
+    - create if age greater than or equal two return true else return false
+    - create if wheel greater than or equal one return false else return true
+    - create if car greater than five return false else return true
+    - create if bus greater than four return false else return true
+    - create if van less than five return true else return false
+    - create if bike not equal four return true else return false
+    - create if glass less than three return false else return true
+    - create if black less than or equal one return true else return false
+    - create if valid less than or equal six return true else return false
+    - create if subtract equal one return false else return true
+    - create if arr equal one return true else return false
+    - create if i greater than one return true else return false
+    - create if val not equal seven return true else return false
+    - create if key equal one return true else return false
+    - create if count greater than or equal nine return false else return true
+    - create if size variable equal nine return true else return false
+    - create if computer variable less than nine return true else return false
+    - create if phone variable not equal one return true else return false
+    - create if laptop variable less than six return true else return false
+    - create if mobilephone variable greater than two return false else return true
+    - create if contactnumber variable equal five return false else return true    
+    - create if main less than or equal four return false else call minus method
+    - create if master greater than or equal eight return false else call communicate method
+    - create if size less than or equal eight return true else call clear method    
+    - create if weight greater than five return true else call append method
+    - create if bag greater than nine return false else call build method
+    - create if can less than or equal five return false else call get method
+    - create if computer less than two return false else call multiply method
+    - create if phone not equal five return true else call model method
+    - create if laptop equal four return false else call select method
+    - create if mobilephone not equal three return true else call min method
+    - create if smartphone equal three return false else call create method
+    - create if phonenumber less than six return true else call model method
+    - create if contactnumber greater than or equal eight return false else call clear method
+    - create if address less than or equal six return true else call communicate method
+    - create if location less than five return true else call input method
+    - create if email less than three return false else call decrement method
+    - create if contact greater than one return true else call update method
+    - create if emailaddress equal one return true else call generate method
+    - create if mouse less than or equal three return true else call answer method
+    - create if keyboard equal one return true else call send method
+    - create if screen less than or equal three return true else call write method
+    - create if touchscreen equal four return false else call sum method
+    - create if fruit not equal eight return true else call update method
+    - create if food greater than or equal six return false else call add method
+    - create if vegetable less than or equal seven return true else call rebuild method
+    - create if eatables greater than or equal six return false else call addition method
+    - create if price less than or equal two return true else call sum method
+    - create if cost equal seven return false else call modulus method
+    - create if sum greater than four return true else call buy method
+    - create if addition not equal nine return true else call get method
+    - create if a less than five return false else call get method
+    - create if b greater than or equal five return true else call change method
+    - create if c greater than three return true else call receive method
+    - create if p equal two return true else call calculate method
+    - create if q less than six return true else call max method
+    - create if r not equal five return true else call service method
+    - create if s less than or equal eight return false else call addition method
+    - create if x greater than or equal nine return true else call repository method
+    - create if y greater than nine return false else call increment method
+    - create if z less than seven return false else call put method
+    - create if answer not equal two return false else call calculate method
+    - create if result not equal ten return false else call repository method
+    - create if user not equal one return true else call generate method
+    - create if userid equal three return true else call create method
+    - create if id less than or equal eight return true else call send method
+    - create if num less than one return true else call check method
+    - create if age less than or equal four return false else call write method
+    - create if department less than or equal six return true else call delete method
+    - create if hospital less than ten return false else call build method
+    - create if wheel not equal three return false else call modulus method    
+    - create if main greater than four call contain method else return true
+    - create if master equal two call increment method else return false
+    - create if size less than or equal ten call put method else return true
+    - create if height not equal three call change method else return false
+    - create if weight greater than or equal five call append method else return true
+    - create if bag less than or equal three call controller method else return true
+    - create if can equal four call subtract method else return false
+    - create if computer not equal eight call subtract method else return false
+    - create if phone less than seven call repository method else return true
+    - create if laptop less than four call append method else return false
+    - create if mobilephone equal nine call modulus method else return true
+    - create if smartphone not equal ten call buy method else return false
+    - create if phonenumber less than nine call repository method else return false
+    - create if contactnumber equal nine call append method else return true
+    - create if address greater than or equal five call repository method else return true
+    - create if location less than or equal eight call write method else return false
+    - create if email not equal nine call receive method else return false
+    - create if contact equal eight call display method else return false
+    - create if emailaddress greater than or equal one call show method else return true
+    - create if mouse less than one call buy method else return true
+    - create if keyboard less than or equal six call find method else return true
+    - create if screen equal nine call work method else return false
+    - create if touchscreen less than ten call controller method else return true
+    - create if fruit greater than five call calc method else return false
+    - create if food less than or equal nine call output method else return false
+    - create if vegetable equal nine call find method else return false
+    - create if eatables less than four call get method else return false
+    - create if price less than nine call move method else return false
+    - create if cost less than or equal four call add method else return true
+    - create if sum not equal six call input method else return false
+    - create if addition equal five call spec method else return false
+    - create if a greater than or equal four call send method else return false
+    - create if b less than or equal five call call method else return true
+    - create if c greater than eight call update method else return true
+    - create if p not equal four call move method else return false
+    - create if q less than or equal three call create method else return false
+    - create if r greater than three call update method else return true
+    - create if s greater than two call result method else return true
+    - create if x greater than or equal ten call result method else return true
+    - create if y greater than seven call clean method else return false
+    - create if z less than or equal seven call repository method else return false
+    - create if result greater than or equal six call multiply method else return true
+    - create if user less than five call valid method else return false
+    - create if userid greater than nine call run method else return false
+    - create if id not equal five call increment method else return false
+    - create if num greater than or equal two call max method else return false
+    - create if age not equal one call repo method else return true
+    - create if department less than or equal ten call controller method else return false
+    - create if hospital greater than one call clear method else return true
+    - create if wheel equal three call call method else return false    
+    - create if main less than or equal four return false else call minus function
+    - create if master greater than or equal eight return false else call communicate function
+    - create if size less than or equal eight return true else call clear function    
+    - create if weight greater than five return true else call append function
+    - create if bag greater than nine return false else call build function
+    - create if can less than or equal five return false else call get function
+    - create if computer less than two return false else call multiply function
+    - create if phone not equal five return true else call model function
+    - create if laptop equal four return false else call select function
+    - create if mobilephone not equal three return true else call min function
+    - create if smartphone equal three return false else call create function
+    - create if phonenumber less than six return true else call model function
+    - create if contactnumber greater than or equal eight return false else call clear function
+    - create if address less than or equal six return true else call communicate function
+    - create if location less than five return true else call input function
+    - create if email less than three return false else call decrement function
+    - create if contact greater than one return true else call update function
+    - create if emailaddress equal one return true else call generate function
+    - create if mouse less than or equal three return true else call answer function
+    - create if keyboard equal one return true else call send function
+    - create if screen less than or equal three return true else call write function
+    - create if touchscreen equal four return false else call sum function
+    - create if fruit not equal eight return true else call update function
+    - create if food greater than or equal six return false else call add function
+    - create if vegetable less than or equal seven return true else call rebuild function
+    - create if eatables greater than or equal six return false else call addition function
+    - create if price less than or equal two return true else call sum function
+    - create if cost equal seven return false else call modulus function
+    - create if sum greater than four return true else call buy function
+    - create if addition not equal nine return true else call get function
+    - create if a less than five return false else call get function
+    - create if b greater than or equal five return true else call change function
+    - create if c greater than three return true else call receive function
+    - create if p equal two return true else call calculate function
+    - create if q less than six return true else call max function
+    - create if r not equal five return true else call service function
+    - create if s less than or equal eight return false else call addition function
+    - create if x greater than or equal nine return true else call repository function
+    - create if y greater than nine return false else call increment function
+    - create if z less than seven return false else call put function
+    - create if answer not equal two return false else call calculate function
+    - create if result not equal ten return false else call repository function
+    - create if user not equal one return true else call generate function
+    - create if userid equal three return true else call create function
+    - create if id less than or equal eight return true else call send function
+    - create if num less than one return true else call check function
+    - create if age less than or equal four return false else call write function
+    - create if department less than or equal six return true else call delete function
+    - create if hospital less than ten return false else call build function
+    - create if wheel not equal three return false else call modulus function    
+    - create if main greater than four call contain function else return true
+    - create if master equal two call increment function else return false
+    - create if size less than or equal ten call put function else return true
+    - create if height not equal three call change function else return false
+    - create if weight greater than or equal five call append function else return true
+    - create if bag less than or equal three call controller function else return true
+    - create if can equal four call subtract function else return false
+    - create if computer not equal eight call subtract function else return false
+    - create if phone less than seven call repository function else return true
+    - create if laptop less than four call append function else return false
+    - create if mobilephone equal nine call modulus function else return true
+    - create if smartphone not equal ten call buy function else return false
+    - create if phonenumber less than nine call repository function else return false
+    - create if contactnumber equal nine call append function else return true
+    - create if address greater than or equal five call repository function else return true
+    - create if location less than or equal eight call write function else return false
+    - create if email not equal nine call receive function else return false
+    - create if contact equal eight call display function else return false
+    - create if emailaddress greater than or equal one call show function else return true
+    - create if mouse less than one call buy function else return true
+    - create if keyboard less than or equal six call find function else return true
+    - create if screen equal nine call work function else return false
+    - create if touchscreen less than ten call controller function else return true
+    - create if fruit greater than five call calc function else return false
+    - create if food less than or equal nine call output function else return false
+    - create if vegetable equal nine call find function else return false
+    - create if eatables less than four call get function else return false
+    - create if price less than nine call move function else return false
+    - create if cost less than or equal four call add function else return true
+    - create if sum not equal six call input function else return false
+    - create if addition equal five call spec function else return false
+    - create if a greater than or equal four call send function else return false
+    - create if b less than or equal five call call function else return true
+    - create if c greater than eight call update function else return true
+    - create if p not equal four call move function else return false
+    - create if q less than or equal three call create function else return false
+    - create if r greater than three call update function else return true
+    - create if s greater than two call result function else return true
+    - create if x greater than or equal ten call result function else return true
+    - create if y greater than seven call clean function else return false
+    - create if z less than or equal seven call repository function else return false
+    - create if result greater than or equal six call multiply function else return true
+    - create if user less than five call valid function else return false
+    - create if userid greater than nine call run function else return false
+    - create if id not equal five call increment function else return false
+    - create if num greater than or equal two call max function else return false
+    - create if age not equal one call repo function else return true
+    - create if department less than or equal ten call controller function else return false
+    - create if hospital greater than one call clear function else return true
+    - create if wheel equal three call call function else return false    
+    - create if main less than or equal four return false else call minus procedure
+    - create if master greater than or equal eight return false else call communicate procedure
+    - create if size less than or equal eight return true else call clear procedure    
+    - create if weight greater than five return true else call append procedure
+    - create if bag greater than nine return false else call build procedure
+    - create if can less than or equal five return false else call get procedure
+    - create if computer less than two return false else call multiply procedure
+    - create if phone not equal five return true else call model procedure
+    - create if laptop equal four return false else call select procedure
+    - create if mobilephone not equal three return true else call min procedure
+    - create if smartphone equal three return false else call create procedure
+    - create if phonenumber less than six return true else call model procedure
+    - create if contactnumber greater than or equal eight return false else call clear procedure
+    - create if address less than or equal six return true else call communicate procedure
+    - create if location less than five return true else call input procedure
+    - create if email less than three return false else call decrement procedure
+    - create if contact greater than one return true else call update procedure
+    - create if emailaddress equal one return true else call generate procedure
+    - create if mouse less than or equal three return true else call answer procedure
+    - create if keyboard equal one return true else call send procedure
+    - create if screen less than or equal three return true else call write procedure
+    - create if touchscreen equal four return false else call sum procedure
+    - create if fruit not equal eight return true else call update procedure
+    - create if food greater than or equal six return false else call add procedure
+    - create if vegetable less than or equal seven return true else call rebuild procedure
+    - create if eatables greater than or equal six return false else call addition procedure
+    - create if price less than or equal two return true else call sum procedure
+    - create if cost equal seven return false else call modulus procedure
+    - create if sum greater than four return true else call buy procedure
+    - create if addition not equal nine return true else call get procedure
+    - create if a less than five return false else call get procedure
+    - create if b greater than or equal five return true else call change procedure
+    - create if c greater than three return true else call receive procedure
+    - create if p equal two return true else call calculate procedure
+    - create if q less than six return true else call max procedure
+    - create if r not equal five return true else call service procedure
+    - create if s less than or equal eight return false else call addition procedure
+    - create if x greater than or equal nine return true else call repository procedure
+    - create if y greater than nine return false else call increment procedure
+    - create if z less than seven return false else call put procedure
+    - create if answer not equal two return false else call calculate procedure
+    - create if result not equal ten return false else call repository procedure
+    - create if user not equal one return true else call generate procedure
+    - create if userid equal three return true else call create procedure
+    - create if id less than or equal eight return true else call send procedure
+    - create if num less than one return true else call check procedure
+    - create if age less than or equal four return false else call write procedure
+    - create if department less than or equal six return true else call delete procedure
+    - create if hospital less than ten return false else call build procedure
+    - create if wheel not equal three return false else call modulus procedure    
+    - create if main greater than four call contain procedure else return true
+    - create if master equal two call increment procedure else return false
+    - create if size less than or equal ten call put procedure else return true
+    - create if height not equal three call change procedure else return false
+    - create if weight greater than or equal five call append procedure else return true
+    - create if bag less than or equal three call controller procedure else return true
+    - create if can equal four call subtract procedure else return false
+    - create if computer not equal eight call subtract procedure else return false
+    - create if phone less than seven call repository procedure else return true
+    - create if laptop less than four call append procedure else return false
+    - create if mobilephone equal nine call modulus procedure else return true
+    - create if smartphone not equal ten call buy procedure else return false
+    - create if phonenumber less than nine call repository procedure else return false
+    - create if contactnumber equal nine call append procedure else return true
+    - create if address greater than or equal five call repository procedure else return true
+    - create if location less than or equal eight call write procedure else return false
+    - create if email not equal nine call receive procedure else return false
+    - create if contact equal eight call display procedure else return false
+    - create if emailaddress greater than or equal one call show procedure else return true
+    - create if mouse less than one call buy procedure else return true
+    - create if keyboard less than or equal six call find procedure else return true
+    - create if screen equal nine call work procedure else return false
+    - create if touchscreen less than ten call controller procedure else return true
+    - create if fruit greater than five call calc procedure else return false
+    - create if food less than or equal nine call output procedure else return false
+    - create if vegetable equal nine call find procedure else return false
+    - create if eatables less than four call get procedure else return false
+    - create if price less than nine call move procedure else return false
+    - create if cost less than or equal four call add procedure else return true
+    - create if sum not equal six call input procedure else return false
+    - create if addition equal five call spec procedure else return false
+    - create if a greater than or equal four call send procedure else return false
+    - create if b less than or equal five call call procedure else return true
+    - create if c greater than eight call update procedure else return true
+    - create if p not equal four call move procedure else return false
+    - create if q less than or equal three call create procedure else return false
+    - create if r greater than three call update procedure else return true
+    - create if s greater than two call result procedure else return true
+    - create if x greater than or equal ten call result procedure else return true
+    - create if y greater than seven call clean procedure else return false
+    - create if z less than or equal seven call repository procedure else return false
+    - create if result greater than or equal six call multiply procedure else return true
+    - create if user less than five call valid procedure else return false
+    - create if userid greater than nine call run procedure else return false
+    - create if id not equal five call increment procedure else return false
+    - create if num greater than or equal two call max procedure else return false
+    - create if age not equal one call repo procedure else return true
+    - create if department less than or equal ten call controller procedure else return false
+    - create if hospital greater than one call clear procedure else return true
+    - create if wheel equal three call call procedure else return false    
+    - if main equal ten return false
+    - if master greater than or equal one return false
+    - if size less than or equal nine return false
+    - if height greater than eight return true
+    - if weight greater than or equal eight return true
+    - if bag less than five return false
+    - if can not equal ten return true
+    - if computer equal three return false
+    - if phone greater than one return true
+    - if laptop less than or equal ten return false
+    - if mobilephone greater than or equal two return true
+    - if smartphone less than or equal two return true
+    - if phonenumber not equal eight return true
+    - if contactnumber greater than or equal one return false
+    - if address greater than or equal ten return true
+    - if location less than or equal five return true
+    - if email greater than nine return false
+    - if contact not equal six return true
+    - if emailaddress less than four return true
+    - if mouse less than two return false
+    - if keyboard not equal five return false
+    - if screen less than six return true
+    - if touchscreen greater than three return true
+    - if fruit less than six return true
+    - if food less than or equal three return true
+    - if vegetable equal nine return true
+    - if eatables not equal six return false
+    - if price greater than or equal one return true
+    - if cost less than or equal seven return true
+    - if sum less than three return false
+    - if addition equal two return false
+    - if a greater than three return true
+    - if b not equal nine return true
+    - if c less than four return false
+    - if p greater than seven return false
+    - if q greater than or equal one return true
+    - if r greater than or equal eight return false
+    - if s not equal seven return false
+    - if x less than or equal nine return false
+    - if y less than four return false
+    - if z equal seven return true
+    - if answer greater than six return false
+    - if result equal nine return true
+    - if user less than six return false
+    - if userid less than or equal ten return true
+    - if id less than ten return false
+    - if num greater than or equal one return false
+    - if age greater than or equal one return true
+    - if department equal five return true
+    - if hospital greater than or equal two return false    
+    - if main equal ten call append method
+    - if master greater than nine call minus method
+    - if size greater than ten call remove method
+    - if height greater than or equal seven call decrement method
+    - if weight equal seven call select method
+    - if bag greater than or equal eight call increment method
+    - if can less than or equal nine call move method
+    - if computer equal six call rebuild method
+    - if phone greater than ten call display method
+    - if laptop greater than eight call put method
+    - if mobilephone less than or equal two call write method
+    - if smartphone not equal seven call remove method
+    - if phonenumber greater than or equal nine call create method
+    - if contactnumber greater than or equal two call clear method
+    - if address less than ten call append method
+    - if location less than two call view method
+    - if email less than or equal two call input method
+    - if contact greater than three call call method
+    - if emailaddress greater than five call multiply method
+    - if mouse greater than three call run method
+    - if keyboard less than seven call find method
+    - if screen not equal ten call reset method
+    - if touchscreen less than nine call modulus method
+    - if fruit greater than six call run method
+    - if food not equal eight call move method
+    - if vegetable less than or equal eight call build method
+    - if eatables less than four call set method
+    - if price greater than or equal one call put method
+    - if cost less than or equal six call show method
+    - if sum greater than seven call repository method
+    - if addition equal seven call update method
+    - if a less than or equal five call decrement method
+    - if b not equal six call answer method
+    - if c less than seven call build method
+    - if p greater than seven call multiply method
+    - if q greater than or equal five call addition method
+    - if r equal four call answer method
+    - if s less than four call create method
+    - if x not equal six call addition method
+    - if y not equal nine call add method
+    - if z less than or equal five call put method
+    - if answer greater than eight call repository method
+    - if result greater than or equal one call update method
+    - if user less than one call addition method
+    - if userid equal five call get method
+    - if id less than one call spec method
+    - if num not equal seven call controller method
+    - if age greater than or equal five call write method
+    - if department less than or equal ten call input method
+    - if hospital greater than six call display method    
+    - if main equal ten call append function
+    - if master greater than nine call minus function
+    - if size greater than ten call remove function
+    - if height greater than or equal seven call decrement function
+    - if weight equal seven call select function
+    - if bag greater than or equal eight call increment function
+    - if can less than or equal nine call move function
+    - if computer equal six call rebuild function
+    - if phone greater than ten call display function
+    - if laptop greater than eight call put function
+    - if mobilephone less than or equal two call write function
+    - if smartphone not equal seven call remove function
+    - if phonenumber greater than or equal nine call create function
+    - if contactnumber greater than or equal two call clear function
+    - if address less than ten call append function
+    - if location less than two call view function
+    - if email less than or equal two call input function
+    - if contact greater than three call call function
+    - if emailaddress greater than five call multiply function
+    - if mouse greater than three call run function
+    - if keyboard less than seven call find function
+    - if screen not equal ten call reset function
+    - if touchscreen less than nine call modulus function
+    - if fruit greater than six call run function
+    - if food not equal eight call move function
+    - if vegetable less than or equal eight call build function
+    - if eatables less than four call set function
+    - if price greater than or equal one call put function
+    - if cost less than or equal six call show function
+    - if sum greater than seven call repository function
+    - if addition equal seven call update function
+    - if a less than or equal five call decrement function
+    - if b not equal six call answer function
+    - if c less than seven call build function
+    - if p greater than seven call multiply function
+    - if q greater than or equal five call addition function
+    - if r equal four call answer function
+    - if s less than four call create function
+    - if x not equal six call addition function
+    - if y not equal nine call add function
+    - if z less than or equal five call put function
+    - if answer greater than eight call repository function
+    - if result greater than or equal one call update function
+    - if user less than one call addition function
+    - if userid equal five call get function
+    - if id less than one call spec function
+    - if num not equal seven call controller function
+    - if age greater than or equal five call write function
+    - if department less than or equal ten call input function
+    - if hospital greater than six call display function    
+    - if main equal ten call append procedure
+    - if master greater than nine call minus procedure
+    - if size greater than ten call remove procedure
+    - if height greater than or equal seven call decrement procedure
+    - if weight equal seven call select procedure
+    - if bag greater than or equal eight call increment procedure
+    - if can less than or equal nine call move procedure
+    - if computer equal six call rebuild procedure
+    - if phone greater than ten call display procedure
+    - if laptop greater than eight call put procedure
+    - if mobilephone less than or equal two call write procedure
+    - if smartphone not equal seven call remove procedure
+    - if phonenumber greater than or equal nine call create procedure
+    - if contactnumber greater than or equal two call clear procedure
+    - if address less than ten call append procedure
+    - if location less than two call view procedure
+    - if email less than or equal two call input procedure
+    - if contact greater than three call call procedure
+    - if emailaddress greater than five call multiply procedure
+    - if mouse greater than three call run procedure
+    - if keyboard less than seven call find procedure
+    - if screen not equal ten call reset procedure
+    - if touchscreen less than nine call modulus procedure
+    - if fruit greater than six call run procedure
+    - if food not equal eight call move procedure
+    - if vegetable less than or equal eight call build procedure
+    - if eatables less than four call set procedure
+    - if price greater than or equal one call put procedure
+    - if cost less than or equal six call show procedure
+    - if sum greater than seven call repository procedure
+    - if addition equal seven call update procedure
+    - if a less than or equal five call decrement procedure
+    - if b not equal six call answer procedure
+    - if c less than seven call build procedure
+    - if p greater than seven call multiply procedure
+    - if q greater than or equal five call addition procedure
+    - if r equal four call answer procedure
+    - if s less than four call create procedure
+    - if x not equal six call addition procedure
+    - if y not equal nine call add procedure
+    - if z less than or equal five call put procedure
+    - if answer greater than eight call repository procedure
+    - if result greater than or equal one call update procedure
+    - if user less than one call addition procedure
+    - if userid equal five call get procedure
+    - if id less than one call spec procedure
+    - if num not equal seven call controller procedure
+    - if age greater than or equal five call write procedure
+    - if department less than or equal ten call input procedure
+    - if hospital greater than six call display procedure    
+    - create if main equal ten return false
+    - create if master greater than or equal one return false
+    - create if size less than or equal nine return false
+    - create if height greater than eight return true
+    - create if weight greater than or equal eight return true
+    - create if bag less than five return false
+    - create if can not equal ten return true
+    - create if computer equal three return false
+    - create if phone greater than one return true
+    - create if laptop less than or equal ten return false
+    - create if mobilephone greater than or equal two return true
+    - create if smartphone less than or equal two return true
+    - create if phonenumber not equal eight return true
+    - create if contactnumber greater than or equal one return false
+    - create if address greater than or equal ten return true
+    - create if location less than or equal five return true
+    - create if email greater than nine return false
+    - create if contact not equal six return true
+    - create if emailaddress less than four return true
+    - create if mouse less than two return false
+    - create if keyboard not equal five return false
+    - create if screen less than six return true
+    - create if touchscreen greater than three return true
+    - create if fruit less than six return true
+    - create if food less than or equal three return true
+    - create if vegetable equal nine return true
+    - create if eatables not equal six return false
+    - create if price greater than or equal one return true
+    - create if cost less than or equal seven return true
+    - create if sum less than three return false
+    - create if addition equal two return false
+    - create if a greater than three return true
+    - create if b not equal nine return true
+    - create if c less than four return false
+    - create if p greater than seven return false
+    - create if q greater than or equal one return true
+    - create if r greater than or equal eight return false
+    - create if s not equal seven return false
+    - create if x less than or equal nine return false
+    - create if y less than four return false
+    - create if z equal seven return true
+    - create if answer greater than six return false
+    - create if result equal nine return true
+    - create if user less than six return false
+    - create if userid less than or equal ten return true
+    - create if id less than ten return false
+    - create if num greater than or equal one return false
+    - create if age greater than or equal one return true
+    - create if department equal five return true
+    - create if hospital greater than or equal two return false    
+    - create if main equal ten call append method
+    - create if master greater than nine call minus method
+    - create if size greater than ten call remove method
+    - create if height greater than or equal seven call decrement method
+    - create if weight equal seven call select method
+    - create if bag greater than or equal eight call increment method
+    - create if can less than or equal nine call move method
+    - create if computer equal six call rebuild method
+    - create if phone greater than ten call display method
+    - create if laptop greater than eight call put method
+    - create if mobilephone less than or equal two call write method
+    - create if smartphone not equal seven call remove method
+    - create if phonenumber greater than or equal nine call create method
+    - create if contactnumber greater than or equal two call clear method
+    - create if address less than ten call append method
+    - create if location less than two call view method
+    - create if email less than or equal two call input method
+    - create if contact greater than three call call method
+    - create if emailaddress greater than five call multiply method
+    - create if mouse greater than three call run method
+    - create if keyboard less than seven call find method
+    - create if screen not equal ten call reset method
+    - create if touchscreen less than nine call modulus method
+    - create if fruit greater than six call run method
+    - create if food not equal eight call move method
+    - create if vegetable less than or equal eight call build method
+    - create if eatables less than four call set method
+    - create if price greater than or equal one call put method
+    - create if cost less than or equal six call show method
+    - create if sum greater than seven call repository method
+    - create if addition equal seven call update method
+    - create if a less than or equal five call decrement method
+    - create if b not equal six call answer method
+    - create if c less than seven call build method
+    - create if p greater than seven call multiply method
+    - create if q greater than or equal five call addition method
+    - create if r equal four call answer method
+    - create if s less than four call create method
+    - create if x not equal six call addition method
+    - create if y not equal nine call add method
+    - create if z less than or equal five call put method
+    - create if answer greater than eight call repository method
+    - create if result greater than or equal one call update method
+    - create if user less than one call addition method
+    - create if userid equal five call get method
+    - create if id less than one call spec method
+    - create if num not equal seven call controller method
+    - create if age greater than or equal five call write method
+    - create if department less than or equal ten call input method
+    - create if hospital greater than six call display method    
+    - create if main equal ten call append function
+    - create if master greater than nine call minus function
+    - create if size greater than ten call remove function
+    - create if height greater than or equal seven call decrement function
+    - create if weight equal seven call select function
+    - create if bag greater than or equal eight call increment function
+    - create if can less than or equal nine call move function
+    - create if computer equal six call rebuild function
+    - create if phone greater than ten call display function
+    - create if laptop greater than eight call put function
+    - create if mobilephone less than or equal two call write function
+    - create if smartphone not equal seven call remove function
+    - create if phonenumber greater than or equal nine call create function
+    - create if contactnumber greater than or equal two call clear function
+    - create if address less than ten call append function
+    - create if location less than two call view function
+    - create if email less than or equal two call input function
+    - create if contact greater than three call call function
+    - create if emailaddress greater than five call multiply function
+    - create if mouse greater than three call run function
+    - create if keyboard less than seven call find function
+    - create if screen not equal ten call reset function
+    - create if touchscreen less than nine call modulus function
+    - create if fruit greater than six call run function
+    - create if food not equal eight call move function
+    - create if vegetable less than or equal eight call build function
+    - create if eatables less than four call set function
+    - create if price greater than or equal one call put function
+    - create if cost less than or equal six call show function
+    - create if sum greater than seven call repository function
+    - create if addition equal seven call update function
+    - create if a less than or equal five call decrement function
+    - create if b not equal six call answer function
+    - create if c less than seven call build function
+    - create if p greater than seven call multiply function
+    - create if q greater than or equal five call addition function
+    - create if r equal four call answer function
+    - create if s less than four call create function
+    - create if x not equal six call addition function
+    - create if y not equal nine call add function
+    - create if z less than or equal five call put function
+    - create if answer greater than eight call repository function
+    - create if result greater than or equal one call update function
+    - create if user less than one call addition function
+    - create if userid equal five call get function
+    - create if id less than one call spec function
+    - create if num not equal seven call controller function
+    - create if age greater than or equal five call write function
+    - create if department less than or equal ten call input function
+    - create if hospital greater than six call display function    
+    - create if main equal ten call append procedure
+    - create if master greater than nine call minus procedure
+    - create if size greater than ten call remove procedure
+    - create if height greater than or equal seven call decrement procedure
+    - create if weight equal seven call select procedure
+    - create if bag greater than or equal eight call increment procedure
+    - create if can less than or equal nine call move procedure
+    - create if computer equal six call rebuild procedure
+    - create if phone greater than ten call display procedure
+    - create if laptop greater than eight call put procedure
+    - create if mobilephone less than or equal two call write procedure
+    - create if smartphone not equal seven call remove procedure
+    - create if phonenumber greater than or equal nine call create procedure
+    - create if contactnumber greater than or equal two call clear procedure
+    - create if address less than ten call append procedure
+    - create if location less than two call view procedure
+    - create if email less than or equal two call input procedure
+    - create if contact greater than three call call procedure
+    - create if emailaddress greater than five call multiply procedure
+    - create if mouse greater than three call run procedure
+    - create if keyboard less than seven call find procedure
+    - create if screen not equal ten call reset procedure
+    - create if touchscreen less than nine call modulus procedure
+    - create if fruit greater than six call run procedure
+    - create if food not equal eight call move procedure
+    - create if vegetable less than or equal eight call build procedure
+    - create if eatables less than four call set procedure
+    - create if price greater than or equal one call put procedure
+    - create if cost less than or equal six call show procedure
+    - create if sum greater than seven call repository procedure
+    - create if addition equal seven call update procedure
+    - create if a less than or equal five call decrement procedure
+    - create if b not equal six call answer procedure
+    - create if c less than seven call build procedure
+    - create if p greater than seven call multiply procedure
+    - create if q greater than or equal five call addition procedure
+    - create if r equal four call answer procedure
+    - create if s less than four call create procedure
+    - create if x not equal six call addition procedure
+    - create if y not equal nine call add procedure
+    - create if z less than or equal five call put procedure
+    - create if answer greater than eight call repository procedure
+    - create if result greater than or equal one call update procedure
+    - create if user less than one call addition procedure
+    - create if userid equal five call get procedure
+    - create if id less than one call spec procedure
+    - create if num not equal seven call controller procedure
+    - create if age greater than or equal five call write procedure
+    - create if department less than or equal ten call input procedure
+    - create if hospital greater than six call display procedure
+
+- intent: createelseif
+  examples: |
+    - else return false
+    - else return true
+    - else return null
+    - else return main
+    - else return master
+    - else return size
+    - else return height
+    - else return weight
+    - else return bag
+    - else return can
+    - else return computer
+    - else return phone
+    - else return laptop
+    - else return mobilephone
+    - else return smartphone
+    - else return phonenumber
+    - else return contactnumber
+    - else return address
+    - else return location
+    - else return email
+    - else return contact
+    - else return emailaddress
+    - else return mouse
+    - else return keyboard
+    - else return screen
+    - else return touchscreen
+    - else return fruit
+    - else return food
+    - else return vegetable
+    - else return eatables
+    - else return price
+    - else return cost
+    - else return sum
+    - else return addition
+    - else return x
+    - else return y
+    - else return z
+    - else return answer
+    - else return result
+    - else return user
+    - else return userid
+    - else return id
+    - else return num
+    - else return age
+    - else return department
+    - else return hospital
+    - else return wheel
+    - else return seat
+    - else return car
+    - else return bus    
+    - else call repository method
+    - else call api method
+    - else call controller method
+    - else call service method
+    - else call model method
+    - else call repo method
+    - else call sum method
+    - else call addition method
+    - else call answer method
+    - else call result method
+    - else call get method
+    - else call update method
+    - else call create method
+    - else call delete method
+    - else call find method
+    - else call receive method
+    - else call calculate method
+    - else call decrement method
+    - else call increment method
+    - else call calc method
+    - else call add method
+    - else call valid method
+    - else call move method
+    - else call work method
+    - else call write method
+    - else call spec method
+    - else call buy method
+    - else call run method
+    - else call notify method
+    - else call output method
+    - else call communicate method
+    - else call send method
+    - else call input method
+    - else call subtract method
+    - else call multiply method
+    - else call divide method
+    - else call modulus method
+    - else call check method
+    - else call display method
+    - else call show method
+    - else call view method
+    - else call max method
+    - else call min method
+    - else call is method
+    - else call contain method
+    - else call remove method
+    - else call clear method
+    - else call clean method
+    - else call put method
+    - else call set method    
+    - else call repository function
+    - else call api function
+    - else call controller function
+    - else call service function
+    - else call model function
+    - else call repo function
+    - else call sum function
+    - else call addition function
+    - else call answer function
+    - else call result function
+    - else call get function
+    - else call update function
+    - else call create function
+    - else call delete function
+    - else call find function
+    - else call receive function
+    - else call calculate function
+    - else call decrement function
+    - else call increment function
+    - else call calc function
+    - else call add function
+    - else call valid function
+    - else call move function
+    - else call work function
+    - else call write function
+    - else call spec function
+    - else call buy function
+    - else call run function
+    - else call notify function
+    - else call output function
+    - else call communicate function
+    - else call send function
+    - else call input function
+    - else call subtract function
+    - else call multiply function
+    - else call divide function
+    - else call modulus function
+    - else call check function
+    - else call display function
+    - else call show function
+    - else call view function
+    - else call max function
+    - else call min function
+    - else call is function
+    - else call contain function
+    - else call remove function
+    - else call clear function
+    - else call clean function
+    - else call put function
+    - else call set function    
+    - else call repository procedure
+    - else call api procedure
+    - else call controller procedure
+    - else call service procedure
+    - else call model procedure
+    - else call repo procedure
+    - else call sum procedure
+    - else call addition procedure
+    - else call answer procedure
+    - else call result procedure
+    - else call get procedure
+    - else call update procedure
+    - else call create procedure
+    - else call delete procedure
+    - else call find procedure
+    - else call receive procedure
+    - else call calculate procedure
+    - else call decrement procedure
+    - else call increment procedure
+    - else call calc procedure
+    - else call add procedure
+    - else call valid procedure
+    - else call move procedure
+    - else call work procedure
+    - else call write procedure
+    - else call spec procedure
+    - else call buy procedure
+    - else call run procedure
+    - else call notify procedure
+    - else call output procedure
+    - else call communicate procedure
+    - else call send procedure
+    - else call input procedure
+    - else call subtract procedure
+    - else call multiply procedure
+    - else call divide procedure
+    - else call modulus procedure
+    - else call check procedure
+    - else call display procedure
+    - else call show procedure
+    - else call view procedure
+    - else call max procedure
+    - else call min procedure
+    - else call is procedure
+    - else call contain procedure
+    - else call remove procedure
+    - else call clear procedure
+    - else call clean procedure
+    - else call put procedure
+    - else call set procedure    
+    - else invoke repository method
+    - else invoke api method
+    - else invoke controller method
+    - else invoke service method
+    - else invoke model method
+    - else invoke repo method
+    - else invoke sum method
+    - else invoke addition method
+    - else invoke answer method
+    - else invoke result method
+    - else invoke get method
+    - else invoke update method
+    - else invoke create method
+    - else invoke delete method
+    - else invoke find method
+    - else invoke receive method
+    - else invoke calculate method
+    - else invoke decrement method
+    - else invoke increment method
+    - else invoke calc method
+    - else invoke add method
+    - else invoke valid method
+    - else invoke move method
+    - else invoke work method
+    - else invoke write method
+    - else invoke spec method
+    - else invoke buy method
+    - else invoke run method
+    - else invoke notify method
+    - else invoke output method
+    - else invoke communicate method
+    - else invoke call method
+    - else invoke send method
+    - else invoke input method
+    - else invoke subtract method
+    - else invoke multiply method
+    - else invoke divide method
+    - else invoke modulus method
+    - else invoke check method
+    - else invoke display method
+    - else invoke show method
+    - else invoke view method
+    - else invoke max method
+    - else invoke min method
+    - else invoke is method
+    - else invoke contain method
+    - else invoke remove method
+    - else invoke clear method
+    - else invoke clean method
+    - else invoke put method    
+    - else invoke repository function
+    - else invoke api function
+    - else invoke controller function
+    - else invoke service function
+    - else invoke model function
+    - else invoke repo function
+    - else invoke sum function
+    - else invoke addition function
+    - else invoke answer function
+    - else invoke result function
+    - else invoke get function
+    - else invoke update function
+    - else invoke create function
+    - else invoke delete function
+    - else invoke find function
+    - else invoke receive function
+    - else invoke calculate function
+    - else invoke decrement function
+    - else invoke increment function
+    - else invoke calc function
+    - else invoke add function
+    - else invoke valid function
+    - else invoke move function
+    - else invoke work function
+    - else invoke write function
+    - else invoke spec function
+    - else invoke buy function
+    - else invoke run function
+    - else invoke notify function
+    - else invoke output function
+    - else invoke communicate function
+    - else invoke call function
+    - else invoke send function
+    - else invoke input function
+    - else invoke subtract function
+    - else invoke multiply function
+    - else invoke divide function
+    - else invoke modulus function
+    - else invoke check function
+    - else invoke display function
+    - else invoke show function
+    - else invoke view function
+    - else invoke max function
+    - else invoke min function
+    - else invoke is function
+    - else invoke contain function
+    - else invoke remove function
+    - else invoke clear function
+    - else invoke clean function
+    - else invoke put function    
+    - else invoke repository procedure
+    - else invoke api procedure
+    - else invoke controller procedure
+    - else invoke service procedure
+    - else invoke model procedure
+    - else invoke repo procedure
+    - else invoke sum procedure
+    - else invoke addition procedure
+    - else invoke answer procedure
+    - else invoke result procedure
+    - else invoke get procedure
+    - else invoke update procedure
+    - else invoke create procedure
+    - else invoke delete procedure
+    - else invoke find procedure
+    - else invoke receive procedure
+    - else invoke calculate procedure
+    - else invoke decrement procedure
+    - else invoke increment procedure
+    - else invoke calc procedure
+    - else invoke add procedure
+    - else invoke valid procedure
+    - else invoke move procedure
+    - else invoke work procedure
+    - else invoke write procedure
+    - else invoke spec procedure
+    - else invoke buy procedure
+    - else invoke run procedure
+    - else invoke notify procedure
+    - else invoke output procedure
+    - else invoke communicate procedure
+    - else invoke call procedure
+    - else invoke send procedure
+    - else invoke input procedure
+    - else invoke subtract procedure
+    - else invoke multiply procedure
+    - else invoke divide procedure
+    - else invoke modulus procedure
+    - else invoke check procedure
+    - else invoke display procedure
+    - else invoke show procedure
+    - else invoke view procedure
+    - else invoke max procedure
+    - else invoke min procedure
+    - else invoke is procedure
+    - else invoke contain procedure
+    - else invoke remove procedure
+    - else invoke clear procedure
+    - else invoke clean procedure
+    - else invoke put procedure    
+    - else if master greater than nine return true else return false
+    - else if size less than or equal two return true else return false
+    - else if height not equal seven return false else return true
+    - else if computer less than eight return true else return false
+    - else if phone less than or equal three return true else return false
+    - else if laptop greater than or equal eight return true else return false
+    - else if smartphone greater than or equal six return false else return true
+    - else if phonenumber greater than six return false else return true
+    - else if location not equal eight return true else return false
+    - else if email greater than or equal two return true else return false
+    - else if contact greater than or equal one return false else return true
+    - else if emailaddress not equal four return true else return false
+    - else if mouse greater than or equal four return false else return true
+    - else if keyboard equal ten return true else return false
+    - else if screen equal eight return true else return false
+    - else if fruit less than nine return true else return false
+    - else if vegetable greater than seven return false else return true
+    - else if eatables not equal ten return false else return true
+    - else if price less than or equal seven return true else return false
+    - else if cost greater than one return true else return false
+    - else if sum equal nine return false else return true
+    - else if b not equal six return true else return false
+    - else if c less than four return true else return false
+    - else if p less than or equal four return false else return true
+    - else if q not equal three return true else return false
+    - else if r less than or equal seven return true else return false
+    - else if answer greater than four return false else return true
+    - else if userid equal ten return false else return true
+    - else if num greater than or equal ten return true else return false
+    - else if age greater than or equal two return true else return false
+    - else if wheel greater than or equal one return false else return true
+    - else if car greater than five return false else return true
+    - else if bus greater than four return false else return true
+    - else if van less than five return true else return false
+    - else if bike not equal four return true else return false
+    - else if glass less than three return false else return true
+    - else if black less than or equal one return true else return false
+    - else if valid less than or equal six return true else return false
+    - else if subtract equal one return false else return true
+    - else if arr equal one return true else return false
+    - else if i greater than one return true else return false
+    - else if val not equal seven return true else return false
+    - else if key equal one return true else return false
+    - else if count greater than or equal nine return false else return true
+    - else if size variable equal nine return true else return false
+    - else if computer variable less than nine return true else return false
+    - else if phone variable not equal one return true else return false
+    - else if laptop variable less than six return true else return false
+    - else if mobilephone variable greater than two return false else return true
+    - else if contactnumber variable equal five return false else return true    
+    - else if main less than or equal four return false else call minus method
+    - else if master greater than or equal eight return false else call communicate method
+    - else if size less than or equal eight return true else call clear method
+    - else if height not equal ten return true else call notify method
+    - else if weight greater than five return true else call append method
+    - else if bag greater than nine return false else call build method
+    - else if can less than or equal five return false else call get method
+    - else if computer less than two return false else call multiply method
+    - else if phone not equal five return true else call model method
+    - else if laptop equal four return false else call select method
+    - else if mobilephone not equal three return true else call min method
+    - else if smartphone equal three return false else call create method
+    - else if phonenumber less than six return true else call model method
+    - else if contactnumber greater than or equal eight return false else call clear method
+    - else if address less than or equal six return true else call communicate method
+    - else if location less than five return true else call input method
+    - else if email less than three return false else call decrement method
+    - else if contact greater than one return true else call update method
+    - else if emailaddress equal one return true else call generate method
+    - else if mouse less than or equal three return true else call answer method
+    - else if keyboard equal one return true else call send method
+    - else if screen less than or equal three return true else call write method
+    - else if touchscreen equal four return false else call sum method
+    - else if fruit not equal eight return true else call update method
+    - else if food greater than or equal six return false else call add method
+    - else if vegetable less than or equal seven return true else call rebuild method
+    - else if eatables greater than or equal six return false else call addition method
+    - else if price less than or equal two return true else call sum method
+    - else if cost equal seven return false else call modulus method
+    - else if sum greater than four return true else call buy method
+    - else if addition not equal nine return true else call get method
+    - else if a less than five return false else call get method
+    - else if b greater than or equal five return true else call change method
+    - else if c greater than three return true else call receive method
+    - else if p equal two return true else call calculate method
+    - else if q less than six return true else call max method
+    - else if r not equal five return true else call service method
+    - else if s less than or equal eight return false else call addition method
+    - else if x greater than or equal nine return true else call repository method
+    - else if y greater than nine return false else call increment method
+    - else if z less than seven return false else call put method
+    - else if answer not equal two return false else call calculate method
+    - else if result not equal ten return false else call repository method
+    - else if user not equal one return true else call generate method
+    - else if userid equal three return true else call create method
+    - else if id less than or equal eight return true else call send method
+    - else if num less than one return true else call check method
+    - else if age less than or equal four return false else call write method
+    - else if department less than or equal six return true else call delete method
+    - else if hospital less than ten return false else call build method    
+    - else if main greater than four call contain method else return true
+    - else if master equal two call increment method else return false
+    - else if size less than or equal ten call put method else return true
+    - else if height not equal three call change method else return false
+    - else if weight greater than or equal five call append method else return true
+    - else if bag less than or equal three call controller method else return true
+    - else if can equal four call subtract method else return false
+    - else if computer not equal eight call subtract method else return false
+    - else if phone less than seven call repository method else return true
+    - else if laptop less than four call append method else return false
+    - else if mobilephone equal nine call modulus method else return true
+    - else if smartphone not equal ten call buy method else return false
+    - else if phonenumber less than nine call repository method else return false
+    - else if contactnumber equal nine call append method else return true
+    - else if address greater than or equal five call repository method else return true
+    - else if location less than or equal eight call write method else return false
+    - else if email not equal nine call receive method else return false
+    - else if contact equal eight call display method else return false
+    - else if emailaddress greater than or equal one call show method else return true
+    - else if mouse less than one call buy method else return true
+    - else if keyboard less than or equal six call find method else return true
+    - else if screen equal nine call work method else return false
+    - else if touchscreen less than ten call controller method else return true
+    - else if fruit greater than five call calc method else return false
+    - else if food less than or equal nine call output method else return false
+    - else if vegetable equal nine call find method else return false
+    - else if eatables less than four call get method else return false
+    - else if price less than nine call move method else return false
+    - else if cost less than or equal four call add method else return true
+    - else if sum not equal six call input method else return false
+    - else if addition equal five call spec method else return false
+    - else if a greater than or equal four call send method else return false
+    - else if b less than or equal five call call method else return true
+    - else if c greater than eight call update method else return true
+    - else if p not equal four call move method else return false
+    - else if q less than or equal three call create method else return false
+    - else if r greater than three call update method else return true
+    - else if s greater than two call result method else return true
+    - else if x greater than or equal ten call result method else return true
+    - else if y greater than seven call clean method else return false
+    - else if z less than or equal seven call repository method else return false
+    - else if result greater than or equal six call multiply method else return true
+    - else if user less than five call valid method else return false
+    - else if userid greater than nine call run method else return false
+    - else if id not equal five call increment method else return false
+    - else if num greater than or equal two call max method else return false
+    - else if age not equal one call repo method else return true
+    - else if department less than or equal ten call controller method else return false
+    - else if hospital greater than one call clear method else return true
+    - else if wheel equal three call call method else return false    
+    - else if main less than or equal four return false else call minus function
+    - else if master greater than or equal eight return false else call communicate function
+    - else if size less than or equal eight return true else call clear function
+    - else if height not equal ten return true else call notify function
+    - else if weight greater than five return true else call append function
+    - else if bag greater than nine return false else call build function
+    - else if can less than or equal five return false else call get function
+    - else if computer less than two return false else call multiply function
+    - else if phone not equal five return true else call model function
+    - else if laptop equal four return false else call select function
+    - else if mobilephone not equal three return true else call min function
+    - else if smartphone equal three return false else call create function
+    - else if phonenumber less than six return true else call model function
+    - else if contactnumber greater than or equal eight return false else call clear function
+    - else if address less than or equal six return true else call communicate function
+    - else if location less than five return true else call input function
+    - else if email less than three return false else call decrement function
+    - else if contact greater than one return true else call update function
+    - else if emailaddress equal one return true else call generate function
+    - else if mouse less than or equal three return true else call answer function
+    - else if keyboard equal one return true else call send function
+    - else if screen less than or equal three return true else call write function
+    - else if touchscreen equal four return false else call sum function
+    - else if fruit not equal eight return true else call update function
+    - else if food greater than or equal six return false else call add function
+    - else if vegetable less than or equal seven return true else call rebuild function
+    - else if eatables greater than or equal six return false else call addition function
+    - else if price less than or equal two return true else call sum function
+    - else if cost equal seven return false else call modulus function
+    - else if sum greater than four return true else call buy function
+    - else if addition not equal nine return true else call get function
+    - else if a less than five return false else call get function
+    - else if b greater than or equal five return true else call change function
+    - else if c greater than three return true else call receive function
+    - else if p equal two return true else call calculate function
+    - else if q less than six return true else call max function
+    - else if r not equal five return true else call service function
+    - else if s less than or equal eight return false else call addition function
+    - else if x greater than or equal nine return true else call repository function
+    - else if y greater than nine return false else call increment function
+    - else if z less than seven return false else call put function
+    - else if answer not equal two return false else call calculate function
+    - else if result not equal ten return false else call repository function
+    - else if user not equal one return true else call generate function
+    - else if userid equal three return true else call create function
+    - else if id less than or equal eight return true else call send function
+    - else if num less than one return true else call check function
+    - else if age less than or equal four return false else call write function
+    - else if department less than or equal six return true else call delete function
+    - else if hospital less than ten return false else call build function    
+    - else if main greater than four call contain function else return true
+    - else if master equal two call increment function else return false
+    - else if size less than or equal ten call put function else return true
+    - else if height not equal three call change function else return false
+    - else if weight greater than or equal five call append function else return true
+    - else if bag less than or equal three call controller function else return true
+    - else if can equal four call subtract function else return false
+    - else if computer not equal eight call subtract function else return false
+    - else if phone less than seven call repository function else return true
+    - else if laptop less than four call append function else return false
+    - else if mobilephone equal nine call modulus function else return true
+    - else if smartphone not equal ten call buy function else return false
+    - else if phonenumber less than nine call repository function else return false
+    - else if contactnumber equal nine call append function else return true
+    - else if address greater than or equal five call repository function else return true
+    - else if location less than or equal eight call write function else return false
+    - else if email not equal nine call receive function else return false
+    - else if contact equal eight call display function else return false
+    - else if emailaddress greater than or equal one call show function else return true
+    - else if mouse less than one call buy function else return true
+    - else if keyboard less than or equal six call find function else return true
+    - else if screen equal nine call work function else return false
+    - else if touchscreen less than ten call controller function else return true
+    - else if fruit greater than five call calc function else return false
+    - else if food less than or equal nine call output function else return false
+    - else if vegetable equal nine call find function else return false
+    - else if eatables less than four call get function else return false
+    - else if price less than nine call move function else return false
+    - else if cost less than or equal four call add function else return true
+    - else if sum not equal six call input function else return false
+    - else if addition equal five call spec function else return false
+    - else if a greater than or equal four call send function else return false
+    - else if b less than or equal five call call function else return true
+    - else if c greater than eight call update function else return true
+    - else if p not equal four call move function else return false
+    - else if q less than or equal three call create function else return false
+    - else if r greater than three call update function else return true
+    - else if s greater than two call result function else return true
+    - else if x greater than or equal ten call result function else return true
+    - else if y greater than seven call clean function else return false
+    - else if z less than or equal seven call repository function else return false
+    - else if result greater than or equal six call multiply function else return true
+    - else if user less than five call valid function else return false
+    - else if userid greater than nine call run function else return false
+    - else if id not equal five call increment function else return false
+    - else if num greater than or equal two call max function else return false
+    - else if age not equal one call repo function else return true
+    - else if department less than or equal ten call controller function else return false
+    - else if hospital greater than one call clear function else return true
+    - else if wheel equal three call call function else return false
+    - else if main less than or equal four return false else call minus procedure
+    - else if master greater than or equal eight return false else call communicate procedure
+    - else if size less than or equal eight return true else call clear procedure
+    - else if height not equal ten return true else call notify procedure
+    - else if weight greater than five return true else call append procedure
+    - else if bag greater than nine return false else call build procedure
+    - else if can less than or equal five return false else call get procedure
+    - else if computer less than two return false else call multiply procedure
+    - else if phone not equal five return true else call model procedure
+    - else if laptop equal four return false else call select procedure
+    - else if mobilephone not equal three return true else call min procedure
+    - else if smartphone equal three return false else call create procedure
+    - else if phonenumber less than six return true else call model procedure
+    - else if contactnumber greater than or equal eight return false else call clear procedure
+    - else if address less than or equal six return true else call communicate procedure
+    - else if location less than five return true else call input procedure
+    - else if email less than three return false else call decrement procedure
+    - else if contact greater than one return true else call update procedure
+    - else if emailaddress equal one return true else call generate procedure
+    - else if mouse less than or equal three return true else call answer procedure
+    - else if keyboard equal one return true else call send procedure
+    - else if screen less than or equal three return true else call write procedure
+    - else if touchscreen equal four return false else call sum procedure
+    - else if fruit not equal eight return true else call update procedure
+    - else if food greater than or equal six return false else call add procedure
+    - else if vegetable less than or equal seven return true else call rebuild procedure
+    - else if eatables greater than or equal six return false else call addition procedure
+    - else if price less than or equal two return true else call sum procedure
+    - else if cost equal seven return false else call modulus procedure
+    - else if sum greater than four return true else call buy procedure
+    - else if addition not equal nine return true else call get procedure
+    - else if a less than five return false else call get procedure
+    - else if b greater than or equal five return true else call change procedure
+    - else if c greater than three return true else call receive procedure
+    - else if p equal two return true else call calculate procedure
+    - else if q less than six return true else call max procedure
+    - else if r not equal five return true else call service procedure
+    - else if s less than or equal eight return false else call addition procedure
+    - else if x greater than or equal nine return true else call repository procedure
+    - else if y greater than nine return false else call increment procedure
+    - else if z less than seven return false else call put procedure
+    - else if answer not equal two return false else call calculate procedure
+    - else if result not equal ten return false else call repository procedure
+    - else if user not equal one return true else call generate procedure
+    - else if userid equal three return true else call create procedure
+    - else if id less than or equal eight return true else call send procedure
+    - else if num less than one return true else call check procedure
+    - else if age less than or equal four return false else call write procedure
+    - else if department less than or equal six return true else call delete procedure
+    - else if hospital less than ten return false else call build procedure    
+    - else if main greater than four call contain procedure else return true
+    - else if master equal two call increment procedure else return false
+    - else if size less than or equal ten call put procedure else return true
+    - else if height not equal three call change procedure else return false
+    - else if weight greater than or equal five call append procedure else return true
+    - else if bag less than or equal three call controller procedure else return true
+    - else if can equal four call subtract procedure else return false
+    - else if computer not equal eight call subtract procedure else return false
+    - else if phone less than seven call repository procedure else return true
+    - else if laptop less than four call append procedure else return false
+    - else if mobilephone equal nine call modulus procedure else return true
+    - else if smartphone not equal ten call buy procedure else return false
+    - else if phonenumber less than nine call repository procedure else return false
+    - else if contactnumber equal nine call append procedure else return true
+    - else if address greater than or equal five call repository procedure else return true
+    - else if location less than or equal eight call write procedure else return false
+    - else if email not equal nine call receive procedure else return false
+    - else if contact equal eight call display procedure else return false
+    - else if emailaddress greater than or equal one call show procedure else return true
+    - else if mouse less than one call buy procedure else return true
+    - else if keyboard less than or equal six call find procedure else return true
+    - else if screen equal nine call work procedure else return false
+    - else if touchscreen less than ten call controller procedure else return true
+    - else if fruit greater than five call calc procedure else return false
+    - else if food less than or equal nine call output procedure else return false
+    - else if vegetable equal nine call find procedure else return false
+    - else if eatables less than four call get procedure else return false
+    - else if price less than nine call move procedure else return false
+    - else if cost less than or equal four call add procedure else return true
+    - else if sum not equal six call input procedure else return false
+    - else if addition equal five call spec procedure else return false
+    - else if a greater than or equal four call send procedure else return false
+    - else if b less than or equal five call call procedure else return true
+    - else if c greater than eight call update procedure else return true
+    - else if p not equal four call move procedure else return false
+    - else if q less than or equal three call create procedure else return false
+    - else if r greater than three call update procedure else return true
+    - else if s greater than two call result procedure else return true
+    - else if x greater than or equal ten call result procedure else return true
+    - else if y greater than seven call clean procedure else return false
+    - else if z less than or equal seven call repository procedure else return false
+    - else if result greater than or equal six call multiply procedure else return true
+    - else if user less than five call valid procedure else return false
+    - else if userid greater than nine call run procedure else return false
+    - else if id not equal five call increment procedure else return false
+    - else if num greater than or equal two call max procedure else return false
+    - else if age not equal one call repo procedure else return true
+    - else if department less than or equal ten call controller procedure else return false
+    - else if hospital greater than one call clear procedure else return true
+    - else if wheel equal three call call procedure else return false    
+    - else if main equal ten return false
+    - else if master greater than or equal one return false
+    - else if size less than or equal nine return false
+    - else if height greater than eight return true
+    - else if weight greater than or equal eight return true
+    - else if bag less than five return false
+    - else if can not equal ten return true
+    - else if computer equal three return false
+    - else if phone greater than one return true
+    - else if laptop less than or equal ten return false
+    - else if mobilephone greater than or equal two return true
+    - else if smartphone less than or equal two return true
+    - else if phonenumber not equal eight return true
+    - else if contactnumber greater than or equal one return false
+    - else if address greater than or equal ten return true
+    - else if location less than or equal five return true
+    - else if email greater than nine return false
+    - else if contact not equal six return true
+    - else if emailaddress less than four return true
+    - else if mouse less than two return false
+    - else if keyboard not equal five return false
+    - else if screen less than six return true
+    - else if touchscreen greater than three return true
+    - else if fruit less than six return true
+    - else if food less than or equal three return true
+    - else if vegetable equal nine return true
+    - else if eatables not equal six return false
+    - else if price greater than or equal one return true
+    - else if cost less than or equal seven return true
+    - else if sum less than three return false
+    - else if addition equal two return false
+    - else if a greater than three return true
+    - else if b not equal nine return true
+    - else if c less than four return false
+    - else if p greater than seven return false
+    - else if q greater than or equal one return true
+    - else if r greater than or equal eight return false
+    - else if s not equal seven return false
+    - else if x less than or equal nine return false
+    - else if y less than four return false
+    - else if z equal seven return true
+    - else if answer greater than six return false
+    - else if result equal nine return true
+    - else if user less than six return false
+    - else if userid less than or equal ten return true
+    - else if id less than ten return false
+    - else if num greater than or equal one return false
+    - else if age greater than or equal one return true
+    - else if department equal five return true
+    - else if hospital greater than or equal two return false    
+    - else if main equal ten call append method
+    - else if master greater than nine call minus method
+    - else if size greater than ten call remove method
+    - else if height greater than or equal seven call decrement method
+    - else if weight equal seven call select method
+    - else if bag greater than or equal eight call increment method
+    - else if can less than or equal nine call move method
+    - else if computer equal six call rebuild method
+    - else if phone greater than ten call display method
+    - else if laptop greater than eight call put method
+    - else if mobilephone less than or equal two call write method
+    - else if smartphone not equal seven call remove method
+    - else if phonenumber greater than or equal nine call create method
+    - else if contactnumber greater than or equal two call clear method
+    - else if address less than ten call append method
+    - else if location less than two call view method
+    - else if email less than or equal two call input method
+    - else if contact greater than three call call method
+    - else if emailaddress greater than five call multiply method
+    - else if mouse greater than three call run method
+    - else if keyboard less than seven call find method
+    - else if screen not equal ten call reset method
+    - else if touchscreen less than nine call modulus method
+    - else if fruit greater than six call run method
+    - else if food not equal eight call move method
+    - else if vegetable less than or equal eight call build method
+    - else if eatables less than four call set method
+    - else if price greater than or equal one call put method
+    - else if cost less than or equal six call show method
+    - else if sum greater than seven call repository method
+    - else if addition equal seven call update method
+    - else if a less than or equal five call decrement method
+    - else if b not equal six call answer method
+    - else if c less than seven call build method
+    - else if p greater than seven call multiply method
+    - else if q greater than or equal five call addition method
+    - else if r equal four call answer method
+    - else if s less than four call create method
+    - else if x not equal six call addition method
+    - else if y not equal nine call add method
+    - else if z less than or equal five call put method
+    - else if answer greater than eight call repository method
+    - else if result greater than or equal one call update method
+    - else if user less than one call addition method
+    - else if userid equal five call get method
+    - else if id less than one call spec method
+    - else if num not equal seven call controller method
+    - else if age greater than or equal five call write method
+    - else if department less than or equal ten call input method
+    - else if hospital greater than six call display method    
+    - else if main equal ten call append function
+    - else if master greater than nine call minus function
+    - else if size greater than ten call remove function
+    - else if height greater than or equal seven call decrement function
+    - else if weight equal seven call select function
+    - else if bag greater than or equal eight call increment function
+    - else if can less than or equal nine call move function
+    - else if computer equal six call rebuild function
+    - else if phone greater than ten call display function
+    - else if laptop greater than eight call put function
+    - else if mobilephone less than or equal two call write function
+    - else if smartphone not equal seven call remove function
+    - else if phonenumber greater than or equal nine call create function
+    - else if contactnumber greater than or equal two call clear function
+    - else if address less than ten call append function
+    - else if location less than two call view function
+    - else if email less than or equal two call input function
+    - else if contact greater than three call call function
+    - else if emailaddress greater than five call multiply function
+    - else if mouse greater than three call run function
+    - else if keyboard less than seven call find function
+    - else if screen not equal ten call reset function
+    - else if touchscreen less than nine call modulus function
+    - else if fruit greater than six call run function
+    - else if food not equal eight call move function
+    - else if vegetable less than or equal eight call build function
+    - else if eatables less than four call set function
+    - else if price greater than or equal one call put function
+    - else if cost less than or equal six call show function
+    - else if sum greater than seven call repository function
+    - else if addition equal seven call update function
+    - else if a less than or equal five call decrement function
+    - else if b not equal six call answer function
+    - else if c less than seven call build function
+    - else if p greater than seven call multiply function
+    - else if q greater than or equal five call addition function
+    - else if r equal four call answer function
+    - else if s less than four call create function
+    - else if x not equal six call addition function
+    - else if y not equal nine call add function
+    - else if z less than or equal five call put function
+    - else if answer greater than eight call repository function
+    - else if result greater than or equal one call update function
+    - else if user less than one call addition function
+    - else if userid equal five call get function
+    - else if id less than one call spec function
+    - else if num not equal seven call controller function
+    - else if age greater than or equal five call write function
+    - else if department less than or equal ten call input function
+    - else if hospital greater than six call display function    
+    - else if main equal ten call append procedure
+    - else if master greater than nine call minus procedure
+    - else if size greater than ten call remove procedure
+    - else if height greater than or equal seven call decrement procedure
+    - else if weight equal seven call select procedure
+    - else if bag greater than or equal eight call increment procedure
+    - else if can less than or equal nine call move procedure
+    - else if computer equal six call rebuild procedure
+    - else if phone greater than ten call display procedure
+    - else if laptop greater than eight call put procedure
+    - else if mobilephone less than or equal two call write procedure
+    - else if smartphone not equal seven call remove procedure
+    - else if phonenumber greater than or equal nine call create procedure
+    - else if contactnumber greater than or equal two call clear procedure
+    - else if address less than ten call append procedure
+    - else if location less than two call view procedure
+    - else if email less than or equal two call input procedure
+    - else if contact greater than three call call procedure
+    - else if emailaddress greater than five call multiply procedure
+    - else if mouse greater than three call run procedure
+    - else if keyboard less than seven call find procedure
+    - else if screen not equal ten call reset procedure
+    - else if touchscreen less than nine call modulus procedure
+    - else if fruit greater than six call run procedure
+    - else if food not equal eight call move procedure
+    - else if vegetable less than or equal eight call build procedure
+    - else if eatables less than four call set procedure
+    - else if price greater than or equal one call put procedure
+    - else if cost less than or equal six call show procedure
+    - else if sum greater than seven call repository procedure
+    - else if addition equal seven call update procedure
+    - else if a less than or equal five call decrement procedure
+    - else if b not equal six call answer procedure
+    - else if c less than seven call build procedure
+    - else if p greater than seven call multiply procedure
+    - else if q greater than or equal five call addition procedure
+    - else if r equal four call answer procedure
+    - else if s less than four call create procedure
+    - else if x not equal six call addition procedure
+    - else if y not equal nine call add procedure
+    - else if z less than or equal five call put procedure
+    - else if answer greater than eight call repository procedure
+    - else if result greater than or equal one call update procedure
+    - else if user less than one call addition procedure
+    - else if userid equal five call get procedure
+    - else if id less than one call spec procedure
+    - else if num not equal seven call controller procedure
+    - else if age greater than or equal five call write procedure
+    - else if department less than or equal ten call input procedure
+    - else if hospital greater than six call display procedure    
+    - create else return false
+    - create else return true
+    - create else return null
+    - create else return main
+    - create else return master
+    - create else return size
+    - create else return height
+    - create else return weight
+    - create else return bag
+    - create else return can
+    - create else return computer
+    - create else return phone
+    - create else return laptop
+    - create else return mobilephone
+    - create else return smartphone
+    - create else return phonenumber
+    - create else return contactnumber
+    - create else return address
+    - create else return location
+    - create else return email
+    - create else return contact
+    - create else return emailaddress
+    - create else return mouse
+    - create else return keyboard
+    - create else return screen
+    - create else return touchscreen
+    - create else return fruit
+    - create else return food
+    - create else return vegetable
+    - create else return eatables
+    - create else return price
+    - create else return cost
+    - create else return sum
+    - create else return addition
+    - create else return a
+    - create else return b
+    - create else return c
+    - create else return p
+    - create else return q
+    - create else return r
+    - create else return s
+    - create else return x
+    - create else return y
+    - create else return z
+    - create else return answer
+    - create else return result
+    - create else return user
+    - create else return userid
+    - create else return id
+    - create else return num    
+    - create else call repository method
+    - create else call api method
+    - create else call controller method
+    - create else call service method
+    - create else call model method
+    - create else call repo method
+    - create else call sum method
+    - create else call addition method
+    - create else call answer method
+    - create else call result method
+    - create else call get method
+    - create else call update method
+    - create else call create method
+    - create else call delete method
+    - create else call find method
+    - create else call receive method
+    - create else call calculate method
+    - create else call decrement method
+    - create else call increment method
+    - create else call calc method
+    - create else call add method
+    - create else call valid method
+    - create else call move method
+    - create else call work method
+    - create else call write method
+    - create else call spec method
+    - create else call buy method
+    - create else call run method
+    - create else call notify method
+    - create else call output method
+    - create else call communicate method
+    - create else call send method
+    - create else call input method
+    - create else call subtract method
+    - create else call multiply method
+    - create else call divide method
+    - create else call modulus method
+    - create else call check method
+    - create else call display method
+    - create else call show method
+    - create else call view method
+    - create else call max method
+    - create else call min method
+    - create else call is method
+    - create else call contain method
+    - create else call remove method
+    - create else call clear method
+    - create else call clean method
+    - create else call put method
+    - create else call set method    
+    - create else call repository function
+    - create else call api function
+    - create else call controller function
+    - create else call service function
+    - create else call model function
+    - create else call repo function
+    - create else call sum function
+    - create else call addition function
+    - create else call answer function
+    - create else call result function
+    - create else call get function
+    - create else call update function
+    - create else call create function
+    - create else call delete function
+    - create else call find function
+    - create else call receive function
+    - create else call calculate function
+    - create else call decrement function
+    - create else call increment function
+    - create else call calc function
+    - create else call add function
+    - create else call valid function
+    - create else call move function
+    - create else call work function
+    - create else call write function
+    - create else call spec function
+    - create else call buy function
+    - create else call run function
+    - create else call notify function
+    - create else call output function
+    - create else call communicate function
+    - create else call send function
+    - create else call input function
+    - create else call subtract function
+    - create else call multiply function
+    - create else call divide function
+    - create else call modulus function
+    - create else call check function
+    - create else call display function
+    - create else call show function
+    - create else call view function
+    - create else call max function
+    - create else call min function
+    - create else call is function
+    - create else call contain function
+    - create else call remove function
+    - create else call clear function
+    - create else call clean function
+    - create else call put function
+    - create else call set function    
+    - create else call repository procedure
+    - create else call api procedure
+    - create else call controller procedure
+    - create else call service procedure
+    - create else call model procedure
+    - create else call repo procedure
+    - create else call sum procedure
+    - create else call addition procedure
+    - create else call answer procedure
+    - create else call result procedure
+    - create else call get procedure
+    - create else call update procedure
+    - create else call create procedure
+    - create else call delete procedure
+    - create else call find procedure
+    - create else call receive procedure
+    - create else call calculate procedure
+    - create else call decrement procedure
+    - create else call increment procedure
+    - create else call calc procedure
+    - create else call add procedure
+    - create else call valid procedure
+    - create else call move procedure
+    - create else call work procedure
+    - create else call write procedure
+    - create else call spec procedure
+    - create else call buy procedure
+    - create else call run procedure
+    - create else call notify procedure
+    - create else call output procedure
+    - create else call communicate procedure
+    - create else call send procedure
+    - create else call input procedure
+    - create else call subtract procedure
+    - create else call multiply procedure
+    - create else call divide procedure
+    - create else call modulus procedure
+    - create else call check procedure
+    - create else call display procedure
+    - create else call show procedure
+    - create else call view procedure
+    - create else call max procedure
+    - create else call min procedure
+    - create else call is procedure
+    - create else call contain procedure
+    - create else call remove procedure
+    - create else call clear procedure
+    - create else call clean procedure
+    - create else call put procedure
+    - create else call set procedure    
+    - create else invoke repository method
+    - create else invoke api method
+    - create else invoke controller method
+    - create else invoke service method
+    - create else invoke model method
+    - create else invoke repo method
+    - create else invoke sum method
+    - create else invoke addition method
+    - create else invoke answer method
+    - create else invoke result method
+    - create else invoke get method
+    - create else invoke update method
+    - create else invoke create method
+    - create else invoke delete method
+    - create else invoke find method
+    - create else invoke receive method
+    - create else invoke calculate method
+    - create else invoke decrement method
+    - create else invoke increment method
+    - create else invoke calc method
+    - create else invoke add method
+    - create else invoke valid method
+    - create else invoke move method
+    - create else invoke work method
+    - create else invoke write method
+    - create else invoke spec method
+    - create else invoke buy method
+    - create else invoke run method
+    - create else invoke notify method
+    - create else invoke output method
+    - create else invoke communicate method
+    - create else invoke call method
+    - create else invoke send method
+    - create else invoke input method
+    - create else invoke subtract method
+    - create else invoke multiply method
+    - create else invoke divide method
+    - create else invoke modulus method
+    - create else invoke check method
+    - create else invoke display method
+    - create else invoke show method
+    - create else invoke view method
+    - create else invoke max method
+    - create else invoke min method
+    - create else invoke is method
+    - create else invoke contain method
+    - create else invoke remove method
+    - create else invoke clear method
+    - create else invoke clean method
+    - create else invoke put method    
+    - create else invoke repository function
+    - create else invoke api function
+    - create else invoke controller function
+    - create else invoke service function
+    - create else invoke model function
+    - create else invoke repo function
+    - create else invoke sum function
+    - create else invoke addition function
+    - create else invoke answer function
+    - create else invoke result function
+    - create else invoke get function
+    - create else invoke update function
+    - create else invoke create function
+    - create else invoke delete function
+    - create else invoke find function
+    - create else invoke receive function
+    - create else invoke calculate function
+    - create else invoke decrement function
+    - create else invoke increment function
+    - create else invoke calc function
+    - create else invoke add function
+    - create else invoke valid function
+    - create else invoke move function
+    - create else invoke work function
+    - create else invoke write function
+    - create else invoke spec function
+    - create else invoke buy function
+    - create else invoke run function
+    - create else invoke notify function
+    - create else invoke output function
+    - create else invoke communicate function
+    - create else invoke call function
+    - create else invoke send function
+    - create else invoke input function
+    - create else invoke subtract function
+    - create else invoke multiply function
+    - create else invoke divide function
+    - create else invoke modulus function
+    - create else invoke check function
+    - create else invoke display function
+    - create else invoke show function
+    - create else invoke view function
+    - create else invoke max function
+    - create else invoke min function
+    - create else invoke is function
+    - create else invoke contain function
+    - create else invoke remove function
+    - create else invoke clear function
+    - create else invoke clean function
+    - create else invoke put function    
+    - create else invoke repository procedure
+    - create else invoke api procedure
+    - create else invoke controller procedure
+    - create else invoke service procedure
+    - create else invoke model procedure
+    - create else invoke repo procedure
+    - create else invoke sum procedure
+    - create else invoke addition procedure
+    - create else invoke answer procedure
+    - create else invoke result procedure
+    - create else invoke get procedure
+    - create else invoke update procedure
+    - create else invoke create procedure
+    - create else invoke delete procedure
+    - create else invoke find procedure
+    - create else invoke receive procedure
+    - create else invoke calculate procedure
+    - create else invoke decrement procedure
+    - create else invoke increment procedure
+    - create else invoke calc procedure
+    - create else invoke add procedure
+    - create else invoke valid procedure
+    - create else invoke move procedure
+    - create else invoke work procedure
+    - create else invoke write procedure
+    - create else invoke spec procedure
+    - create else invoke buy procedure
+    - create else invoke run procedure
+    - create else invoke notify procedure
+    - create else invoke output procedure
+    - create else invoke communicate procedure
+    - create else invoke call procedure
+    - create else invoke send procedure
+    - create else invoke input procedure
+    - create else invoke subtract procedure
+    - create else invoke multiply procedure
+    - create else invoke divide procedure
+    - create else invoke modulus procedure
+    - create else invoke check procedure
+    - create else invoke display procedure
+    - create else invoke show procedure
+    - create else invoke view procedure
+    - create else invoke max procedure
+    - create else invoke min procedure
+    - create else invoke is procedure
+    - create else invoke contain procedure
+    - create else invoke remove procedure
+    - create else invoke clear procedure
+    - create else invoke clean procedure
+    - create else invoke put procedure    
+    - create else if master greater than nine return true else return false
+    - create else if size less than or equal two return true else return false
+    - create else if height not equal seven return false else return true
+    - create else if computer less than eight return true else return false
+    - create else if phone less than or equal three return true else return false
+    - create else if laptop greater than or equal eight return true else return false
+    - create else if smartphone greater than or equal six return false else return true
+    - create else if phonenumber greater than six return false else return true
+    - create else if location not equal eight return true else return false
+    - create else if email greater than or equal two return true else return false
+    - create else if contact greater than or equal one return false else return true
+    - create else if emailaddress not equal four return true else return false
+    - create else if mouse greater than or equal four return false else return true
+    - create else if keyboard equal ten return true else return false
+    - create else if screen equal eight return true else return false
+    - create else if fruit less than nine return true else return false
+    - create else if vegetable greater than seven return false else return true
+    - create else if eatables not equal ten return false else return true
+    - create else if price less than or equal seven return true else return false
+    - create else if cost greater than one return true else return false
+    - create else if sum equal nine return false else return true
+    - create else if b not equal six return true else return false
+    - create else if c less than four return true else return false
+    - create else if p less than or equal four return false else return true
+    - create else if q not equal three return true else return false
+    - create else if r less than or equal seven return true else return false
+    - create else if answer greater than four return false else return true
+    - create else if userid equal ten return false else return true
+    - create else if num greater than or equal ten return true else return false
+    - create else if age greater than or equal two return true else return false
+    - create else if wheel greater than or equal one return false else return true
+    - create else if car greater than five return false else return true
+    - create else if bus greater than four return false else return true
+    - create else if van less than five return true else return false
+    - create else if bike not equal four return true else return false
+    - create else if glass less than three return false else return true
+    - create else if black less than or equal one return true else return false
+    - create else if valid less than or equal six return true else return false
+    - create else if subtract equal one return false else return true
+    - create else if arr equal one return true else return false
+    - create else if i greater than one return true else return false
+    - create else if val not equal seven return true else return false
+    - create else if key equal one return true else return false
+    - create else if count greater than or equal nine return false else return true
+    - create else if size variable equal nine return true else return false
+    - create else if computer variable less than nine return true else return false
+    - create else if phone variable not equal one return true else return false
+    - create else if laptop variable less than six return true else return false
+    - create else if mobilephone variable greater than two return false else return true
+    - create else if contactnumber variable equal five return false else return true    
+    - create else if main less than or equal four return false else call minus method
+    - create else if master greater than or equal eight return false else call communicate method
+    - create else if size less than or equal eight return true else call clear method
+    - create else if height not equal ten return true else call notify method
+    - create else if weight greater than five return true else call append method
+    - create else if bag greater than nine return false else call build method
+    - create else if can less than or equal five return false else call get method
+    - create else if computer less than two return false else call multiply method
+    - create else if phone not equal five return true else call model method
+    - create else if laptop equal four return false else call select method
+    - create else if mobilephone not equal three return true else call min method
+    - create else if smartphone equal three return false else call create method
+    - create else if phonenumber less than six return true else call model method
+    - create else if contactnumber greater than or equal eight return false else call clear method
+    - create else if address less than or equal six return true else call communicate method
+    - create else if location less than five return true else call input method
+    - create else if email less than three return false else call decrement method
+    - create else if contact greater than one return true else call update method
+    - create else if emailaddress equal one return true else call generate method
+    - create else if mouse less than or equal three return true else call answer method
+    - create else if keyboard equal one return true else call send method
+    - create else if screen less than or equal three return true else call write method
+    - create else if touchscreen equal four return false else call sum method
+    - create else if fruit not equal eight return true else call update method
+    - create else if food greater than or equal six return false else call add method
+    - create else if vegetable less than or equal seven return true else call rebuild method
+    - create else if eatables greater than or equal six return false else call addition method
+    - create else if price less than or equal two return true else call sum method
+    - create else if cost equal seven return false else call modulus method
+    - create else if sum greater than four return true else call buy method
+    - create else if addition not equal nine return true else call get method
+    - create else if a less than five return false else call get method
+    - create else if b greater than or equal five return true else call change method
+    - create else if c greater than three return true else call receive method
+    - create else if p equal two return true else call calculate method
+    - create else if q less than six return true else call max method
+    - create else if r not equal five return true else call service method
+    - create else if s less than or equal eight return false else call addition method
+    - create else if x greater than or equal nine return true else call repository method
+    - create else if y greater than nine return false else call increment method
+    - create else if z less than seven return false else call put method
+    - create else if answer not equal two return false else call calculate method
+    - create else if result not equal ten return false else call repository method
+    - create else if user not equal one return true else call generate method
+    - create else if userid equal three return true else call create method
+    - create else if id less than or equal eight return true else call send method
+    - create else if num less than one return true else call check method
+    - create else if age less than or equal four return false else call write method
+    - create else if department less than or equal six return true else call delete method
+    - create else if hospital less than ten return false else call build method    
+    - create else if main greater than four call contain method else return true
+    - create else if master equal two call increment method else return false
+    - create else if size less than or equal ten call put method else return true
+    - create else if height not equal three call change method else return false
+    - create else if weight greater than or equal five call append method else return true
+    - create else if bag less than or equal three call controller method else return true
+    - create else if can equal four call subtract method else return false
+    - create else if computer not equal eight call subtract method else return false
+    - create else if phone less than seven call repository method else return true
+    - create else if laptop less than four call append method else return false
+    - create else if mobilephone equal nine call modulus method else return true
+    - create else if smartphone not equal ten call buy method else return false
+    - create else if phonenumber less than nine call repository method else return false
+    - create else if contactnumber equal nine call append method else return true
+    - create else if address greater than or equal five call repository method else return true
+    - create else if location less than or equal eight call write method else return false
+    - create else if email not equal nine call receive method else return false
+    - create else if contact equal eight call display method else return false
+    - create else if emailaddress greater than or equal one call show method else return true
+    - create else if mouse less than one call buy method else return true
+    - create else if keyboard less than or equal six call find method else return true
+    - create else if screen equal nine call work method else return false
+    - create else if touchscreen less than ten call controller method else return true
+    - create else if fruit greater than five call calc method else return false
+    - create else if food less than or equal nine call output method else return false
+    - create else if vegetable equal nine call find method else return false
+    - create else if eatables less than four call get method else return false
+    - create else if price less than nine call move method else return false
+    - create else if cost less than or equal four call add method else return true
+    - create else if sum not equal six call input method else return false
+    - create else if addition equal five call spec method else return false
+    - create else if a greater than or equal four call send method else return false
+    - create else if b less than or equal five call call method else return true
+    - create else if c greater than eight call update method else return true
+    - create else if p not equal four call move method else return false
+    - create else if q less than or equal three call create method else return false
+    - create else if r greater than three call update method else return true
+    - create else if s greater than two call result method else return true
+    - create else if x greater than or equal ten call result method else return true
+    - create else if y greater than seven call clean method else return false
+    - create else if z less than or equal seven call repository method else return false
+    - create else if result greater than or equal six call multiply method else return true
+    - create else if user less than five call valid method else return false
+    - create else if userid greater than nine call run method else return false
+    - create else if id not equal five call increment method else return false
+    - create else if num greater than or equal two call max method else return false
+    - create else if age not equal one call repo method else return true
+    - create else if department less than or equal ten call controller method else return false
+    - create else if hospital greater than one call clear method else return true
+    - create else if wheel equal three call call method else return false    
+    - create else if main less than or equal four return false else call minus function
+    - create else if master greater than or equal eight return false else call communicate function
+    - create else if size less than or equal eight return true else call clear function
+    - create else if height not equal ten return true else call notify function
+    - create else if weight greater than five return true else call append function
+    - create else if bag greater than nine return false else call build function
+    - create else if can less than or equal five return false else call get function
+    - create else if computer less than two return false else call multiply function
+    - create else if phone not equal five return true else call model function
+    - create else if laptop equal four return false else call select function
+    - create else if mobilephone not equal three return true else call min function
+    - create else if smartphone equal three return false else call create function
+    - create else if phonenumber less than six return true else call model function
+    - create else if contactnumber greater than or equal eight return false else call clear function
+    - create else if address less than or equal six return true else call communicate function
+    - create else if location less than five return true else call input function
+    - create else if email less than three return false else call decrement function
+    - create else if contact greater than one return true else call update function
+    - create else if emailaddress equal one return true else call generate function
+    - create else if mouse less than or equal three return true else call answer function
+    - create else if keyboard equal one return true else call send function
+    - create else if screen less than or equal three return true else call write function
+    - create else if touchscreen equal four return false else call sum function
+    - create else if fruit not equal eight return true else call update function
+    - create else if food greater than or equal six return false else call add function
+    - create else if vegetable less than or equal seven return true else call rebuild function
+    - create else if eatables greater than or equal six return false else call addition function
+    - create else if price less than or equal two return true else call sum function
+    - create else if cost equal seven return false else call modulus function
+    - create else if sum greater than four return true else call buy function
+    - create else if addition not equal nine return true else call get function
+    - create else if a less than five return false else call get function
+    - create else if b greater than or equal five return true else call change function
+    - create else if c greater than three return true else call receive function
+    - create else if p equal two return true else call calculate function
+    - create else if q less than six return true else call max function
+    - create else if r not equal five return true else call service function
+    - create else if s less than or equal eight return false else call addition function
+    - create else if x greater than or equal nine return true else call repository function
+    - create else if y greater than nine return false else call increment function
+    - create else if z less than seven return false else call put function
+    - create else if answer not equal two return false else call calculate function
+    - create else if result not equal ten return false else call repository function
+    - create else if user not equal one return true else call generate function
+    - create else if userid equal three return true else call create function
+    - create else if id less than or equal eight return true else call send function
+    - create else if num less than one return true else call check function
+    - create else if age less than or equal four return false else call write function
+    - create else if department less than or equal six return true else call delete function
+    - create else if hospital less than ten return false else call build function    
+    - create else if main greater than four call contain function else return true
+    - create else if master equal two call increment function else return false
+    - create else if size less than or equal ten call put function else return true
+    - create else if height not equal three call change function else return false
+    - create else if weight greater than or equal five call append function else return true
+    - create else if bag less than or equal three call controller function else return true
+    - create else if can equal four call subtract function else return false
+    - create else if computer not equal eight call subtract function else return false
+    - create else if phone less than seven call repository function else return true
+    - create else if laptop less than four call append function else return false
+    - create else if mobilephone equal nine call modulus function else return true
+    - create else if smartphone not equal ten call buy function else return false
+    - create else if phonenumber less than nine call repository function else return false
+    - create else if contactnumber equal nine call append function else return true
+    - create else if address greater than or equal five call repository function else return true
+    - create else if location less than or equal eight call write function else return false
+    - create else if email not equal nine call receive function else return false
+    - create else if contact equal eight call display function else return false
+    - create else if emailaddress greater than or equal one call show function else return true
+    - create else if mouse less than one call buy function else return true
+    - create else if keyboard less than or equal six call find function else return true
+    - create else if screen equal nine call work function else return false
+    - create else if touchscreen less than ten call controller function else return true
+    - create else if fruit greater than five call calc function else return false
+    - create else if food less than or equal nine call output function else return false
+    - create else if vegetable equal nine call find function else return false
+    - create else if eatables less than four call get function else return false
+    - create else if price less than nine call move function else return false
+    - create else if cost less than or equal four call add function else return true
+    - create else if sum not equal six call input function else return false
+    - create else if addition equal five call spec function else return false
+    - create else if a greater than or equal four call send function else return false
+    - create else if b less than or equal five call call function else return true
+    - create else if c greater than eight call update function else return true
+    - create else if p not equal four call move function else return false
+    - create else if q less than or equal three call create function else return false
+    - create else if r greater than three call update function else return true
+    - create else if s greater than two call result function else return true
+    - create else if x greater than or equal ten call result function else return true
+    - create else if y greater than seven call clean function else return false
+    - create else if z less than or equal seven call repository function else return false
+    - create else if result greater than or equal six call multiply function else return true
+    - create else if user less than five call valid function else return false
+    - create else if userid greater than nine call run function else return false
+    - create else if id not equal five call increment function else return false
+    - create else if num greater than or equal two call max function else return false
+    - create else if age not equal one call repo function else return true
+    - create else if department less than or equal ten call controller function else return false
+    - create else if hospital greater than one call clear function else return true
+    - create else if wheel equal three call call function else return false    
+    - create else if main less than or equal four return false else call minus procedure
+    - create else if master greater than or equal eight return false else call communicate procedure
+    - create else if size less than or equal eight return true else call clear procedure
+    - create else if height not equal ten return true else call notify procedure
+    - create else if weight greater than five return true else call append procedure
+    - create else if bag greater than nine return false else call build procedure
+    - create else if can less than or equal five return false else call get procedure
+    - create else if computer less than two return false else call multiply procedure
+    - create else if phone not equal five return true else call model procedure
+    - create else if laptop equal four return false else call select procedure
+    - create else if mobilephone not equal three return true else call min procedure
+    - create else if smartphone equal three return false else call create procedure
+    - create else if phonenumber less than six return true else call model procedure
+    - create else if contactnumber greater than or equal eight return false else call clear procedure
+    - create else if address less than or equal six return true else call communicate procedure
+    - create else if location less than five return true else call input procedure
+    - create else if email less than three return false else call decrement procedure
+    - create else if contact greater than one return true else call update procedure
+    - create else if emailaddress equal one return true else call generate procedure
+    - create else if mouse less than or equal three return true else call answer procedure
+    - create else if keyboard equal one return true else call send procedure
+    - create else if screen less than or equal three return true else call write procedure
+    - create else if touchscreen equal four return false else call sum procedure
+    - create else if fruit not equal eight return true else call update procedure
+    - create else if food greater than or equal six return false else call add procedure
+    - create else if vegetable less than or equal seven return true else call rebuild procedure
+    - create else if eatables greater than or equal six return false else call addition procedure
+    - create else if price less than or equal two return true else call sum procedure
+    - create else if cost equal seven return false else call modulus procedure
+    - create else if sum greater than four return true else call buy procedure
+    - create else if addition not equal nine return true else call get procedure
+    - create else if a less than five return false else call get procedure
+    - create else if b greater than or equal five return true else call change procedure
+    - create else if c greater than three return true else call receive procedure
+    - create else if p equal two return true else call calculate procedure
+    - create else if q less than six return true else call max procedure
+    - create else if r not equal five return true else call service procedure
+    - create else if s less than or equal eight return false else call addition procedure
+    - create else if x greater than or equal nine return true else call repository procedure
+    - create else if y greater than nine return false else call increment procedure
+    - create else if z less than seven return false else call put procedure
+    - create else if answer not equal two return false else call calculate procedure
+    - create else if result not equal ten return false else call repository procedure
+    - create else if user not equal one return true else call generate procedure
+    - create else if userid equal three return true else call create procedure
+    - create else if id less than or equal eight return true else call send procedure
+    - create else if num less than one return true else call check procedure
+    - create else if age less than or equal four return false else call write procedure
+    - create else if department less than or equal six return true else call delete procedure
+    - create else if hospital less than ten return false else call build procedure    
+    - create else if main greater than four call contain procedure else return true
+    - create else if master equal two call increment procedure else return false
+    - create else if size less than or equal ten call put procedure else return true
+    - create else if height not equal three call change procedure else return false
+    - create else if weight greater than or equal five call append procedure else return true
+    - create else if bag less than or equal three call controller procedure else return true
+    - create else if can equal four call subtract procedure else return false
+    - create else if computer not equal eight call subtract procedure else return false
+    - create else if phone less than seven call repository procedure else return true
+    - create else if laptop less than four call append procedure else return false
+    - create else if mobilephone equal nine call modulus procedure else return true
+    - create else if smartphone not equal ten call buy procedure else return false
+    - create else if phonenumber less than nine call repository procedure else return false
+    - create else if contactnumber equal nine call append procedure else return true
+    - create else if address greater than or equal five call repository procedure else return true
+    - create else if location less than or equal eight call write procedure else return false
+    - create else if email not equal nine call receive procedure else return false
+    - create else if contact equal eight call display procedure else return false
+    - create else if emailaddress greater than or equal one call show procedure else return true
+    - create else if mouse less than one call buy procedure else return true
+    - create else if keyboard less than or equal six call find procedure else return true
+    - create else if screen equal nine call work procedure else return false
+    - create else if touchscreen less than ten call controller procedure else return true
+    - create else if fruit greater than five call calc procedure else return false
+    - create else if food less than or equal nine call output procedure else return false
+    - create else if vegetable equal nine call find procedure else return false
+    - create else if eatables less than four call get procedure else return false
+    - create else if price less than nine call move procedure else return false
+    - create else if cost less than or equal four call add procedure else return true
+    - create else if sum not equal six call input procedure else return false
+    - create else if addition equal five call spec procedure else return false
+    - create else if a greater than or equal four call send procedure else return false
+    - create else if b less than or equal five call call procedure else return true
+    - create else if c greater than eight call update procedure else return true
+    - create else if p not equal four call move procedure else return false
+    - create else if q less than or equal three call create procedure else return false
+    - create else if r greater than three call update procedure else return true
+    - create else if s greater than two call result procedure else return true
+    - create else if x greater than or equal ten call result procedure else return true
+    - create else if y greater than seven call clean procedure else return false
+    - create else if z less than or equal seven call repository procedure else return false
+    - create else if result greater than or equal six call multiply procedure else return true
+    - create else if user less than five call valid procedure else return false
+    - create else if userid greater than nine call run procedure else return false
+    - create else if id not equal five call increment procedure else return false
+    - create else if num greater than or equal two call max procedure else return false
+    - create else if age not equal one call repo procedure else return true
+    - create else if department less than or equal ten call controller procedure else return false
+    - create else if hospital greater than one call clear procedure else return true
+    - create else if wheel equal three call call procedure else return false    
+    - create else if main equal ten return false
+    - create else if master greater than or equal one return false
+    - create else if size less than or equal nine return false
+    - create else if height greater than eight return true
+    - create else if weight greater than or equal eight return true
+    - create else if bag less than five return false
+    - create else if can not equal ten return true
+    - create else if computer equal three return false
+    - create else if phone greater than one return true
+    - create else if laptop less than or equal ten return false
+    - create else if mobilephone greater than or equal two return true
+    - create else if smartphone less than or equal two return true
+    - create else if phonenumber not equal eight return true
+    - create else if contactnumber greater than or equal one return false
+    - create else if address greater than or equal ten return true
+    - create else if location less than or equal five return true
+    - create else if email greater than nine return false
+    - create else if contact not equal six return true
+    - create else if emailaddress less than four return true
+    - create else if mouse less than two return false
+    - create else if keyboard not equal five return false
+    - create else if screen less than six return true
+    - create else if touchscreen greater than three return true
+    - create else if fruit less than six return true
+    - create else if food less than or equal three return true
+    - create else if vegetable equal nine return true
+    - create else if eatables not equal six return false
+    - create else if price greater than or equal one return true
+    - create else if cost less than or equal seven return true
+    - create else if sum less than three return false
+    - create else if addition equal two return false
+    - create else if a greater than three return true
+    - create else if b not equal nine return true
+    - create else if c less than four return false
+    - create else if p greater than seven return false
+    - create else if q greater than or equal one return true
+    - create else if r greater than or equal eight return false
+    - create else if s not equal seven return false
+    - create else if x less than or equal nine return false
+    - create else if y less than four return false
+    - create else if z equal seven return true
+    - create else if answer greater than six return false
+    - create else if result equal nine return true
+    - create else if user less than six return false
+    - create else if userid less than or equal ten return true
+    - create else if id less than ten return false
+    - create else if num greater than or equal one return false
+    - create else if age greater than or equal one return true
+    - create else if department equal five return true
+    - create else if hospital greater than or equal two return false    
+    - create else if main equal ten call append method
+    - create else if master greater than nine call minus method
+    - create else if size greater than ten call remove method
+    - create else if height greater than or equal seven call decrement method
+    - create else if weight equal seven call select method
+    - create else if bag greater than or equal eight call increment method
+    - create else if can less than or equal nine call move method
+    - create else if computer equal six call rebuild method
+    - create else if phone greater than ten call display method
+    - create else if laptop greater than eight call put method
+    - create else if mobilephone less than or equal two call write method
+    - create else if smartphone not equal seven call remove method
+    - create else if phonenumber greater than or equal nine call create method
+    - create else if contactnumber greater than or equal two call clear method
+    - create else if address less than ten call append method
+    - create else if location less than two call view method
+    - create else if email less than or equal two call input method
+    - create else if contact greater than three call call method
+    - create else if emailaddress greater than five call multiply method
+    - create else if mouse greater than three call run method
+    - create else if keyboard less than seven call find method
+    - create else if screen not equal ten call reset method
+    - create else if touchscreen less than nine call modulus method
+    - create else if fruit greater than six call run method
+    - create else if food not equal eight call move method
+    - create else if vegetable less than or equal eight call build method
+    - create else if eatables less than four call set method
+    - create else if price greater than or equal one call put method
+    - create else if cost less than or equal six call show method
+    - create else if sum greater than seven call repository method
+    - create else if addition equal seven call update method
+    - create else if a less than or equal five call decrement method
+    - create else if b not equal six call answer method
+    - create else if c less than seven call build method
+    - create else if p greater than seven call multiply method
+    - create else if q greater than or equal five call addition method
+    - create else if r equal four call answer method
+    - create else if s less than four call create method
+    - create else if x not equal six call addition method
+    - create else if y not equal nine call add method
+    - create else if z less than or equal five call put method
+    - create else if answer greater than eight call repository method
+    - create else if result greater than or equal one call update method
+    - create else if user less than one call addition method
+    - create else if userid equal five call get method
+    - create else if id less than one call spec method
+    - create else if num not equal seven call controller method
+    - create else if age greater than or equal five call write method
+    - create else if department less than or equal ten call input method
+    - create else if hospital greater than six call display method    
+    - create else if main equal ten call append function
+    - create else if master greater than nine call minus function
+    - create else if size greater than ten call remove function
+    - create else if height greater than or equal seven call decrement function
+    - create else if weight equal seven call select function
+    - create else if bag greater than or equal eight call increment function
+    - create else if can less than or equal nine call move function
+    - create else if computer equal six call rebuild function
+    - create else if phone greater than ten call display function
+    - create else if laptop greater than eight call put function
+    - create else if mobilephone less than or equal two call write function
+    - create else if smartphone not equal seven call remove function
+    - create else if phonenumber greater than or equal nine call create function
+    - create else if contactnumber greater than or equal two call clear function
+    - create else if address less than ten call append function
+    - create else if location less than two call view function
+    - create else if email less than or equal two call input function
+    - create else if contact greater than three call call function
+    - create else if emailaddress greater than five call multiply function
+    - create else if mouse greater than three call run function
+    - create else if keyboard less than seven call find function
+    - create else if screen not equal ten call reset function
+    - create else if touchscreen less than nine call modulus function
+    - create else if fruit greater than six call run function
+    - create else if food not equal eight call move function
+    - create else if vegetable less than or equal eight call build function
+    - create else if eatables less than four call set function
+    - create else if price greater than or equal one call put function
+    - create else if cost less than or equal six call show function
+    - create else if sum greater than seven call repository function
+    - create else if addition equal seven call update function
+    - create else if a less than or equal five call decrement function
+    - create else if b not equal six call answer function
+    - create else if c less than seven call build function
+    - create else if p greater than seven call multiply function
+    - create else if q greater than or equal five call addition function
+    - create else if r equal four call answer function
+    - create else if s less than four call create function
+    - create else if x not equal six call addition function
+    - create else if y not equal nine call add function
+    - create else if z less than or equal five call put function
+    - create else if answer greater than eight call repository function
+    - create else if result greater than or equal one call update function
+    - create else if user less than one call addition function
+    - create else if userid equal five call get function
+    - create else if id less than one call spec function
+    - create else if num not equal seven call controller function
+    - create else if age greater than or equal five call write function
+    - create else if department less than or equal ten call input function
+    - create else if hospital greater than six call display function    
+    - create else if main equal ten call append procedure
+    - create else if master greater than nine call minus procedure
+    - create else if size greater than ten call remove procedure
+    - create else if height greater than or equal seven call decrement procedure
+    - create else if weight equal seven call select procedure
+    - create else if bag greater than or equal eight call increment procedure
+    - create else if can less than or equal nine call move procedure
+    - create else if computer equal six call rebuild procedure
+    - create else if phone greater than ten call display procedure
+    - create else if laptop greater than eight call put procedure
+    - create else if mobilephone less than or equal two call write procedure
+    - create else if smartphone not equal seven call remove procedure
+    - create else if phonenumber greater than or equal nine call create procedure
+    - create else if contactnumber greater than or equal two call clear procedure
+    - create else if address less than ten call append procedure
+    - create else if location less than two call view procedure
+    - create else if email less than or equal two call input procedure
+    - create else if contact greater than three call call procedure
+    - create else if emailaddress greater than five call multiply procedure
+    - create else if mouse greater than three call run procedure
+    - create else if keyboard less than seven call find procedure
+    - create else if screen not equal ten call reset procedure
+    - create else if touchscreen less than nine call modulus procedure
+    - create else if fruit greater than six call run procedure
+    - create else if food not equal eight call move procedure
+    - create else if vegetable less than or equal eight call build procedure
+    - create else if eatables less than four call set procedure
+    - create else if price greater than or equal one call put procedure
+    - create else if cost less than or equal six call show procedure
+    - create else if sum greater than seven call repository procedure
+    - create else if addition equal seven call update procedure
+    - create else if a less than or equal five call decrement procedure
+    - create else if b not equal six call answer procedure
+    - create else if c less than seven call build procedure
+    - create else if p greater than seven call multiply procedure
+    - create else if q greater than or equal five call addition procedure
+    - create else if r equal four call answer procedure
+    - create else if s less than four call create procedure
+    - create else if x not equal six call addition procedure
+    - create else if y not equal nine call add procedure
+    - create else if z less than or equal five call put procedure
+    - create else if answer greater than eight call repository procedure
+    - create else if result greater than or equal one call update procedure
+    - create else if user less than one call addition procedure
+    - create else if userid equal five call get procedure
+    - create else if id less than one call spec procedure
+    - create else if num not equal seven call controller procedure
+    - create else if age greater than or equal five call write procedure
+    - create else if department less than or equal ten call input procedure
+    - create else if hospital greater than six call display procedure
+    
+
+# ADDED TO NLU/TEST

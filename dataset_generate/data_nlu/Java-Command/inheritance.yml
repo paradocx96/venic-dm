@@ -1,0 +1,170 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createextends
+  examples: |
+    - main class inherits computer class
+    - master class inherits repository class
+    - size class inherits department class
+    - height class inherits api class
+    - weight class inherits main class
+    - bag class inherits age class
+    - util class inherits bus class
+    - utility class inherits department class
+    - can class inherits model class
+    - phone class inherits repository class
+    - laptop class inherits bike class
+    - repository class inherits age class
+    - api class inherits util class
+    - controller class inherits addition class
+    - smartphone class inherits phone class
+    - mobile class inherits white class
+    - service class inherits price class
+    - model class inherits price class
+    - contact class inherits mobile class
+    - repo class inherits computer class
+    - address class inherits seat class
+    - location class inherits glass class
+    - email class inherits mouse class
+    - black class inherits seat class
+    - mouse class inherits bag class
+    - screen class inherits laptop class
+    - touch class inherits hospital class
+    - fruit class inherits location class
+    - food class inherits controller class
+    - vegetable class inherits email class
+    - eatables class inherits controller class
+    - price class inherits id class
+    - cost class inherits price class
+    - sum class inherits department class
+    - addition class inherits screen class
+    - answer class inherits sum class
+    - result class inherits addition class
+    - user class inherits touch class
+    - id class inherits sum class
+    - num class inherits email class
+    - age class inherits phone class
+    - department class inherits model class
+    - van class inherits hospital class
+    - hospital class inherits user class
+    - wheel class inherits bike class
+    - seat class inherits bus class
+    - car class inherits wheel class
+    - bus class inherits age class
+    - bike class inherits department class
+    - glass class inherits department class
+    - red class inherits cost class
+    - white class inherits smartphone class
+    - blue class inherits food class
+    - main class extends util class
+    - master class extends smartphone class
+    - size class extends glass class
+    - height class extends model class
+    - weight class extends food class
+    - bag class extends blue class
+    - util class extends address class
+    - utility class extends model class
+    - can class extends weight class
+    - computer class extends vegetable class
+    - phone class extends main class
+    - laptop class extends service class
+    - repository class extends utility class
+    - api class extends glass class
+    - controller class extends keyboard class
+    - smartphone class extends phone class
+    - mobile class extends car class
+    - service class extends age class
+    - model class extends white class
+    - contact class extends blue class
+    - repo class extends seat class
+    - address class extends black class
+    - location class extends price class
+    - email class extends van class
+    - black class extends age class
+    - mouse class extends weight class
+    - keyboard class extends bag class
+    - screen class extends height class
+    - touch class extends phone class
+    - fruit class extends mouse class
+    - food class extends van class
+    - vegetable class extends white class
+    - eatables class extends bag class
+    - price class extends weight class
+    - cost class extends model class
+    - sum class extends blue class
+    - addition class extends price class
+    - answer class extends seat class
+    - result class extends car class
+    - user class extends api class
+    - id class extends laptop class
+    - num class extends model class
+    - department class extends email class
+    - van class extends location class
+    - hospital class extends touch class
+    - wheel class extends blue class
+    - seat class extends controller class
+    - car class extends glass class
+    - bus class extends smartphone class
+    - bike class extends food class
+    - glass class extends utility class
+    - red class extends can class
+    - white class extends bus class
+    - blue class extends car class
+    - extends main class in can class
+    - extends master class in model class
+    - extends size class in service class
+    - extends height class in white class
+    - extends weight class in phone class
+    - extends bag class in keyboard class
+    - extends util class in mobile class
+    - extends utility class in service class
+    - extends can class in repository class
+    - extends computer class in user class
+    - extends phone class in eatables class
+    - extends repository class in white class
+    - extends api class in fruit class
+    - extends controller class in computer class
+    - extends smartphone class in bus class
+    - extends mobile class in can class
+    - extends service class in red class
+    - extends model class in seat class
+    - extends contact class in mouse class
+    - extends repo class in bag class
+    - extends address class in seat class
+    - extends location class in email class
+    - extends email class in bag class
+    - extends black class in cost class
+    - extends mouse class in smartphone class
+    - extends keyboard class in utility class
+    - extends screen class in eatables class
+    - extends touch class in screen class
+    - extends fruit class in utility class
+    - extends food class in size class
+    - extends vegetable class in api class
+    - extends eatables class in contact class
+    - extends price class in department class
+    - extends cost class in user class
+    - extends sum class in food class
+    - extends addition class in controller class
+    - extends answer class in van class
+    - extends result class in repository class
+    - extends user class in van class
+    - extends id class in department class
+    - extends num class in mobile class
+    - extends age class in email class
+    - extends department class in location class
+    - extends van class in utility class
+    - extends hospital class in wheel class
+    - extends wheel class in blue class
+    - extends seat class in laptop class
+    - extends car class in blue class
+    - extends bus class in util class
+    - extends bike class in blue class
+    - extends glass class in car class
+    - extends red class in repo class
+    - extends white class in glass class
+    - extends blue class in laptop class
+
+
+# ADDED TO NLU/TEST

@@ -1,0 +1,824 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createinterface
+  examples: |    
+    - create new java interface [main](name)
+    - create new java interface [master](name)
+    - create new java interface [size](name)
+    - create new java interface [height](name)
+    - create new java interface [weight](name)
+    - create new java interface [bag](name)
+    - create new java interface [util](name)
+    - create new java interface [utility](name)
+    - create new java interface [can](name)
+    - create new java interface [computer](name)
+    - create new java interface [phone](name)
+    - create new java interface [laptop](name)
+    - create new java interface [repository](name)
+    - create new java interface [api](name)
+    - create new java interface [controller](name)
+    - create new java interface [mobilephone](name)
+    - create new java interface [smartphone](name)
+    - create new java interface [mobile](name)
+    - create new java interface [service](name)
+    - create new java interface [model](name)
+    - create new java interface [repo](name)
+    - create new java interface [address](name)
+    - create new java interface [location](name)
+    - create new java interface [email](name)
+    - create new java interface [contact](name)
+    - create new java interface [mouse](name)
+    - create new java interface [keyboard](name)
+    - create new java interface [screen](name)
+    - create new java interface [touch](name)
+    - create new java interface [fruit](name)
+    - create new java interface [food](name)
+    - create new java interface [vegetable](name)
+    - create new java interface [eatables](name)
+    - create new java interface [price](name)
+    - create new java interface [cost](name)
+    - create new java interface [sum](name)
+    - create new java interface [addition](name)
+    - create new java interface [answer](name)
+    - create new java interface [result](name)
+    - create new java interface [user](name)
+    - create new java interface [userid](name)
+    - create new java interface [id](name)
+    - create new java interface [num](name)
+    - create new java interface [age](name)
+    - create new java interface [department](name)
+    - create new java interface [hospital](name)
+    - create new java interface [wheel](name)
+    - create new java interface [seat](name)
+    - create new java interface [car](name)
+    - create new java interface [bus](name)
+    - create new java interface [van](name)
+    - create new java interface [bike](name)
+    - create new java interface [glass](name)
+    - create new java interface [red](name)
+    - create new java interface [black](name)
+    - create new java interface [white](name)
+    - create new java interface [blue](name)
+    - create new java interface [a](name)
+    - create new java interface [b](name)
+    - create new java interface [c](name)
+    - create new java interface [p](name)
+    - create new java interface [q](name)
+    - create new java interface [r](name)
+    - create new java interface [s](name)
+    - create new java interface [x](name)
+    - create new java interface [y](name)
+    - create new java interface [z](name)
+    - create interface named [main](name)
+    - create interface named [master](name)
+    - create interface named [size](name)
+    - create interface named [height](name)
+    - create interface named [weight](name)
+    - create interface named [bag](name)
+    - create interface named [util](name)
+    - create interface named [utility](name)
+    - create interface named [can](name)
+    - create interface named [computer](name)
+    - create interface named [phone](name)
+    - create interface named [laptop](name)
+    - create interface named [repository](name)
+    - create interface named [api](name)
+    - create interface named [controller](name)
+    - create interface named [mobilephone](name)
+    - create interface named [smartphone](name)
+    - create interface named [mobile](name)
+    - create interface named [service](name)
+    - create interface named [model](name)
+    - create interface named [repo](name)
+    - create interface named [address](name)
+    - create interface named [location](name)
+    - create interface named [email](name)
+    - create interface named [contact](name)
+    - create interface named [mouse](name)
+    - create interface named [keyboard](name)
+    - create interface named [screen](name)
+    - create interface named [touch](name)
+    - create interface named [fruit](name)
+    - create interface named [food](name)
+    - create interface named [vegetable](name)
+    - create interface named [eatables](name)
+    - create interface named [price](name)
+    - create interface named [cost](name)
+    - create interface named [sum](name)
+    - create interface named [addition](name)
+    - create interface named [answer](name)
+    - create interface named [result](name)
+    - create interface named [user](name)
+    - create interface named [userid](name)
+    - create interface named [id](name)
+    - create interface named [num](name)
+    - create interface named [age](name)
+    - create interface named [department](name)
+    - create interface named [hospital](name)
+    - create interface named [wheel](name)
+    - create interface named [seat](name)
+    - create interface named [car](name)
+    - create interface named [bus](name)
+    - create interface named [van](name)
+    - create interface named [bike](name)
+    - create interface named [glass](name)
+    - create interface named [red](name)
+    - create interface named [black](name)
+    - create interface named [white](name)
+    - create interface named [blue](name)
+    - create interface named [a](name)
+    - create interface named [b](name)
+    - create interface named [c](name)
+    - create interface named [p](name)
+    - create interface named [q](name)
+    - create interface named [r](name)
+    - create interface named [s](name)
+    - create interface named [x](name)
+    - create interface named [y](name)
+    - create interface named [z](name)
+    - create interface [main](name)
+    - create interface [master](name)
+    - create interface [size](name)
+    - create interface [height](name)
+    - create interface [weight](name)
+    - create interface [bag](name)
+    - create interface [util](name)
+    - create interface [utility](name)
+    - create interface [can](name)
+    - create interface [computer](name)
+    - create interface [phone](name)
+    - create interface [laptop](name)
+    - create interface [repository](name)
+    - create interface [api](name)
+    - create interface [controller](name)
+    - create interface [mobilephone](name)
+    - create interface [smartphone](name)
+    - create interface [mobile](name)
+    - create interface [service](name)
+    - create interface [model](name)
+    - create interface [repo](name)
+    - create interface [address](name)
+    - create interface [location](name)
+    - create interface [email](name)
+    - create interface [contact](name)
+    - create interface [mouse](name)
+    - create interface [keyboard](name)
+    - create interface [screen](name)
+    - create interface [touch](name)
+    - create interface [fruit](name)
+    - create interface [food](name)
+    - create interface [vegetable](name)
+    - create interface [eatables](name)
+    - create interface [price](name)
+    - create interface [cost](name)
+    - create interface [sum](name)
+    - create interface [addition](name)
+    - create interface [answer](name)
+    - create interface [result](name)
+    - create interface [user](name)
+    - create interface [userid](name)
+    - create interface [id](name)
+    - create interface [num](name)
+    - create interface [age](name)
+    - create interface [department](name)
+    - create interface [hospital](name)
+    - create interface [wheel](name)
+    - create interface [seat](name)
+    - create interface [car](name)
+    - create interface [bus](name)
+    - create interface [van](name)
+    - create interface [bike](name)
+    - create interface [glass](name)
+    - create interface [red](name)
+    - create interface [black](name)
+    - create interface [white](name)
+    - create interface [blue](name)
+    - create interface [a](name)
+    - create interface [b](name)
+    - create interface [c](name)
+    - create interface [p](name)
+    - create interface [q](name)
+    - create interface [r](name)
+    - create interface [s](name)
+    - create interface [x](name)
+    - create interface [y](name)
+    - create interface [z](name)
+
+- intent: openinterface
+  examples: |    
+    - open java interface [main](name)
+    - open java interface [master](name)
+    - open java interface [size](name)
+    - open java interface [height](name)
+    - open java interface [weight](name)
+    - open java interface [bag](name)
+    - open java interface [util](name)
+    - open java interface [utility](name)
+    - open java interface [can](name)
+    - open java interface [computer](name)
+    - open java interface [phone](name)
+    - open java interface [laptop](name)
+    - open java interface [repository](name)
+    - open java interface [api](name)
+    - open java interface [controller](name)
+    - open java interface [mobilephone](name)
+    - open java interface [smartphone](name)
+    - open java interface [mobile](name)
+    - open java interface [service](name)
+    - open java interface [model](name)
+    - open java interface [repo](name)
+    - open java interface [address](name)
+    - open java interface [location](name)
+    - open java interface [email](name)
+    - open java interface [contact](name)
+    - open java interface [mouse](name)
+    - open java interface [keyboard](name)
+    - open java interface [screen](name)
+    - open java interface [touch](name)
+    - open java interface [fruit](name)
+    - open java interface [food](name)
+    - open java interface [vegetable](name)
+    - open java interface [eatables](name)
+    - open java interface [price](name)
+    - open java interface [cost](name)
+    - open java interface [sum](name)
+    - open java interface [addition](name)
+    - open java interface [answer](name)
+    - open java interface [result](name)
+    - open java interface [user](name)
+    - open java interface [userid](name)
+    - open java interface [id](name)
+    - open java interface [num](name)
+    - open java interface [age](name)
+    - open java interface [department](name)
+    - open java interface [hospital](name)
+    - open java interface [wheel](name)
+    - open java interface [seat](name)
+    - open java interface [car](name)
+    - open java interface [bus](name)
+    - open java interface [van](name)
+    - open java interface [bike](name)
+    - open java interface [glass](name)
+    - open java interface [red](name)
+    - open java interface [black](name)
+    - open java interface [white](name)
+    - open java interface [blue](name)
+    - open java interface [a](name)
+    - open java interface [b](name)
+    - open java interface [c](name)
+    - open java interface [p](name)
+    - open java interface [q](name)
+    - open java interface [r](name)
+    - open java interface [s](name)
+    - open java interface [x](name)
+    - open java interface [y](name)
+    - open java interface [z](name)
+    - open interface [main](name)
+    - open interface [master](name)
+    - open interface [size](name)
+    - open interface [height](name)
+    - open interface [weight](name)
+    - open interface [bag](name)
+    - open interface [util](name)
+    - open interface [utility](name)
+    - open interface [can](name)
+    - open interface [computer](name)
+    - open interface [phone](name)
+    - open interface [laptop](name)
+    - open interface [repository](name)
+    - open interface [api](name)
+    - open interface [controller](name)
+    - open interface [mobilephone](name)
+    - open interface [smartphone](name)
+    - open interface [mobile](name)
+    - open interface [service](name)
+    - open interface [model](name)
+    - open interface [repo](name)
+    - open interface [address](name)
+    - open interface [location](name)
+    - open interface [email](name)
+    - open interface [contact](name)
+    - open interface [mouse](name)
+    - open interface [keyboard](name)
+    - open interface [screen](name)
+    - open interface [touch](name)
+    - open interface [fruit](name)
+    - open interface [food](name)
+    - open interface [vegetable](name)
+    - open interface [eatables](name)
+    - open interface [price](name)
+    - open interface [cost](name)
+    - open interface [sum](name)
+    - open interface [addition](name)
+    - open interface [answer](name)
+    - open interface [result](name)
+    - open interface [user](name)
+    - open interface [userid](name)
+    - open interface [id](name)
+    - open interface [num](name)
+    - open interface [age](name)
+    - open interface [department](name)
+    - open interface [hospital](name)
+    - open interface [wheel](name)
+    - open interface [seat](name)
+    - open interface [car](name)
+    - open interface [bus](name)
+    - open interface [van](name)
+    - open interface [bike](name)
+    - open interface [glass](name)
+    - open interface [red](name)
+    - open interface [black](name)
+    - open interface [white](name)
+    - open interface [blue](name)
+    - open interface [a](name)
+    - open interface [b](name)
+    - open interface [c](name)
+    - open interface [p](name)
+    - open interface [q](name)
+    - open interface [r](name)
+    - open interface [s](name)
+    - open interface [x](name)
+    - open interface [y](name)
+    - open interface [z](name)
+    - open [main](name) interface
+    - open [master](name) interface
+    - open [size](name) interface
+    - open [height](name) interface
+    - open [weight](name) interface
+    - open [bag](name) interface
+    - open [util](name) interface
+    - open [utility](name) interface
+    - open [can](name) interface
+    - open [computer](name) interface
+    - open [phone](name) interface
+    - open [laptop](name) interface
+    - open [repository](name) interface
+    - open [api](name) interface
+    - open [controller](name) interface
+    - open [mobilephone](name) interface
+    - open [smartphone](name) interface
+    - open [mobile](name) interface
+    - open [service](name) interface
+    - open [model](name) interface
+    - open [repo](name) interface
+    - open [address](name) interface
+    - open [location](name) interface
+    - open [email](name) interface
+    - open [contact](name) interface
+    - open [mouse](name) interface
+    - open [keyboard](name) interface
+    - open [screen](name) interface
+    - open [touch](name) interface
+    - open [fruit](name) interface
+    - open [food](name) interface
+    - open [vegetable](name) interface
+    - open [eatables](name) interface
+    - open [price](name) interface
+    - open [cost](name) interface
+    - open [sum](name) interface
+    - open [addition](name) interface
+    - open [answer](name) interface
+    - open [result](name) interface
+    - open [user](name) interface
+    - open [userid](name) interface
+    - open [id](name) interface
+    - open [num](name) interface
+    - open [age](name) interface
+    - open [department](name) interface
+    - open [hospital](name) interface
+    - open [wheel](name) interface
+    - open [seat](name) interface
+    - open [car](name) interface
+    - open [bus](name) interface
+    - open [van](name) interface
+    - open [bike](name) interface
+    - open [glass](name) interface
+    - open [red](name) interface
+    - open [black](name) interface
+    - open [white](name) interface
+    - open [blue](name) interface
+    - open [a](name) interface
+    - open [b](name) interface
+    - open [c](name) interface
+    - open [p](name) interface
+    - open [q](name) interface
+    - open [r](name) interface
+    - open [s](name) interface
+    - open [x](name) interface
+    - open [y](name) interface
+    - open [z](name) interface
+
+- intent: createinterfaceunknown
+  examples: |
+    - create a new java interface file
+    - create a new java interface
+    - create new java interface file
+    - create new java interface
+    - create a java interface file
+    - create java interface file
+    - create a new interface file
+    - create a new interface
+    - create new interface file
+    - create new interface
+    - create a interface file
+    - create a interface
+    - create interface file
+    - create interface
+
+- intent: editinterface
+  examples: |
+    - edit interface named main to master
+    - edit interface named size to height
+    - edit interface named height to size
+    - edit interface named weight to height
+    - edit interface named bag to can
+    - edit interface named computer to phone
+    - edit interface named laptop to phone
+    - edit interface named phone to computer
+    - edit interface named mobile phone to smartphone
+    - edit interface named phone number to contact number
+    - edit interface named address to location
+    - edit interface named email to contact
+    - edit interface named email address to phone number
+    - edit interface named mouse to keyboard
+    - edit interface named screen to touchscreen
+    - edit interface named fruit to food
+    - edit interface named vegetable to fruit
+    - edit interface named food to eatables
+    - edit interface named price to cost
+    - edit interface named sum to addition
+    - edit interface named result to answer
+    - edit interface named a to c
+    - edit interface named b to k
+    - edit interface named answer to result
+    - edit interface name main to master
+    - edit interface name size to height
+    - edit interface name height to size
+    - edit interface name weight to height
+    - edit interface name bag to can
+    - edit interface name computer to phone
+    - edit interface name laptop to phone
+    - edit interface name phone to computer
+    - edit interface name mobile phone to smartphone
+    - edit interface name phone number to contact number
+    - edit interface name address to location
+    - edit interface name email to contact
+    - edit interface name email address to phone number
+    - edit interface name mouse to keyboard
+    - edit interface name screen to touchscreen
+    - edit interface name fruit to food
+    - edit interface name vegetable to fruit
+    - edit interface name food to eatables
+    - edit interface name price to cost
+    - edit interface name sum to addition
+    - edit interface name result to answer
+    - edit interface name a to c
+    - edit interface name b to k
+    - edit interface name answer to result
+    - edit interface main to master
+    - edit interface size to height
+    - edit interface height to size
+    - edit interface weight to height
+    - edit interface bag to can
+    - edit interface computer to phone
+    - edit interface laptop to phone
+    - edit interface phone to computer
+    - edit interface mobile phone to smartphone
+    - edit interface phone number to contact number
+    - edit interface address to location
+    - edit interface email to contact
+    - edit interface email address to phone number
+    - edit interface mouse to keyboard
+    - edit interface screen to touchscreen
+    - edit interface fruit to food
+    - edit interface vegetable to fruit
+    - edit interface food to eatables
+    - edit interface price to cost
+    - edit interface sum to addition
+    - edit interface result to answer
+    - edit interface a to c
+    - edit interface b to k
+    - edit interface answer to result
+
+- intent: deleteinterface
+  examples: |
+    - delete interface named [main](name)
+    - delete interface named [master](name)
+    - delete interface named [size](name)
+    - delete interface named [height](name)
+    - delete interface named [weight](name)
+    - delete interface named [bag](name)
+    - delete interface named [can](name)
+    - delete interface named [car](name)
+    - delete interface named [van](name)
+    - delete interface named [user](name)
+    - delete interface named [hospital](name)
+    - delete interface named [department](name)
+    - delete interface named [computer](name)
+    - delete interface named [phone](name)
+    - delete interface named [laptop](name)
+    - delete interface named [mobile phone
+    - delete interface named [smartphone](name)
+    - delete interface named [phonenumber](name)
+    - delete interface named [contactnumber](name)
+    - delete interface named [address](name)
+    - delete interface named [location](name)
+    - delete interface named [email](name)
+    - delete interface named [contact](name)
+    - delete interface named [mouse](name)
+    - delete interface named [keyboard](name)
+    - delete interface named [screen](name)
+    - delete interface named [touchscreen](name)
+    - delete interface named [fruit](name)
+    - delete interface named [food](name)
+    - delete interface named [vegetable](name)
+    - delete interface named [fruit](name)
+    - delete interface named [food](name)
+    - delete interface named [eatables](name)
+    - delete interface named [price](name)
+    - delete interface named [cost](name)
+    - delete interface named [sum](name)
+    - delete interface named [addition](name)
+    - delete interface named [result](name)
+    - delete interface named [answer](name)
+    - delete interface named [a](name)
+    - delete interface named [b](name)
+    - delete interface named [c](name)
+    - delete interface named [d](name)
+    - delete interface named [e](name)
+    - delete interface named [k](name)
+    - delete interface [main](name)
+    - delete interface [master](name)
+    - delete interface [size](name)
+    - delete interface [height](name)
+    - delete interface [weight](name)
+    - delete interface [bag](name)
+    - delete interface [can](name)
+    - delete interface [car](name)
+    - delete interface [van](name)
+    - delete interface [user](name)
+    - delete interface [hospital](name)
+    - delete interface [department](name)
+    - delete interface [computer](name)
+    - delete interface [phone](name)
+    - delete interface [laptop](name)
+    - delete interface [mobile phone
+    - delete interface [smartphone](name)
+    - delete interface [phonenumber](name)
+    - delete interface [contactnumber](name)
+    - delete interface [address](name)
+    - delete interface [location](name)
+    - delete interface [email](name)
+    - delete interface [contact](name)
+    - delete interface [mouse](name)
+    - delete interface [keyboard](name)
+    - delete interface [screen](name)
+    - delete interface [touchscreen](name)
+    - delete interface [fruit](name)
+    - delete interface [food](name)
+    - delete interface [vegetable](name)
+    - delete interface [fruit](name)
+    - delete interface [food](name)
+    - delete interface [eatables](name)
+    - delete interface [price](name)
+    - delete interface [cost](name)
+    - delete interface [sum](name)
+    - delete interface [addition](name)
+    - delete interface [result](name)
+    - delete interface [answer](name)
+    - delete interface [a](name)
+    - delete interface [b](name)
+    - delete interface [c](name)
+    - delete interface [d](name)
+    - delete interface [e](name)
+    - delete interface [k](name)
+    - remove interface named [main](name)
+    - remove interface named [master](name)
+    - remove interface named [size](name)
+    - remove interface named [height](name)
+    - remove interface named [weight](name)
+    - remove interface named [bag](name)
+    - remove interface named [can](name)
+    - remove interface named [car](name)
+    - remove interface named [van](name)
+    - remove interface named [user](name)
+    - remove interface named [hospital](name)
+    - remove interface named [department](name)
+    - remove interface named [computer](name)
+    - remove interface named [phone](name)
+    - remove interface named [laptop](name)
+    - remove interface named [mobile phone
+    - remove interface named [smartphone](name)
+    - remove interface named [phonenumber](name)
+    - remove interface named [contactnumber](name)
+    - remove interface named [address](name)
+    - remove interface named [location](name)
+    - remove interface named [email](name)
+    - remove interface named [contact](name)
+    - remove interface named [mouse](name)
+    - remove interface named [keyboard](name)
+    - remove interface named [screen](name)
+    - remove interface named [touchscreen](name)
+    - remove interface named [fruit](name)
+    - remove interface named [food](name)
+    - remove interface named [vegetable](name)
+    - remove interface named [fruit](name)
+    - remove interface named [food](name)
+    - remove interface named [eatables](name)
+    - remove interface named [price](name)
+    - remove interface named [cost](name)
+    - remove interface named [sum](name)
+    - remove interface named [addition](name)
+    - remove interface named [result](name)
+    - remove interface named [answer](name)
+    - remove interface named [a](name)
+    - remove interface named [b](name)
+    - remove interface named [c](name)
+    - remove interface named [d](name)
+    - remove interface named [e](name)
+    - remove interface named [k](name)
+    - remove interface [main](name)
+    - remove interface [master](name)
+    - remove interface [size](name)
+    - remove interface [height](name)
+    - remove interface [weight](name)
+    - remove interface [bag](name)
+    - remove interface [can](name)
+    - remove interface [car](name)
+    - remove interface [van](name)
+    - remove interface [user](name)
+    - remove interface [hospital](name)
+    - remove interface [department](name)
+    - remove interface [computer](name)
+    - remove interface [phone](name)
+    - remove interface [laptop](name)
+    - remove interface [mobile phone
+    - remove interface [smartphone](name)
+    - remove interface [phonenumber](name)
+    - remove interface [contactnumber](name)
+    - remove interface [address](name)
+    - remove interface [location](name)
+    - remove interface [email](name)
+    - remove interface [contact](name)
+    - remove interface [mouse](name)
+    - remove interface [keyboard](name)
+    - remove interface [screen](name)
+    - remove interface [touchscreen](name)
+    - remove interface [fruit](name)
+    - remove interface [food](name)
+    - remove interface [vegetable](name)
+    - remove interface [fruit](name)
+    - remove interface [food](name)
+    - remove interface [eatables](name)
+    - remove interface [price](name)
+    - remove interface [cost](name)
+    - remove interface [sum](name)
+    - remove interface [addition](name)
+    - remove interface [result](name)
+    - remove interface [answer](name)
+    - remove interface [a](name)
+    - remove interface [b](name)
+    - remove interface [c](name)
+    - remove interface [d](name)
+    - remove interface [e](name)
+    - remove interface [k](name)
+
+
+
+- intent: implementinterface
+  examples: |
+    - implement interface main in glass class
+    - implement interface master in id class
+    - implement interface size in hospital class
+    - implement interface height in eatables class
+    - implement interface weight in mobilephone class
+    - implement interface bag in vegetable class
+    - implement interface util in glass class
+    - implement interface utility in phone class
+    - implement interface can in controller class
+    - implement interface computer in department class
+    - implement interface phone in c class
+    - implement interface laptop in id class
+    - implement interface api in vegetable class
+    - implement interface controller in c class
+    - implement interface mobilephone in p class
+    - implement interface smartphone in repository class
+    - implement interface mobile in size class
+    - implement interface service in master class
+    - implement interface model in glass class
+    - implement interface repo in computer class
+    - implement interface address in sum class
+    - implement interface location in black class
+    - implement interface email in y class
+    - implement interface contact in bag class
+    - implement interface mouse in computer class
+    - implement interface keyboard in size class
+    - implement interface screen in a class
+    - implement interface touch in food class
+    - implement interface fruit in black class
+    - implement interface food in phone class
+    - implement interface vegetable in phone class
+    - implement interface eatables in answer class
+    - implement interface price in weight class
+    - implement interface cost in hospital class
+    - implement interface sum in api class
+    - implement interface addition in touch class
+    - implement interface answer in red class
+    - implement interface result in repo class
+    - implement interface user in wheel class
+    - implement interface userid in num class
+    - implement interface id in utility class
+    - implement interface num in service class
+    - implement interface age in p class
+    - implement interface department in size class
+    - implement interface hospital in age class
+    - implement interface wheel in r class
+    - implement interface seat in van class
+    - implement interface car in blue class
+    - implement interface bus in mouse class
+    - implement interface van in answer class
+    - implement interface bike in util class
+    - implement interface glass in result class
+    - implement interface red in controller class
+    - implement interface black in computer class
+    - implement interface white in x class
+    - implement interface blue in keyboard class
+    - implement interface a in mobile class
+    - implement interface b in main class
+    - implement interface c in department class
+    - implement interface p in result class
+    - implement interface q in bag class
+    - implement interface r in laptop class
+    - implement interface s in repo class
+    - implement interface x in contact class
+    - implement interface y in q class
+    - implement interface z in black class
+    - main class implement interface height
+    - master class implement interface id
+    - size class implement interface s
+    - height class implement interface department
+    - weight class implement interface van
+    - bag class implement interface eatables
+    - util class implement interface q
+    - utility class implement interface price
+    - can class implement interface keyboard
+    - computer class implement interface price
+    - phone class implement interface mobilephone
+    - laptop class implement interface size
+    - repository class implement interface cost
+    - api class implement interface answer
+    - controller class implement interface repository
+    - mobilephone class implement interface y
+    - smartphone class implement interface result
+    - mobile class implement interface model
+    - service class implement interface mouse
+    - repo class implement interface master
+    - address class implement interface bus
+    - location class implement interface sum
+    - email class implement interface b
+    - contact class implement interface van
+    - mouse class implement interface user
+    - keyboard class implement interface r
+    - screen class implement interface fruit
+    - touch class implement interface food
+    - fruit class implement interface phone
+    - food class implement interface util
+    - vegetable class implement interface age
+    - eatables class implement interface white
+    - price class implement interface phone
+    - cost class implement interface z
+    - sum class implement interface repository
+    - addition class implement interface utility
+    - answer class implement interface van
+    - result class implement interface model
+    - user class implement interface s
+    - userid class implement interface weight
+    - id class implement interface service
+    - num class implement interface contact
+    - age class implement interface s
+    - department class implement interface sum
+    - hospital class implement interface van
+    - wheel class implement interface price
+    - seat class implement interface addition
+    - car class implement interface sum
+    - bus class implement interface x
+    - van class implement interface screen
+    - bike class implement interface email
+    - red class implement interface bike
+    - black class implement interface price
+    - white class implement interface fruit
+    - blue class implement interface age
+    - a class implement interface cost
+    - b class implement interface white
+    - c class implement interface sum
+    - p class implement interface controller
+    - q class implement interface white
+    - r class implement interface wheel
+    - x class implement interface cost
+    - y class implement interface answer
+    - z class implement interface height
+
+
+# ADDED TO NLU/TEST

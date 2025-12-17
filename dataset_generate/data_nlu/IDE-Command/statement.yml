@@ -1,0 +1,1500 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: deletestatement
+  examples: |
+    - delete line one
+    - delete line two
+    - delete line three
+    - delete line four
+    - delete line five
+    - delete line six
+    - delete line seven
+    - delete line eight
+    - delete line nine
+    - delete line ten
+    - delete line eleven
+    - delete line twelve
+    - delete line thirteen
+    - delete line fourteen
+    - delete line fifteen
+    - delete line sixteen
+    - delete line seventeen
+    - delete line eighteen
+    - delete line nineteen
+    - delete line twenty
+    - delete line twenty one
+    - delete line twenty two
+    - delete line twenty three
+    - delete line twenty four
+    - delete line twenty five
+    - delete line twenty six
+    - delete line twenty seven
+    - delete line twenty eight
+    - delete line twenty nine
+    - delete line thirty
+    - delete line thirty one
+    - delete line thirty two
+    - delete line thirty three
+    - delete line thirty four
+    - delete line thirty five
+    - delete line thirty six
+    - delete line thirty seven
+    - delete line thirty eight
+    - delete line thirty nine
+    - delete line forty
+    - delete line forty one
+    - delete line forty two
+    - delete line forty three
+    - delete line forty four
+    - delete line forty five
+    - delete line forty six
+    - delete line forty seven
+    - delete line forty eight
+    - delete line forty nine
+    - delete line fifty
+    - delete line fifty one
+    - delete line fifty two
+    - delete line fifty three
+    - delete line fifty four
+    - delete line fifty five
+    - delete line fifty six
+    - delete line fifty seven
+    - delete line fifty eight
+    - delete line fifty nine
+    - delete line sixty
+    - delete line sixty one
+    - delete line sixty two
+    - delete line sixty three
+    - delete line sixty four
+    - delete line sixty five
+    - delete line sixty six
+    - delete line sixty seven
+    - delete line sixty eight
+    - delete line sixty nine
+    - delete line seventy
+    - delete line seventy one
+    - delete line seventy two
+    - delete line seventy three
+    - delete line seventy four
+    - delete line seventy five
+    - delete line seventy six
+    - delete line seventy seven
+    - delete line seventy eight
+    - delete line seventy nine
+    - delete line eighty
+    - delete line eighty one
+    - delete line eighty two
+    - delete line eighty three
+    - delete line eighty four
+    - delete line eighty five
+    - delete line eighty six
+    - delete line eighty seven
+    - delete line eighty eight
+    - delete line eighty nine
+    - delete line ninety
+    - delete line ninety one
+    - delete line ninety two
+    - delete line ninety three
+    - delete line ninety four
+    - delete line ninety five
+    - delete line ninety six
+    - delete line ninety seven
+    - delete line ninety eight
+    - delete line ninety nine
+    - delete line one hundred    
+    - delete line one hundred thirty four
+    - delete line five hundred forty three
+    - delete line seven hundred eighty two
+    - delete line eight hundred sixty four
+    - delete line six hundred fifty four
+    - delete line two hundred thirty one
+    - delete line three hundred ninety eight
+    - delete line one thousand forty three
+    - delete line eight hundred eighty five
+    - delete line five hundred sixty one
+    - delete line six hundred forty three
+    - delete line nine hundred ninety four
+    - delete line eight hundred ninety seven
+    - delete line one thousand sixty six
+    - delete line six hundred fifty one
+    - delete line nine hundred thirty nine
+    - delete line three hundred forty seven
+    - delete line one thousand twenty one
+    - delete line six hundred thirty one
+    - delete line one thousand seventy eight
+    - delete line six hundred sixty eight
+    - delete line one hundred sixty five
+    - delete line nine hundred thirty five
+    - delete line six hundred eighty four
+    - delete line one hundred eighty one
+    - delete line nine hundred fifty six
+    - delete line two hundred sixty five
+    - delete line three hundred thirty six
+    - delete line one thousand thirty eight
+    - delete line three hundred seventy two
+    - delete line one hundred forty eight
+    - delete line one thousand eighty seven
+    - delete line nine hundred fifty seven
+    - delete line three hundred twenty five
+    - delete line six hundred forty four
+    - delete line eight hundred twenty five
+    - delete line four hundred eighty seven
+    - delete line three hundred ninety one
+    - delete line five hundred sixty seven
+    - delete line seven hundred sixty four
+    - delete line six hundred
+    - delete line one thousand twenty four
+    - delete line seven hundred sixty five
+    - delete line eight hundred sixty five
+    - delete line five hundred fifty eight
+    - delete line one thousand ninety eight
+    - delete line two hundred forty one
+    - delete line five hundred
+    - delete line seven hundred eighty four
+    - delete line seven hundred thirty four
+    - delete line six hundred eighty three
+    - delete line two hundred twenty nine
+    - delete line seven hundred
+    - delete line six hundred thirty nine
+    - delete line one thousand forty five
+    - delete line eight hundred ninety one
+    - delete line eight hundred fifty six
+    - delete line eight hundred fifty four
+    - delete line two hundred seventy four
+    - delete line six hundred thirty eight
+    - delete line six hundred thirty four
+    - delete line six hundred forty eight
+    - delete line two hundred forty six
+    - delete line one thousand forty one
+    - delete line one hundred fifty nine
+    - delete line three hundred eighty five
+    - delete line six hundred eighty three
+    - delete line five hundred ninety four
+    - delete line five hundred ninety nine
+    - delete line one hundred eighty five
+    - delete line one thousand
+    - delete line three hundred thirty three
+    - delete line two hundred thirty four
+    - delete line one hundred forty five
+    - delete line nine hundred thirty seven
+    - delete line three hundred twenty four
+    - delete line four hundred
+    - delete line four hundred thirty four
+    - delete line two hundred fifty one
+    - delete line seven hundred twenty nine
+    - delete line one hundred seventy five
+    - delete line seven hundred sixty seven
+    - delete line one thousand fifty eight
+    - delete line three hundred ninety six
+    - delete line eight hundred twenty nine
+    - delete line six hundred ninety one
+    - delete line three hundred
+    - delete line nine hundred seventy six
+    - delete line four hundred sixty six
+    - delete line six hundred seventy seven
+    - delete line eight hundred fifty two
+    - delete line five hundred eighty seven
+    - delete line eight hundred sixty seven
+    - delete line nine hundred
+    - delete line seven hundred thirty nine
+    - delete line seven hundred thirty one
+    - delete line seven hundred twenty one    
+    - delete line eight hundred and twenty eight
+    - delete line five hundred and twenty two
+    - delete line four hundred and ninety six
+    - delete line three hundred and thirty five
+    - delete line eight hundred and seventy nine
+    - delete line nine hundred and forty six
+    - delete line eight hundred and fifty three
+    - delete line nine hundred and seventy five
+    - delete line nine hundred and ninety nine
+    - delete line three hundred and forty six
+    - delete line three hundred and sixty six
+    - delete line two hundred and fifty five
+    - delete line six hundred and eighty one
+    - delete line nine hundred and thirty one
+    - delete line nine hundred and thirty nine
+    - delete line eight hundred and sixty four
+    - delete line eight hundred and forty four
+    - delete line four hundred and eighty three
+    - delete line eight hundred and seventy six
+    - delete line eight hundred and thirty one
+    - delete line six hundred and twenty one
+    - delete line five hundred and sixty seven
+    - delete line five hundred and twenty five
+    - delete line seven hundred and twenty nine
+    - delete line four hundred and seventy two
+    - delete line two hundred and twenty five
+    - delete line six hundred and twenty three
+    - delete line eight hundred and thirty three
+    - delete line four hundred and eighty five
+    - delete line one hundred and thirty six
+    - delete line eight hundred and eighty two
+    - delete line one hundred and thirty two
+    - delete line one thousand and seventy one
+    - delete line four hundred and twenty five
+    - delete line six hundred and forty four
+    - delete line seven hundred and forty three
+    - delete line seven hundred and ninety two
+    - delete line one thousand and sixty one
+    - delete line seven hundred and twenty seven
+    - delete line one hundred and forty two
+    - delete line nine hundred and thirty eight
+    - delete line one thousand and thirty eight
+    - delete line six hundred and seventy three
+    - delete line eight hundred and ninety five
+    - delete line three hundred and eighty seven
+    - delete line four hundred and twenty two
+    - delete line four hundred and ninety three
+    - delete line seven hundred and twenty six
+    - delete line seven hundred and seventy three
+    - delete line two hundred and fifty nine
+    - delete line nine hundred and thirty one
+    - delete line five hundred and forty six
+    - delete line one hundred and ninety two
+    - delete line five hundred and seventy five
+    - delete line four hundred and fifty one
+    - delete line seven hundred and thirty four
+    - delete line one hundred and fifty six
+    - delete line five hundred and eighty three
+    - delete line six hundred and twenty six
+    - delete line eight hundred and fifty two
+    - delete line four hundred and eighty three
+    - delete line six hundred and seventy two
+    - delete line three hundred and thirty three
+    - delete line four hundred and eighty three
+    - delete line five hundred and fifty three
+    - delete line six hundred and seventy one
+    - delete line three hundred and forty four
+    - delete line two hundred and seventy one
+    - delete line three hundred and forty eight
+    - delete line four hundred and twenty one
+    - delete line eight hundred and thirty two
+    - delete line two hundred and sixty two
+    - delete line seven hundred and thirty nine
+    - delete line three hundred and twenty six
+    - delete line eight hundred and sixty nine
+    - delete line three hundred and thirty seven
+    - delete line nine hundred and eighty five
+    - delete line six hundred and eighty nine
+    - delete line one hundred and twenty seven
+    - delete line one hundred and ninety four
+    - delete line five hundred and eighty two
+    - delete line six hundred and seventy five
+    - delete line six hundred and sixty nine
+    - delete line one thousand and ninety six
+    - delete line two hundred and sixty two
+    - delete line eight hundred and forty two    
+    - delete line seven thousand four hundred ninety nine
+    - delete line eight thousand six hundred
+    - delete line two thousand seven hundred thirty one
+    - delete line three thousand one hundred twenty two
+    - delete line six thousand five hundred
+    - delete line two thousand seven hundred twenty seven
+    - delete line nine thousand two hundred sixty six
+    - delete line one thousand eight hundred eighty eight
+    - delete line one thousand three hundred
+    - delete line nine thousand six hundred seventy nine
+    - delete line eight thousand six hundred forty one
+    - delete line nine thousand three hundred
+    - delete line one thousand nine hundred eighty eight
+    - delete line six thousand seven hundred ninety five
+    - delete line nine thousand nine hundred twenty seven
+    - delete line three thousand six hundred forty two
+    - delete line four thousand nine hundred fifty one
+    - delete line six thousand three hundred fifty six
+    - delete line one thousand seven hundred sixty one
+    - delete line nine thousand four hundred seventy eight
+    - delete line one thousand seven hundred forty one
+    - delete line one thousand three hundred eighty six
+    - delete line five thousand five hundred ninety nine
+    - delete line one thousand one thousand fifty eight
+    - delete line six thousand two hundred thirty two
+    - delete line four thousand five hundred thirty four
+    - delete line three thousand six hundred eighty eight
+    - delete line eight thousand one hundred fifty nine
+    - delete line four thousand four hundred fifty six
+    - delete line three thousand seven hundred
+    - delete line eight thousand six hundred seventy four
+    - delete line five thousand three hundred eighty four
+    - delete line three thousand nine hundred sixty five
+    - delete line eight thousand nine hundred sixty four
+    - delete line eight thousand four hundred forty three
+    - delete line seven thousand six hundred
+    - delete line one thousand nine hundred thirty three
+    - delete line eight thousand three hundred forty seven
+    - delete line six thousand two hundred twenty one
+    - delete line two thousand one thousand eighty four
+    - delete line nine thousand eight hundred
+    - delete line two thousand three hundred forty seven
+    - delete line one thousand one hundred eighty six
+    - delete line two thousand two hundred sixty two
+    - delete line five thousand five hundred forty nine
+    - delete line nine thousand nine hundred forty three
+    - delete line one thousand five hundred
+    - delete line two thousand eight hundred
+    - delete line five thousand eight hundred ninety nine
+    - delete line eight thousand one thousand ninety four
+    - delete line one thousand seven hundred thirty seven
+    - delete line nine thousand two hundred seventy four
+    - delete line four thousand six hundred eighty four
+    - delete line seven thousand one thousand ninety five
+    - delete line two thousand six hundred eighty three
+    - delete line one thousand three hundred sixty three
+    - delete line nine thousand two hundred thirty one
+    - delete line three thousand five hundred ninety two
+    - delete line nine thousand six hundred
+    - delete line two thousand four hundred thirty nine
+    - delete line four thousand three hundred seventy seven
+    - delete line one thousand one hundred forty one
+    - delete line seven thousand one thousand eighty three
+    - delete line three thousand five hundred sixty two
+    - delete line one thousand seven hundred
+    - delete line eight thousand nine hundred thirty two
+    - delete line eight thousand four hundred ninety eight
+    - delete line one thousand six hundred thirty six
+    - delete line one thousand nine hundred forty six
+    - delete line five thousand three hundred seventy seven
+    - delete line one thousand three hundred ninety seven
+    - delete line four thousand five hundred ninety eight
+    - delete line six thousand seven hundred sixty seven
+    - delete line two thousand one hundred forty five
+    - delete line nine thousand nine hundred ninety two
+    - delete line three thousand one thousand seventy two
+    - delete line nine thousand three hundred seventy two
+    - delete line nine thousand six hundred sixty four
+    - delete line one thousand five hundred
+    - delete line five thousand four hundred ninety five
+    - delete line two thousand two hundred sixty three
+    - delete line six thousand six hundred seventy seven
+    - delete line one thousand seven hundred sixty nine
+    - delete line five thousand one thousand fifty five
+    - delete line two thousand nine hundred fifty eight
+    - delete line six thousand one thousand twenty seven
+    - delete line three thousand one thousand sixty two
+    - delete line seven thousand four hundred seventy four
+    - delete line five thousand eight hundred thirty nine
+    - delete line one thousand three hundred eighty nine
+    - delete line one thousand one hundred fifty seven
+    - delete line four thousand eight hundred twenty one
+    - delete line four thousand one hundred fifty six
+    - delete line four thousand two hundred twenty three
+    - delete line one thousand nine hundred seventy three
+    - delete line one thousand eight hundred ninety one
+    - delete line two thousand three hundred seventy three
+    - delete line one thousand three hundred sixty six
+    - delete line four thousand four hundred forty one
+    - delete line seven thousand two hundred forty seven    
+    - delete line one thousand seven hundred and fifty nine
+    - delete line two thousand seven hundred and twenty nine
+    - delete line seven thousand four hundred and fifty two
+    - delete line six thousand seven hundred and twenty seven
+    - delete line nine thousand three hundred and eighty four
+    - delete line seven thousand nine hundred and forty one
+    - delete line four thousand five hundred and thirty two
+    - delete line three thousand three hundred and eighty eight
+    - delete line eight thousand three hundred and sixty one
+    - delete line six thousand eight hundred and seventy one
+    - delete line four thousand two hundred and ninety six
+    - delete line four thousand nine hundred and ninety two
+    - delete line six thousand one thousand and twenty seven
+    - delete line nine thousand two hundred and seventy two
+    - delete line two thousand four hundred and eighty four
+    - delete line one thousand five hundred and fifty six
+    - delete line four thousand six hundred and ninety four
+    - delete line nine thousand one thousand and sixty eight
+    - delete line one thousand nine hundred and forty three
+    - delete line six thousand six hundred and eighty three
+    - delete line five thousand two hundred and sixty eight
+    - delete line five thousand five hundred and seventy nine
+    - delete line three thousand six hundred and thirty six
+    - delete line eight thousand eight hundred and eighty eight
+    - delete line eight thousand nine hundred and thirty nine
+    - delete line seven thousand three hundred and sixty five
+    - delete line two thousand seven hundred and seventy nine
+    - delete line one thousand six hundred and seventy seven
+    - delete line seven thousand six hundred and sixty two
+    - delete line eight thousand six hundred and forty five
+    - delete line one thousand one hundred and eighty one
+    - delete line three thousand five hundred and eighty five
+    - delete line one thousand one hundred and twenty nine
+    - delete line four thousand three hundred and thirty six
+    - delete line five thousand three hundred and forty four
+    - delete line six thousand two hundred and twenty nine
+    - delete line one thousand one thousand and sixty six
+    - delete line four thousand two hundred and ninety five
+    - delete line seven thousand five hundred and eighty three
+    - delete line two thousand eight hundred and ninety seven
+    - delete line five thousand one hundred and fifty two
+    - delete line eight thousand eight hundred and sixty six
+    - delete line six thousand eight hundred and ninety five
+    - delete line eight thousand six hundred and sixty four
+    - delete line nine thousand one hundred and thirty eight
+    - delete line one thousand one thousand and sixty nine
+    - delete line one thousand nine hundred and ninety nine
+    - delete line six thousand one hundred and twenty four
+    - delete line seven thousand eight hundred and fifty two
+    - delete line four thousand four hundred and fifty five
+    - delete line seven thousand five hundred and thirty eight
+    - delete line four thousand six hundred and twenty two
+    - delete line one thousand five hundred and thirty four
+    - delete line seven thousand seven hundred and fifty six
+    - delete line three thousand one thousand and ninety seven
+    - delete line five thousand one hundred and forty eight
+    - delete line one thousand eight hundred and forty two
+    - delete line six thousand eight hundred and twenty one
+    - delete line eight thousand two hundred and thirty eight
+    - delete line one thousand nine hundred and forty nine
+    - delete line eight thousand one thousand and thirty two
+    - delete line nine thousand one hundred and ninety eight
+    - delete line two thousand four hundred and sixty eight
+    - delete line nine thousand nine hundred and eighty three
+    - delete line seven thousand four hundred and thirty eight
+    - delete line five thousand seven hundred and twenty three
+    - delete line eight thousand eight hundred and forty five
+    - delete line two thousand seven hundred and sixty eight
+    - delete line four thousand eight hundred and fifty two
+    - delete line one thousand seven hundred and twenty four
+    - delete line one thousand six hundred and fifty four
+    - delete line one thousand five hundred and thirty one
+    - delete line two thousand eight hundred and thirty nine
+    - delete line one thousand five hundred and forty six
+    - delete line four thousand three hundred and eighty one
+    - delete line eight thousand nine hundred and ninety one
+    - delete line four thousand two hundred and fifty seven
+    - delete line seven thousand eight hundred and seventy three
+    - delete line three thousand six hundred and ninety one
+    - delete line nine thousand three hundred and twenty seven
+    - delete line two thousand eight hundred and sixty five
+    - delete line one thousand nine hundred and forty five
+    - delete line one thousand two hundred and ninety one
+    - delete line one thousand two hundred and thirty three
+    - delete line five thousand five hundred and sixty three
+    - delete line four thousand five hundred and forty six
+    - delete line seven thousand one thousand and eighty seven
+    - delete line one thousand one thousand and ninety four
+    - delete line four thousand four hundred and forty two
+    - delete line eight thousand one thousand and seventy one
+    - delete line three thousand three hundred and eighty three
+
+- intent: cutstatement
+  examples: |    
+    - cut line one
+    - cut line two
+    - cut line three
+    - cut line four
+    - cut line five
+    - cut line six
+    - cut line seven
+    - cut line eight
+    - cut line nine
+    - cut line ten
+    - cut line eleven
+    - cut line twelve
+    - cut line thirteen
+    - cut line fourteen
+    - cut line fifteen
+    - cut line sixteen
+    - cut line seventeen
+    - cut line eighteen
+    - cut line nineteen
+    - cut line twenty
+    - cut line twenty one
+    - cut line twenty two
+    - cut line twenty three
+    - cut line twenty four
+    - cut line twenty five
+    - cut line twenty six
+    - cut line twenty seven
+    - cut line twenty eight
+    - cut line twenty nine
+    - cut line thirty
+    - cut line thirty one
+    - cut line thirty two
+    - cut line thirty three
+    - cut line thirty four
+    - cut line thirty five
+    - cut line thirty six
+    - cut line thirty seven
+    - cut line thirty eight
+    - cut line thirty nine
+    - cut line forty
+    - cut line forty one
+    - cut line forty two
+    - cut line forty three
+    - cut line forty four
+    - cut line forty five
+    - cut line forty six
+    - cut line forty seven
+    - cut line forty eight
+    - cut line forty nine
+    - cut line fifty
+    - cut line fifty one
+    - cut line fifty two
+    - cut line fifty three
+    - cut line fifty four
+    - cut line fifty five
+    - cut line fifty six
+    - cut line fifty seven
+    - cut line fifty eight
+    - cut line fifty nine
+    - cut line sixty
+    - cut line sixty one
+    - cut line sixty two
+    - cut line sixty three
+    - cut line sixty four
+    - cut line sixty five
+    - cut line sixty six
+    - cut line sixty seven
+    - cut line sixty eight
+    - cut line sixty nine
+    - cut line seventy
+    - cut line seventy one
+    - cut line seventy two
+    - cut line seventy three
+    - cut line seventy four
+    - cut line seventy five
+    - cut line seventy six
+    - cut line seventy seven
+    - cut line seventy eight
+    - cut line seventy nine
+    - cut line eighty
+    - cut line eighty one
+    - cut line eighty two
+    - cut line eighty three
+    - cut line eighty four
+    - cut line eighty five
+    - cut line eighty six
+    - cut line eighty seven
+    - cut line eighty eight
+    - cut line eighty nine
+    - cut line ninety
+    - cut line ninety one
+    - cut line ninety two
+    - cut line ninety three
+    - cut line ninety four
+    - cut line ninety five
+    - cut line ninety six
+    - cut line ninety seven
+    - cut line ninety eight
+    - cut line ninety nine
+    - cut line one hundred    
+    - cut line one hundred thirty four
+    - cut line five hundred forty three
+    - cut line seven hundred eighty two
+    - cut line eight hundred sixty four
+    - cut line six hundred fifty four
+    - cut line two hundred thirty one
+    - cut line three hundred ninety eight
+    - cut line one thousand forty three
+    - cut line eight hundred eighty five
+    - cut line five hundred sixty one
+    - cut line six hundred forty three
+    - cut line nine hundred ninety four
+    - cut line eight hundred ninety seven
+    - cut line one thousand sixty six
+    - cut line six hundred fifty one
+    - cut line nine hundred thirty nine
+    - cut line three hundred forty seven
+    - cut line one thousand twenty one
+    - cut line six hundred thirty one
+    - cut line one thousand seventy eight
+    - cut line six hundred sixty eight
+    - cut line one hundred sixty five
+    - cut line nine hundred thirty five
+    - cut line six hundred eighty four
+    - cut line one hundred eighty one
+    - cut line nine hundred fifty six
+    - cut line two hundred sixty five
+    - cut line three hundred thirty six
+    - cut line one thousand thirty eight
+    - cut line three hundred seventy two
+    - cut line one hundred forty eight
+    - cut line one thousand eighty seven
+    - cut line nine hundred fifty seven
+    - cut line three hundred twenty five
+    - cut line six hundred forty four
+    - cut line eight hundred twenty five
+    - cut line four hundred eighty seven
+    - cut line three hundred ninety one
+    - cut line five hundred sixty seven
+    - cut line seven hundred sixty four
+    - cut line six hundred
+    - cut line one thousand twenty four
+    - cut line seven hundred sixty five
+    - cut line eight hundred sixty five
+    - cut line five hundred fifty eight
+    - cut line one thousand ninety eight
+    - cut line two hundred forty one
+    - cut line five hundred
+    - cut line seven hundred eighty four
+    - cut line seven hundred thirty four
+    - cut line six hundred eighty three
+    - cut line two hundred twenty nine
+    - cut line seven hundred
+    - cut line six hundred thirty nine
+    - cut line one thousand forty five
+    - cut line eight hundred ninety one
+    - cut line eight hundred fifty six
+    - cut line eight hundred fifty four
+    - cut line two hundred seventy four
+    - cut line six hundred thirty eight
+    - cut line six hundred thirty four
+    - cut line six hundred forty eight
+    - cut line two hundred forty six
+    - cut line one thousand forty one
+    - cut line one hundred fifty nine
+    - cut line three hundred eighty five
+    - cut line six hundred eighty three
+    - cut line five hundred ninety four
+    - cut line five hundred ninety nine
+    - cut line one hundred eighty five
+    - cut line one thousand
+    - cut line three hundred thirty three
+    - cut line two hundred thirty four
+    - cut line one hundred forty five
+    - cut line nine hundred thirty seven
+    - cut line three hundred twenty four
+    - cut line four hundred
+    - cut line four hundred thirty four
+    - cut line two hundred fifty one
+    - cut line seven hundred twenty nine
+    - cut line one hundred seventy five
+    - cut line seven hundred sixty seven
+    - cut line one thousand fifty eight
+    - cut line three hundred ninety six
+    - cut line eight hundred twenty nine
+    - cut line six hundred ninety one
+    - cut line three hundred
+    - cut line nine hundred seventy six
+    - cut line four hundred sixty six
+    - cut line six hundred seventy seven
+    - cut line eight hundred fifty two
+    - cut line five hundred eighty seven
+    - cut line eight hundred sixty seven
+    - cut line nine hundred
+    - cut line seven hundred thirty nine
+    - cut line seven hundred thirty one
+    - cut line seven hundred twenty one    
+    - cut line eight hundred and twenty eight
+    - cut line five hundred and twenty two
+    - cut line four hundred and ninety six
+    - cut line three hundred and thirty five
+    - cut line eight hundred and seventy nine
+    - cut line nine hundred and forty six
+    - cut line eight hundred and fifty three
+    - cut line nine hundred and seventy five
+    - cut line nine hundred and ninety nine
+    - cut line three hundred and forty six
+    - cut line three hundred and sixty six
+    - cut line two hundred and fifty five
+    - cut line six hundred and eighty one
+    - cut line nine hundred and thirty one
+    - cut line nine hundred and thirty nine
+    - cut line eight hundred and sixty four
+    - cut line eight hundred and forty four
+    - cut line four hundred and eighty three
+    - cut line eight hundred and seventy six
+    - cut line eight hundred and thirty one
+    - cut line six hundred and twenty one
+    - cut line five hundred and sixty seven
+    - cut line five hundred and twenty five
+    - cut line seven hundred and twenty nine
+    - cut line four hundred and seventy two
+    - cut line two hundred and twenty five
+    - cut line six hundred and twenty three
+    - cut line eight hundred and thirty three
+    - cut line four hundred and eighty five
+    - cut line one hundred and thirty six
+    - cut line eight hundred and eighty two
+    - cut line one hundred and thirty two
+    - cut line one thousand and seventy one
+    - cut line four hundred and twenty five
+    - cut line six hundred and forty four
+    - cut line seven hundred and forty three
+    - cut line seven hundred and ninety two
+    - cut line one thousand and sixty one
+    - cut line seven hundred and twenty seven
+    - cut line one hundred and forty two
+    - cut line nine hundred and thirty eight
+    - cut line one thousand and thirty eight
+    - cut line six hundred and seventy three
+    - cut line eight hundred and ninety five
+    - cut line three hundred and eighty seven
+    - cut line four hundred and twenty two
+    - cut line four hundred and ninety three
+    - cut line seven hundred and twenty six
+    - cut line seven hundred and seventy three
+    - cut line two hundred and fifty nine
+    - cut line nine hundred and thirty one
+    - cut line five hundred and forty six
+    - cut line one hundred and ninety two
+    - cut line five hundred and seventy five
+    - cut line four hundred and fifty one
+    - cut line seven hundred and thirty four
+    - cut line one hundred and fifty six
+    - cut line five hundred and eighty three
+    - cut line six hundred and twenty six
+    - cut line eight hundred and fifty two
+    - cut line four hundred and eighty three
+    - cut line six hundred and seventy two
+    - cut line three hundred and thirty three
+    - cut line four hundred and eighty three
+    - cut line five hundred and fifty three
+    - cut line six hundred and seventy one
+    - cut line three hundred and forty four
+    - cut line two hundred and seventy one
+    - cut line three hundred and forty eight
+    - cut line four hundred and twenty one
+    - cut line eight hundred and thirty two
+    - cut line two hundred and sixty two
+    - cut line seven hundred and thirty nine
+    - cut line three hundred and twenty six
+    - cut line eight hundred and sixty nine
+    - cut line three hundred and thirty seven
+    - cut line nine hundred and eighty five
+    - cut line six hundred and eighty nine
+    - cut line one hundred and twenty seven
+    - cut line one hundred and ninety four
+    - cut line five hundred and eighty two
+    - cut line six hundred and seventy five
+    - cut line six hundred and sixty nine
+    - cut line one thousand and ninety six
+    - cut line two hundred and sixty two
+    - cut line eight hundred and forty two    
+    - cut line seven thousand four hundred ninety nine
+    - cut line eight thousand six hundred
+    - cut line two thousand seven hundred thirty one
+    - cut line three thousand one hundred twenty two
+    - cut line six thousand five hundred
+    - cut line two thousand seven hundred twenty seven
+    - cut line nine thousand two hundred sixty six
+    - cut line one thousand eight hundred eighty eight
+    - cut line one thousand three hundred
+    - cut line nine thousand six hundred seventy nine
+    - cut line eight thousand six hundred forty one
+    - cut line nine thousand three hundred
+    - cut line one thousand nine hundred eighty eight
+    - cut line six thousand seven hundred ninety five
+    - cut line nine thousand nine hundred twenty seven
+    - cut line three thousand six hundred forty two
+    - cut line four thousand nine hundred fifty one
+    - cut line six thousand three hundred fifty six
+    - cut line one thousand seven hundred sixty one
+    - cut line nine thousand four hundred seventy eight
+    - cut line one thousand seven hundred forty one
+    - cut line one thousand three hundred eighty six
+    - cut line five thousand five hundred ninety nine
+    - cut line one thousand one thousand fifty eight
+    - cut line six thousand two hundred thirty two
+    - cut line four thousand five hundred thirty four
+    - cut line three thousand six hundred eighty eight
+    - cut line eight thousand one hundred fifty nine
+    - cut line four thousand four hundred fifty six
+    - cut line three thousand seven hundred
+    - cut line eight thousand six hundred seventy four
+    - cut line five thousand three hundred eighty four
+    - cut line three thousand nine hundred sixty five
+    - cut line eight thousand nine hundred sixty four
+    - cut line eight thousand four hundred forty three
+    - cut line seven thousand six hundred
+    - cut line one thousand nine hundred thirty three
+    - cut line eight thousand three hundred forty seven
+    - cut line six thousand two hundred twenty one
+    - cut line two thousand one thousand eighty four
+    - cut line nine thousand eight hundred
+    - cut line two thousand three hundred forty seven
+    - cut line one thousand one hundred eighty six
+    - cut line two thousand two hundred sixty two
+    - cut line five thousand five hundred forty nine
+    - cut line nine thousand nine hundred forty three
+    - cut line one thousand five hundred
+    - cut line two thousand eight hundred
+    - cut line five thousand eight hundred ninety nine
+    - cut line eight thousand one thousand ninety four
+    - cut line one thousand seven hundred thirty seven
+    - cut line nine thousand two hundred seventy four
+    - cut line four thousand six hundred eighty four
+    - cut line seven thousand one thousand ninety five
+    - cut line two thousand six hundred eighty three
+    - cut line one thousand three hundred sixty three
+    - cut line nine thousand two hundred thirty one
+    - cut line three thousand five hundred ninety two
+    - cut line nine thousand six hundred
+    - cut line two thousand four hundred thirty nine
+    - cut line four thousand three hundred seventy seven
+    - cut line one thousand one hundred forty one
+    - cut line seven thousand one thousand eighty three
+    - cut line three thousand five hundred sixty two
+    - cut line one thousand seven hundred
+    - cut line eight thousand nine hundred thirty two
+    - cut line eight thousand four hundred ninety eight
+    - cut line one thousand six hundred thirty six
+    - cut line one thousand nine hundred forty six
+    - cut line five thousand three hundred seventy seven
+    - cut line one thousand three hundred ninety seven
+    - cut line four thousand five hundred ninety eight
+    - cut line six thousand seven hundred sixty seven
+    - cut line two thousand one hundred forty five
+    - cut line nine thousand nine hundred ninety two
+    - cut line three thousand one thousand seventy two
+    - cut line nine thousand three hundred seventy two
+    - cut line nine thousand six hundred sixty four
+    - cut line one thousand five hundred
+    - cut line five thousand four hundred ninety five
+    - cut line two thousand two hundred sixty three
+    - cut line six thousand six hundred seventy seven
+    - cut line one thousand seven hundred sixty nine
+    - cut line five thousand one thousand fifty five
+    - cut line two thousand nine hundred fifty eight
+    - cut line six thousand one thousand twenty seven
+    - cut line three thousand one thousand sixty two
+    - cut line seven thousand four hundred seventy four
+    - cut line five thousand eight hundred thirty nine
+    - cut line one thousand three hundred eighty nine
+    - cut line one thousand one hundred fifty seven
+    - cut line four thousand eight hundred twenty one
+    - cut line four thousand one hundred fifty six
+    - cut line four thousand two hundred twenty three
+    - cut line one thousand nine hundred seventy three
+    - cut line one thousand eight hundred ninety one
+    - cut line two thousand three hundred seventy three
+    - cut line one thousand three hundred sixty six
+    - cut line four thousand four hundred forty one
+    - cut line seven thousand two hundred forty seven    
+    - cut line one thousand seven hundred and fifty nine
+    - cut line two thousand seven hundred and twenty nine
+    - cut line seven thousand four hundred and fifty two
+    - cut line six thousand seven hundred and twenty seven
+    - cut line nine thousand three hundred and eighty four
+    - cut line seven thousand nine hundred and forty one
+    - cut line four thousand five hundred and thirty two
+    - cut line three thousand three hundred and eighty eight
+    - cut line eight thousand three hundred and sixty one
+    - cut line six thousand eight hundred and seventy one
+    - cut line four thousand two hundred and ninety six
+    - cut line four thousand nine hundred and ninety two
+    - cut line six thousand one thousand and twenty seven
+    - cut line nine thousand two hundred and seventy two
+    - cut line two thousand four hundred and eighty four
+    - cut line one thousand five hundred and fifty six
+    - cut line four thousand six hundred and ninety four
+    - cut line nine thousand one thousand and sixty eight
+    - cut line one thousand nine hundred and forty three
+    - cut line six thousand six hundred and eighty three
+    - cut line five thousand two hundred and sixty eight
+    - cut line five thousand five hundred and seventy nine
+    - cut line three thousand six hundred and thirty six
+    - cut line eight thousand eight hundred and eighty eight
+    - cut line eight thousand nine hundred and thirty nine
+    - cut line seven thousand three hundred and sixty five
+    - cut line two thousand seven hundred and seventy nine
+    - cut line one thousand six hundred and seventy seven
+    - cut line seven thousand six hundred and sixty two
+    - cut line eight thousand six hundred and forty five
+    - cut line one thousand one hundred and eighty one
+    - cut line three thousand five hundred and eighty five
+    - cut line one thousand one hundred and twenty nine
+    - cut line four thousand three hundred and thirty six
+    - cut line five thousand three hundred and forty four
+    - cut line six thousand two hundred and twenty nine
+    - cut line one thousand one thousand and sixty six
+    - cut line four thousand two hundred and ninety five
+    - cut line seven thousand five hundred and eighty three
+    - cut line two thousand eight hundred and ninety seven
+    - cut line five thousand one hundred and fifty two
+    - cut line eight thousand eight hundred and sixty six
+    - cut line six thousand eight hundred and ninety five
+    - cut line eight thousand six hundred and sixty four
+    - cut line nine thousand one hundred and thirty eight
+    - cut line one thousand one thousand and sixty nine
+    - cut line one thousand nine hundred and ninety nine
+    - cut line six thousand one hundred and twenty four
+    - cut line seven thousand eight hundred and fifty two
+    - cut line four thousand four hundred and fifty five
+    - cut line seven thousand five hundred and thirty eight
+    - cut line four thousand six hundred and twenty two
+    - cut line one thousand five hundred and thirty four
+    - cut line seven thousand seven hundred and fifty six
+    - cut line three thousand one thousand and ninety seven
+    - cut line five thousand one hundred and forty eight
+    - cut line one thousand eight hundred and forty two
+    - cut line six thousand eight hundred and twenty one
+    - cut line eight thousand two hundred and thirty eight
+    - cut line one thousand nine hundred and forty nine
+    - cut line eight thousand one thousand and thirty two
+    - cut line nine thousand one hundred and ninety eight
+    - cut line two thousand four hundred and sixty eight
+    - cut line nine thousand nine hundred and eighty three
+    - cut line seven thousand four hundred and thirty eight
+    - cut line five thousand seven hundred and twenty three
+    - cut line eight thousand eight hundred and forty five
+    - cut line two thousand seven hundred and sixty eight
+    - cut line four thousand eight hundred and fifty two
+    - cut line one thousand seven hundred and twenty four
+    - cut line one thousand six hundred and fifty four
+    - cut line one thousand five hundred and thirty one
+    - cut line two thousand eight hundred and thirty nine
+    - cut line one thousand five hundred and forty six
+    - cut line four thousand three hundred and eighty one
+    - cut line eight thousand nine hundred and ninety one
+    - cut line four thousand two hundred and fifty seven
+    - cut line seven thousand eight hundred and seventy three
+    - cut line three thousand six hundred and ninety one
+    - cut line nine thousand three hundred and twenty seven
+    - cut line two thousand eight hundred and sixty five
+    - cut line one thousand nine hundred and forty five
+    - cut line one thousand two hundred and ninety one
+    - cut line one thousand two hundred and thirty three
+    - cut line five thousand five hundred and sixty three
+    - cut line four thousand five hundred and forty six
+    - cut line seven thousand one thousand and eighty seven
+    - cut line one thousand one thousand and ninety four
+    - cut line four thousand four hundred and forty two
+    - cut line eight thousand one thousand and seventy one
+    - cut line three thousand three hundred and eighty three
+
+- intent: printstatement
+  examples: |
+    - add print statement saying hello
+    - add print statement saying main
+    - add print statement saying master
+    - add print statement saying size
+    - add print statement saying height
+    - add print statement saying weight
+    - add print statement saying bag
+    - add print statement saying can
+    - add print statement saying computer
+    - add print statement saying phone
+    - add print statement saying laptop
+    - add print statement saying mobilephone
+    - add print statement saying smartphone
+    - add print statement saying phonenumber
+    - add print statement saying contactnumber
+    - add print statement saying address
+    - add print statement saying location
+    - add print statement saying email
+    - add print statement saying contact
+    - add print statement saying emailaddress
+    - add print statement saying mouse
+    - add print statement saying keyboard
+    - add print statement saying screen
+    - add print statement saying touchscreen
+    - add print statement saying fruit
+    - add print statement saying food
+    - add print statement saying vegetable
+    - add print statement saying eatables
+    - add print statement saying price
+    - add print statement saying cost
+    - add print statement saying sum
+    - add print statement saying addition
+    - add print statement saying answer
+    - add print statement saying result
+    - add print statement saying user
+    - add print statement saying userid
+    - add print statement saying id
+    - add print statement saying num
+    - add print statement saying age
+    - add print statement saying department
+    - add print statement saying hospital
+    - add print statement saying wheel
+    - add print statement saying seat
+    - add print statement saying car
+    - add print statement saying bus
+    - add print statement saying van
+    - add print statement saying bike
+    - add print statement saying glass
+    - add print statement saying red
+    - add print statement saying black
+    - add print statement saying white
+    - add print statement saying blue
+    - add print statement saying yellow
+    - add print statement saying valid
+    - add print statement saying subtract
+    - add print statement saying value
+    - add print statement saying arr
+    - add print statement saying val
+    - add print statement saying key
+    - add print statement saying count
+    - create print statement saying hello
+    - create print statement saying main
+    - create print statement saying master
+    - create print statement saying size
+    - create print statement saying height
+    - create print statement saying weight
+    - create print statement saying bag
+    - create print statement saying can
+    - create print statement saying computer
+    - create print statement saying phone
+    - create print statement saying laptop
+    - create print statement saying mobilephone
+    - create print statement saying smartphone
+    - create print statement saying phonenumber
+    - create print statement saying contactnumber
+    - create print statement saying address
+    - create print statement saying location
+    - create print statement saying email
+    - create print statement saying contact
+    - create print statement saying emailaddress
+    - create print statement saying mouse
+    - create print statement saying keyboard
+    - create print statement saying screen
+    - create print statement saying touchscreen
+    - create print statement saying fruit
+    - create print statement saying food
+    - create print statement saying vegetable
+    - create print statement saying eatables
+    - create print statement saying price
+    - create print statement saying cost
+    - create print statement saying sum
+    - create print statement saying addition
+    - create print statement saying answer
+    - create print statement saying result
+    - create print statement saying user
+    - create print statement saying userid
+    - create print statement saying id
+    - create print statement saying num
+    - create print statement saying age
+    - create print statement saying department
+    - create print statement saying hospital
+    - create print statement saying wheel
+    - create print statement saying seat
+    - create print statement saying car
+    - create print statement saying bus
+    - create print statement saying van
+    - create print statement saying bike
+    - create print statement saying glass
+    - create print statement saying red
+    - create print statement saying black
+    - create print statement saying white
+    - create print statement saying blue
+    - create print statement saying yellow
+    - create print statement saying valid
+    - create print statement saying subtract
+    - create print statement saying value
+    - create print statement saying arr
+    - create print statement saying val
+    - create print statement saying key
+    - create print statement saying count
+    - print statement hello
+    - print statement main
+    - print statement master
+    - print statement size
+    - print statement height
+    - print statement weight
+    - print statement bag
+    - print statement can
+    - print statement computer
+    - print statement phone
+    - print statement laptop
+    - print statement mobilephone
+    - print statement smartphone
+    - print statement phonenumber
+    - print statement contactnumber
+    - print statement address
+    - print statement location
+    - print statement email
+    - print statement contact
+    - print statement emailaddress
+    - print statement mouse
+    - print statement keyboard
+    - print statement screen
+    - print statement touchscreen
+    - print statement fruit
+    - print statement food
+    - print statement vegetable
+    - print statement eatables
+    - print statement price
+    - print statement cost
+    - print statement sum
+    - print statement addition
+    - print statement answer
+    - print statement result
+    - print statement user
+    - print statement userid
+    - print statement id
+    - print statement num
+    - print statement age
+    - print statement department
+    - print statement hospital
+    - print statement wheel
+    - print statement seat
+    - print statement car
+    - print statement bus
+    - print statement van
+    - print statement bike
+    - print statement glass
+    - print statement red
+    - print statement black
+    - print statement white
+    - print statement blue
+    - print statement yellow
+    - print statement valid
+    - print statement subtract
+    - print statement value
+    - print statement arr
+    - print statement val
+    - print statement key
+    - print statement count
+    - print hello
+    - print main
+    - print master
+    - print size
+    - print height
+    - print weight
+    - print bag
+    - print can
+    - print computer
+    - print phone
+    - print laptop
+    - print mobilephone
+    - print smartphone
+    - print phonenumber
+    - print contactnumber
+    - print address
+    - print location
+    - print email
+    - print contact
+    - print emailaddress
+    - print mouse
+    - print keyboard
+    - print screen
+    - print touchscreen
+    - print fruit
+    - print food
+    - print vegetable
+    - print eatables
+    - print price
+    - print cost
+    - print sum
+    - print addition
+    - print answer
+    - print result
+    - print user
+    - print userid
+    - print id
+    - print num
+    - print age
+    - print department
+    - print hospital
+    - print wheel
+    - print seat
+    - print car
+    - print bus
+    - print van
+    - print bike
+    - print glass
+    - print red
+    - print black
+    - print white
+    - print blue
+    - print yellow
+    - print valid
+    - print subtract
+    - print value
+    - print arr
+    - print val
+    - print key
+    - print count
+
+- intent: returnstatement
+  examples: |
+    - add return statement main
+    - add return statement master
+    - add return statement size
+    - add return statement height
+    - add return statement weight
+    - add return statement bag
+    - add return statement can
+    - add return statement computer
+    - add return statement phone
+    - add return statement laptop
+    - add return statement mobilephone
+    - add return statement smartphone
+    - add return statement phonenumber
+    - add return statement contactnumber
+    - add return statement address
+    - add return statement location
+    - add return statement email
+    - add return statement contact
+    - add return statement emailaddress
+    - add return statement mouse
+    - add return statement keyboard
+    - add return statement screen
+    - add return statement touchscreen
+    - add return statement fruit
+    - add return statement food
+    - add return statement vegetable
+    - add return statement eatables
+    - add return statement price
+    - add return statement cost
+    - add return statement sum
+    - add return statement addition
+    - add return statement a
+    - add return statement b
+    - add return statement c
+    - add return statement p
+    - add return statement q
+    - add return statement r
+    - add return statement s
+    - add return statement x
+    - add return statement y
+    - add return statement z
+    - add return statement answer
+    - add return statement result
+    - add return statement user
+    - add return statement userid
+    - add return statement id
+    - add return statement num
+    - add return statement age
+    - add return statement department
+    - add return statement hospital
+    - add return statement wheel
+    - add return statement seat
+    - add return statement car
+    - add return statement bus
+    - add return statement van
+    - add return statement bike
+    - add return statement glass
+    - add return statement red
+    - add return statement black
+    - add return statement white
+    - add return statement blue
+    - add return statement yellow
+    - add return statement valid
+    - add return statement subtract
+    - add return statement value
+    - add return statement arr
+    - add return statement i
+    - add return statement val
+    - add return statement key
+    - add return statement count
+    - add return statement null
+    - create return statement main
+    - create return statement master
+    - create return statement size
+    - create return statement height
+    - create return statement weight
+    - create return statement bag
+    - create return statement can
+    - create return statement computer
+    - create return statement phone
+    - create return statement laptop
+    - create return statement mobilephone
+    - create return statement smartphone
+    - create return statement phonenumber
+    - create return statement contactnumber
+    - create return statement address
+    - create return statement location
+    - create return statement email
+    - create return statement contact
+    - create return statement emailaddress
+    - create return statement mouse
+    - create return statement keyboard
+    - create return statement screen
+    - create return statement touchscreen
+    - create return statement fruit
+    - create return statement food
+    - create return statement vegetable
+    - create return statement eatables
+    - create return statement price
+    - create return statement cost
+    - create return statement sum
+    - create return statement addition
+    - create return statement a
+    - create return statement b
+    - create return statement c
+    - create return statement p
+    - create return statement q
+    - create return statement r
+    - create return statement s
+    - create return statement x
+    - create return statement y
+    - create return statement z
+    - create return statement answer
+    - create return statement result
+    - create return statement user
+    - create return statement userid
+    - create return statement id
+    - create return statement num
+    - create return statement age
+    - create return statement department
+    - create return statement hospital
+    - create return statement wheel
+    - create return statement seat
+    - create return statement car
+    - create return statement bus
+    - create return statement van
+    - create return statement bike
+    - create return statement glass
+    - create return statement red
+    - create return statement black
+    - create return statement white
+    - create return statement blue
+    - create return statement yellow
+    - create return statement valid
+    - create return statement subtract
+    - create return statement value
+    - create return statement arr
+    - create return statement i
+    - create return statement val
+    - create return statement key
+    - create return statement count
+    - create return statement null
+    - return statement main
+    - return statement master
+    - return statement size
+    - return statement height
+    - return statement weight
+    - return statement bag
+    - return statement can
+    - return statement computer
+    - return statement phone
+    - return statement laptop
+    - return statement mobilephone
+    - return statement smartphone
+    - return statement phonenumber
+    - return statement contactnumber
+    - return statement address
+    - return statement location
+    - return statement email
+    - return statement contact
+    - return statement emailaddress
+    - return statement mouse
+    - return statement keyboard
+    - return statement screen
+    - return statement touchscreen
+    - return statement fruit
+    - return statement food
+    - return statement vegetable
+    - return statement eatables
+    - return statement price
+    - return statement cost
+    - return statement sum
+    - return statement addition
+    - return statement a
+    - return statement b
+    - return statement c
+    - return statement p
+    - return statement q
+    - return statement r
+    - return statement s
+    - return statement x
+    - return statement y
+    - return statement z
+    - return statement answer
+    - return statement result
+    - return statement user
+    - return statement userid
+    - return statement id
+    - return statement num
+    - return statement age
+    - return statement department
+    - return statement hospital
+    - return statement wheel
+    - return statement seat
+    - return statement car
+    - return statement bus
+    - return statement van
+    - return statement bike
+    - return statement glass
+    - return statement red
+    - return statement black
+    - return statement white
+    - return statement blue
+    - return statement yellow
+    - return statement valid
+    - return statement subtract
+    - return statement value
+    - return statement arr
+    - return statement i
+    - return statement val
+    - return statement key
+    - return statement count
+    - return statement null
+    - return main
+    - return master
+    - return size
+    - return height
+    - return weight
+    - return bag
+    - return can
+    - return computer
+    - return phone
+    - return laptop
+    - return mobilephone
+    - return smartphone
+    - return phonenumber
+    - return contactnumber
+    - return address
+    - return location
+    - return email
+    - return contact
+    - return emailaddress
+    - return mouse
+    - return keyboard
+    - return screen
+    - return touchscreen
+    - return fruit
+    - return food
+    - return vegetable
+    - return eatables
+    - return price
+    - return cost
+    - return sum
+    - return addition
+    - return a
+    - return b
+    - return c
+    - return p
+    - return q
+    - return r
+    - return s
+    - return x
+    - return y
+    - return z
+    - return answer
+    - return result
+    - return user
+    - return userid
+    - return id
+    - return num
+    - return age
+    - return department
+    - return hospital
+    - return wheel
+    - return seat
+    - return car
+    - return bus
+    - return van
+    - return bike
+    - return glass
+    - return red
+    - return black
+    - return white
+    - return blue
+    - return yellow
+    - return valid
+    - return subtract
+    - return value
+    - return arr
+    - return i
+    - return val
+    - return key
+    - return count
+    - return null
+
+
+- intent: vtpublicstaticvoid
+  examples: |
+    - voice type public static void
+    - create public static void
+    - add public static void
+    - generate public static void
+    - initialize public static void
+    - make public static void
+
+
+# ADDED TO NLU/TEST

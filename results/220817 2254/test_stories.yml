@@ -1,1411 +1,1936 @@
-# Venic - Voice Enabled Intelligent Programming Assistant
-# @author IT19180526 - S.A.N.L.D. Chandrasiri
-# @version 1.0
-
-version: "3.0"
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-
 # COMMON - ERROR
 - story: out of scope
   steps:
+  - user: |
+      I am asking out of scope question
   - intent: outofscope
   - action: utter_cannot_understand
 
 - story: not identify
   steps:
+  - user: |
+      cannot identify
   - intent: notidentify
   - action: utter_not_identify
 
 - story: not support
   steps:
+  - user: |
+      command not support
   - intent: notsupport
   - action: utter_not_support
 
 - story: already exist
   steps:
+  - user: |
+      is [hospital]{"entity": "name"} class already exist?
   - intent: existcheck
   - action: utter_already_exist
 
 - story: common create
   steps:
+  - user: |
+      create new [project]{"entity": "type"} [vehicle]{"entity": "name"}
   - intent: informcreate
   - action: utter_common_create
 
 - story: common update
   steps:
+  - user: |
+      update [variable]{"entity": "type"} [car]{"entity": "name"}
   - intent: informupdate
   - action: utter_common_update
 
 - story: common remove
   steps:
+  - user: |
+      remove [attribute]{"entity": "type"} [bike]{"entity": "name"}
   - intent: informremove
   - action: utter_common_remove
 
 # Project
 - story: create a project
   steps:
+  - user: |
+      create a project example
   - intent: createproject
   - action: utter_project_created
 
 - story: create project unknown
   steps:
+  - user: |
+      create project
   - intent: createprojectunknown
   - action: utter_ask_project_name
 
 # Class
 - story: create a class
   steps:
+  - user: |
+      create a new class user
   - intent: createclass
   - action: utter_class_created
 
 - story: open a class
   steps:
+  - user: |
+      open java class user
   - intent: openclass
   - action: utter_class_opened
 
 - story: edit class name
   steps:
+  - user: |
+      edit class named mango to fruit
   - intent: editclass
   - action: utter_change_class
 
 - story: delete class
   steps:
+  - user: |
+      delete class named [movie]{"entity": "name"}
   - intent: deleteclass
   - action: utter_class_deleted
 
 - story: create class unknown
   steps:
+  - user: |
+      create class
   - intent: createclassunknown
   - action: utter_ask_class_name
 
 # Interface
 - story: create a interface
   steps:
+  - user: |
+      create a new interface user
   - intent: createinterface
   - action: utter_interface_created
 
 - story: open a interface
   steps:
+  - user: |
+      open java interface user
   - intent: openinterface
   - action: utter_interface_opened
 
 - story: edit interface name
   steps:
+  - user: |
+      edit interface named imac to iphone
   - intent: editinterface
   - action: utter_change_interface
 
 - story: delete interface
   steps:
+  - user: |
+      delete interface named [ikey]{"entity": "name"}
   - intent: deleteinterface
   - action: utter_interface_deleted
 
 - story: create interface unknown
   steps:
+  - user: |
+      create interface
   - intent: createinterfaceunknown
   - action: utter_ask_interface_name
 
 - story: implement interface
   steps:
+  - user: |
+      computer class implement interface device
   - intent: implementinterface
   - action: utter_implement_interface
 
 # Variable
 - story: create a variable
   steps:
+  - user: |
+      create a variable named [user]{"entity": "name"}
   - intent: createvariable
   - action: utter_variable_created
 
 - story: delete a variable
   steps:
+  - user: |
+      delete variable [user]{"entity": "name"}
   - intent: deletevariable
   - action: utter_variable_deleted
 
 - story: cut a variable
   steps:
+  - user: |
+      cut variable named [user]{"entity": "name"}
   - intent: cutvariable
   - action: utter_done
 
 - story: increment variable
   steps:
+  - user: |
+      increment attribute [number]{"entity": "name"} by [five]{"entity": "number"}
   - intent: incrementvariable
   - action: utter_increment_variable
 
 - story: decrement variable
   steps:
+  - user: |
+      decrement variable [size]{"entity": "name"} by [two]{"entity": "number"}
   - intent: decrementvariable
   - action: utter_decrement_variable
 
 - story: change variable name
   steps:
+  - user: |
+      change property size to height
   - intent: changevariable
   - action: utter_change_variable
 
 - story: edit variable name
   steps:
+  - user: |
+      edit variable named height to size
   - intent: editvariable
   - action: utter_update_variable
 
 - story: create variable unknown
   steps:
+  - user: |
+      create variable
   - intent: createvariableunknown
   - action: utter_ask_variable_name
 
 # PROPERTY
 - story: create a property
   steps:
+  - user: |
+      create new property named [laptop]{"entity": "name"}
   - intent: createproperty
   - action: utter_property_created
 
 - story: delete a property
   steps:
+  - user: |
+      delete property named [mouse]{"entity": "name"}
   - intent: deleteproperty
   - action: utter_property_deleted
 
 - story: cut a property
   steps:
+  - user: |
+      cut property [phone]{"entity": "name"}
   - intent: cutproperty
   - action: utter_done
 
 - story: decrement property
   steps:
+  - user: |
+      decrement property [count]{"entity": "name"} by [six]{"entity": "number"}
   - intent: decrementproperty
   - action: utter_decrement_property
 
 - story: increment property
   steps:
+  - user: |
+      increment property [value]{"entity": "name"} by [two]{"entity": "number"}
   - intent: incrementproperty
   - action: utter_increment_property
 
 - story: change property name
   steps:
+  - user: |
+      change property count to size
   - intent: changeproperty
   - action: utter_change_property
 
 - story: edit property name
   steps:
+  - user: |
+      edit property named vegetable to vegan
   - intent: editproperty
   - action: utter_update_property
 
 - story: create property unknown
   steps:
+  - user: |
+      create property
   - intent: createpropertyunknown
   - action: utter_ask_property_name
 
 # ATTRIBUTE
 - story: create a attribute
   steps:
+  - user: |
+      add new attribute named [value]{"entity": "name"}
   - intent: createattribute
   - action: utter_attribute_created
 
 - story: delete a attribute
   steps:
+  - user: |
+      delete attribute named [email]{"entity": "name"}
   - intent: deleteattribute
   - action: utter_attribute_deleted
 
 - story: cut a attribute
   steps:
+  - user: |
+      cut attribute named [monitor]{"entity": "name"}
   - intent: cutattribute
   - action: utter_done
 
 - story: increment attribute
   steps:
+  - user: |
+      increment attribute [value]{"entity": "name"} by [two]{"entity": "number"}
   - intent: incrementattribute
   - action: utter_increment_attribute
 
 - story: decrement attribute
   steps:
+  - user: |
+      decrement attribute [count]{"entity": "name"} by [six]{"entity": "number"}
   - intent: decrementattribute
   - action: utter_decrement_attribute
 
 - story: change attribute name
   steps:
+  - user: |
+      change attribute named screen to monitor
   - intent: changeattribute
   - action: utter_change_attribute
 
 - story: edit attribute name
   steps:
+  - user: |
+      edit attribute size to count
   - intent: editattribute
   - action: utter_update_attribute
 
 - story: create attribute unknown
   steps:
+  - user: |
+      create attribute
   - intent: createattributeunknown
   - action: utter_ask_attribute_name
 
 # METHOD
 - story: create a method
   steps:
+  - user: |
+      create function [user]{"entity": "name"}
   - intent: createmethod
   - action: utter_method_created
 
 - story: delete a method
   steps:
+  - user: |
+      delete method [create]{"entity": "name"}
   - intent: deletemethod
   - action: utter_method_deleted
 
 - story: cut a method
   steps:
+  - user: |
+      cut method named [find]{"entity": "name"}
   - intent: cutmethod
   - action: utter_done
 
 - story: change method name
   steps:
+  - user: |
+      change method named view to find
   - intent: changemethod
   - action: utter_change_method
 
 - story: edit method name
   steps:
+  - user: |
+      edit method named valid to correct
   - intent: editmethod
   - action: utter_update_method
 
 - story: create method unknown
   steps:
+  - user: |
+      create method
   - intent: createmethodunknown
   - action: utter_ask_method_name
 
 - story: create main method
   steps:
+  - user: |
+      create main method
   - intent: createmainmethod
   - action: utter_main_method_created
 
 - story: call method
   steps:
+  - user: |
+      call method sum
   - intent: callmethod
   - action: utter_done
 
 - story: create parameter in method
   steps:
+  - user: |
+      add integer parameter message to get method
   - intent: createparametermethod
   - action: utter_parameter_created
 
 # FUNCTION
 - story: create a function
   steps:
+  - user: |
+      create function [check]{"entity": "name"}
   - intent: createfunction
   - action: utter_function_created
 
 - story: delete a function
   steps:
+  - user: |
+      delete function named [get]{"entity": "name"}
   - intent: deletefunction
   - action: utter_function_deleted
 
 - story: cut a function
   steps:
+  - user: |
+      cut function named [answer]{"entity": "name"}
   - intent: cutfunction
   - action: utter_done
 
 - story: change function name
   steps:
+  - user: |
+      change function named validate to check
   - intent: changefunction
   - action: utter_change_function
 
 - story: edit function name
   steps:
+  - user: |
+      edit function named receive to income
   - intent: editfunction
   - action: utter_update_function
 
 - story: create function unknown
   steps:
+  - user: |
+      create function
   - intent: createfunctionunknown
   - action: utter_ask_function_name
 
 - story: create main function
   steps:
+  - user: |
+      create main function
   - intent: createmainfunction
   - action: utter_main_function_created
 
 - story: call function
   steps:
+  - user: |
+      call function update
   - intent: callfunction
   - action: utter_done
 
 - story: create parameter in function
   steps:
+  - user: |
+      add string parameter country to result function
   - intent: createparameterfunction
   - action: utter_parameter_created
 
 # PROCEDURE
 - story: create a procedure
   steps:
+  - user: |
+      create new procedure named [counting]{"entity": "name"}
   - intent: createprocedure
   - action: utter_procedure_created
 
 - story: delete a procedure
   steps:
+  - user: |
+      delete procedure [find]{"entity": "name"}
   - intent: deleteprocedure
   - action: utter_procedure_deleted
 
 - story: cut a procedure
   steps:
+  - user: |
+      cut procedure [get]{"entity": "name"}
   - intent: cutprocedure
   - action: utter_done
 
 - story: change procedure name
   steps:
+  - user: |
+      change procedure named view to show
   - intent: changeprocedure
   - action: utter_change_procedure
 
 - story: edit procedure name
   steps:
+  - user: |
+      edit procedure named send to out
   - intent: editprocedure
   - action: utter_update_procedure
 
 - story: create procedure unknown
   steps:
+  - user: |
+      create procedure
   - intent: createprocedureunknown
   - action: utter_ask_procedure_name
 
 - story: create main procedure
   steps:
+  - user: |
+      create main procedure
   - intent: createmainprocedure
   - action: utter_main_procedure_created
 
 - story: call procedure
   steps:
+  - user: |
+      invoke procedure result
   - intent: callprocedure
   - action: utter_done
 
 - story: create parameter in procedure
   steps:
+  - user: |
+      add boolean parameter check to validate procedure
   - intent: createparameterprocedure
   - action: utter_parameter_created
 
 # CONSTANT
 - story: create a constant
   steps:
+  - user: |
+      create new constant [checked]{"entity": "name"}
   - intent: createconstant
   - action: utter_constant_created
 
 - story: delete a constant
   steps:
+  - user: |
+      delete constant named [ide]{"entity": "name"}
   - intent: deleteconstant
   - action: utter_constant_deleted
 
 - story: cut a constant
   steps:
+  - user: |
+      cut constant named [mic]{"entity": "name"}
   - intent: cutconstant
   - action: utter_done
 
 - story: increment constant
   steps:
+  - user: |
+      increment constant [count]{"entity": "name"} by [ten]{"entity": "number"}
   - intent: incrementconstant
   - action: utter_increment_constant
 
 - story: decrement constant
   steps:
+  - user: |
+      decrement constant [value]{"entity": "name"} by [seven]{"entity": "number"}
   - intent: decrementconstant
   - action: utter_decrement_constant
 
 - story: change constant name
   steps:
+  - user: |
+      change constant named email to address
   - intent: changeconstant
   - action: utter_change_constant
 
 - story: edit constant name
   steps:
+  - user: |
+      edit constant named monitor to ipad
   - intent: editconstant
   - action: utter_update_constant
 
 - story: create constant unknown
   steps:
+  - user: |
+      create constant
   - intent: createconstantunknown
   - action: utter_ask_constant_name
 
 # ENUM
 - story: create a enum
   steps:
+  - user: |
+      create enum [value]{"entity": "name"}
   - intent: createenum
   - action: utter_enum_created
 
 - story: open enum
   steps:
+  - user: |
+      open enum [vehicle]{"entity": "name"}
   - intent: openenum
   - action: utter_enum_opened
 
 - story: create enum unknown
   steps:
+  - user: |
+      create enum
   - intent: createenumunknown
   - action: utter_ask_enum_name
 
 - story: delete a enum
   steps:
+  - user: |
+      delete enum named [device]{"entity": "name"}
   - intent: deleteenum
   - action: utter_enum_deleted
 
 - story: edit enum name
   steps:
+  - user: |
+      edit enum named mobile to phone
   - intent: editenum
   - action: utter_update_enum
 
 # ARRAY
 - story: create array
   steps:
+  - user: |
+      create new array named [arr]{"entity": "name"}
   - intent: createarray
   - action: utter_array_created
 
 - story: delete array
   steps:
+  - user: |
+      delete array named [value]{"entity": "name"}
   - intent: deletearray
   - action: utter_array_deleted
 
 - story: cut a array
   steps:
+  - user: |
+      cut array named [wire]{"entity": "name"}
   - intent: cutarray
   - action: utter_done
 
 - story: change array name
   steps:
+  - user: |
+      change array named s to sum
   - intent: changearray
   - action: utter_change_array
 
 - story: edit array name
   steps:
+  - user: |
+      edit array named count to c
   - intent: editarray
   - action: utter_update_array
 
 # ARRAY-LIST
 - story: create arraylist
   steps:
+  - user: |
+      create arraylist named [list]{"entity": "name"}
   - intent: createarraylist
   - action: utter_arraylist_created
 
 - story: delete arraylist
   steps:
+  - user: |
+      delete arraylist named [arr]{"entity": "name"}
   - intent: deletearraylist
   - action: utter_arraylist_deleted
 
 - story: cut a arraylist
   steps:
+  - user: |
+      cut arraylist [x]{"entity": "name"}
   - intent: cutarraylist
   - action: utter_done
 
 - story: change arraylist name
   steps:
+  - user: |
+      change arraylist named id to list
   - intent: changearraylist
   - action: utter_change_arraylist
 
 - story: edit arraylist name
   steps:
+  - user: |
+      edit arraylist named c to x
   - intent: editarraylist
   - action: utter_update_arraylist
 
 - story: add value to arraylist
   steps:
+  - user: |
+      add value dog to arraylist named list
   - intent: addvaluearraylist
   - action: utter_add_value
 
 - story: get value from arraylist
   steps:
+  - user: |
+      get value ten from arraylist named arr
   - intent: getvaluearraylist
   - action: utter_done
 
 - story: remove value from arraylist
   steps:
+  - user: |
+      remove value two from arraylist named list
   - intent: removevaluearraylist
   - action: utter_remove_value
 
 - story: set value in arraylist
   steps:
+  - user: |
+      set size for index three in arraylist user
   - intent: setvaluearraylist
   - action: utter_done
 
 - story: clear value in arraylist
   steps:
+  - user: |
+      clear arraylist named fruit
   - intent: cleararraylist
   - action: utter_done
 
 - story: get size in arraylist
   steps:
+  - user: |
+      get size arraylist named arr
   - intent: sizearraylist
   - action: utter_done
 
 # HASH-MAP
 - story: create hashmap
   steps:
+  - user: |
+      create hashmap [list]{"entity": "name"}
   - intent: createhashmap
   - action: utter_hashmap_created
 
 - story: delete hashmap
   steps:
+  - user: |
+      delete hashmap named [list]{"entity": "name"}
   - intent: deletehashmap
   - action: utter_hashmap_deleted
 
 - story: cut a hashmap
   steps:
+  - user: |
+      cut hashmap named [list]{"entity": "name"}
   - intent: cuthashmap
   - action: utter_done
 
 - story: change hashmap name
   steps:
+  - user: |
+      change hashmap named count to size
   - intent: changehashmap
   - action: utter_change_hashmap
 
 - story: edit hashmap name
   steps:
+  - user: |
+      edit hashmap named list to arr
   - intent: edithashmap
   - action: utter_update_hashmap
 
 - story: clear value in hashmap
   steps:
+  - user: |
+      clear hashmap named list
   - intent: clearhashmap
   - action: utter_done
 
 - story: get size in hashmap
   steps:
+  - user: |
+      get size hashmap named arr
   - intent: sizehashmap
   - action: utter_done
 
 # HASH-SET
 - story: create hashset
   steps:
+  - user: |
+      create hashset named [mobile]{"entity": "name"}
   - intent: createhashset
   - action: utter_hashset_created
 
 - story: delete hashset
   steps:
+  - user: |
+      delete hashset named [food]{"entity": "name"}
   - intent: deletehashset
   - action: utter_hashset_deleted
 
 - story: cut a hashset
   steps:
+  - user: |
+      cut hashset named [fruit]{"entity": "name"}
   - intent: cuthashset
   - action: utter_done
 
 - story: change hashset name
   steps:
+  - user: |
+      change hashset named valid to correct
   - intent: changehashset
   - action: utter_change_hashset
 
 - story: edit hashset name
   steps:
+  - user: |
+      edit hashset named van to bus
   - intent: edithashset
   - action: utter_update_hashset
 
 - story: add value to hashset
   steps:
+  - user: |
+      add value service to hashset named list
   - intent: addvaluehashset
   - action: utter_add_value
 
 - story: clear value in hashset
   steps:
+  - user: |
+      clear hashset named arr
   - intent: clearhashset
   - action: utter_done
 
 - story: get size in hashset
   steps:
+  - user: |
+      get size hashset named list
   - intent: sizehashset
   - action: utter_done
 
 # LINKED-LIST
 - story: create linkedlist
   steps:
+  - user: |
+      create new linkedlist named [x]{"entity": "name"}
   - intent: createlinkedlist
   - action: utter_linkedlist_created
 
 - story: delete linkedlist
   steps:
+  - user: |
+      delete linkedlist [weight]{"entity": "name"}
   - intent: deletelinkedlist
   - action: utter_linkedlist_deleted
 
 - story: cut a linkedlist
   steps:
+  - user: |
+      cut linkedlist named [contact]{"entity": "name"}
   - intent: cutlinkedlist
   - action: utter_done
 
 - story: change linkedlist name
   steps:
+  - user: |
+      change linkedlist named value to data
   - intent: changelinkedlist
   - action: utter_change_linkedlist
 
 - story: edit linkedlist name
   steps:
+  - user: |
+      edit linkedlist named university to hospital
   - intent: editlinkedlist
   - action: utter_update_linkedlist
 
 - story: add value to linkedlist
   steps:
+  - user: |
+      add value mobile to linkedlist named email
   - intent: addvaluelinkedlist
   - action: utter_add_value
 
 - story: get value from linkedlist
   steps:
+  - user: |
+      get value nine from linkedlist name contacts
   - intent: getvaluelinkedlist
   - action: utter_done
 
 - story: remove value from linkedlist
   steps:
+  - user: |
+      remove value seven from linkedlist vehicle
   - intent: removevaluelinkedlist
   - action: utter_remove_value
 
 - story: set value in linkedlist
   steps:
+  - user: |
+      set value of index ten as white in linkedlist named ab
   - intent: setvaluelinkedlist
   - action: utter_done
 
 - story: clear value in linkedlist
   steps:
+  - user: |
+      clear linkedlist named xyz
   - intent: clearlinkedlist
   - action: utter_done
 
 - story: get size in linkedlist
   steps:
+  - user: |
+      get size linkedlist named email
   - intent: sizelinkedlist
   - action: utter_done
 
 # CONSTRUCTOR
 - story: create constructor
   steps:
+  - user: |
+      initialize constructor
   - intent: create_constructor
   - action: utter_constructor_created
 
 - story: create default constructor
   steps:
+  - user: |
+      create default constructor
   - intent: create_constructor_default
   - action: utter_default_constructor_created
 
 - story: create overloaded constructor
   steps:
+  - user: |
+      add overloaded constructor
   - intent: create_constructor_overloaded
   - action: utter_overloaded_constructor_created
 
 # ENCAPSULATION
 - story: create getters and setters
   steps:
+  - user: |
+      create getters and setters
   - intent: create_getters_setters
   - action: utter_getters_setters_created
 
 - story: create getters
   steps:
+  - user: |
+      add getters
   - intent: create_getters
   - action: utter_getters_created
 
 - story: create setters
   steps:
+  - user: |
+      generate setters
   - intent: create_setters
   - action: utter_setters_created
 
 - story: create getters and setters
   steps:
+  - user: |
+      generate getter for value attribute
   - intent: create_getter
   - action: utter_getters_created
 
 - story: create getters and setters
   steps:
+  - user: |
+      create setter for variable list
   - intent: create_setter
   - action: utter_setters_created
 
 # INHERITANCE
 - story: create extends
   steps:
+  - user: |
+      service class inherits device class
   - intent: createextends
   - action: utter_extends_created
 
 # IF-ELSE
 - story: create if else
   steps:
+  - user: |
+      if value less than or equal eleven return true else return false
   - intent: createifelse
   - action: utter_done
 
 - story: create else if
   steps:
+  - user: |
+      else if count less than nine return true else call run method
   - intent: createelseif
   - action: utter_done
 
 # LOOP
 - story: create loop
   steps:
+  - user: |
+      create while loop with condition
   - intent: createloop
   - action: utter_loop_created
 
 - story: delete loop
   steps:
+  - user: |
+      remove for each loop
   - intent: deleteloop
   - action: utter_loop_deleted
 
 - story: cut loop
   steps:
+  - user: |
+      cut do while loop
   - intent: cutloop
   - action: utter_done
 
 - story: change loop
   steps:
+  - user: |
+      change for loop with condition
   - intent: changeloop
   - action: utter_loop_changed
 
 - story: edit loop
   steps:
+  - user: |
+      edit for loop
   - intent: editloop
   - action: utter_loop_updated
 
 # KEY-WORDS
 - story: invoke unwrap
   steps:
+  - user: |
+      unwrap this while loop
   - intent: unwrap
   - action: utter_done
 
 - story: create this keyword
   steps:
+  - user: |
+      create this keyword
   - intent: createthis
   - action: utter_done
 
 - story: delete this keyword
   steps:
+  - user: |
+      remove this property
   - intent: deletethis
   - action: utter_done
 
 # STATEMENT
 - story: delete statement
   steps:
+  - user: |
+      delete line twenty three
   - intent: deletestatement
   - action: utter_statement_deleted
 
 - story: cut statement
   steps:
+  - user: |
+      cut line eighty seven
   - intent: cutstatement
   - action: utter_done
 
 - story: create print statement
   steps:
+  - user: |
+      create print statement saying hello
   - intent: printstatement
   - action: utter_print_statement_created
 
 - story: create return statement
   steps:
+  - user: |
+      create return statement null
   - intent: returnstatement
   - action: utter_return_statement_created
 
 - story: create void main statement
   steps:
+  - user: |
+      voice type public static void
   - intent: vtpublicstaticvoid
   - action: utter_done
 
 # FILE
 - story: create a file
   steps:
+  - user: |
+      create file [repo]{"entity": "name"}
   - intent: create_file
   - action: utter_file_created
 
 - story: open a file
   steps:
+  - user: |
+      open java file [model]{"entity": "name"}
   - intent: open_file
   - action: utter_done
 
 - story: delete a file
   steps:
+  - user: |
+      remove file [main]{"entity": "name"}
   - intent: delete_file
   - action: utter_file_deleted
 
 # CURSOR
 - story: move cursor
   steps:
+  - user: |
+      move cursor to line twelve
   - intent: movecursor
   - action: utter_cursor_moved
 
 # IDE COMMANDS
 - story: start project
   steps:
+  - user: |
+      start project
   - intent: startproject
   - action: utter_start_project
 
 - story: build project
   steps:
+  - user: |
+      build this project
   - intent: buildproject
   - action: utter_build_project
 
 - story: clean project
   steps:
+  - user: |
+      clean the project
   - intent: cleanproject
   - action: utter_clean_project
 
 - story: compile project
   steps:
+  - user: |
+      compile this project
   - intent: compileproject
   - action: utter_compile_project
 
 - story: debug project
   steps:
+  - user: |
+      run in debugging mode
   - intent: debugproject
   - action: utter_debug_project
 
 - story: stop project
   steps:
+  - user: |
+      stop application
   - intent: stopproject
   - action: utter_stop_project
 
 - story: run simulator
   steps:
+  - user: |
+      start this simulator
   - intent: runsimulator
   - action: utter_run_simulator
 
 - story: run emulator
   steps:
+  - user: |
+      start emulator
   - intent: runemulator
   - action: utter_run_emulator
 
 - story: new window
   steps:
+  - user: |
+      open new window
   - intent: newwindow
   - action: utter_new_window_open
 
 - story: open folder
   steps:
+  - user: |
+      open folder
   - intent: openfolder
   - action: utter_open_folder_select
 
 - story: open workspace
   steps:
+  - user: |
+      show open workspace
   - intent: openworkspace
   - action: utter_open_workspace_select
 
 - story: open recent
   steps:
+  - user: |
+      open recent workspace
   - intent: openrecent
   - action: utter_open_recent_select
 
 - story: add folder to workspace
   steps:
+  - user: |
+      add folder to current workspace
   - intent: addfolderworkspace
   - action: utter_add_folder_workspace_select
 
 - story: save workspace as
   steps:
+  - user: |
+      save project workspace
   - intent: saveworkspaceas
   - action: utter_save_workspace_as
 
 - story: duplicate workspace
   steps:
+  - user: |
+      duplicate project workspace
   - intent: duplicateworkspace
   - action: utter_duplicate_workspace
 
 - story: save
   steps:
+  - user: |
+      save project
   - intent: save
   - action: utter_saved
 
 - story: save as
   steps:
+  - user: |
+      project save as
   - intent: saveas
   - action: utter_save_as_window
 
 - story: save all
   steps:
+  - user: |
+      workspace save all
   - intent: saveall
   - action: utter_save_all
 
 - story: save auto
   steps:
+  - user: |
+      auto save
   - intent: saveauto
   - action: utter_save_auto
 
 - story: setting
   steps:
+  - user: |
+      show setting
   - intent: setting
   - action: utter_setting
 
 - story: setting telemetry
   steps:
+  - user: |
+      view telemetry setting
   - intent: settingtelemetry
   - action: utter_setting_telemetry
 
 - story: setting online services
   steps:
+  - user: |
+      show online services setting
   - intent: settingonlineservices
   - action: utter_setting_online_services
 
 - story: extension
   steps:
+  - user: |
+      show extension
   - intent: extension
   - action: utter_extension
 
 - story: keyboard shortcuts
   steps:
+  - user: |
+      view keyboard shortcut
   - intent: keyboardshortcuts
   - action: utter_keyboard_shortcuts
 
 - story: migrate keyboard shortcuts
   steps:
+  - user: |
+      keyboard shortcut migrate
   - intent: keyboardshortcutsmigrate
   - action: utter_keyboard_shortcuts_migrate
 
 - story: user snippet
   steps:
+  - user: |
+      user snippet option
   - intent: usersnippet
   - action: utter_user_snippet_select
 
 - story: color theme
   steps:
+  - user: |
+      change color theme
   - intent: themecolor
   - action: utter_theme_color_select
 
 - story: file icon theme
   steps:
+  - user: |
+      show file icon theme
   - intent: themefileicon
   - action: utter_theme_file_icon_select
 
 - story: product icon theme
   steps:
+  - user: |
+      change product icon theme
   - intent: themeproducticon
   - action: utter_theme_product_icon_select
 
 - story: setting sync
   steps:
+  - user: |
+      view setting sync
   - intent: settingsync
   - action: utter_setting_sync
 
 - story: revert file
   steps:
+  - user: |
+      check revert file
   - intent: filerevert
   - action: utter_file_revert
 
 - story: close editor
   steps:
+  - user: |
+      close this editor
   - intent: closeeditor
   - action: utter_close_editor
 
 - story: close folder
   steps:
+  - user: |
+      close this folder
   - intent: closefolder
   - action: utter_close_folder
 
 - story: close window
   steps:
+  - user: |
+      close this window
   - intent: closewindow
   - action: utter_close_window
 
 - story: exit
   steps:
+  - user: |
+      exit
   - intent: exit
   - action: utter_exit
 
 - story: undo
   steps:
+  - user: |
+      undo
   - intent: undo
   - action: utter_undo
 
 - story: redo
   steps:
+  - user: |
+      redo
   - intent: redo
   - action: utter_redo
 
 - story: cut
   steps:
+  - user: |
+      cut statement
   - intent: cut
   - action: utter_cut
 
 - story: copy
   steps:
+  - user: |
+      copy the statements
   - intent: copy
   - action: utter_copy
 
 - story: paste
   steps:
+  - user: |
+      paste attributes
   - intent: paste
   - action: utter_paste
 
 - story: find
   steps:
+  - user: |
+      open finder
   - intent: find
   - action: utter_find
 
 - story: replace
   steps:
+  - user: |
+      open replace option
   - intent: replace
   - action: utter_replace
 
 - story: find in file
   steps:
+  - user: |
+      view find in file
   - intent: findinfile
   - action: utter_find_infile
 
 - story: replace in file
   steps:
+  - user: |
+      open replace in file
   - intent: replaceinfile
   - action: utter_replace_infile
 
 - story: line comment
   steps:
+  - user: |
+      add line comment
   - intent: linecomment
   - action: utter_line_comment
 
 - story: block comment
   steps:
+  - user: |
+      toggle block comment
   - intent: blockcomment
   - action: utter_block_comment
 
 - story: emmet
   steps:
+  - user: |
+      insert emmet
   - intent: emmet
   - action: utter_emmet
 
 - story: select all
   steps:
+  - user: |
+      select all codes
   - intent: selectall
   - action: utter_select_all
 
 - story: expand select
   steps:
+  - user: |
+      expand selected
   - intent: selectexpand
   - action: utter_select_expand
 
 - story: shrink select
   steps:
+  - user: |
+      shrink the selected
   - intent: selectshrink
   - action: utter_select_shrink
 
 - story: copy line up
   steps:
+  - user: |
+      copy up statement
   - intent: copylineup
   - action: utter_copy_line_up
 
 - story: copy line down
   steps:
+  - user: |
+      copy down statement
   - intent: copylinedown
   - action: utter_copy_line_down
 
 - story: move line up
   steps:
+  - user: |
+      move statement up
   - intent: movelineup
   - action: utter_move_line_up
 
 - story: move line down
   steps:
+  - user: |
+      move statement down
   - intent: movelinedown
   - action: utter_move_line_down
 
 - story: duplicate select
   steps:
+  - user: |
+      duplicate selected code
   - intent: duplicateselection
   - action: utter_duplicate_selection
 
 - story: select next occurrence
   steps:
+  - user: |
+      select next occurrence
   - intent: occurrencenext
   - action: utter_occurrence_next
 
 - story: select previous occurrence
   steps:
+  - user: |
+      select previous occurrence from code base
   - intent: occurrenceprevious
   - action: utter_occurrence_previous
 
 - story: select all occurrence
   steps:
+  - user: |
+      select all occurrence from code segment
   - intent: occurrenceall
   - action: utter_occurrence_all
 
 - story: column selection
   steps:
+  - user: |
+      switch column selection mode
   - intent: columnselection
   - action: utter_column_selection
 
 - story: command palette
   steps:
+  - user: |
+      enable command palette
   - intent: commandpalette
   - action: utter_command_palette
 
 - story: add cursor above
   steps:
+  - user: |
+      add cursor above statement
   - intent: cursoraddabove
   - action: utter_cursor_add_above
 
 - story: add cursor below
   steps:
+  - user: |
+      add cursor below statement
   - intent: cursoraddbelow
   - action: utter_cursor_add_below
 
 - story: add cursor to line end
   steps:
+  - user: |
+      add cursor to this line end
   - intent: cursoraddlineend
   - action: utter_cursor_add_line_end
 
 - story: switch to multi cursor
   steps:
+  - user: |
+      switch to multi cursor
   - intent: switchmulticursor
   - action: utter_switch_multi_cursor
 
 - story: open view
   steps:
+  - user: |
+      open viewer
   - intent: open_view
   - action: utter_done
 
 - story: full screen
   steps:
+  - user: |
+      full screen window
   - intent: full_screen
   - action: utter_done
 
 - story: zen mode
   steps:
+  - user: |
+      show zen mode
   - intent: zen_mode
   - action: utter_done
 
 - story: centered layout
   steps:
+  - user: |
+      centered layout view
   - intent: centered_layout
   - action: utter_done
 
 - story: menu bar
   steps:
+  - user: |
+      get menu bar
   - intent: menu_bar
   - action: utter_done
 
 - story: side bar primary
   steps:
+  - user: |
+      primary side bar
   - intent: side_bar_primary
   - action: utter_done
 
 - story: side bar secondary
   steps:
+  - user: |
+      secondary side bar
   - intent: side_bar_secondary
   - action: utter_done
 
 - story: status bar
   steps:
+  - user: |
+      enable status bar
   - intent: status_bar
   - action: utter_done
 
 - story: activity bar
   steps:
+  - user: |
+      view activity bar
   - intent: activity_bar
   - action: utter_done
 
 - story: panel show
   steps:
+  - user: |
+      show panel
   - intent: panel_show
   - action: utter_done
 
 - story: sidebar move
   steps:
+  - user: |
+      switch primary side bar left
   - intent: side_bar_move
   - action: utter_done
 
 - story: panel position
   steps:
+  - user: |
+      switch panel right
   - intent: panel_position
   - action: utter_done
 
 - story: panel align
   steps:
+  - user: |
+      move panel align justify
   - intent: panel_align
   - action: utter_done
 
 - story: zoom in
   steps:
+  - user: |
+      increase window size
   - intent: zoom_in
   - action: utter_done
 
 - story: zoom out
   steps:
+  - user: |
+      zoom out view
   - intent: zoom_out
   - action: utter_done
 
 - story: zoom reset
   steps:
+  - user: |
+      reset zoom
   - intent: zoom_reset
   - action: utter_done
 
 - story: editor layout split
   steps:
+  - user: |
+      show editor layout split left
   - intent: editor_layout_split
   - action: utter_done
 
 - story: editor layout split group
   steps:
+  - user: |
+      show editor layout split in group
   - intent: editor_layout_split_group
   - action: utter_done
 
 - story: editor layout join group
   steps:
+  - user: |
+      show editor layout join in group
   - intent: editor_layout_join_group
   - action: utter_done
 
 - story: editor layout
   steps:
+  - user: |
+      show editor layout two rows
   - intent: editor_layout
   - action: utter_done
 
 - story: editor layout flip
   steps:
+  - user: |
+      show editor layout flip
   - intent: editor_layout_flip
   - action: utter_done
 
 - story: explorer
   steps:
+  - user: |
+      view file explorer
   - intent: explorer
   - action: utter_done
 
 - story: search
   steps:
+  - user: |
+      open ide search
   - intent: search
   - action: utter_done
 
 - story: source control
   steps:
+  - user: |
+      source control management
   - intent: source_control
   - action: utter_done
 
 - story: run debug
   steps:
+  - user: |
+      ide run
   - intent: run_debug
   - action: utter_done
 
 - story: testing
   steps:
+  - user: |
+      show file testing
   - intent: testing
   - action: utter_done
 
 - story: problems
   steps:
+  - user: |
+      get ide problem
   - intent: problems
   - action: utter_done
 
 - story: output
   steps:
+  - user: |
+      view output window
   - intent: output
   - action: utter_done
 
 - story: debug_console
   steps:
+  - user: |
+      view debug console
   - intent: debug_console
   - action: utter_done
 
 - story: terminal
   steps:
+  - user: |
+      view terminal
   - intent: terminal
   - action: utter_done
 
 - story: word_wrap
   steps:
+  - user: |
+      change word wrap
   - intent: word_wrap
   - action: utter_done
 
 - story: minimap
   steps:
+  - user: |
+      show minimap
   - intent: minimap
   - action: utter_done
 
 - story: breadcrumb
   steps:
+  - user: |
+      display breadcrumb
   - intent: breadcrumb
   - action: utter_done
 
 - story: whitespace
   steps:
+  - user: |
+      show render whitespace
   - intent: whitespace
   - action: utter_done
 
 - story: control character
   steps:
+  - user: |
+      view render control character
   - intent: control_character
   - action: utter_done
 
 - story: go back
   steps:
+  - user: |
+      go back
   - intent: go_back
   - action: utter_done
 
 - story: go forward
   steps:
+  - user: |
+      go forward
   - intent: go_forward
   - action: utter_done
 
 - story: last edit
   steps:
+  - user: |
+      view last edit location
   - intent: last_edit
   - action: utter_done
 
 - story: switch editor
   steps:
+  - user: |
+      previous editor
   - intent: switch_editor
   - action: utter_done
 
 - story: switch group
   steps:
+  - user: |
+      next group
   - intent: switch_group
   - action: utter_done
 
 - story: go to file
   steps:
+  - user: |
+      go to file
   - intent: go_to_file
   - action: utter_done
-
-- story: increase font
-  steps:
-  - intent: increase_font
-  - action: utter_increase_font
-
-- story: decrease font
-  steps:
-  - intent: decrease_font
-  - action: utter_decrease_font
 
 
 # GIT COMMANDS
 - story: git init
   steps:
+  - user: |
+      initialize git repository
   - intent: gitinit
   - action: utter_git_repository_created
 
 - story: git create new branch
   steps:
+  - user: |
+      create a new branch [dev]{"entity": "name"}
   - intent: gitcreatebranch
   - action: utter_git_branch_created
 
 - story: git checkout branch
   steps:
+  - user: |
+      switch branch name [dev]{"entity": "name"}
   - intent: gitswitchbranch
   - action: utter_git_branch_checkout
 
 - story: git add to index
   steps:
+  - user: |
+      git add files
   - intent: gitadd
   - action: utter_git_add
 
 - story: git commit
   steps:
+  - user: |
+      git commit with message
   - intent: gitcommit
   - action: utter_git_commit
 
 - story: git push
   steps:
+  - user: |
+      git push origin development
   - intent: gitpush
   - action: utter_git_push
 
 - story: git merge
   steps:
+  - user: |
+      git merge main
   - intent: gitmerge
   - action: utter_git_merge
 
 - story: git status
   steps:
+  - user: |
+      get git status
   - intent: gitstatus
   - action: utter_git_status
 
 - story: git pull
   steps:
+  - user: |
+      git pull master
   - intent: gitpull
   - action: utter_git_pull
 
 - story: git diff
   steps:
+  - user: |
+      git difference
   - intent: gitdiff
   - action: utter_git_diff
 
 - story: git log
   steps:
+  - user: |
+      view git log
   - intent: gitlog
   - action: utter_git_log
 
 - story: git branch
   steps:
+  - user: |
+      git branch main
   - intent: gitbranch
   - action: utter_git_branch
 
 - story: git stash
   steps:
+  - user: |
+      git stash list
   - intent: gitstash
   - action: utter_git_stash
-

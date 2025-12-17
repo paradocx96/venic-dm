@@ -1,0 +1,652 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: create_getters_setters
+  examples: |
+    - generate getters and setters
+    - create getters and setters
+    - add getters and setters
+    - initialize getters and setters
+    - make getters and setters
+    - generate setters and getters
+    - create setters and getters
+    - add setters and getters
+    - initialize setters and getters
+    - make setters and getters
+
+- intent: create_getters
+  examples: |
+    - generate getters
+    - create getters
+    - add getters
+    - initialize getters
+    - make getters
+
+- intent: create_setters
+  examples: |
+    - generate setters
+    - create setters
+    - add setters
+    - initialize setters
+    - make setters
+
+- intent: create_getter
+  examples: |
+    - generate getter
+    - create getter
+    - add getter
+    - initialize getter
+    - make getter
+    - generate getter for age variable
+    - generate getter for variable age
+    - generate variable age getter
+    - generate age variable getter
+    - create getter for age variable
+    - create getter for variable age
+    - create variable age getter
+    - create age variable getter
+    - add getter for age variable
+    - add getter for variable age
+    - add variable age getter
+    - add age variable getter
+    - initialize getter for age variable
+    - initialize getter for variable age
+    - initialize variable age getter
+    - initialize age variable getter
+    - make getter for age variable
+    - make getter for variable age
+    - make variable age getter
+    - make age variable getter
+    - generate getter for age attribute
+    - generate getter for attribute age
+    - generate attribute age getter
+    - generate age attribute getter
+    - create getter for age attribute
+    - create getter for attribute age
+    - create attribute age getter
+    - create age attribute getter
+    - add getter for age attribute
+    - add getter for attribute age
+    - add attribute age getter
+    - add age attribute getter
+    - initialize getter for age attribute
+    - initialize getter for attribute age
+    - initialize attribute age getter
+    - initialize age attribute getter
+    - make getter for age attribute
+    - make getter for attribute age
+    - make attribute age getter
+    - make age attribute getter
+    - generate getter for age property
+    - generate getter for property age
+    - generate property age getter
+    - generate age property getter
+    - create getter for age property
+    - create getter for property age
+    - create property age getter
+    - create age property getter
+    - add getter for age property
+    - add getter for property age
+    - add property age getter
+    - add age property getter
+    - initialize getter for age property
+    - initialize getter for property age
+    - initialize property age getter
+    - initialize age property getter
+    - make getter for age property
+    - make getter for property age
+    - make property age getter
+    - make age property getter
+    - generate getter for size variable
+    - generate getter for variable size
+    - generate variable size getter
+    - generate size variable getter
+    - create getter for size variable
+    - create getter for variable size
+    - create variable size getter
+    - create size variable getter
+    - add getter for size variable
+    - add getter for variable size
+    - add variable size getter
+    - add size variable getter
+    - initialize getter for size variable
+    - initialize getter for variable size
+    - initialize variable size getter
+    - initialize size variable getter
+    - make getter for size variable
+    - make getter for variable size
+    - make variable size getter
+    - make size variable getter
+    - generate getter for size attribute
+    - generate getter for attribute size
+    - generate attribute size getter
+    - generate size attribute getter
+    - create getter for size attribute
+    - create getter for attribute size
+    - create attribute size getter
+    - create size attribute getter
+    - add getter for size attribute
+    - add getter for attribute size
+    - add attribute size getter
+    - add size attribute getter
+    - initialize getter for size attribute
+    - initialize getter for attribute size
+    - initialize attribute size getter
+    - initialize size attribute getter
+    - make getter for size attribute
+    - make getter for attribute size
+    - make attribute size getter
+    - make size attribute getter
+    - generate getter for size property
+    - generate getter for property size
+    - generate property size getter
+    - generate size property getter
+    - create getter for size property
+    - create getter for property size
+    - create property size getter
+    - create size property getter
+    - add getter for size property
+    - add getter for property size
+    - add property size getter
+    - add size property getter
+    - initialize getter for size property
+    - initialize getter for property size
+    - initialize property size getter
+    - initialize size property getter
+    - make getter for size property
+    - make getter for property size
+    - make property size getter
+    - make size property getter
+    - generate getter for user variable
+    - generate getter for variable user
+    - generate variable user getter
+    - generate user variable getter
+    - create getter for user variable
+    - create getter for variable user
+    - create variable user getter
+    - create user variable getter
+    - add getter for user variable
+    - add getter for variable user
+    - add variable user getter
+    - add user variable getter
+    - initialize getter for user variable
+    - initialize getter for variable user
+    - initialize variable user getter
+    - initialize user variable getter
+    - make getter for user variable
+    - make getter for variable user
+    - make variable user getter
+    - make user variable getter
+    - generate getter for user attribute
+    - generate getter for attribute user
+    - generate attribute user getter
+    - generate user attribute getter
+    - create getter for user attribute
+    - create getter for attribute user
+    - create attribute user getter
+    - create user attribute getter
+    - add getter for user attribute
+    - add getter for attribute user
+    - add attribute user getter
+    - add user attribute getter
+    - initialize getter for user attribute
+    - initialize getter for attribute user
+    - initialize attribute user getter
+    - initialize user attribute getter
+    - make getter for user attribute
+    - make getter for attribute user
+    - make attribute user getter
+    - make user attribute getter
+    - generate getter for user property
+    - generate getter for property user
+    - generate property user getter
+    - generate user property getter
+    - create getter for user property
+    - create getter for property user
+    - create property user getter
+    - create user property getter
+    - add getter for user property
+    - add getter for property user
+    - add property user getter
+    - add user property getter
+    - initialize getter for user property
+    - initialize getter for property user
+    - initialize property user getter
+    - initialize user property getter
+    - make getter for user property
+    - make getter for property user
+    - make property user getter
+    - make user property getter
+    - generate getter for department variable
+    - generate getter for variable department
+    - generate variable department getter
+    - generate department variable getter
+    - create getter for department variable
+    - create getter for variable department
+    - create variable department getter
+    - create department variable getter
+    - add getter for department variable
+    - add getter for variable department
+    - add variable department getter
+    - add department variable getter
+    - initialize getter for department variable
+    - initialize getter for variable department
+    - initialize variable department getter
+    - initialize department variable getter
+    - make getter for department variable
+    - make getter for variable department
+    - make variable department getter
+    - make department variable getter
+    - generate getter for department attribute
+    - generate getter for attribute department
+    - generate attribute department getter
+    - generate department attribute getter
+    - create getter for department attribute
+    - create getter for attribute department
+    - create attribute department getter
+    - create department attribute getter
+    - add getter for department attribute
+    - add getter for attribute department
+    - add attribute department getter
+    - add department attribute getter
+    - initialize getter for department attribute
+    - initialize getter for attribute department
+    - initialize attribute department getter
+    - initialize department attribute getter
+    - make getter for department attribute
+    - make getter for attribute department
+    - make attribute department getter
+    - make department attribute getter
+    - generate getter for department property
+    - generate getter for property department
+    - generate property department getter
+    - generate department property getter
+    - create getter for department property
+    - create getter for property department
+    - create property department getter
+    - create department property getter
+    - add getter for department property
+    - add getter for property department
+    - add property department getter
+    - add department property getter
+    - initialize getter for department property
+    - initialize getter for property department
+    - initialize property department getter
+    - initialize department property getter
+    - make getter for department property
+    - make getter for property department
+    - make property department getter
+    - make department property getter
+    - generate getter for number variable
+    - generate getter for variable number
+    - generate variable number getter
+    - generate number variable getter
+    - create getter for number variable
+    - create getter for variable number
+    - create variable number getter
+    - create number variable getter
+    - add getter for number variable
+    - add getter for variable number
+    - add variable number getter
+    - add number variable getter
+    - initialize getter for number variable
+    - initialize getter for variable number
+    - initialize variable number getter
+    - initialize number variable getter
+    - make getter for number variable
+    - make getter for variable number
+    - make variable number getter
+    - make number variable getter
+    - generate getter for number attribute
+    - generate getter for attribute number
+    - generate attribute number getter
+    - generate number attribute getter
+    - create getter for number attribute
+    - create getter for attribute number
+    - create attribute number getter
+    - create number attribute getter
+    - add getter for number attribute
+    - add getter for attribute number
+    - add attribute number getter
+    - add number attribute getter
+    - initialize getter for number attribute
+    - initialize getter for attribute number
+    - initialize attribute number getter
+    - initialize number attribute getter
+    - make getter for number attribute
+    - make getter for attribute number
+    - make attribute number getter
+    - make number attribute getter
+    - generate getter for number property
+    - generate getter for property number
+    - generate property number getter
+    - generate number property getter
+    - create getter for number property
+    - create getter for property number
+    - create property number getter
+    - create number property getter
+    - add getter for number property
+    - add getter for property number
+    - add property number getter
+    - add number property getter
+    - initialize getter for number property
+    - initialize getter for property number
+    - initialize property number getter
+    - initialize number property getter
+    - make getter for number property
+    - make getter for property number
+    - make property number getter
+    - make number property getter
+
+
+- intent: create_setter
+  examples: |
+    - generate setter
+    - create setter
+    - add setter
+    - initialize setter
+    - make setter
+    - generate setter for age variable
+    - generate setter for variable age
+    - generate variable age setter
+    - generate age variable setter
+    - create setter for age variable
+    - create setter for variable age
+    - create variable age setter
+    - create age variable setter
+    - add setter for age variable
+    - add setter for variable age
+    - add variable age setter
+    - add age variable setter
+    - initialize setter for age variable
+    - initialize setter for variable age
+    - initialize variable age setter
+    - initialize age variable setter
+    - make setter for age variable
+    - make setter for variable age
+    - make variable age setter
+    - make age variable setter
+    - generate setter for age attribute
+    - generate setter for attribute age
+    - generate attribute age setter
+    - generate age attribute setter
+    - create setter for age attribute
+    - create setter for attribute age
+    - create attribute age setter
+    - create age attribute setter
+    - add setter for age attribute
+    - add setter for attribute age
+    - add attribute age setter
+    - add age attribute setter
+    - initialize setter for age attribute
+    - initialize setter for attribute age
+    - initialize attribute age setter
+    - initialize age attribute setter
+    - make setter for age attribute
+    - make setter for attribute age
+    - make attribute age setter
+    - make age attribute setter
+    - generate setter for age property
+    - generate setter for property age
+    - generate property age setter
+    - generate age property setter
+    - create setter for age property
+    - create setter for property age
+    - create property age setter
+    - create age property setter
+    - add setter for age property
+    - add setter for property age
+    - add property age setter
+    - add age property setter
+    - initialize setter for age property
+    - initialize setter for property age
+    - initialize property age setter
+    - initialize age property setter
+    - make setter for age property
+    - make setter for property age
+    - make property age setter
+    - make age property setter
+    - generate setter for size variable
+    - generate setter for variable size
+    - generate variable size setter
+    - generate size variable setter
+    - create setter for size variable
+    - create setter for variable size
+    - create variable size setter
+    - create size variable setter
+    - add setter for size variable
+    - add setter for variable size
+    - add variable size setter
+    - add size variable setter
+    - initialize setter for size variable
+    - initialize setter for variable size
+    - initialize variable size setter
+    - initialize size variable setter
+    - make setter for size variable
+    - make setter for variable size
+    - make variable size setter
+    - make size variable setter
+    - generate setter for size attribute
+    - generate setter for attribute size
+    - generate attribute size setter
+    - generate size attribute setter
+    - create setter for size attribute
+    - create setter for attribute size
+    - create attribute size setter
+    - create size attribute setter
+    - add setter for size attribute
+    - add setter for attribute size
+    - add attribute size setter
+    - add size attribute setter
+    - initialize setter for size attribute
+    - initialize setter for attribute size
+    - initialize attribute size setter
+    - initialize size attribute setter
+    - make setter for size attribute
+    - make setter for attribute size
+    - make attribute size setter
+    - make size attribute setter
+    - generate setter for size property
+    - generate setter for property size
+    - generate property size setter
+    - generate size property setter
+    - create setter for size property
+    - create setter for property size
+    - create property size setter
+    - create size property setter
+    - add setter for size property
+    - add setter for property size
+    - add property size setter
+    - add size property setter
+    - initialize setter for size property
+    - initialize setter for property size
+    - initialize property size setter
+    - initialize size property setter
+    - make setter for size property
+    - make setter for property size
+    - make property size setter
+    - make size property setter
+    - generate setter for user variable
+    - generate setter for variable user
+    - generate variable user setter
+    - generate user variable setter
+    - create setter for user variable
+    - create setter for variable user
+    - create variable user setter
+    - create user variable setter
+    - add setter for user variable
+    - add setter for variable user
+    - add variable user setter
+    - add user variable setter
+    - initialize setter for user variable
+    - initialize setter for variable user
+    - initialize variable user setter
+    - initialize user variable setter
+    - make setter for user variable
+    - make setter for variable user
+    - make variable user setter
+    - make user variable setter
+    - generate setter for user attribute
+    - generate setter for attribute user
+    - generate attribute user setter
+    - generate user attribute setter
+    - create setter for user attribute
+    - create setter for attribute user
+    - create attribute user setter
+    - create user attribute setter
+    - add setter for user attribute
+    - add setter for attribute user
+    - add attribute user setter
+    - add user attribute setter
+    - initialize setter for user attribute
+    - initialize setter for attribute user
+    - initialize attribute user setter
+    - initialize user attribute setter
+    - make setter for user attribute
+    - make setter for attribute user
+    - make attribute user setter
+    - make user attribute setter
+    - generate setter for user property
+    - generate setter for property user
+    - generate property user setter
+    - generate user property setter
+    - create setter for user property
+    - create setter for property user
+    - create property user setter
+    - create user property setter
+    - add setter for user property
+    - add setter for property user
+    - add property user setter
+    - add user property setter
+    - initialize setter for user property
+    - initialize setter for property user
+    - initialize property user setter
+    - initialize user property setter
+    - make setter for user property
+    - make setter for property user
+    - make property user setter
+    - make user property setter
+    - generate setter for department variable
+    - generate setter for variable department
+    - generate variable department setter
+    - generate department variable setter
+    - create setter for department variable
+    - create setter for variable department
+    - create variable department setter
+    - create department variable setter
+    - add setter for department variable
+    - add setter for variable department
+    - add variable department setter
+    - add department variable setter
+    - initialize setter for department variable
+    - initialize setter for variable department
+    - initialize variable department setter
+    - initialize department variable setter
+    - make setter for department variable
+    - make setter for variable department
+    - make variable department setter
+    - make department variable setter
+    - generate setter for department attribute
+    - generate setter for attribute department
+    - generate attribute department setter
+    - generate department attribute setter
+    - create setter for department attribute
+    - create setter for attribute department
+    - create attribute department setter
+    - create department attribute setter
+    - add setter for department attribute
+    - add setter for attribute department
+    - add attribute department setter
+    - add department attribute setter
+    - initialize setter for department attribute
+    - initialize setter for attribute department
+    - initialize attribute department setter
+    - initialize department attribute setter
+    - make setter for department attribute
+    - make setter for attribute department
+    - make attribute department setter
+    - make department attribute setter
+    - generate setter for department property
+    - generate setter for property department
+    - generate property department setter
+    - generate department property setter
+    - create setter for department property
+    - create setter for property department
+    - create property department setter
+    - create department property setter
+    - add setter for department property
+    - add setter for property department
+    - add property department setter
+    - add department property setter
+    - initialize setter for department property
+    - initialize setter for property department
+    - initialize property department setter
+    - initialize department property setter
+    - make setter for department property
+    - make setter for property department
+    - make property department setter
+    - make department property setter
+    - generate setter for number variable
+    - generate setter for variable number
+    - generate variable number setter
+    - generate number variable setter
+    - create setter for number variable
+    - create setter for variable number
+    - create variable number setter
+    - create number variable setter
+    - add setter for number variable
+    - add setter for variable number
+    - add variable number setter
+    - add number variable setter
+    - initialize setter for number variable
+    - initialize setter for variable number
+    - initialize variable number setter
+    - initialize number variable setter
+    - make setter for number variable
+    - make setter for variable number
+    - make variable number setter
+    - make number variable setter
+    - generate setter for number attribute
+    - generate setter for attribute number
+    - generate attribute number setter
+    - generate number attribute setter
+    - create setter for number attribute
+    - create setter for attribute number
+    - create attribute number setter
+    - create number attribute setter
+    - add setter for number attribute
+    - add setter for attribute number
+    - add attribute number setter
+    - add number attribute setter
+    - initialize setter for number attribute
+    - initialize setter for attribute number
+    - initialize attribute number setter
+    - initialize number attribute setter
+    - make setter for number attribute
+    - make setter for attribute number
+    - make attribute number setter
+    - make number attribute setter
+    - generate setter for number property
+    - generate setter for property number
+    - generate property number setter
+    - generate number property setter
+    - create setter for number property
+    - create setter for property number
+    - create property number setter
+    - create number property setter
+    - add setter for number property
+    - add setter for property number
+    - add property number setter
+    - add number property setter
+    - initialize setter for number property
+    - initialize setter for property number
+    - initialize property number setter
+    - initialize number property setter
+    - make setter for number property
+    - make setter for property number
+    - make property number setter
+    - make number property setter
+
+
+# ADDED TO NLU/TEST

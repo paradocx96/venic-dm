@@ -1,0 +1,2674 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createfunction
+  examples: |
+    - add new function named [repository](name)
+    - add new function named [api](name)
+    - add new function named [controller](name)
+    - add new function named [service](name)
+    - add new function named [model](name)
+    - add new function named [repo](name)
+    - add new function named [sum](name)
+    - add new function named [addition](name)
+    - add new function named [answer](name)
+    - add new function named [result](name)
+    - add new function named [get](name)
+    - add new function named [update](name)
+    - add new function named [create](name)
+    - add new function named [delete](name)
+    - add new function named [find](name)
+    - add new function named [receive](name)
+    - add new function named [calculate](name)
+    - add new function named [decrement](name)
+    - add new function named [increment](name)
+    - add new function named [calc](name)
+    - add new function named [add](name)
+    - add new function named [valid](name)
+    - add new function named [move](name)
+    - add new function named [work](name)
+    - add new function named [write](name)
+    - add new function named [spec](name)
+    - add new function named [buy](name)
+    - add new function named [run](name)
+    - add new function named [notify](name)
+    - add new function named [output](name)
+    - add new function named [communicate](name)
+    - add new function named [call](name)
+    - add new function named [send](name)
+    - add new function named [input](name)
+    - add new function named [subtract](name)
+    - add new function named [multiply](name)
+    - add new function named [divide](name)
+    - add new function named [modulus](name)
+    - add new function named [check](name)
+    - add new function named [display](name)
+    - add new function named [show](name)
+    - add new function named [view](name)
+    - add new function named [max](name)
+    - add new function named [min](name)
+    - add new function named [is](name)
+    - add new function named [contain](name)
+    - add new function named [remove](name)
+    - add new function named [clear](name)
+    - add new function named [clean](name)
+    - add new function named [put](name)
+    - add new function named [set](name)
+    - add new function named [build](name)
+    - add new function named [plus](name)
+    - add new function named [minus](name)
+    - add new function named [append](name)
+    - add new function named [reset](name)
+    - add new function named [rebuild](name)
+    - add new function named [change](name)
+    - add new function named [select](name)
+    - add new function named [generate](name)
+    - add function named [repository](name)
+    - add function named [api](name)
+    - add function named [controller](name)
+    - add function named [service](name)
+    - add function named [model](name)
+    - add function named [repo](name)
+    - add function named [sum](name)
+    - add function named [addition](name)
+    - add function named [answer](name)
+    - add function named [result](name)
+    - add function named [get](name)
+    - add function named [update](name)
+    - add function named [create](name)
+    - add function named [delete](name)
+    - add function named [find](name)
+    - add function named [receive](name)
+    - add function named [calculate](name)
+    - add function named [decrement](name)
+    - add function named [increment](name)
+    - add function named [calc](name)
+    - add function named [add](name)
+    - add function named [valid](name)
+    - add function named [move](name)
+    - add function named [work](name)
+    - add function named [write](name)
+    - add function named [spec](name)
+    - add function named [buy](name)
+    - add function named [run](name)
+    - add function named [notify](name)
+    - add function named [output](name)
+    - add function named [communicate](name)
+    - add function named [call](name)
+    - add function named [send](name)
+    - add function named [input](name)
+    - add function named [subtract](name)
+    - add function named [multiply](name)
+    - add function named [divide](name)
+    - add function named [modulus](name)
+    - add function named [check](name)
+    - add function named [display](name)
+    - add function named [show](name)
+    - add function named [view](name)
+    - add function named [max](name)
+    - add function named [min](name)
+    - add function named [is](name)
+    - add function named [contain](name)
+    - add function named [remove](name)
+    - add function named [clear](name)
+    - add function named [clean](name)
+    - add function named [put](name)
+    - add function named [set](name)
+    - add function named [build](name)
+    - add function named [plus](name)
+    - add function named [minus](name)
+    - add function named [append](name)
+    - add function named [reset](name)
+    - add function named [rebuild](name)
+    - add function named [change](name)
+    - add function named [select](name)
+    - add function named [generate](name)
+    - add function [repository](name)
+    - add function [api](name)
+    - add function [controller](name)
+    - add function [service](name)
+    - add function [model](name)
+    - add function [repo](name)
+    - add function [sum](name)
+    - add function [addition](name)
+    - add function [answer](name)
+    - add function [result](name)
+    - add function [get](name)
+    - add function [update](name)
+    - add function [create](name)
+    - add function [delete](name)
+    - add function [find](name)
+    - add function [receive](name)
+    - add function [calculate](name)
+    - add function [decrement](name)
+    - add function [increment](name)
+    - add function [calc](name)
+    - add function [add](name)
+    - add function [valid](name)
+    - add function [move](name)
+    - add function [work](name)
+    - add function [write](name)
+    - add function [spec](name)
+    - add function [buy](name)
+    - add function [run](name)
+    - add function [notify](name)
+    - add function [output](name)
+    - add function [communicate](name)
+    - add function [call](name)
+    - add function [send](name)
+    - add function [input](name)
+    - add function [subtract](name)
+    - add function [multiply](name)
+    - add function [divide](name)
+    - add function [modulus](name)
+    - add function [check](name)
+    - add function [display](name)
+    - add function [show](name)
+    - add function [view](name)
+    - add function [max](name)
+    - add function [min](name)
+    - add function [is](name)
+    - add function [contain](name)
+    - add function [remove](name)
+    - add function [clear](name)
+    - add function [clean](name)
+    - add function [put](name)
+    - add function [set](name)
+    - add function [build](name)
+    - add function [plus](name)
+    - add function [minus](name)
+    - add function [append](name)
+    - add function [reset](name)
+    - add function [rebuild](name)
+    - add function [change](name)
+    - add function [select](name)
+    - add function [generate](name)
+    - create new function named [repository](name)
+    - create new function named [api](name)
+    - create new function named [controller](name)
+    - create new function named [service](name)
+    - create new function named [model](name)
+    - create new function named [repo](name)
+    - create new function named [sum](name)
+    - create new function named [addition](name)
+    - create new function named [answer](name)
+    - create new function named [result](name)
+    - create new function named [get](name)
+    - create new function named [update](name)
+    - create new function named [create](name)
+    - create new function named [delete](name)
+    - create new function named [find](name)
+    - create new function named [receive](name)
+    - create new function named [calculate](name)
+    - create new function named [decrement](name)
+    - create new function named [increment](name)
+    - create new function named [calc](name)
+    - create new function named [add](name)
+    - create new function named [valid](name)
+    - create new function named [move](name)
+    - create new function named [work](name)
+    - create new function named [write](name)
+    - create new function named [spec](name)
+    - create new function named [buy](name)
+    - create new function named [run](name)
+    - create new function named [notify](name)
+    - create new function named [output](name)
+    - create new function named [communicate](name)
+    - create new function named [call](name)
+    - create new function named [send](name)
+    - create new function named [input](name)
+    - create new function named [subtract](name)
+    - create new function named [multiply](name)
+    - create new function named [divide](name)
+    - create new function named [modulus](name)
+    - create new function named [check](name)
+    - create new function named [display](name)
+    - create new function named [show](name)
+    - create new function named [view](name)
+    - create new function named [max](name)
+    - create new function named [min](name)
+    - create new function named [is](name)
+    - create new function named [contain](name)
+    - create new function named [remove](name)
+    - create new function named [clear](name)
+    - create new function named [clean](name)
+    - create new function named [put](name)
+    - create new function named [set](name)
+    - create new function named [build](name)
+    - create new function named [plus](name)
+    - create new function named [minus](name)
+    - create new function named [append](name)
+    - create new function named [reset](name)
+    - create new function named [rebuild](name)
+    - create new function named [change](name)
+    - create new function named [select](name)
+    - create new function named [generate](name)
+    - create function named [repository](name)
+    - create function named [api](name)
+    - create function named [controller](name)
+    - create function named [service](name)
+    - create function named [model](name)
+    - create function named [repo](name)
+    - create function named [sum](name)
+    - create function named [addition](name)
+    - create function named [answer](name)
+    - create function named [result](name)
+    - create function named [get](name)
+    - create function named [update](name)
+    - create function named [create](name)
+    - create function named [delete](name)
+    - create function named [find](name)
+    - create function named [receive](name)
+    - create function named [calculate](name)
+    - create function named [decrement](name)
+    - create function named [increment](name)
+    - create function named [calc](name)
+    - create function named [add](name)
+    - create function named [valid](name)
+    - create function named [move](name)
+    - create function named [work](name)
+    - create function named [write](name)
+    - create function named [spec](name)
+    - create function named [buy](name)
+    - create function named [run](name)
+    - create function named [notify](name)
+    - create function named [output](name)
+    - create function named [communicate](name)
+    - create function named [call](name)
+    - create function named [send](name)
+    - create function named [input](name)
+    - create function named [subtract](name)
+    - create function named [multiply](name)
+    - create function named [divide](name)
+    - create function named [modulus](name)
+    - create function named [check](name)
+    - create function named [display](name)
+    - create function named [show](name)
+    - create function named [view](name)
+    - create function named [max](name)
+    - create function named [min](name)
+    - create function named [is](name)
+    - create function named [contain](name)
+    - create function named [remove](name)
+    - create function named [clear](name)
+    - create function named [clean](name)
+    - create function named [put](name)
+    - create function named [set](name)
+    - create function named [build](name)
+    - create function named [plus](name)
+    - create function named [minus](name)
+    - create function named [append](name)
+    - create function named [reset](name)
+    - create function named [rebuild](name)
+    - create function named [change](name)
+    - create function named [select](name)
+    - create function named [generate](name)
+    - create function [repository](name)
+    - create function [api](name)
+    - create function [controller](name)
+    - create function [service](name)
+    - create function [model](name)
+    - create function [repo](name)
+    - create function [sum](name)
+    - create function [addition](name)
+    - create function [answer](name)
+    - create function [result](name)
+    - create function [get](name)
+    - create function [update](name)
+    - create function [create](name)
+    - create function [delete](name)
+    - create function [find](name)
+    - create function [receive](name)
+    - create function [calculate](name)
+    - create function [decrement](name)
+    - create function [increment](name)
+    - create function [calc](name)
+    - create function [add](name)
+    - create function [valid](name)
+    - create function [move](name)
+    - create function [work](name)
+    - create function [write](name)
+    - create function [spec](name)
+    - create function [buy](name)
+    - create function [run](name)
+    - create function [notify](name)
+    - create function [output](name)
+    - create function [communicate](name)
+    - create function [call](name)
+    - create function [send](name)
+    - create function [input](name)
+    - create function [subtract](name)
+    - create function [multiply](name)
+    - create function [divide](name)
+    - create function [modulus](name)
+    - create function [check](name)
+    - create function [display](name)
+    - create function [show](name)
+    - create function [view](name)
+    - create function [max](name)
+    - create function [min](name)
+    - create function [is](name)
+    - create function [contain](name)
+    - create function [remove](name)
+    - create function [clear](name)
+    - create function [clean](name)
+    - create function [put](name)
+    - create function [set](name)
+    - create function [build](name)
+    - create function [plus](name)
+    - create function [minus](name)
+    - create function [append](name)
+    - create function [reset](name)
+    - create function [rebuild](name)
+    - create function [change](name)
+    - create function [select](name)
+    - create function [generate](name)    
+    - add new function named [repository](name) with seven parameter
+    - add new function named [api](name) with two parameter
+    - add new function named [controller](name) with six parameter
+    - add new function named [service](name) with one parameter
+    - add new function named [model](name) with three parameter
+    - add new function named [repo](name) with nine parameter
+    - add new function named [sum](name) with nine parameter
+    - add new function named [addition](name) with six parameter
+    - add new function named [answer](name) with three parameter
+    - add new function named [result](name) with seven parameter
+    - add new function named [get](name) with two parameter
+    - add new function named [update](name) with seven parameter
+    - add new function named [create](name) with three parameter
+    - add new function named [delete](name) with three parameter
+    - add new function named [find](name) with six parameter
+    - add new function named [receive](name) with six parameter
+    - add new function named [calculate](name) with two parameter
+    - add new function named [decrement](name) with one parameter
+    - add new function named [increment](name) with three parameter
+    - add new function named [calc](name) with ten parameter
+    - add new function named [add](name) with six parameter
+    - add new function named [valid](name) with nine parameter
+    - add new function named [move](name) with nine parameter
+    - add new function named [work](name) with four parameter
+    - add new function named [write](name) with six parameter
+    - add new function named [spec](name) with seven parameter
+    - add new function named [buy](name) with five parameter
+    - add new function named [run](name) with five parameter
+    - add new function named [notify](name) with five parameter
+    - add new function named [output](name) with nine parameter
+    - add new function named [communicate](name) with four parameter
+    - add new function named [call](name) with nine parameter
+    - add new function named [send](name) with nine parameter
+    - add new function named [input](name) with four parameter
+    - add new function named [subtract](name) with ten parameter
+    - add new function named [multiply](name) with seven parameter
+    - add new function named [divide](name) with eight parameter
+    - add new function named [modulus](name) with six parameter
+    - add new function named [check](name) with nine parameter
+    - add new function named [display](name) with five parameter
+    - add new function named [show](name) with three parameter
+    - add new function named [view](name) with eight parameter
+    - add new function named [max](name) with five parameter
+    - add new function named [min](name) with seven parameter
+    - add new function named [is](name) with six parameter
+    - add new function named [contain](name) with seven parameter
+    - add new function named [remove](name) with nine parameter
+    - add new function named [clear](name) with three parameter
+    - add new function named [clean](name) with four parameter
+    - add new function named [put](name) with two parameter
+    - add new function named [set](name) with eight parameter
+    - add new function named [build](name) with five parameter
+    - add new function named [plus](name) with six parameter
+    - add new function named [minus](name) with eight parameter
+    - add new function named [append](name) with two parameter
+    - add new function named [reset](name) with nine parameter
+    - add new function named [rebuild](name) with three parameter
+    - add new function named [change](name) with six parameter
+    - add new function named [select](name) with nine parameter
+    - add new function named [generate](name) with three parameter
+    - add function named [repository](name) with nine parameter
+    - add function named [api](name) with ten parameter
+    - add function named [controller](name) with two parameter
+    - add function named [service](name) with three parameter
+    - add function named [model](name) with five parameter
+    - add function named [repo](name) with four parameter
+    - add function named [sum](name) with eight parameter
+    - add function named [addition](name) with four parameter
+    - add function named [answer](name) with ten parameter
+    - add function named [result](name) with nine parameter
+    - add function named [get](name) with eight parameter
+    - add function named [update](name) with one parameter
+    - add function named [create](name) with nine parameter
+    - add function named [delete](name) with four parameter
+    - add function named [find](name) with five parameter
+    - add function named [receive](name) with nine parameter
+    - add function named [calculate](name) with five parameter
+    - add function named [decrement](name) with two parameter
+    - add function named [increment](name) with six parameter
+    - add function named [calc](name) with four parameter
+    - add function named [add](name) with three parameter
+    - add function named [valid](name) with three parameter
+    - add function named [move](name) with seven parameter
+    - add function named [work](name) with seven parameter
+    - add function named [write](name) with one parameter
+    - add function named [spec](name) with three parameter
+    - add function named [buy](name) with six parameter
+    - add function named [run](name) with six parameter
+    - add function named [notify](name) with four parameter
+    - add function named [output](name) with three parameter
+    - add function named [communicate](name) with eight parameter
+    - add function named [call](name) with ten parameter
+    - add function named [send](name) with three parameter
+    - add function named [input](name) with seven parameter
+    - add function named [subtract](name) with nine parameter
+    - add function named [multiply](name) with two parameter
+    - add function named [divide](name) with three parameter
+    - add function named [modulus](name) with seven parameter
+    - add function named [check](name) with four parameter
+    - add function named [display](name) with four parameter
+    - add function named [show](name) with three parameter
+    - add function named [view](name) with three parameter
+    - add function named [max](name) with seven parameter
+    - add function named [min](name) with four parameter
+    - add function named [is](name) with eight parameter
+    - add function named [contain](name) with three parameter
+    - add function named [remove](name) with nine parameter
+    - add function named [clear](name) with four parameter
+    - add function named [clean](name) with nine parameter
+    - add function named [put](name) with nine parameter
+    - add function named [set](name) with ten parameter
+    - add function named [build](name) with three parameter
+    - add function named [plus](name) with six parameter
+    - add function named [minus](name) with two parameter
+    - add function named [append](name) with four parameter
+    - add function named [reset](name) with three parameter
+    - add function named [rebuild](name) with five parameter
+    - add function named [change](name) with three parameter
+    - add function named [select](name) with four parameter
+    - add function named [generate](name) with two parameter
+    - add function [repository](name) with six parameter
+    - add function [api](name) with seven parameter
+    - add function [controller](name) with three parameter
+    - add function [service](name) with ten parameter
+    - add function [model](name) with ten parameter
+    - add function [repo](name) with nine parameter
+    - add function [sum](name) with three parameter
+    - add function [addition](name) with three parameter
+    - add function [answer](name) with three parameter
+    - add function [result](name) with seven parameter
+    - add function [get](name) with ten parameter
+    - add function [update](name) with six parameter
+    - add function [create](name) with six parameter
+    - add function [delete](name) with four parameter
+    - add function [find](name) with one parameter
+    - add function [receive](name) with one parameter
+    - add function [calculate](name) with four parameter
+    - add function [decrement](name) with four parameter
+    - add function [increment](name) with six parameter
+    - add function [calc](name) with five parameter
+    - add function [add](name) with five parameter
+    - add function [valid](name) with two parameter
+    - add function [move](name) with three parameter
+    - add function [work](name) with one parameter
+    - add function [write](name) with ten parameter
+    - add function [spec](name) with three parameter
+    - add function [buy](name) with one parameter
+    - add function [run](name) with six parameter
+    - add function [notify](name) with one parameter
+    - add function [output](name) with five parameter
+    - add function [communicate](name) with nine parameter
+    - add function [call](name) with six parameter
+    - add function [send](name) with three parameter
+    - add function [input](name) with ten parameter
+    - add function [subtract](name) with seven parameter
+    - add function [multiply](name) with four parameter
+    - add function [divide](name) with one parameter
+    - add function [modulus](name) with six parameter
+    - add function [check](name) with three parameter
+    - add function [display](name) with eight parameter
+    - add function [show](name) with three parameter
+    - add function [view](name) with two parameter
+    - add function [max](name) with four parameter
+    - add function [min](name) with seven parameter
+    - add function [is](name) with nine parameter
+    - add function [contain](name) with three parameter
+    - add function [remove](name) with eight parameter
+    - add function [clear](name) with four parameter
+    - add function [clean](name) with one parameter
+    - add function [put](name) with seven parameter
+    - add function [set](name) with seven parameter
+    - add function [build](name) with six parameter
+    - add function [plus](name) with four parameter
+    - add function [minus](name) with three parameter
+    - add function [append](name) with four parameter
+    - add function [reset](name) with four parameter
+    - add function [rebuild](name) with eight parameter
+    - add function [change](name) with four parameter
+    - add function [select](name) with six parameter
+    - add function [generate](name) with one parameter
+    - add new function named [repository](name) with return type short
+    - add new function named [api](name) with return type string
+    - add new function named [controller](name) with return type double
+    - add new function named [service](name) with return type long
+    - add new function named [model](name) with return type integer
+    - add new function named [repo](name) with return type double
+    - add new function named [sum](name) with return type integer
+    - add new function named [addition](name) with return type char
+    - add new function named [answer](name) with return type double
+    - add new function named [result](name) with return type string
+    - add new function named [get](name) with return type string
+    - add new function named [update](name) with return type double
+    - add new function named [create](name) with return type byte
+    - add new function named [delete](name) with return type flout
+    - add new function named [find](name) with return type integer
+    - add new function named [receive](name) with return type char
+    - add new function named [calculate](name) with return type integer
+    - add new function named [decrement](name) with return type byte
+    - add new function named [increment](name) with return type char
+    - add new function named [calc](name) with return type char
+    - add new function named [add](name) with return type string
+    - add new function named [valid](name) with return type string
+    - add new function named [move](name) with return type long
+    - add new function named [work](name) with return type string
+    - add new function named [write](name) with return type short
+    - add new function named [spec](name) with return type integer
+    - add new function named [buy](name) with return type short
+    - add new function named [run](name) with return type boolean
+    - add new function named [notify](name) with return type byte
+    - add new function named [output](name) with return type short
+    - add new function named [communicate](name) with return type char
+    - add new function named [call](name) with return type char
+    - add new function named [send](name) with return type byte
+    - add new function named [input](name) with return type string
+    - add new function named [subtract](name) with return type short
+    - add new function named [multiply](name) with return type boolean
+    - add new function named [divide](name) with return type byte
+    - add new function named [modulus](name) with return type short
+    - add new function named [check](name) with return type byte
+    - add new function named [display](name) with return type boolean
+    - add new function named [show](name) with return type byte
+    - add new function named [view](name) with return type double
+    - add new function named [max](name) with return type boolean
+    - add new function named [min](name) with return type integer
+    - add new function named [is](name) with return type byte
+    - add new function named [contain](name) with return type byte
+    - add new function named [remove](name) with return type byte
+    - add new function named [clear](name) with return type long
+    - add new function named [clean](name) with return type double
+    - add new function named [put](name) with return type long
+    - add new function named [set](name) with return type long
+    - add new function named [build](name) with return type string
+    - add new function named [plus](name) with return type flout
+    - add new function named [minus](name) with return type double
+    - add new function named [append](name) with return type short
+    - add new function named [reset](name) with return type flout
+    - add new function named [rebuild](name) with return type string
+    - add new function named [change](name) with return type double
+    - add new function named [select](name) with return type short
+    - add new function named [generate](name) with return type short
+    - add function named [repository](name) with return type double
+    - add function named [api](name) with return type string
+    - add function named [controller](name) with return type char
+    - add function named [service](name) with return type long
+    - add function named [model](name) with return type byte
+    - add function named [repo](name) with return type boolean
+    - add function named [sum](name) with return type double
+    - add function named [addition](name) with return type long
+    - add function named [answer](name) with return type boolean
+    - add function named [result](name) with return type long
+    - add function named [get](name) with return type char
+    - add function named [update](name) with return type long
+    - add function named [create](name) with return type short
+    - add function named [delete](name) with return type integer
+    - add function named [find](name) with return type char
+    - add function named [receive](name) with return type double
+    - add function named [calculate](name) with return type byte
+    - add function named [decrement](name) with return type long
+    - add function named [increment](name) with return type long
+    - add function named [calc](name) with return type string
+    - add function named [add](name) with return type integer
+    - add function named [valid](name) with return type long
+    - add function named [move](name) with return type flout
+    - add function named [work](name) with return type long
+    - add function named [write](name) with return type short
+    - add function named [spec](name) with return type byte
+    - add function named [buy](name) with return type boolean
+    - add function named [run](name) with return type char
+    - add function named [notify](name) with return type integer
+    - add function named [output](name) with return type byte
+    - add function named [communicate](name) with return type flout
+    - add function named [call](name) with return type double
+    - add function named [send](name) with return type byte
+    - add function named [input](name) with return type double
+    - add function named [subtract](name) with return type char
+    - add function named [multiply](name) with return type long
+    - add function named [divide](name) with return type double
+    - add function named [modulus](name) with return type string
+    - add function named [check](name) with return type double
+    - add function named [display](name) with return type byte
+    - add function named [show](name) with return type integer
+    - add function named [view](name) with return type integer
+    - add function named [max](name) with return type flout
+    - add function named [min](name) with return type flout
+    - add function named [is](name) with return type string
+    - add function named [contain](name) with return type short
+    - add function named [remove](name) with return type short
+    - add function named [clear](name) with return type double
+    - add function named [clean](name) with return type long
+    - add function named [put](name) with return type double
+    - add function named [set](name) with return type string
+    - add function named [build](name) with return type boolean
+    - add function named [plus](name) with return type flout
+    - add function named [minus](name) with return type short
+    - add function named [append](name) with return type flout
+    - add function named [reset](name) with return type boolean
+    - add function named [rebuild](name) with return type byte
+    - add function named [change](name) with return type char
+    - add function named [select](name) with return type flout
+    - add function named [generate](name) with return type long
+    - add function [repository](name) with return type boolean
+    - add function [api](name) with return type char
+    - add function [controller](name) with return type short
+    - add function [service](name) with return type byte
+    - add function [model](name) with return type byte
+    - add function [repo](name) with return type long
+    - add function [sum](name) with return type double
+    - add function [addition](name) with return type short
+    - add function [answer](name) with return type char
+    - add function [result](name) with return type char
+    - add function [get](name) with return type double
+    - add function [update](name) with return type string
+    - add function [create](name) with return type double
+    - add function [delete](name) with return type byte
+    - add function [find](name) with return type flout
+    - add function [receive](name) with return type long
+    - add function [calculate](name) with return type flout
+    - add function [decrement](name) with return type double
+    - add function [increment](name) with return type boolean
+    - add function [calc](name) with return type double
+    - add function [add](name) with return type boolean
+    - add function [valid](name) with return type double
+    - add function [move](name) with return type char
+    - add function [work](name) with return type flout
+    - add function [write](name) with return type char
+    - add function [spec](name) with return type long
+    - add function [buy](name) with return type long
+    - add function [run](name) with return type byte
+    - add function [notify](name) with return type double
+    - add function [output](name) with return type char
+    - add function [communicate](name) with return type flout
+    - add function [call](name) with return type byte
+    - add function [send](name) with return type flout
+    - add function [input](name) with return type char
+    - add function [subtract](name) with return type boolean
+    - add function [multiply](name) with return type byte
+    - add function [divide](name) with return type flout
+    - add function [modulus](name) with return type long
+    - add function [check](name) with return type boolean
+    - add function [display](name) with return type flout
+    - add function [show](name) with return type char
+    - add function [view](name) with return type short
+    - add function [max](name) with return type double
+    - add function [min](name) with return type string
+    - add function [is](name) with return type flout
+    - add function [contain](name) with return type char
+    - add function [remove](name) with return type long
+    - add function [clear](name) with return type flout
+    - add function [clean](name) with return type flout
+    - add function [put](name) with return type flout
+    - add function [set](name) with return type double
+    - add function [build](name) with return type short
+    - add function [plus](name) with return type integer
+    - add function [minus](name) with return type string
+    - add function [append](name) with return type boolean
+    - add function [reset](name) with return type string
+    - add function [rebuild](name) with return type short
+    - add function [change](name) with return type boolean
+    - add function [select](name) with return type byte
+    - add function [generate](name) with return type char
+    - add new public function named [repository](name) with return type short
+    - add new private function named [api](name) with return type char
+    - add new public function named [controller](name) with return type string
+    - add new private function named [service](name) with return type integer
+    - add new public function named [model](name) with return type flout
+    - add new public function named [repo](name) with return type flout
+    - add new public function named [sum](name) with return type string
+    - add new public function named [addition](name) with return type long
+    - add new public function named [answer](name) with return type long
+    - add new private function named [result](name) with return type integer
+    - add new public function named [get](name) with return type double
+    - add new public function named [update](name) with return type double
+    - add new private function named [create](name) with return type short
+    - add new private function named [delete](name) with return type short
+    - add new public function named [find](name) with return type long
+    - add new public function named [receive](name) with return type flout
+    - add new public function named [calculate](name) with return type char
+    - add new public function named [decrement](name) with return type char
+    - add new public function named [increment](name) with return type integer
+    - add new public function named [calc](name) with return type long
+    - add new public function named [add](name) with return type byte
+    - add new public function named [valid](name) with return type flout
+    - add new private function named [move](name) with return type double
+    - add new private function named [work](name) with return type string
+    - add new private function named [write](name) with return type boolean
+    - add new public function named [spec](name) with return type short
+    - add new private function named [buy](name) with return type flout
+    - add new private function named [run](name) with return type short
+    - add new public function named [notify](name) with return type short
+    - add new private function named [output](name) with return type char
+    - add new private function named [communicate](name) with return type short
+    - add new public function named [call](name) with return type integer
+    - add new public function named [send](name) with return type short
+    - add new private function named [input](name) with return type boolean
+    - add new private function named [subtract](name) with return type boolean
+    - add new private function named [multiply](name) with return type short
+    - add new public function named [divide](name) with return type double
+    - add new private function named [modulus](name) with return type string
+    - add new public function named [check](name) with return type boolean
+    - add new private function named [display](name) with return type string
+    - add new public function named [show](name) with return type boolean
+    - add new public function named [view](name) with return type double
+    - add new public function named [max](name) with return type integer
+    - add new private function named [min](name) with return type byte
+    - add new private function named [is](name) with return type integer
+    - add new private function named [contain](name) with return type double
+    - add new public function named [remove](name) with return type byte
+    - add new public function named [clear](name) with return type string
+    - add new public function named [clean](name) with return type double
+    - add new public function named [put](name) with return type integer
+    - add new public function named [set](name) with return type short
+    - add new public function named [build](name) with return type double
+    - add new public function named [plus](name) with return type short
+    - add new public function named [minus](name) with return type integer
+    - add new private function named [append](name) with return type short
+    - add new public function named [reset](name) with return type integer
+    - add new private function named [rebuild](name) with return type short
+    - add new public function named [change](name) with return type byte
+    - add new private function named [select](name) with return type long
+    - add new public function named [generate](name) with return type long
+    - add private function named [repository](name) with return type double
+    - add private function named [api](name) with return type double
+    - add private function named [controller](name) with return type byte
+    - add public function named [service](name) with return type boolean
+    - add private function named [model](name) with return type short
+    - add public function named [repo](name) with return type char
+    - add public function named [sum](name) with return type double
+    - add public function named [addition](name) with return type integer
+    - add private function named [answer](name) with return type short
+    - add private function named [result](name) with return type byte
+    - add private function named [get](name) with return type double
+    - add private function named [update](name) with return type short
+    - add private function named [create](name) with return type short
+    - add public function named [delete](name) with return type flout
+    - add public function named [find](name) with return type integer
+    - add public function named [receive](name) with return type double
+    - add public function named [calculate](name) with return type string
+    - add public function named [decrement](name) with return type integer
+    - add public function named [increment](name) with return type flout
+    - add private function named [calc](name) with return type byte
+    - add public function named [add](name) with return type double
+    - add public function named [valid](name) with return type byte
+    - add public function named [move](name) with return type string
+    - add private function named [work](name) with return type short
+    - add private function named [write](name) with return type boolean
+    - add private function named [spec](name) with return type char
+    - add private function named [buy](name) with return type char
+    - add public function named [run](name) with return type long
+    - add public function named [notify](name) with return type boolean
+    - add private function named [output](name) with return type char
+    - add private function named [communicate](name) with return type byte
+    - add private function named [call](name) with return type string
+    - add public function named [send](name) with return type byte
+    - add private function named [input](name) with return type char
+    - add private function named [subtract](name) with return type integer
+    - add private function named [multiply](name) with return type char
+    - add private function named [divide](name) with return type byte
+    - add public function named [modulus](name) with return type double
+    - add public function named [check](name) with return type long
+    - add private function named [display](name) with return type byte
+    - add public function named [show](name) with return type string
+    - add private function named [view](name) with return type long
+    - add private function named [max](name) with return type string
+    - add public function named [min](name) with return type long
+    - add public function named [is](name) with return type double
+    - add public function named [contain](name) with return type short
+    - add private function named [remove](name) with return type string
+    - add private function named [clear](name) with return type char
+    - add public function named [clean](name) with return type integer
+    - add private function named [put](name) with return type char
+    - add private function named [set](name) with return type char
+    - add public function named [build](name) with return type byte
+    - add private function named [plus](name) with return type double
+    - add private function named [minus](name) with return type double
+    - add private function named [append](name) with return type boolean
+    - add public function named [reset](name) with return type boolean
+    - add private function named [rebuild](name) with return type integer
+    - add public function named [change](name) with return type string
+    - add private function named [select](name) with return type byte
+    - add private function named [generate](name) with return type long
+    - add public function [repository](name) with return type byte
+    - add private function [api](name) with return type byte
+    - add public function [controller](name) with return type flout
+    - add private function [service](name) with return type boolean
+    - add private function [model](name) with return type flout
+    - add public function [repo](name) with return type flout
+    - add private function [sum](name) with return type flout
+    - add public function [addition](name) with return type double
+    - add public function [answer](name) with return type boolean
+    - add public function [result](name) with return type flout
+    - add public function [get](name) with return type short
+    - add public function [update](name) with return type integer
+    - add private function [create](name) with return type string
+    - add public function [delete](name) with return type byte
+    - add public function [find](name) with return type flout
+    - add public function [receive](name) with return type byte
+    - add public function [calculate](name) with return type char
+    - add private function [decrement](name) with return type string
+    - add public function [increment](name) with return type short
+    - add private function [calc](name) with return type double
+    - add private function [add](name) with return type string
+    - add private function [valid](name) with return type short
+    - add private function [move](name) with return type short
+    - add private function [work](name) with return type long
+    - add public function [write](name) with return type flout
+    - add public function [spec](name) with return type integer
+    - add public function [buy](name) with return type string
+    - add private function [run](name) with return type flout
+    - add private function [notify](name) with return type short
+    - add private function [output](name) with return type char
+    - add public function [communicate](name) with return type string
+    - add private function [call](name) with return type double
+    - add private function [send](name) with return type long
+    - add public function [input](name) with return type flout
+    - add public function [subtract](name) with return type flout
+    - add public function [multiply](name) with return type integer
+    - add private function [divide](name) with return type long
+    - add private function [modulus](name) with return type double
+    - add public function [check](name) with return type long
+    - add private function [display](name) with return type byte
+    - add private function [show](name) with return type boolean
+    - add private function [view](name) with return type boolean
+    - add private function [max](name) with return type short
+    - add public function [min](name) with return type string
+    - add private function [is](name) with return type long
+    - add public function [contain](name) with return type short
+    - add private function [remove](name) with return type long
+    - add private function [clear](name) with return type short
+    - add public function [clean](name) with return type short
+    - add public function [put](name) with return type double
+    - add public function [set](name) with return type boolean
+    - add private function [build](name) with return type double
+    - add private function [plus](name) with return type char
+    - add private function [minus](name) with return type integer
+    - add public function [append](name) with return type byte
+    - add public function [reset](name) with return type double
+    - add public function [rebuild](name) with return type string
+    - add private function [change](name) with return type short
+    - add public function [select](name) with return type char
+    - add private function [generate](name) with return type char
+    - create new function named [repository](name) with seven parameter
+    - create new function named [api](name) with two parameter
+    - create new function named [controller](name) with six parameter
+    - create new function named [service](name) with one parameter
+    - create new function named [model](name) with three parameter
+    - create new function named [repo](name) with nine parameter
+    - create new function named [sum](name) with nine parameter
+    - create new function named [addition](name) with six parameter
+    - create new function named [answer](name) with three parameter
+    - create new function named [result](name) with seven parameter
+    - create new function named [get](name) with two parameter
+    - create new function named [update](name) with seven parameter
+    - create new function named [create](name) with three parameter
+    - create new function named [delete](name) with three parameter
+    - create new function named [find](name) with six parameter
+    - create new function named [receive](name) with six parameter
+    - create new function named [calculate](name) with two parameter
+    - create new function named [decrement](name) with one parameter
+    - create new function named [increment](name) with three parameter
+    - create new function named [calc](name) with ten parameter
+    - create new function named [add](name) with six parameter
+    - create new function named [valid](name) with nine parameter
+    - create new function named [move](name) with nine parameter
+    - create new function named [work](name) with four parameter
+    - create new function named [write](name) with six parameter
+    - create new function named [spec](name) with seven parameter
+    - create new function named [buy](name) with five parameter
+    - create new function named [run](name) with five parameter
+    - create new function named [notify](name) with five parameter
+    - create new function named [output](name) with nine parameter
+    - create new function named [communicate](name) with four parameter
+    - create new function named [call](name) with nine parameter
+    - create new function named [send](name) with nine parameter
+    - create new function named [input](name) with four parameter
+    - create new function named [subtract](name) with ten parameter
+    - create new function named [multiply](name) with seven parameter
+    - create new function named [divide](name) with eight parameter
+    - create new function named [modulus](name) with six parameter
+    - create new function named [check](name) with nine parameter
+    - create new function named [display](name) with five parameter
+    - create new function named [show](name) with three parameter
+    - create new function named [view](name) with eight parameter
+    - create new function named [max](name) with five parameter
+    - create new function named [min](name) with seven parameter
+    - create new function named [is](name) with six parameter
+    - create new function named [contain](name) with seven parameter
+    - create new function named [remove](name) with nine parameter
+    - create new function named [clear](name) with three parameter
+    - create new function named [clean](name) with four parameter
+    - create new function named [put](name) with two parameter
+    - create new function named [set](name) with eight parameter
+    - create new function named [build](name) with five parameter
+    - create new function named [plus](name) with six parameter
+    - create new function named [minus](name) with eight parameter
+    - create new function named [append](name) with two parameter
+    - create new function named [reset](name) with nine parameter
+    - create new function named [rebuild](name) with three parameter
+    - create new function named [change](name) with six parameter
+    - create new function named [select](name) with nine parameter
+    - create new function named [generate](name) with three parameter
+    - create function named [repository](name) with nine parameter
+    - create function named [api](name) with ten parameter
+    - create function named [controller](name) with two parameter
+    - create function named [service](name) with three parameter
+    - create function named [model](name) with five parameter
+    - create function named [repo](name) with four parameter
+    - create function named [sum](name) with eight parameter
+    - create function named [addition](name) with four parameter
+    - create function named [answer](name) with ten parameter
+    - create function named [result](name) with nine parameter
+    - create function named [get](name) with eight parameter
+    - create function named [update](name) with one parameter
+    - create function named [create](name) with nine parameter
+    - create function named [delete](name) with four parameter
+    - create function named [find](name) with five parameter
+    - create function named [receive](name) with nine parameter
+    - create function named [calculate](name) with five parameter
+    - create function named [decrement](name) with two parameter
+    - create function named [increment](name) with six parameter
+    - create function named [calc](name) with four parameter
+    - create function named [add](name) with three parameter
+    - create function named [valid](name) with three parameter
+    - create function named [move](name) with seven parameter
+    - create function named [work](name) with seven parameter
+    - create function named [write](name) with one parameter
+    - create function named [spec](name) with three parameter
+    - create function named [buy](name) with six parameter
+    - create function named [run](name) with six parameter
+    - create function named [notify](name) with four parameter
+    - create function named [output](name) with three parameter
+    - create function named [communicate](name) with eight parameter
+    - create function named [call](name) with ten parameter
+    - create function named [send](name) with three parameter
+    - create function named [input](name) with seven parameter
+    - create function named [subtract](name) with nine parameter
+    - create function named [multiply](name) with two parameter
+    - create function named [divide](name) with three parameter
+    - create function named [modulus](name) with seven parameter
+    - create function named [check](name) with four parameter
+    - create function named [display](name) with four parameter
+    - create function named [show](name) with three parameter
+    - create function named [view](name) with three parameter
+    - create function named [max](name) with seven parameter
+    - create function named [min](name) with four parameter
+    - create function named [is](name) with eight parameter
+    - create function named [contain](name) with three parameter
+    - create function named [remove](name) with nine parameter
+    - create function named [clear](name) with four parameter
+    - create function named [clean](name) with nine parameter
+    - create function named [put](name) with nine parameter
+    - create function named [set](name) with ten parameter
+    - create function named [build](name) with three parameter
+    - create function named [plus](name) with six parameter
+    - create function named [minus](name) with two parameter
+    - create function named [append](name) with four parameter
+    - create function named [reset](name) with three parameter
+    - create function named [rebuild](name) with five parameter
+    - create function named [change](name) with three parameter
+    - create function named [select](name) with four parameter
+    - create function named [generate](name) with two parameter
+    - create function [repository](name) with six parameter
+    - create function [api](name) with seven parameter
+    - create function [controller](name) with three parameter
+    - create function [service](name) with ten parameter
+    - create function [model](name) with ten parameter
+    - create function [repo](name) with nine parameter
+    - create function [sum](name) with three parameter
+    - create function [addition](name) with three parameter
+    - create function [answer](name) with three parameter
+    - create function [result](name) with seven parameter
+    - create function [get](name) with ten parameter
+    - create function [update](name) with six parameter
+    - create function [create](name) with six parameter
+    - create function [delete](name) with four parameter
+    - create function [find](name) with one parameter
+    - create function [receive](name) with one parameter
+    - create function [calculate](name) with four parameter
+    - create function [decrement](name) with four parameter
+    - create function [increment](name) with six parameter
+    - create function [calc](name) with five parameter
+    - create function [add](name) with five parameter
+    - create function [valid](name) with two parameter
+    - create function [move](name) with three parameter
+    - create function [work](name) with one parameter
+    - create function [write](name) with ten parameter
+    - create function [spec](name) with three parameter
+    - create function [buy](name) with one parameter
+    - create function [run](name) with six parameter
+    - create function [notify](name) with one parameter
+    - create function [output](name) with five parameter
+    - create function [communicate](name) with nine parameter
+    - create function [call](name) with six parameter
+    - create function [send](name) with three parameter
+    - create function [input](name) with ten parameter
+    - create function [subtract](name) with seven parameter
+    - create function [multiply](name) with four parameter
+    - create function [divide](name) with one parameter
+    - create function [modulus](name) with six parameter
+    - create function [check](name) with three parameter
+    - create function [display](name) with eight parameter
+    - create function [show](name) with three parameter
+    - create function [view](name) with two parameter
+    - create function [max](name) with four parameter
+    - create function [min](name) with seven parameter
+    - create function [is](name) with nine parameter
+    - create function [contain](name) with three parameter
+    - create function [remove](name) with eight parameter
+    - create function [clear](name) with four parameter
+    - create function [clean](name) with one parameter
+    - create function [put](name) with seven parameter
+    - create function [set](name) with seven parameter
+    - create function [build](name) with six parameter
+    - create function [plus](name) with four parameter
+    - create function [minus](name) with three parameter
+    - create function [append](name) with four parameter
+    - create function [reset](name) with four parameter
+    - create function [rebuild](name) with eight parameter
+    - create function [change](name) with four parameter
+    - create function [select](name) with six parameter
+    - create function [generate](name) with one parameter
+    - create new function named [repository](name) with return type short
+    - create new function named [api](name) with return type string
+    - create new function named [controller](name) with return type double
+    - create new function named [service](name) with return type long
+    - create new function named [model](name) with return type integer
+    - create new function named [repo](name) with return type double
+    - create new function named [sum](name) with return type integer
+    - create new function named [addition](name) with return type char
+    - create new function named [answer](name) with return type double
+    - create new function named [result](name) with return type string
+    - create new function named [get](name) with return type string
+    - create new function named [update](name) with return type double
+    - create new function named [create](name) with return type byte
+    - create new function named [delete](name) with return type flout
+    - create new function named [find](name) with return type integer
+    - create new function named [receive](name) with return type char
+    - create new function named [calculate](name) with return type integer
+    - create new function named [decrement](name) with return type byte
+    - create new function named [increment](name) with return type char
+    - create new function named [calc](name) with return type char
+    - create new function named [add](name) with return type string
+    - create new function named [valid](name) with return type string
+    - create new function named [move](name) with return type long
+    - create new function named [work](name) with return type string
+    - create new function named [write](name) with return type short
+    - create new function named [spec](name) with return type integer
+    - create new function named [buy](name) with return type short
+    - create new function named [run](name) with return type boolean
+    - create new function named [notify](name) with return type byte
+    - create new function named [output](name) with return type short
+    - create new function named [communicate](name) with return type char
+    - create new function named [call](name) with return type char
+    - create new function named [send](name) with return type byte
+    - create new function named [input](name) with return type string
+    - create new function named [subtract](name) with return type short
+    - create new function named [multiply](name) with return type boolean
+    - create new function named [divide](name) with return type byte
+    - create new function named [modulus](name) with return type short
+    - create new function named [check](name) with return type byte
+    - create new function named [display](name) with return type boolean
+    - create new function named [show](name) with return type byte
+    - create new function named [view](name) with return type double
+    - create new function named [max](name) with return type boolean
+    - create new function named [min](name) with return type integer
+    - create new function named [is](name) with return type byte
+    - create new function named [contain](name) with return type byte
+    - create new function named [remove](name) with return type byte
+    - create new function named [clear](name) with return type long
+    - create new function named [clean](name) with return type double
+    - create new function named [put](name) with return type long
+    - create new function named [set](name) with return type long
+    - create new function named [build](name) with return type string
+    - create new function named [plus](name) with return type flout
+    - create new function named [minus](name) with return type double
+    - create new function named [append](name) with return type short
+    - create new function named [reset](name) with return type flout
+    - create new function named [rebuild](name) with return type string
+    - create new function named [change](name) with return type double
+    - create new function named [select](name) with return type short
+    - create new function named [generate](name) with return type short
+    - create function named [repository](name) with return type double
+    - create function named [api](name) with return type string
+    - create function named [controller](name) with return type char
+    - create function named [service](name) with return type long
+    - create function named [model](name) with return type byte
+    - create function named [repo](name) with return type boolean
+    - create function named [sum](name) with return type double
+    - create function named [addition](name) with return type long
+    - create function named [answer](name) with return type boolean
+    - create function named [result](name) with return type long
+    - create function named [get](name) with return type char
+    - create function named [update](name) with return type long
+    - create function named [create](name) with return type short
+    - create function named [delete](name) with return type integer
+    - create function named [find](name) with return type char
+    - create function named [receive](name) with return type double
+    - create function named [calculate](name) with return type byte
+    - create function named [decrement](name) with return type long
+    - create function named [increment](name) with return type long
+    - create function named [calc](name) with return type string
+    - create function named [add](name) with return type integer
+    - create function named [valid](name) with return type long
+    - create function named [move](name) with return type flout
+    - create function named [work](name) with return type long
+    - create function named [write](name) with return type short
+    - create function named [spec](name) with return type byte
+    - create function named [buy](name) with return type boolean
+    - create function named [run](name) with return type char
+    - create function named [notify](name) with return type integer
+    - create function named [output](name) with return type byte
+    - create function named [communicate](name) with return type flout
+    - create function named [call](name) with return type double
+    - create function named [send](name) with return type byte
+    - create function named [input](name) with return type double
+    - create function named [subtract](name) with return type char
+    - create function named [multiply](name) with return type long
+    - create function named [divide](name) with return type double
+    - create function named [modulus](name) with return type string
+    - create function named [check](name) with return type double
+    - create function named [display](name) with return type byte
+    - create function named [show](name) with return type integer
+    - create function named [view](name) with return type integer
+    - create function named [max](name) with return type flout
+    - create function named [min](name) with return type flout
+    - create function named [is](name) with return type string
+    - create function named [contain](name) with return type short
+    - create function named [remove](name) with return type short
+    - create function named [clear](name) with return type double
+    - create function named [clean](name) with return type long
+    - create function named [put](name) with return type double
+    - create function named [set](name) with return type string
+    - create function named [build](name) with return type boolean
+    - create function named [plus](name) with return type flout
+    - create function named [minus](name) with return type short
+    - create function named [append](name) with return type flout
+    - create function named [reset](name) with return type boolean
+    - create function named [rebuild](name) with return type byte
+    - create function named [change](name) with return type char
+    - create function named [select](name) with return type flout
+    - create function named [generate](name) with return type long
+    - create function [repository](name) with return type boolean
+    - create function [api](name) with return type char
+    - create function [controller](name) with return type short
+    - create function [service](name) with return type byte
+    - create function [model](name) with return type byte
+    - create function [repo](name) with return type long
+    - create function [sum](name) with return type double
+    - create function [addition](name) with return type short
+    - create function [answer](name) with return type char
+    - create function [result](name) with return type char
+    - create function [get](name) with return type double
+    - create function [update](name) with return type string
+    - create function [create](name) with return type double
+    - create function [delete](name) with return type byte
+    - create function [find](name) with return type flout
+    - create function [receive](name) with return type long
+    - create function [calculate](name) with return type flout
+    - create function [decrement](name) with return type double
+    - create function [increment](name) with return type boolean
+    - create function [calc](name) with return type double
+    - create function [add](name) with return type boolean
+    - create function [valid](name) with return type double
+    - create function [move](name) with return type char
+    - create function [work](name) with return type flout
+    - create function [write](name) with return type char
+    - create function [spec](name) with return type long
+    - create function [buy](name) with return type long
+    - create function [run](name) with return type byte
+    - create function [notify](name) with return type double
+    - create function [output](name) with return type char
+    - create function [communicate](name) with return type flout
+    - create function [call](name) with return type byte
+    - create function [send](name) with return type flout
+    - create function [input](name) with return type char
+    - create function [subtract](name) with return type boolean
+    - create function [multiply](name) with return type byte
+    - create function [divide](name) with return type flout
+    - create function [modulus](name) with return type long
+    - create function [check](name) with return type boolean
+    - create function [display](name) with return type flout
+    - create function [show](name) with return type char
+    - create function [view](name) with return type short
+    - create function [max](name) with return type double
+    - create function [min](name) with return type string
+    - create function [is](name) with return type flout
+    - create function [contain](name) with return type char
+    - create function [remove](name) with return type long
+    - create function [clear](name) with return type flout
+    - create function [clean](name) with return type flout
+    - create function [put](name) with return type flout
+    - create function [set](name) with return type double
+    - create function [build](name) with return type short
+    - create function [plus](name) with return type integer
+    - create function [minus](name) with return type string
+    - create function [append](name) with return type boolean
+    - create function [reset](name) with return type string
+    - create function [rebuild](name) with return type short
+    - create function [change](name) with return type boolean
+    - create function [select](name) with return type byte
+    - create function [generate](name) with return type char
+    - create new public function named [repository](name) with return type short
+    - create new private function named [api](name) with return type char
+    - create new public function named [controller](name) with return type string
+    - create new private function named [service](name) with return type integer
+    - create new public function named [model](name) with return type flout
+    - create new public function named [repo](name) with return type flout
+    - create new public function named [sum](name) with return type string
+    - create new public function named [addition](name) with return type long
+    - create new public function named [answer](name) with return type long
+    - create new private function named [result](name) with return type integer
+    - create new public function named [get](name) with return type double
+    - create new public function named [update](name) with return type double
+    - create new private function named [create](name) with return type short
+    - create new private function named [delete](name) with return type short
+    - create new public function named [find](name) with return type long
+    - create new public function named [receive](name) with return type flout
+    - create new public function named [calculate](name) with return type char
+    - create new public function named [decrement](name) with return type char
+    - create new public function named [increment](name) with return type integer
+    - create new public function named [calc](name) with return type long
+    - create new public function named [add](name) with return type byte
+    - create new public function named [valid](name) with return type flout
+    - create new private function named [move](name) with return type double
+    - create new private function named [work](name) with return type string
+    - create new private function named [write](name) with return type boolean
+    - create new public function named [spec](name) with return type short
+    - create new private function named [buy](name) with return type flout
+    - create new private function named [run](name) with return type short
+    - create new public function named [notify](name) with return type short
+    - create new private function named [output](name) with return type char
+    - create new private function named [communicate](name) with return type short
+    - create new public function named [call](name) with return type integer
+    - create new public function named [send](name) with return type short
+    - create new private function named [input](name) with return type boolean
+    - create new private function named [subtract](name) with return type boolean
+    - create new private function named [multiply](name) with return type short
+    - create new public function named [divide](name) with return type double
+    - create new private function named [modulus](name) with return type string
+    - create new public function named [check](name) with return type boolean
+    - create new private function named [display](name) with return type string
+    - create new public function named [show](name) with return type boolean
+    - create new public function named [view](name) with return type double
+    - create new public function named [max](name) with return type integer
+    - create new private function named [min](name) with return type byte
+    - create new private function named [is](name) with return type integer
+    - create new private function named [contain](name) with return type double
+    - create new public function named [remove](name) with return type byte
+    - create new public function named [clear](name) with return type string
+    - create new public function named [clean](name) with return type double
+    - create new public function named [put](name) with return type integer
+    - create new public function named [set](name) with return type short
+    - create new public function named [build](name) with return type double
+    - create new public function named [plus](name) with return type short
+    - create new public function named [minus](name) with return type integer
+    - create new private function named [append](name) with return type short
+    - create new public function named [reset](name) with return type integer
+    - create new private function named [rebuild](name) with return type short
+    - create new public function named [change](name) with return type byte
+    - create new private function named [select](name) with return type long
+    - create new public function named [generate](name) with return type long
+    - create private function named [repository](name) with return type double
+    - create private function named [api](name) with return type double
+    - create private function named [controller](name) with return type byte
+    - create public function named [service](name) with return type boolean
+    - create private function named [model](name) with return type short
+    - create public function named [repo](name) with return type char
+    - create public function named [sum](name) with return type double
+    - create public function named [addition](name) with return type integer
+    - create private function named [answer](name) with return type short
+    - create private function named [result](name) with return type byte
+    - create private function named [get](name) with return type double
+    - create private function named [update](name) with return type short
+    - create private function named [create](name) with return type short
+    - create public function named [delete](name) with return type flout
+    - create public function named [find](name) with return type integer
+    - create public function named [receive](name) with return type double
+    - create public function named [calculate](name) with return type string
+    - create public function named [decrement](name) with return type integer
+    - create public function named [increment](name) with return type flout
+    - create private function named [calc](name) with return type byte
+    - create public function named [add](name) with return type double
+    - create public function named [valid](name) with return type byte
+    - create public function named [move](name) with return type string
+    - create private function named [work](name) with return type short
+    - create private function named [write](name) with return type boolean
+    - create private function named [spec](name) with return type char
+    - create private function named [buy](name) with return type char
+    - create public function named [run](name) with return type long
+    - create public function named [notify](name) with return type boolean
+    - create private function named [output](name) with return type char
+    - create private function named [communicate](name) with return type byte
+    - create private function named [call](name) with return type string
+    - create public function named [send](name) with return type byte
+    - create private function named [input](name) with return type char
+    - create private function named [subtract](name) with return type integer
+    - create private function named [multiply](name) with return type char
+    - create private function named [divide](name) with return type byte
+    - create public function named [modulus](name) with return type double
+    - create public function named [check](name) with return type long
+    - create private function named [display](name) with return type byte
+    - create public function named [show](name) with return type string
+    - create private function named [view](name) with return type long
+    - create private function named [max](name) with return type string
+    - create public function named [min](name) with return type long
+    - create public function named [is](name) with return type double
+    - create public function named [contain](name) with return type short
+    - create private function named [remove](name) with return type string
+    - create private function named [clear](name) with return type char
+    - create public function named [clean](name) with return type integer
+    - create private function named [put](name) with return type char
+    - create private function named [set](name) with return type char
+    - create public function named [build](name) with return type byte
+    - create private function named [plus](name) with return type double
+    - create private function named [minus](name) with return type double
+    - create private function named [append](name) with return type boolean
+    - create public function named [reset](name) with return type boolean
+    - create private function named [rebuild](name) with return type integer
+    - create public function named [change](name) with return type string
+    - create private function named [select](name) with return type byte
+    - create private function named [generate](name) with return type long
+    - create public function [repository](name) with return type byte
+    - create private function [api](name) with return type byte
+    - create public function [controller](name) with return type flout
+    - create private function [service](name) with return type boolean
+    - create private function [model](name) with return type flout
+    - create public function [repo](name) with return type flout
+    - create private function [sum](name) with return type flout
+    - create public function [addition](name) with return type double
+    - create public function [answer](name) with return type boolean
+    - create public function [result](name) with return type flout
+    - create public function [get](name) with return type short
+    - create public function [update](name) with return type integer
+    - create private function [create](name) with return type string
+    - create public function [delete](name) with return type byte
+    - create public function [find](name) with return type flout
+    - create public function [receive](name) with return type byte
+    - create public function [calculate](name) with return type char
+    - create private function [decrement](name) with return type string
+    - create public function [increment](name) with return type short
+    - create private function [calc](name) with return type double
+    - create private function [add](name) with return type string
+    - create private function [valid](name) with return type short
+    - create private function [move](name) with return type short
+    - create private function [work](name) with return type long
+    - create public function [write](name) with return type flout
+    - create public function [spec](name) with return type integer
+    - create public function [buy](name) with return type string
+    - create private function [run](name) with return type flout
+    - create private function [notify](name) with return type short
+    - create private function [output](name) with return type char
+    - create public function [communicate](name) with return type string
+    - create private function [call](name) with return type double
+    - create private function [send](name) with return type long
+    - create public function [input](name) with return type flout
+    - create public function [subtract](name) with return type flout
+    - create public function [multiply](name) with return type integer
+    - create private function [divide](name) with return type long
+    - create private function [modulus](name) with return type double
+    - create public function [check](name) with return type long
+    - create private function [display](name) with return type byte
+    - create private function [show](name) with return type boolean
+    - create private function [view](name) with return type boolean
+    - create private function [max](name) with return type short
+    - create public function [min](name) with return type string
+    - create private function [is](name) with return type long
+    - create public function [contain](name) with return type short
+    - create private function [remove](name) with return type long
+    - create private function [clear](name) with return type short
+    - create public function [clean](name) with return type short
+    - create public function [put](name) with return type double
+    - create public function [set](name) with return type boolean
+    - create private function [build](name) with return type double
+    - create private function [plus](name) with return type char
+    - create private function [minus](name) with return type integer
+    - create public function [append](name) with return type byte
+    - create public function [reset](name) with return type double
+    - create public function [rebuild](name) with return type string
+    - create private function [change](name) with return type short
+    - create public function [select](name) with return type char
+    - create private function [generate](name) with return type char
+
+- intent: deletefunction
+  examples: |
+    - delete function named [repository](name)
+    - delete function named [api](name)
+    - delete function named [controller](name)
+    - delete function named [service](name)
+    - delete function named [model](name)
+    - delete function named [repo](name)
+    - delete function named [sum](name)
+    - delete function named [addition](name)
+    - delete function named [answer](name)
+    - delete function named [result](name)
+    - delete function named [get](name)
+    - delete function named [update](name)
+    - delete function named [create](name)
+    - delete function named [delete](name)
+    - delete function named [find](name)
+    - delete function named [receive](name)
+    - delete function named [calculate](name)
+    - delete function named [decrement](name)
+    - delete function named [increment](name)
+    - delete function named [calc](name)
+    - delete function named [add](name)
+    - delete function named [valid](name)
+    - delete function named [move](name)
+    - delete function named [work](name)
+    - delete function named [write](name)
+    - delete function named [spec](name)
+    - delete function named [buy](name)
+    - delete function named [run](name)
+    - delete function named [notify](name)
+    - delete function named [output](name)
+    - delete function named [communicate](name)
+    - delete function named [call](name)
+    - delete function named [send](name)
+    - delete function named [input](name)
+    - delete function named [subtract](name)
+    - delete function named [multiply](name)
+    - delete function named [divide](name)
+    - delete function named [modulus](name)
+    - delete function named [check](name)
+    - delete function named [display](name)
+    - delete function named [show](name)
+    - delete function named [view](name)
+    - delete function named [max](name)
+    - delete function named [min](name)
+    - delete function named [is](name)
+    - delete function named [contain](name)
+    - delete function named [remove](name)
+    - delete function named [clear](name)
+    - delete function named [clean](name)
+    - delete function named [put](name)
+    - delete function named [set](name)
+    - delete function named [build](name)
+    - delete function named [plus](name)
+    - delete function named [minus](name)
+    - delete function named [append](name)
+    - delete function named [reset](name)
+    - delete function named [rebuild](name)
+    - delete function named [change](name)
+    - delete function named [select](name)
+    - delete function named [generate](name)
+    - delete function [repository](name)
+    - delete function [api](name)
+    - delete function [controller](name)
+    - delete function [service](name)
+    - delete function [model](name)
+    - delete function [repo](name)
+    - delete function [sum](name)
+    - delete function [addition](name)
+    - delete function [answer](name)
+    - delete function [result](name)
+    - delete function [get](name)
+    - delete function [update](name)
+    - delete function [create](name)
+    - delete function [delete](name)
+    - delete function [find](name)
+    - delete function [receive](name)
+    - delete function [calculate](name)
+    - delete function [decrement](name)
+    - delete function [increment](name)
+    - delete function [calc](name)
+    - delete function [add](name)
+    - delete function [valid](name)
+    - delete function [move](name)
+    - delete function [work](name)
+    - delete function [write](name)
+    - delete function [spec](name)
+    - delete function [buy](name)
+    - delete function [run](name)
+    - delete function [notify](name)
+    - delete function [output](name)
+    - delete function [communicate](name)
+    - delete function [call](name)
+    - delete function [send](name)
+    - delete function [input](name)
+    - delete function [subtract](name)
+    - delete function [multiply](name)
+    - delete function [divide](name)
+    - delete function [modulus](name)
+    - delete function [check](name)
+    - delete function [display](name)
+    - delete function [show](name)
+    - delete function [view](name)
+    - delete function [max](name)
+    - delete function [min](name)
+    - delete function [is](name)
+    - delete function [contain](name)
+    - delete function [remove](name)
+    - delete function [clear](name)
+    - delete function [clean](name)
+    - delete function [put](name)
+    - delete function [set](name)
+    - delete function [build](name)
+    - delete function [plus](name)
+    - delete function [minus](name)
+    - delete function [append](name)
+    - delete function [reset](name)
+    - delete function [rebuild](name)
+    - delete function [change](name)
+    - delete function [select](name)
+    - delete function [generate](name)
+    - remove function named [repository](name)
+    - remove function named [api](name)
+    - remove function named [controller](name)
+    - remove function named [service](name)
+    - remove function named [model](name)
+    - remove function named [repo](name)
+    - remove function named [sum](name)
+    - remove function named [addition](name)
+    - remove function named [answer](name)
+    - remove function named [result](name)
+    - remove function named [get](name)
+    - remove function named [update](name)
+    - remove function named [create](name)
+    - remove function named [delete](name)
+    - remove function named [find](name)
+    - remove function named [receive](name)
+    - remove function named [calculate](name)
+    - remove function named [decrement](name)
+    - remove function named [increment](name)
+    - remove function named [calc](name)
+    - remove function named [add](name)
+    - remove function named [valid](name)
+    - remove function named [move](name)
+    - remove function named [work](name)
+    - remove function named [write](name)
+    - remove function named [spec](name)
+    - remove function named [buy](name)
+    - remove function named [run](name)
+    - remove function named [notify](name)
+    - remove function named [output](name)
+    - remove function named [communicate](name)
+    - remove function named [call](name)
+    - remove function named [send](name)
+    - remove function named [input](name)
+    - remove function named [subtract](name)
+    - remove function named [multiply](name)
+    - remove function named [divide](name)
+    - remove function named [modulus](name)
+    - remove function named [check](name)
+    - remove function named [display](name)
+    - remove function named [show](name)
+    - remove function named [view](name)
+    - remove function named [max](name)
+    - remove function named [min](name)
+    - remove function named [is](name)
+    - remove function named [contain](name)
+    - remove function named [remove](name)
+    - remove function named [clear](name)
+    - remove function named [clean](name)
+    - remove function named [put](name)
+    - remove function named [set](name)
+    - remove function named [build](name)
+    - remove function named [plus](name)
+    - remove function named [minus](name)
+    - remove function named [append](name)
+    - remove function named [reset](name)
+    - remove function named [rebuild](name)
+    - remove function named [change](name)
+    - remove function named [select](name)
+    - remove function named [generate](name)
+    - remove function [repository](name)
+    - remove function [api](name)
+    - remove function [controller](name)
+    - remove function [service](name)
+    - remove function [model](name)
+    - remove function [repo](name)
+    - remove function [sum](name)
+    - remove function [addition](name)
+    - remove function [answer](name)
+    - remove function [result](name)
+    - remove function [get](name)
+    - remove function [update](name)
+    - remove function [create](name)
+    - remove function [delete](name)
+    - remove function [find](name)
+    - remove function [receive](name)
+    - remove function [calculate](name)
+    - remove function [decrement](name)
+    - remove function [increment](name)
+    - remove function [calc](name)
+    - remove function [add](name)
+    - remove function [valid](name)
+    - remove function [move](name)
+    - remove function [work](name)
+    - remove function [write](name)
+    - remove function [spec](name)
+    - remove function [buy](name)
+    - remove function [run](name)
+    - remove function [notify](name)
+    - remove function [output](name)
+    - remove function [communicate](name)
+    - remove function [call](name)
+    - remove function [send](name)
+    - remove function [input](name)
+    - remove function [subtract](name)
+    - remove function [multiply](name)
+    - remove function [divide](name)
+    - remove function [modulus](name)
+    - remove function [check](name)
+    - remove function [display](name)
+    - remove function [show](name)
+    - remove function [view](name)
+    - remove function [max](name)
+    - remove function [min](name)
+    - remove function [is](name)
+    - remove function [contain](name)
+    - remove function [remove](name)
+    - remove function [clear](name)
+    - remove function [clean](name)
+    - remove function [put](name)
+    - remove function [set](name)
+    - remove function [build](name)
+    - remove function [plus](name)
+    - remove function [minus](name)
+    - remove function [append](name)
+    - remove function [reset](name)
+    - remove function [rebuild](name)
+    - remove function [change](name)
+    - remove function [select](name)
+    - remove function [generate](name)
+
+- intent: cutfunction
+  examples: |
+    - cut function named [repository](name)
+    - cut function named [api](name)
+    - cut function named [controller](name)
+    - cut function named [service](name)
+    - cut function named [model](name)
+    - cut function named [repo](name)
+    - cut function named [sum](name)
+    - cut function named [addition](name)
+    - cut function named [answer](name)
+    - cut function named [result](name)
+    - cut function named [get](name)
+    - cut function named [update](name)
+    - cut function named [create](name)
+    - cut function named [delete](name)
+    - cut function named [find](name)
+    - cut function named [receive](name)
+    - cut function named [calculate](name)
+    - cut function named [decrement](name)
+    - cut function named [increment](name)
+    - cut function named [calc](name)
+    - cut function named [add](name)
+    - cut function named [valid](name)
+    - cut function named [move](name)
+    - cut function named [work](name)
+    - cut function named [write](name)
+    - cut function named [spec](name)
+    - cut function named [buy](name)
+    - cut function named [run](name)
+    - cut function named [notify](name)
+    - cut function named [output](name)
+    - cut function named [communicate](name)
+    - cut function named [call](name)
+    - cut function named [send](name)
+    - cut function named [input](name)
+    - cut function named [subtract](name)
+    - cut function named [multiply](name)
+    - cut function named [divide](name)
+    - cut function named [modulus](name)
+    - cut function named [check](name)
+    - cut function named [display](name)
+    - cut function named [show](name)
+    - cut function named [view](name)
+    - cut function named [max](name)
+    - cut function named [min](name)
+    - cut function named [is](name)
+    - cut function named [contain](name)
+    - cut function named [remove](name)
+    - cut function named [clear](name)
+    - cut function named [clean](name)
+    - cut function named [put](name)
+    - cut function named [set](name)
+    - cut function named [build](name)
+    - cut function named [plus](name)
+    - cut function named [minus](name)
+    - cut function named [append](name)
+    - cut function named [reset](name)
+    - cut function named [rebuild](name)
+    - cut function named [change](name)
+    - cut function named [select](name)
+    - cut function named [generate](name)
+    - cut function [repository](name)
+    - cut function [api](name)
+    - cut function [controller](name)
+    - cut function [service](name)
+    - cut function [model](name)
+    - cut function [repo](name)
+    - cut function [sum](name)
+    - cut function [addition](name)
+    - cut function [answer](name)
+    - cut function [result](name)
+    - cut function [get](name)
+    - cut function [update](name)
+    - cut function [create](name)
+    - cut function [delete](name)
+    - cut function [find](name)
+    - cut function [receive](name)
+    - cut function [calculate](name)
+    - cut function [decrement](name)
+    - cut function [increment](name)
+    - cut function [calc](name)
+    - cut function [add](name)
+    - cut function [valid](name)
+    - cut function [move](name)
+    - cut function [work](name)
+    - cut function [write](name)
+    - cut function [spec](name)
+    - cut function [buy](name)
+    - cut function [run](name)
+    - cut function [notify](name)
+    - cut function [output](name)
+    - cut function [communicate](name)
+    - cut function [call](name)
+    - cut function [send](name)
+    - cut function [input](name)
+    - cut function [subtract](name)
+    - cut function [multiply](name)
+    - cut function [divide](name)
+    - cut function [modulus](name)
+    - cut function [check](name)
+    - cut function [display](name)
+    - cut function [show](name)
+    - cut function [view](name)
+    - cut function [max](name)
+    - cut function [min](name)
+    - cut function [is](name)
+    - cut function [contain](name)
+    - cut function [remove](name)
+    - cut function [clear](name)
+    - cut function [clean](name)
+    - cut function [put](name)
+    - cut function [set](name)
+    - cut function [build](name)
+    - cut function [plus](name)
+    - cut function [minus](name)
+    - cut function [append](name)
+    - cut function [reset](name)
+    - cut function [rebuild](name)
+    - cut function [change](name)
+    - cut function [select](name)
+    - cut function [generate](name)
+
+- intent: changefunction
+  examples: |
+    - change function named repo to multiply
+    - change function named model to change
+    - change function named calc to service
+    - change function named clear to addition
+    - change function named increment to service
+    - change function named multiply to model
+    - change function named remove to notify
+    - change function named run to clean
+    - change function named create to input
+    - change function named valid to service
+    - change function named generate to check
+    - change function named append to service
+    - change function named view to find
+    - change function named build to service
+    - change function named clear to reset
+    - change function named reset to minus
+    - change function named clean to write
+    - change function named receive to repository
+    - change function named change to generate
+    - change function named communicate to modulus
+    - change function named result to generate
+    - change function named repository to valid
+    - change function named spec to output
+    - change function named get to build
+    - change function named build to input
+    - change function named api to move
+    - change function named clear to generate
+    - change function named find to controller
+    - change function named call to input
+    - change function named run to append
+    - change function named output to select
+    - change function named put to select
+    - change function named put to generate
+    - change function named decrement to valid
+    - change function named buy to reset
+    - change function named build to modulus
+    - change function named calculate to sum
+    - change function named reset to minus
+    - change function named controller to view
+    - change function named reset to communicate
+    - change function named get to update
+    - change function named reset to move
+    - change function named update to output
+    - change function named clear to clean
+    - change function named show to modulus
+    - change function named remove to move
+    - change function named clear to build
+    - change function named generate to receive
+    - change function named add to update
+    - change function named set to clear
+    - change function named decrement to subtract
+    - change function named run to generate
+    - change function named divide to run
+    - change function named clean to sum
+    - change function named minus to is
+    - change function named answer to find
+    - change function named buy to work
+    - change function named clear to service
+    - change function named clean to addition
+    - change function named create to write
+    - change function named get to calculate
+    - change function named controller to modulus
+    - change function named create to increment
+    - change function named write to view
+    - change function named get to answer
+    - change function named check to min
+    - change function named show to reset
+    - change function named valid to notify
+    - change function named get to move
+    - change function named send to increment
+    - change function named valid to modulus
+    - change function named run to increment
+    - change function named plus to append
+    - change function named addition to buy
+    - change function named delete to send
+    - change function named display to work
+    - change function named valid to write
+    - change function named show to move
+    - change function named check to answer
+    - change function named append to run
+    - change function named contain to communicate
+    - change function named rebuild to plus
+    - change function named api to increment
+    - change function named controller to multiply
+    - change function named build to divide
+    - change function named max to clean
+    - change function named add to answer
+    - change function named set to spec
+    - change function named build to communicate
+    - change function named move to contain
+    - change function named put to addition
+    - change function named communicate to service
+    - change function named buy to clean
+    - change function named repository to increment
+    - change function named delete to create
+    - change function named reset to controller
+    - change function named plus to show
+    - change function named divide to buy
+    - change function named output to minus
+    - change function named show to contain
+    - change function named update to calc
+    - change function named call to set
+    - change function named build to view
+    - change function named minus to append
+    - change function named call to result
+    - change function named max to increment
+    - change function named buy to plus
+    - change function named answer to create
+    - change function named clean to buy
+    - change function named min to max
+    - change function named addition to add
+    - change function named notify to controller
+    - change function named input to set
+    - change function named repository to controller
+    - change function named model to divide
+    - change function named notify to repo
+    - change function named put to work
+    - change function named remove to divide
+    - change function named notify to reset
+    - change function model to run
+    - change function addition to receive
+    - change function output to valid
+    - change function move to subtract
+    - change function delete to contain
+    - change function view to addition
+    - change function calc to run
+    - change function repo to append
+    - change function decrement to repo
+    - change function call to notify
+    - change function get to min
+    - change function modulus to service
+    - change function spec to divide
+    - change function answer to generate
+    - change function repository to api
+    - change function api to get
+    - change function send to check
+    - change function view to max
+    - change function receive to spec
+    - change function set to increment
+    - change function set to divide
+    - change function service to minus
+    - change function display to calculate
+    - change function multiply to show
+    - change function addition to find
+    - change function check to put
+    - change function display to divide
+    - change function plus to write
+    - change function run to contain
+    - change function output to reset
+    - change function change to input
+    - change function spec to change
+    - change function update to modulus
+    - change function controller to update
+    - change function sum to put
+    - change function update to set
+    - change function input to decrement
+    - change function append to result
+    - change function work to valid
+    - change function delete to remove
+    - change function is to find
+    - change function multiply to plus
+    - change function call to modulus
+    - change function find to reset
+    - change function addition to increment
+    - change function divide to receive
+    - change function addition to generate
+    - change function answer to create
+    - change function repository to minus
+    - change function buy to change
+    - change function find to minus
+    - change function update to sum
+    - change function communicate to repo
+    - change function modulus to api
+    - change function generate to calc
+    - change function modulus to delete
+    - change function append to run
+    - change function model to put
+    - change function create to spec
+    - change function add to modulus
+    - change function build to decrement
+    - change function communicate to valid
+    - change function write to clean
+    - change function change to call
+    - change function delete to buy
+    - change function receive to increment
+    - change function append to min
+    - change function change to select
+    - change function answer to write
+    - change function multiply to work
+    - change function create to delete
+    - change function multiply to clear
+    - change function multiply to display
+    - change function calculate to display
+    - change function find to minus
+    - change function send to service
+    - change function spec to model
+    - change function generate to model
+    - change function is to show
+    - change function rebuild to show
+    - change function controller to rebuild
+    - change function result to write
+    - change function remove to sum
+    - change function get to run
+    - change function select to multiply
+    - change function check to move
+    - change function put to subtract
+    - change function modulus to put
+    - change function reset to buy
+    - change function clean to display
+    - change function build to api
+    - change function sum to result
+    - change function view to is
+    - change function output to result
+    - change function answer to view
+    - change function addition to repo
+    - change function result to answer
+    - change function check to api
+    - change function decrement to minus
+    - change function add to view
+    - change function clean to is
+    - change function change to divide
+    - change function decrement to addition
+    - change function receive to set
+    - change function call to repository
+    - change function rebuild to create
+    - change function input to minus
+    - change function valid to max
+    - change function move to valid
+    - change function select to controller
+    - change function update to remove
+    - change function change to delete
+    - change function answer to sum
+    - change function display to output
+    - change function valid to rebuild
+    - change function minus to set
+
+- intent: editfunction
+  examples: |
+    - edit function named set to generate
+    - edit function named change to receive
+    - edit function named buy to answer
+    - edit function named change to select
+    - edit function named contain to multiply
+    - edit function named append to contain
+    - edit function named increment to buy
+    - edit function named move to subtract
+    - edit function named valid to view
+    - edit function named valid to sum
+    - edit function named send to display
+    - edit function named add to contain
+    - edit function named generate to min
+    - edit function named repo to update
+    - edit function named delete to buy
+    - edit function named sum to modulus
+    - edit function named max to write
+    - edit function named spec to min
+    - edit function named display to repo
+    - edit function named service to input
+    - edit function named calc to update
+    - edit function named buy to subtract
+    - edit function named spec to view
+    - edit function named result to call
+    - edit function named plus to display
+    - edit function named check to call
+    - edit function named answer to repo
+    - edit function named max to build
+    - edit function named display to result
+    - edit function named clear to output
+    - edit function named answer to communicate
+    - edit function named modulus to write
+    - edit function named generate to calculate
+    - edit function named is to send
+    - edit function named show to display
+    - edit function named notify to send
+    - edit function named service to min
+    - edit function named increment to set
+    - edit function named build to addition
+    - edit function named input to controller
+    - edit function named work to send
+    - edit function named max to reset
+    - edit function named set to multiply
+    - edit function named display to rebuild
+    - edit function named change to increment
+    - edit function named repo to build
+    - edit function named subtract to input
+    - edit function named display to calculate
+    - edit function named output to call
+    - edit function named calculate to contain
+    - edit function named output to call
+    - edit function named rebuild to clear
+    - edit function named result to write
+    - edit function named result to find
+    - edit function named model to reset
+    - edit function named view to contain
+    - edit function named decrement to clear
+    - edit function named communicate to send
+    - edit function named answer to minus
+    - edit function named addition to change
+    - edit function named delete to repository
+    - edit function named change to select
+    - edit function named subtract to remove
+    - edit function named api to plus
+    - edit function named add to work
+    - edit function named write to minus
+    - edit function named repo to spec
+    - edit function named add to buy
+    - edit function named divide to reset
+    - edit function named api to min
+    - edit function named result to is
+    - edit function named divide to output
+    - edit function named check to api
+    - edit function named change to divide
+    - edit function named add to spec
+    - edit function named work to divide
+    - edit function named check to min
+    - edit function named spec to receive
+    - edit function named communicate to rebuild
+    - edit function named modulus to notify
+    - edit function named answer to output
+    - edit function named api to check
+    - edit function named build to communicate
+    - edit function named service to clear
+    - edit function named update to api
+    - edit function named receive to add
+    - edit function named model to create
+    - edit function named buy to api
+    - edit function named delete to multiply
+    - edit function named find to result
+    - edit function named build to display
+    - edit function named check to build
+    - edit function named result to communicate
+    - edit function named model to repository
+    - edit function named receive to output
+    - edit function named change to generate
+    - edit function named modulus to sum
+    - edit function named subtract to controller
+    - edit function named work to api
+    - edit function named get to write
+    - edit function named calculate to minus
+    - edit function named input to multiply
+    - edit function named rebuild to clean
+    - edit function named find to change
+    - edit function named sum to generate
+    - edit function named calculate to delete
+    - edit function named modulus to divide
+    - edit function named divide to output
+    - edit function named max to modulus
+    - edit function named update to valid
+    - edit function named result to increment
+    - edit function named controller to clean
+    - edit function named contain to increment
+    - edit function named model to delete
+    - edit function named run to send
+    - edit function named repo to show
+    - edit function named result to calc
+    - edit function named move to minus
+    - edit function named move to controller
+    - edit function calc to modulus
+    - edit function answer to run
+    - edit function is to set
+    - edit function view to call
+    - edit function output to communicate
+    - edit function show to calculate
+    - edit function find to work
+    - edit function divide to modulus
+    - edit function reset to answer
+    - edit function subtract to notify
+    - edit function max to sum
+    - edit function set to repo
+    - edit function view to put
+    - edit function max to rebuild
+    - edit function buy to generate
+    - edit function service to input
+    - edit function decrement to contain
+    - edit function display to multiply
+    - edit function subtract to put
+    - edit function input to plus
+    - edit function buy to view
+    - edit function api to addition
+    - edit function divide to generate
+    - edit function minus to build
+    - edit function clear to display
+    - edit function addition to minus
+    - edit function delete to min
+    - edit function addition to call
+    - edit function reset to display
+    - edit function min to buy
+    - edit function generate to show
+    - edit function spec to output
+    - edit function input to display
+    - edit function increment to multiply
+    - edit function max to find
+    - edit function sum to spec
+    - edit function service to input
+    - edit function answer to model
+    - edit function remove to set
+    - edit function run to sum
+    - edit function update to input
+    - edit function create to subtract
+    - edit function notify to generate
+    - edit function work to is
+    - edit function multiply to min
+    - edit function min to clean
+    - edit function sum to reset
+    - edit function check to find
+    - edit function set to notify
+    - edit function view to min
+    - edit function generate to call
+    - edit function is to contain
+    - edit function divide to api
+    - edit function max to build
+    - edit function output to remove
+    - edit function multiply to build
+    - edit function calc to output
+    - edit function divide to notify
+    - edit function minus to run
+    - edit function display to divide
+    - edit function increment to generate
+    - edit function model to addition
+    - edit function addition to controller
+    - edit function sum to work
+    - edit function increment to plus
+    - edit function clean to answer
+    - edit function add to build
+    - edit function calc to change
+    - edit function put to communicate
+    - edit function addition to output
+    - edit function run to api
+    - edit function find to buy
+    - edit function buy to remove
+    - edit function rebuild to decrement
+    - edit function contain to sum
+    - edit function increment to buy
+    - edit function set to check
+    - edit function sum to update
+    - edit function repo to set
+    - edit function check to delete
+    - edit function update to spec
+    - edit function valid to set
+    - edit function model to contain
+    - edit function controller to model
+    - edit function put to select
+    - edit function find to send
+    - edit function append to output
+    - edit function call to receive
+    - edit function model to move
+    - edit function generate to work
+    - edit function min to set
+    - edit function rebuild to delete
+    - edit function repository to sum
+    - edit function check to rebuild
+    - edit function modulus to subtract
+    - edit function minus to clean
+    - edit function find to select
+    - edit function set to input
+    - edit function addition to set
+    - edit function clear to modulus
+    - edit function repository to spec
+    - edit function max to modulus
+    - edit function repository to select
+    - edit function increment to run
+    - edit function call to rebuild
+    - edit function calc to build
+    - edit function put to reset
+    - edit function write to modulus
+    - edit function decrement to controller
+    - edit function call to clear
+    - edit function buy to plus
+    - edit function change to build
+    - edit function remove to modulus
+    - edit function select to write
+    - edit function increment to sum
+    - edit function plus to rebuild
+    - edit function display to remove
+    - edit function remove to divide
+
+- intent: createfunctionunknown
+  examples: |
+    - add a function
+    - add function
+    - create a function
+    - create function
+
+- intent: createmainfunction
+  examples: |
+    - add main function
+    - create main function
+    - init main function
+    - initialize main function
+    - make main function
+
+- intent: callfunction
+  examples: |
+    - call function repository
+    - call function api
+    - call function controller
+    - call function service
+    - call function model
+    - call function repo
+    - call function sum
+    - call function addition
+    - call function answer
+    - call function result
+    - call function get
+    - call function update
+    - call function create
+    - call function delete
+    - call function find
+    - call function receive
+    - call function calculate
+    - call function decrement
+    - call function increment
+    - call function calc
+    - call function add
+    - call function valid
+    - call function move
+    - call function work
+    - call function write
+    - call function spec
+    - call function buy
+    - call function run
+    - call function notify
+    - call function output
+    - call function communicate
+    - call function call
+    - call function send
+    - call function input
+    - call function subtract
+    - call function multiply
+    - call function divide
+    - call function modulus
+    - call function check
+    - call function display
+    - call function show
+    - call function view
+    - call function max
+    - call function min
+    - call function is
+    - call function contain
+    - call function remove
+    - call function clear
+    - call function clean
+    - call function put
+    - call function set
+    - call function build
+    - call function plus
+    - call function minus
+    - call function append
+    - call function reset
+    - call function rebuild
+    - call function change
+    - call function select
+    - call function generate
+    - invoke function repository
+    - invoke function api
+    - invoke function controller
+    - invoke function service
+    - invoke function model
+    - invoke function repo
+    - invoke function sum
+    - invoke function addition
+    - invoke function answer
+    - invoke function result
+    - invoke function get
+    - invoke function update
+    - invoke function create
+    - invoke function delete
+    - invoke function find
+    - invoke function receive
+    - invoke function calculate
+    - invoke function decrement
+    - invoke function increment
+    - invoke function calc
+    - invoke function add
+    - invoke function valid
+    - invoke function move
+    - invoke function work
+    - invoke function write
+    - invoke function spec
+    - invoke function buy
+    - invoke function run
+    - invoke function notify
+    - invoke function output
+    - invoke function communicate
+    - invoke function call
+    - invoke function send
+    - invoke function input
+    - invoke function subtract
+    - invoke function multiply
+    - invoke function divide
+    - invoke function modulus
+    - invoke function check
+    - invoke function display
+    - invoke function show
+    - invoke function view
+    - invoke function max
+    - invoke function min
+    - invoke function is
+    - invoke function contain
+    - invoke function remove
+    - invoke function clear
+    - invoke function clean
+    - invoke function put
+    - invoke function set
+    - invoke function build
+    - invoke function plus
+    - invoke function minus
+    - invoke function append
+    - invoke function reset
+    - invoke function rebuild
+    - invoke function change
+    - invoke function select
+    - invoke function generate
+
+- intent: createparameterfunction
+  examples: |
+    - add integer parameter red to repository function
+    - add byte parameter master to api function
+    - add short parameter y to controller function
+    - add string parameter key to service function
+    - add long parameter phone to model function
+    - add flout parameter vegetable to repo function
+    - add short parameter b to sum function
+    - add flout parameter car to addition function
+    - add long parameter red to answer function
+    - add string parameter height to result function
+    - add integer parameter a to get function
+    - add double parameter cost to update function
+    - add byte parameter userid to create function
+    - add byte parameter contact to delete function
+    - add double parameter department to find function
+    - add byte parameter a to receive function
+    - add boolean parameter id to calculate function
+    - add string parameter phone to decrement function
+    - add short parameter smartphone to increment function
+    - add string parameter address to calc function
+    - add double parameter main to add function
+    - add byte parameter subtract to valid function
+    - add byte parameter s to move function
+    - add long parameter hospital to work function
+    - add short parameter p to write function
+    - add flout parameter a to spec function
+    - add double parameter c to buy function
+    - add byte parameter price to run function
+    - add short parameter seat to notify function
+    - add char parameter food to output function
+    - add boolean parameter laptop to communicate function
+    - add char parameter i to call function
+    - add char parameter b to send function
+    - add string parameter food to input function
+    - add double parameter val to subtract function
+    - add long parameter key to multiply function
+    - add boolean parameter location to divide function
+    - add boolean parameter phone to modulus function
+    - add long parameter emailaddress to check function
+    - add char parameter red to display function
+    - add boolean parameter valid to show function
+    - add char parameter answer to view function
+    - add short parameter main to max function
+    - add long parameter location to min function
+    - add long parameter wheel to is function
+    - add integer parameter x to contain function
+    - add short parameter num to remove function
+    - add string parameter r to clear function
+    - add string parameter computer to clean function
+    - add integer parameter black to put function
+    - add string parameter email to set function
+    - add boolean parameter can to build function
+    - add string parameter laptop to plus function
+    - add double parameter subtract to minus function
+    - add long parameter can to append function
+    - add byte parameter contact to reset function
+    - add flout parameter laptop to rebuild function
+    - add long parameter wheel to change function
+    - add long parameter p to select function
+    - add string parameter fruit to generate function    
+    - create string parameter size to repository function
+    - create flout parameter eatables to api function
+    - create char parameter can to controller function
+    - create char parameter fruit to service function
+    - create flout parameter q to model function
+    - create boolean parameter eatables to repo function
+    - create byte parameter fruit to sum function
+    - create char parameter mobilephone to addition function
+    - create byte parameter vegetable to answer function
+    - create flout parameter arr to result function
+    - create string parameter main to get function
+    - create string parameter weight to update function
+    - create boolean parameter p to create function
+    - create string parameter cost to delete function
+    - create char parameter wheel to find function
+    - create boolean parameter computer to receive function
+    - create boolean parameter address to calculate function
+    - create boolean parameter bag to decrement function
+    - create short parameter seat to increment function
+    - create double parameter phonenumber to calc function
+    - create double parameter id to add function
+    - create flout parameter s to valid function
+    - create char parameter val to move function
+    - create boolean parameter valid to work function
+    - create char parameter food to write function
+    - create long parameter r to spec function
+    - create string parameter smartphone to buy function
+    - create boolean parameter glass to run function
+    - create long parameter addition to notify function
+    - create byte parameter glass to output function
+    - create boolean parameter id to communicate function
+    - create byte parameter red to call function
+    - create byte parameter laptop to send function
+    - create short parameter touchscreen to input function
+    - create double parameter white to subtract function
+    - create integer parameter mouse to multiply function
+    - create string parameter department to divide function
+    - create flout parameter mobilephone to modulus function
+    - create integer parameter location to check function
+    - create byte parameter addition to display function
+    - create string parameter key to show function
+    - create long parameter p to view function
+    - create short parameter arr to max function
+    - create integer parameter location to min function
+    - create char parameter seat to is function
+    - create flout parameter count to contain function
+    - create integer parameter userid to remove function
+    - create char parameter food to clear function
+    - create byte parameter vegetable to clean function
+    - create short parameter subtract to put function
+    - create double parameter num to set function
+    - create byte parameter c to build function
+    - create boolean parameter c to plus function
+    - create integer parameter i to minus function
+    - create double parameter id to append function
+    - create double parameter contact to reset function
+    - create boolean parameter val to rebuild function
+    - create char parameter hospital to change function
+    - create byte parameter laptop to select function
+    - create integer parameter sum to generate function
+    - add char argument screen to repository function
+    - add string argument c to api function
+    - add char argument email to controller function
+    - add byte argument email to service function
+    - add double argument result to model function
+    - add boolean argument car to repo function
+    - add integer argument age to sum function
+    - add integer argument vegetable to addition function
+    - add short argument glass to answer function
+    - add flout argument contactnumber to result function
+    - add string argument contact to get function
+    - add flout argument contact to update function
+    - add double argument vegetable to create function
+    - add string argument location to delete function
+    - add double argument mobilephone to find function
+    - add double argument x to receive function
+    - add byte argument email to calculate function
+    - add boolean argument keyboard to decrement function
+    - add flout argument subtract to increment function
+    - add byte argument c to calc function
+    - add integer argument result to add function
+    - add integer argument num to valid function
+    - add integer argument emailaddress to move function
+    - add long argument i to work function
+    - add byte argument emailaddress to write function
+    - add char argument can to spec function
+    - add boolean argument main to buy function
+    - add short argument price to run function
+    - add short argument bus to notify function
+    - add boolean argument computer to output function
+    - add long argument screen to communicate function
+    - add flout argument van to call function
+    - add short argument s to send function
+    - add double argument food to input function
+    - add double argument val to subtract function
+    - add boolean argument master to multiply function
+    - add integer argument contact to divide function
+    - add char argument userid to modulus function
+    - add string argument sum to check function
+    - add byte argument value to display function
+    - add integer argument blue to show function
+    - add short argument value to view function
+    - add short argument vegetable to max function
+    - add string argument q to min function
+    - add double argument department to is function
+    - add string argument cost to contain function
+    - add flout argument x to remove function
+    - add long argument vegetable to clear function
+    - add char argument main to clean function
+    - add long argument userid to put function
+    - add integer argument r to set function
+    - add boolean argument yellow to build function
+    - add flout argument keyboard to plus function
+    - add long argument computer to minus function
+    - add double argument p to append function
+    - add flout argument mouse to reset function
+    - add integer argument emailaddress to rebuild function
+    - add double argument contactnumber to change function
+    - add flout argument count to select function
+    - add char argument bus to generate function
+    - create short argument can to repository function
+    - create flout argument phone to api function
+    - create double argument keyboard to controller function
+    - create integer argument addition to service function
+    - create flout argument car to model function
+    - create integer argument hospital to repo function
+    - create boolean argument touchscreen to sum function
+    - create flout argument r to addition function
+    - create char argument seat to answer function
+    - create byte argument master to result function
+    - create boolean argument phone to get function
+    - create flout argument count to update function
+    - create byte argument master to create function
+    - create byte argument keyboard to delete function
+    - create short argument a to find function
+    - create flout argument answer to receive function
+    - create integer argument x to calculate function
+    - create long argument seat to decrement function
+    - create flout argument i to increment function
+    - create char argument fruit to calc function
+    - create double argument r to add function
+    - create boolean argument vegetable to valid function
+    - create flout argument q to move function
+    - create integer argument master to work function
+    - create flout argument car to write function
+    - create integer argument subtract to spec function
+    - create byte argument sum to buy function
+    - create integer argument screen to run function
+    - create byte argument address to notify function
+    - create double argument bag to output function
+    - create integer argument val to communicate function
+    - create short argument bag to call function
+    - create flout argument user to send function
+    - create short argument val to input function
+    - create integer argument touchscreen to subtract function
+    - create long argument arr to multiply function
+    - create short argument glass to divide function
+    - create flout argument smartphone to modulus function
+    - create char argument smartphone to check function
+    - create string argument bike to display function
+    - create byte argument addition to show function
+    - create integer argument result to view function
+    - create integer argument z to max function
+    - create byte argument van to min function
+    - create string argument master to is function
+    - create string argument b to contain function
+    - create flout argument x to remove function
+    - create long argument bag to clear function
+    - create short argument contactnumber to clean function
+    - create double argument van to put function
+    - create double argument car to set function
+    - create long argument z to build function
+    - create long argument phone to plus function
+    - create flout argument num to minus function
+    - create short argument touchscreen to append function
+    - create boolean argument wheel to reset function
+    - create boolean argument z to rebuild function
+    - create short argument emailaddress to change function
+    - create long argument value to select function
+    - create byte argument height to generate function
+
+
+# ADDED TO NLU/TEST

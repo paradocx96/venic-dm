@@ -1,0 +1,3674 @@
+[
+  {
+    "text": "remove class main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4429696798324585
+    }
+  },
+  {
+    "text": "remove class master",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.44336843490600586
+    }
+  },
+  {
+    "text": "remove class height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.5031623244285583
+    }
+  },
+  {
+    "text": "remove class weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.5405848622322083
+    }
+  },
+  {
+    "text": "remove class bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.501642644405365
+    }
+  },
+  {
+    "text": "remove class vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4525264799594879
+    }
+  },
+  {
+    "text": "remove class cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.45880410075187683
+    }
+  },
+  {
+    "text": "remove class z",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.43437933921813965
+    }
+  },
+  {
+    "text": "remove class answer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.44159385561943054
+    }
+  },
+  {
+    "text": "remove class wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4865156412124634
+    }
+  },
+  {
+    "text": "remove class car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4514296352863312
+    }
+  },
+  {
+    "text": "remove class van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4807263910770416
+    }
+  },
+  {
+    "text": "remove class result",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteclass",
+      "confidence": 0.4322397708892822
+    }
+  },
+  {
+    "text": "remove interface main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4352850019931793
+    }
+  },
+  {
+    "text": "remove interface height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.5075020790100098
+    }
+  },
+  {
+    "text": "remove interface weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.5394968390464783
+    }
+  },
+  {
+    "text": "remove interface bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4714297652244568
+    }
+  },
+  {
+    "text": "remove interface phone",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4393387734889984
+    }
+  },
+  {
+    "text": "remove interface vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4405064284801483
+    }
+  },
+  {
+    "text": "remove interface cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4577425718307495
+    }
+  },
+  {
+    "text": "remove interface wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.5006762742996216
+    }
+  },
+  {
+    "text": "remove interface car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.45221519470214844
+    }
+  },
+  {
+    "text": "remove interface van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteinterface",
+      "confidence": 0.4874705672264099
+    }
+  },
+  {
+    "text": "remove function multiply",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletefunction",
+      "confidence": 0.49332576990127563
+    }
+  },
+  {
+    "text": "remove array weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearray",
+      "confidence": 0.419175386428833
+    }
+  },
+  {
+    "text": "remove arraylist height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.4727928340435028
+    }
+  },
+  {
+    "text": "remove arraylist weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.5027549266815186
+    }
+  },
+  {
+    "text": "remove arraylist bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.46351420879364014
+    }
+  },
+  {
+    "text": "remove arraylist cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.42704686522483826
+    }
+  },
+  {
+    "text": "remove arraylist wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.45224496722221375
+    }
+  },
+  {
+    "text": "remove arraylist car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.44072026014328003
+    }
+  },
+  {
+    "text": "remove arraylist van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletearraylist",
+      "confidence": 0.4629589021205902
+    }
+  },
+  {
+    "text": "remove hashmap main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5741731524467468
+    }
+  },
+  {
+    "text": "remove hashmap master",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5613071918487549
+    }
+  },
+  {
+    "text": "remove hashmap size",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5291550159454346
+    }
+  },
+  {
+    "text": "remove hashmap height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6350006461143494
+    }
+  },
+  {
+    "text": "remove hashmap weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6619111895561218
+    }
+  },
+  {
+    "text": "remove hashmap bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6239904165267944
+    }
+  },
+  {
+    "text": "remove hashmap can",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5558688044548035
+    }
+  },
+  {
+    "text": "remove hashmap computer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5437202453613281
+    }
+  },
+  {
+    "text": "remove hashmap mouse",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5181244015693665
+    }
+  },
+  {
+    "text": "remove hashmap phone",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.571725606918335
+    }
+  },
+  {
+    "text": "remove hashmap laptop",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5257388949394226
+    }
+  },
+  {
+    "text": "remove hashmap contact",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5360615253448486
+    }
+  },
+  {
+    "text": "remove hashmap value",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.56822669506073
+    }
+  },
+  {
+    "text": "remove hashmap vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6068412661552429
+    }
+  },
+  {
+    "text": "remove hashmap eatables",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5078633427619934
+    }
+  },
+  {
+    "text": "remove hashmap price",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.507727324962616
+    }
+  },
+  {
+    "text": "remove hashmap cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5887539982795715
+    }
+  },
+  {
+    "text": "remove hashmap sum",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5338327884674072
+    }
+  },
+  {
+    "text": "remove hashmap addition",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5781496167182922
+    }
+  },
+  {
+    "text": "remove hashmap x",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5560040473937988
+    }
+  },
+  {
+    "text": "remove hashmap y",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5092750191688538
+    }
+  },
+  {
+    "text": "remove hashmap z",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5690609216690063
+    }
+  },
+  {
+    "text": "remove hashmap answer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5707171559333801
+    }
+  },
+  {
+    "text": "remove hashmap wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6137680411338806
+    }
+  },
+  {
+    "text": "remove hashmap seat",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5363717079162598
+    }
+  },
+  {
+    "text": "remove hashmap car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6035895347595215
+    }
+  },
+  {
+    "text": "remove hashmap bus",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5466607213020325
+    }
+  },
+  {
+    "text": "remove hashmap van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.6341549754142761
+    }
+  },
+  {
+    "text": "remove hashmap bike",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5700089335441589
+    }
+  },
+  {
+    "text": "remove hashmap glass",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5446599125862122
+    }
+  },
+  {
+    "text": "remove hashmap red",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5152884721755981
+    }
+  },
+  {
+    "text": "remove hashmap black",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5435699820518494
+    }
+  },
+  {
+    "text": "remove hashmap result",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashmap",
+      "confidence": 0.5687022805213928
+    }
+  },
+  {
+    "text": "remove hashset main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5826773047447205
+    }
+  },
+  {
+    "text": "remove hashset master",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5693538188934326
+    }
+  },
+  {
+    "text": "remove hashset size",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5375460982322693
+    }
+  },
+  {
+    "text": "remove hashset height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6298776268959045
+    }
+  },
+  {
+    "text": "remove hashset weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6575987339019775
+    }
+  },
+  {
+    "text": "remove hashset bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6360551714897156
+    }
+  },
+  {
+    "text": "remove hashset can",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.565311849117279
+    }
+  },
+  {
+    "text": "remove hashset computer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.548227071762085
+    }
+  },
+  {
+    "text": "remove hashset mouse",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5367907881736755
+    }
+  },
+  {
+    "text": "remove hashset phone",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5716569423675537
+    }
+  },
+  {
+    "text": "remove hashset laptop",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.531961977481842
+    }
+  },
+  {
+    "text": "remove hashset contact",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5323057770729065
+    }
+  },
+  {
+    "text": "remove hashset value",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5782695412635803
+    }
+  },
+  {
+    "text": "remove hashset vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6028410792350769
+    }
+  },
+  {
+    "text": "remove hashset eatables",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5173464417457581
+    }
+  },
+  {
+    "text": "remove hashset price",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.526729941368103
+    }
+  },
+  {
+    "text": "remove hashset cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5803032517433167
+    }
+  },
+  {
+    "text": "remove hashset sum",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.537010908126831
+    }
+  },
+  {
+    "text": "remove hashset addition",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5773710012435913
+    }
+  },
+  {
+    "text": "remove hashset x",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5663528442382812
+    }
+  },
+  {
+    "text": "remove hashset y",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.52703857421875
+    }
+  },
+  {
+    "text": "remove hashset z",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5808538198471069
+    }
+  },
+  {
+    "text": "remove hashset answer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5741766095161438
+    }
+  },
+  {
+    "text": "remove hashset wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6028883457183838
+    }
+  },
+  {
+    "text": "remove hashset seat",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5492919087409973
+    }
+  },
+  {
+    "text": "remove hashset car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6007358431816101
+    }
+  },
+  {
+    "text": "remove hashset bus",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5575137734413147
+    }
+  },
+  {
+    "text": "remove hashset van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.6143860816955566
+    }
+  },
+  {
+    "text": "remove hashset bike",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5794180035591125
+    }
+  },
+  {
+    "text": "remove hashset glass",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5558093190193176
+    }
+  },
+  {
+    "text": "remove hashset red",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5461716055870056
+    }
+  },
+  {
+    "text": "remove hashset black",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5436119437217712
+    }
+  },
+  {
+    "text": "remove hashset result",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletehashset",
+      "confidence": 0.5969094634056091
+    }
+  },
+  {
+    "text": "remove linkedlist main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5588676333427429
+    }
+  },
+  {
+    "text": "remove linkedlist master",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.546030580997467
+    }
+  },
+  {
+    "text": "remove linkedlist size",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5062729716300964
+    }
+  },
+  {
+    "text": "remove linkedlist height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.6405382752418518
+    }
+  },
+  {
+    "text": "remove linkedlist weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.6649754643440247
+    }
+  },
+  {
+    "text": "remove linkedlist bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.6389428377151489
+    }
+  },
+  {
+    "text": "remove linkedlist can",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5645045042037964
+    }
+  },
+  {
+    "text": "remove linkedlist computer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5482515692710876
+    }
+  },
+  {
+    "text": "remove linkedlist mouse",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5158012509346008
+    }
+  },
+  {
+    "text": "remove linkedlist phone",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5813884735107422
+    }
+  },
+  {
+    "text": "remove linkedlist laptop",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5151503682136536
+    }
+  },
+  {
+    "text": "remove linkedlist contact",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5174497365951538
+    }
+  },
+  {
+    "text": "remove linkedlist value",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5644625425338745
+    }
+  },
+  {
+    "text": "remove linkedlist vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.574044942855835
+    }
+  },
+  {
+    "text": "remove linkedlist eatables",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.4850960075855255
+    }
+  },
+  {
+    "text": "remove linkedlist price",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5086389780044556
+    }
+  },
+  {
+    "text": "remove linkedlist cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5912880897521973
+    }
+  },
+  {
+    "text": "remove linkedlist sum",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5426034927368164
+    }
+  },
+  {
+    "text": "remove linkedlist addition",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5650867223739624
+    }
+  },
+  {
+    "text": "remove linkedlist x",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5540720224380493
+    }
+  },
+  {
+    "text": "remove linkedlist y",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5321921706199646
+    }
+  },
+  {
+    "text": "remove linkedlist z",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5738853812217712
+    }
+  },
+  {
+    "text": "remove linkedlist answer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5566778182983398
+    }
+  },
+  {
+    "text": "remove linkedlist wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.6191346049308777
+    }
+  },
+  {
+    "text": "remove linkedlist seat",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5359812378883362
+    }
+  },
+  {
+    "text": "remove linkedlist car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.59876948595047
+    }
+  },
+  {
+    "text": "remove linkedlist bus",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5682957768440247
+    }
+  },
+  {
+    "text": "remove linkedlist van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.6270574927330017
+    }
+  },
+  {
+    "text": "remove linkedlist bike",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5549569725990295
+    }
+  },
+  {
+    "text": "remove linkedlist glass",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5484855771064758
+    }
+  },
+  {
+    "text": "remove linkedlist red",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5213410258293152
+    }
+  },
+  {
+    "text": "remove linkedlist black",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5209220051765442
+    }
+  },
+  {
+    "text": "remove linkedlist result",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletelinkedlist",
+      "confidence": 0.5852935314178467
+    }
+  },
+  {
+    "text": "remove procedure api",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.46116894483566284
+    }
+  },
+  {
+    "text": "remove procedure call",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.4735325276851654
+    }
+  },
+  {
+    "text": "remove procedure send",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.4668246805667877
+    }
+  },
+  {
+    "text": "remove procedure input",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.45518627762794495
+    }
+  },
+  {
+    "text": "remove procedure multiply",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.5863357186317444
+    }
+  },
+  {
+    "text": "remove procedure modulus",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteprocedure",
+      "confidence": 0.45685580372810364
+    }
+  },
+  {
+    "text": "remove property height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.48876088857650757
+    }
+  },
+  {
+    "text": "remove property weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.5331384539604187
+    }
+  },
+  {
+    "text": "remove property bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.47147947549819946
+    }
+  },
+  {
+    "text": "remove property wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.44631198048591614
+    }
+  },
+  {
+    "text": "remove property car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.4316471219062805
+    }
+  },
+  {
+    "text": "remove property van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteproperty",
+      "confidence": 0.45412692427635193
+    }
+  },
+  {
+    "text": "remove variable height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.48976507782936096
+    }
+  },
+  {
+    "text": "remove variable weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.5304701328277588
+    }
+  },
+  {
+    "text": "remove variable bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.491266131401062
+    }
+  },
+  {
+    "text": "remove variable vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.42458149790763855
+    }
+  },
+  {
+    "text": "remove variable cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.44228994846343994
+    }
+  },
+  {
+    "text": "remove variable wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.47391483187675476
+    }
+  },
+  {
+    "text": "remove variable car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.4368564784526825
+    }
+  },
+  {
+    "text": "remove variable van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deletevariable",
+      "confidence": 0.45815709233283997
+    }
+  },
+  {
+    "text": "remove enum main",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4682965874671936
+    }
+  },
+  {
+    "text": "remove enum master",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4433484375476837
+    }
+  },
+  {
+    "text": "remove enum size",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4122256934642792
+    }
+  },
+  {
+    "text": "remove enum height",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.5312175154685974
+    }
+  },
+  {
+    "text": "remove enum weight",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.5681818723678589
+    }
+  },
+  {
+    "text": "remove enum bag",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.5162584185600281
+    }
+  },
+  {
+    "text": "remove enum can",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4281838536262512
+    }
+  },
+  {
+    "text": "remove enum computer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4237072169780731
+    }
+  },
+  {
+    "text": "remove enum mouse",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.39995476603507996
+    }
+  },
+  {
+    "text": "remove enum phone",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.45319393277168274
+    }
+  },
+  {
+    "text": "remove enum laptop",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4052588939666748
+    }
+  },
+  {
+    "text": "remove enum contact",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4016895294189453
+    }
+  },
+  {
+    "text": "remove enum value",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4295845329761505
+    }
+  },
+  {
+    "text": "remove enum vegetable",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4722496271133423
+    }
+  },
+  {
+    "text": "remove enum cost",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.473913311958313
+    }
+  },
+  {
+    "text": "remove enum sum",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4283112585544586
+    }
+  },
+  {
+    "text": "remove enum x",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4390663802623749
+    }
+  },
+  {
+    "text": "remove enum z",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.45599672198295593
+    }
+  },
+  {
+    "text": "remove enum answer",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.45593151450157166
+    }
+  },
+  {
+    "text": "remove enum wheel",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.5013414025306702
+    }
+  },
+  {
+    "text": "remove enum seat",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4173944294452667
+    }
+  },
+  {
+    "text": "remove enum car",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4810295104980469
+    }
+  },
+  {
+    "text": "remove enum bus",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4136475920677185
+    }
+  },
+  {
+    "text": "remove enum van",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.5078878402709961
+    }
+  },
+  {
+    "text": "remove enum bike",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4548931419849396
+    }
+  },
+  {
+    "text": "remove enum glass",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4236055910587311
+    }
+  },
+  {
+    "text": "remove enum black",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.4252774119377136
+    }
+  },
+  {
+    "text": "remove enum result",
+    "intent": "informremove",
+    "intent_prediction": {
+      "name": "deleteenum",
+      "confidence": 0.41589170694351196
+    }
+  },
+  {
+    "text": "remove class size",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49414828419685364
+    }
+  },
+  {
+    "text": "remove class can",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4382607638835907
+    }
+  },
+  {
+    "text": "remove class computer",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4643141031265259
+    }
+  },
+  {
+    "text": "remove class phone",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.42997071146965027
+    }
+  },
+  {
+    "text": "remove class laptop",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47437137365341187
+    }
+  },
+  {
+    "text": "remove class contact",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47057393193244934
+    }
+  },
+  {
+    "text": "remove class mouse",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4608224928379059
+    }
+  },
+  {
+    "text": "remove class eatables",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4827606976032257
+    }
+  },
+  {
+    "text": "remove class price",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47705692052841187
+    }
+  },
+  {
+    "text": "remove class sum",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46461233496665955
+    }
+  },
+  {
+    "text": "remove class addition",
+    "intent": "deleteclass",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4388259947299957
+    }
+  },
+  {
+    "text": "remove interface master",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46109142899513245
+    }
+  },
+  {
+    "text": "remove interface size",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4917772114276886
+    }
+  },
+  {
+    "text": "remove interface can",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45470693707466125
+    }
+  },
+  {
+    "text": "remove interface computer",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4503328800201416
+    }
+  },
+  {
+    "text": "remove interface laptop",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5242781639099121
+    }
+  },
+  {
+    "text": "remove interface contact",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49087902903556824
+    }
+  },
+  {
+    "text": "remove interface mouse",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4903164207935333
+    }
+  },
+  {
+    "text": "remove interface eatables",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5239167809486389
+    }
+  },
+  {
+    "text": "remove interface price",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5540212392807007
+    }
+  },
+  {
+    "text": "remove interface sum",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5051226019859314
+    }
+  },
+  {
+    "text": "remove interface addition",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4427787959575653
+    }
+  },
+  {
+    "text": "remove interface result",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45848172903060913
+    }
+  },
+  {
+    "text": "remove interface answer",
+    "intent": "deleteinterface",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45036807656288147
+    }
+  },
+  {
+    "text": "remove method repository",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6754185557365417
+    }
+  },
+  {
+    "text": "remove method api",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.582305371761322
+    }
+  },
+  {
+    "text": "remove method controller",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5938105583190918
+    }
+  },
+  {
+    "text": "remove method service",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6222620010375977
+    }
+  },
+  {
+    "text": "remove method model",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5867491364479065
+    }
+  },
+  {
+    "text": "remove method sum",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7004323601722717
+    }
+  },
+  {
+    "text": "remove method addition",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7504480481147766
+    }
+  },
+  {
+    "text": "remove method answer",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6772096157073975
+    }
+  },
+  {
+    "text": "remove method result",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6802383065223694
+    }
+  },
+  {
+    "text": "remove method communicate",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5971701741218567
+    }
+  },
+  {
+    "text": "remove method call",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.618110716342926
+    }
+  },
+  {
+    "text": "remove method send",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5605714917182922
+    }
+  },
+  {
+    "text": "remove method input",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5936906337738037
+    }
+  },
+  {
+    "text": "remove method subtract",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6285717487335205
+    }
+  },
+  {
+    "text": "remove method multiply",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4357442259788513
+    }
+  },
+  {
+    "text": "remove method divide",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6393893957138062
+    }
+  },
+  {
+    "text": "remove method modulus",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5533694624900818
+    }
+  },
+  {
+    "text": "remove method check",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6318391561508179
+    }
+  },
+  {
+    "text": "remove method display",
+    "intent": "deletemethod",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6499648094177246
+    }
+  },
+  {
+    "text": "remove function repository",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6002957820892334
+    }
+  },
+  {
+    "text": "remove function api",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4803602993488312
+    }
+  },
+  {
+    "text": "remove function controller",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.532435417175293
+    }
+  },
+  {
+    "text": "remove function service",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5619256496429443
+    }
+  },
+  {
+    "text": "remove function model",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5086148977279663
+    }
+  },
+  {
+    "text": "remove function sum",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5878369212150574
+    }
+  },
+  {
+    "text": "remove function addition",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6742835640907288
+    }
+  },
+  {
+    "text": "remove function answer",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5576300024986267
+    }
+  },
+  {
+    "text": "remove function result",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5634880661964417
+    }
+  },
+  {
+    "text": "remove function communicate",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5395947098731995
+    }
+  },
+  {
+    "text": "remove function call",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49472811818122864
+    }
+  },
+  {
+    "text": "remove function send",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4865874946117401
+    }
+  },
+  {
+    "text": "remove function input",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4836669862270355
+    }
+  },
+  {
+    "text": "remove function subtract",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5254101157188416
+    }
+  },
+  {
+    "text": "remove function divide",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5770541429519653
+    }
+  },
+  {
+    "text": "remove function modulus",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49110767245292664
+    }
+  },
+  {
+    "text": "remove function check",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5351671576499939
+    }
+  },
+  {
+    "text": "remove function display",
+    "intent": "deletefunction",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5940242409706116
+    }
+  },
+  {
+    "text": "remove procedure repository",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5228185653686523
+    }
+  },
+  {
+    "text": "remove procedure controller",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.44575172662734985
+    }
+  },
+  {
+    "text": "remove procedure service",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45733171701431274
+    }
+  },
+  {
+    "text": "remove procedure model",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.43108394742012024
+    }
+  },
+  {
+    "text": "remove procedure sum",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5262289047241211
+    }
+  },
+  {
+    "text": "remove procedure addition",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5850124955177307
+    }
+  },
+  {
+    "text": "remove procedure answer",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47716400027275085
+    }
+  },
+  {
+    "text": "remove procedure result",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5167866349220276
+    }
+  },
+  {
+    "text": "remove procedure communicate",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.44783055782318115
+    }
+  },
+  {
+    "text": "remove procedure subtract",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46826690435409546
+    }
+  },
+  {
+    "text": "remove procedure divide",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.494223415851593
+    }
+  },
+  {
+    "text": "remove procedure check",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46241772174835205
+    }
+  },
+  {
+    "text": "remove procedure display",
+    "intent": "deleteprocedure",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5062097907066345
+    }
+  },
+  {
+    "text": "remove variable main",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4466087818145752
+    }
+  },
+  {
+    "text": "remove variable master",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4528200328350067
+    }
+  },
+  {
+    "text": "remove variable size",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.509171187877655
+    }
+  },
+  {
+    "text": "remove variable can",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4604915976524353
+    }
+  },
+  {
+    "text": "remove variable computer",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47283056378364563
+    }
+  },
+  {
+    "text": "remove variable phone",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.43281975388526917
+    }
+  },
+  {
+    "text": "remove variable laptop",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4884320795536041
+    }
+  },
+  {
+    "text": "remove variable contact",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47353655099868774
+    }
+  },
+  {
+    "text": "remove variable mouse",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4874620735645294
+    }
+  },
+  {
+    "text": "remove variable eatables",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5008216500282288
+    }
+  },
+  {
+    "text": "remove variable price",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5188773274421692
+    }
+  },
+  {
+    "text": "remove variable sum",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4821775555610657
+    }
+  },
+  {
+    "text": "remove variable addition",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4549299478530884
+    }
+  },
+  {
+    "text": "remove variable result",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.43482673168182373
+    }
+  },
+  {
+    "text": "remove variable answer",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4404595196247101
+    }
+  },
+  {
+    "text": "remove variable x",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4587043523788452
+    }
+  },
+  {
+    "text": "remove variable y",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4916757643222809
+    }
+  },
+  {
+    "text": "remove variable z",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.44447198510169983
+    }
+  },
+  {
+    "text": "remove variable seat",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4817066490650177
+    }
+  },
+  {
+    "text": "remove variable bus",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.44834640622138977
+    }
+  },
+  {
+    "text": "remove variable bike",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4530765414237976
+    }
+  },
+  {
+    "text": "remove variable glass",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.48330000042915344
+    }
+  },
+  {
+    "text": "remove variable red",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49817875027656555
+    }
+  },
+  {
+    "text": "remove variable black",
+    "intent": "deletevariable",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47270768880844116
+    }
+  },
+  {
+    "text": "remove attribute main",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6498069167137146
+    }
+  },
+  {
+    "text": "remove attribute master",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6630547642707825
+    }
+  },
+  {
+    "text": "remove attribute size",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6893250346183777
+    }
+  },
+  {
+    "text": "remove attribute height",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.535793662071228
+    }
+  },
+  {
+    "text": "remove attribute weight",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.48243361711502075
+    }
+  },
+  {
+    "text": "remove attribute bag",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5718247890472412
+    }
+  },
+  {
+    "text": "remove attribute can",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6711322665214539
+    }
+  },
+  {
+    "text": "remove attribute computer",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6631792187690735
+    }
+  },
+  {
+    "text": "remove attribute phone",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6227728128433228
+    }
+  },
+  {
+    "text": "remove attribute laptop",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6997676491737366
+    }
+  },
+  {
+    "text": "remove attribute contact",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6910608410835266
+    }
+  },
+  {
+    "text": "remove attribute mouse",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6925981044769287
+    }
+  },
+  {
+    "text": "remove attribute vegetable",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6068823933601379
+    }
+  },
+  {
+    "text": "remove attribute eatables",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7168030738830566
+    }
+  },
+  {
+    "text": "remove attribute price",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7173147201538086
+    }
+  },
+  {
+    "text": "remove attribute cost",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6005403399467468
+    }
+  },
+  {
+    "text": "remove attribute sum",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6933282613754272
+    }
+  },
+  {
+    "text": "remove attribute addition",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6947797536849976
+    }
+  },
+  {
+    "text": "remove attribute result",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6622067093849182
+    }
+  },
+  {
+    "text": "remove attribute answer",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6504201889038086
+    }
+  },
+  {
+    "text": "remove attribute x",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6706269383430481
+    }
+  },
+  {
+    "text": "remove attribute y",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7130856513977051
+    }
+  },
+  {
+    "text": "remove attribute z",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6481990814208984
+    }
+  },
+  {
+    "text": "remove attribute wheel",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5686890482902527
+    }
+  },
+  {
+    "text": "remove attribute seat",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7067005038261414
+    }
+  },
+  {
+    "text": "remove attribute car",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6016455292701721
+    }
+  },
+  {
+    "text": "remove attribute bus",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6575122475624084
+    }
+  },
+  {
+    "text": "remove attribute van",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5670827627182007
+    }
+  },
+  {
+    "text": "remove attribute bike",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6501891016960144
+    }
+  },
+  {
+    "text": "remove attribute glass",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6888620257377625
+    }
+  },
+  {
+    "text": "remove attribute red",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6968595385551453
+    }
+  },
+  {
+    "text": "remove attribute black",
+    "intent": "deleteattribute",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6941726207733154
+    }
+  },
+  {
+    "text": "remove property main",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4777940809726715
+    }
+  },
+  {
+    "text": "remove property master",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.473798930644989
+    }
+  },
+  {
+    "text": "remove property size",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5508226156234741
+    }
+  },
+  {
+    "text": "remove property can",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49351173639297485
+    }
+  },
+  {
+    "text": "remove property computer",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5007201433181763
+    }
+  },
+  {
+    "text": "remove property phone",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46679916977882385
+    }
+  },
+  {
+    "text": "remove property laptop",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5285252928733826
+    }
+  },
+  {
+    "text": "remove property contact",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5299310088157654
+    }
+  },
+  {
+    "text": "remove property mouse",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5211657285690308
+    }
+  },
+  {
+    "text": "remove property vegetable",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.43521228432655334
+    }
+  },
+  {
+    "text": "remove property eatables",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5599356293678284
+    }
+  },
+  {
+    "text": "remove property price",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5377431511878967
+    }
+  },
+  {
+    "text": "remove property cost",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.43648213148117065
+    }
+  },
+  {
+    "text": "remove property sum",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5235322713851929
+    }
+  },
+  {
+    "text": "remove property addition",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46449342370033264
+    }
+  },
+  {
+    "text": "remove property result",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4426686465740204
+    }
+  },
+  {
+    "text": "remove property answer",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4550221860408783
+    }
+  },
+  {
+    "text": "remove property x",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5057966113090515
+    }
+  },
+  {
+    "text": "remove property y",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5343496203422546
+    }
+  },
+  {
+    "text": "remove property z",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.47492754459381104
+    }
+  },
+  {
+    "text": "remove property seat",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5321815013885498
+    }
+  },
+  {
+    "text": "remove property bus",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4810873866081238
+    }
+  },
+  {
+    "text": "remove property bike",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49172765016555786
+    }
+  },
+  {
+    "text": "remove property glass",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5115267634391785
+    }
+  },
+  {
+    "text": "remove property red",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5153606534004211
+    }
+  },
+  {
+    "text": "remove property black",
+    "intent": "deleteproperty",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5071641206741333
+    }
+  },
+  {
+    "text": "remove constant main",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5775393843650818
+    }
+  },
+  {
+    "text": "remove constant master",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.609497606754303
+    }
+  },
+  {
+    "text": "remove constant size",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6593745946884155
+    }
+  },
+  {
+    "text": "remove constant height",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4737485647201538
+    }
+  },
+  {
+    "text": "remove constant weight",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.42693787813186646
+    }
+  },
+  {
+    "text": "remove constant bag",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49418026208877563
+    }
+  },
+  {
+    "text": "remove constant can",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5918914079666138
+    }
+  },
+  {
+    "text": "remove constant computer",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6138959527015686
+    }
+  },
+  {
+    "text": "remove constant phone",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5726000666618347
+    }
+  },
+  {
+    "text": "remove constant laptop",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6391693949699402
+    }
+  },
+  {
+    "text": "remove constant contact",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6226043701171875
+    }
+  },
+  {
+    "text": "remove constant mouse",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6404717564582825
+    }
+  },
+  {
+    "text": "remove constant vegetable",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5597354769706726
+    }
+  },
+  {
+    "text": "remove constant eatables",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6506668329238892
+    }
+  },
+  {
+    "text": "remove constant price",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6617171168327332
+    }
+  },
+  {
+    "text": "remove constant cost",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5554360747337341
+    }
+  },
+  {
+    "text": "remove constant sum",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6237608790397644
+    }
+  },
+  {
+    "text": "remove constant addition",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6026039123535156
+    }
+  },
+  {
+    "text": "remove constant result",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5851104855537415
+    }
+  },
+  {
+    "text": "remove constant answer",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5938089489936829
+    }
+  },
+  {
+    "text": "remove constant x",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.604235053062439
+    }
+  },
+  {
+    "text": "remove constant y",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6372986435890198
+    }
+  },
+  {
+    "text": "remove constant z",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5815410614013672
+    }
+  },
+  {
+    "text": "remove constant wheel",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5228174924850464
+    }
+  },
+  {
+    "text": "remove constant seat",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6415723562240601
+    }
+  },
+  {
+    "text": "remove constant car",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5346713066101074
+    }
+  },
+  {
+    "text": "remove constant bus",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5813388228416443
+    }
+  },
+  {
+    "text": "remove constant van",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5169280767440796
+    }
+  },
+  {
+    "text": "remove constant bike",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6135594248771667
+    }
+  },
+  {
+    "text": "remove constant glass",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.635862410068512
+    }
+  },
+  {
+    "text": "remove constant red",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6448463797569275
+    }
+  },
+  {
+    "text": "remove constant black",
+    "intent": "deleteconstant",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6381393671035767
+    }
+  },
+  {
+    "text": "remove enum eatables",
+    "intent": "deleteenum",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.426658034324646
+    }
+  },
+  {
+    "text": "remove enum price",
+    "intent": "deleteenum",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4255963861942291
+    }
+  },
+  {
+    "text": "remove enum addition",
+    "intent": "deleteenum",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4107684791088104
+    }
+  },
+  {
+    "text": "remove array main",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5299853682518005
+    }
+  },
+  {
+    "text": "remove array master",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.527243971824646
+    }
+  },
+  {
+    "text": "remove array size",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5768426656723022
+    }
+  },
+  {
+    "text": "remove array height",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4466007351875305
+    }
+  },
+  {
+    "text": "remove array bag",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45918387174606323
+    }
+  },
+  {
+    "text": "remove array can",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5308613777160645
+    }
+  },
+  {
+    "text": "remove array computer",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5510139465332031
+    }
+  },
+  {
+    "text": "remove array phone",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5349832773208618
+    }
+  },
+  {
+    "text": "remove array laptop",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5827851295471191
+    }
+  },
+  {
+    "text": "remove array contact",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5541849732398987
+    }
+  },
+  {
+    "text": "remove array mouse",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5663760304450989
+    }
+  },
+  {
+    "text": "remove array vegetable",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49229127168655396
+    }
+  },
+  {
+    "text": "remove array eatables",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5852150917053223
+    }
+  },
+  {
+    "text": "remove array price",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5708889961242676
+    }
+  },
+  {
+    "text": "remove array cost",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49017879366874695
+    }
+  },
+  {
+    "text": "remove array sum",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5656839609146118
+    }
+  },
+  {
+    "text": "remove array addition",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5552535057067871
+    }
+  },
+  {
+    "text": "remove array x",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5343322157859802
+    }
+  },
+  {
+    "text": "remove array y",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5745218396186829
+    }
+  },
+  {
+    "text": "remove array z",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5241303443908691
+    }
+  },
+  {
+    "text": "remove array answer",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5266094207763672
+    }
+  },
+  {
+    "text": "remove array result",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5267078876495361
+    }
+  },
+  {
+    "text": "remove array wheel",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46634799242019653
+    }
+  },
+  {
+    "text": "remove array seat",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5550750494003296
+    }
+  },
+  {
+    "text": "remove array car",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4677242338657379
+    }
+  },
+  {
+    "text": "remove array bus",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5360348224639893
+    }
+  },
+  {
+    "text": "remove array van",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46161794662475586
+    }
+  },
+  {
+    "text": "remove array bike",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5277976989746094
+    }
+  },
+  {
+    "text": "remove array glass",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5560915470123291
+    }
+  },
+  {
+    "text": "remove array red",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.582800030708313
+    }
+  },
+  {
+    "text": "remove array black",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5577104687690735
+    }
+  },
+  {
+    "text": "remove array subtract",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.7303447127342224
+    }
+  },
+  {
+    "text": "remove array value",
+    "intent": "deletearray",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5466134548187256
+    }
+  },
+  {
+    "text": "remove arraylist main",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.44397205114364624
+    }
+  },
+  {
+    "text": "remove arraylist master",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.46015679836273193
+    }
+  },
+  {
+    "text": "remove arraylist size",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.509431779384613
+    }
+  },
+  {
+    "text": "remove arraylist can",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45315903425216675
+    }
+  },
+  {
+    "text": "remove arraylist computer",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4586021900177002
+    }
+  },
+  {
+    "text": "remove arraylist phone",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4462839365005493
+    }
+  },
+  {
+    "text": "remove arraylist laptop",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4962276220321655
+    }
+  },
+  {
+    "text": "remove arraylist contact",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5006815195083618
+    }
+  },
+  {
+    "text": "remove arraylist mouse",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49955347180366516
+    }
+  },
+  {
+    "text": "remove arraylist vegetable",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.419452965259552
+    }
+  },
+  {
+    "text": "remove arraylist eatables",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5186014771461487
+    }
+  },
+  {
+    "text": "remove arraylist price",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.49261796474456787
+    }
+  },
+  {
+    "text": "remove arraylist sum",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4765232801437378
+    }
+  },
+  {
+    "text": "remove arraylist addition",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4741942882537842
+    }
+  },
+  {
+    "text": "remove arraylist x",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4678209722042084
+    }
+  },
+  {
+    "text": "remove arraylist y",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4955771565437317
+    }
+  },
+  {
+    "text": "remove arraylist z",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4435393214225769
+    }
+  },
+  {
+    "text": "remove arraylist answer",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4501510560512543
+    }
+  },
+  {
+    "text": "remove arraylist result",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4221927225589752
+    }
+  },
+  {
+    "text": "remove arraylist seat",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.48682522773742676
+    }
+  },
+  {
+    "text": "remove arraylist bus",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.45294028520584106
+    }
+  },
+  {
+    "text": "remove arraylist bike",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4495108425617218
+    }
+  },
+  {
+    "text": "remove arraylist glass",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.48337095975875854
+    }
+  },
+  {
+    "text": "remove arraylist red",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5036689043045044
+    }
+  },
+  {
+    "text": "remove arraylist black",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4842884838581085
+    }
+  },
+  {
+    "text": "remove arraylist subtract",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.6779314279556274
+    }
+  },
+  {
+    "text": "remove arraylist value",
+    "intent": "deletearraylist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.4490453004837036
+    }
+  },
+  {
+    "text": "remove hashmap subtract",
+    "intent": "deletehashmap",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5786072611808777
+    }
+  },
+  {
+    "text": "remove hashset subtract",
+    "intent": "deletehashset",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5376644730567932
+    }
+  },
+  {
+    "text": "remove linkedlist subtract",
+    "intent": "deletelinkedlist",
+    "intent_prediction": {
+      "name": "informremove",
+      "confidence": 0.5258647799491882
+    }
+  },
+  {
+    "text": "save option",
+    "intent": "save",
+    "intent_prediction": {
+      "name": "saveworkspaceas",
+      "confidence": 0.17241248488426208
+    }
+  },
+  {
+    "text": "cut method",
+    "intent": "cut",
+    "intent_prediction": {
+      "name": "cutmethod",
+      "confidence": 0.2913275361061096
+    }
+  },
+  {
+    "text": "add occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.41170957684516907
+    }
+  },
+  {
+    "text": "add next occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.37292423844337463
+    }
+  },
+  {
+    "text": "add the next occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.35996004939079285
+    }
+  },
+  {
+    "text": "select occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.5073662400245667
+    }
+  },
+  {
+    "text": "select next occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4367215633392334
+    }
+  },
+  {
+    "text": "select the next occurrence",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4096672534942627
+    }
+  },
+  {
+    "text": "add occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4452402591705322
+    }
+  },
+  {
+    "text": "add next occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.37352877855300903
+    }
+  },
+  {
+    "text": "add the next occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.3610531687736511
+    }
+  },
+  {
+    "text": "select occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.5083099603652954
+    }
+  },
+  {
+    "text": "select next occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.42771175503730774
+    }
+  },
+  {
+    "text": "select the next occurrence from code segment",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.3820568919181824
+    }
+  },
+  {
+    "text": "add occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4537416994571686
+    }
+  },
+  {
+    "text": "add next occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.37085431814193726
+    }
+  },
+  {
+    "text": "add the next occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.35658174753189087
+    }
+  },
+  {
+    "text": "select occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.5133169889450073
+    }
+  },
+  {
+    "text": "select next occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4247364103794098
+    }
+  },
+  {
+    "text": "select the next occurrence from code base",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.37164506316185
+    }
+  },
+  {
+    "text": "add occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4509105980396271
+    }
+  },
+  {
+    "text": "add next occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.39342036843299866
+    }
+  },
+  {
+    "text": "add the next occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.38297581672668457
+    }
+  },
+  {
+    "text": "select occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.5232839584350586
+    }
+  },
+  {
+    "text": "select next occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.45199140906333923
+    }
+  },
+  {
+    "text": "select the next occurrence from statements",
+    "intent": "occurrencenext",
+    "intent_prediction": {
+      "name": "occurrenceall",
+      "confidence": 0.4073622524738312
+    }
+  }
+]

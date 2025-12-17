@@ -1,0 +1,135 @@
+version: "3.0"
+stories:
+- story: decrement variable (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: size
+    - number: two
+    user: |-
+      decrement variable [size](name) by [two](number)
+  - slot_was_set:
+    - name: size
+  - slot_was_set:
+    - number: two
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: decrementvariable
+  - action: utter_decrement_variable
+
+- story: change variable name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      change property size to height
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: changevariable
+  - action: utter_change_variable
+
+- story: create a method (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      create function [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createmethod
+  - action: utter_method_created
+
+- story: edit variable name (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      edit variable named height to size
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: editvariable
+  - action: utter_change_variable
+
+- story: create a project (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create a project example
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createproject
+  - action: utter_project_created
+
+- story: create a class (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create a new class user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createclass
+  - action: utter_class_created
+
+- story: create a interface (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      create a new interface user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createinterface
+  - action: utter_interface_created
+
+- story: open a class (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      open java class user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openclass
+  - action: utter_class_opened
+
+- story: open a interface (.\tests\test_stories.yml)
+  steps:
+  - user: |-
+      open java interface user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: openinterface
+  - action: utter_interface_opened
+
+- story: create a variable (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      create a variable named [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: createvariable
+  - action: utter_variable_created
+
+- story: delete a variable (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      delete variable [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: deletevariable
+  - action: utter_variable_deleted
+
+- story: cut a variable (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: user
+    user: |-
+      cut variable named [user](name)
+  - slot_was_set:
+    - name: user
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: cutvariable
+  - action: utter_done
+
+- story: increment variable (.\tests\test_stories.yml)
+  steps:
+  - entities:
+    - name: num
+    - number: five
+    user: |-
+      increment attribute [num](name) by [five](number)
+  - slot_was_set:
+    - name: num
+  - slot_was_set:
+    - number: five
+  - action: action_listen  # predicted: action_default_fallback
+  - intent: incrementvariable
+  - action: utter_increment_variable

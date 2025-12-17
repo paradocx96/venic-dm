@@ -1,0 +1,66 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: existcheck
+  examples: |
+    - [age](name) exist?
+    - [age](name) already exist?
+    - [car](name) is already exist?
+    - is [bus](name) already exist?
+    - [van](name) class exist?
+    - [van](name) class already exist?
+    - [height](name) class is already exist?
+    - is [width](name) class already exist?
+    - [van](name) method exist?
+    - [van](name) method already exist?
+    - [height](name) method is already exist?
+    - is [width](name) method already exist?
+    - [van](name) function exist?
+    - [van](name) function already exist?
+    - [height](name) function is already exist?
+    - is [width](name) function already exist?
+    - [van](name) procedure exist?
+    - [van](name) procedure already exist?
+    - [height](name) procedure is already exist?
+    - is [width](name) procedure already exist?
+    - [van](name) interface exist?
+    - [van](name) interface already exist?
+    - [height](name) interface is already exist?
+    - is [width](name) interface already exist?
+    - [van](name) variable exist?
+    - [van](name) variable already exist?
+    - [height](name) variable is already exist?
+    - is [width](name) variable already exist?
+    - [van](name) property exist?
+    - [van](name) property already exist?
+    - [height](name) property is already exist?
+    - is [width](name) property already exist?
+    - [van](name) attribute exist?
+    - [van](name) attribute already exist?
+    - [height](name) attribute is already exist?
+    - is [width](name) attribute already exist?
+    - [van](name) project exist?
+    - [van](name) project already exist?
+    - [height](name) project is already exist?
+    - is [width](name) project already exist?
+
+
+- intent: errorcheck
+  examples: |
+    - is there any error?
+    - are there any errors?
+    - is there any error in this file?
+    - are there any errors in this file?
+    - is there any error in code?
+    - are there any errors in code?
+    - find any errors in this file?
+    - find any error in this file?
+    - find any errors in code?
+    - find any error in code?
+
+
+- intent: statementcountcheck
+  examples: |
+    - How many lines are there in this file?
+    

@@ -1,0 +1,1682 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createarray
+  examples: |
+    - add new array named [main](name)
+    - add new array named [master](name)
+    - add new array named [size](name)
+    - add new array named [height](name)
+    - add new array named [weight](name)
+    - add new array named [bag](name)
+    - add new array named [can](name)
+    - add new array named [computer](name)
+    - add new array named [phone](name)
+    - add new array named [laptop](name)
+    - add new array named [mobilephone](name)
+    - add new array named [smartphone](name)
+    - add new array named [phonenumber](name)
+    - add new array named [contactnumber](name)
+    - add new array named [address](name)
+    - add new array named [location](name)
+    - add new array named [email](name)
+    - add new array named [contact](name)
+    - add new array named [emailaddress](name)
+    - add new array named [mouse](name)
+    - add new array named [keyboard](name)
+    - add new array named [screen](name)
+    - add new array named [touchscreen](name)
+    - add new array named [fruit](name)
+    - add new array named [food](name)
+    - add new array named [vegetable](name)
+    - add new array named [eatables](name)
+    - add new array named [price](name)
+    - add new array named [cost](name)
+    - add new array named [sum](name)
+    - add new array named [addition](name)
+    - add new array named [a](name)
+    - add new array named [b](name)
+    - add new array named [c](name)
+    - add new array named [p](name)
+    - add new array named [q](name)
+    - add new array named [r](name)
+    - add new array named [s](name)
+    - add new array named [x](name)
+    - add new array named [y](name)
+    - add new array named [z](name)
+    - add new array named [answer](name)
+    - add new array named [result](name)
+    - add new array named [user](name)
+    - add new array named [userid](name)
+    - add new array named [id](name)
+    - add new array named [num](name)
+    - add new array named [age](name)
+    - add new array named [department](name)
+    - add new array named [hospital](name)
+    - add new array named [wheel](name)
+    - add new array named [seat](name)
+    - add new array named [car](name)
+    - add new array named [bus](name)
+    - add new array named [van](name)
+    - add new array named [bike](name)
+    - add new array named [glass](name)
+    - add new array named [red](name)
+    - add new array named [black](name)
+    - add new array named [white](name)
+    - add new array named [blue](name)
+    - add new array named [yellow](name)
+    - add new array named [valid](name)
+    - add new array named [subtract](name)
+    - add new array named [value](name)
+    - add new array named [arr](name)
+    - add new array named [val](name)
+    - add new array named [key](name)
+    - add new array named [count](name)
+    - add array named [main](name)
+    - add array named [master](name)
+    - add array named [size](name)
+    - add array named [height](name)
+    - add array named [weight](name)
+    - add array named [bag](name)
+    - add array named [can](name)
+    - add array named [computer](name)
+    - add array named [phone](name)
+    - add array named [laptop](name)
+    - add array named [mobilephone](name)
+    - add array named [smartphone](name)
+    - add array named [phonenumber](name)
+    - add array named [contactnumber](name)
+    - add array named [address](name)
+    - add array named [location](name)
+    - add array named [email](name)
+    - add array named [contact](name)
+    - add array named [emailaddress](name)
+    - add array named [mouse](name)
+    - add array named [keyboard](name)
+    - add array named [screen](name)
+    - add array named [touchscreen](name)
+    - add array named [fruit](name)
+    - add array named [food](name)
+    - add array named [vegetable](name)
+    - add array named [eatables](name)
+    - add array named [price](name)
+    - add array named [cost](name)
+    - add array named [sum](name)
+    - add array named [addition](name)
+    - add array named [a](name)
+    - add array named [b](name)
+    - add array named [c](name)
+    - add array named [p](name)
+    - add array named [q](name)
+    - add array named [r](name)
+    - add array named [s](name)
+    - add array named [x](name)
+    - add array named [y](name)
+    - add array named [z](name)
+    - add array named [answer](name)
+    - add array named [result](name)
+    - add array named [user](name)
+    - add array named [userid](name)
+    - add array named [id](name)
+    - add array named [num](name)
+    - add array named [age](name)
+    - add array named [department](name)
+    - add array named [hospital](name)
+    - add array named [wheel](name)
+    - add array named [seat](name)
+    - add array named [car](name)
+    - add array named [bus](name)
+    - add array named [van](name)
+    - add array named [bike](name)
+    - add array named [glass](name)
+    - add array named [red](name)
+    - add array named [black](name)
+    - add array named [white](name)
+    - add array named [blue](name)
+    - add array named [yellow](name)
+    - add array named [valid](name)
+    - add array named [subtract](name)
+    - add array named [value](name)
+    - add array named [arr](name)
+    - add array named [val](name)
+    - add array named [key](name)
+    - add array named [count](name)
+    - add array [main](name)
+    - add array [master](name)
+    - add array [size](name)
+    - add array [height](name)
+    - add array [weight](name)
+    - add array [bag](name)
+    - add array [can](name)
+    - add array [computer](name)
+    - add array [phone](name)
+    - add array [laptop](name)
+    - add array [mobilephone](name)
+    - add array [smartphone](name)
+    - add array [phonenumber](name)
+    - add array [contactnumber](name)
+    - add array [address](name)
+    - add array [location](name)
+    - add array [email](name)
+    - add array [contact](name)
+    - add array [emailaddress](name)
+    - add array [mouse](name)
+    - add array [keyboard](name)
+    - add array [screen](name)
+    - add array [touchscreen](name)
+    - add array [fruit](name)
+    - add array [food](name)
+    - add array [vegetable](name)
+    - add array [eatables](name)
+    - add array [price](name)
+    - add array [cost](name)
+    - add array [sum](name)
+    - add array [addition](name)
+    - add array [a](name)
+    - add array [b](name)
+    - add array [c](name)
+    - add array [p](name)
+    - add array [q](name)
+    - add array [r](name)
+    - add array [s](name)
+    - add array [x](name)
+    - add array [y](name)
+    - add array [z](name)
+    - add array [answer](name)
+    - add array [result](name)
+    - add array [user](name)
+    - add array [userid](name)
+    - add array [id](name)
+    - add array [num](name)
+    - add array [age](name)
+    - add array [department](name)
+    - add array [hospital](name)
+    - add array [wheel](name)
+    - add array [seat](name)
+    - add array [car](name)
+    - add array [bus](name)
+    - add array [van](name)
+    - add array [bike](name)
+    - add array [glass](name)
+    - add array [red](name)
+    - add array [black](name)
+    - add array [white](name)
+    - add array [blue](name)
+    - add array [yellow](name)
+    - add array [valid](name)
+    - add array [subtract](name)
+    - add array [value](name)
+    - add array [arr](name)
+    - add array [val](name)
+    - add array [key](name)
+    - add array [count](name)
+    - create new array named [main](name)
+    - create new array named [master](name)
+    - create new array named [size](name)
+    - create new array named [height](name)
+    - create new array named [weight](name)
+    - create new array named [bag](name)
+    - create new array named [can](name)
+    - create new array named [computer](name)
+    - create new array named [phone](name)
+    - create new array named [laptop](name)
+    - create new array named [mobilephone](name)
+    - create new array named [smartphone](name)
+    - create new array named [phonenumber](name)
+    - create new array named [contactnumber](name)
+    - create new array named [address](name)
+    - create new array named [location](name)
+    - create new array named [email](name)
+    - create new array named [contact](name)
+    - create new array named [emailaddress](name)
+    - create new array named [mouse](name)
+    - create new array named [keyboard](name)
+    - create new array named [screen](name)
+    - create new array named [touchscreen](name)
+    - create new array named [fruit](name)
+    - create new array named [food](name)
+    - create new array named [vegetable](name)
+    - create new array named [eatables](name)
+    - create new array named [price](name)
+    - create new array named [cost](name)
+    - create new array named [sum](name)
+    - create new array named [addition](name)
+    - create new array named [a](name)
+    - create new array named [b](name)
+    - create new array named [c](name)
+    - create new array named [p](name)
+    - create new array named [q](name)
+    - create new array named [r](name)
+    - create new array named [s](name)
+    - create new array named [x](name)
+    - create new array named [y](name)
+    - create new array named [z](name)
+    - create new array named [answer](name)
+    - create new array named [result](name)
+    - create new array named [user](name)
+    - create new array named [userid](name)
+    - create new array named [id](name)
+    - create new array named [num](name)
+    - create new array named [age](name)
+    - create new array named [department](name)
+    - create new array named [hospital](name)
+    - create new array named [wheel](name)
+    - create new array named [seat](name)
+    - create new array named [car](name)
+    - create new array named [bus](name)
+    - create new array named [van](name)
+    - create new array named [bike](name)
+    - create new array named [glass](name)
+    - create new array named [red](name)
+    - create new array named [black](name)
+    - create new array named [white](name)
+    - create new array named [blue](name)
+    - create new array named [yellow](name)
+    - create new array named [valid](name)
+    - create new array named [subtract](name)
+    - create new array named [value](name)
+    - create new array named [arr](name)
+    - create new array named [val](name)
+    - create new array named [key](name)
+    - create new array named [count](name)
+    - create array named [main](name)
+    - create array named [master](name)
+    - create array named [size](name)
+    - create array named [height](name)
+    - create array named [weight](name)
+    - create array named [bag](name)
+    - create array named [can](name)
+    - create array named [computer](name)
+    - create array named [phone](name)
+    - create array named [laptop](name)
+    - create array named [mobilephone](name)
+    - create array named [smartphone](name)
+    - create array named [phonenumber](name)
+    - create array named [contactnumber](name)
+    - create array named [address](name)
+    - create array named [location](name)
+    - create array named [email](name)
+    - create array named [contact](name)
+    - create array named [emailaddress](name)
+    - create array named [mouse](name)
+    - create array named [keyboard](name)
+    - create array named [screen](name)
+    - create array named [touchscreen](name)
+    - create array named [fruit](name)
+    - create array named [food](name)
+    - create array named [vegetable](name)
+    - create array named [eatables](name)
+    - create array named [price](name)
+    - create array named [cost](name)
+    - create array named [sum](name)
+    - create array named [addition](name)
+    - create array named [a](name)
+    - create array named [b](name)
+    - create array named [c](name)
+    - create array named [p](name)
+    - create array named [q](name)
+    - create array named [r](name)
+    - create array named [s](name)
+    - create array named [x](name)
+    - create array named [y](name)
+    - create array named [z](name)
+    - create array named [answer](name)
+    - create array named [result](name)
+    - create array named [user](name)
+    - create array named [userid](name)
+    - create array named [id](name)
+    - create array named [num](name)
+    - create array named [age](name)
+    - create array named [department](name)
+    - create array named [hospital](name)
+    - create array named [wheel](name)
+    - create array named [seat](name)
+    - create array named [car](name)
+    - create array named [bus](name)
+    - create array named [van](name)
+    - create array named [bike](name)
+    - create array named [glass](name)
+    - create array named [red](name)
+    - create array named [black](name)
+    - create array named [white](name)
+    - create array named [blue](name)
+    - create array named [yellow](name)
+    - create array named [valid](name)
+    - create array named [subtract](name)
+    - create array named [value](name)
+    - create array named [arr](name)
+    - create array named [val](name)
+    - create array named [key](name)
+    - create array named [count](name)
+    - create array [main](name)
+    - create array [master](name)
+    - create array [size](name)
+    - create array [height](name)
+    - create array [weight](name)
+    - create array [bag](name)
+    - create array [can](name)
+    - create array [computer](name)
+    - create array [phone](name)
+    - create array [laptop](name)
+    - create array [mobilephone](name)
+    - create array [smartphone](name)
+    - create array [phonenumber](name)
+    - create array [contactnumber](name)
+    - create array [address](name)
+    - create array [location](name)
+    - create array [email](name)
+    - create array [contact](name)
+    - create array [emailaddress](name)
+    - create array [mouse](name)
+    - create array [keyboard](name)
+    - create array [screen](name)
+    - create array [touchscreen](name)
+    - create array [fruit](name)
+    - create array [food](name)
+    - create array [vegetable](name)
+    - create array [eatables](name)
+    - create array [price](name)
+    - create array [cost](name)
+    - create array [sum](name)
+    - create array [addition](name)
+    - create array [a](name)
+    - create array [b](name)
+    - create array [c](name)
+    - create array [p](name)
+    - create array [q](name)
+    - create array [r](name)
+    - create array [s](name)
+    - create array [x](name)
+    - create array [y](name)
+    - create array [z](name)
+    - create array [answer](name)
+    - create array [result](name)
+    - create array [user](name)
+    - create array [userid](name)
+    - create array [id](name)
+    - create array [num](name)
+    - create array [age](name)
+    - create array [department](name)
+    - create array [hospital](name)
+    - create array [wheel](name)
+    - create array [seat](name)
+    - create array [car](name)
+    - create array [bus](name)
+    - create array [van](name)
+    - create array [bike](name)
+    - create array [glass](name)
+    - create array [red](name)
+    - create array [black](name)
+    - create array [white](name)
+    - create array [blue](name)
+    - create array [yellow](name)
+    - create array [valid](name)
+    - create array [subtract](name)
+    - create array [value](name)
+    - create array [arr](name)
+    - create array [val](name)
+    - create array [key](name)
+    - create array [count](name)
+
+- intent: deletearray
+  examples: |
+    - delete array named [main](name)
+    - delete array named [master](name)
+    - delete array named [size](name)
+    - delete array named [height](name)
+    - delete array named [weight](name)
+    - delete array named [bag](name)
+    - delete array named [can](name)
+    - delete array named [computer](name)
+    - delete array named [phone](name)
+    - delete array named [laptop](name)
+    - delete array named [mobilephone](name)
+    - delete array named [smartphone](name)
+    - delete array named [phonenumber](name)
+    - delete array named [contactnumber](name)
+    - delete array named [address](name)
+    - delete array named [location](name)
+    - delete array named [email](name)
+    - delete array named [contact](name)
+    - delete array named [emailaddress](name)
+    - delete array named [mouse](name)
+    - delete array named [keyboard](name)
+    - delete array named [screen](name)
+    - delete array named [touchscreen](name)
+    - delete array named [fruit](name)
+    - delete array named [food](name)
+    - delete array named [vegetable](name)
+    - delete array named [eatables](name)
+    - delete array named [price](name)
+    - delete array named [cost](name)
+    - delete array named [sum](name)
+    - delete array named [addition](name)
+    - delete array named [a](name)
+    - delete array named [b](name)
+    - delete array named [c](name)
+    - delete array named [p](name)
+    - delete array named [q](name)
+    - delete array named [r](name)
+    - delete array named [s](name)
+    - delete array named [x](name)
+    - delete array named [y](name)
+    - delete array named [z](name)
+    - delete array named [answer](name)
+    - delete array named [result](name)
+    - delete array named [user](name)
+    - delete array named [userid](name)
+    - delete array named [id](name)
+    - delete array named [num](name)
+    - delete array named [age](name)
+    - delete array named [department](name)
+    - delete array named [hospital](name)
+    - delete array named [wheel](name)
+    - delete array named [seat](name)
+    - delete array named [car](name)
+    - delete array named [bus](name)
+    - delete array named [van](name)
+    - delete array named [bike](name)
+    - delete array named [glass](name)
+    - delete array named [red](name)
+    - delete array named [black](name)
+    - delete array named [white](name)
+    - delete array named [blue](name)
+    - delete array named [yellow](name)
+    - delete array named [valid](name)
+    - delete array named [subtract](name)
+    - delete array named [value](name)
+    - delete array named [arr](name)
+    - delete array named [val](name)
+    - delete array named [key](name)
+    - delete array named [count](name)
+    - delete array [main](name)
+    - delete array [master](name)
+    - delete array [size](name)
+    - delete array [height](name)
+    - delete array [weight](name)
+    - delete array [bag](name)
+    - delete array [can](name)
+    - delete array [computer](name)
+    - delete array [phone](name)
+    - delete array [laptop](name)
+    - delete array [mobilephone](name)
+    - delete array [smartphone](name)
+    - delete array [phonenumber](name)
+    - delete array [contactnumber](name)
+    - delete array [address](name)
+    - delete array [location](name)
+    - delete array [email](name)
+    - delete array [contact](name)
+    - delete array [emailaddress](name)
+    - delete array [mouse](name)
+    - delete array [keyboard](name)
+    - delete array [screen](name)
+    - delete array [touchscreen](name)
+    - delete array [fruit](name)
+    - delete array [food](name)
+    - delete array [vegetable](name)
+    - delete array [eatables](name)
+    - delete array [price](name)
+    - delete array [cost](name)
+    - delete array [sum](name)
+    - delete array [addition](name)
+    - delete array [a](name)
+    - delete array [b](name)
+    - delete array [c](name)
+    - delete array [p](name)
+    - delete array [q](name)
+    - delete array [r](name)
+    - delete array [s](name)
+    - delete array [x](name)
+    - delete array [y](name)
+    - delete array [z](name)
+    - delete array [answer](name)
+    - delete array [result](name)
+    - delete array [user](name)
+    - delete array [userid](name)
+    - delete array [id](name)
+    - delete array [num](name)
+    - delete array [age](name)
+    - delete array [department](name)
+    - delete array [hospital](name)
+    - delete array [wheel](name)
+    - delete array [seat](name)
+    - delete array [car](name)
+    - delete array [bus](name)
+    - delete array [van](name)
+    - delete array [bike](name)
+    - delete array [glass](name)
+    - delete array [red](name)
+    - delete array [black](name)
+    - delete array [white](name)
+    - delete array [blue](name)
+    - delete array [yellow](name)
+    - delete array [valid](name)
+    - delete array [subtract](name)
+    - delete array [value](name)
+    - delete array [arr](name)
+    - delete array [val](name)
+    - delete array [key](name)
+    - delete array [count](name)
+    - remove array named [main](name)
+    - remove array named [master](name)
+    - remove array named [size](name)
+    - remove array named [height](name)
+    - remove array named [weight](name)
+    - remove array named [bag](name)
+    - remove array named [can](name)
+    - remove array named [computer](name)
+    - remove array named [phone](name)
+    - remove array named [laptop](name)
+    - remove array named [mobilephone](name)
+    - remove array named [smartphone](name)
+    - remove array named [phonenumber](name)
+    - remove array named [contactnumber](name)
+    - remove array named [address](name)
+    - remove array named [location](name)
+    - remove array named [email](name)
+    - remove array named [contact](name)
+    - remove array named [emailaddress](name)
+    - remove array named [mouse](name)
+    - remove array named [keyboard](name)
+    - remove array named [screen](name)
+    - remove array named [touchscreen](name)
+    - remove array named [fruit](name)
+    - remove array named [food](name)
+    - remove array named [vegetable](name)
+    - remove array named [eatables](name)
+    - remove array named [price](name)
+    - remove array named [cost](name)
+    - remove array named [sum](name)
+    - remove array named [addition](name)
+    - remove array named [a](name)
+    - remove array named [b](name)
+    - remove array named [c](name)
+    - remove array named [p](name)
+    - remove array named [q](name)
+    - remove array named [r](name)
+    - remove array named [s](name)
+    - remove array named [x](name)
+    - remove array named [y](name)
+    - remove array named [z](name)
+    - remove array named [answer](name)
+    - remove array named [result](name)
+    - remove array named [user](name)
+    - remove array named [userid](name)
+    - remove array named [id](name)
+    - remove array named [num](name)
+    - remove array named [age](name)
+    - remove array named [department](name)
+    - remove array named [hospital](name)
+    - remove array named [wheel](name)
+    - remove array named [seat](name)
+    - remove array named [car](name)
+    - remove array named [bus](name)
+    - remove array named [van](name)
+    - remove array named [bike](name)
+    - remove array named [glass](name)
+    - remove array named [red](name)
+    - remove array named [black](name)
+    - remove array named [white](name)
+    - remove array named [blue](name)
+    - remove array named [yellow](name)
+    - remove array named [valid](name)
+    - remove array named [subtract](name)
+    - remove array named [value](name)
+    - remove array named [arr](name)
+    - remove array named [val](name)
+    - remove array named [key](name)
+    - remove array named [count](name)
+    - remove array [main](name)
+    - remove array [master](name)
+    - remove array [size](name)
+    - remove array [height](name)
+    - remove array [weight](name)
+    - remove array [bag](name)
+    - remove array [can](name)
+    - remove array [computer](name)
+    - remove array [phone](name)
+    - remove array [laptop](name)
+    - remove array [mobilephone](name)
+    - remove array [smartphone](name)
+    - remove array [phonenumber](name)
+    - remove array [contactnumber](name)
+    - remove array [address](name)
+    - remove array [location](name)
+    - remove array [email](name)
+    - remove array [contact](name)
+    - remove array [emailaddress](name)
+    - remove array [mouse](name)
+    - remove array [keyboard](name)
+    - remove array [screen](name)
+    - remove array [touchscreen](name)
+    - remove array [fruit](name)
+    - remove array [food](name)
+    - remove array [vegetable](name)
+    - remove array [eatables](name)
+    - remove array [price](name)
+    - remove array [cost](name)
+    - remove array [sum](name)
+    - remove array [addition](name)
+    - remove array [a](name)
+    - remove array [b](name)
+    - remove array [c](name)
+    - remove array [p](name)
+    - remove array [q](name)
+    - remove array [r](name)
+    - remove array [s](name)
+    - remove array [x](name)
+    - remove array [y](name)
+    - remove array [z](name)
+    - remove array [answer](name)
+    - remove array [result](name)
+    - remove array [user](name)
+    - remove array [userid](name)
+    - remove array [id](name)
+    - remove array [num](name)
+    - remove array [age](name)
+    - remove array [department](name)
+    - remove array [hospital](name)
+    - remove array [wheel](name)
+    - remove array [seat](name)
+    - remove array [car](name)
+    - remove array [bus](name)
+    - remove array [van](name)
+    - remove array [bike](name)
+    - remove array [glass](name)
+    - remove array [red](name)
+    - remove array [black](name)
+    - remove array [white](name)
+    - remove array [blue](name)
+    - remove array [yellow](name)
+    - remove array [valid](name)
+    - remove array [subtract](name)
+    - remove array [value](name)
+    - remove array [arr](name)
+    - remove array [val](name)
+    - remove array [key](name)
+    - remove array [count](name)
+
+- intent: cutarray
+  examples: |
+    - cut array named [main](name)
+    - cut array named [master](name)
+    - cut array named [size](name)
+    - cut array named [height](name)
+    - cut array named [weight](name)
+    - cut array named [bag](name)
+    - cut array named [can](name)
+    - cut array named [computer](name)
+    - cut array named [phone](name)
+    - cut array named [laptop](name)
+    - cut array named [mobilephone](name)
+    - cut array named [smartphone](name)
+    - cut array named [phonenumber](name)
+    - cut array named [contactnumber](name)
+    - cut array named [address](name)
+    - cut array named [location](name)
+    - cut array named [email](name)
+    - cut array named [contact](name)
+    - cut array named [emailaddress](name)
+    - cut array named [mouse](name)
+    - cut array named [keyboard](name)
+    - cut array named [screen](name)
+    - cut array named [touchscreen](name)
+    - cut array named [fruit](name)
+    - cut array named [food](name)
+    - cut array named [vegetable](name)
+    - cut array named [eatables](name)
+    - cut array named [price](name)
+    - cut array named [cost](name)
+    - cut array named [sum](name)
+    - cut array named [addition](name)
+    - cut array named [a](name)
+    - cut array named [b](name)
+    - cut array named [c](name)
+    - cut array named [p](name)
+    - cut array named [q](name)
+    - cut array named [r](name)
+    - cut array named [s](name)
+    - cut array named [x](name)
+    - cut array named [y](name)
+    - cut array named [z](name)
+    - cut array named [answer](name)
+    - cut array named [result](name)
+    - cut array named [user](name)
+    - cut array named [userid](name)
+    - cut array named [id](name)
+    - cut array named [num](name)
+    - cut array named [age](name)
+    - cut array named [department](name)
+    - cut array named [hospital](name)
+    - cut array named [wheel](name)
+    - cut array named [seat](name)
+    - cut array named [car](name)
+    - cut array named [bus](name)
+    - cut array named [van](name)
+    - cut array named [bike](name)
+    - cut array named [glass](name)
+    - cut array named [red](name)
+    - cut array named [black](name)
+    - cut array named [white](name)
+    - cut array named [blue](name)
+    - cut array named [yellow](name)
+    - cut array named [valid](name)
+    - cut array named [subtract](name)
+    - cut array named [value](name)
+    - cut array named [arr](name)
+    - cut array named [array](name)
+    - cut array named [val](name)
+    - cut array named [key](name)
+    - cut array named [count](name)
+    - cut array [main](name)
+    - cut array [master](name)
+    - cut array [size](name)
+    - cut array [height](name)
+    - cut array [weight](name)
+    - cut array [bag](name)
+    - cut array [can](name)
+    - cut array [computer](name)
+    - cut array [phone](name)
+    - cut array [laptop](name)
+    - cut array [mobilephone](name)
+    - cut array [smartphone](name)
+    - cut array [phonenumber](name)
+    - cut array [contactnumber](name)
+    - cut array [address](name)
+    - cut array [location](name)
+    - cut array [email](name)
+    - cut array [contact](name)
+    - cut array [emailaddress](name)
+    - cut array [mouse](name)
+    - cut array [keyboard](name)
+    - cut array [screen](name)
+    - cut array [touchscreen](name)
+    - cut array [fruit](name)
+    - cut array [food](name)
+    - cut array [vegetable](name)
+    - cut array [eatables](name)
+    - cut array [price](name)
+    - cut array [cost](name)
+    - cut array [sum](name)
+    - cut array [addition](name)
+    - cut array [a](name)
+    - cut array [b](name)
+    - cut array [c](name)
+    - cut array [p](name)
+    - cut array [q](name)
+    - cut array [r](name)
+    - cut array [s](name)
+    - cut array [x](name)
+    - cut array [y](name)
+    - cut array [z](name)
+    - cut array [answer](name)
+    - cut array [result](name)
+    - cut array [user](name)
+    - cut array [userid](name)
+    - cut array [id](name)
+    - cut array [num](name)
+    - cut array [age](name)
+    - cut array [department](name)
+    - cut array [hospital](name)
+    - cut array [wheel](name)
+    - cut array [seat](name)
+    - cut array [car](name)
+    - cut array [bus](name)
+    - cut array [van](name)
+    - cut array [bike](name)
+    - cut array [glass](name)
+    - cut array [red](name)
+    - cut array [black](name)
+    - cut array [white](name)
+    - cut array [blue](name)
+    - cut array [yellow](name)
+    - cut array [valid](name)
+    - cut array [subtract](name)
+    - cut array [value](name)
+    - cut array [arr](name)
+    - cut array [array](name)
+    - cut array [val](name)
+    - cut array [key](name)
+    - cut array [count](name)
+
+- intent: changearray
+  examples: |
+    - change array named z to result
+    - change array named vegetable to fruit
+    - change array named c to computer
+    - change array named department to user
+    - change array named email to mouse
+    - change array named valid to addition
+    - change array named van to price
+    - change array named smartphone to computer
+    - change array named glass to car
+    - change array named department to id
+    - change array named main to keyboard
+    - change array named id to z
+    - change array named s to sum
+    - change array named answer to emailaddress
+    - change array named a to smartphone
+    - change array named yellow to vegetable
+    - change array named val to seat
+    - change array named r to userid
+    - change array named emailaddress to keyboard
+    - change array named yellow to subtract
+    - change array named height to master
+    - change array named c to fruit
+    - change array named y to hospital
+    - change array named email to key
+    - change array named height to bus
+    - change array named keyboard to hospital
+    - change array named mobilephone to key
+    - change array named keyboard to seat
+    - change array named seat to x
+    - change array named contact to touchscreen
+    - change array named id to blue
+    - change array named r to c
+    - change array named num to smartphone
+    - change array named key to userid
+    - change array named wheel to z
+    - change array named s to can
+    - change array named age to phonenumber
+    - change array named main to subtract
+    - change array named size to main
+    - change array named num to s
+    - change array named yellow to phonenumber
+    - change array named phonenumber to touchscreen
+    - change array named bus to black
+    - change array named fruit to q
+    - change array named b to value
+    - change array named value to user
+    - change array named yellow to food
+    - change array named size to age
+    - change array named valid to glass
+    - change array named laptop to arr
+    - change array named computer to contactnumber
+    - change array named x to email
+    - change array named z to id
+    - change array named keyboard to email
+    - change array named sum to num
+    - change array named fruit to emailaddress
+    - change array named van to email
+    - change array named red to email
+    - change array named glass to cost
+    - change array named smartphone to value
+    - change array named hospital to email
+    - change array named car to vegetable
+    - change array named department to white
+    - change array named computer to arr
+    - change array named seat to mouse
+    - change array named userid to arr
+    - change array named num to main
+    - change array named food to r
+    - change array named yellow to bike
+    - change array named weight to hospital
+    - change array named can to answer
+    - change array named value to price
+    - change array named height to size
+    - change array named eatables to laptop
+    - change array named price to bike
+    - change array named smartphone to blue
+    - change array named main to phone
+    - change array named weight to i
+    - change array named userid to mouse
+    - change array named hospital to email
+    - change array named mouse to height
+    - change array named r to main
+    - change array named location to email
+    - change array named height to age
+    - change array named addition to smartphone
+    - change array named subtract to arr
+    - change array named arr to can
+    - change array named blue to user
+    - change array named bus to location
+    - change array named id to value
+    - change array named a to b
+    - change array named s to key
+    - change array named yellow to blue
+    - change array named x to bag
+    - change array named computer to red
+    - change array named contact to p
+    - change array named num to address
+    - change array named user to x
+    - change array named subtract to answer
+    - change array named computer to car
+    - change array named touchscreen to price
+    - change array named hospital to count
+    - change array named arr to a
+    - change array named x to price
+    - change array named height to s
+    - change array named contact to mouse
+    - change array named userid to hospital
+    - change array named user to userid
+    - change array named weight to department
+    - change array named arr to answer
+    - change array named address to height
+    - change array named a to hospital
+    - change array named arr to a
+    - change array named wheel to height
+    - change array named location to car
+    - change array named bus to contact
+    - change array named r to size
+    - change array named num to userid
+    - change array named email to bus
+    - change array named weight to phonenumber
+    - change array named height to r
+    - change array named vegetable to screen
+    - change array named b to age
+    - change array named red to wheel
+    - change array named z to num
+    - change array named food to seat
+    - change array named black to s
+    - change array named mobilephone to val
+    - change array named valid to fruit
+    - change array named count to keyboard
+    - change array named p to age
+    - change array named touchscreen to phonenumber
+    - change array named q to value
+    - change array named answer to main
+    - change array named addition to key
+    - change array named fruit to bag
+    - change array named subtract to valid
+    - change array named x to vegetable
+    - change array named eatables to car
+    - change array name bike to eatables
+    - change array name addition to i
+    - change array name count to size
+    - change array name bag to subtract
+    - change array name price to weight
+    - change array name touchscreen to r
+    - change array name i to fruit
+    - change array name emailaddress to red
+    - change array name laptop to addition
+    - change array name height to emailaddress
+    - change array name user to subtract
+    - change array name result to red
+    - change array name arr to smartphone
+    - change array name contactnumber to vegetable
+    - change array name weight to smartphone
+    - change array name master to touchscreen
+    - change array name emailaddress to price
+    - change array name q to sum
+    - change array name num to price
+    - change array name bike to y
+    - change array name arr to van
+    - change array name sum to emailaddress
+    - change array name eatables to i
+    - change array name touchscreen to bike
+    - change array name laptop to glass
+    - change array name val to screen
+    - change array name email to subtract
+    - change array name vegetable to department
+    - change array name address to i
+    - change array name emailaddress to car
+    - change array name emailaddress to vegetable
+    - change array name location to black
+    - change array name sum to glass
+    - change array name touchscreen to bag
+    - change array name screen to price
+    - change array name z to addition
+    - change array name val to s
+    - change array name emailaddress to car
+    - change array name value to white
+    - change array name result to bag
+    - change array name arr to bus
+    - change array name c to price
+    - change array name weight to keyboard
+    - change array name screen to main
+    - change array name emailaddress to valid
+    - change array name p to height
+    - change array name key to weight
+    - change array name key to location
+    - change array name laptop to y
+    - change array name vegetable to mobilephone
+    - change array name arr to smartphone
+    - change array name computer to hospital
+    - change array name red to p
+    - change array name r to touchscreen
+    - change array name eatables to contact
+    - change array name size to fruit
+    - change array name address to laptop
+    - change array name price to red
+    - change array name q to master
+    - change array name mouse to subtract
+    - change array name val to num
+    - change array name smartphone to screen
+    - change array name email to age
+    - change array name p to black
+    - change array name computer to weight
+    - change array name q to x
+    - change array name contact to screen
+    - change array name smartphone to white
+    - change array name c to white
+    - change array name weight to main
+    - change array name white to i
+    - change array name q to price
+    - change array name fruit to addition
+    - change array name computer to address
+    - change array name s to contactnumber
+    - change array name red to bus
+    - change array name white to result
+    - change array name keyboard to arr
+    - change array name yellow to black
+    - change array name phone to subtract
+    - change array name cost to hospital
+    - change array name r to contactnumber
+    - change array name touchscreen to arr
+    - change array name val to seat
+    - change array name r to car
+    - change array name val to van
+    - change array name food to c
+    - change array name food to age
+    - change array name department to hospital
+    - change array name black to id
+    - change array name van to id
+    - change array name count to car
+    - change array name keyboard to q
+    - change array name c to a
+    - change array name answer to location
+    - change array name eatables to id
+    - change array name r to main
+    - change array name hospital to num
+    - change array name yellow to main
+    - change array name black to r
+    - change array name id to wheel
+    - change array name fruit to value
+    - change array name email to i
+    - change array name glass to vegetable
+    - change array name key to b
+    - change array name computer to department
+    - change array name laptop to key
+    - change array name x to valid
+    - change array name arr to car
+    - change array name age to wheel
+    - change array name q to age
+    - change array name fruit to vegetable
+    - change array name laptop to val
+    - change array name cost to result
+    - change array name bag to white
+    - change array name addition to smartphone
+    - change array name touchscreen to id
+    - change array name s to answer
+    - change array name red to result
+    - change array name q to price
+    - change array name eatables to location
+    - change array name glass to result
+    - change array name computer to contact
+    - change array name y to key
+    - change array name phone to bike
+    - change array name email to wheel
+    - change array name q to val
+    - change array name laptop to screen
+    - change array name yellow to s
+    - change array name black to size
+    - change array name size to value
+    - change array name user to z
+    - change array name master to hospital
+    - change array name eatables to seat
+    - change array name user to blue
+    - change array name screen to car
+    - change array name department to addition
+    - change array name p to a
+    - change array name can to s
+    - change array sum to email
+    - change array smartphone to location
+    - change array screen to smartphone
+    - change array white to c
+    - change array touchscreen to value
+    - change array computer to glass
+    - change array computer to food
+    - change array s to cost
+    - change array id to wheel
+    - change array size to id
+    - change array fruit to yellow
+    - change array bag to p
+    - change array screen to count
+    - change array bus to value
+    - change array bike to a
+    - change array answer to black
+    - change array y to black
+    - change array van to z
+    - change array arr to z
+    - change array touchscreen to wheel
+    - change array white to hospital
+    - change array email to wheel
+    - change array eatables to q
+    - change array p to main
+    - change array black to email
+    - change array contactnumber to hospital
+    - change array id to key
+    - change array age to key
+    - change array eatables to cost
+    - change array answer to location
+    - change array contactnumber to s
+    - change array subtract to s
+    - change array location to red
+    - change array yellow to answer
+    - change array food to y
+    - change array wheel to mobilephone
+    - change array keyboard to z
+    - change array bag to yellow
+    - change array smartphone to valid
+    - change array num to contactnumber
+    - change array arr to blue
+    - change array r to addition
+    - change array vegetable to address
+    - change array weight to glass
+    - change array result to sum
+    - change array userid to val
+    - change array contactnumber to x
+    - change array answer to q
+    - change array main to val
+    - change array user to bus
+    - change array p to num
+    - change array num to addition
+    - change array mouse to s
+    - change array red to bag
+    - change array bag to x
+    - change array contact to yellow
+    - change array answer to subtract
+    - change array height to r
+    - change array answer to x
+    - change array seat to black
+    - change array val to i
+    - change array smartphone to email
+    - change array contact to fruit
+    - change array addition to can
+    - change array phone to blue
+    - change array car to van
+    - change array email to i
+    - change array size to smartphone
+    - change array computer to p
+    - change array price to subtract
+    - change array blue to fruit
+    - change array user to userid
+    - change array c to q
+    - change array can to white
+    - change array q to hospital
+    - change array x to glass
+    - change array glass to smartphone
+    - change array seat to computer
+    - change array id to arr
+    - change array blue to can
+    - change array hospital to seat
+    - change array red to subtract
+    - change array height to mobilephone
+    - change array hospital to price
+    - change array id to laptop
+    - change array valid to vegetable
+    - change array laptop to blue
+    - change array master to cost
+    - change array glass to mouse
+    - change array size to contact
+    - change array wheel to touchscreen
+    - change array subtract to hospital
+    - change array a to arr
+    - change array s to size
+    - change array wheel to fruit
+    - change array touchscreen to contact
+    - change array location to weight
+    - change array van to phonenumber
+    - change array val to wheel
+    - change array subtract to result
+    - change array x to master
+    - change array valid to phonenumber
+    - change array s to can
+    - change array size to keyboard
+    - change array height to arr
+    - change array weight to mobilephone
+    - change array fruit to department
+    - change array can to fruit
+    - change array a to screen
+    - change array bag to can
+    - change array hospital to num
+    - change array cost to mobilephone
+    - change array eatables to count
+    - change array z to y
+    - change array weight to red
+    - change array smartphone to white
+    - change array q to phonenumber
+    - change array yellow to touchscreen
+    - change array r to white
+    - change array x to phonenumber
+    - change array q to computer
+    - change array arr to age
+    - change array result to email
+    - change array answer to num
+    - change array touchscreen to user
+    - change array phone to sum
+    - change array keyboard to a
+    - change array arr to num
+    - change array department to arr
+    - change array id to sum
+    - change array fruit to arr
+    - change array valid to userid
+    - change array cost to sum
+    - change array x to user
+    - change array master to valid
+    - change array bike to bag
+    - change array bus to hospital
+
+- intent: editarray
+  examples: |
+    - edit array named main to master
+    - edit array name answer to result
+    - edit array main to master
+    - edit array named contact to food
+    - edit array named laptop to yellow
+    - edit array named contactnumber to seat
+    - edit array named computer to phonenumber
+    - edit array named phone to can
+    - edit array named eatables to computer
+    - edit array named z to bike
+    - edit array named count to r
+    - edit array named contact to glass
+    - edit array named emailaddress to y
+    - edit array named vegetable to location
+    - edit array named yellow to hospital
+    - edit array named eatables to count
+    - edit array named age to x
+    - edit array named x to white
+    - edit array named fruit to van
+    - edit array named user to bus
+    - edit array named main to vegetable
+    - edit array named value to array
+    - edit array named q to blue
+    - edit array named price to email
+    - edit array named c to userid
+    - edit array named red to valid
+    - edit array named p to q
+    - edit array named user to contact
+    - edit array named weight to cost
+    - edit array named count to yellow
+    - edit array named laptop to yellow
+    - edit array named main to emailaddress
+    - edit array named value to can
+    - edit array named email to addition
+    - edit array named size to hospital
+    - edit array named size to laptop
+    - edit array named car to answer
+    - edit array named q to wheel
+    - edit array named location to contact
+    - edit array named c to id
+    - edit array named q to computer
+    - edit array named email to id
+    - edit array named key to q
+    - edit array named eatables to c
+    - edit array named height to mobilephone
+    - edit array named subtract to array
+    - edit array named b to y
+    - edit array named r to white
+    - edit array named phonenumber to smartphone
+    - edit array named keyboard to master
+    - edit array named email to height
+    - edit array named arr to laptop
+    - edit array named screen to p
+    - edit array named cost to phonenumber
+    - edit array named can to bike
+    - edit array named addition to mouse
+    - edit array named contactnumber to yellow
+    - edit array named smartphone to wheel
+    - edit array named subtract to red
+    - edit array named laptop to c
+    - edit array named eatables to answer
+    - edit array named keyboard to phonenumber
+    - edit array named array to hospital
+    - edit array named seat to van
+    - edit array named emailaddress to arr
+    - edit array named valid to result
+    - edit array named smartphone to phonenumber
+    - edit array named sum to vegetable
+    - edit array named touchscreen to red
+    - edit array named valid to can
+    - edit array named laptop to can
+    - edit array named r to valid
+    - edit array named bike to wheel
+    - edit array named num to vegetable
+    - edit array named userid to screen
+    - edit array named eatables to blue
+    - edit array named s to userid
+    - edit array named price to hospital
+    - edit array named location to bus
+    - edit array named bus to array
+    - edit array named height to q
+    - edit array named r to valid
+    - edit array named hospital to screen
+    - edit array named age to b
+    - edit array named main to van
+    - edit array named red to age
+    - edit array named x to z
+    - edit array named userid to y
+    - edit array named smartphone to a
+    - edit array named userid to eatables
+    - edit array named subtract to arr
+    - edit array named van to phonenumber
+    - edit array named subtract to value
+    - edit array named main to a
+    - edit array named master to key
+    - edit array named count to eatables
+    - edit array named emailaddress to master
+    - edit array named department to van
+    - edit array named price to red
+    - edit array named z to white
+    - edit array named white to contactnumber
+    - edit array named p to value
+    - edit array named key to fruit
+    - edit array named price to b
+    - edit array named bus to b
+    - edit array named y to userid
+    - edit array named size to main
+    - edit array named num to value
+    - edit array named size to height
+    - edit array named keyboard to touchscreen
+    - edit array named hospital to computer
+    - edit array named addition to z
+    - edit array named q to address
+    - edit array named val to result
+    - edit array named result to subtract
+    - edit array named seat to y
+    - edit array named emailaddress to cost
+    - edit array named email to result
+    - edit array named glass to z
+    - edit array named keyboard to id
+    - edit array named screen to eatables
+    - edit array named age to phone
+    - edit array named hospital to master
+    - edit array named screen to value
+    - edit array named yellow to bus
+    - edit array named price to can
+    - edit array named count to num
+    - edit array named phonenumber to van
+    - edit array named contact to contactnumber
+    - edit array named touchscreen to p
+    - edit array named eatables to sum
+    - edit array named department to can
+    - edit array named vegetable to value
+    - edit array named address to id
+    - edit array named contact to cost
+    - edit array named phone to user
+    - edit array named price to bike
+    - edit array name car to main
+    - edit array name contact to fruit
+    - edit array name contact to wheel
+    - edit array name num to result
+    - edit array name contactnumber to emailaddress
+    - edit array name master to size
+    - edit array name phone to bus
+    - edit array name screen to bike
+    - edit array name can to main
+    - edit array name yellow to car
+    - edit array name q to addition
+    - edit array name contact to val
+    - edit array name yellow to address
+    - edit array name weight to emailaddress
+    - edit array name sum to value
+    - edit array name sum to black
+    - edit array name arr to touchscreen
+    - edit array name wheel to location
+    - edit array name mobilephone to wheel
+    - edit array name z to size
+    - edit array name p to result
+    - edit array name cost to black
+    - edit array name yellow to addition
+    - edit array name food to mobilephone
+    - edit array name result to value
+    - edit array name black to van
+    - edit array name z to master
+    - edit array name department to car
+    - edit array name c to addition
+    - edit array name q to b
+    - edit array name y to answer
+    - edit array name weight to x
+    - edit array name q to email
+    - edit array name s to result
+    - edit array name keyboard to bag
+    - edit array name emailaddress to phone
+    - edit array name touchscreen to c
+    - edit array name contactnumber to laptop
+    - edit array name price to answer
+    - edit array name computer to weight
+    - edit array name val to height
+    - edit array name location to arr
+    - edit array name black to answer
+    - edit array name main to s
+    - edit array name bag to seat
+    - edit array name blue to screen
+    - edit array name r to mouse
+    - edit array name laptop to val
+    - edit array name white to c
+    - edit array name size to car
+    - edit array name s to value
+    - edit array name glass to mouse
+    - edit array name keyboard to value
+    - edit array name glass to r
+    - edit array name black to red
+    - edit array name can to master
+    - edit array name phone to cost
+    - edit array name yellow to c
+    - edit array name b to yellow
+    - edit array name val to age
+    - edit array name s to y
+    - edit array name c to phone
+    - edit array name arr to computer
+    - edit array name array to touchscreen
+    - edit array name bag to x
+    - edit array name touchscreen to laptop
+    - edit array name department to food
+    - edit array name red to can
+    - edit array name result to subtract
+    - edit array name laptop to main
+    - edit array name emailaddress to array
+    - edit array name height to van
+    - edit array name black to userid
+    - edit array name red to touchscreen
+    - edit array name height to weight
+    - edit array name sum to y
+    - edit array name can to emailaddress
+    - edit array name wheel to phonenumber
+    - edit array name a to main
+    - edit array name user to food
+    - edit array name sum to user
+    - edit array name car to r
+    - edit array name location to vegetable
+    - edit array name answer to x
+    - edit array name seat to size
+    - edit array name arr to wheel
+    - edit array name white to smartphone
+    - edit array name addition to glass
+    - edit array name contactnumber to x
+    - edit array name arr to location
+    - edit array name bike to vegetable
+    - edit array name id to smartphone
+    - edit array name wheel to x
+    - edit array name user to email
+    - edit array name phone to contact
+    - edit array name main to count
+    - edit array name seat to r
+    - edit array name laptop to eatables
+    - edit array name bus to val
+    - edit array name hospital to sum
+    - edit array name key to seat
+    - edit array name cost to answer
+    - edit array name red to keyboard
+    - edit array name blue to contact
+    - edit array name height to s
+    - edit array name hospital to keyboard
+    - edit array name fruit to white
+    - edit array name hospital to size
+    - edit array name laptop to blue
+    - edit array name vegetable to size
+    - edit array name black to bag
+    - edit array name touchscreen to array
+    - edit array name vegetable to price
+    - edit array name a to size
+    - edit array name height to addition
+    - edit array name cost to c
+    - edit array name age to emailaddress
+    - edit array name email to result
+    - edit array name subtract to glass
+    - edit array name p to key
+    - edit array name c to cost
+    - edit array name key to num
+    - edit array name wheel to black
+    - edit array name subtract to blue
+    - edit array name array to blue
+    - edit array name emailaddress to key
+    - edit array name glass to main
+    - edit array name height to eatables
+    - edit array name bike to wheel
+    - edit array name mouse to vegetable
+    - edit array name main to contactnumber
+    - edit array name glass to vegetable
+    - edit array name eatables to laptop
+    - edit array name red to seat
+    - edit array name wheel to user
+    - edit array name blue to a
+    - edit array name result to white
+    - edit array name glass to yellow
+    - edit array name answer to can
+    - edit array name z to hospital
+    - edit array size to computer
+    - edit array glass to mobilephone
+    - edit array x to computer
+    - edit array fruit to address
+    - edit array num to weight
+    - edit array cost to userid
+    - edit array size to mouse
+    - edit array y to computer
+    - edit array screen to count
+    - edit array yellow to laptop
+    - edit array num to z
+    - edit array userid to bus
+    - edit array count to location
+    - edit array email to array
+    - edit array department to mouse
+    - edit array seat to s
+    - edit array phone to food
+    - edit array location to department
+    - edit array keyboard to contactnumber
+    - edit array keyboard to sum
+    - edit array bus to valid
+    - edit array mouse to a
+    - edit array hospital to key
+    - edit array department to car
+    - edit array keyboard to computer
+    - edit array address to height
+    - edit array y to answer
+    - edit array bag to addition
+    - edit array cost to contactnumber
+    - edit array y to addition
+    - edit array addition to a
+    - edit array cost to age
+    - edit array answer to location
+    - edit array z to x
+    - edit array val to main
+    - edit array car to emailaddress
+    - edit array email to weight
+    - edit array eatables to van
+    - edit array id to userid
+    - edit array yellow to red
+    - edit array emailaddress to value
+    - edit array a to user
+    - edit array fruit to phone
+    - edit array c to mobilephone
+    - edit array userid to yellow
+    - edit array age to q
+    - edit array c to vegetable
+    - edit array emailaddress to sum
+    - edit array price to val
+    - edit array key to food
+    - edit array food to count
+    - edit array addition to computer
+    - edit array arr to yellow
+    - edit array address to mouse
+    - edit array computer to vegetable
+    - edit array screen to z
+    - edit array department to van
+    - edit array eatables to cost
+    - edit array count to glass
+    - edit array num to y
+    - edit array phone to computer
+    - edit array black to smartphone
+    - edit array mouse to food
+    - edit array a to val
+    - edit array arr to main
+    - edit array fruit to y
+    - edit array y to black
+    - edit array count to van
+    - edit array keyboard to touchscreen
+    - edit array yellow to contactnumber
+    - edit array p to food
+    - edit array black to department
+    - edit array vegetable to count
+    - edit array black to array
+    - edit array mobilephone to white
+    - edit array answer to id
+    - edit array hospital to location
+    - edit array weight to height
+    - edit array laptop to bike
+    - edit array black to eatables
+    - edit array yellow to a
+    - edit array laptop to white
+    - edit array z to addition
+    - edit array key to white
+    - edit array count to r
+    - edit array seat to userid
+    - edit array bag to valid
+    - edit array age to p
+    - edit array phonenumber to b
+    - edit array contact to main
+    - edit array r to computer
+    - edit array s to location
+    - edit array can to main
+    - edit array arr to contactnumber
+    - edit array user to department
+    - edit array contactnumber to contact
+    - edit array black to y
+    - edit array valid to main
+    - edit array p to emailaddress
+    - edit array count to height
+    - edit array screen to b
+    - edit array smartphone to location
+    - edit array price to arr
+    - edit array s to fruit
+    - edit array red to bus
+    - edit array p to yellow
+    - edit array x to mouse
+    - edit array z to value
+    - edit array phone to x
+    - edit array z to a
+    - edit array mobilephone to val
+    - edit array cost to answer
+    - edit array fruit to laptop
+    - edit array car to cost
+    - edit array arr to vegetable
+    - edit array size to value
+    - edit array food to bag
+    - edit array hospital to fruit
+    - edit array mouse to a
+    - edit array fruit to result
+    - edit array num to x
+    - edit array price to y
+    - edit array van to id
+    - edit array yellow to userid
+    - edit array q to valid
+    - edit array key to screen
+    - edit array food to red
+    - edit array vegetable to bag
+    - edit array y to department
+    - edit array mouse to master
+    - edit array white to blue
+    - edit array mouse to van
+    - edit array count to sum
+    - edit array b to array
+    - edit array red to result
+    - edit array hospital to contactnumber
+    - edit array address to laptop
+    - edit array addition to answer
+    - edit array master to department
+    - edit array s to laptop
+
+# ADDED TO NLU/TEST

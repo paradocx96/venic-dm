@@ -1,0 +1,688 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createenum
+  examples: |
+    - create new java enum [main](name)
+    - create new java enum [master](name)
+    - create new java enum [size](name)
+    - create new java enum [height](name)
+    - create new java enum [weight](name)
+    - create new java enum [bag](name)
+    - create new java enum [util](name)
+    - create new java enum [utility](name)
+    - create new java enum [can](name)
+    - create new java enum [computer](name)
+    - create new java enum [phone](name)
+    - create new java enum [laptop](name)
+    - create new java enum [repository](name)
+    - create new java enum [api](name)
+    - create new java enum [controller](name)
+    - create new java enum [mobilephone](name)
+    - create new java enum [smartphone](name)
+    - create new java enum [mobile](name)
+    - create new java enum [service](name)
+    - create new java enum [model](name)
+    - create new java enum [repo](name)
+    - create new java enum [address](name)
+    - create new java enum [location](name)
+    - create new java enum [email](name)
+    - create new java enum [contact](name)
+    - create new java enum [mouse](name)
+    - create new java enum [keyboard](name)
+    - create new java enum [screen](name)
+    - create new java enum [touch](name)
+    - create new java enum [fruit](name)
+    - create new java enum [food](name)
+    - create new java enum [vegetable](name)
+    - create new java enum [eatables](name)
+    - create new java enum [price](name)
+    - create new java enum [cost](name)
+    - create new java enum [sum](name)
+    - create new java enum [addition](name)
+    - create new java enum [answer](name)
+    - create new java enum [result](name)
+    - create new java enum [user](name)
+    - create new java enum [userid](name)
+    - create new java enum [id](name)
+    - create new java enum [num](name)
+    - create new java enum [age](name)
+    - create new java enum [department](name)
+    - create new java enum [hospital](name)
+    - create new java enum [wheel](name)
+    - create new java enum [seat](name)
+    - create new java enum [car](name)
+    - create new java enum [bus](name)
+    - create new java enum [van](name)
+    - create new java enum [bike](name)
+    - create new java enum [glass](name)
+    - create new java enum [red](name)
+    - create new java enum [black](name)
+    - create new java enum [white](name)
+    - create new java enum [blue](name)
+    - create new java enum [a](name)
+    - create new java enum [b](name)
+    - create new java enum [c](name)
+    - create new java enum [p](name)
+    - create new java enum [q](name)
+    - create new java enum [r](name)
+    - create new java enum [s](name)
+    - create new java enum [x](name)
+    - create new java enum [y](name)
+    - create new java enum [z](name)
+    - create enum named [main](name)
+    - create enum named [master](name)
+    - create enum named [size](name)
+    - create enum named [height](name)
+    - create enum named [weight](name)
+    - create enum named [bag](name)
+    - create enum named [util](name)
+    - create enum named [utility](name)
+    - create enum named [can](name)
+    - create enum named [computer](name)
+    - create enum named [phone](name)
+    - create enum named [laptop](name)
+    - create enum named [repository](name)
+    - create enum named [api](name)
+    - create enum named [controller](name)
+    - create enum named [mobilephone](name)
+    - create enum named [smartphone](name)
+    - create enum named [mobile](name)
+    - create enum named [service](name)
+    - create enum named [model](name)
+    - create enum named [repo](name)
+    - create enum named [address](name)
+    - create enum named [location](name)
+    - create enum named [email](name)
+    - create enum named [contact](name)
+    - create enum named [mouse](name)
+    - create enum named [keyboard](name)
+    - create enum named [screen](name)
+    - create enum named [touch](name)
+    - create enum named [fruit](name)
+    - create enum named [food](name)
+    - create enum named [vegetable](name)
+    - create enum named [eatables](name)
+    - create enum named [price](name)
+    - create enum named [cost](name)
+    - create enum named [sum](name)
+    - create enum named [addition](name)
+    - create enum named [answer](name)
+    - create enum named [result](name)
+    - create enum named [user](name)
+    - create enum named [userid](name)
+    - create enum named [id](name)
+    - create enum named [num](name)
+    - create enum named [age](name)
+    - create enum named [department](name)
+    - create enum named [hospital](name)
+    - create enum named [wheel](name)
+    - create enum named [seat](name)
+    - create enum named [car](name)
+    - create enum named [bus](name)
+    - create enum named [van](name)
+    - create enum named [bike](name)
+    - create enum named [glass](name)
+    - create enum named [red](name)
+    - create enum named [black](name)
+    - create enum named [white](name)
+    - create enum named [blue](name)
+    - create enum named [a](name)
+    - create enum named [b](name)
+    - create enum named [c](name)
+    - create enum named [p](name)
+    - create enum named [q](name)
+    - create enum named [r](name)
+    - create enum named [s](name)
+    - create enum named [x](name)
+    - create enum named [y](name)
+    - create enum named [z](name)
+    - create enum [main](name)
+    - create enum [master](name)
+    - create enum [size](name)
+    - create enum [height](name)
+    - create enum [weight](name)
+    - create enum [bag](name)
+    - create enum [util](name)
+    - create enum [utility](name)
+    - create enum [can](name)
+    - create enum [computer](name)
+    - create enum [phone](name)
+    - create enum [laptop](name)
+    - create enum [repository](name)
+    - create enum [api](name)
+    - create enum [controller](name)
+    - create enum [mobilephone](name)
+    - create enum [smartphone](name)
+    - create enum [mobile](name)
+    - create enum [service](name)
+    - create enum [model](name)
+    - create enum [repo](name)
+    - create enum [address](name)
+    - create enum [location](name)
+    - create enum [email](name)
+    - create enum [contact](name)
+    - create enum [mouse](name)
+    - create enum [keyboard](name)
+    - create enum [screen](name)
+    - create enum [touch](name)
+    - create enum [fruit](name)
+    - create enum [food](name)
+    - create enum [vegetable](name)
+    - create enum [eatables](name)
+    - create enum [price](name)
+    - create enum [cost](name)
+    - create enum [sum](name)
+    - create enum [addition](name)
+    - create enum [answer](name)
+    - create enum [result](name)
+    - create enum [user](name)
+    - create enum [userid](name)
+    - create enum [id](name)
+    - create enum [num](name)
+    - create enum [age](name)
+    - create enum [department](name)
+    - create enum [hospital](name)
+    - create enum [wheel](name)
+    - create enum [seat](name)
+    - create enum [car](name)
+    - create enum [bus](name)
+    - create enum [van](name)
+    - create enum [bike](name)
+    - create enum [glass](name)
+    - create enum [red](name)
+    - create enum [black](name)
+    - create enum [white](name)
+    - create enum [blue](name)
+    - create enum [a](name)
+    - create enum [b](name)
+    - create enum [c](name)
+    - create enum [p](name)
+    - create enum [q](name)
+    - create enum [r](name)
+    - create enum [s](name)
+    - create enum [x](name)
+    - create enum [y](name)
+    - create enum [z](name)
+
+- intent: openenum
+  examples: |
+    - open java enum [main](name)
+    - open java enum [master](name)
+    - open java enum [size](name)
+    - open java enum [height](name)
+    - open java enum [weight](name)
+    - open java enum [bag](name)
+    - open java enum [util](name)
+    - open java enum [utility](name)
+    - open java enum [can](name)
+    - open java enum [computer](name)
+    - open java enum [phone](name)
+    - open java enum [laptop](name)
+    - open java enum [repository](name)
+    - open java enum [api](name)
+    - open java enum [controller](name)
+    - open java enum [mobilephone](name)
+    - open java enum [smartphone](name)
+    - open java enum [mobile](name)
+    - open java enum [service](name)
+    - open java enum [model](name)
+    - open java enum [repo](name)
+    - open java enum [address](name)
+    - open java enum [location](name)
+    - open java enum [email](name)
+    - open java enum [contact](name)
+    - open java enum [mouse](name)
+    - open java enum [keyboard](name)
+    - open java enum [screen](name)
+    - open java enum [touch](name)
+    - open java enum [fruit](name)
+    - open java enum [food](name)
+    - open java enum [vegetable](name)
+    - open java enum [eatables](name)
+    - open java enum [price](name)
+    - open java enum [cost](name)
+    - open java enum [sum](name)
+    - open java enum [addition](name)
+    - open java enum [answer](name)
+    - open java enum [result](name)
+    - open java enum [user](name)
+    - open java enum [userid](name)
+    - open java enum [id](name)
+    - open java enum [num](name)
+    - open java enum [age](name)
+    - open java enum [department](name)
+    - open java enum [hospital](name)
+    - open java enum [wheel](name)
+    - open java enum [seat](name)
+    - open java enum [car](name)
+    - open java enum [bus](name)
+    - open java enum [van](name)
+    - open java enum [bike](name)
+    - open java enum [glass](name)
+    - open java enum [red](name)
+    - open java enum [black](name)
+    - open java enum [white](name)
+    - open java enum [blue](name)
+    - open java enum [a](name)
+    - open java enum [b](name)
+    - open java enum [c](name)
+    - open java enum [p](name)
+    - open java enum [q](name)
+    - open java enum [r](name)
+    - open java enum [s](name)
+    - open java enum [x](name)
+    - open java enum [y](name)
+    - open java enum [z](name)
+    - open enum [main](name)
+    - open enum [master](name)
+    - open enum [size](name)
+    - open enum [height](name)
+    - open enum [weight](name)
+    - open enum [bag](name)
+    - open enum [util](name)
+    - open enum [utility](name)
+    - open enum [can](name)
+    - open enum [computer](name)
+    - open enum [phone](name)
+    - open enum [laptop](name)
+    - open enum [repository](name)
+    - open enum [api](name)
+    - open enum [controller](name)
+    - open enum [mobilephone](name)
+    - open enum [smartphone](name)
+    - open enum [mobile](name)
+    - open enum [service](name)
+    - open enum [model](name)
+    - open enum [repo](name)
+    - open enum [address](name)
+    - open enum [location](name)
+    - open enum [email](name)
+    - open enum [contact](name)
+    - open enum [mouse](name)
+    - open enum [keyboard](name)
+    - open enum [screen](name)
+    - open enum [touch](name)
+    - open enum [fruit](name)
+    - open enum [food](name)
+    - open enum [vegetable](name)
+    - open enum [eatables](name)
+    - open enum [price](name)
+    - open enum [cost](name)
+    - open enum [sum](name)
+    - open enum [addition](name)
+    - open enum [answer](name)
+    - open enum [result](name)
+    - open enum [user](name)
+    - open enum [userid](name)
+    - open enum [id](name)
+    - open enum [num](name)
+    - open enum [age](name)
+    - open enum [department](name)
+    - open enum [hospital](name)
+    - open enum [wheel](name)
+    - open enum [seat](name)
+    - open enum [car](name)
+    - open enum [bus](name)
+    - open enum [van](name)
+    - open enum [bike](name)
+    - open enum [glass](name)
+    - open enum [red](name)
+    - open enum [black](name)
+    - open enum [white](name)
+    - open enum [blue](name)
+    - open enum [a](name)
+    - open enum [b](name)
+    - open enum [c](name)
+    - open enum [p](name)
+    - open enum [q](name)
+    - open enum [r](name)
+    - open enum [s](name)
+    - open enum [x](name)
+    - open enum [y](name)
+    - open enum [z](name)
+    - open [main](name) enum
+    - open [master](name) enum
+    - open [size](name) enum
+    - open [height](name) enum
+    - open [weight](name) enum
+    - open [bag](name) enum
+    - open [util](name) enum
+    - open [utility](name) enum
+    - open [can](name) enum
+    - open [computer](name) enum
+    - open [phone](name) enum
+    - open [laptop](name) enum
+    - open [repository](name) enum
+    - open [api](name) enum
+    - open [controller](name) enum
+    - open [mobilephone](name) enum
+    - open [smartphone](name) enum
+    - open [mobile](name) enum
+    - open [service](name) enum
+    - open [model](name) enum
+    - open [repo](name) enum
+    - open [address](name) enum
+    - open [location](name) enum
+    - open [email](name) enum
+    - open [contact](name) enum
+    - open [mouse](name) enum
+    - open [keyboard](name) enum
+    - open [screen](name) enum
+    - open [touch](name) enum
+    - open [fruit](name) enum
+    - open [food](name) enum
+    - open [vegetable](name) enum
+    - open [eatables](name) enum
+    - open [price](name) enum
+    - open [cost](name) enum
+    - open [sum](name) enum
+    - open [addition](name) enum
+    - open [answer](name) enum
+    - open [result](name) enum
+    - open [user](name) enum
+    - open [userid](name) enum
+    - open [id](name) enum
+    - open [num](name) enum
+    - open [age](name) enum
+    - open [department](name) enum
+    - open [hospital](name) enum
+    - open [wheel](name) enum
+    - open [seat](name) enum
+    - open [car](name) enum
+    - open [bus](name) enum
+    - open [van](name) enum
+    - open [bike](name) enum
+    - open [glass](name) enum
+    - open [red](name) enum
+    - open [black](name) enum
+    - open [white](name) enum
+    - open [blue](name) enum
+    - open [a](name) enum
+    - open [b](name) enum
+    - open [c](name) enum
+    - open [p](name) enum
+    - open [q](name) enum
+    - open [r](name) enum
+    - open [s](name) enum
+    - open [x](name) enum
+    - open [y](name) enum
+    - open [z](name) enum
+
+- intent: createenumunknown
+  examples: |
+    - create a new java enum file
+    - create a new java enum
+    - create new java enum file
+    - create new java enum
+    - create a java enum file
+    - create java enum file
+    - create a new enum file
+    - create a new enum
+    - create new enum file
+    - create new enum
+    - create a enum file
+    - create a enum
+    - create enum file
+    - create enum
+
+- intent: editenum
+  examples: |
+    - edit enum named main to master
+    - edit enum named size to height
+    - edit enum named height to size
+    - edit enum named weight to height
+    - edit enum named bag to can
+    - edit enum named computer to phone
+    - edit enum named laptop to phone
+    - edit enum named phone to computer
+    - edit enum named mobile phone to smartphone
+    - edit enum named phone number to contact number
+    - edit enum named address to location
+    - edit enum named email to contact
+    - edit enum named email address to phone number
+    - edit enum named mouse to keyboard
+    - edit enum named screen to touchscreen
+    - edit enum named fruit to food
+    - edit enum named vegetable to fruit
+    - edit enum named food to eatables
+    - edit enum named price to cost
+    - edit enum named sum to addition
+    - edit enum named result to answer
+    - edit enum named a to c
+    - edit enum named b to k
+    - edit enum named answer to result
+    - edit enum name main to master
+    - edit enum name size to height
+    - edit enum name height to size
+    - edit enum name weight to height
+    - edit enum name bag to can
+    - edit enum name computer to phone
+    - edit enum name laptop to phone
+    - edit enum name phone to computer
+    - edit enum name mobile phone to smartphone
+    - edit enum name phone number to contact number
+    - edit enum name address to location
+    - edit enum name email to contact
+    - edit enum name email address to phone number
+    - edit enum name mouse to keyboard
+    - edit enum name screen to touchscreen
+    - edit enum name fruit to food
+    - edit enum name vegetable to fruit
+    - edit enum name food to eatables
+    - edit enum name price to cost
+    - edit enum name sum to addition
+    - edit enum name result to answer
+    - edit enum name a to c
+    - edit enum name b to k
+    - edit enum name answer to result
+    - edit enum main to master
+    - edit enum size to height
+    - edit enum height to size
+    - edit enum weight to height
+    - edit enum bag to can
+    - edit enum computer to phone
+    - edit enum laptop to phone
+    - edit enum phone to computer
+    - edit enum mobile phone to smartphone
+    - edit enum phone number to contact number
+    - edit enum address to location
+    - edit enum email to contact
+    - edit enum email address to phone number
+    - edit enum mouse to keyboard
+    - edit enum screen to touchscreen
+    - edit enum fruit to food
+    - edit enum vegetable to fruit
+    - edit enum food to eatables
+    - edit enum price to cost
+    - edit enum sum to addition
+    - edit enum result to answer
+    - edit enum a to c
+    - edit enum b to k
+    - edit enum answer to result
+
+- intent: deleteenum
+  examples: |
+    - delete enum named [main](name)
+    - delete enum named [master](name)
+    - delete enum named [size](name)
+    - delete enum named [height](name)
+    - delete enum named [weight](name)
+    - delete enum named [bag](name)
+    - delete enum named [can](name)
+    - delete enum named [car](name)
+    - delete enum named [van](name)
+    - delete enum named [user](name)
+    - delete enum named [hospital](name)
+    - delete enum named [department](name)
+    - delete enum named [computer](name)
+    - delete enum named [phone](name)
+    - delete enum named [laptop](name)
+    - delete enum named [mobile phone
+    - delete enum named [smartphone](name)
+    - delete enum named [phonenumber](name)
+    - delete enum named [contactnumber](name)
+    - delete enum named [address](name)
+    - delete enum named [location](name)
+    - delete enum named [email](name)
+    - delete enum named [contact](name)
+    - delete enum named [mouse](name)
+    - delete enum named [keyboard](name)
+    - delete enum named [screen](name)
+    - delete enum named [touchscreen](name)
+    - delete enum named [fruit](name)
+    - delete enum named [food](name)
+    - delete enum named [vegetable](name)
+    - delete enum named [fruit](name)
+    - delete enum named [food](name)
+    - delete enum named [eatables](name)
+    - delete enum named [price](name)
+    - delete enum named [cost](name)
+    - delete enum named [sum](name)
+    - delete enum named [addition](name)
+    - delete enum named [result](name)
+    - delete enum named [answer](name)
+    - delete enum named [a](name)
+    - delete enum named [b](name)
+    - delete enum named [c](name)
+    - delete enum named [d](name)
+    - delete enum named [e](name)
+    - delete enum named [k](name)
+    - delete enum [main](name)
+    - delete enum [master](name)
+    - delete enum [size](name)
+    - delete enum [height](name)
+    - delete enum [weight](name)
+    - delete enum [bag](name)
+    - delete enum [can](name)
+    - delete enum [car](name)
+    - delete enum [van](name)
+    - delete enum [user](name)
+    - delete enum [hospital](name)
+    - delete enum [department](name)
+    - delete enum [computer](name)
+    - delete enum [phone](name)
+    - delete enum [laptop](name)
+    - delete enum [mobile phone
+    - delete enum [smartphone](name)
+    - delete enum [phonenumber](name)
+    - delete enum [contactnumber](name)
+    - delete enum [address](name)
+    - delete enum [location](name)
+    - delete enum [email](name)
+    - delete enum [contact](name)
+    - delete enum [mouse](name)
+    - delete enum [keyboard](name)
+    - delete enum [screen](name)
+    - delete enum [touchscreen](name)
+    - delete enum [fruit](name)
+    - delete enum [food](name)
+    - delete enum [vegetable](name)
+    - delete enum [fruit](name)
+    - delete enum [food](name)
+    - delete enum [eatables](name)
+    - delete enum [price](name)
+    - delete enum [cost](name)
+    - delete enum [sum](name)
+    - delete enum [addition](name)
+    - delete enum [result](name)
+    - delete enum [answer](name)
+    - delete enum [a](name)
+    - delete enum [b](name)
+    - delete enum [c](name)
+    - delete enum [d](name)
+    - delete enum [e](name)
+    - delete enum [k](name)
+    - remove enum named [main](name)
+    - remove enum named [master](name)
+    - remove enum named [size](name)
+    - remove enum named [height](name)
+    - remove enum named [weight](name)
+    - remove enum named [bag](name)
+    - remove enum named [can](name)
+    - remove enum named [car](name)
+    - remove enum named [van](name)
+    - remove enum named [user](name)
+    - remove enum named [hospital](name)
+    - remove enum named [department](name)
+    - remove enum named [computer](name)
+    - remove enum named [phone](name)
+    - remove enum named [laptop](name)
+    - remove enum named [mobile phone
+    - remove enum named [smartphone](name)
+    - remove enum named [phonenumber](name)
+    - remove enum named [contactnumber](name)
+    - remove enum named [address](name)
+    - remove enum named [location](name)
+    - remove enum named [email](name)
+    - remove enum named [contact](name)
+    - remove enum named [mouse](name)
+    - remove enum named [keyboard](name)
+    - remove enum named [screen](name)
+    - remove enum named [touchscreen](name)
+    - remove enum named [fruit](name)
+    - remove enum named [food](name)
+    - remove enum named [vegetable](name)
+    - remove enum named [fruit](name)
+    - remove enum named [food](name)
+    - remove enum named [eatables](name)
+    - remove enum named [price](name)
+    - remove enum named [cost](name)
+    - remove enum named [sum](name)
+    - remove enum named [addition](name)
+    - remove enum named [result](name)
+    - remove enum named [answer](name)
+    - remove enum named [a](name)
+    - remove enum named [b](name)
+    - remove enum named [c](name)
+    - remove enum named [d](name)
+    - remove enum named [e](name)
+    - remove enum named [k](name)
+    - remove enum [main](name)
+    - remove enum [master](name)
+    - remove enum [size](name)
+    - remove enum [height](name)
+    - remove enum [weight](name)
+    - remove enum [bag](name)
+    - remove enum [can](name)
+    - remove enum [car](name)
+    - remove enum [van](name)
+    - remove enum [user](name)
+    - remove enum [hospital](name)
+    - remove enum [department](name)
+    - remove enum [computer](name)
+    - remove enum [phone](name)
+    - remove enum [laptop](name)
+    - remove enum [mobile phone
+    - remove enum [smartphone](name)
+    - remove enum [phonenumber](name)
+    - remove enum [contactnumber](name)
+    - remove enum [address](name)
+    - remove enum [location](name)
+    - remove enum [email](name)
+    - remove enum [contact](name)
+    - remove enum [mouse](name)
+    - remove enum [keyboard](name)
+    - remove enum [screen](name)
+    - remove enum [touchscreen](name)
+    - remove enum [fruit](name)
+    - remove enum [food](name)
+    - remove enum [vegetable](name)
+    - remove enum [fruit](name)
+    - remove enum [food](name)
+    - remove enum [eatables](name)
+    - remove enum [price](name)
+    - remove enum [cost](name)
+    - remove enum [sum](name)
+    - remove enum [addition](name)
+    - remove enum [result](name)
+    - remove enum [answer](name)
+    - remove enum [a](name)
+    - remove enum [b](name)
+    - remove enum [c](name)
+    - remove enum [d](name)
+    - remove enum [e](name)
+    - remove enum [k](name)
+
+# ADDED TO NLU/TEST

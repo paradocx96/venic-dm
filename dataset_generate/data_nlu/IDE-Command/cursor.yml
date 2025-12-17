@@ -1,0 +1,501 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: movecursor
+  examples: |
+    - move cursor left
+    - move cursor right
+    - move cursor to left
+    - move cursor to right    
+    - move cursor to line one
+    - move cursor to line two
+    - move cursor to line three
+    - move cursor to line four
+    - move cursor to line five
+    - move cursor to line six
+    - move cursor to line seven
+    - move cursor to line eight
+    - move cursor to line nine
+    - move cursor to line ten    
+    - move cursor to line eleven
+    - move cursor to line twelve
+    - move cursor to line thirteen
+    - move cursor to line fourteen
+    - move cursor to line fifteen
+    - move cursor to line sixteen
+    - move cursor to line seventeen
+    - move cursor to line eighteen
+    - move cursor to line nineteen
+    - move cursor to line twenty    
+    - move cursor to line twenty one
+    - move cursor to line twenty two
+    - move cursor to line twenty three
+    - move cursor to line twenty four
+    - move cursor to line twenty five
+    - move cursor to line twenty six
+    - move cursor to line twenty seven
+    - move cursor to line twenty eight
+    - move cursor to line twenty nine
+    - move cursor to line thirty
+    - move cursor to line thirty one
+    - move cursor to line thirty two
+    - move cursor to line thirty three
+    - move cursor to line thirty four
+    - move cursor to line thirty five
+    - move cursor to line thirty six
+    - move cursor to line thirty seven
+    - move cursor to line thirty eight
+    - move cursor to line thirty nine
+    - move cursor to line forty
+    - move cursor to line forty one
+    - move cursor to line forty two
+    - move cursor to line forty three
+    - move cursor to line forty four
+    - move cursor to line forty five
+    - move cursor to line forty six
+    - move cursor to line forty seven
+    - move cursor to line forty eight
+    - move cursor to line forty nine
+    - move cursor to line fifty
+    - move cursor to line fifty one
+    - move cursor to line fifty two
+    - move cursor to line fifty three
+    - move cursor to line fifty four
+    - move cursor to line fifty five
+    - move cursor to line fifty six
+    - move cursor to line fifty seven
+    - move cursor to line fifty eight
+    - move cursor to line fifty nine
+    - move cursor to line sixty
+    - move cursor to line sixty one
+    - move cursor to line sixty two
+    - move cursor to line sixty three
+    - move cursor to line sixty four
+    - move cursor to line sixty five
+    - move cursor to line sixty six
+    - move cursor to line sixty seven
+    - move cursor to line sixty eight
+    - move cursor to line sixty nine
+    - move cursor to line seventy
+    - move cursor to line seventy one
+    - move cursor to line seventy two
+    - move cursor to line seventy three
+    - move cursor to line seventy four
+    - move cursor to line seventy five
+    - move cursor to line seventy six
+    - move cursor to line seventy seven
+    - move cursor to line seventy eight
+    - move cursor to line seventy nine
+    - move cursor to line eighty
+    - move cursor to line eighty one
+    - move cursor to line eighty two
+    - move cursor to line eighty three
+    - move cursor to line eighty four
+    - move cursor to line eighty five
+    - move cursor to line eighty six
+    - move cursor to line eighty seven
+    - move cursor to line eighty eight
+    - move cursor to line eighty nine
+    - move cursor to line ninety
+    - move cursor to line ninety one
+    - move cursor to line ninety two
+    - move cursor to line ninety three
+    - move cursor to line ninety four
+    - move cursor to line ninety five
+    - move cursor to line ninety six
+    - move cursor to line ninety seven
+    - move cursor to line ninety eight
+    - move cursor to line ninety nine
+    - move cursor to line one hundred    
+    - move cursor to line one hundred thirty one
+    - move cursor to line eight hundred fifty one
+    - move cursor to line six hundred eighty five
+    - move cursor to line eight hundred eighty six
+    - move cursor to line four hundred fifty five
+    - move cursor to line eight hundred twenty four
+    - move cursor to line five hundred
+    - move cursor to line five hundred forty six
+    - move cursor to line five hundred seventy three
+    - move cursor to line seven hundred seventy six
+    - move cursor to line four hundred ninety one
+    - move cursor to line six hundred forty three
+    - move cursor to line eight hundred
+    - move cursor to line one thousand seventy three
+    - move cursor to line seven hundred thirty six
+    - move cursor to line two hundred eighty one
+    - move cursor to line seven hundred sixty three
+    - move cursor to line four hundred ninety seven
+    - move cursor to line seven hundred twenty two
+    - move cursor to line two hundred sixty seven
+    - move cursor to line one thousand twenty nine
+    - move cursor to line nine hundred ninety five
+    - move cursor to line seven hundred fifty nine
+    - move cursor to line one hundred fifty eight
+    - move cursor to line one thousand thirty six
+    - move cursor to line eight hundred twenty eight
+    - move cursor to line two hundred
+    - move cursor to line three hundred ninety one
+    - move cursor to line two hundred fifty two
+    - move cursor to line four hundred ninety five
+    - move cursor to line six hundred
+    - move cursor to line four hundred thirty two
+    - move cursor to line four hundred fifty seven
+    - move cursor to line one thousand ninety six
+    - move cursor to line one hundred sixty two
+    - move cursor to line five hundred eighty nine
+    - move cursor to line one thousand seventy four
+    - move cursor to line one hundred eighty four
+    - move cursor to line nine hundred
+    - move cursor to line one thousand forty two
+    - move cursor to line four hundred forty eight
+    - move cursor to line seven hundred eighty eight
+    - move cursor to line six hundred fifty six
+    - move cursor to line five hundred ninety four
+    - move cursor to line five hundred ninety three
+    - move cursor to line six hundred thirty seven
+    - move cursor to line four hundred
+    - move cursor to line seven hundred sixty five
+    - move cursor to line eight hundred ninety seven
+    - move cursor to line nine hundred eighty five
+    - move cursor to line three hundred eighty six
+    - move cursor to line four hundred fifty four
+    - move cursor to line six hundred thirty five
+    - move cursor to line six hundred ninety one
+    - move cursor to line nine hundred
+    - move cursor to line one thousand twenty five
+    - move cursor to line five hundred thirty four
+    - move cursor to line one thousand sixty six
+    - move cursor to line two hundred
+    - move cursor to line one thousand sixty seven
+    - move cursor to line five hundred
+    - move cursor to line one thousand forty three
+    - move cursor to line six hundred thirty two
+    - move cursor to line eight hundred thirty seven
+    - move cursor to line seven hundred twenty two
+    - move cursor to line one thousand forty six
+    - move cursor to line two hundred fifty eight
+    - move cursor to line four hundred seventy two
+    - move cursor to line one hundred eighty five
+    - move cursor to line nine hundred fifty six
+    - move cursor to line two hundred seventy five
+    - move cursor to line two hundred ninety nine
+    - move cursor to line six hundred seventy seven
+    - move cursor to line three hundred sixty two
+    - move cursor to line nine hundred sixty five
+    - move cursor to line seven hundred ninety nine
+    - move cursor to line eight hundred eighty two
+    - move cursor to line one hundred twenty nine
+    - move cursor to line seven hundred thirty three
+    - move cursor to line three hundred
+    - move cursor to line three hundred thirty three
+    - move cursor to line three hundred forty one
+    - move cursor to line two hundred seventy two
+    - move cursor to line three hundred eighty five
+    - move cursor to line nine hundred eighty six
+    - move cursor to line seven hundred fifty two
+    - move cursor to line two hundred seventy nine
+    - move cursor to line eight hundred thirty six
+    - move cursor to line two hundred twenty six
+    - move cursor to line five hundred fifty eight
+    - move cursor to line four hundred sixty two
+    - move cursor to line one thousand sixty two
+    - move cursor to line six hundred forty one
+    - move cursor to line one thousand thirty five
+    - move cursor to line eight hundred twenty six
+    - move cursor to line six hundred and sixty four
+    - move cursor to line one hundred and ninety three
+    - move cursor to line three hundred and ninety five
+    - move cursor to line three hundred and sixty nine
+    - move cursor to line six hundred and forty one
+    - move cursor to line four hundred and forty six
+    - move cursor to line four hundred and twenty two
+    - move cursor to line eight hundred and seventy five
+    - move cursor to line six hundred and seventy four
+    - move cursor to line one thousand and seventy one
+    - move cursor to line three hundred and fifty seven
+    - move cursor to line six hundred and ninety six
+    - move cursor to line six hundred and fifty eight
+    - move cursor to line five hundred and fifty two
+    - move cursor to line two hundred and ninety two
+    - move cursor to line nine hundred and sixty five
+    - move cursor to line one hundred and ninety six
+    - move cursor to line five hundred and ninety seven
+    - move cursor to line two hundred and sixty one
+    - move cursor to line eight hundred and sixty eight
+    - move cursor to line eight hundred and seventy three
+    - move cursor to line one thousand and sixty one
+    - move cursor to line eight hundred and seventy one
+    - move cursor to line five hundred and eighty four
+    - move cursor to line one hundred and seventy nine
+    - move cursor to line nine hundred and eighty one
+    - move cursor to line seven hundred and twenty four
+    - move cursor to line one hundred and thirty three
+    - move cursor to line three hundred and sixty four
+    - move cursor to line seven hundred and seventy eight
+    - move cursor to line eight hundred and eighty eight
+    - move cursor to line two hundred and fifty four
+    - move cursor to line seven hundred and seventy six
+    - move cursor to line two hundred and seventy six
+    - move cursor to line one thousand and eighty four
+    - move cursor to line four hundred and sixty eight
+    - move cursor to line eight hundred and eighty one
+    - move cursor to line four hundred and twenty three
+    - move cursor to line eight hundred and forty nine
+    - move cursor to line six hundred and forty seven
+    - move cursor to line one thousand and sixty seven
+    - move cursor to line six hundred and seventy eight
+    - move cursor to line nine hundred and eighty six
+    - move cursor to line five hundred and fifty one
+    - move cursor to line nine hundred and fifty seven
+    - move cursor to line nine hundred and forty five
+    - move cursor to line two hundred and sixty one
+    - move cursor to line five hundred and forty eight
+    - move cursor to line three hundred and fifty five
+    - move cursor to line four hundred and seventy five
+    - move cursor to line four hundred and forty seven
+    - move cursor to line five hundred and eighty five
+    - move cursor to line three hundred and ninety four
+    - move cursor to line two hundred and thirty three
+    - move cursor to line six hundred and twenty nine
+    - move cursor to line eight hundred and ninety four
+    - move cursor to line four hundred and twenty nine
+    - move cursor to line nine hundred and thirty two
+    - move cursor to line one hundred and fifty four
+    - move cursor to line one hundred and fifty five
+    - move cursor to line eight hundred and fifty three
+    - move cursor to line three hundred and eighty three
+    - move cursor to line seven hundred and forty four
+    - move cursor to line four hundred and ninety seven
+    - move cursor to line three hundred and sixty nine
+    - move cursor to line eight hundred and forty seven
+    - move cursor to line seven hundred and eighty four
+    - move cursor to line nine hundred and twenty nine
+    - move cursor to line nine hundred and fifty nine
+    - move cursor to line nine hundred and thirty five
+    - move cursor to line eight hundred and thirty six
+    - move cursor to line eight hundred and seventy two
+    - move cursor to line four hundred and twenty eight
+    - move cursor to line eight hundred and seventy four
+    - move cursor to line one hundred and sixty one
+    - move cursor to line five hundred and fifty four
+    - move cursor to line five hundred and ninety three
+    - move cursor to line two hundred and thirty three
+    - move cursor to line one thousand and eighty six
+    - move cursor to line three hundred and eighty seven
+    - move cursor to line seven hundred and twenty six
+    - move cursor to line two hundred and eighty eight
+    - move cursor to line four hundred and eighty two
+    - move cursor to line six hundred and forty three
+    - move cursor to line one thousand and fifty one
+    - move cursor to line three hundred and fifty two
+    - move cursor to line one thousand and fifty two
+    - move cursor to line one hundred and forty four
+    - move cursor to line one hundred and sixty four
+    - move cursor to line four hundred and sixty three
+    - move cursor to line four hundred and ninety five
+    - move cursor to line three hundred and twenty seven
+    - move cursor to line seven hundred and ninety two
+    - move cursor to line nine hundred and sixty six
+    - move cursor to line nine thousand one thousand forty five
+    - move cursor to line five thousand two hundred sixty nine
+    - move cursor to line one thousand eight hundred seventy four
+    - move cursor to line seven thousand four hundred sixty two
+    - move cursor to line one thousand seven hundred
+    - move cursor to line eight thousand four hundred forty four
+    - move cursor to line five thousand six hundred seventy eight
+    - move cursor to line seven thousand six hundred fifty six
+    - move cursor to line three thousand four hundred sixty two
+    - move cursor to line one thousand three hundred twenty three
+    - move cursor to line eight thousand one hundred eighty one
+    - move cursor to line six thousand nine hundred eighty seven
+    - move cursor to line three thousand four hundred
+    - move cursor to line three thousand one hundred fifty six
+    - move cursor to line seven thousand seven hundred ninety one
+    - move cursor to line six thousand one hundred thirty eight
+    - move cursor to line one thousand eight hundred forty six
+    - move cursor to line four thousand one thousand eighty two
+    - move cursor to line five thousand five hundred thirty two
+    - move cursor to line one thousand two hundred eighty four
+    - move cursor to line six thousand four hundred thirty eight
+    - move cursor to line one thousand five hundred thirty seven
+    - move cursor to line one thousand six hundred thirty seven
+    - move cursor to line eight thousand nine hundred twenty three
+    - move cursor to line five thousand nine hundred twenty seven
+    - move cursor to line one thousand eight hundred
+    - move cursor to line one thousand one hundred thirty five
+    - move cursor to line five thousand nine hundred sixty six
+    - move cursor to line nine thousand six hundred eighty eight
+    - move cursor to line six thousand three hundred eighty three
+    - move cursor to line nine thousand one thousand ninety six
+    - move cursor to line nine thousand five hundred eighty three
+    - move cursor to line nine thousand six hundred thirty eight
+    - move cursor to line nine thousand one hundred
+    - move cursor to line seven thousand one hundred twenty six
+    - move cursor to line one thousand four hundred thirty six
+    - move cursor to line four thousand one hundred sixty four
+    - move cursor to line one thousand two hundred seventy nine
+    - move cursor to line two thousand five hundred seventy six
+    - move cursor to line two thousand six hundred thirty six
+    - move cursor to line five thousand four hundred ninety one
+    - move cursor to line four thousand one thousand eighty seven
+    - move cursor to line three thousand four hundred
+    - move cursor to line four thousand five hundred
+    - move cursor to line five thousand two hundred ninety one
+    - move cursor to line three thousand two hundred fifty one
+    - move cursor to line eight thousand three hundred twenty six
+    - move cursor to line five thousand four hundred thirty four
+    - move cursor to line five thousand five hundred thirty two
+    - move cursor to line nine thousand seven hundred eighty five
+    - move cursor to line nine thousand nine hundred thirty two
+    - move cursor to line five thousand six hundred thirty eight
+    - move cursor to line one thousand five hundred fifty one
+    - move cursor to line five thousand two hundred sixty six
+    - move cursor to line seven thousand five hundred seventy five
+    - move cursor to line five thousand four hundred fifty three
+    - move cursor to line two thousand five hundred thirty two
+    - move cursor to line two thousand two hundred
+    - move cursor to line five thousand seven hundred twenty four
+    - move cursor to line one thousand seven hundred fifty five
+    - move cursor to line one thousand five hundred seventy three
+    - move cursor to line four thousand two hundred eighty five
+    - move cursor to line four thousand one hundred forty one
+    - move cursor to line one thousand six hundred seventy six
+    - move cursor to line one thousand seven hundred fifty eight
+    - move cursor to line three thousand six hundred fifty four
+    - move cursor to line three thousand eight hundred seventy five
+    - move cursor to line eight thousand two hundred
+    - move cursor to line two thousand seven hundred twenty one
+    - move cursor to line one thousand one hundred sixty seven
+    - move cursor to line two thousand four hundred eighty eight
+    - move cursor to line four thousand four hundred twenty two
+    - move cursor to line six thousand five hundred ninety seven
+    - move cursor to line three thousand one hundred eighty nine
+    - move cursor to line nine thousand three hundred forty eight
+    - move cursor to line four thousand eight hundred eighty two
+    - move cursor to line five thousand one hundred ninety three
+    - move cursor to line one thousand one thousand ninety five
+    - move cursor to line nine thousand four hundred eighty seven
+    - move cursor to line six thousand two hundred ninety six
+    - move cursor to line eight thousand seven hundred seventy three
+    - move cursor to line nine thousand seven hundred forty seven
+    - move cursor to line one thousand eight hundred ninety six
+    - move cursor to line four thousand one thousand ninety two
+    - move cursor to line eight thousand eight hundred seventy four
+    - move cursor to line two thousand seven hundred sixty seven
+    - move cursor to line four thousand eight hundred sixty four
+    - move cursor to line two thousand five hundred forty two
+    - move cursor to line one thousand six hundred fifty seven
+    - move cursor to line six thousand five hundred seventy five
+    - move cursor to line six thousand four hundred
+    - move cursor to line nine thousand one thousand ninety nine
+    - move cursor to line seven thousand three hundred ninety six
+    - move cursor to line one thousand five hundred seventy three
+    - move cursor to line eight thousand one thousand thirty two
+    - move cursor to line three thousand two hundred thirty eight
+    - move cursor to line nine thousand nine hundred ninety one
+    - move cursor to line two thousand nine hundred eighty two
+    - move cursor to line five thousand one hundred twenty nine
+    - move cursor to line seven thousand eight hundred forty five
+    - move cursor to line three thousand nine hundred and seventy one
+    - move cursor to line six thousand six hundred
+    - move cursor to line two thousand seven hundred and eighty seven
+    - move cursor to line nine thousand one thousand and thirty five
+    - move cursor to line six thousand two hundred and sixty one
+    - move cursor to line three thousand one hundred and seventy four
+    - move cursor to line nine thousand one hundred and twenty eight
+    - move cursor to line six thousand eight hundred and fifty five
+    - move cursor to line three thousand six hundred and eighty eight
+    - move cursor to line two thousand one hundred and fifty seven
+    - move cursor to line two thousand five hundred and thirty nine
+    - move cursor to line four thousand eight hundred and seventy two
+    - move cursor to line six thousand one thousand and seventy five
+    - move cursor to line six thousand one hundred and seventy four
+    - move cursor to line five thousand seven hundred and fifty nine
+    - move cursor to line one thousand five hundred and fifty seven
+    - move cursor to line three thousand nine hundred and eighty one
+    - move cursor to line one thousand one thousand and sixty four
+    - move cursor to line three thousand eight hundred
+    - move cursor to line one thousand two hundred and ninety seven
+    - move cursor to line one thousand one hundred and forty eight
+    - move cursor to line seven thousand one thousand and thirty nine
+    - move cursor to line five thousand nine hundred
+    - move cursor to line six thousand one thousand and forty eight
+    - move cursor to line three thousand four hundred and sixty three
+    - move cursor to line five thousand three hundred and fifty seven
+    - move cursor to line three thousand eight hundred and thirty nine
+    - move cursor to line nine thousand seven hundred and thirty nine
+    - move cursor to line five thousand six hundred and eighty nine
+    - move cursor to line seven thousand seven hundred and eighty nine
+    - move cursor to line three thousand five hundred and thirty two
+    - move cursor to line six thousand six hundred and sixty nine
+    - move cursor to line one thousand five hundred
+    - move cursor to line seven thousand six hundred and seventy four
+    - move cursor to line four thousand three hundred
+    - move cursor to line one thousand five hundred and sixty three
+    - move cursor to line one thousand nine hundred and ninety four
+    - move cursor to line five thousand eight hundred and sixty eight
+    - move cursor to line three thousand eight hundred and fifty one
+    - move cursor to line four thousand nine hundred and sixty six
+    - move cursor to line six thousand three hundred and forty nine
+    - move cursor to line seven thousand eight hundred
+    - move cursor to line two thousand four hundred and seventy two
+    - move cursor to line five thousand one hundred
+    - move cursor to line seven thousand nine hundred and eighty seven
+    - move cursor to line two thousand eight hundred and fifty three
+    - move cursor to line four thousand one thousand and twenty six
+    - move cursor to line one thousand one hundred and twenty eight
+    - move cursor to line two thousand three hundred and ninety four
+    - move cursor to line one thousand eight hundred and twenty three
+    - move cursor to line two thousand four hundred and thirty seven
+    - move cursor to line two thousand one hundred and fifty nine
+    - move cursor to line nine thousand two hundred and sixty nine
+    - move cursor to line nine thousand six hundred and fifty two
+    - move cursor to line seven thousand one thousand and thirty one
+    - move cursor to line two thousand six hundred and twenty three
+    - move cursor to line six thousand seven hundred and forty seven
+    - move cursor to line seven thousand three hundred
+    - move cursor to line four thousand five hundred and seventy three
+    - move cursor to line four thousand eight hundred and eighty five
+    - move cursor to line six thousand two hundred and sixty two
+    - move cursor to line five thousand two hundred and fifty six
+    - move cursor to line eight thousand one hundred and eighty eight
+    - move cursor to line three thousand six hundred and twenty six
+    - move cursor to line one thousand two hundred and twenty eight
+    - move cursor to line seven thousand two hundred and seventy one
+    - move cursor to line one thousand nine hundred and fifty one
+    - move cursor to line one thousand eight hundred and eighty five
+    - move cursor to line seven thousand six hundred
+    - move cursor to line six thousand three hundred and thirty three
+    - move cursor to line four thousand eight hundred and sixty three
+    - move cursor to line five thousand four hundred and sixty three
+    - move cursor to line two thousand six hundred and seventy five
+    - move cursor to line two thousand three hundred and eighty four
+    - move cursor to line one thousand one hundred and eighty one
+    - move cursor to line seven thousand eight hundred and thirty five
+    - move cursor to line eight thousand one hundred and seventy seven
+    - move cursor to line one thousand four hundred and thirty one
+    - move cursor to line two thousand three hundred and sixty nine
+    - move cursor to line one thousand nine hundred and fifty three
+    - move cursor to line three thousand six hundred and seventy seven
+    - move cursor to line nine thousand one thousand and seventy three
+    - move cursor to line seven thousand three hundred and sixty eight
+    - move cursor to line eight thousand eight hundred and forty seven
+    - move cursor to line nine thousand one thousand and sixty eight
+    - move cursor to line four thousand six hundred
+    - move cursor to line seven thousand three hundred and seventy three
+    - move cursor to line nine thousand nine hundred
+    - move cursor to line three thousand one thousand
+    - move cursor to line one thousand three hundred and sixty nine
+    - move cursor to line one thousand five hundred and eighty seven
+    - move cursor to line nine thousand two hundred and fifty eight
+    - move cursor to line one thousand eight hundred and fifty one
+    - move cursor to line one thousand eight hundred and forty six
+    - move cursor to line seven thousand one hundred and eighty four
+    - move cursor to line eight thousand six hundred
+    - move cursor to line one thousand four hundred and forty one
+    - move cursor to line five thousand three hundred and ninety seven
+    - move cursor to line five thousand seven hundred and forty three
+    - move cursor to line one thousand one thousand
+
+# ADDED TO NLU/TEST

@@ -1,0 +1,688 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createclass
+  examples: |
+    - create new java class [main](name)
+    - create new java class [master](name)
+    - create new java class [size](name)
+    - create new java class [height](name)
+    - create new java class [weight](name)
+    - create new java class [bag](name)
+    - create new java class [util](name)
+    - create new java class [utility](name)
+    - create new java class [can](name)
+    - create new java class [computer](name)
+    - create new java class [phone](name)
+    - create new java class [laptop](name)
+    - create new java class [repository](name)
+    - create new java class [api](name)
+    - create new java class [controller](name)
+    - create new java class [mobilephone](name)
+    - create new java class [smartphone](name)
+    - create new java class [mobile](name)
+    - create new java class [service](name)
+    - create new java class [model](name)
+    - create new java class [repo](name)
+    - create new java class [address](name)
+    - create new java class [location](name)
+    - create new java class [email](name)
+    - create new java class [contact](name)
+    - create new java class [mouse](name)
+    - create new java class [keyboard](name)
+    - create new java class [screen](name)
+    - create new java class [touch](name)
+    - create new java class [fruit](name)
+    - create new java class [food](name)
+    - create new java class [vegetable](name)
+    - create new java class [eatables](name)
+    - create new java class [price](name)
+    - create new java class [cost](name)
+    - create new java class [sum](name)
+    - create new java class [addition](name)
+    - create new java class [answer](name)
+    - create new java class [result](name)
+    - create new java class [user](name)
+    - create new java class [userid](name)
+    - create new java class [id](name)
+    - create new java class [num](name)
+    - create new java class [age](name)
+    - create new java class [department](name)
+    - create new java class [hospital](name)
+    - create new java class [wheel](name)
+    - create new java class [seat](name)
+    - create new java class [car](name)
+    - create new java class [bus](name)
+    - create new java class [van](name)
+    - create new java class [bike](name)
+    - create new java class [glass](name)
+    - create new java class [red](name)
+    - create new java class [black](name)
+    - create new java class [white](name)
+    - create new java class [blue](name)
+    - create new java class [a](name)
+    - create new java class [b](name)
+    - create new java class [c](name)
+    - create new java class [p](name)
+    - create new java class [q](name)
+    - create new java class [r](name)
+    - create new java class [s](name)
+    - create new java class [x](name)
+    - create new java class [y](name)
+    - create new java class [z](name)
+    - create class named [main](name)
+    - create class named [master](name)
+    - create class named [size](name)
+    - create class named [height](name)
+    - create class named [weight](name)
+    - create class named [bag](name)
+    - create class named [util](name)
+    - create class named [utility](name)
+    - create class named [can](name)
+    - create class named [computer](name)
+    - create class named [phone](name)
+    - create class named [laptop](name)
+    - create class named [repository](name)
+    - create class named [api](name)
+    - create class named [controller](name)
+    - create class named [mobilephone](name)
+    - create class named [smartphone](name)
+    - create class named [mobile](name)
+    - create class named [service](name)
+    - create class named [model](name)
+    - create class named [repo](name)
+    - create class named [address](name)
+    - create class named [location](name)
+    - create class named [email](name)
+    - create class named [contact](name)
+    - create class named [mouse](name)
+    - create class named [keyboard](name)
+    - create class named [screen](name)
+    - create class named [touch](name)
+    - create class named [fruit](name)
+    - create class named [food](name)
+    - create class named [vegetable](name)
+    - create class named [eatables](name)
+    - create class named [price](name)
+    - create class named [cost](name)
+    - create class named [sum](name)
+    - create class named [addition](name)
+    - create class named [answer](name)
+    - create class named [result](name)
+    - create class named [user](name)
+    - create class named [userid](name)
+    - create class named [id](name)
+    - create class named [num](name)
+    - create class named [age](name)
+    - create class named [department](name)
+    - create class named [hospital](name)
+    - create class named [wheel](name)
+    - create class named [seat](name)
+    - create class named [car](name)
+    - create class named [bus](name)
+    - create class named [van](name)
+    - create class named [bike](name)
+    - create class named [glass](name)
+    - create class named [red](name)
+    - create class named [black](name)
+    - create class named [white](name)
+    - create class named [blue](name)
+    - create class named [a](name)
+    - create class named [b](name)
+    - create class named [c](name)
+    - create class named [p](name)
+    - create class named [q](name)
+    - create class named [r](name)
+    - create class named [s](name)
+    - create class named [x](name)
+    - create class named [y](name)
+    - create class named [z](name)
+    - create class [main](name)
+    - create class [master](name)
+    - create class [size](name)
+    - create class [height](name)
+    - create class [weight](name)
+    - create class [bag](name)
+    - create class [util](name)
+    - create class [utility](name)
+    - create class [can](name)
+    - create class [computer](name)
+    - create class [phone](name)
+    - create class [laptop](name)
+    - create class [repository](name)
+    - create class [api](name)
+    - create class [controller](name)
+    - create class [mobilephone](name)
+    - create class [smartphone](name)
+    - create class [mobile](name)
+    - create class [service](name)
+    - create class [model](name)
+    - create class [repo](name)
+    - create class [address](name)
+    - create class [location](name)
+    - create class [email](name)
+    - create class [contact](name)
+    - create class [mouse](name)
+    - create class [keyboard](name)
+    - create class [screen](name)
+    - create class [touch](name)
+    - create class [fruit](name)
+    - create class [food](name)
+    - create class [vegetable](name)
+    - create class [eatables](name)
+    - create class [price](name)
+    - create class [cost](name)
+    - create class [sum](name)
+    - create class [addition](name)
+    - create class [answer](name)
+    - create class [result](name)
+    - create class [user](name)
+    - create class [userid](name)
+    - create class [id](name)
+    - create class [num](name)
+    - create class [age](name)
+    - create class [department](name)
+    - create class [hospital](name)
+    - create class [wheel](name)
+    - create class [seat](name)
+    - create class [car](name)
+    - create class [bus](name)
+    - create class [van](name)
+    - create class [bike](name)
+    - create class [glass](name)
+    - create class [red](name)
+    - create class [black](name)
+    - create class [white](name)
+    - create class [blue](name)
+    - create class [a](name)
+    - create class [b](name)
+    - create class [c](name)
+    - create class [p](name)
+    - create class [q](name)
+    - create class [r](name)
+    - create class [s](name)
+    - create class [x](name)
+    - create class [y](name)
+    - create class [z](name)
+
+- intent: openclass
+  examples: |
+    - open java class [main](name)
+    - open java class [master](name)
+    - open java class [size](name)
+    - open java class [height](name)
+    - open java class [weight](name)
+    - open java class [bag](name)
+    - open java class [util](name)
+    - open java class [utility](name)
+    - open java class [can](name)
+    - open java class [computer](name)
+    - open java class [phone](name)
+    - open java class [laptop](name)
+    - open java class [repository](name)
+    - open java class [api](name)
+    - open java class [controller](name)
+    - open java class [mobilephone](name)
+    - open java class [smartphone](name)
+    - open java class [mobile](name)
+    - open java class [service](name)
+    - open java class [model](name)
+    - open java class [repo](name)
+    - open java class [address](name)
+    - open java class [location](name)
+    - open java class [email](name)
+    - open java class [contact](name)
+    - open java class [mouse](name)
+    - open java class [keyboard](name)
+    - open java class [screen](name)
+    - open java class [touch](name)
+    - open java class [fruit](name)
+    - open java class [food](name)
+    - open java class [vegetable](name)
+    - open java class [eatables](name)
+    - open java class [price](name)
+    - open java class [cost](name)
+    - open java class [sum](name)
+    - open java class [addition](name)
+    - open java class [answer](name)
+    - open java class [result](name)
+    - open java class [user](name)
+    - open java class [userid](name)
+    - open java class [id](name)
+    - open java class [num](name)
+    - open java class [age](name)
+    - open java class [department](name)
+    - open java class [hospital](name)
+    - open java class [wheel](name)
+    - open java class [seat](name)
+    - open java class [car](name)
+    - open java class [bus](name)
+    - open java class [van](name)
+    - open java class [bike](name)
+    - open java class [glass](name)
+    - open java class [red](name)
+    - open java class [black](name)
+    - open java class [white](name)
+    - open java class [blue](name)
+    - open java class [a](name)
+    - open java class [b](name)
+    - open java class [c](name)
+    - open java class [p](name)
+    - open java class [q](name)
+    - open java class [r](name)
+    - open java class [s](name)
+    - open java class [x](name)
+    - open java class [y](name)
+    - open java class [z](name)
+    - open class [main](name)
+    - open class [master](name)
+    - open class [size](name)
+    - open class [height](name)
+    - open class [weight](name)
+    - open class [bag](name)
+    - open class [util](name)
+    - open class [utility](name)
+    - open class [can](name)
+    - open class [computer](name)
+    - open class [phone](name)
+    - open class [laptop](name)
+    - open class [repository](name)
+    - open class [api](name)
+    - open class [controller](name)
+    - open class [mobilephone](name)
+    - open class [smartphone](name)
+    - open class [mobile](name)
+    - open class [service](name)
+    - open class [model](name)
+    - open class [repo](name)
+    - open class [address](name)
+    - open class [location](name)
+    - open class [email](name)
+    - open class [contact](name)
+    - open class [mouse](name)
+    - open class [keyboard](name)
+    - open class [screen](name)
+    - open class [touch](name)
+    - open class [fruit](name)
+    - open class [food](name)
+    - open class [vegetable](name)
+    - open class [eatables](name)
+    - open class [price](name)
+    - open class [cost](name)
+    - open class [sum](name)
+    - open class [addition](name)
+    - open class [answer](name)
+    - open class [result](name)
+    - open class [user](name)
+    - open class [userid](name)
+    - open class [id](name)
+    - open class [num](name)
+    - open class [age](name)
+    - open class [department](name)
+    - open class [hospital](name)
+    - open class [wheel](name)
+    - open class [seat](name)
+    - open class [car](name)
+    - open class [bus](name)
+    - open class [van](name)
+    - open class [bike](name)
+    - open class [glass](name)
+    - open class [red](name)
+    - open class [black](name)
+    - open class [white](name)
+    - open class [blue](name)
+    - open class [a](name)
+    - open class [b](name)
+    - open class [c](name)
+    - open class [p](name)
+    - open class [q](name)
+    - open class [r](name)
+    - open class [s](name)
+    - open class [x](name)
+    - open class [y](name)
+    - open class [z](name)
+    - open [main](name) class
+    - open [master](name) class
+    - open [size](name) class
+    - open [height](name) class
+    - open [weight](name) class
+    - open [bag](name) class
+    - open [util](name) class
+    - open [utility](name) class
+    - open [can](name) class
+    - open [computer](name) class
+    - open [phone](name) class
+    - open [laptop](name) class
+    - open [repository](name) class
+    - open [api](name) class
+    - open [controller](name) class
+    - open [mobilephone](name) class
+    - open [smartphone](name) class
+    - open [mobile](name) class
+    - open [service](name) class
+    - open [model](name) class
+    - open [repo](name) class
+    - open [address](name) class
+    - open [location](name) class
+    - open [email](name) class
+    - open [contact](name) class
+    - open [mouse](name) class
+    - open [keyboard](name) class
+    - open [screen](name) class
+    - open [touch](name) class
+    - open [fruit](name) class
+    - open [food](name) class
+    - open [vegetable](name) class
+    - open [eatables](name) class
+    - open [price](name) class
+    - open [cost](name) class
+    - open [sum](name) class
+    - open [addition](name) class
+    - open [answer](name) class
+    - open [result](name) class
+    - open [user](name) class
+    - open [userid](name) class
+    - open [id](name) class
+    - open [num](name) class
+    - open [age](name) class
+    - open [department](name) class
+    - open [hospital](name) class
+    - open [wheel](name) class
+    - open [seat](name) class
+    - open [car](name) class
+    - open [bus](name) class
+    - open [van](name) class
+    - open [bike](name) class
+    - open [glass](name) class
+    - open [red](name) class
+    - open [black](name) class
+    - open [white](name) class
+    - open [blue](name) class
+    - open [a](name) class
+    - open [b](name) class
+    - open [c](name) class
+    - open [p](name) class
+    - open [q](name) class
+    - open [r](name) class
+    - open [s](name) class
+    - open [x](name) class
+    - open [y](name) class
+    - open [z](name) class
+
+- intent: createclassunknown
+  examples: |
+    - create a new java class file
+    - create a new java class
+    - create new java class file
+    - create new java class
+    - create a java class file
+    - create java class file
+    - create a new class file
+    - create a new class
+    - create new class file
+    - create new class
+    - create a class file
+    - create a class
+    - create class file
+    - create class
+
+- intent: editclass
+  examples: |
+    - edit class named main to master
+    - edit class named size to height
+    - edit class named height to size
+    - edit class named weight to height
+    - edit class named bag to can
+    - edit class named computer to phone
+    - edit class named laptop to phone
+    - edit class named phone to computer
+    - edit class named mobile phone to smartphone
+    - edit class named phone number to contact number
+    - edit class named address to location
+    - edit class named email to contact
+    - edit class named email address to phone number
+    - edit class named mouse to keyboard
+    - edit class named screen to touchscreen
+    - edit class named fruit to food
+    - edit class named vegetable to fruit
+    - edit class named food to eatables
+    - edit class named price to cost
+    - edit class named sum to addition
+    - edit class named result to answer
+    - edit class named a to c
+    - edit class named b to k
+    - edit class named answer to result
+    - edit class name main to master
+    - edit class name size to height
+    - edit class name height to size
+    - edit class name weight to height
+    - edit class name bag to can
+    - edit class name computer to phone
+    - edit class name laptop to phone
+    - edit class name phone to computer
+    - edit class name mobile phone to smartphone
+    - edit class name phone number to contact number
+    - edit class name address to location
+    - edit class name email to contact
+    - edit class name email address to phone number
+    - edit class name mouse to keyboard
+    - edit class name screen to touchscreen
+    - edit class name fruit to food
+    - edit class name vegetable to fruit
+    - edit class name food to eatables
+    - edit class name price to cost
+    - edit class name sum to addition
+    - edit class name result to answer
+    - edit class name a to c
+    - edit class name b to k
+    - edit class name answer to result
+    - edit class main to master
+    - edit class size to height
+    - edit class height to size
+    - edit class weight to height
+    - edit class bag to can
+    - edit class computer to phone
+    - edit class laptop to phone
+    - edit class phone to computer
+    - edit class mobile phone to smartphone
+    - edit class phone number to contact number
+    - edit class address to location
+    - edit class email to contact
+    - edit class email address to phone number
+    - edit class mouse to keyboard
+    - edit class screen to touchscreen
+    - edit class fruit to food
+    - edit class vegetable to fruit
+    - edit class food to eatables
+    - edit class price to cost
+    - edit class sum to addition
+    - edit class result to answer
+    - edit class a to c
+    - edit class b to k
+    - edit class answer to result
+
+- intent: deleteclass
+  examples: |
+    - delete class named [main](name)
+    - delete class named [master](name)
+    - delete class named [size](name)
+    - delete class named [height](name)
+    - delete class named [weight](name)
+    - delete class named [bag](name)
+    - delete class named [can](name)
+    - delete class named [car](name)
+    - delete class named [van](name)
+    - delete class named [user](name)
+    - delete class named [hospital](name)
+    - delete class named [department](name)
+    - delete class named [computer](name)
+    - delete class named [phone](name)
+    - delete class named [laptop](name)
+    - delete class named [mobile phone
+    - delete class named [smartphone](name)
+    - delete class named [phonenumber](name)
+    - delete class named [contactnumber](name)
+    - delete class named [address](name)
+    - delete class named [location](name)
+    - delete class named [email](name)
+    - delete class named [contact](name)
+    - delete class named [mouse](name)
+    - delete class named [keyboard](name)
+    - delete class named [screen](name)
+    - delete class named [touchscreen](name)
+    - delete class named [fruit](name)
+    - delete class named [food](name)
+    - delete class named [vegetable](name)
+    - delete class named [fruit](name)
+    - delete class named [food](name)
+    - delete class named [eatables](name)
+    - delete class named [price](name)
+    - delete class named [cost](name)
+    - delete class named [sum](name)
+    - delete class named [addition](name)
+    - delete class named [result](name)
+    - delete class named [answer](name)
+    - delete class named [a](name)
+    - delete class named [b](name)
+    - delete class named [c](name)
+    - delete class named [d](name)
+    - delete class named [e](name)
+    - delete class named [k](name)
+    - delete class [main](name)
+    - delete class [master](name)
+    - delete class [size](name)
+    - delete class [height](name)
+    - delete class [weight](name)
+    - delete class [bag](name)
+    - delete class [can](name)
+    - delete class [car](name)
+    - delete class [van](name)
+    - delete class [user](name)
+    - delete class [hospital](name)
+    - delete class [department](name)
+    - delete class [computer](name)
+    - delete class [phone](name)
+    - delete class [laptop](name)
+    - delete class [mobile phone
+    - delete class [smartphone](name)
+    - delete class [phonenumber](name)
+    - delete class [contactnumber](name)
+    - delete class [address](name)
+    - delete class [location](name)
+    - delete class [email](name)
+    - delete class [contact](name)
+    - delete class [mouse](name)
+    - delete class [keyboard](name)
+    - delete class [screen](name)
+    - delete class [touchscreen](name)
+    - delete class [fruit](name)
+    - delete class [food](name)
+    - delete class [vegetable](name)
+    - delete class [fruit](name)
+    - delete class [food](name)
+    - delete class [eatables](name)
+    - delete class [price](name)
+    - delete class [cost](name)
+    - delete class [sum](name)
+    - delete class [addition](name)
+    - delete class [result](name)
+    - delete class [answer](name)
+    - delete class [a](name)
+    - delete class [b](name)
+    - delete class [c](name)
+    - delete class [d](name)
+    - delete class [e](name)
+    - delete class [k](name)
+    - remove class named [main](name)
+    - remove class named [master](name)
+    - remove class named [size](name)
+    - remove class named [height](name)
+    - remove class named [weight](name)
+    - remove class named [bag](name)
+    - remove class named [can](name)
+    - remove class named [car](name)
+    - remove class named [van](name)
+    - remove class named [user](name)
+    - remove class named [hospital](name)
+    - remove class named [department](name)
+    - remove class named [computer](name)
+    - remove class named [phone](name)
+    - remove class named [laptop](name)
+    - remove class named [mobile phone
+    - remove class named [smartphone](name)
+    - remove class named [phonenumber](name)
+    - remove class named [contactnumber](name)
+    - remove class named [address](name)
+    - remove class named [location](name)
+    - remove class named [email](name)
+    - remove class named [contact](name)
+    - remove class named [mouse](name)
+    - remove class named [keyboard](name)
+    - remove class named [screen](name)
+    - remove class named [touchscreen](name)
+    - remove class named [fruit](name)
+    - remove class named [food](name)
+    - remove class named [vegetable](name)
+    - remove class named [fruit](name)
+    - remove class named [food](name)
+    - remove class named [eatables](name)
+    - remove class named [price](name)
+    - remove class named [cost](name)
+    - remove class named [sum](name)
+    - remove class named [addition](name)
+    - remove class named [result](name)
+    - remove class named [answer](name)
+    - remove class named [a](name)
+    - remove class named [b](name)
+    - remove class named [c](name)
+    - remove class named [d](name)
+    - remove class named [e](name)
+    - remove class named [k](name)
+    - remove class [main](name)
+    - remove class [master](name)
+    - remove class [size](name)
+    - remove class [height](name)
+    - remove class [weight](name)
+    - remove class [bag](name)
+    - remove class [can](name)
+    - remove class [car](name)
+    - remove class [van](name)
+    - remove class [user](name)
+    - remove class [hospital](name)
+    - remove class [department](name)
+    - remove class [computer](name)
+    - remove class [phone](name)
+    - remove class [laptop](name)
+    - remove class [mobile phone
+    - remove class [smartphone](name)
+    - remove class [phonenumber](name)
+    - remove class [contactnumber](name)
+    - remove class [address](name)
+    - remove class [location](name)
+    - remove class [email](name)
+    - remove class [contact](name)
+    - remove class [mouse](name)
+    - remove class [keyboard](name)
+    - remove class [screen](name)
+    - remove class [touchscreen](name)
+    - remove class [fruit](name)
+    - remove class [food](name)
+    - remove class [vegetable](name)
+    - remove class [fruit](name)
+    - remove class [food](name)
+    - remove class [eatables](name)
+    - remove class [price](name)
+    - remove class [cost](name)
+    - remove class [sum](name)
+    - remove class [addition](name)
+    - remove class [result](name)
+    - remove class [answer](name)
+    - remove class [a](name)
+    - remove class [b](name)
+    - remove class [c](name)
+    - remove class [d](name)
+    - remove class [e](name)
+    - remove class [k](name)
+
+# ADDED TO NLU/TEST

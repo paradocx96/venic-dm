@@ -1,0 +1,48 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- story: create class unknown
+  steps:
+  - intent: create_class_unknown
+  - action: utter_ask_class_name
+#  - intent: inform
+#    entities:
+#    - name: "name"
+#  - action: utter_class_created
+
+- story: create project unknown
+  steps:
+  - intent: create_project_unknown
+  - action: utter_ask_project_name
+#  - intent: inform
+#    entities:
+#    - name: "name"
+#  - action: utter_project_created
+
+- story: create interface unknown
+  steps:
+  - intent: create_interface_unknown
+  - action: utter_ask_interface_name
+#  - intent: inform
+#    entities:
+#    - name: "name"
+#  - action: utter_interface_created
+
+- story: create method unknown
+  steps:
+  - intent: create_method_unknown
+  - action: utter_ask_method_name
+#  - intent: inform
+#    entities:
+#    - name: "name"
+#  - action: utter_method_created
+
+- story: create variable unknown
+  steps:
+  - intent: create_variable_unknown
+  - action: utter_ask_variable_name
+#  - intent: inform
+#    entities:
+#    - name: "name"
+#  - action: utter_variable_created

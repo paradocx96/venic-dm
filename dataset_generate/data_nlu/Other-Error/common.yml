@@ -1,0 +1,60 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: outofscope
+  examples: |
+    - I am asking out of scope question
+    - Are you ready?
+    - Can I ask you questions first?
+    - Can you call me back ?
+
+- intent: nointernet
+  examples: |
+    - no internet
+    - no internet connection
+    - transcription failed
+
+- intent: notidentify
+  examples: |
+    - not identify
+    - cannot identify
+    - could not identify
+
+- intent: notsupport
+  examples: |
+    - not support
+    - not support yet
+    - command not support
+
+- intent: inform
+  examples: |
+    - [age](name)
+    - [car](name)
+    - [bus](name)
+    - [van](name)
+    - [height](name)
+    - [width](name)
+    - [department](name)
+    - [hospital](name)
+    - [fruit](name)
+    - [food](name)
+    - [computer](name)
+    - [keyboard](name)
+    - [mouse](name)
+    - [dog](name)
+    - [cat](name)
+    - [cow](name)
+    - [one](name)
+    - [two](name)
+    - [three](name)
+    - [four](name)
+    - [five](name)
+    - [six](name)
+    - [seven](name)
+    - [eight](name)
+    - [nine](name)
+    - [ten](name)
+
+
+# ADDED TO NLU/TEST
