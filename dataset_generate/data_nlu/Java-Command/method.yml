@@ -1,0 +1,2674 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createmethod
+  examples: |
+    - add new method named [repository](name)
+    - add new method named [api](name)
+    - add new method named [controller](name)
+    - add new method named [service](name)
+    - add new method named [model](name)
+    - add new method named [repo](name)
+    - add new method named [sum](name)
+    - add new method named [addition](name)
+    - add new method named [answer](name)
+    - add new method named [result](name)
+    - add new method named [get](name)
+    - add new method named [update](name)
+    - add new method named [create](name)
+    - add new method named [delete](name)
+    - add new method named [find](name)
+    - add new method named [receive](name)
+    - add new method named [calculate](name)
+    - add new method named [decrement](name)
+    - add new method named [increment](name)
+    - add new method named [calc](name)
+    - add new method named [add](name)
+    - add new method named [valid](name)
+    - add new method named [move](name)
+    - add new method named [work](name)
+    - add new method named [write](name)
+    - add new method named [spec](name)
+    - add new method named [buy](name)
+    - add new method named [run](name)
+    - add new method named [notify](name)
+    - add new method named [output](name)
+    - add new method named [communicate](name)
+    - add new method named [call](name)
+    - add new method named [send](name)
+    - add new method named [input](name)
+    - add new method named [subtract](name)
+    - add new method named [multiply](name)
+    - add new method named [divide](name)
+    - add new method named [modulus](name)
+    - add new method named [check](name)
+    - add new method named [display](name)
+    - add new method named [show](name)
+    - add new method named [view](name)
+    - add new method named [max](name)
+    - add new method named [min](name)
+    - add new method named [is](name)
+    - add new method named [contain](name)
+    - add new method named [remove](name)
+    - add new method named [clear](name)
+    - add new method named [clean](name)
+    - add new method named [put](name)
+    - add new method named [set](name)
+    - add new method named [build](name)
+    - add new method named [plus](name)
+    - add new method named [minus](name)
+    - add new method named [append](name)
+    - add new method named [reset](name)
+    - add new method named [rebuild](name)
+    - add new method named [change](name)
+    - add new method named [select](name)
+    - add new method named [generate](name)
+    - add method named [repository](name)
+    - add method named [api](name)
+    - add method named [controller](name)
+    - add method named [service](name)
+    - add method named [model](name)
+    - add method named [repo](name)
+    - add method named [sum](name)
+    - add method named [addition](name)
+    - add method named [answer](name)
+    - add method named [result](name)
+    - add method named [get](name)
+    - add method named [update](name)
+    - add method named [create](name)
+    - add method named [delete](name)
+    - add method named [find](name)
+    - add method named [receive](name)
+    - add method named [calculate](name)
+    - add method named [decrement](name)
+    - add method named [increment](name)
+    - add method named [calc](name)
+    - add method named [add](name)
+    - add method named [valid](name)
+    - add method named [move](name)
+    - add method named [work](name)
+    - add method named [write](name)
+    - add method named [spec](name)
+    - add method named [buy](name)
+    - add method named [run](name)
+    - add method named [notify](name)
+    - add method named [output](name)
+    - add method named [communicate](name)
+    - add method named [call](name)
+    - add method named [send](name)
+    - add method named [input](name)
+    - add method named [subtract](name)
+    - add method named [multiply](name)
+    - add method named [divide](name)
+    - add method named [modulus](name)
+    - add method named [check](name)
+    - add method named [display](name)
+    - add method named [show](name)
+    - add method named [view](name)
+    - add method named [max](name)
+    - add method named [min](name)
+    - add method named [is](name)
+    - add method named [contain](name)
+    - add method named [remove](name)
+    - add method named [clear](name)
+    - add method named [clean](name)
+    - add method named [put](name)
+    - add method named [set](name)
+    - add method named [build](name)
+    - add method named [plus](name)
+    - add method named [minus](name)
+    - add method named [append](name)
+    - add method named [reset](name)
+    - add method named [rebuild](name)
+    - add method named [change](name)
+    - add method named [select](name)
+    - add method named [generate](name)
+    - add method [repository](name)
+    - add method [api](name)
+    - add method [controller](name)
+    - add method [service](name)
+    - add method [model](name)
+    - add method [repo](name)
+    - add method [sum](name)
+    - add method [addition](name)
+    - add method [answer](name)
+    - add method [result](name)
+    - add method [get](name)
+    - add method [update](name)
+    - add method [create](name)
+    - add method [delete](name)
+    - add method [find](name)
+    - add method [receive](name)
+    - add method [calculate](name)
+    - add method [decrement](name)
+    - add method [increment](name)
+    - add method [calc](name)
+    - add method [add](name)
+    - add method [valid](name)
+    - add method [move](name)
+    - add method [work](name)
+    - add method [write](name)
+    - add method [spec](name)
+    - add method [buy](name)
+    - add method [run](name)
+    - add method [notify](name)
+    - add method [output](name)
+    - add method [communicate](name)
+    - add method [call](name)
+    - add method [send](name)
+    - add method [input](name)
+    - add method [subtract](name)
+    - add method [multiply](name)
+    - add method [divide](name)
+    - add method [modulus](name)
+    - add method [check](name)
+    - add method [display](name)
+    - add method [show](name)
+    - add method [view](name)
+    - add method [max](name)
+    - add method [min](name)
+    - add method [is](name)
+    - add method [contain](name)
+    - add method [remove](name)
+    - add method [clear](name)
+    - add method [clean](name)
+    - add method [put](name)
+    - add method [set](name)
+    - add method [build](name)
+    - add method [plus](name)
+    - add method [minus](name)
+    - add method [append](name)
+    - add method [reset](name)
+    - add method [rebuild](name)
+    - add method [change](name)
+    - add method [select](name)
+    - add method [generate](name)
+    - create new method named [repository](name)
+    - create new method named [api](name)
+    - create new method named [controller](name)
+    - create new method named [service](name)
+    - create new method named [model](name)
+    - create new method named [repo](name)
+    - create new method named [sum](name)
+    - create new method named [addition](name)
+    - create new method named [answer](name)
+    - create new method named [result](name)
+    - create new method named [get](name)
+    - create new method named [update](name)
+    - create new method named [create](name)
+    - create new method named [delete](name)
+    - create new method named [find](name)
+    - create new method named [receive](name)
+    - create new method named [calculate](name)
+    - create new method named [decrement](name)
+    - create new method named [increment](name)
+    - create new method named [calc](name)
+    - create new method named [add](name)
+    - create new method named [valid](name)
+    - create new method named [move](name)
+    - create new method named [work](name)
+    - create new method named [write](name)
+    - create new method named [spec](name)
+    - create new method named [buy](name)
+    - create new method named [run](name)
+    - create new method named [notify](name)
+    - create new method named [output](name)
+    - create new method named [communicate](name)
+    - create new method named [call](name)
+    - create new method named [send](name)
+    - create new method named [input](name)
+    - create new method named [subtract](name)
+    - create new method named [multiply](name)
+    - create new method named [divide](name)
+    - create new method named [modulus](name)
+    - create new method named [check](name)
+    - create new method named [display](name)
+    - create new method named [show](name)
+    - create new method named [view](name)
+    - create new method named [max](name)
+    - create new method named [min](name)
+    - create new method named [is](name)
+    - create new method named [contain](name)
+    - create new method named [remove](name)
+    - create new method named [clear](name)
+    - create new method named [clean](name)
+    - create new method named [put](name)
+    - create new method named [set](name)
+    - create new method named [build](name)
+    - create new method named [plus](name)
+    - create new method named [minus](name)
+    - create new method named [append](name)
+    - create new method named [reset](name)
+    - create new method named [rebuild](name)
+    - create new method named [change](name)
+    - create new method named [select](name)
+    - create new method named [generate](name)
+    - create method named [repository](name)
+    - create method named [api](name)
+    - create method named [controller](name)
+    - create method named [service](name)
+    - create method named [model](name)
+    - create method named [repo](name)
+    - create method named [sum](name)
+    - create method named [addition](name)
+    - create method named [answer](name)
+    - create method named [result](name)
+    - create method named [get](name)
+    - create method named [update](name)
+    - create method named [create](name)
+    - create method named [delete](name)
+    - create method named [find](name)
+    - create method named [receive](name)
+    - create method named [calculate](name)
+    - create method named [decrement](name)
+    - create method named [increment](name)
+    - create method named [calc](name)
+    - create method named [add](name)
+    - create method named [valid](name)
+    - create method named [move](name)
+    - create method named [work](name)
+    - create method named [write](name)
+    - create method named [spec](name)
+    - create method named [buy](name)
+    - create method named [run](name)
+    - create method named [notify](name)
+    - create method named [output](name)
+    - create method named [communicate](name)
+    - create method named [call](name)
+    - create method named [send](name)
+    - create method named [input](name)
+    - create method named [subtract](name)
+    - create method named [multiply](name)
+    - create method named [divide](name)
+    - create method named [modulus](name)
+    - create method named [check](name)
+    - create method named [display](name)
+    - create method named [show](name)
+    - create method named [view](name)
+    - create method named [max](name)
+    - create method named [min](name)
+    - create method named [is](name)
+    - create method named [contain](name)
+    - create method named [remove](name)
+    - create method named [clear](name)
+    - create method named [clean](name)
+    - create method named [put](name)
+    - create method named [set](name)
+    - create method named [build](name)
+    - create method named [plus](name)
+    - create method named [minus](name)
+    - create method named [append](name)
+    - create method named [reset](name)
+    - create method named [rebuild](name)
+    - create method named [change](name)
+    - create method named [select](name)
+    - create method named [generate](name)
+    - create method [repository](name)
+    - create method [api](name)
+    - create method [controller](name)
+    - create method [service](name)
+    - create method [model](name)
+    - create method [repo](name)
+    - create method [sum](name)
+    - create method [addition](name)
+    - create method [answer](name)
+    - create method [result](name)
+    - create method [get](name)
+    - create method [update](name)
+    - create method [create](name)
+    - create method [delete](name)
+    - create method [find](name)
+    - create method [receive](name)
+    - create method [calculate](name)
+    - create method [decrement](name)
+    - create method [increment](name)
+    - create method [calc](name)
+    - create method [add](name)
+    - create method [valid](name)
+    - create method [move](name)
+    - create method [work](name)
+    - create method [write](name)
+    - create method [spec](name)
+    - create method [buy](name)
+    - create method [run](name)
+    - create method [notify](name)
+    - create method [output](name)
+    - create method [communicate](name)
+    - create method [call](name)
+    - create method [send](name)
+    - create method [input](name)
+    - create method [subtract](name)
+    - create method [multiply](name)
+    - create method [divide](name)
+    - create method [modulus](name)
+    - create method [check](name)
+    - create method [display](name)
+    - create method [show](name)
+    - create method [view](name)
+    - create method [max](name)
+    - create method [min](name)
+    - create method [is](name)
+    - create method [contain](name)
+    - create method [remove](name)
+    - create method [clear](name)
+    - create method [clean](name)
+    - create method [put](name)
+    - create method [set](name)
+    - create method [build](name)
+    - create method [plus](name)
+    - create method [minus](name)
+    - create method [append](name)
+    - create method [reset](name)
+    - create method [rebuild](name)
+    - create method [change](name)
+    - create method [select](name)
+    - create method [generate](name)    
+    - add new method named [repository](name) with seven parameter
+    - add new method named [api](name) with two parameter
+    - add new method named [controller](name) with six parameter
+    - add new method named [service](name) with one parameter
+    - add new method named [model](name) with three parameter
+    - add new method named [repo](name) with nine parameter
+    - add new method named [sum](name) with nine parameter
+    - add new method named [addition](name) with six parameter
+    - add new method named [answer](name) with three parameter
+    - add new method named [result](name) with seven parameter
+    - add new method named [get](name) with two parameter
+    - add new method named [update](name) with seven parameter
+    - add new method named [create](name) with three parameter
+    - add new method named [delete](name) with three parameter
+    - add new method named [find](name) with six parameter
+    - add new method named [receive](name) with six parameter
+    - add new method named [calculate](name) with two parameter
+    - add new method named [decrement](name) with one parameter
+    - add new method named [increment](name) with three parameter
+    - add new method named [calc](name) with ten parameter
+    - add new method named [add](name) with six parameter
+    - add new method named [valid](name) with nine parameter
+    - add new method named [move](name) with nine parameter
+    - add new method named [work](name) with four parameter
+    - add new method named [write](name) with six parameter
+    - add new method named [spec](name) with seven parameter
+    - add new method named [buy](name) with five parameter
+    - add new method named [run](name) with five parameter
+    - add new method named [notify](name) with five parameter
+    - add new method named [output](name) with nine parameter
+    - add new method named [communicate](name) with four parameter
+    - add new method named [call](name) with nine parameter
+    - add new method named [send](name) with nine parameter
+    - add new method named [input](name) with four parameter
+    - add new method named [subtract](name) with ten parameter
+    - add new method named [multiply](name) with seven parameter
+    - add new method named [divide](name) with eight parameter
+    - add new method named [modulus](name) with six parameter
+    - add new method named [check](name) with nine parameter
+    - add new method named [display](name) with five parameter
+    - add new method named [show](name) with three parameter
+    - add new method named [view](name) with eight parameter
+    - add new method named [max](name) with five parameter
+    - add new method named [min](name) with seven parameter
+    - add new method named [is](name) with six parameter
+    - add new method named [contain](name) with seven parameter
+    - add new method named [remove](name) with nine parameter
+    - add new method named [clear](name) with three parameter
+    - add new method named [clean](name) with four parameter
+    - add new method named [put](name) with two parameter
+    - add new method named [set](name) with eight parameter
+    - add new method named [build](name) with five parameter
+    - add new method named [plus](name) with six parameter
+    - add new method named [minus](name) with eight parameter
+    - add new method named [append](name) with two parameter
+    - add new method named [reset](name) with nine parameter
+    - add new method named [rebuild](name) with three parameter
+    - add new method named [change](name) with six parameter
+    - add new method named [select](name) with nine parameter
+    - add new method named [generate](name) with three parameter
+    - add method named [repository](name) with nine parameter
+    - add method named [api](name) with ten parameter
+    - add method named [controller](name) with two parameter
+    - add method named [service](name) with three parameter
+    - add method named [model](name) with five parameter
+    - add method named [repo](name) with four parameter
+    - add method named [sum](name) with eight parameter
+    - add method named [addition](name) with four parameter
+    - add method named [answer](name) with ten parameter
+    - add method named [result](name) with nine parameter
+    - add method named [get](name) with eight parameter
+    - add method named [update](name) with one parameter
+    - add method named [create](name) with nine parameter
+    - add method named [delete](name) with four parameter
+    - add method named [find](name) with five parameter
+    - add method named [receive](name) with nine parameter
+    - add method named [calculate](name) with five parameter
+    - add method named [decrement](name) with two parameter
+    - add method named [increment](name) with six parameter
+    - add method named [calc](name) with four parameter
+    - add method named [add](name) with three parameter
+    - add method named [valid](name) with three parameter
+    - add method named [move](name) with seven parameter
+    - add method named [work](name) with seven parameter
+    - add method named [write](name) with one parameter
+    - add method named [spec](name) with three parameter
+    - add method named [buy](name) with six parameter
+    - add method named [run](name) with six parameter
+    - add method named [notify](name) with four parameter
+    - add method named [output](name) with three parameter
+    - add method named [communicate](name) with eight parameter
+    - add method named [call](name) with ten parameter
+    - add method named [send](name) with three parameter
+    - add method named [input](name) with seven parameter
+    - add method named [subtract](name) with nine parameter
+    - add method named [multiply](name) with two parameter
+    - add method named [divide](name) with three parameter
+    - add method named [modulus](name) with seven parameter
+    - add method named [check](name) with four parameter
+    - add method named [display](name) with four parameter
+    - add method named [show](name) with three parameter
+    - add method named [view](name) with three parameter
+    - add method named [max](name) with seven parameter
+    - add method named [min](name) with four parameter
+    - add method named [is](name) with eight parameter
+    - add method named [contain](name) with three parameter
+    - add method named [remove](name) with nine parameter
+    - add method named [clear](name) with four parameter
+    - add method named [clean](name) with nine parameter
+    - add method named [put](name) with nine parameter
+    - add method named [set](name) with ten parameter
+    - add method named [build](name) with three parameter
+    - add method named [plus](name) with six parameter
+    - add method named [minus](name) with two parameter
+    - add method named [append](name) with four parameter
+    - add method named [reset](name) with three parameter
+    - add method named [rebuild](name) with five parameter
+    - add method named [change](name) with three parameter
+    - add method named [select](name) with four parameter
+    - add method named [generate](name) with two parameter
+    - add method [repository](name) with six parameter
+    - add method [api](name) with seven parameter
+    - add method [controller](name) with three parameter
+    - add method [service](name) with ten parameter
+    - add method [model](name) with ten parameter
+    - add method [repo](name) with nine parameter
+    - add method [sum](name) with three parameter
+    - add method [addition](name) with three parameter
+    - add method [answer](name) with three parameter
+    - add method [result](name) with seven parameter
+    - add method [get](name) with ten parameter
+    - add method [update](name) with six parameter
+    - add method [create](name) with six parameter
+    - add method [delete](name) with four parameter
+    - add method [find](name) with one parameter
+    - add method [receive](name) with one parameter
+    - add method [calculate](name) with four parameter
+    - add method [decrement](name) with four parameter
+    - add method [increment](name) with six parameter
+    - add method [calc](name) with five parameter
+    - add method [add](name) with five parameter
+    - add method [valid](name) with two parameter
+    - add method [move](name) with three parameter
+    - add method [work](name) with one parameter
+    - add method [write](name) with ten parameter
+    - add method [spec](name) with three parameter
+    - add method [buy](name) with one parameter
+    - add method [run](name) with six parameter
+    - add method [notify](name) with one parameter
+    - add method [output](name) with five parameter
+    - add method [communicate](name) with nine parameter
+    - add method [call](name) with six parameter
+    - add method [send](name) with three parameter
+    - add method [input](name) with ten parameter
+    - add method [subtract](name) with seven parameter
+    - add method [multiply](name) with four parameter
+    - add method [divide](name) with one parameter
+    - add method [modulus](name) with six parameter
+    - add method [check](name) with three parameter
+    - add method [display](name) with eight parameter
+    - add method [show](name) with three parameter
+    - add method [view](name) with two parameter
+    - add method [max](name) with four parameter
+    - add method [min](name) with seven parameter
+    - add method [is](name) with nine parameter
+    - add method [contain](name) with three parameter
+    - add method [remove](name) with eight parameter
+    - add method [clear](name) with four parameter
+    - add method [clean](name) with one parameter
+    - add method [put](name) with seven parameter
+    - add method [set](name) with seven parameter
+    - add method [build](name) with six parameter
+    - add method [plus](name) with four parameter
+    - add method [minus](name) with three parameter
+    - add method [append](name) with four parameter
+    - add method [reset](name) with four parameter
+    - add method [rebuild](name) with eight parameter
+    - add method [change](name) with four parameter
+    - add method [select](name) with six parameter
+    - add method [generate](name) with one parameter
+    - add new method named [repository](name) with return type short
+    - add new method named [api](name) with return type string
+    - add new method named [controller](name) with return type double
+    - add new method named [service](name) with return type long
+    - add new method named [model](name) with return type integer
+    - add new method named [repo](name) with return type double
+    - add new method named [sum](name) with return type integer
+    - add new method named [addition](name) with return type char
+    - add new method named [answer](name) with return type double
+    - add new method named [result](name) with return type string
+    - add new method named [get](name) with return type string
+    - add new method named [update](name) with return type double
+    - add new method named [create](name) with return type byte
+    - add new method named [delete](name) with return type flout
+    - add new method named [find](name) with return type integer
+    - add new method named [receive](name) with return type char
+    - add new method named [calculate](name) with return type integer
+    - add new method named [decrement](name) with return type byte
+    - add new method named [increment](name) with return type char
+    - add new method named [calc](name) with return type char
+    - add new method named [add](name) with return type string
+    - add new method named [valid](name) with return type string
+    - add new method named [move](name) with return type long
+    - add new method named [work](name) with return type string
+    - add new method named [write](name) with return type short
+    - add new method named [spec](name) with return type integer
+    - add new method named [buy](name) with return type short
+    - add new method named [run](name) with return type boolean
+    - add new method named [notify](name) with return type byte
+    - add new method named [output](name) with return type short
+    - add new method named [communicate](name) with return type char
+    - add new method named [call](name) with return type char
+    - add new method named [send](name) with return type byte
+    - add new method named [input](name) with return type string
+    - add new method named [subtract](name) with return type short
+    - add new method named [multiply](name) with return type boolean
+    - add new method named [divide](name) with return type byte
+    - add new method named [modulus](name) with return type short
+    - add new method named [check](name) with return type byte
+    - add new method named [display](name) with return type boolean
+    - add new method named [show](name) with return type byte
+    - add new method named [view](name) with return type double
+    - add new method named [max](name) with return type boolean
+    - add new method named [min](name) with return type integer
+    - add new method named [is](name) with return type byte
+    - add new method named [contain](name) with return type byte
+    - add new method named [remove](name) with return type byte
+    - add new method named [clear](name) with return type long
+    - add new method named [clean](name) with return type double
+    - add new method named [put](name) with return type long
+    - add new method named [set](name) with return type long
+    - add new method named [build](name) with return type string
+    - add new method named [plus](name) with return type flout
+    - add new method named [minus](name) with return type double
+    - add new method named [append](name) with return type short
+    - add new method named [reset](name) with return type flout
+    - add new method named [rebuild](name) with return type string
+    - add new method named [change](name) with return type double
+    - add new method named [select](name) with return type short
+    - add new method named [generate](name) with return type short
+    - add method named [repository](name) with return type double
+    - add method named [api](name) with return type string
+    - add method named [controller](name) with return type char
+    - add method named [service](name) with return type long
+    - add method named [model](name) with return type byte
+    - add method named [repo](name) with return type boolean
+    - add method named [sum](name) with return type double
+    - add method named [addition](name) with return type long
+    - add method named [answer](name) with return type boolean
+    - add method named [result](name) with return type long
+    - add method named [get](name) with return type char
+    - add method named [update](name) with return type long
+    - add method named [create](name) with return type short
+    - add method named [delete](name) with return type integer
+    - add method named [find](name) with return type char
+    - add method named [receive](name) with return type double
+    - add method named [calculate](name) with return type byte
+    - add method named [decrement](name) with return type long
+    - add method named [increment](name) with return type long
+    - add method named [calc](name) with return type string
+    - add method named [add](name) with return type integer
+    - add method named [valid](name) with return type long
+    - add method named [move](name) with return type flout
+    - add method named [work](name) with return type long
+    - add method named [write](name) with return type short
+    - add method named [spec](name) with return type byte
+    - add method named [buy](name) with return type boolean
+    - add method named [run](name) with return type char
+    - add method named [notify](name) with return type integer
+    - add method named [output](name) with return type byte
+    - add method named [communicate](name) with return type flout
+    - add method named [call](name) with return type double
+    - add method named [send](name) with return type byte
+    - add method named [input](name) with return type double
+    - add method named [subtract](name) with return type char
+    - add method named [multiply](name) with return type long
+    - add method named [divide](name) with return type double
+    - add method named [modulus](name) with return type string
+    - add method named [check](name) with return type double
+    - add method named [display](name) with return type byte
+    - add method named [show](name) with return type integer
+    - add method named [view](name) with return type integer
+    - add method named [max](name) with return type flout
+    - add method named [min](name) with return type flout
+    - add method named [is](name) with return type string
+    - add method named [contain](name) with return type short
+    - add method named [remove](name) with return type short
+    - add method named [clear](name) with return type double
+    - add method named [clean](name) with return type long
+    - add method named [put](name) with return type double
+    - add method named [set](name) with return type string
+    - add method named [build](name) with return type boolean
+    - add method named [plus](name) with return type flout
+    - add method named [minus](name) with return type short
+    - add method named [append](name) with return type flout
+    - add method named [reset](name) with return type boolean
+    - add method named [rebuild](name) with return type byte
+    - add method named [change](name) with return type char
+    - add method named [select](name) with return type flout
+    - add method named [generate](name) with return type long
+    - add method [repository](name) with return type boolean
+    - add method [api](name) with return type char
+    - add method [controller](name) with return type short
+    - add method [service](name) with return type byte
+    - add method [model](name) with return type byte
+    - add method [repo](name) with return type long
+    - add method [sum](name) with return type double
+    - add method [addition](name) with return type short
+    - add method [answer](name) with return type char
+    - add method [result](name) with return type char
+    - add method [get](name) with return type double
+    - add method [update](name) with return type string
+    - add method [create](name) with return type double
+    - add method [delete](name) with return type byte
+    - add method [find](name) with return type flout
+    - add method [receive](name) with return type long
+    - add method [calculate](name) with return type flout
+    - add method [decrement](name) with return type double
+    - add method [increment](name) with return type boolean
+    - add method [calc](name) with return type double
+    - add method [add](name) with return type boolean
+    - add method [valid](name) with return type double
+    - add method [move](name) with return type char
+    - add method [work](name) with return type flout
+    - add method [write](name) with return type char
+    - add method [spec](name) with return type long
+    - add method [buy](name) with return type long
+    - add method [run](name) with return type byte
+    - add method [notify](name) with return type double
+    - add method [output](name) with return type char
+    - add method [communicate](name) with return type flout
+    - add method [call](name) with return type byte
+    - add method [send](name) with return type flout
+    - add method [input](name) with return type char
+    - add method [subtract](name) with return type boolean
+    - add method [multiply](name) with return type byte
+    - add method [divide](name) with return type flout
+    - add method [modulus](name) with return type long
+    - add method [check](name) with return type boolean
+    - add method [display](name) with return type flout
+    - add method [show](name) with return type char
+    - add method [view](name) with return type short
+    - add method [max](name) with return type double
+    - add method [min](name) with return type string
+    - add method [is](name) with return type flout
+    - add method [contain](name) with return type char
+    - add method [remove](name) with return type long
+    - add method [clear](name) with return type flout
+    - add method [clean](name) with return type flout
+    - add method [put](name) with return type flout
+    - add method [set](name) with return type double
+    - add method [build](name) with return type short
+    - add method [plus](name) with return type integer
+    - add method [minus](name) with return type string
+    - add method [append](name) with return type boolean
+    - add method [reset](name) with return type string
+    - add method [rebuild](name) with return type short
+    - add method [change](name) with return type boolean
+    - add method [select](name) with return type byte
+    - add method [generate](name) with return type char
+    - add new public method named [repository](name) with return type short
+    - add new private method named [api](name) with return type char
+    - add new public method named [controller](name) with return type string
+    - add new private method named [service](name) with return type integer
+    - add new public method named [model](name) with return type flout
+    - add new public method named [repo](name) with return type flout
+    - add new public method named [sum](name) with return type string
+    - add new public method named [addition](name) with return type long
+    - add new public method named [answer](name) with return type long
+    - add new private method named [result](name) with return type integer
+    - add new public method named [get](name) with return type double
+    - add new public method named [update](name) with return type double
+    - add new private method named [create](name) with return type short
+    - add new private method named [delete](name) with return type short
+    - add new public method named [find](name) with return type long
+    - add new public method named [receive](name) with return type flout
+    - add new public method named [calculate](name) with return type char
+    - add new public method named [decrement](name) with return type char
+    - add new public method named [increment](name) with return type integer
+    - add new public method named [calc](name) with return type long
+    - add new public method named [add](name) with return type byte
+    - add new public method named [valid](name) with return type flout
+    - add new private method named [move](name) with return type double
+    - add new private method named [work](name) with return type string
+    - add new private method named [write](name) with return type boolean
+    - add new public method named [spec](name) with return type short
+    - add new private method named [buy](name) with return type flout
+    - add new private method named [run](name) with return type short
+    - add new public method named [notify](name) with return type short
+    - add new private method named [output](name) with return type char
+    - add new private method named [communicate](name) with return type short
+    - add new public method named [call](name) with return type integer
+    - add new public method named [send](name) with return type short
+    - add new private method named [input](name) with return type boolean
+    - add new private method named [subtract](name) with return type boolean
+    - add new private method named [multiply](name) with return type short
+    - add new public method named [divide](name) with return type double
+    - add new private method named [modulus](name) with return type string
+    - add new public method named [check](name) with return type boolean
+    - add new private method named [display](name) with return type string
+    - add new public method named [show](name) with return type boolean
+    - add new public method named [view](name) with return type double
+    - add new public method named [max](name) with return type integer
+    - add new private method named [min](name) with return type byte
+    - add new private method named [is](name) with return type integer
+    - add new private method named [contain](name) with return type double
+    - add new public method named [remove](name) with return type byte
+    - add new public method named [clear](name) with return type string
+    - add new public method named [clean](name) with return type double
+    - add new public method named [put](name) with return type integer
+    - add new public method named [set](name) with return type short
+    - add new public method named [build](name) with return type double
+    - add new public method named [plus](name) with return type short
+    - add new public method named [minus](name) with return type integer
+    - add new private method named [append](name) with return type short
+    - add new public method named [reset](name) with return type integer
+    - add new private method named [rebuild](name) with return type short
+    - add new public method named [change](name) with return type byte
+    - add new private method named [select](name) with return type long
+    - add new public method named [generate](name) with return type long
+    - add private method named [repository](name) with return type double
+    - add private method named [api](name) with return type double
+    - add private method named [controller](name) with return type byte
+    - add public method named [service](name) with return type boolean
+    - add private method named [model](name) with return type short
+    - add public method named [repo](name) with return type char
+    - add public method named [sum](name) with return type double
+    - add public method named [addition](name) with return type integer
+    - add private method named [answer](name) with return type short
+    - add private method named [result](name) with return type byte
+    - add private method named [get](name) with return type double
+    - add private method named [update](name) with return type short
+    - add private method named [create](name) with return type short
+    - add public method named [delete](name) with return type flout
+    - add public method named [find](name) with return type integer
+    - add public method named [receive](name) with return type double
+    - add public method named [calculate](name) with return type string
+    - add public method named [decrement](name) with return type integer
+    - add public method named [increment](name) with return type flout
+    - add private method named [calc](name) with return type byte
+    - add public method named [add](name) with return type double
+    - add public method named [valid](name) with return type byte
+    - add public method named [move](name) with return type string
+    - add private method named [work](name) with return type short
+    - add private method named [write](name) with return type boolean
+    - add private method named [spec](name) with return type char
+    - add private method named [buy](name) with return type char
+    - add public method named [run](name) with return type long
+    - add public method named [notify](name) with return type boolean
+    - add private method named [output](name) with return type char
+    - add private method named [communicate](name) with return type byte
+    - add private method named [call](name) with return type string
+    - add public method named [send](name) with return type byte
+    - add private method named [input](name) with return type char
+    - add private method named [subtract](name) with return type integer
+    - add private method named [multiply](name) with return type char
+    - add private method named [divide](name) with return type byte
+    - add public method named [modulus](name) with return type double
+    - add public method named [check](name) with return type long
+    - add private method named [display](name) with return type byte
+    - add public method named [show](name) with return type string
+    - add private method named [view](name) with return type long
+    - add private method named [max](name) with return type string
+    - add public method named [min](name) with return type long
+    - add public method named [is](name) with return type double
+    - add public method named [contain](name) with return type short
+    - add private method named [remove](name) with return type string
+    - add private method named [clear](name) with return type char
+    - add public method named [clean](name) with return type integer
+    - add private method named [put](name) with return type char
+    - add private method named [set](name) with return type char
+    - add public method named [build](name) with return type byte
+    - add private method named [plus](name) with return type double
+    - add private method named [minus](name) with return type double
+    - add private method named [append](name) with return type boolean
+    - add public method named [reset](name) with return type boolean
+    - add private method named [rebuild](name) with return type integer
+    - add public method named [change](name) with return type string
+    - add private method named [select](name) with return type byte
+    - add private method named [generate](name) with return type long
+    - add public method [repository](name) with return type byte
+    - add private method [api](name) with return type byte
+    - add public method [controller](name) with return type flout
+    - add private method [service](name) with return type boolean
+    - add private method [model](name) with return type flout
+    - add public method [repo](name) with return type flout
+    - add private method [sum](name) with return type flout
+    - add public method [addition](name) with return type double
+    - add public method [answer](name) with return type boolean
+    - add public method [result](name) with return type flout
+    - add public method [get](name) with return type short
+    - add public method [update](name) with return type integer
+    - add private method [create](name) with return type string
+    - add public method [delete](name) with return type byte
+    - add public method [find](name) with return type flout
+    - add public method [receive](name) with return type byte
+    - add public method [calculate](name) with return type char
+    - add private method [decrement](name) with return type string
+    - add public method [increment](name) with return type short
+    - add private method [calc](name) with return type double
+    - add private method [add](name) with return type string
+    - add private method [valid](name) with return type short
+    - add private method [move](name) with return type short
+    - add private method [work](name) with return type long
+    - add public method [write](name) with return type flout
+    - add public method [spec](name) with return type integer
+    - add public method [buy](name) with return type string
+    - add private method [run](name) with return type flout
+    - add private method [notify](name) with return type short
+    - add private method [output](name) with return type char
+    - add public method [communicate](name) with return type string
+    - add private method [call](name) with return type double
+    - add private method [send](name) with return type long
+    - add public method [input](name) with return type flout
+    - add public method [subtract](name) with return type flout
+    - add public method [multiply](name) with return type integer
+    - add private method [divide](name) with return type long
+    - add private method [modulus](name) with return type double
+    - add public method [check](name) with return type long
+    - add private method [display](name) with return type byte
+    - add private method [show](name) with return type boolean
+    - add private method [view](name) with return type boolean
+    - add private method [max](name) with return type short
+    - add public method [min](name) with return type string
+    - add private method [is](name) with return type long
+    - add public method [contain](name) with return type short
+    - add private method [remove](name) with return type long
+    - add private method [clear](name) with return type short
+    - add public method [clean](name) with return type short
+    - add public method [put](name) with return type double
+    - add public method [set](name) with return type boolean
+    - add private method [build](name) with return type double
+    - add private method [plus](name) with return type char
+    - add private method [minus](name) with return type integer
+    - add public method [append](name) with return type byte
+    - add public method [reset](name) with return type double
+    - add public method [rebuild](name) with return type string
+    - add private method [change](name) with return type short
+    - add public method [select](name) with return type char
+    - add private method [generate](name) with return type char
+    - create new method named [repository](name) with seven parameter
+    - create new method named [api](name) with two parameter
+    - create new method named [controller](name) with six parameter
+    - create new method named [service](name) with one parameter
+    - create new method named [model](name) with three parameter
+    - create new method named [repo](name) with nine parameter
+    - create new method named [sum](name) with nine parameter
+    - create new method named [addition](name) with six parameter
+    - create new method named [answer](name) with three parameter
+    - create new method named [result](name) with seven parameter
+    - create new method named [get](name) with two parameter
+    - create new method named [update](name) with seven parameter
+    - create new method named [create](name) with three parameter
+    - create new method named [delete](name) with three parameter
+    - create new method named [find](name) with six parameter
+    - create new method named [receive](name) with six parameter
+    - create new method named [calculate](name) with two parameter
+    - create new method named [decrement](name) with one parameter
+    - create new method named [increment](name) with three parameter
+    - create new method named [calc](name) with ten parameter
+    - create new method named [add](name) with six parameter
+    - create new method named [valid](name) with nine parameter
+    - create new method named [move](name) with nine parameter
+    - create new method named [work](name) with four parameter
+    - create new method named [write](name) with six parameter
+    - create new method named [spec](name) with seven parameter
+    - create new method named [buy](name) with five parameter
+    - create new method named [run](name) with five parameter
+    - create new method named [notify](name) with five parameter
+    - create new method named [output](name) with nine parameter
+    - create new method named [communicate](name) with four parameter
+    - create new method named [call](name) with nine parameter
+    - create new method named [send](name) with nine parameter
+    - create new method named [input](name) with four parameter
+    - create new method named [subtract](name) with ten parameter
+    - create new method named [multiply](name) with seven parameter
+    - create new method named [divide](name) with eight parameter
+    - create new method named [modulus](name) with six parameter
+    - create new method named [check](name) with nine parameter
+    - create new method named [display](name) with five parameter
+    - create new method named [show](name) with three parameter
+    - create new method named [view](name) with eight parameter
+    - create new method named [max](name) with five parameter
+    - create new method named [min](name) with seven parameter
+    - create new method named [is](name) with six parameter
+    - create new method named [contain](name) with seven parameter
+    - create new method named [remove](name) with nine parameter
+    - create new method named [clear](name) with three parameter
+    - create new method named [clean](name) with four parameter
+    - create new method named [put](name) with two parameter
+    - create new method named [set](name) with eight parameter
+    - create new method named [build](name) with five parameter
+    - create new method named [plus](name) with six parameter
+    - create new method named [minus](name) with eight parameter
+    - create new method named [append](name) with two parameter
+    - create new method named [reset](name) with nine parameter
+    - create new method named [rebuild](name) with three parameter
+    - create new method named [change](name) with six parameter
+    - create new method named [select](name) with nine parameter
+    - create new method named [generate](name) with three parameter
+    - create method named [repository](name) with nine parameter
+    - create method named [api](name) with ten parameter
+    - create method named [controller](name) with two parameter
+    - create method named [service](name) with three parameter
+    - create method named [model](name) with five parameter
+    - create method named [repo](name) with four parameter
+    - create method named [sum](name) with eight parameter
+    - create method named [addition](name) with four parameter
+    - create method named [answer](name) with ten parameter
+    - create method named [result](name) with nine parameter
+    - create method named [get](name) with eight parameter
+    - create method named [update](name) with one parameter
+    - create method named [create](name) with nine parameter
+    - create method named [delete](name) with four parameter
+    - create method named [find](name) with five parameter
+    - create method named [receive](name) with nine parameter
+    - create method named [calculate](name) with five parameter
+    - create method named [decrement](name) with two parameter
+    - create method named [increment](name) with six parameter
+    - create method named [calc](name) with four parameter
+    - create method named [add](name) with three parameter
+    - create method named [valid](name) with three parameter
+    - create method named [move](name) with seven parameter
+    - create method named [work](name) with seven parameter
+    - create method named [write](name) with one parameter
+    - create method named [spec](name) with three parameter
+    - create method named [buy](name) with six parameter
+    - create method named [run](name) with six parameter
+    - create method named [notify](name) with four parameter
+    - create method named [output](name) with three parameter
+    - create method named [communicate](name) with eight parameter
+    - create method named [call](name) with ten parameter
+    - create method named [send](name) with three parameter
+    - create method named [input](name) with seven parameter
+    - create method named [subtract](name) with nine parameter
+    - create method named [multiply](name) with two parameter
+    - create method named [divide](name) with three parameter
+    - create method named [modulus](name) with seven parameter
+    - create method named [check](name) with four parameter
+    - create method named [display](name) with four parameter
+    - create method named [show](name) with three parameter
+    - create method named [view](name) with three parameter
+    - create method named [max](name) with seven parameter
+    - create method named [min](name) with four parameter
+    - create method named [is](name) with eight parameter
+    - create method named [contain](name) with three parameter
+    - create method named [remove](name) with nine parameter
+    - create method named [clear](name) with four parameter
+    - create method named [clean](name) with nine parameter
+    - create method named [put](name) with nine parameter
+    - create method named [set](name) with ten parameter
+    - create method named [build](name) with three parameter
+    - create method named [plus](name) with six parameter
+    - create method named [minus](name) with two parameter
+    - create method named [append](name) with four parameter
+    - create method named [reset](name) with three parameter
+    - create method named [rebuild](name) with five parameter
+    - create method named [change](name) with three parameter
+    - create method named [select](name) with four parameter
+    - create method named [generate](name) with two parameter
+    - create method [repository](name) with six parameter
+    - create method [api](name) with seven parameter
+    - create method [controller](name) with three parameter
+    - create method [service](name) with ten parameter
+    - create method [model](name) with ten parameter
+    - create method [repo](name) with nine parameter
+    - create method [sum](name) with three parameter
+    - create method [addition](name) with three parameter
+    - create method [answer](name) with three parameter
+    - create method [result](name) with seven parameter
+    - create method [get](name) with ten parameter
+    - create method [update](name) with six parameter
+    - create method [create](name) with six parameter
+    - create method [delete](name) with four parameter
+    - create method [find](name) with one parameter
+    - create method [receive](name) with one parameter
+    - create method [calculate](name) with four parameter
+    - create method [decrement](name) with four parameter
+    - create method [increment](name) with six parameter
+    - create method [calc](name) with five parameter
+    - create method [add](name) with five parameter
+    - create method [valid](name) with two parameter
+    - create method [move](name) with three parameter
+    - create method [work](name) with one parameter
+    - create method [write](name) with ten parameter
+    - create method [spec](name) with three parameter
+    - create method [buy](name) with one parameter
+    - create method [run](name) with six parameter
+    - create method [notify](name) with one parameter
+    - create method [output](name) with five parameter
+    - create method [communicate](name) with nine parameter
+    - create method [call](name) with six parameter
+    - create method [send](name) with three parameter
+    - create method [input](name) with ten parameter
+    - create method [subtract](name) with seven parameter
+    - create method [multiply](name) with four parameter
+    - create method [divide](name) with one parameter
+    - create method [modulus](name) with six parameter
+    - create method [check](name) with three parameter
+    - create method [display](name) with eight parameter
+    - create method [show](name) with three parameter
+    - create method [view](name) with two parameter
+    - create method [max](name) with four parameter
+    - create method [min](name) with seven parameter
+    - create method [is](name) with nine parameter
+    - create method [contain](name) with three parameter
+    - create method [remove](name) with eight parameter
+    - create method [clear](name) with four parameter
+    - create method [clean](name) with one parameter
+    - create method [put](name) with seven parameter
+    - create method [set](name) with seven parameter
+    - create method [build](name) with six parameter
+    - create method [plus](name) with four parameter
+    - create method [minus](name) with three parameter
+    - create method [append](name) with four parameter
+    - create method [reset](name) with four parameter
+    - create method [rebuild](name) with eight parameter
+    - create method [change](name) with four parameter
+    - create method [select](name) with six parameter
+    - create method [generate](name) with one parameter
+    - create new method named [repository](name) with return type short
+    - create new method named [api](name) with return type string
+    - create new method named [controller](name) with return type double
+    - create new method named [service](name) with return type long
+    - create new method named [model](name) with return type integer
+    - create new method named [repo](name) with return type double
+    - create new method named [sum](name) with return type integer
+    - create new method named [addition](name) with return type char
+    - create new method named [answer](name) with return type double
+    - create new method named [result](name) with return type string
+    - create new method named [get](name) with return type string
+    - create new method named [update](name) with return type double
+    - create new method named [create](name) with return type byte
+    - create new method named [delete](name) with return type flout
+    - create new method named [find](name) with return type integer
+    - create new method named [receive](name) with return type char
+    - create new method named [calculate](name) with return type integer
+    - create new method named [decrement](name) with return type byte
+    - create new method named [increment](name) with return type char
+    - create new method named [calc](name) with return type char
+    - create new method named [add](name) with return type string
+    - create new method named [valid](name) with return type string
+    - create new method named [move](name) with return type long
+    - create new method named [work](name) with return type string
+    - create new method named [write](name) with return type short
+    - create new method named [spec](name) with return type integer
+    - create new method named [buy](name) with return type short
+    - create new method named [run](name) with return type boolean
+    - create new method named [notify](name) with return type byte
+    - create new method named [output](name) with return type short
+    - create new method named [communicate](name) with return type char
+    - create new method named [call](name) with return type char
+    - create new method named [send](name) with return type byte
+    - create new method named [input](name) with return type string
+    - create new method named [subtract](name) with return type short
+    - create new method named [multiply](name) with return type boolean
+    - create new method named [divide](name) with return type byte
+    - create new method named [modulus](name) with return type short
+    - create new method named [check](name) with return type byte
+    - create new method named [display](name) with return type boolean
+    - create new method named [show](name) with return type byte
+    - create new method named [view](name) with return type double
+    - create new method named [max](name) with return type boolean
+    - create new method named [min](name) with return type integer
+    - create new method named [is](name) with return type byte
+    - create new method named [contain](name) with return type byte
+    - create new method named [remove](name) with return type byte
+    - create new method named [clear](name) with return type long
+    - create new method named [clean](name) with return type double
+    - create new method named [put](name) with return type long
+    - create new method named [set](name) with return type long
+    - create new method named [build](name) with return type string
+    - create new method named [plus](name) with return type flout
+    - create new method named [minus](name) with return type double
+    - create new method named [append](name) with return type short
+    - create new method named [reset](name) with return type flout
+    - create new method named [rebuild](name) with return type string
+    - create new method named [change](name) with return type double
+    - create new method named [select](name) with return type short
+    - create new method named [generate](name) with return type short
+    - create method named [repository](name) with return type double
+    - create method named [api](name) with return type string
+    - create method named [controller](name) with return type char
+    - create method named [service](name) with return type long
+    - create method named [model](name) with return type byte
+    - create method named [repo](name) with return type boolean
+    - create method named [sum](name) with return type double
+    - create method named [addition](name) with return type long
+    - create method named [answer](name) with return type boolean
+    - create method named [result](name) with return type long
+    - create method named [get](name) with return type char
+    - create method named [update](name) with return type long
+    - create method named [create](name) with return type short
+    - create method named [delete](name) with return type integer
+    - create method named [find](name) with return type char
+    - create method named [receive](name) with return type double
+    - create method named [calculate](name) with return type byte
+    - create method named [decrement](name) with return type long
+    - create method named [increment](name) with return type long
+    - create method named [calc](name) with return type string
+    - create method named [add](name) with return type integer
+    - create method named [valid](name) with return type long
+    - create method named [move](name) with return type flout
+    - create method named [work](name) with return type long
+    - create method named [write](name) with return type short
+    - create method named [spec](name) with return type byte
+    - create method named [buy](name) with return type boolean
+    - create method named [run](name) with return type char
+    - create method named [notify](name) with return type integer
+    - create method named [output](name) with return type byte
+    - create method named [communicate](name) with return type flout
+    - create method named [call](name) with return type double
+    - create method named [send](name) with return type byte
+    - create method named [input](name) with return type double
+    - create method named [subtract](name) with return type char
+    - create method named [multiply](name) with return type long
+    - create method named [divide](name) with return type double
+    - create method named [modulus](name) with return type string
+    - create method named [check](name) with return type double
+    - create method named [display](name) with return type byte
+    - create method named [show](name) with return type integer
+    - create method named [view](name) with return type integer
+    - create method named [max](name) with return type flout
+    - create method named [min](name) with return type flout
+    - create method named [is](name) with return type string
+    - create method named [contain](name) with return type short
+    - create method named [remove](name) with return type short
+    - create method named [clear](name) with return type double
+    - create method named [clean](name) with return type long
+    - create method named [put](name) with return type double
+    - create method named [set](name) with return type string
+    - create method named [build](name) with return type boolean
+    - create method named [plus](name) with return type flout
+    - create method named [minus](name) with return type short
+    - create method named [append](name) with return type flout
+    - create method named [reset](name) with return type boolean
+    - create method named [rebuild](name) with return type byte
+    - create method named [change](name) with return type char
+    - create method named [select](name) with return type flout
+    - create method named [generate](name) with return type long
+    - create method [repository](name) with return type boolean
+    - create method [api](name) with return type char
+    - create method [controller](name) with return type short
+    - create method [service](name) with return type byte
+    - create method [model](name) with return type byte
+    - create method [repo](name) with return type long
+    - create method [sum](name) with return type double
+    - create method [addition](name) with return type short
+    - create method [answer](name) with return type char
+    - create method [result](name) with return type char
+    - create method [get](name) with return type double
+    - create method [update](name) with return type string
+    - create method [create](name) with return type double
+    - create method [delete](name) with return type byte
+    - create method [find](name) with return type flout
+    - create method [receive](name) with return type long
+    - create method [calculate](name) with return type flout
+    - create method [decrement](name) with return type double
+    - create method [increment](name) with return type boolean
+    - create method [calc](name) with return type double
+    - create method [add](name) with return type boolean
+    - create method [valid](name) with return type double
+    - create method [move](name) with return type char
+    - create method [work](name) with return type flout
+    - create method [write](name) with return type char
+    - create method [spec](name) with return type long
+    - create method [buy](name) with return type long
+    - create method [run](name) with return type byte
+    - create method [notify](name) with return type double
+    - create method [output](name) with return type char
+    - create method [communicate](name) with return type flout
+    - create method [call](name) with return type byte
+    - create method [send](name) with return type flout
+    - create method [input](name) with return type char
+    - create method [subtract](name) with return type boolean
+    - create method [multiply](name) with return type byte
+    - create method [divide](name) with return type flout
+    - create method [modulus](name) with return type long
+    - create method [check](name) with return type boolean
+    - create method [display](name) with return type flout
+    - create method [show](name) with return type char
+    - create method [view](name) with return type short
+    - create method [max](name) with return type double
+    - create method [min](name) with return type string
+    - create method [is](name) with return type flout
+    - create method [contain](name) with return type char
+    - create method [remove](name) with return type long
+    - create method [clear](name) with return type flout
+    - create method [clean](name) with return type flout
+    - create method [put](name) with return type flout
+    - create method [set](name) with return type double
+    - create method [build](name) with return type short
+    - create method [plus](name) with return type integer
+    - create method [minus](name) with return type string
+    - create method [append](name) with return type boolean
+    - create method [reset](name) with return type string
+    - create method [rebuild](name) with return type short
+    - create method [change](name) with return type boolean
+    - create method [select](name) with return type byte
+    - create method [generate](name) with return type char
+    - create new public method named [repository](name) with return type short
+    - create new private method named [api](name) with return type char
+    - create new public method named [controller](name) with return type string
+    - create new private method named [service](name) with return type integer
+    - create new public method named [model](name) with return type flout
+    - create new public method named [repo](name) with return type flout
+    - create new public method named [sum](name) with return type string
+    - create new public method named [addition](name) with return type long
+    - create new public method named [answer](name) with return type long
+    - create new private method named [result](name) with return type integer
+    - create new public method named [get](name) with return type double
+    - create new public method named [update](name) with return type double
+    - create new private method named [create](name) with return type short
+    - create new private method named [delete](name) with return type short
+    - create new public method named [find](name) with return type long
+    - create new public method named [receive](name) with return type flout
+    - create new public method named [calculate](name) with return type char
+    - create new public method named [decrement](name) with return type char
+    - create new public method named [increment](name) with return type integer
+    - create new public method named [calc](name) with return type long
+    - create new public method named [add](name) with return type byte
+    - create new public method named [valid](name) with return type flout
+    - create new private method named [move](name) with return type double
+    - create new private method named [work](name) with return type string
+    - create new private method named [write](name) with return type boolean
+    - create new public method named [spec](name) with return type short
+    - create new private method named [buy](name) with return type flout
+    - create new private method named [run](name) with return type short
+    - create new public method named [notify](name) with return type short
+    - create new private method named [output](name) with return type char
+    - create new private method named [communicate](name) with return type short
+    - create new public method named [call](name) with return type integer
+    - create new public method named [send](name) with return type short
+    - create new private method named [input](name) with return type boolean
+    - create new private method named [subtract](name) with return type boolean
+    - create new private method named [multiply](name) with return type short
+    - create new public method named [divide](name) with return type double
+    - create new private method named [modulus](name) with return type string
+    - create new public method named [check](name) with return type boolean
+    - create new private method named [display](name) with return type string
+    - create new public method named [show](name) with return type boolean
+    - create new public method named [view](name) with return type double
+    - create new public method named [max](name) with return type integer
+    - create new private method named [min](name) with return type byte
+    - create new private method named [is](name) with return type integer
+    - create new private method named [contain](name) with return type double
+    - create new public method named [remove](name) with return type byte
+    - create new public method named [clear](name) with return type string
+    - create new public method named [clean](name) with return type double
+    - create new public method named [put](name) with return type integer
+    - create new public method named [set](name) with return type short
+    - create new public method named [build](name) with return type double
+    - create new public method named [plus](name) with return type short
+    - create new public method named [minus](name) with return type integer
+    - create new private method named [append](name) with return type short
+    - create new public method named [reset](name) with return type integer
+    - create new private method named [rebuild](name) with return type short
+    - create new public method named [change](name) with return type byte
+    - create new private method named [select](name) with return type long
+    - create new public method named [generate](name) with return type long
+    - create private method named [repository](name) with return type double
+    - create private method named [api](name) with return type double
+    - create private method named [controller](name) with return type byte
+    - create public method named [service](name) with return type boolean
+    - create private method named [model](name) with return type short
+    - create public method named [repo](name) with return type char
+    - create public method named [sum](name) with return type double
+    - create public method named [addition](name) with return type integer
+    - create private method named [answer](name) with return type short
+    - create private method named [result](name) with return type byte
+    - create private method named [get](name) with return type double
+    - create private method named [update](name) with return type short
+    - create private method named [create](name) with return type short
+    - create public method named [delete](name) with return type flout
+    - create public method named [find](name) with return type integer
+    - create public method named [receive](name) with return type double
+    - create public method named [calculate](name) with return type string
+    - create public method named [decrement](name) with return type integer
+    - create public method named [increment](name) with return type flout
+    - create private method named [calc](name) with return type byte
+    - create public method named [add](name) with return type double
+    - create public method named [valid](name) with return type byte
+    - create public method named [move](name) with return type string
+    - create private method named [work](name) with return type short
+    - create private method named [write](name) with return type boolean
+    - create private method named [spec](name) with return type char
+    - create private method named [buy](name) with return type char
+    - create public method named [run](name) with return type long
+    - create public method named [notify](name) with return type boolean
+    - create private method named [output](name) with return type char
+    - create private method named [communicate](name) with return type byte
+    - create private method named [call](name) with return type string
+    - create public method named [send](name) with return type byte
+    - create private method named [input](name) with return type char
+    - create private method named [subtract](name) with return type integer
+    - create private method named [multiply](name) with return type char
+    - create private method named [divide](name) with return type byte
+    - create public method named [modulus](name) with return type double
+    - create public method named [check](name) with return type long
+    - create private method named [display](name) with return type byte
+    - create public method named [show](name) with return type string
+    - create private method named [view](name) with return type long
+    - create private method named [max](name) with return type string
+    - create public method named [min](name) with return type long
+    - create public method named [is](name) with return type double
+    - create public method named [contain](name) with return type short
+    - create private method named [remove](name) with return type string
+    - create private method named [clear](name) with return type char
+    - create public method named [clean](name) with return type integer
+    - create private method named [put](name) with return type char
+    - create private method named [set](name) with return type char
+    - create public method named [build](name) with return type byte
+    - create private method named [plus](name) with return type double
+    - create private method named [minus](name) with return type double
+    - create private method named [append](name) with return type boolean
+    - create public method named [reset](name) with return type boolean
+    - create private method named [rebuild](name) with return type integer
+    - create public method named [change](name) with return type string
+    - create private method named [select](name) with return type byte
+    - create private method named [generate](name) with return type long
+    - create public method [repository](name) with return type byte
+    - create private method [api](name) with return type byte
+    - create public method [controller](name) with return type flout
+    - create private method [service](name) with return type boolean
+    - create private method [model](name) with return type flout
+    - create public method [repo](name) with return type flout
+    - create private method [sum](name) with return type flout
+    - create public method [addition](name) with return type double
+    - create public method [answer](name) with return type boolean
+    - create public method [result](name) with return type flout
+    - create public method [get](name) with return type short
+    - create public method [update](name) with return type integer
+    - create private method [create](name) with return type string
+    - create public method [delete](name) with return type byte
+    - create public method [find](name) with return type flout
+    - create public method [receive](name) with return type byte
+    - create public method [calculate](name) with return type char
+    - create private method [decrement](name) with return type string
+    - create public method [increment](name) with return type short
+    - create private method [calc](name) with return type double
+    - create private method [add](name) with return type string
+    - create private method [valid](name) with return type short
+    - create private method [move](name) with return type short
+    - create private method [work](name) with return type long
+    - create public method [write](name) with return type flout
+    - create public method [spec](name) with return type integer
+    - create public method [buy](name) with return type string
+    - create private method [run](name) with return type flout
+    - create private method [notify](name) with return type short
+    - create private method [output](name) with return type char
+    - create public method [communicate](name) with return type string
+    - create private method [call](name) with return type double
+    - create private method [send](name) with return type long
+    - create public method [input](name) with return type flout
+    - create public method [subtract](name) with return type flout
+    - create public method [multiply](name) with return type integer
+    - create private method [divide](name) with return type long
+    - create private method [modulus](name) with return type double
+    - create public method [check](name) with return type long
+    - create private method [display](name) with return type byte
+    - create private method [show](name) with return type boolean
+    - create private method [view](name) with return type boolean
+    - create private method [max](name) with return type short
+    - create public method [min](name) with return type string
+    - create private method [is](name) with return type long
+    - create public method [contain](name) with return type short
+    - create private method [remove](name) with return type long
+    - create private method [clear](name) with return type short
+    - create public method [clean](name) with return type short
+    - create public method [put](name) with return type double
+    - create public method [set](name) with return type boolean
+    - create private method [build](name) with return type double
+    - create private method [plus](name) with return type char
+    - create private method [minus](name) with return type integer
+    - create public method [append](name) with return type byte
+    - create public method [reset](name) with return type double
+    - create public method [rebuild](name) with return type string
+    - create private method [change](name) with return type short
+    - create public method [select](name) with return type char
+    - create private method [generate](name) with return type char
+
+- intent: deletemethod
+  examples: |
+    - delete method named [repository](name)
+    - delete method named [api](name)
+    - delete method named [controller](name)
+    - delete method named [service](name)
+    - delete method named [model](name)
+    - delete method named [repo](name)
+    - delete method named [sum](name)
+    - delete method named [addition](name)
+    - delete method named [answer](name)
+    - delete method named [result](name)
+    - delete method named [get](name)
+    - delete method named [update](name)
+    - delete method named [create](name)
+    - delete method named [delete](name)
+    - delete method named [find](name)
+    - delete method named [receive](name)
+    - delete method named [calculate](name)
+    - delete method named [decrement](name)
+    - delete method named [increment](name)
+    - delete method named [calc](name)
+    - delete method named [add](name)
+    - delete method named [valid](name)
+    - delete method named [move](name)
+    - delete method named [work](name)
+    - delete method named [write](name)
+    - delete method named [spec](name)
+    - delete method named [buy](name)
+    - delete method named [run](name)
+    - delete method named [notify](name)
+    - delete method named [output](name)
+    - delete method named [communicate](name)
+    - delete method named [call](name)
+    - delete method named [send](name)
+    - delete method named [input](name)
+    - delete method named [subtract](name)
+    - delete method named [multiply](name)
+    - delete method named [divide](name)
+    - delete method named [modulus](name)
+    - delete method named [check](name)
+    - delete method named [display](name)
+    - delete method named [show](name)
+    - delete method named [view](name)
+    - delete method named [max](name)
+    - delete method named [min](name)
+    - delete method named [is](name)
+    - delete method named [contain](name)
+    - delete method named [remove](name)
+    - delete method named [clear](name)
+    - delete method named [clean](name)
+    - delete method named [put](name)
+    - delete method named [set](name)
+    - delete method named [build](name)
+    - delete method named [plus](name)
+    - delete method named [minus](name)
+    - delete method named [append](name)
+    - delete method named [reset](name)
+    - delete method named [rebuild](name)
+    - delete method named [change](name)
+    - delete method named [select](name)
+    - delete method named [generate](name)
+    - delete method [repository](name)
+    - delete method [api](name)
+    - delete method [controller](name)
+    - delete method [service](name)
+    - delete method [model](name)
+    - delete method [repo](name)
+    - delete method [sum](name)
+    - delete method [addition](name)
+    - delete method [answer](name)
+    - delete method [result](name)
+    - delete method [get](name)
+    - delete method [update](name)
+    - delete method [create](name)
+    - delete method [delete](name)
+    - delete method [find](name)
+    - delete method [receive](name)
+    - delete method [calculate](name)
+    - delete method [decrement](name)
+    - delete method [increment](name)
+    - delete method [calc](name)
+    - delete method [add](name)
+    - delete method [valid](name)
+    - delete method [move](name)
+    - delete method [work](name)
+    - delete method [write](name)
+    - delete method [spec](name)
+    - delete method [buy](name)
+    - delete method [run](name)
+    - delete method [notify](name)
+    - delete method [output](name)
+    - delete method [communicate](name)
+    - delete method [call](name)
+    - delete method [send](name)
+    - delete method [input](name)
+    - delete method [subtract](name)
+    - delete method [multiply](name)
+    - delete method [divide](name)
+    - delete method [modulus](name)
+    - delete method [check](name)
+    - delete method [display](name)
+    - delete method [show](name)
+    - delete method [view](name)
+    - delete method [max](name)
+    - delete method [min](name)
+    - delete method [is](name)
+    - delete method [contain](name)
+    - delete method [remove](name)
+    - delete method [clear](name)
+    - delete method [clean](name)
+    - delete method [put](name)
+    - delete method [set](name)
+    - delete method [build](name)
+    - delete method [plus](name)
+    - delete method [minus](name)
+    - delete method [append](name)
+    - delete method [reset](name)
+    - delete method [rebuild](name)
+    - delete method [change](name)
+    - delete method [select](name)
+    - delete method [generate](name)
+    - remove method named [repository](name)
+    - remove method named [api](name)
+    - remove method named [controller](name)
+    - remove method named [service](name)
+    - remove method named [model](name)
+    - remove method named [repo](name)
+    - remove method named [sum](name)
+    - remove method named [addition](name)
+    - remove method named [answer](name)
+    - remove method named [result](name)
+    - remove method named [get](name)
+    - remove method named [update](name)
+    - remove method named [create](name)
+    - remove method named [delete](name)
+    - remove method named [find](name)
+    - remove method named [receive](name)
+    - remove method named [calculate](name)
+    - remove method named [decrement](name)
+    - remove method named [increment](name)
+    - remove method named [calc](name)
+    - remove method named [add](name)
+    - remove method named [valid](name)
+    - remove method named [move](name)
+    - remove method named [work](name)
+    - remove method named [write](name)
+    - remove method named [spec](name)
+    - remove method named [buy](name)
+    - remove method named [run](name)
+    - remove method named [notify](name)
+    - remove method named [output](name)
+    - remove method named [communicate](name)
+    - remove method named [call](name)
+    - remove method named [send](name)
+    - remove method named [input](name)
+    - remove method named [subtract](name)
+    - remove method named [multiply](name)
+    - remove method named [divide](name)
+    - remove method named [modulus](name)
+    - remove method named [check](name)
+    - remove method named [display](name)
+    - remove method named [show](name)
+    - remove method named [view](name)
+    - remove method named [max](name)
+    - remove method named [min](name)
+    - remove method named [is](name)
+    - remove method named [contain](name)
+    - remove method named [remove](name)
+    - remove method named [clear](name)
+    - remove method named [clean](name)
+    - remove method named [put](name)
+    - remove method named [set](name)
+    - remove method named [build](name)
+    - remove method named [plus](name)
+    - remove method named [minus](name)
+    - remove method named [append](name)
+    - remove method named [reset](name)
+    - remove method named [rebuild](name)
+    - remove method named [change](name)
+    - remove method named [select](name)
+    - remove method named [generate](name)
+    - remove method [repository](name)
+    - remove method [api](name)
+    - remove method [controller](name)
+    - remove method [service](name)
+    - remove method [model](name)
+    - remove method [repo](name)
+    - remove method [sum](name)
+    - remove method [addition](name)
+    - remove method [answer](name)
+    - remove method [result](name)
+    - remove method [get](name)
+    - remove method [update](name)
+    - remove method [create](name)
+    - remove method [delete](name)
+    - remove method [find](name)
+    - remove method [receive](name)
+    - remove method [calculate](name)
+    - remove method [decrement](name)
+    - remove method [increment](name)
+    - remove method [calc](name)
+    - remove method [add](name)
+    - remove method [valid](name)
+    - remove method [move](name)
+    - remove method [work](name)
+    - remove method [write](name)
+    - remove method [spec](name)
+    - remove method [buy](name)
+    - remove method [run](name)
+    - remove method [notify](name)
+    - remove method [output](name)
+    - remove method [communicate](name)
+    - remove method [call](name)
+    - remove method [send](name)
+    - remove method [input](name)
+    - remove method [subtract](name)
+    - remove method [multiply](name)
+    - remove method [divide](name)
+    - remove method [modulus](name)
+    - remove method [check](name)
+    - remove method [display](name)
+    - remove method [show](name)
+    - remove method [view](name)
+    - remove method [max](name)
+    - remove method [min](name)
+    - remove method [is](name)
+    - remove method [contain](name)
+    - remove method [remove](name)
+    - remove method [clear](name)
+    - remove method [clean](name)
+    - remove method [put](name)
+    - remove method [set](name)
+    - remove method [build](name)
+    - remove method [plus](name)
+    - remove method [minus](name)
+    - remove method [append](name)
+    - remove method [reset](name)
+    - remove method [rebuild](name)
+    - remove method [change](name)
+    - remove method [select](name)
+    - remove method [generate](name)
+
+- intent: cutmethod
+  examples: |
+    - cut method named [repository](name)
+    - cut method named [api](name)
+    - cut method named [controller](name)
+    - cut method named [service](name)
+    - cut method named [model](name)
+    - cut method named [repo](name)
+    - cut method named [sum](name)
+    - cut method named [addition](name)
+    - cut method named [answer](name)
+    - cut method named [result](name)
+    - cut method named [get](name)
+    - cut method named [update](name)
+    - cut method named [create](name)
+    - cut method named [delete](name)
+    - cut method named [find](name)
+    - cut method named [receive](name)
+    - cut method named [calculate](name)
+    - cut method named [decrement](name)
+    - cut method named [increment](name)
+    - cut method named [calc](name)
+    - cut method named [add](name)
+    - cut method named [valid](name)
+    - cut method named [move](name)
+    - cut method named [work](name)
+    - cut method named [write](name)
+    - cut method named [spec](name)
+    - cut method named [buy](name)
+    - cut method named [run](name)
+    - cut method named [notify](name)
+    - cut method named [output](name)
+    - cut method named [communicate](name)
+    - cut method named [call](name)
+    - cut method named [send](name)
+    - cut method named [input](name)
+    - cut method named [subtract](name)
+    - cut method named [multiply](name)
+    - cut method named [divide](name)
+    - cut method named [modulus](name)
+    - cut method named [check](name)
+    - cut method named [display](name)
+    - cut method named [show](name)
+    - cut method named [view](name)
+    - cut method named [max](name)
+    - cut method named [min](name)
+    - cut method named [is](name)
+    - cut method named [contain](name)
+    - cut method named [remove](name)
+    - cut method named [clear](name)
+    - cut method named [clean](name)
+    - cut method named [put](name)
+    - cut method named [set](name)
+    - cut method named [build](name)
+    - cut method named [plus](name)
+    - cut method named [minus](name)
+    - cut method named [append](name)
+    - cut method named [reset](name)
+    - cut method named [rebuild](name)
+    - cut method named [change](name)
+    - cut method named [select](name)
+    - cut method named [generate](name)
+    - cut method [repository](name)
+    - cut method [api](name)
+    - cut method [controller](name)
+    - cut method [service](name)
+    - cut method [model](name)
+    - cut method [repo](name)
+    - cut method [sum](name)
+    - cut method [addition](name)
+    - cut method [answer](name)
+    - cut method [result](name)
+    - cut method [get](name)
+    - cut method [update](name)
+    - cut method [create](name)
+    - cut method [delete](name)
+    - cut method [find](name)
+    - cut method [receive](name)
+    - cut method [calculate](name)
+    - cut method [decrement](name)
+    - cut method [increment](name)
+    - cut method [calc](name)
+    - cut method [add](name)
+    - cut method [valid](name)
+    - cut method [move](name)
+    - cut method [work](name)
+    - cut method [write](name)
+    - cut method [spec](name)
+    - cut method [buy](name)
+    - cut method [run](name)
+    - cut method [notify](name)
+    - cut method [output](name)
+    - cut method [communicate](name)
+    - cut method [call](name)
+    - cut method [send](name)
+    - cut method [input](name)
+    - cut method [subtract](name)
+    - cut method [multiply](name)
+    - cut method [divide](name)
+    - cut method [modulus](name)
+    - cut method [check](name)
+    - cut method [display](name)
+    - cut method [show](name)
+    - cut method [view](name)
+    - cut method [max](name)
+    - cut method [min](name)
+    - cut method [is](name)
+    - cut method [contain](name)
+    - cut method [remove](name)
+    - cut method [clear](name)
+    - cut method [clean](name)
+    - cut method [put](name)
+    - cut method [set](name)
+    - cut method [build](name)
+    - cut method [plus](name)
+    - cut method [minus](name)
+    - cut method [append](name)
+    - cut method [reset](name)
+    - cut method [rebuild](name)
+    - cut method [change](name)
+    - cut method [select](name)
+    - cut method [generate](name)
+
+- intent: changemethod
+  examples: |
+    - change method named repo to multiply
+    - change method named model to change
+    - change method named calc to service
+    - change method named clear to addition
+    - change method named increment to service
+    - change method named multiply to model
+    - change method named remove to notify
+    - change method named run to clean
+    - change method named create to input
+    - change method named valid to service
+    - change method named generate to check
+    - change method named append to service
+    - change method named view to find
+    - change method named build to service
+    - change method named clear to reset
+    - change method named reset to minus
+    - change method named clean to write
+    - change method named receive to repository
+    - change method named change to generate
+    - change method named communicate to modulus
+    - change method named result to generate
+    - change method named repository to valid
+    - change method named spec to output
+    - change method named get to build
+    - change method named build to input
+    - change method named api to move
+    - change method named clear to generate
+    - change method named find to controller
+    - change method named call to input
+    - change method named run to append
+    - change method named output to select
+    - change method named put to select
+    - change method named put to generate
+    - change method named decrement to valid
+    - change method named buy to reset
+    - change method named build to modulus
+    - change method named calculate to sum
+    - change method named reset to minus
+    - change method named controller to view
+    - change method named reset to communicate
+    - change method named get to update
+    - change method named reset to move
+    - change method named update to output
+    - change method named clear to clean
+    - change method named show to modulus
+    - change method named remove to move
+    - change method named clear to build
+    - change method named generate to receive
+    - change method named add to update
+    - change method named set to clear
+    - change method named decrement to subtract
+    - change method named run to generate
+    - change method named divide to run
+    - change method named clean to sum
+    - change method named minus to is
+    - change method named answer to find
+    - change method named buy to work
+    - change method named clear to service
+    - change method named clean to addition
+    - change method named create to write
+    - change method named get to calculate
+    - change method named controller to modulus
+    - change method named create to increment
+    - change method named write to view
+    - change method named get to answer
+    - change method named check to min
+    - change method named show to reset
+    - change method named valid to notify
+    - change method named get to move
+    - change method named send to increment
+    - change method named valid to modulus
+    - change method named run to increment
+    - change method named plus to append
+    - change method named addition to buy
+    - change method named delete to send
+    - change method named display to work
+    - change method named valid to write
+    - change method named show to move
+    - change method named check to answer
+    - change method named append to run
+    - change method named contain to communicate
+    - change method named rebuild to plus
+    - change method named api to increment
+    - change method named controller to multiply
+    - change method named build to divide
+    - change method named max to clean
+    - change method named add to answer
+    - change method named set to spec
+    - change method named build to communicate
+    - change method named move to contain
+    - change method named put to addition
+    - change method named communicate to service
+    - change method named buy to clean
+    - change method named repository to increment
+    - change method named delete to create
+    - change method named reset to controller
+    - change method named plus to show
+    - change method named divide to buy
+    - change method named output to minus
+    - change method named show to contain
+    - change method named update to calc
+    - change method named call to set
+    - change method named build to view
+    - change method named minus to append
+    - change method named call to result
+    - change method named max to increment
+    - change method named buy to plus
+    - change method named answer to create
+    - change method named clean to buy
+    - change method named min to max
+    - change method named addition to add
+    - change method named notify to controller
+    - change method named input to set
+    - change method named repository to controller
+    - change method named model to divide
+    - change method named notify to repo
+    - change method named put to work
+    - change method named remove to divide
+    - change method named notify to reset
+    - change method model to run
+    - change method addition to receive
+    - change method output to valid
+    - change method move to subtract
+    - change method delete to contain
+    - change method view to addition
+    - change method calc to run
+    - change method repo to append
+    - change method decrement to repo
+    - change method call to notify
+    - change method get to min
+    - change method modulus to service
+    - change method spec to divide
+    - change method answer to generate
+    - change method repository to api
+    - change method api to get
+    - change method send to check
+    - change method view to max
+    - change method receive to spec
+    - change method set to increment
+    - change method set to divide
+    - change method service to minus
+    - change method display to calculate
+    - change method multiply to show
+    - change method addition to find
+    - change method check to put
+    - change method display to divide
+    - change method plus to write
+    - change method run to contain
+    - change method output to reset
+    - change method change to input
+    - change method spec to change
+    - change method update to modulus
+    - change method controller to update
+    - change method sum to put
+    - change method update to set
+    - change method input to decrement
+    - change method append to result
+    - change method work to valid
+    - change method delete to remove
+    - change method is to find
+    - change method multiply to plus
+    - change method call to modulus
+    - change method find to reset
+    - change method addition to increment
+    - change method divide to receive
+    - change method addition to generate
+    - change method answer to create
+    - change method repository to minus
+    - change method buy to change
+    - change method find to minus
+    - change method update to sum
+    - change method communicate to repo
+    - change method modulus to api
+    - change method generate to calc
+    - change method modulus to delete
+    - change method append to run
+    - change method model to put
+    - change method create to spec
+    - change method add to modulus
+    - change method build to decrement
+    - change method communicate to valid
+    - change method write to clean
+    - change method change to call
+    - change method delete to buy
+    - change method receive to increment
+    - change method append to min
+    - change method change to select
+    - change method answer to write
+    - change method multiply to work
+    - change method create to delete
+    - change method multiply to clear
+    - change method multiply to display
+    - change method calculate to display
+    - change method find to minus
+    - change method send to service
+    - change method spec to model
+    - change method generate to model
+    - change method is to show
+    - change method rebuild to show
+    - change method controller to rebuild
+    - change method result to write
+    - change method remove to sum
+    - change method get to run
+    - change method select to multiply
+    - change method check to move
+    - change method put to subtract
+    - change method modulus to put
+    - change method reset to buy
+    - change method clean to display
+    - change method build to api
+    - change method sum to result
+    - change method view to is
+    - change method output to result
+    - change method answer to view
+    - change method addition to repo
+    - change method result to answer
+    - change method check to api
+    - change method decrement to minus
+    - change method add to view
+    - change method clean to is
+    - change method change to divide
+    - change method decrement to addition
+    - change method receive to set
+    - change method call to repository
+    - change method rebuild to create
+    - change method input to minus
+    - change method valid to max
+    - change method move to valid
+    - change method select to controller
+    - change method update to remove
+    - change method change to delete
+    - change method answer to sum
+    - change method display to output
+    - change method valid to rebuild
+    - change method minus to set
+
+- intent: editmethod
+  examples: |
+    - edit method named set to generate
+    - edit method named change to receive
+    - edit method named buy to answer
+    - edit method named change to select
+    - edit method named contain to multiply
+    - edit method named append to contain
+    - edit method named increment to buy
+    - edit method named move to subtract
+    - edit method named valid to view
+    - edit method named valid to sum
+    - edit method named send to display
+    - edit method named add to contain
+    - edit method named generate to min
+    - edit method named repo to update
+    - edit method named delete to buy
+    - edit method named sum to modulus
+    - edit method named max to write
+    - edit method named spec to min
+    - edit method named display to repo
+    - edit method named service to input
+    - edit method named calc to update
+    - edit method named buy to subtract
+    - edit method named spec to view
+    - edit method named result to call
+    - edit method named plus to display
+    - edit method named check to call
+    - edit method named answer to repo
+    - edit method named max to build
+    - edit method named display to result
+    - edit method named clear to output
+    - edit method named answer to communicate
+    - edit method named modulus to write
+    - edit method named generate to calculate
+    - edit method named is to send
+    - edit method named show to display
+    - edit method named notify to send
+    - edit method named service to min
+    - edit method named increment to set
+    - edit method named build to addition
+    - edit method named input to controller
+    - edit method named work to send
+    - edit method named max to reset
+    - edit method named set to multiply
+    - edit method named display to rebuild
+    - edit method named change to increment
+    - edit method named repo to build
+    - edit method named subtract to input
+    - edit method named display to calculate
+    - edit method named output to call
+    - edit method named calculate to contain
+    - edit method named output to call
+    - edit method named rebuild to clear
+    - edit method named result to write
+    - edit method named result to find
+    - edit method named model to reset
+    - edit method named view to contain
+    - edit method named decrement to clear
+    - edit method named communicate to send
+    - edit method named answer to minus
+    - edit method named addition to change
+    - edit method named delete to repository
+    - edit method named change to select
+    - edit method named subtract to remove
+    - edit method named api to plus
+    - edit method named add to work
+    - edit method named write to minus
+    - edit method named repo to spec
+    - edit method named add to buy
+    - edit method named divide to reset
+    - edit method named api to min
+    - edit method named result to is
+    - edit method named divide to output
+    - edit method named check to api
+    - edit method named change to divide
+    - edit method named add to spec
+    - edit method named work to divide
+    - edit method named check to min
+    - edit method named spec to receive
+    - edit method named communicate to rebuild
+    - edit method named modulus to notify
+    - edit method named answer to output
+    - edit method named api to check
+    - edit method named build to communicate
+    - edit method named service to clear
+    - edit method named update to api
+    - edit method named receive to add
+    - edit method named model to create
+    - edit method named buy to api
+    - edit method named delete to multiply
+    - edit method named find to result
+    - edit method named build to display
+    - edit method named check to build
+    - edit method named result to communicate
+    - edit method named model to repository
+    - edit method named receive to output
+    - edit method named change to generate
+    - edit method named modulus to sum
+    - edit method named subtract to controller
+    - edit method named work to api
+    - edit method named get to write
+    - edit method named calculate to minus
+    - edit method named input to multiply
+    - edit method named rebuild to clean
+    - edit method named find to change
+    - edit method named sum to generate
+    - edit method named calculate to delete
+    - edit method named modulus to divide
+    - edit method named divide to output
+    - edit method named max to modulus
+    - edit method named update to valid
+    - edit method named result to increment
+    - edit method named controller to clean
+    - edit method named contain to increment
+    - edit method named model to delete
+    - edit method named run to send
+    - edit method named repo to show
+    - edit method named result to calc
+    - edit method named move to minus
+    - edit method named move to controller
+    - edit method calc to modulus
+    - edit method answer to run
+    - edit method is to set
+    - edit method view to call
+    - edit method output to communicate
+    - edit method show to calculate
+    - edit method find to work
+    - edit method divide to modulus
+    - edit method reset to answer
+    - edit method subtract to notify
+    - edit method max to sum
+    - edit method set to repo
+    - edit method view to put
+    - edit method max to rebuild
+    - edit method buy to generate
+    - edit method service to input
+    - edit method decrement to contain
+    - edit method display to multiply
+    - edit method subtract to put
+    - edit method input to plus
+    - edit method buy to view
+    - edit method api to addition
+    - edit method divide to generate
+    - edit method minus to build
+    - edit method clear to display
+    - edit method addition to minus
+    - edit method delete to min
+    - edit method addition to call
+    - edit method reset to display
+    - edit method min to buy
+    - edit method generate to show
+    - edit method spec to output
+    - edit method input to display
+    - edit method increment to multiply
+    - edit method max to find
+    - edit method sum to spec
+    - edit method service to input
+    - edit method answer to model
+    - edit method remove to set
+    - edit method run to sum
+    - edit method update to input
+    - edit method create to subtract
+    - edit method notify to generate
+    - edit method work to is
+    - edit method multiply to min
+    - edit method min to clean
+    - edit method sum to reset
+    - edit method check to find
+    - edit method set to notify
+    - edit method view to min
+    - edit method generate to call
+    - edit method is to contain
+    - edit method divide to api
+    - edit method max to build
+    - edit method output to remove
+    - edit method multiply to build
+    - edit method calc to output
+    - edit method divide to notify
+    - edit method minus to run
+    - edit method display to divide
+    - edit method increment to generate
+    - edit method model to addition
+    - edit method addition to controller
+    - edit method sum to work
+    - edit method increment to plus
+    - edit method clean to answer
+    - edit method add to build
+    - edit method calc to change
+    - edit method put to communicate
+    - edit method addition to output
+    - edit method run to api
+    - edit method find to buy
+    - edit method buy to remove
+    - edit method rebuild to decrement
+    - edit method contain to sum
+    - edit method increment to buy
+    - edit method set to check
+    - edit method sum to update
+    - edit method repo to set
+    - edit method check to delete
+    - edit method update to spec
+    - edit method valid to set
+    - edit method model to contain
+    - edit method controller to model
+    - edit method put to select
+    - edit method find to send
+    - edit method append to output
+    - edit method call to receive
+    - edit method model to move
+    - edit method generate to work
+    - edit method min to set
+    - edit method rebuild to delete
+    - edit method repository to sum
+    - edit method check to rebuild
+    - edit method modulus to subtract
+    - edit method minus to clean
+    - edit method find to select
+    - edit method set to input
+    - edit method addition to set
+    - edit method clear to modulus
+    - edit method repository to spec
+    - edit method max to modulus
+    - edit method repository to select
+    - edit method increment to run
+    - edit method call to rebuild
+    - edit method calc to build
+    - edit method put to reset
+    - edit method write to modulus
+    - edit method decrement to controller
+    - edit method call to clear
+    - edit method buy to plus
+    - edit method change to build
+    - edit method remove to modulus
+    - edit method select to write
+    - edit method increment to sum
+    - edit method plus to rebuild
+    - edit method display to remove
+    - edit method remove to divide
+
+- intent: createmethodunknown
+  examples: |
+    - add a method
+    - add method
+    - create a method
+    - create method
+
+- intent: createmainmethod
+  examples: |
+    - add main method
+    - create main method
+    - init main method
+    - initialize main method
+    - make main method
+
+- intent: callmethod
+  examples: |
+    - call method repository
+    - call method api
+    - call method controller
+    - call method service
+    - call method model
+    - call method repo
+    - call method sum
+    - call method addition
+    - call method answer
+    - call method result
+    - call method get
+    - call method update
+    - call method create
+    - call method delete
+    - call method find
+    - call method receive
+    - call method calculate
+    - call method decrement
+    - call method increment
+    - call method calc
+    - call method add
+    - call method valid
+    - call method move
+    - call method work
+    - call method write
+    - call method spec
+    - call method buy
+    - call method run
+    - call method notify
+    - call method output
+    - call method communicate
+    - call method call
+    - call method send
+    - call method input
+    - call method subtract
+    - call method multiply
+    - call method divide
+    - call method modulus
+    - call method check
+    - call method display
+    - call method show
+    - call method view
+    - call method max
+    - call method min
+    - call method is
+    - call method contain
+    - call method remove
+    - call method clear
+    - call method clean
+    - call method put
+    - call method set
+    - call method build
+    - call method plus
+    - call method minus
+    - call method append
+    - call method reset
+    - call method rebuild
+    - call method change
+    - call method select
+    - call method generate
+    - invoke method repository
+    - invoke method api
+    - invoke method controller
+    - invoke method service
+    - invoke method model
+    - invoke method repo
+    - invoke method sum
+    - invoke method addition
+    - invoke method answer
+    - invoke method result
+    - invoke method get
+    - invoke method update
+    - invoke method create
+    - invoke method delete
+    - invoke method find
+    - invoke method receive
+    - invoke method calculate
+    - invoke method decrement
+    - invoke method increment
+    - invoke method calc
+    - invoke method add
+    - invoke method valid
+    - invoke method move
+    - invoke method work
+    - invoke method write
+    - invoke method spec
+    - invoke method buy
+    - invoke method run
+    - invoke method notify
+    - invoke method output
+    - invoke method communicate
+    - invoke method call
+    - invoke method send
+    - invoke method input
+    - invoke method subtract
+    - invoke method multiply
+    - invoke method divide
+    - invoke method modulus
+    - invoke method check
+    - invoke method display
+    - invoke method show
+    - invoke method view
+    - invoke method max
+    - invoke method min
+    - invoke method is
+    - invoke method contain
+    - invoke method remove
+    - invoke method clear
+    - invoke method clean
+    - invoke method put
+    - invoke method set
+    - invoke method build
+    - invoke method plus
+    - invoke method minus
+    - invoke method append
+    - invoke method reset
+    - invoke method rebuild
+    - invoke method change
+    - invoke method select
+    - invoke method generate
+
+- intent: createparametermethod
+  examples: |
+    - add integer parameter red to repository method
+    - add byte parameter master to api method
+    - add short parameter y to controller method
+    - add string parameter key to service method
+    - add long parameter phone to model method
+    - add flout parameter vegetable to repo method
+    - add short parameter b to sum method
+    - add flout parameter car to addition method
+    - add long parameter red to answer method
+    - add string parameter height to result method
+    - add integer parameter a to get method
+    - add double parameter cost to update method
+    - add byte parameter userid to create method
+    - add byte parameter contact to delete method
+    - add double parameter department to find method
+    - add byte parameter a to receive method
+    - add boolean parameter id to calculate method
+    - add string parameter phone to decrement method
+    - add short parameter smartphone to increment method
+    - add string parameter address to calc method
+    - add double parameter main to add method
+    - add byte parameter subtract to valid method
+    - add byte parameter s to move method
+    - add long parameter hospital to work method
+    - add short parameter p to write method
+    - add flout parameter a to spec method
+    - add double parameter c to buy method
+    - add byte parameter price to run method
+    - add short parameter seat to notify method
+    - add char parameter food to output method
+    - add boolean parameter laptop to communicate method
+    - add char parameter i to call method
+    - add char parameter b to send method
+    - add string parameter food to input method
+    - add double parameter val to subtract method
+    - add long parameter key to multiply method
+    - add boolean parameter location to divide method
+    - add boolean parameter phone to modulus method
+    - add long parameter emailaddress to check method
+    - add char parameter red to display method
+    - add boolean parameter valid to show method
+    - add char parameter answer to view method
+    - add short parameter main to max method
+    - add long parameter location to min method
+    - add long parameter wheel to is method
+    - add integer parameter x to contain method
+    - add short parameter num to remove method
+    - add string parameter r to clear method
+    - add string parameter computer to clean method
+    - add integer parameter black to put method
+    - add string parameter email to set method
+    - add boolean parameter can to build method
+    - add string parameter laptop to plus method
+    - add double parameter subtract to minus method
+    - add long parameter can to append method
+    - add byte parameter contact to reset method
+    - add flout parameter laptop to rebuild method
+    - add long parameter wheel to change method
+    - add long parameter p to select method
+    - add string parameter fruit to generate method    
+    - create string parameter size to repository method
+    - create flout parameter eatables to api method
+    - create char parameter can to controller method
+    - create char parameter fruit to service method
+    - create flout parameter q to model method
+    - create boolean parameter eatables to repo method
+    - create byte parameter fruit to sum method
+    - create char parameter mobilephone to addition method
+    - create byte parameter vegetable to answer method
+    - create flout parameter arr to result method
+    - create string parameter main to get method
+    - create string parameter weight to update method
+    - create boolean parameter p to create method
+    - create string parameter cost to delete method
+    - create char parameter wheel to find method
+    - create boolean parameter computer to receive method
+    - create boolean parameter address to calculate method
+    - create boolean parameter bag to decrement method
+    - create short parameter seat to increment method
+    - create double parameter phonenumber to calc method
+    - create double parameter id to add method
+    - create flout parameter s to valid method
+    - create char parameter val to move method
+    - create boolean parameter valid to work method
+    - create char parameter food to write method
+    - create long parameter r to spec method
+    - create string parameter smartphone to buy method
+    - create boolean parameter glass to run method
+    - create long parameter addition to notify method
+    - create byte parameter glass to output method
+    - create boolean parameter id to communicate method
+    - create byte parameter red to call method
+    - create byte parameter laptop to send method
+    - create short parameter touchscreen to input method
+    - create double parameter white to subtract method
+    - create integer parameter mouse to multiply method
+    - create string parameter department to divide method
+    - create flout parameter mobilephone to modulus method
+    - create integer parameter location to check method
+    - create byte parameter addition to display method
+    - create string parameter key to show method
+    - create long parameter p to view method
+    - create short parameter arr to max method
+    - create integer parameter location to min method
+    - create char parameter seat to is method
+    - create flout parameter count to contain method
+    - create integer parameter userid to remove method
+    - create char parameter food to clear method
+    - create byte parameter vegetable to clean method
+    - create short parameter subtract to put method
+    - create double parameter num to set method
+    - create byte parameter c to build method
+    - create boolean parameter c to plus method
+    - create integer parameter i to minus method
+    - create double parameter id to append method
+    - create double parameter contact to reset method
+    - create boolean parameter val to rebuild method
+    - create char parameter hospital to change method
+    - create byte parameter laptop to select method
+    - create integer parameter sum to generate method
+    - add char argument screen to repository method
+    - add string argument c to api method
+    - add char argument email to controller method
+    - add byte argument email to service method
+    - add double argument result to model method
+    - add boolean argument car to repo method
+    - add integer argument age to sum method
+    - add integer argument vegetable to addition method
+    - add short argument glass to answer method
+    - add flout argument contactnumber to result method
+    - add string argument contact to get method
+    - add flout argument contact to update method
+    - add double argument vegetable to create method
+    - add string argument location to delete method
+    - add double argument mobilephone to find method
+    - add double argument x to receive method
+    - add byte argument email to calculate method
+    - add boolean argument keyboard to decrement method
+    - add flout argument subtract to increment method
+    - add byte argument c to calc method
+    - add integer argument result to add method
+    - add integer argument num to valid method
+    - add integer argument emailaddress to move method
+    - add long argument i to work method
+    - add byte argument emailaddress to write method
+    - add char argument can to spec method
+    - add boolean argument main to buy method
+    - add short argument price to run method
+    - add short argument bus to notify method
+    - add boolean argument computer to output method
+    - add long argument screen to communicate method
+    - add flout argument van to call method
+    - add short argument s to send method
+    - add double argument food to input method
+    - add double argument val to subtract method
+    - add boolean argument master to multiply method
+    - add integer argument contact to divide method
+    - add char argument userid to modulus method
+    - add string argument sum to check method
+    - add byte argument value to display method
+    - add integer argument blue to show method
+    - add short argument value to view method
+    - add short argument vegetable to max method
+    - add string argument q to min method
+    - add double argument department to is method
+    - add string argument cost to contain method
+    - add flout argument x to remove method
+    - add long argument vegetable to clear method
+    - add char argument main to clean method
+    - add long argument userid to put method
+    - add integer argument r to set method
+    - add boolean argument yellow to build method
+    - add flout argument keyboard to plus method
+    - add long argument computer to minus method
+    - add double argument p to append method
+    - add flout argument mouse to reset method
+    - add integer argument emailaddress to rebuild method
+    - add double argument contactnumber to change method
+    - add flout argument count to select method
+    - add char argument bus to generate method
+    - create short argument can to repository method
+    - create flout argument phone to api method
+    - create double argument keyboard to controller method
+    - create integer argument addition to service method
+    - create flout argument car to model method
+    - create integer argument hospital to repo method
+    - create boolean argument touchscreen to sum method
+    - create flout argument r to addition method
+    - create char argument seat to answer method
+    - create byte argument master to result method
+    - create boolean argument phone to get method
+    - create flout argument count to update method
+    - create byte argument master to create method
+    - create byte argument keyboard to delete method
+    - create short argument a to find method
+    - create flout argument answer to receive method
+    - create integer argument x to calculate method
+    - create long argument seat to decrement method
+    - create flout argument i to increment method
+    - create char argument fruit to calc method
+    - create double argument r to add method
+    - create boolean argument vegetable to valid method
+    - create flout argument q to move method
+    - create integer argument master to work method
+    - create flout argument car to write method
+    - create integer argument subtract to spec method
+    - create byte argument sum to buy method
+    - create integer argument screen to run method
+    - create byte argument address to notify method
+    - create double argument bag to output method
+    - create integer argument val to communicate method
+    - create short argument bag to call method
+    - create flout argument user to send method
+    - create short argument val to input method
+    - create integer argument touchscreen to subtract method
+    - create long argument arr to multiply method
+    - create short argument glass to divide method
+    - create flout argument smartphone to modulus method
+    - create char argument smartphone to check method
+    - create string argument bike to display method
+    - create byte argument addition to show method
+    - create integer argument result to view method
+    - create integer argument z to max method
+    - create byte argument van to min method
+    - create string argument master to is method
+    - create string argument b to contain method
+    - create flout argument x to remove method
+    - create long argument bag to clear method
+    - create short argument contactnumber to clean method
+    - create double argument van to put method
+    - create double argument car to set method
+    - create long argument z to build method
+    - create long argument phone to plus method
+    - create flout argument num to minus method
+    - create short argument touchscreen to append method
+    - create boolean argument wheel to reset method
+    - create boolean argument z to rebuild method
+    - create short argument emailaddress to change method
+    - create long argument value to select method
+    - create byte argument height to generate method
+
+
+# ADDED TO NLU/TEST

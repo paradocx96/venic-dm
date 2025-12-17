@@ -1,0 +1,23 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: increase_font
+  examples: |
+    - increase font
+    - increase font size
+    - zoom font 
+    - zoom font size 
+    - make font bigger 
+    - make font size bigger
+    - make font larger
+    - make font size larger
+
+- intent: decrease_font
+  examples: |
+    - decrease font
+    - decrease font size
+    - zoom out font
+    - zoom out font size
+    - make font smaller
+    - make font size smaller

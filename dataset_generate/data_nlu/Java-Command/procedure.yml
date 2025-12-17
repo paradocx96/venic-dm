@@ -1,0 +1,2673 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createprocedure
+  examples: |
+    - add new procedure named [repository](name)
+    - add new procedure named [api](name)
+    - add new procedure named [controller](name)
+    - add new procedure named [service](name)
+    - add new procedure named [model](name)
+    - add new procedure named [repo](name)
+    - add new procedure named [sum](name)
+    - add new procedure named [addition](name)
+    - add new procedure named [answer](name)
+    - add new procedure named [result](name)
+    - add new procedure named [get](name)
+    - add new procedure named [update](name)
+    - add new procedure named [create](name)
+    - add new procedure named [delete](name)
+    - add new procedure named [find](name)
+    - add new procedure named [receive](name)
+    - add new procedure named [calculate](name)
+    - add new procedure named [decrement](name)
+    - add new procedure named [increment](name)
+    - add new procedure named [calc](name)
+    - add new procedure named [add](name)
+    - add new procedure named [valid](name)
+    - add new procedure named [move](name)
+    - add new procedure named [work](name)
+    - add new procedure named [write](name)
+    - add new procedure named [spec](name)
+    - add new procedure named [buy](name)
+    - add new procedure named [run](name)
+    - add new procedure named [notify](name)
+    - add new procedure named [output](name)
+    - add new procedure named [communicate](name)
+    - add new procedure named [call](name)
+    - add new procedure named [send](name)
+    - add new procedure named [input](name)
+    - add new procedure named [subtract](name)
+    - add new procedure named [multiply](name)
+    - add new procedure named [divide](name)
+    - add new procedure named [modulus](name)
+    - add new procedure named [check](name)
+    - add new procedure named [display](name)
+    - add new procedure named [show](name)
+    - add new procedure named [view](name)
+    - add new procedure named [max](name)
+    - add new procedure named [min](name)
+    - add new procedure named [is](name)
+    - add new procedure named [contain](name)
+    - add new procedure named [remove](name)
+    - add new procedure named [clear](name)
+    - add new procedure named [clean](name)
+    - add new procedure named [put](name)
+    - add new procedure named [set](name)
+    - add new procedure named [build](name)
+    - add new procedure named [plus](name)
+    - add new procedure named [minus](name)
+    - add new procedure named [append](name)
+    - add new procedure named [reset](name)
+    - add new procedure named [rebuild](name)
+    - add new procedure named [change](name)
+    - add new procedure named [select](name)
+    - add new procedure named [generate](name)
+    - add procedure named [repository](name)
+    - add procedure named [api](name)
+    - add procedure named [controller](name)
+    - add procedure named [service](name)
+    - add procedure named [model](name)
+    - add procedure named [repo](name)
+    - add procedure named [sum](name)
+    - add procedure named [addition](name)
+    - add procedure named [answer](name)
+    - add procedure named [result](name)
+    - add procedure named [get](name)
+    - add procedure named [update](name)
+    - add procedure named [create](name)
+    - add procedure named [delete](name)
+    - add procedure named [find](name)
+    - add procedure named [receive](name)
+    - add procedure named [calculate](name)
+    - add procedure named [decrement](name)
+    - add procedure named [increment](name)
+    - add procedure named [calc](name)
+    - add procedure named [add](name)
+    - add procedure named [valid](name)
+    - add procedure named [move](name)
+    - add procedure named [work](name)
+    - add procedure named [write](name)
+    - add procedure named [spec](name)
+    - add procedure named [buy](name)
+    - add procedure named [run](name)
+    - add procedure named [notify](name)
+    - add procedure named [output](name)
+    - add procedure named [communicate](name)
+    - add procedure named [call](name)
+    - add procedure named [send](name)
+    - add procedure named [input](name)
+    - add procedure named [subtract](name)
+    - add procedure named [multiply](name)
+    - add procedure named [divide](name)
+    - add procedure named [modulus](name)
+    - add procedure named [check](name)
+    - add procedure named [display](name)
+    - add procedure named [show](name)
+    - add procedure named [view](name)
+    - add procedure named [max](name)
+    - add procedure named [min](name)
+    - add procedure named [is](name)
+    - add procedure named [contain](name)
+    - add procedure named [remove](name)
+    - add procedure named [clear](name)
+    - add procedure named [clean](name)
+    - add procedure named [put](name)
+    - add procedure named [set](name)
+    - add procedure named [build](name)
+    - add procedure named [plus](name)
+    - add procedure named [minus](name)
+    - add procedure named [append](name)
+    - add procedure named [reset](name)
+    - add procedure named [rebuild](name)
+    - add procedure named [change](name)
+    - add procedure named [select](name)
+    - add procedure named [generate](name)
+    - add procedure [repository](name)
+    - add procedure [api](name)
+    - add procedure [controller](name)
+    - add procedure [service](name)
+    - add procedure [model](name)
+    - add procedure [repo](name)
+    - add procedure [sum](name)
+    - add procedure [addition](name)
+    - add procedure [answer](name)
+    - add procedure [result](name)
+    - add procedure [get](name)
+    - add procedure [update](name)
+    - add procedure [create](name)
+    - add procedure [delete](name)
+    - add procedure [find](name)
+    - add procedure [receive](name)
+    - add procedure [calculate](name)
+    - add procedure [decrement](name)
+    - add procedure [increment](name)
+    - add procedure [calc](name)
+    - add procedure [add](name)
+    - add procedure [valid](name)
+    - add procedure [move](name)
+    - add procedure [work](name)
+    - add procedure [write](name)
+    - add procedure [spec](name)
+    - add procedure [buy](name)
+    - add procedure [run](name)
+    - add procedure [notify](name)
+    - add procedure [output](name)
+    - add procedure [communicate](name)
+    - add procedure [call](name)
+    - add procedure [send](name)
+    - add procedure [input](name)
+    - add procedure [subtract](name)
+    - add procedure [multiply](name)
+    - add procedure [divide](name)
+    - add procedure [modulus](name)
+    - add procedure [check](name)
+    - add procedure [display](name)
+    - add procedure [show](name)
+    - add procedure [view](name)
+    - add procedure [max](name)
+    - add procedure [min](name)
+    - add procedure [is](name)
+    - add procedure [contain](name)
+    - add procedure [remove](name)
+    - add procedure [clear](name)
+    - add procedure [clean](name)
+    - add procedure [put](name)
+    - add procedure [set](name)
+    - add procedure [build](name)
+    - add procedure [plus](name)
+    - add procedure [minus](name)
+    - add procedure [append](name)
+    - add procedure [reset](name)
+    - add procedure [rebuild](name)
+    - add procedure [change](name)
+    - add procedure [select](name)
+    - add procedure [generate](name)
+    - create new procedure named [repository](name)
+    - create new procedure named [api](name)
+    - create new procedure named [controller](name)
+    - create new procedure named [service](name)
+    - create new procedure named [model](name)
+    - create new procedure named [repo](name)
+    - create new procedure named [sum](name)
+    - create new procedure named [addition](name)
+    - create new procedure named [answer](name)
+    - create new procedure named [result](name)
+    - create new procedure named [get](name)
+    - create new procedure named [update](name)
+    - create new procedure named [create](name)
+    - create new procedure named [delete](name)
+    - create new procedure named [find](name)
+    - create new procedure named [receive](name)
+    - create new procedure named [calculate](name)
+    - create new procedure named [decrement](name)
+    - create new procedure named [increment](name)
+    - create new procedure named [calc](name)
+    - create new procedure named [add](name)
+    - create new procedure named [valid](name)
+    - create new procedure named [move](name)
+    - create new procedure named [work](name)
+    - create new procedure named [write](name)
+    - create new procedure named [spec](name)
+    - create new procedure named [buy](name)
+    - create new procedure named [run](name)
+    - create new procedure named [notify](name)
+    - create new procedure named [output](name)
+    - create new procedure named [communicate](name)
+    - create new procedure named [call](name)
+    - create new procedure named [send](name)
+    - create new procedure named [input](name)
+    - create new procedure named [subtract](name)
+    - create new procedure named [multiply](name)
+    - create new procedure named [divide](name)
+    - create new procedure named [modulus](name)
+    - create new procedure named [check](name)
+    - create new procedure named [display](name)
+    - create new procedure named [show](name)
+    - create new procedure named [view](name)
+    - create new procedure named [max](name)
+    - create new procedure named [min](name)
+    - create new procedure named [is](name)
+    - create new procedure named [contain](name)
+    - create new procedure named [remove](name)
+    - create new procedure named [clear](name)
+    - create new procedure named [clean](name)
+    - create new procedure named [put](name)
+    - create new procedure named [set](name)
+    - create new procedure named [build](name)
+    - create new procedure named [plus](name)
+    - create new procedure named [minus](name)
+    - create new procedure named [append](name)
+    - create new procedure named [reset](name)
+    - create new procedure named [rebuild](name)
+    - create new procedure named [change](name)
+    - create new procedure named [select](name)
+    - create new procedure named [generate](name)
+    - create procedure named [repository](name)
+    - create procedure named [api](name)
+    - create procedure named [controller](name)
+    - create procedure named [service](name)
+    - create procedure named [model](name)
+    - create procedure named [repo](name)
+    - create procedure named [sum](name)
+    - create procedure named [addition](name)
+    - create procedure named [answer](name)
+    - create procedure named [result](name)
+    - create procedure named [get](name)
+    - create procedure named [update](name)
+    - create procedure named [create](name)
+    - create procedure named [delete](name)
+    - create procedure named [find](name)
+    - create procedure named [receive](name)
+    - create procedure named [calculate](name)
+    - create procedure named [decrement](name)
+    - create procedure named [increment](name)
+    - create procedure named [calc](name)
+    - create procedure named [add](name)
+    - create procedure named [valid](name)
+    - create procedure named [move](name)
+    - create procedure named [work](name)
+    - create procedure named [write](name)
+    - create procedure named [spec](name)
+    - create procedure named [buy](name)
+    - create procedure named [run](name)
+    - create procedure named [notify](name)
+    - create procedure named [output](name)
+    - create procedure named [communicate](name)
+    - create procedure named [call](name)
+    - create procedure named [send](name)
+    - create procedure named [input](name)
+    - create procedure named [subtract](name)
+    - create procedure named [multiply](name)
+    - create procedure named [divide](name)
+    - create procedure named [modulus](name)
+    - create procedure named [check](name)
+    - create procedure named [display](name)
+    - create procedure named [show](name)
+    - create procedure named [view](name)
+    - create procedure named [max](name)
+    - create procedure named [min](name)
+    - create procedure named [is](name)
+    - create procedure named [contain](name)
+    - create procedure named [remove](name)
+    - create procedure named [clear](name)
+    - create procedure named [clean](name)
+    - create procedure named [put](name)
+    - create procedure named [set](name)
+    - create procedure named [build](name)
+    - create procedure named [plus](name)
+    - create procedure named [minus](name)
+    - create procedure named [append](name)
+    - create procedure named [reset](name)
+    - create procedure named [rebuild](name)
+    - create procedure named [change](name)
+    - create procedure named [select](name)
+    - create procedure named [generate](name)
+    - create procedure [repository](name)
+    - create procedure [api](name)
+    - create procedure [controller](name)
+    - create procedure [service](name)
+    - create procedure [model](name)
+    - create procedure [repo](name)
+    - create procedure [sum](name)
+    - create procedure [addition](name)
+    - create procedure [answer](name)
+    - create procedure [result](name)
+    - create procedure [get](name)
+    - create procedure [update](name)
+    - create procedure [create](name)
+    - create procedure [delete](name)
+    - create procedure [find](name)
+    - create procedure [receive](name)
+    - create procedure [calculate](name)
+    - create procedure [decrement](name)
+    - create procedure [increment](name)
+    - create procedure [calc](name)
+    - create procedure [add](name)
+    - create procedure [valid](name)
+    - create procedure [move](name)
+    - create procedure [work](name)
+    - create procedure [write](name)
+    - create procedure [spec](name)
+    - create procedure [buy](name)
+    - create procedure [run](name)
+    - create procedure [notify](name)
+    - create procedure [output](name)
+    - create procedure [communicate](name)
+    - create procedure [call](name)
+    - create procedure [send](name)
+    - create procedure [input](name)
+    - create procedure [subtract](name)
+    - create procedure [multiply](name)
+    - create procedure [divide](name)
+    - create procedure [modulus](name)
+    - create procedure [check](name)
+    - create procedure [display](name)
+    - create procedure [show](name)
+    - create procedure [view](name)
+    - create procedure [max](name)
+    - create procedure [min](name)
+    - create procedure [is](name)
+    - create procedure [contain](name)
+    - create procedure [remove](name)
+    - create procedure [clear](name)
+    - create procedure [clean](name)
+    - create procedure [put](name)
+    - create procedure [set](name)
+    - create procedure [build](name)
+    - create procedure [plus](name)
+    - create procedure [minus](name)
+    - create procedure [append](name)
+    - create procedure [reset](name)
+    - create procedure [rebuild](name)
+    - create procedure [change](name)
+    - create procedure [select](name)
+    - create procedure [generate](name)
+    - add new procedure named [repository](name) with seven parameter
+    - add new procedure named [api](name) with two parameter
+    - add new procedure named [controller](name) with six parameter
+    - add new procedure named [service](name) with one parameter
+    - add new procedure named [model](name) with three parameter
+    - add new procedure named [repo](name) with nine parameter
+    - add new procedure named [sum](name) with nine parameter
+    - add new procedure named [addition](name) with six parameter
+    - add new procedure named [answer](name) with three parameter
+    - add new procedure named [result](name) with seven parameter
+    - add new procedure named [get](name) with two parameter
+    - add new procedure named [update](name) with seven parameter
+    - add new procedure named [create](name) with three parameter
+    - add new procedure named [delete](name) with three parameter
+    - add new procedure named [find](name) with six parameter
+    - add new procedure named [receive](name) with six parameter
+    - add new procedure named [calculate](name) with two parameter
+    - add new procedure named [decrement](name) with one parameter
+    - add new procedure named [increment](name) with three parameter
+    - add new procedure named [calc](name) with ten parameter
+    - add new procedure named [add](name) with six parameter
+    - add new procedure named [valid](name) with nine parameter
+    - add new procedure named [move](name) with nine parameter
+    - add new procedure named [work](name) with four parameter
+    - add new procedure named [write](name) with six parameter
+    - add new procedure named [spec](name) with seven parameter
+    - add new procedure named [buy](name) with five parameter
+    - add new procedure named [run](name) with five parameter
+    - add new procedure named [notify](name) with five parameter
+    - add new procedure named [output](name) with nine parameter
+    - add new procedure named [communicate](name) with four parameter
+    - add new procedure named [call](name) with nine parameter
+    - add new procedure named [send](name) with nine parameter
+    - add new procedure named [input](name) with four parameter
+    - add new procedure named [subtract](name) with ten parameter
+    - add new procedure named [multiply](name) with seven parameter
+    - add new procedure named [divide](name) with eight parameter
+    - add new procedure named [modulus](name) with six parameter
+    - add new procedure named [check](name) with nine parameter
+    - add new procedure named [display](name) with five parameter
+    - add new procedure named [show](name) with three parameter
+    - add new procedure named [view](name) with eight parameter
+    - add new procedure named [max](name) with five parameter
+    - add new procedure named [min](name) with seven parameter
+    - add new procedure named [is](name) with six parameter
+    - add new procedure named [contain](name) with seven parameter
+    - add new procedure named [remove](name) with nine parameter
+    - add new procedure named [clear](name) with three parameter
+    - add new procedure named [clean](name) with four parameter
+    - add new procedure named [put](name) with two parameter
+    - add new procedure named [set](name) with eight parameter
+    - add new procedure named [build](name) with five parameter
+    - add new procedure named [plus](name) with six parameter
+    - add new procedure named [minus](name) with eight parameter
+    - add new procedure named [append](name) with two parameter
+    - add new procedure named [reset](name) with nine parameter
+    - add new procedure named [rebuild](name) with three parameter
+    - add new procedure named [change](name) with six parameter
+    - add new procedure named [select](name) with nine parameter
+    - add new procedure named [generate](name) with three parameter
+    - add procedure named [repository](name) with nine parameter
+    - add procedure named [api](name) with ten parameter
+    - add procedure named [controller](name) with two parameter
+    - add procedure named [service](name) with three parameter
+    - add procedure named [model](name) with five parameter
+    - add procedure named [repo](name) with four parameter
+    - add procedure named [sum](name) with eight parameter
+    - add procedure named [addition](name) with four parameter
+    - add procedure named [answer](name) with ten parameter
+    - add procedure named [result](name) with nine parameter
+    - add procedure named [get](name) with eight parameter
+    - add procedure named [update](name) with one parameter
+    - add procedure named [create](name) with nine parameter
+    - add procedure named [delete](name) with four parameter
+    - add procedure named [find](name) with five parameter
+    - add procedure named [receive](name) with nine parameter
+    - add procedure named [calculate](name) with five parameter
+    - add procedure named [decrement](name) with two parameter
+    - add procedure named [increment](name) with six parameter
+    - add procedure named [calc](name) with four parameter
+    - add procedure named [add](name) with three parameter
+    - add procedure named [valid](name) with three parameter
+    - add procedure named [move](name) with seven parameter
+    - add procedure named [work](name) with seven parameter
+    - add procedure named [write](name) with one parameter
+    - add procedure named [spec](name) with three parameter
+    - add procedure named [buy](name) with six parameter
+    - add procedure named [run](name) with six parameter
+    - add procedure named [notify](name) with four parameter
+    - add procedure named [output](name) with three parameter
+    - add procedure named [communicate](name) with eight parameter
+    - add procedure named [call](name) with ten parameter
+    - add procedure named [send](name) with three parameter
+    - add procedure named [input](name) with seven parameter
+    - add procedure named [subtract](name) with nine parameter
+    - add procedure named [multiply](name) with two parameter
+    - add procedure named [divide](name) with three parameter
+    - add procedure named [modulus](name) with seven parameter
+    - add procedure named [check](name) with four parameter
+    - add procedure named [display](name) with four parameter
+    - add procedure named [show](name) with three parameter
+    - add procedure named [view](name) with three parameter
+    - add procedure named [max](name) with seven parameter
+    - add procedure named [min](name) with four parameter
+    - add procedure named [is](name) with eight parameter
+    - add procedure named [contain](name) with three parameter
+    - add procedure named [remove](name) with nine parameter
+    - add procedure named [clear](name) with four parameter
+    - add procedure named [clean](name) with nine parameter
+    - add procedure named [put](name) with nine parameter
+    - add procedure named [set](name) with ten parameter
+    - add procedure named [build](name) with three parameter
+    - add procedure named [plus](name) with six parameter
+    - add procedure named [minus](name) with two parameter
+    - add procedure named [append](name) with four parameter
+    - add procedure named [reset](name) with three parameter
+    - add procedure named [rebuild](name) with five parameter
+    - add procedure named [change](name) with three parameter
+    - add procedure named [select](name) with four parameter
+    - add procedure named [generate](name) with two parameter
+    - add procedure [repository](name) with six parameter
+    - add procedure [api](name) with seven parameter
+    - add procedure [controller](name) with three parameter
+    - add procedure [service](name) with ten parameter
+    - add procedure [model](name) with ten parameter
+    - add procedure [repo](name) with nine parameter
+    - add procedure [sum](name) with three parameter
+    - add procedure [addition](name) with three parameter
+    - add procedure [answer](name) with three parameter
+    - add procedure [result](name) with seven parameter
+    - add procedure [get](name) with ten parameter
+    - add procedure [update](name) with six parameter
+    - add procedure [create](name) with six parameter
+    - add procedure [delete](name) with four parameter
+    - add procedure [find](name) with one parameter
+    - add procedure [receive](name) with one parameter
+    - add procedure [calculate](name) with four parameter
+    - add procedure [decrement](name) with four parameter
+    - add procedure [increment](name) with six parameter
+    - add procedure [calc](name) with five parameter
+    - add procedure [add](name) with five parameter
+    - add procedure [valid](name) with two parameter
+    - add procedure [move](name) with three parameter
+    - add procedure [work](name) with one parameter
+    - add procedure [write](name) with ten parameter
+    - add procedure [spec](name) with three parameter
+    - add procedure [buy](name) with one parameter
+    - add procedure [run](name) with six parameter
+    - add procedure [notify](name) with one parameter
+    - add procedure [output](name) with five parameter
+    - add procedure [communicate](name) with nine parameter
+    - add procedure [call](name) with six parameter
+    - add procedure [send](name) with three parameter
+    - add procedure [input](name) with ten parameter
+    - add procedure [subtract](name) with seven parameter
+    - add procedure [multiply](name) with four parameter
+    - add procedure [divide](name) with one parameter
+    - add procedure [modulus](name) with six parameter
+    - add procedure [check](name) with three parameter
+    - add procedure [display](name) with eight parameter
+    - add procedure [show](name) with three parameter
+    - add procedure [view](name) with two parameter
+    - add procedure [max](name) with four parameter
+    - add procedure [min](name) with seven parameter
+    - add procedure [is](name) with nine parameter
+    - add procedure [contain](name) with three parameter
+    - add procedure [remove](name) with eight parameter
+    - add procedure [clear](name) with four parameter
+    - add procedure [clean](name) with one parameter
+    - add procedure [put](name) with seven parameter
+    - add procedure [set](name) with seven parameter
+    - add procedure [build](name) with six parameter
+    - add procedure [plus](name) with four parameter
+    - add procedure [minus](name) with three parameter
+    - add procedure [append](name) with four parameter
+    - add procedure [reset](name) with four parameter
+    - add procedure [rebuild](name) with eight parameter
+    - add procedure [change](name) with four parameter
+    - add procedure [select](name) with six parameter
+    - add procedure [generate](name) with one parameter
+    - add new procedure named [repository](name) with return type short
+    - add new procedure named [api](name) with return type string
+    - add new procedure named [controller](name) with return type double
+    - add new procedure named [service](name) with return type long
+    - add new procedure named [model](name) with return type integer
+    - add new procedure named [repo](name) with return type double
+    - add new procedure named [sum](name) with return type integer
+    - add new procedure named [addition](name) with return type char
+    - add new procedure named [answer](name) with return type double
+    - add new procedure named [result](name) with return type string
+    - add new procedure named [get](name) with return type string
+    - add new procedure named [update](name) with return type double
+    - add new procedure named [create](name) with return type byte
+    - add new procedure named [delete](name) with return type flout
+    - add new procedure named [find](name) with return type integer
+    - add new procedure named [receive](name) with return type char
+    - add new procedure named [calculate](name) with return type integer
+    - add new procedure named [decrement](name) with return type byte
+    - add new procedure named [increment](name) with return type char
+    - add new procedure named [calc](name) with return type char
+    - add new procedure named [add](name) with return type string
+    - add new procedure named [valid](name) with return type string
+    - add new procedure named [move](name) with return type long
+    - add new procedure named [work](name) with return type string
+    - add new procedure named [write](name) with return type short
+    - add new procedure named [spec](name) with return type integer
+    - add new procedure named [buy](name) with return type short
+    - add new procedure named [run](name) with return type boolean
+    - add new procedure named [notify](name) with return type byte
+    - add new procedure named [output](name) with return type short
+    - add new procedure named [communicate](name) with return type char
+    - add new procedure named [call](name) with return type char
+    - add new procedure named [send](name) with return type byte
+    - add new procedure named [input](name) with return type string
+    - add new procedure named [subtract](name) with return type short
+    - add new procedure named [multiply](name) with return type boolean
+    - add new procedure named [divide](name) with return type byte
+    - add new procedure named [modulus](name) with return type short
+    - add new procedure named [check](name) with return type byte
+    - add new procedure named [display](name) with return type boolean
+    - add new procedure named [show](name) with return type byte
+    - add new procedure named [view](name) with return type double
+    - add new procedure named [max](name) with return type boolean
+    - add new procedure named [min](name) with return type integer
+    - add new procedure named [is](name) with return type byte
+    - add new procedure named [contain](name) with return type byte
+    - add new procedure named [remove](name) with return type byte
+    - add new procedure named [clear](name) with return type long
+    - add new procedure named [clean](name) with return type double
+    - add new procedure named [put](name) with return type long
+    - add new procedure named [set](name) with return type long
+    - add new procedure named [build](name) with return type string
+    - add new procedure named [plus](name) with return type flout
+    - add new procedure named [minus](name) with return type double
+    - add new procedure named [append](name) with return type short
+    - add new procedure named [reset](name) with return type flout
+    - add new procedure named [rebuild](name) with return type string
+    - add new procedure named [change](name) with return type double
+    - add new procedure named [select](name) with return type short
+    - add new procedure named [generate](name) with return type short
+    - add procedure named [repository](name) with return type double
+    - add procedure named [api](name) with return type string
+    - add procedure named [controller](name) with return type char
+    - add procedure named [service](name) with return type long
+    - add procedure named [model](name) with return type byte
+    - add procedure named [repo](name) with return type boolean
+    - add procedure named [sum](name) with return type double
+    - add procedure named [addition](name) with return type long
+    - add procedure named [answer](name) with return type boolean
+    - add procedure named [result](name) with return type long
+    - add procedure named [get](name) with return type char
+    - add procedure named [update](name) with return type long
+    - add procedure named [create](name) with return type short
+    - add procedure named [delete](name) with return type integer
+    - add procedure named [find](name) with return type char
+    - add procedure named [receive](name) with return type double
+    - add procedure named [calculate](name) with return type byte
+    - add procedure named [decrement](name) with return type long
+    - add procedure named [increment](name) with return type long
+    - add procedure named [calc](name) with return type string
+    - add procedure named [add](name) with return type integer
+    - add procedure named [valid](name) with return type long
+    - add procedure named [move](name) with return type flout
+    - add procedure named [work](name) with return type long
+    - add procedure named [write](name) with return type short
+    - add procedure named [spec](name) with return type byte
+    - add procedure named [buy](name) with return type boolean
+    - add procedure named [run](name) with return type char
+    - add procedure named [notify](name) with return type integer
+    - add procedure named [output](name) with return type byte
+    - add procedure named [communicate](name) with return type flout
+    - add procedure named [call](name) with return type double
+    - add procedure named [send](name) with return type byte
+    - add procedure named [input](name) with return type double
+    - add procedure named [subtract](name) with return type char
+    - add procedure named [multiply](name) with return type long
+    - add procedure named [divide](name) with return type double
+    - add procedure named [modulus](name) with return type string
+    - add procedure named [check](name) with return type double
+    - add procedure named [display](name) with return type byte
+    - add procedure named [show](name) with return type integer
+    - add procedure named [view](name) with return type integer
+    - add procedure named [max](name) with return type flout
+    - add procedure named [min](name) with return type flout
+    - add procedure named [is](name) with return type string
+    - add procedure named [contain](name) with return type short
+    - add procedure named [remove](name) with return type short
+    - add procedure named [clear](name) with return type double
+    - add procedure named [clean](name) with return type long
+    - add procedure named [put](name) with return type double
+    - add procedure named [set](name) with return type string
+    - add procedure named [build](name) with return type boolean
+    - add procedure named [plus](name) with return type flout
+    - add procedure named [minus](name) with return type short
+    - add procedure named [append](name) with return type flout
+    - add procedure named [reset](name) with return type boolean
+    - add procedure named [rebuild](name) with return type byte
+    - add procedure named [change](name) with return type char
+    - add procedure named [select](name) with return type flout
+    - add procedure named [generate](name) with return type long
+    - add procedure [repository](name) with return type boolean
+    - add procedure [api](name) with return type char
+    - add procedure [controller](name) with return type short
+    - add procedure [service](name) with return type byte
+    - add procedure [model](name) with return type byte
+    - add procedure [repo](name) with return type long
+    - add procedure [sum](name) with return type double
+    - add procedure [addition](name) with return type short
+    - add procedure [answer](name) with return type char
+    - add procedure [result](name) with return type char
+    - add procedure [get](name) with return type double
+    - add procedure [update](name) with return type string
+    - add procedure [create](name) with return type double
+    - add procedure [delete](name) with return type byte
+    - add procedure [find](name) with return type flout
+    - add procedure [receive](name) with return type long
+    - add procedure [calculate](name) with return type flout
+    - add procedure [decrement](name) with return type double
+    - add procedure [increment](name) with return type boolean
+    - add procedure [calc](name) with return type double
+    - add procedure [add](name) with return type boolean
+    - add procedure [valid](name) with return type double
+    - add procedure [move](name) with return type char
+    - add procedure [work](name) with return type flout
+    - add procedure [write](name) with return type char
+    - add procedure [spec](name) with return type long
+    - add procedure [buy](name) with return type long
+    - add procedure [run](name) with return type byte
+    - add procedure [notify](name) with return type double
+    - add procedure [output](name) with return type char
+    - add procedure [communicate](name) with return type flout
+    - add procedure [call](name) with return type byte
+    - add procedure [send](name) with return type flout
+    - add procedure [input](name) with return type char
+    - add procedure [subtract](name) with return type boolean
+    - add procedure [multiply](name) with return type byte
+    - add procedure [divide](name) with return type flout
+    - add procedure [modulus](name) with return type long
+    - add procedure [check](name) with return type boolean
+    - add procedure [display](name) with return type flout
+    - add procedure [show](name) with return type char
+    - add procedure [view](name) with return type short
+    - add procedure [max](name) with return type double
+    - add procedure [min](name) with return type string
+    - add procedure [is](name) with return type flout
+    - add procedure [contain](name) with return type char
+    - add procedure [remove](name) with return type long
+    - add procedure [clear](name) with return type flout
+    - add procedure [clean](name) with return type flout
+    - add procedure [put](name) with return type flout
+    - add procedure [set](name) with return type double
+    - add procedure [build](name) with return type short
+    - add procedure [plus](name) with return type integer
+    - add procedure [minus](name) with return type string
+    - add procedure [append](name) with return type boolean
+    - add procedure [reset](name) with return type string
+    - add procedure [rebuild](name) with return type short
+    - add procedure [change](name) with return type boolean
+    - add procedure [select](name) with return type byte
+    - add procedure [generate](name) with return type char
+    - add new public procedure named [repository](name) with return type short
+    - add new private procedure named [api](name) with return type char
+    - add new public procedure named [controller](name) with return type string
+    - add new private procedure named [service](name) with return type integer
+    - add new public procedure named [model](name) with return type flout
+    - add new public procedure named [repo](name) with return type flout
+    - add new public procedure named [sum](name) with return type string
+    - add new public procedure named [addition](name) with return type long
+    - add new public procedure named [answer](name) with return type long
+    - add new private procedure named [result](name) with return type integer
+    - add new public procedure named [get](name) with return type double
+    - add new public procedure named [update](name) with return type double
+    - add new private procedure named [create](name) with return type short
+    - add new private procedure named [delete](name) with return type short
+    - add new public procedure named [find](name) with return type long
+    - add new public procedure named [receive](name) with return type flout
+    - add new public procedure named [calculate](name) with return type char
+    - add new public procedure named [decrement](name) with return type char
+    - add new public procedure named [increment](name) with return type integer
+    - add new public procedure named [calc](name) with return type long
+    - add new public procedure named [add](name) with return type byte
+    - add new public procedure named [valid](name) with return type flout
+    - add new private procedure named [move](name) with return type double
+    - add new private procedure named [work](name) with return type string
+    - add new private procedure named [write](name) with return type boolean
+    - add new public procedure named [spec](name) with return type short
+    - add new private procedure named [buy](name) with return type flout
+    - add new private procedure named [run](name) with return type short
+    - add new public procedure named [notify](name) with return type short
+    - add new private procedure named [output](name) with return type char
+    - add new private procedure named [communicate](name) with return type short
+    - add new public procedure named [call](name) with return type integer
+    - add new public procedure named [send](name) with return type short
+    - add new private procedure named [input](name) with return type boolean
+    - add new private procedure named [subtract](name) with return type boolean
+    - add new private procedure named [multiply](name) with return type short
+    - add new public procedure named [divide](name) with return type double
+    - add new private procedure named [modulus](name) with return type string
+    - add new public procedure named [check](name) with return type boolean
+    - add new private procedure named [display](name) with return type string
+    - add new public procedure named [show](name) with return type boolean
+    - add new public procedure named [view](name) with return type double
+    - add new public procedure named [max](name) with return type integer
+    - add new private procedure named [min](name) with return type byte
+    - add new private procedure named [is](name) with return type integer
+    - add new private procedure named [contain](name) with return type double
+    - add new public procedure named [remove](name) with return type byte
+    - add new public procedure named [clear](name) with return type string
+    - add new public procedure named [clean](name) with return type double
+    - add new public procedure named [put](name) with return type integer
+    - add new public procedure named [set](name) with return type short
+    - add new public procedure named [build](name) with return type double
+    - add new public procedure named [plus](name) with return type short
+    - add new public procedure named [minus](name) with return type integer
+    - add new private procedure named [append](name) with return type short
+    - add new public procedure named [reset](name) with return type integer
+    - add new private procedure named [rebuild](name) with return type short
+    - add new public procedure named [change](name) with return type byte
+    - add new private procedure named [select](name) with return type long
+    - add new public procedure named [generate](name) with return type long
+    - add private procedure named [repository](name) with return type double
+    - add private procedure named [api](name) with return type double
+    - add private procedure named [controller](name) with return type byte
+    - add public procedure named [service](name) with return type boolean
+    - add private procedure named [model](name) with return type short
+    - add public procedure named [repo](name) with return type char
+    - add public procedure named [sum](name) with return type double
+    - add public procedure named [addition](name) with return type integer
+    - add private procedure named [answer](name) with return type short
+    - add private procedure named [result](name) with return type byte
+    - add private procedure named [get](name) with return type double
+    - add private procedure named [update](name) with return type short
+    - add private procedure named [create](name) with return type short
+    - add public procedure named [delete](name) with return type flout
+    - add public procedure named [find](name) with return type integer
+    - add public procedure named [receive](name) with return type double
+    - add public procedure named [calculate](name) with return type string
+    - add public procedure named [decrement](name) with return type integer
+    - add public procedure named [increment](name) with return type flout
+    - add private procedure named [calc](name) with return type byte
+    - add public procedure named [add](name) with return type double
+    - add public procedure named [valid](name) with return type byte
+    - add public procedure named [move](name) with return type string
+    - add private procedure named [work](name) with return type short
+    - add private procedure named [write](name) with return type boolean
+    - add private procedure named [spec](name) with return type char
+    - add private procedure named [buy](name) with return type char
+    - add public procedure named [run](name) with return type long
+    - add public procedure named [notify](name) with return type boolean
+    - add private procedure named [output](name) with return type char
+    - add private procedure named [communicate](name) with return type byte
+    - add private procedure named [call](name) with return type string
+    - add public procedure named [send](name) with return type byte
+    - add private procedure named [input](name) with return type char
+    - add private procedure named [subtract](name) with return type integer
+    - add private procedure named [multiply](name) with return type char
+    - add private procedure named [divide](name) with return type byte
+    - add public procedure named [modulus](name) with return type double
+    - add public procedure named [check](name) with return type long
+    - add private procedure named [display](name) with return type byte
+    - add public procedure named [show](name) with return type string
+    - add private procedure named [view](name) with return type long
+    - add private procedure named [max](name) with return type string
+    - add public procedure named [min](name) with return type long
+    - add public procedure named [is](name) with return type double
+    - add public procedure named [contain](name) with return type short
+    - add private procedure named [remove](name) with return type string
+    - add private procedure named [clear](name) with return type char
+    - add public procedure named [clean](name) with return type integer
+    - add private procedure named [put](name) with return type char
+    - add private procedure named [set](name) with return type char
+    - add public procedure named [build](name) with return type byte
+    - add private procedure named [plus](name) with return type double
+    - add private procedure named [minus](name) with return type double
+    - add private procedure named [append](name) with return type boolean
+    - add public procedure named [reset](name) with return type boolean
+    - add private procedure named [rebuild](name) with return type integer
+    - add public procedure named [change](name) with return type string
+    - add private procedure named [select](name) with return type byte
+    - add private procedure named [generate](name) with return type long
+    - add public procedure [repository](name) with return type byte
+    - add private procedure [api](name) with return type byte
+    - add public procedure [controller](name) with return type flout
+    - add private procedure [service](name) with return type boolean
+    - add private procedure [model](name) with return type flout
+    - add public procedure [repo](name) with return type flout
+    - add private procedure [sum](name) with return type flout
+    - add public procedure [addition](name) with return type double
+    - add public procedure [answer](name) with return type boolean
+    - add public procedure [result](name) with return type flout
+    - add public procedure [get](name) with return type short
+    - add public procedure [update](name) with return type integer
+    - add private procedure [create](name) with return type string
+    - add public procedure [delete](name) with return type byte
+    - add public procedure [find](name) with return type flout
+    - add public procedure [receive](name) with return type byte
+    - add public procedure [calculate](name) with return type char
+    - add private procedure [decrement](name) with return type string
+    - add public procedure [increment](name) with return type short
+    - add private procedure [calc](name) with return type double
+    - add private procedure [add](name) with return type string
+    - add private procedure [valid](name) with return type short
+    - add private procedure [move](name) with return type short
+    - add private procedure [work](name) with return type long
+    - add public procedure [write](name) with return type flout
+    - add public procedure [spec](name) with return type integer
+    - add public procedure [buy](name) with return type string
+    - add private procedure [run](name) with return type flout
+    - add private procedure [notify](name) with return type short
+    - add private procedure [output](name) with return type char
+    - add public procedure [communicate](name) with return type string
+    - add private procedure [call](name) with return type double
+    - add private procedure [send](name) with return type long
+    - add public procedure [input](name) with return type flout
+    - add public procedure [subtract](name) with return type flout
+    - add public procedure [multiply](name) with return type integer
+    - add private procedure [divide](name) with return type long
+    - add private procedure [modulus](name) with return type double
+    - add public procedure [check](name) with return type long
+    - add private procedure [display](name) with return type byte
+    - add private procedure [show](name) with return type boolean
+    - add private procedure [view](name) with return type boolean
+    - add private procedure [max](name) with return type short
+    - add public procedure [min](name) with return type string
+    - add private procedure [is](name) with return type long
+    - add public procedure [contain](name) with return type short
+    - add private procedure [remove](name) with return type long
+    - add private procedure [clear](name) with return type short
+    - add public procedure [clean](name) with return type short
+    - add public procedure [put](name) with return type double
+    - add public procedure [set](name) with return type boolean
+    - add private procedure [build](name) with return type double
+    - add private procedure [plus](name) with return type char
+    - add private procedure [minus](name) with return type integer
+    - add public procedure [append](name) with return type byte
+    - add public procedure [reset](name) with return type double
+    - add public procedure [rebuild](name) with return type string
+    - add private procedure [change](name) with return type short
+    - add public procedure [select](name) with return type char
+    - add private procedure [generate](name) with return type char
+    - create new procedure named [repository](name) with seven parameter
+    - create new procedure named [api](name) with two parameter
+    - create new procedure named [controller](name) with six parameter
+    - create new procedure named [service](name) with one parameter
+    - create new procedure named [model](name) with three parameter
+    - create new procedure named [repo](name) with nine parameter
+    - create new procedure named [sum](name) with nine parameter
+    - create new procedure named [addition](name) with six parameter
+    - create new procedure named [answer](name) with three parameter
+    - create new procedure named [result](name) with seven parameter
+    - create new procedure named [get](name) with two parameter
+    - create new procedure named [update](name) with seven parameter
+    - create new procedure named [create](name) with three parameter
+    - create new procedure named [delete](name) with three parameter
+    - create new procedure named [find](name) with six parameter
+    - create new procedure named [receive](name) with six parameter
+    - create new procedure named [calculate](name) with two parameter
+    - create new procedure named [decrement](name) with one parameter
+    - create new procedure named [increment](name) with three parameter
+    - create new procedure named [calc](name) with ten parameter
+    - create new procedure named [add](name) with six parameter
+    - create new procedure named [valid](name) with nine parameter
+    - create new procedure named [move](name) with nine parameter
+    - create new procedure named [work](name) with four parameter
+    - create new procedure named [write](name) with six parameter
+    - create new procedure named [spec](name) with seven parameter
+    - create new procedure named [buy](name) with five parameter
+    - create new procedure named [run](name) with five parameter
+    - create new procedure named [notify](name) with five parameter
+    - create new procedure named [output](name) with nine parameter
+    - create new procedure named [communicate](name) with four parameter
+    - create new procedure named [call](name) with nine parameter
+    - create new procedure named [send](name) with nine parameter
+    - create new procedure named [input](name) with four parameter
+    - create new procedure named [subtract](name) with ten parameter
+    - create new procedure named [multiply](name) with seven parameter
+    - create new procedure named [divide](name) with eight parameter
+    - create new procedure named [modulus](name) with six parameter
+    - create new procedure named [check](name) with nine parameter
+    - create new procedure named [display](name) with five parameter
+    - create new procedure named [show](name) with three parameter
+    - create new procedure named [view](name) with eight parameter
+    - create new procedure named [max](name) with five parameter
+    - create new procedure named [min](name) with seven parameter
+    - create new procedure named [is](name) with six parameter
+    - create new procedure named [contain](name) with seven parameter
+    - create new procedure named [remove](name) with nine parameter
+    - create new procedure named [clear](name) with three parameter
+    - create new procedure named [clean](name) with four parameter
+    - create new procedure named [put](name) with two parameter
+    - create new procedure named [set](name) with eight parameter
+    - create new procedure named [build](name) with five parameter
+    - create new procedure named [plus](name) with six parameter
+    - create new procedure named [minus](name) with eight parameter
+    - create new procedure named [append](name) with two parameter
+    - create new procedure named [reset](name) with nine parameter
+    - create new procedure named [rebuild](name) with three parameter
+    - create new procedure named [change](name) with six parameter
+    - create new procedure named [select](name) with nine parameter
+    - create new procedure named [generate](name) with three parameter
+    - create procedure named [repository](name) with nine parameter
+    - create procedure named [api](name) with ten parameter
+    - create procedure named [controller](name) with two parameter
+    - create procedure named [service](name) with three parameter
+    - create procedure named [model](name) with five parameter
+    - create procedure named [repo](name) with four parameter
+    - create procedure named [sum](name) with eight parameter
+    - create procedure named [addition](name) with four parameter
+    - create procedure named [answer](name) with ten parameter
+    - create procedure named [result](name) with nine parameter
+    - create procedure named [get](name) with eight parameter
+    - create procedure named [update](name) with one parameter
+    - create procedure named [create](name) with nine parameter
+    - create procedure named [delete](name) with four parameter
+    - create procedure named [find](name) with five parameter
+    - create procedure named [receive](name) with nine parameter
+    - create procedure named [calculate](name) with five parameter
+    - create procedure named [decrement](name) with two parameter
+    - create procedure named [increment](name) with six parameter
+    - create procedure named [calc](name) with four parameter
+    - create procedure named [add](name) with three parameter
+    - create procedure named [valid](name) with three parameter
+    - create procedure named [move](name) with seven parameter
+    - create procedure named [work](name) with seven parameter
+    - create procedure named [write](name) with one parameter
+    - create procedure named [spec](name) with three parameter
+    - create procedure named [buy](name) with six parameter
+    - create procedure named [run](name) with six parameter
+    - create procedure named [notify](name) with four parameter
+    - create procedure named [output](name) with three parameter
+    - create procedure named [communicate](name) with eight parameter
+    - create procedure named [call](name) with ten parameter
+    - create procedure named [send](name) with three parameter
+    - create procedure named [input](name) with seven parameter
+    - create procedure named [subtract](name) with nine parameter
+    - create procedure named [multiply](name) with two parameter
+    - create procedure named [divide](name) with three parameter
+    - create procedure named [modulus](name) with seven parameter
+    - create procedure named [check](name) with four parameter
+    - create procedure named [display](name) with four parameter
+    - create procedure named [show](name) with three parameter
+    - create procedure named [view](name) with three parameter
+    - create procedure named [max](name) with seven parameter
+    - create procedure named [min](name) with four parameter
+    - create procedure named [is](name) with eight parameter
+    - create procedure named [contain](name) with three parameter
+    - create procedure named [remove](name) with nine parameter
+    - create procedure named [clear](name) with four parameter
+    - create procedure named [clean](name) with nine parameter
+    - create procedure named [put](name) with nine parameter
+    - create procedure named [set](name) with ten parameter
+    - create procedure named [build](name) with three parameter
+    - create procedure named [plus](name) with six parameter
+    - create procedure named [minus](name) with two parameter
+    - create procedure named [append](name) with four parameter
+    - create procedure named [reset](name) with three parameter
+    - create procedure named [rebuild](name) with five parameter
+    - create procedure named [change](name) with three parameter
+    - create procedure named [select](name) with four parameter
+    - create procedure named [generate](name) with two parameter
+    - create procedure [repository](name) with six parameter
+    - create procedure [api](name) with seven parameter
+    - create procedure [controller](name) with three parameter
+    - create procedure [service](name) with ten parameter
+    - create procedure [model](name) with ten parameter
+    - create procedure [repo](name) with nine parameter
+    - create procedure [sum](name) with three parameter
+    - create procedure [addition](name) with three parameter
+    - create procedure [answer](name) with three parameter
+    - create procedure [result](name) with seven parameter
+    - create procedure [get](name) with ten parameter
+    - create procedure [update](name) with six parameter
+    - create procedure [create](name) with six parameter
+    - create procedure [delete](name) with four parameter
+    - create procedure [find](name) with one parameter
+    - create procedure [receive](name) with one parameter
+    - create procedure [calculate](name) with four parameter
+    - create procedure [decrement](name) with four parameter
+    - create procedure [increment](name) with six parameter
+    - create procedure [calc](name) with five parameter
+    - create procedure [add](name) with five parameter
+    - create procedure [valid](name) with two parameter
+    - create procedure [move](name) with three parameter
+    - create procedure [work](name) with one parameter
+    - create procedure [write](name) with ten parameter
+    - create procedure [spec](name) with three parameter
+    - create procedure [buy](name) with one parameter
+    - create procedure [run](name) with six parameter
+    - create procedure [notify](name) with one parameter
+    - create procedure [output](name) with five parameter
+    - create procedure [communicate](name) with nine parameter
+    - create procedure [call](name) with six parameter
+    - create procedure [send](name) with three parameter
+    - create procedure [input](name) with ten parameter
+    - create procedure [subtract](name) with seven parameter
+    - create procedure [multiply](name) with four parameter
+    - create procedure [divide](name) with one parameter
+    - create procedure [modulus](name) with six parameter
+    - create procedure [check](name) with three parameter
+    - create procedure [display](name) with eight parameter
+    - create procedure [show](name) with three parameter
+    - create procedure [view](name) with two parameter
+    - create procedure [max](name) with four parameter
+    - create procedure [min](name) with seven parameter
+    - create procedure [is](name) with nine parameter
+    - create procedure [contain](name) with three parameter
+    - create procedure [remove](name) with eight parameter
+    - create procedure [clear](name) with four parameter
+    - create procedure [clean](name) with one parameter
+    - create procedure [put](name) with seven parameter
+    - create procedure [set](name) with seven parameter
+    - create procedure [build](name) with six parameter
+    - create procedure [plus](name) with four parameter
+    - create procedure [minus](name) with three parameter
+    - create procedure [append](name) with four parameter
+    - create procedure [reset](name) with four parameter
+    - create procedure [rebuild](name) with eight parameter
+    - create procedure [change](name) with four parameter
+    - create procedure [select](name) with six parameter
+    - create procedure [generate](name) with one parameter
+    - create new procedure named [repository](name) with return type short
+    - create new procedure named [api](name) with return type string
+    - create new procedure named [controller](name) with return type double
+    - create new procedure named [service](name) with return type long
+    - create new procedure named [model](name) with return type integer
+    - create new procedure named [repo](name) with return type double
+    - create new procedure named [sum](name) with return type integer
+    - create new procedure named [addition](name) with return type char
+    - create new procedure named [answer](name) with return type double
+    - create new procedure named [result](name) with return type string
+    - create new procedure named [get](name) with return type string
+    - create new procedure named [update](name) with return type double
+    - create new procedure named [create](name) with return type byte
+    - create new procedure named [delete](name) with return type flout
+    - create new procedure named [find](name) with return type integer
+    - create new procedure named [receive](name) with return type char
+    - create new procedure named [calculate](name) with return type integer
+    - create new procedure named [decrement](name) with return type byte
+    - create new procedure named [increment](name) with return type char
+    - create new procedure named [calc](name) with return type char
+    - create new procedure named [add](name) with return type string
+    - create new procedure named [valid](name) with return type string
+    - create new procedure named [move](name) with return type long
+    - create new procedure named [work](name) with return type string
+    - create new procedure named [write](name) with return type short
+    - create new procedure named [spec](name) with return type integer
+    - create new procedure named [buy](name) with return type short
+    - create new procedure named [run](name) with return type boolean
+    - create new procedure named [notify](name) with return type byte
+    - create new procedure named [output](name) with return type short
+    - create new procedure named [communicate](name) with return type char
+    - create new procedure named [call](name) with return type char
+    - create new procedure named [send](name) with return type byte
+    - create new procedure named [input](name) with return type string
+    - create new procedure named [subtract](name) with return type short
+    - create new procedure named [multiply](name) with return type boolean
+    - create new procedure named [divide](name) with return type byte
+    - create new procedure named [modulus](name) with return type short
+    - create new procedure named [check](name) with return type byte
+    - create new procedure named [display](name) with return type boolean
+    - create new procedure named [show](name) with return type byte
+    - create new procedure named [view](name) with return type double
+    - create new procedure named [max](name) with return type boolean
+    - create new procedure named [min](name) with return type integer
+    - create new procedure named [is](name) with return type byte
+    - create new procedure named [contain](name) with return type byte
+    - create new procedure named [remove](name) with return type byte
+    - create new procedure named [clear](name) with return type long
+    - create new procedure named [clean](name) with return type double
+    - create new procedure named [put](name) with return type long
+    - create new procedure named [set](name) with return type long
+    - create new procedure named [build](name) with return type string
+    - create new procedure named [plus](name) with return type flout
+    - create new procedure named [minus](name) with return type double
+    - create new procedure named [append](name) with return type short
+    - create new procedure named [reset](name) with return type flout
+    - create new procedure named [rebuild](name) with return type string
+    - create new procedure named [change](name) with return type double
+    - create new procedure named [select](name) with return type short
+    - create new procedure named [generate](name) with return type short
+    - create procedure named [repository](name) with return type double
+    - create procedure named [api](name) with return type string
+    - create procedure named [controller](name) with return type char
+    - create procedure named [service](name) with return type long
+    - create procedure named [model](name) with return type byte
+    - create procedure named [repo](name) with return type boolean
+    - create procedure named [sum](name) with return type double
+    - create procedure named [addition](name) with return type long
+    - create procedure named [answer](name) with return type boolean
+    - create procedure named [result](name) with return type long
+    - create procedure named [get](name) with return type char
+    - create procedure named [update](name) with return type long
+    - create procedure named [create](name) with return type short
+    - create procedure named [delete](name) with return type integer
+    - create procedure named [find](name) with return type char
+    - create procedure named [receive](name) with return type double
+    - create procedure named [calculate](name) with return type byte
+    - create procedure named [decrement](name) with return type long
+    - create procedure named [increment](name) with return type long
+    - create procedure named [calc](name) with return type string
+    - create procedure named [add](name) with return type integer
+    - create procedure named [valid](name) with return type long
+    - create procedure named [move](name) with return type flout
+    - create procedure named [work](name) with return type long
+    - create procedure named [write](name) with return type short
+    - create procedure named [spec](name) with return type byte
+    - create procedure named [buy](name) with return type boolean
+    - create procedure named [run](name) with return type char
+    - create procedure named [notify](name) with return type integer
+    - create procedure named [output](name) with return type byte
+    - create procedure named [communicate](name) with return type flout
+    - create procedure named [call](name) with return type double
+    - create procedure named [send](name) with return type byte
+    - create procedure named [input](name) with return type double
+    - create procedure named [subtract](name) with return type char
+    - create procedure named [multiply](name) with return type long
+    - create procedure named [divide](name) with return type double
+    - create procedure named [modulus](name) with return type string
+    - create procedure named [check](name) with return type double
+    - create procedure named [display](name) with return type byte
+    - create procedure named [show](name) with return type integer
+    - create procedure named [view](name) with return type integer
+    - create procedure named [max](name) with return type flout
+    - create procedure named [min](name) with return type flout
+    - create procedure named [is](name) with return type string
+    - create procedure named [contain](name) with return type short
+    - create procedure named [remove](name) with return type short
+    - create procedure named [clear](name) with return type double
+    - create procedure named [clean](name) with return type long
+    - create procedure named [put](name) with return type double
+    - create procedure named [set](name) with return type string
+    - create procedure named [build](name) with return type boolean
+    - create procedure named [plus](name) with return type flout
+    - create procedure named [minus](name) with return type short
+    - create procedure named [append](name) with return type flout
+    - create procedure named [reset](name) with return type boolean
+    - create procedure named [rebuild](name) with return type byte
+    - create procedure named [change](name) with return type char
+    - create procedure named [select](name) with return type flout
+    - create procedure named [generate](name) with return type long
+    - create procedure [repository](name) with return type boolean
+    - create procedure [api](name) with return type char
+    - create procedure [controller](name) with return type short
+    - create procedure [service](name) with return type byte
+    - create procedure [model](name) with return type byte
+    - create procedure [repo](name) with return type long
+    - create procedure [sum](name) with return type double
+    - create procedure [addition](name) with return type short
+    - create procedure [answer](name) with return type char
+    - create procedure [result](name) with return type char
+    - create procedure [get](name) with return type double
+    - create procedure [update](name) with return type string
+    - create procedure [create](name) with return type double
+    - create procedure [delete](name) with return type byte
+    - create procedure [find](name) with return type flout
+    - create procedure [receive](name) with return type long
+    - create procedure [calculate](name) with return type flout
+    - create procedure [decrement](name) with return type double
+    - create procedure [increment](name) with return type boolean
+    - create procedure [calc](name) with return type double
+    - create procedure [add](name) with return type boolean
+    - create procedure [valid](name) with return type double
+    - create procedure [move](name) with return type char
+    - create procedure [work](name) with return type flout
+    - create procedure [write](name) with return type char
+    - create procedure [spec](name) with return type long
+    - create procedure [buy](name) with return type long
+    - create procedure [run](name) with return type byte
+    - create procedure [notify](name) with return type double
+    - create procedure [output](name) with return type char
+    - create procedure [communicate](name) with return type flout
+    - create procedure [call](name) with return type byte
+    - create procedure [send](name) with return type flout
+    - create procedure [input](name) with return type char
+    - create procedure [subtract](name) with return type boolean
+    - create procedure [multiply](name) with return type byte
+    - create procedure [divide](name) with return type flout
+    - create procedure [modulus](name) with return type long
+    - create procedure [check](name) with return type boolean
+    - create procedure [display](name) with return type flout
+    - create procedure [show](name) with return type char
+    - create procedure [view](name) with return type short
+    - create procedure [max](name) with return type double
+    - create procedure [min](name) with return type string
+    - create procedure [is](name) with return type flout
+    - create procedure [contain](name) with return type char
+    - create procedure [remove](name) with return type long
+    - create procedure [clear](name) with return type flout
+    - create procedure [clean](name) with return type flout
+    - create procedure [put](name) with return type flout
+    - create procedure [set](name) with return type double
+    - create procedure [build](name) with return type short
+    - create procedure [plus](name) with return type integer
+    - create procedure [minus](name) with return type string
+    - create procedure [append](name) with return type boolean
+    - create procedure [reset](name) with return type string
+    - create procedure [rebuild](name) with return type short
+    - create procedure [change](name) with return type boolean
+    - create procedure [select](name) with return type byte
+    - create procedure [generate](name) with return type char
+    - create new public procedure named [repository](name) with return type short
+    - create new private procedure named [api](name) with return type char
+    - create new public procedure named [controller](name) with return type string
+    - create new private procedure named [service](name) with return type integer
+    - create new public procedure named [model](name) with return type flout
+    - create new public procedure named [repo](name) with return type flout
+    - create new public procedure named [sum](name) with return type string
+    - create new public procedure named [addition](name) with return type long
+    - create new public procedure named [answer](name) with return type long
+    - create new private procedure named [result](name) with return type integer
+    - create new public procedure named [get](name) with return type double
+    - create new public procedure named [update](name) with return type double
+    - create new private procedure named [create](name) with return type short
+    - create new private procedure named [delete](name) with return type short
+    - create new public procedure named [find](name) with return type long
+    - create new public procedure named [receive](name) with return type flout
+    - create new public procedure named [calculate](name) with return type char
+    - create new public procedure named [decrement](name) with return type char
+    - create new public procedure named [increment](name) with return type integer
+    - create new public procedure named [calc](name) with return type long
+    - create new public procedure named [add](name) with return type byte
+    - create new public procedure named [valid](name) with return type flout
+    - create new private procedure named [move](name) with return type double
+    - create new private procedure named [work](name) with return type string
+    - create new private procedure named [write](name) with return type boolean
+    - create new public procedure named [spec](name) with return type short
+    - create new private procedure named [buy](name) with return type flout
+    - create new private procedure named [run](name) with return type short
+    - create new public procedure named [notify](name) with return type short
+    - create new private procedure named [output](name) with return type char
+    - create new private procedure named [communicate](name) with return type short
+    - create new public procedure named [call](name) with return type integer
+    - create new public procedure named [send](name) with return type short
+    - create new private procedure named [input](name) with return type boolean
+    - create new private procedure named [subtract](name) with return type boolean
+    - create new private procedure named [multiply](name) with return type short
+    - create new public procedure named [divide](name) with return type double
+    - create new private procedure named [modulus](name) with return type string
+    - create new public procedure named [check](name) with return type boolean
+    - create new private procedure named [display](name) with return type string
+    - create new public procedure named [show](name) with return type boolean
+    - create new public procedure named [view](name) with return type double
+    - create new public procedure named [max](name) with return type integer
+    - create new private procedure named [min](name) with return type byte
+    - create new private procedure named [is](name) with return type integer
+    - create new private procedure named [contain](name) with return type double
+    - create new public procedure named [remove](name) with return type byte
+    - create new public procedure named [clear](name) with return type string
+    - create new public procedure named [clean](name) with return type double
+    - create new public procedure named [put](name) with return type integer
+    - create new public procedure named [set](name) with return type short
+    - create new public procedure named [build](name) with return type double
+    - create new public procedure named [plus](name) with return type short
+    - create new public procedure named [minus](name) with return type integer
+    - create new private procedure named [append](name) with return type short
+    - create new public procedure named [reset](name) with return type integer
+    - create new private procedure named [rebuild](name) with return type short
+    - create new public procedure named [change](name) with return type byte
+    - create new private procedure named [select](name) with return type long
+    - create new public procedure named [generate](name) with return type long
+    - create private procedure named [repository](name) with return type double
+    - create private procedure named [api](name) with return type double
+    - create private procedure named [controller](name) with return type byte
+    - create public procedure named [service](name) with return type boolean
+    - create private procedure named [model](name) with return type short
+    - create public procedure named [repo](name) with return type char
+    - create public procedure named [sum](name) with return type double
+    - create public procedure named [addition](name) with return type integer
+    - create private procedure named [answer](name) with return type short
+    - create private procedure named [result](name) with return type byte
+    - create private procedure named [get](name) with return type double
+    - create private procedure named [update](name) with return type short
+    - create private procedure named [create](name) with return type short
+    - create public procedure named [delete](name) with return type flout
+    - create public procedure named [find](name) with return type integer
+    - create public procedure named [receive](name) with return type double
+    - create public procedure named [calculate](name) with return type string
+    - create public procedure named [decrement](name) with return type integer
+    - create public procedure named [increment](name) with return type flout
+    - create private procedure named [calc](name) with return type byte
+    - create public procedure named [add](name) with return type double
+    - create public procedure named [valid](name) with return type byte
+    - create public procedure named [move](name) with return type string
+    - create private procedure named [work](name) with return type short
+    - create private procedure named [write](name) with return type boolean
+    - create private procedure named [spec](name) with return type char
+    - create private procedure named [buy](name) with return type char
+    - create public procedure named [run](name) with return type long
+    - create public procedure named [notify](name) with return type boolean
+    - create private procedure named [output](name) with return type char
+    - create private procedure named [communicate](name) with return type byte
+    - create private procedure named [call](name) with return type string
+    - create public procedure named [send](name) with return type byte
+    - create private procedure named [input](name) with return type char
+    - create private procedure named [subtract](name) with return type integer
+    - create private procedure named [multiply](name) with return type char
+    - create private procedure named [divide](name) with return type byte
+    - create public procedure named [modulus](name) with return type double
+    - create public procedure named [check](name) with return type long
+    - create private procedure named [display](name) with return type byte
+    - create public procedure named [show](name) with return type string
+    - create private procedure named [view](name) with return type long
+    - create private procedure named [max](name) with return type string
+    - create public procedure named [min](name) with return type long
+    - create public procedure named [is](name) with return type double
+    - create public procedure named [contain](name) with return type short
+    - create private procedure named [remove](name) with return type string
+    - create private procedure named [clear](name) with return type char
+    - create public procedure named [clean](name) with return type integer
+    - create private procedure named [put](name) with return type char
+    - create private procedure named [set](name) with return type char
+    - create public procedure named [build](name) with return type byte
+    - create private procedure named [plus](name) with return type double
+    - create private procedure named [minus](name) with return type double
+    - create private procedure named [append](name) with return type boolean
+    - create public procedure named [reset](name) with return type boolean
+    - create private procedure named [rebuild](name) with return type integer
+    - create public procedure named [change](name) with return type string
+    - create private procedure named [select](name) with return type byte
+    - create private procedure named [generate](name) with return type long
+    - create public procedure [repository](name) with return type byte
+    - create private procedure [api](name) with return type byte
+    - create public procedure [controller](name) with return type flout
+    - create private procedure [service](name) with return type boolean
+    - create private procedure [model](name) with return type flout
+    - create public procedure [repo](name) with return type flout
+    - create private procedure [sum](name) with return type flout
+    - create public procedure [addition](name) with return type double
+    - create public procedure [answer](name) with return type boolean
+    - create public procedure [result](name) with return type flout
+    - create public procedure [get](name) with return type short
+    - create public procedure [update](name) with return type integer
+    - create private procedure [create](name) with return type string
+    - create public procedure [delete](name) with return type byte
+    - create public procedure [find](name) with return type flout
+    - create public procedure [receive](name) with return type byte
+    - create public procedure [calculate](name) with return type char
+    - create private procedure [decrement](name) with return type string
+    - create public procedure [increment](name) with return type short
+    - create private procedure [calc](name) with return type double
+    - create private procedure [add](name) with return type string
+    - create private procedure [valid](name) with return type short
+    - create private procedure [move](name) with return type short
+    - create private procedure [work](name) with return type long
+    - create public procedure [write](name) with return type flout
+    - create public procedure [spec](name) with return type integer
+    - create public procedure [buy](name) with return type string
+    - create private procedure [run](name) with return type flout
+    - create private procedure [notify](name) with return type short
+    - create private procedure [output](name) with return type char
+    - create public procedure [communicate](name) with return type string
+    - create private procedure [call](name) with return type double
+    - create private procedure [send](name) with return type long
+    - create public procedure [input](name) with return type flout
+    - create public procedure [subtract](name) with return type flout
+    - create public procedure [multiply](name) with return type integer
+    - create private procedure [divide](name) with return type long
+    - create private procedure [modulus](name) with return type double
+    - create public procedure [check](name) with return type long
+    - create private procedure [display](name) with return type byte
+    - create private procedure [show](name) with return type boolean
+    - create private procedure [view](name) with return type boolean
+    - create private procedure [max](name) with return type short
+    - create public procedure [min](name) with return type string
+    - create private procedure [is](name) with return type long
+    - create public procedure [contain](name) with return type short
+    - create private procedure [remove](name) with return type long
+    - create private procedure [clear](name) with return type short
+    - create public procedure [clean](name) with return type short
+    - create public procedure [put](name) with return type double
+    - create public procedure [set](name) with return type boolean
+    - create private procedure [build](name) with return type double
+    - create private procedure [plus](name) with return type char
+    - create private procedure [minus](name) with return type integer
+    - create public procedure [append](name) with return type byte
+    - create public procedure [reset](name) with return type double
+    - create public procedure [rebuild](name) with return type string
+    - create private procedure [change](name) with return type short
+    - create public procedure [select](name) with return type char
+    - create private procedure [generate](name) with return type char
+
+- intent: deleteprocedure
+  examples: |
+    - delete procedure named [repository](name)
+    - delete procedure named [api](name)
+    - delete procedure named [controller](name)
+    - delete procedure named [service](name)
+    - delete procedure named [model](name)
+    - delete procedure named [repo](name)
+    - delete procedure named [sum](name)
+    - delete procedure named [addition](name)
+    - delete procedure named [answer](name)
+    - delete procedure named [result](name)
+    - delete procedure named [get](name)
+    - delete procedure named [update](name)
+    - delete procedure named [create](name)
+    - delete procedure named [delete](name)
+    - delete procedure named [find](name)
+    - delete procedure named [receive](name)
+    - delete procedure named [calculate](name)
+    - delete procedure named [decrement](name)
+    - delete procedure named [increment](name)
+    - delete procedure named [calc](name)
+    - delete procedure named [add](name)
+    - delete procedure named [valid](name)
+    - delete procedure named [move](name)
+    - delete procedure named [work](name)
+    - delete procedure named [write](name)
+    - delete procedure named [spec](name)
+    - delete procedure named [buy](name)
+    - delete procedure named [run](name)
+    - delete procedure named [notify](name)
+    - delete procedure named [output](name)
+    - delete procedure named [communicate](name)
+    - delete procedure named [call](name)
+    - delete procedure named [send](name)
+    - delete procedure named [input](name)
+    - delete procedure named [subtract](name)
+    - delete procedure named [multiply](name)
+    - delete procedure named [divide](name)
+    - delete procedure named [modulus](name)
+    - delete procedure named [check](name)
+    - delete procedure named [display](name)
+    - delete procedure named [show](name)
+    - delete procedure named [view](name)
+    - delete procedure named [max](name)
+    - delete procedure named [min](name)
+    - delete procedure named [is](name)
+    - delete procedure named [contain](name)
+    - delete procedure named [remove](name)
+    - delete procedure named [clear](name)
+    - delete procedure named [clean](name)
+    - delete procedure named [put](name)
+    - delete procedure named [set](name)
+    - delete procedure named [build](name)
+    - delete procedure named [plus](name)
+    - delete procedure named [minus](name)
+    - delete procedure named [append](name)
+    - delete procedure named [reset](name)
+    - delete procedure named [rebuild](name)
+    - delete procedure named [change](name)
+    - delete procedure named [select](name)
+    - delete procedure named [generate](name)
+    - delete procedure [repository](name)
+    - delete procedure [api](name)
+    - delete procedure [controller](name)
+    - delete procedure [service](name)
+    - delete procedure [model](name)
+    - delete procedure [repo](name)
+    - delete procedure [sum](name)
+    - delete procedure [addition](name)
+    - delete procedure [answer](name)
+    - delete procedure [result](name)
+    - delete procedure [get](name)
+    - delete procedure [update](name)
+    - delete procedure [create](name)
+    - delete procedure [delete](name)
+    - delete procedure [find](name)
+    - delete procedure [receive](name)
+    - delete procedure [calculate](name)
+    - delete procedure [decrement](name)
+    - delete procedure [increment](name)
+    - delete procedure [calc](name)
+    - delete procedure [add](name)
+    - delete procedure [valid](name)
+    - delete procedure [move](name)
+    - delete procedure [work](name)
+    - delete procedure [write](name)
+    - delete procedure [spec](name)
+    - delete procedure [buy](name)
+    - delete procedure [run](name)
+    - delete procedure [notify](name)
+    - delete procedure [output](name)
+    - delete procedure [communicate](name)
+    - delete procedure [call](name)
+    - delete procedure [send](name)
+    - delete procedure [input](name)
+    - delete procedure [subtract](name)
+    - delete procedure [multiply](name)
+    - delete procedure [divide](name)
+    - delete procedure [modulus](name)
+    - delete procedure [check](name)
+    - delete procedure [display](name)
+    - delete procedure [show](name)
+    - delete procedure [view](name)
+    - delete procedure [max](name)
+    - delete procedure [min](name)
+    - delete procedure [is](name)
+    - delete procedure [contain](name)
+    - delete procedure [remove](name)
+    - delete procedure [clear](name)
+    - delete procedure [clean](name)
+    - delete procedure [put](name)
+    - delete procedure [set](name)
+    - delete procedure [build](name)
+    - delete procedure [plus](name)
+    - delete procedure [minus](name)
+    - delete procedure [append](name)
+    - delete procedure [reset](name)
+    - delete procedure [rebuild](name)
+    - delete procedure [change](name)
+    - delete procedure [select](name)
+    - delete procedure [generate](name)
+    - remove procedure named [repository](name)
+    - remove procedure named [api](name)
+    - remove procedure named [controller](name)
+    - remove procedure named [service](name)
+    - remove procedure named [model](name)
+    - remove procedure named [repo](name)
+    - remove procedure named [sum](name)
+    - remove procedure named [addition](name)
+    - remove procedure named [answer](name)
+    - remove procedure named [result](name)
+    - remove procedure named [get](name)
+    - remove procedure named [update](name)
+    - remove procedure named [create](name)
+    - remove procedure named [delete](name)
+    - remove procedure named [find](name)
+    - remove procedure named [receive](name)
+    - remove procedure named [calculate](name)
+    - remove procedure named [decrement](name)
+    - remove procedure named [increment](name)
+    - remove procedure named [calc](name)
+    - remove procedure named [add](name)
+    - remove procedure named [valid](name)
+    - remove procedure named [move](name)
+    - remove procedure named [work](name)
+    - remove procedure named [write](name)
+    - remove procedure named [spec](name)
+    - remove procedure named [buy](name)
+    - remove procedure named [run](name)
+    - remove procedure named [notify](name)
+    - remove procedure named [output](name)
+    - remove procedure named [communicate](name)
+    - remove procedure named [call](name)
+    - remove procedure named [send](name)
+    - remove procedure named [input](name)
+    - remove procedure named [subtract](name)
+    - remove procedure named [multiply](name)
+    - remove procedure named [divide](name)
+    - remove procedure named [modulus](name)
+    - remove procedure named [check](name)
+    - remove procedure named [display](name)
+    - remove procedure named [show](name)
+    - remove procedure named [view](name)
+    - remove procedure named [max](name)
+    - remove procedure named [min](name)
+    - remove procedure named [is](name)
+    - remove procedure named [contain](name)
+    - remove procedure named [remove](name)
+    - remove procedure named [clear](name)
+    - remove procedure named [clean](name)
+    - remove procedure named [put](name)
+    - remove procedure named [set](name)
+    - remove procedure named [build](name)
+    - remove procedure named [plus](name)
+    - remove procedure named [minus](name)
+    - remove procedure named [append](name)
+    - remove procedure named [reset](name)
+    - remove procedure named [rebuild](name)
+    - remove procedure named [change](name)
+    - remove procedure named [select](name)
+    - remove procedure named [generate](name)
+    - remove procedure [repository](name)
+    - remove procedure [api](name)
+    - remove procedure [controller](name)
+    - remove procedure [service](name)
+    - remove procedure [model](name)
+    - remove procedure [repo](name)
+    - remove procedure [sum](name)
+    - remove procedure [addition](name)
+    - remove procedure [answer](name)
+    - remove procedure [result](name)
+    - remove procedure [get](name)
+    - remove procedure [update](name)
+    - remove procedure [create](name)
+    - remove procedure [delete](name)
+    - remove procedure [find](name)
+    - remove procedure [receive](name)
+    - remove procedure [calculate](name)
+    - remove procedure [decrement](name)
+    - remove procedure [increment](name)
+    - remove procedure [calc](name)
+    - remove procedure [add](name)
+    - remove procedure [valid](name)
+    - remove procedure [move](name)
+    - remove procedure [work](name)
+    - remove procedure [write](name)
+    - remove procedure [spec](name)
+    - remove procedure [buy](name)
+    - remove procedure [run](name)
+    - remove procedure [notify](name)
+    - remove procedure [output](name)
+    - remove procedure [communicate](name)
+    - remove procedure [call](name)
+    - remove procedure [send](name)
+    - remove procedure [input](name)
+    - remove procedure [subtract](name)
+    - remove procedure [multiply](name)
+    - remove procedure [divide](name)
+    - remove procedure [modulus](name)
+    - remove procedure [check](name)
+    - remove procedure [display](name)
+    - remove procedure [show](name)
+    - remove procedure [view](name)
+    - remove procedure [max](name)
+    - remove procedure [min](name)
+    - remove procedure [is](name)
+    - remove procedure [contain](name)
+    - remove procedure [remove](name)
+    - remove procedure [clear](name)
+    - remove procedure [clean](name)
+    - remove procedure [put](name)
+    - remove procedure [set](name)
+    - remove procedure [build](name)
+    - remove procedure [plus](name)
+    - remove procedure [minus](name)
+    - remove procedure [append](name)
+    - remove procedure [reset](name)
+    - remove procedure [rebuild](name)
+    - remove procedure [change](name)
+    - remove procedure [select](name)
+    - remove procedure [generate](name)
+
+- intent: cutprocedure
+  examples: |
+    - cut procedure named [repository](name)
+    - cut procedure named [api](name)
+    - cut procedure named [controller](name)
+    - cut procedure named [service](name)
+    - cut procedure named [model](name)
+    - cut procedure named [repo](name)
+    - cut procedure named [sum](name)
+    - cut procedure named [addition](name)
+    - cut procedure named [answer](name)
+    - cut procedure named [result](name)
+    - cut procedure named [get](name)
+    - cut procedure named [update](name)
+    - cut procedure named [create](name)
+    - cut procedure named [delete](name)
+    - cut procedure named [find](name)
+    - cut procedure named [receive](name)
+    - cut procedure named [calculate](name)
+    - cut procedure named [decrement](name)
+    - cut procedure named [increment](name)
+    - cut procedure named [calc](name)
+    - cut procedure named [add](name)
+    - cut procedure named [valid](name)
+    - cut procedure named [move](name)
+    - cut procedure named [work](name)
+    - cut procedure named [write](name)
+    - cut procedure named [spec](name)
+    - cut procedure named [buy](name)
+    - cut procedure named [run](name)
+    - cut procedure named [notify](name)
+    - cut procedure named [output](name)
+    - cut procedure named [communicate](name)
+    - cut procedure named [call](name)
+    - cut procedure named [send](name)
+    - cut procedure named [input](name)
+    - cut procedure named [subtract](name)
+    - cut procedure named [multiply](name)
+    - cut procedure named [divide](name)
+    - cut procedure named [modulus](name)
+    - cut procedure named [check](name)
+    - cut procedure named [display](name)
+    - cut procedure named [show](name)
+    - cut procedure named [view](name)
+    - cut procedure named [max](name)
+    - cut procedure named [min](name)
+    - cut procedure named [is](name)
+    - cut procedure named [contain](name)
+    - cut procedure named [remove](name)
+    - cut procedure named [clear](name)
+    - cut procedure named [clean](name)
+    - cut procedure named [put](name)
+    - cut procedure named [set](name)
+    - cut procedure named [build](name)
+    - cut procedure named [plus](name)
+    - cut procedure named [minus](name)
+    - cut procedure named [append](name)
+    - cut procedure named [reset](name)
+    - cut procedure named [rebuild](name)
+    - cut procedure named [change](name)
+    - cut procedure named [select](name)
+    - cut procedure named [generate](name)
+    - cut procedure [repository](name)
+    - cut procedure [api](name)
+    - cut procedure [controller](name)
+    - cut procedure [service](name)
+    - cut procedure [model](name)
+    - cut procedure [repo](name)
+    - cut procedure [sum](name)
+    - cut procedure [addition](name)
+    - cut procedure [answer](name)
+    - cut procedure [result](name)
+    - cut procedure [get](name)
+    - cut procedure [update](name)
+    - cut procedure [create](name)
+    - cut procedure [delete](name)
+    - cut procedure [find](name)
+    - cut procedure [receive](name)
+    - cut procedure [calculate](name)
+    - cut procedure [decrement](name)
+    - cut procedure [increment](name)
+    - cut procedure [calc](name)
+    - cut procedure [add](name)
+    - cut procedure [valid](name)
+    - cut procedure [move](name)
+    - cut procedure [work](name)
+    - cut procedure [write](name)
+    - cut procedure [spec](name)
+    - cut procedure [buy](name)
+    - cut procedure [run](name)
+    - cut procedure [notify](name)
+    - cut procedure [output](name)
+    - cut procedure [communicate](name)
+    - cut procedure [call](name)
+    - cut procedure [send](name)
+    - cut procedure [input](name)
+    - cut procedure [subtract](name)
+    - cut procedure [multiply](name)
+    - cut procedure [divide](name)
+    - cut procedure [modulus](name)
+    - cut procedure [check](name)
+    - cut procedure [display](name)
+    - cut procedure [show](name)
+    - cut procedure [view](name)
+    - cut procedure [max](name)
+    - cut procedure [min](name)
+    - cut procedure [is](name)
+    - cut procedure [contain](name)
+    - cut procedure [remove](name)
+    - cut procedure [clear](name)
+    - cut procedure [clean](name)
+    - cut procedure [put](name)
+    - cut procedure [set](name)
+    - cut procedure [build](name)
+    - cut procedure [plus](name)
+    - cut procedure [minus](name)
+    - cut procedure [append](name)
+    - cut procedure [reset](name)
+    - cut procedure [rebuild](name)
+    - cut procedure [change](name)
+    - cut procedure [select](name)
+    - cut procedure [generate](name)
+
+- intent: changeprocedure
+  examples: |
+    - change procedure named repo to multiply
+    - change procedure named model to change
+    - change procedure named calc to service
+    - change procedure named clear to addition
+    - change procedure named increment to service
+    - change procedure named multiply to model
+    - change procedure named remove to notify
+    - change procedure named run to clean
+    - change procedure named create to input
+    - change procedure named valid to service
+    - change procedure named generate to check
+    - change procedure named append to service
+    - change procedure named view to find
+    - change procedure named build to service
+    - change procedure named clear to reset
+    - change procedure named reset to minus
+    - change procedure named clean to write
+    - change procedure named receive to repository
+    - change procedure named change to generate
+    - change procedure named communicate to modulus
+    - change procedure named result to generate
+    - change procedure named repository to valid
+    - change procedure named spec to output
+    - change procedure named get to build
+    - change procedure named build to input
+    - change procedure named api to move
+    - change procedure named clear to generate
+    - change procedure named find to controller
+    - change procedure named call to input
+    - change procedure named run to append
+    - change procedure named output to select
+    - change procedure named put to select
+    - change procedure named put to generate
+    - change procedure named decrement to valid
+    - change procedure named buy to reset
+    - change procedure named build to modulus
+    - change procedure named calculate to sum
+    - change procedure named reset to minus
+    - change procedure named controller to view
+    - change procedure named reset to communicate
+    - change procedure named get to update
+    - change procedure named reset to move
+    - change procedure named update to output
+    - change procedure named clear to clean
+    - change procedure named show to modulus
+    - change procedure named remove to move
+    - change procedure named clear to build
+    - change procedure named generate to receive
+    - change procedure named add to update
+    - change procedure named set to clear
+    - change procedure named decrement to subtract
+    - change procedure named run to generate
+    - change procedure named divide to run
+    - change procedure named clean to sum
+    - change procedure named minus to is
+    - change procedure named answer to find
+    - change procedure named buy to work
+    - change procedure named clear to service
+    - change procedure named clean to addition
+    - change procedure named create to write
+    - change procedure named get to calculate
+    - change procedure named controller to modulus
+    - change procedure named create to increment
+    - change procedure named write to view
+    - change procedure named get to answer
+    - change procedure named check to min
+    - change procedure named show to reset
+    - change procedure named valid to notify
+    - change procedure named get to move
+    - change procedure named send to increment
+    - change procedure named valid to modulus
+    - change procedure named run to increment
+    - change procedure named plus to append
+    - change procedure named addition to buy
+    - change procedure named delete to send
+    - change procedure named display to work
+    - change procedure named valid to write
+    - change procedure named show to move
+    - change procedure named check to answer
+    - change procedure named append to run
+    - change procedure named contain to communicate
+    - change procedure named rebuild to plus
+    - change procedure named api to increment
+    - change procedure named controller to multiply
+    - change procedure named build to divide
+    - change procedure named max to clean
+    - change procedure named add to answer
+    - change procedure named set to spec
+    - change procedure named build to communicate
+    - change procedure named move to contain
+    - change procedure named put to addition
+    - change procedure named communicate to service
+    - change procedure named buy to clean
+    - change procedure named repository to increment
+    - change procedure named delete to create
+    - change procedure named reset to controller
+    - change procedure named plus to show
+    - change procedure named divide to buy
+    - change procedure named output to minus
+    - change procedure named show to contain
+    - change procedure named update to calc
+    - change procedure named call to set
+    - change procedure named build to view
+    - change procedure named minus to append
+    - change procedure named call to result
+    - change procedure named max to increment
+    - change procedure named buy to plus
+    - change procedure named answer to create
+    - change procedure named clean to buy
+    - change procedure named min to max
+    - change procedure named addition to add
+    - change procedure named notify to controller
+    - change procedure named input to set
+    - change procedure named repository to controller
+    - change procedure named model to divide
+    - change procedure named notify to repo
+    - change procedure named put to work
+    - change procedure named remove to divide
+    - change procedure named notify to reset
+    - change procedure model to run
+    - change procedure addition to receive
+    - change procedure output to valid
+    - change procedure move to subtract
+    - change procedure delete to contain
+    - change procedure view to addition
+    - change procedure calc to run
+    - change procedure repo to append
+    - change procedure decrement to repo
+    - change procedure call to notify
+    - change procedure get to min
+    - change procedure modulus to service
+    - change procedure spec to divide
+    - change procedure answer to generate
+    - change procedure repository to api
+    - change procedure api to get
+    - change procedure send to check
+    - change procedure view to max
+    - change procedure receive to spec
+    - change procedure set to increment
+    - change procedure set to divide
+    - change procedure service to minus
+    - change procedure display to calculate
+    - change procedure multiply to show
+    - change procedure addition to find
+    - change procedure check to put
+    - change procedure display to divide
+    - change procedure plus to write
+    - change procedure run to contain
+    - change procedure output to reset
+    - change procedure change to input
+    - change procedure spec to change
+    - change procedure update to modulus
+    - change procedure controller to update
+    - change procedure sum to put
+    - change procedure update to set
+    - change procedure input to decrement
+    - change procedure append to result
+    - change procedure work to valid
+    - change procedure delete to remove
+    - change procedure is to find
+    - change procedure multiply to plus
+    - change procedure call to modulus
+    - change procedure find to reset
+    - change procedure addition to increment
+    - change procedure divide to receive
+    - change procedure addition to generate
+    - change procedure answer to create
+    - change procedure repository to minus
+    - change procedure buy to change
+    - change procedure find to minus
+    - change procedure update to sum
+    - change procedure communicate to repo
+    - change procedure modulus to api
+    - change procedure generate to calc
+    - change procedure modulus to delete
+    - change procedure append to run
+    - change procedure model to put
+    - change procedure create to spec
+    - change procedure add to modulus
+    - change procedure build to decrement
+    - change procedure communicate to valid
+    - change procedure write to clean
+    - change procedure change to call
+    - change procedure delete to buy
+    - change procedure receive to increment
+    - change procedure append to min
+    - change procedure change to select
+    - change procedure answer to write
+    - change procedure multiply to work
+    - change procedure create to delete
+    - change procedure multiply to clear
+    - change procedure multiply to display
+    - change procedure calculate to display
+    - change procedure find to minus
+    - change procedure send to service
+    - change procedure spec to model
+    - change procedure generate to model
+    - change procedure is to show
+    - change procedure rebuild to show
+    - change procedure controller to rebuild
+    - change procedure result to write
+    - change procedure remove to sum
+    - change procedure get to run
+    - change procedure select to multiply
+    - change procedure check to move
+    - change procedure put to subtract
+    - change procedure modulus to put
+    - change procedure reset to buy
+    - change procedure clean to display
+    - change procedure build to api
+    - change procedure sum to result
+    - change procedure view to is
+    - change procedure output to result
+    - change procedure answer to view
+    - change procedure addition to repo
+    - change procedure result to answer
+    - change procedure check to api
+    - change procedure decrement to minus
+    - change procedure add to view
+    - change procedure clean to is
+    - change procedure change to divide
+    - change procedure decrement to addition
+    - change procedure receive to set
+    - change procedure call to repository
+    - change procedure rebuild to create
+    - change procedure input to minus
+    - change procedure valid to max
+    - change procedure move to valid
+    - change procedure select to controller
+    - change procedure update to remove
+    - change procedure change to delete
+    - change procedure answer to sum
+    - change procedure display to output
+    - change procedure valid to rebuild
+    - change procedure minus to set
+
+- intent: editprocedure
+  examples: |
+    - edit procedure named set to generate
+    - edit procedure named change to receive
+    - edit procedure named buy to answer
+    - edit procedure named change to select
+    - edit procedure named contain to multiply
+    - edit procedure named append to contain
+    - edit procedure named increment to buy
+    - edit procedure named move to subtract
+    - edit procedure named valid to view
+    - edit procedure named valid to sum
+    - edit procedure named send to display
+    - edit procedure named add to contain
+    - edit procedure named generate to min
+    - edit procedure named repo to update
+    - edit procedure named delete to buy
+    - edit procedure named sum to modulus
+    - edit procedure named max to write
+    - edit procedure named spec to min
+    - edit procedure named display to repo
+    - edit procedure named service to input
+    - edit procedure named calc to update
+    - edit procedure named buy to subtract
+    - edit procedure named spec to view
+    - edit procedure named result to call
+    - edit procedure named plus to display
+    - edit procedure named check to call
+    - edit procedure named answer to repo
+    - edit procedure named max to build
+    - edit procedure named display to result
+    - edit procedure named clear to output
+    - edit procedure named answer to communicate
+    - edit procedure named modulus to write
+    - edit procedure named generate to calculate
+    - edit procedure named is to send
+    - edit procedure named show to display
+    - edit procedure named notify to send
+    - edit procedure named service to min
+    - edit procedure named increment to set
+    - edit procedure named build to addition
+    - edit procedure named input to controller
+    - edit procedure named work to send
+    - edit procedure named max to reset
+    - edit procedure named set to multiply
+    - edit procedure named display to rebuild
+    - edit procedure named change to increment
+    - edit procedure named repo to build
+    - edit procedure named subtract to input
+    - edit procedure named display to calculate
+    - edit procedure named output to call
+    - edit procedure named calculate to contain
+    - edit procedure named output to call
+    - edit procedure named rebuild to clear
+    - edit procedure named result to write
+    - edit procedure named result to find
+    - edit procedure named model to reset
+    - edit procedure named view to contain
+    - edit procedure named decrement to clear
+    - edit procedure named communicate to send
+    - edit procedure named answer to minus
+    - edit procedure named addition to change
+    - edit procedure named delete to repository
+    - edit procedure named change to select
+    - edit procedure named subtract to remove
+    - edit procedure named api to plus
+    - edit procedure named add to work
+    - edit procedure named write to minus
+    - edit procedure named repo to spec
+    - edit procedure named add to buy
+    - edit procedure named divide to reset
+    - edit procedure named api to min
+    - edit procedure named result to is
+    - edit procedure named divide to output
+    - edit procedure named check to api
+    - edit procedure named change to divide
+    - edit procedure named add to spec
+    - edit procedure named work to divide
+    - edit procedure named check to min
+    - edit procedure named spec to receive
+    - edit procedure named communicate to rebuild
+    - edit procedure named modulus to notify
+    - edit procedure named answer to output
+    - edit procedure named api to check
+    - edit procedure named build to communicate
+    - edit procedure named service to clear
+    - edit procedure named update to api
+    - edit procedure named receive to add
+    - edit procedure named model to create
+    - edit procedure named buy to api
+    - edit procedure named delete to multiply
+    - edit procedure named find to result
+    - edit procedure named build to display
+    - edit procedure named check to build
+    - edit procedure named result to communicate
+    - edit procedure named model to repository
+    - edit procedure named receive to output
+    - edit procedure named change to generate
+    - edit procedure named modulus to sum
+    - edit procedure named subtract to controller
+    - edit procedure named work to api
+    - edit procedure named get to write
+    - edit procedure named calculate to minus
+    - edit procedure named input to multiply
+    - edit procedure named rebuild to clean
+    - edit procedure named find to change
+    - edit procedure named sum to generate
+    - edit procedure named calculate to delete
+    - edit procedure named modulus to divide
+    - edit procedure named divide to output
+    - edit procedure named max to modulus
+    - edit procedure named update to valid
+    - edit procedure named result to increment
+    - edit procedure named controller to clean
+    - edit procedure named contain to increment
+    - edit procedure named model to delete
+    - edit procedure named run to send
+    - edit procedure named repo to show
+    - edit procedure named result to calc
+    - edit procedure named move to minus
+    - edit procedure named move to controller
+    - edit procedure calc to modulus
+    - edit procedure answer to run
+    - edit procedure is to set
+    - edit procedure view to call
+    - edit procedure output to communicate
+    - edit procedure show to calculate
+    - edit procedure find to work
+    - edit procedure divide to modulus
+    - edit procedure reset to answer
+    - edit procedure subtract to notify
+    - edit procedure max to sum
+    - edit procedure set to repo
+    - edit procedure view to put
+    - edit procedure max to rebuild
+    - edit procedure buy to generate
+    - edit procedure service to input
+    - edit procedure decrement to contain
+    - edit procedure display to multiply
+    - edit procedure subtract to put
+    - edit procedure input to plus
+    - edit procedure buy to view
+    - edit procedure api to addition
+    - edit procedure divide to generate
+    - edit procedure minus to build
+    - edit procedure clear to display
+    - edit procedure addition to minus
+    - edit procedure delete to min
+    - edit procedure addition to call
+    - edit procedure reset to display
+    - edit procedure min to buy
+    - edit procedure generate to show
+    - edit procedure spec to output
+    - edit procedure input to display
+    - edit procedure increment to multiply
+    - edit procedure max to find
+    - edit procedure sum to spec
+    - edit procedure service to input
+    - edit procedure answer to model
+    - edit procedure remove to set
+    - edit procedure run to sum
+    - edit procedure update to input
+    - edit procedure create to subtract
+    - edit procedure notify to generate
+    - edit procedure work to is
+    - edit procedure multiply to min
+    - edit procedure min to clean
+    - edit procedure sum to reset
+    - edit procedure check to find
+    - edit procedure set to notify
+    - edit procedure view to min
+    - edit procedure generate to call
+    - edit procedure is to contain
+    - edit procedure divide to api
+    - edit procedure max to build
+    - edit procedure output to remove
+    - edit procedure multiply to build
+    - edit procedure calc to output
+    - edit procedure divide to notify
+    - edit procedure minus to run
+    - edit procedure display to divide
+    - edit procedure increment to generate
+    - edit procedure model to addition
+    - edit procedure addition to controller
+    - edit procedure sum to work
+    - edit procedure increment to plus
+    - edit procedure clean to answer
+    - edit procedure add to build
+    - edit procedure calc to change
+    - edit procedure put to communicate
+    - edit procedure addition to output
+    - edit procedure run to api
+    - edit procedure find to buy
+    - edit procedure buy to remove
+    - edit procedure rebuild to decrement
+    - edit procedure contain to sum
+    - edit procedure increment to buy
+    - edit procedure set to check
+    - edit procedure sum to update
+    - edit procedure repo to set
+    - edit procedure check to delete
+    - edit procedure update to spec
+    - edit procedure valid to set
+    - edit procedure model to contain
+    - edit procedure controller to model
+    - edit procedure put to select
+    - edit procedure find to send
+    - edit procedure append to output
+    - edit procedure call to receive
+    - edit procedure model to move
+    - edit procedure generate to work
+    - edit procedure min to set
+    - edit procedure rebuild to delete
+    - edit procedure repository to sum
+    - edit procedure check to rebuild
+    - edit procedure modulus to subtract
+    - edit procedure minus to clean
+    - edit procedure find to select
+    - edit procedure set to input
+    - edit procedure addition to set
+    - edit procedure clear to modulus
+    - edit procedure repository to spec
+    - edit procedure max to modulus
+    - edit procedure repository to select
+    - edit procedure increment to run
+    - edit procedure call to rebuild
+    - edit procedure calc to build
+    - edit procedure put to reset
+    - edit procedure write to modulus
+    - edit procedure decrement to controller
+    - edit procedure call to clear
+    - edit procedure buy to plus
+    - edit procedure change to build
+    - edit procedure remove to modulus
+    - edit procedure select to write
+    - edit procedure increment to sum
+    - edit procedure plus to rebuild
+    - edit procedure display to remove
+    - edit procedure remove to divide
+
+- intent: createprocedureunknown
+  examples: |
+    - add a procedure
+    - add procedure
+    - create a procedure
+    - create procedure
+
+- intent: createmainprocedure
+  examples: |
+    - add main procedure
+    - create main procedure
+    - init main procedure
+    - initialize main procedure
+    - make main procedure
+
+- intent: callprocedure
+  examples: |
+    - call procedure repository
+    - call procedure api
+    - call procedure controller
+    - call procedure service
+    - call procedure model
+    - call procedure repo
+    - call procedure sum
+    - call procedure addition
+    - call procedure answer
+    - call procedure result
+    - call procedure get
+    - call procedure update
+    - call procedure create
+    - call procedure delete
+    - call procedure find
+    - call procedure receive
+    - call procedure calculate
+    - call procedure decrement
+    - call procedure increment
+    - call procedure calc
+    - call procedure add
+    - call procedure valid
+    - call procedure move
+    - call procedure work
+    - call procedure write
+    - call procedure spec
+    - call procedure buy
+    - call procedure run
+    - call procedure notify
+    - call procedure output
+    - call procedure communicate
+    - call procedure call
+    - call procedure send
+    - call procedure input
+    - call procedure subtract
+    - call procedure multiply
+    - call procedure divide
+    - call procedure modulus
+    - call procedure check
+    - call procedure display
+    - call procedure show
+    - call procedure view
+    - call procedure max
+    - call procedure min
+    - call procedure is
+    - call procedure contain
+    - call procedure remove
+    - call procedure clear
+    - call procedure clean
+    - call procedure put
+    - call procedure set
+    - call procedure build
+    - call procedure plus
+    - call procedure minus
+    - call procedure append
+    - call procedure reset
+    - call procedure rebuild
+    - call procedure change
+    - call procedure select
+    - call procedure generate
+    - invoke procedure repository
+    - invoke procedure api
+    - invoke procedure controller
+    - invoke procedure service
+    - invoke procedure model
+    - invoke procedure repo
+    - invoke procedure sum
+    - invoke procedure addition
+    - invoke procedure answer
+    - invoke procedure result
+    - invoke procedure get
+    - invoke procedure update
+    - invoke procedure create
+    - invoke procedure delete
+    - invoke procedure find
+    - invoke procedure receive
+    - invoke procedure calculate
+    - invoke procedure decrement
+    - invoke procedure increment
+    - invoke procedure calc
+    - invoke procedure add
+    - invoke procedure valid
+    - invoke procedure move
+    - invoke procedure work
+    - invoke procedure write
+    - invoke procedure spec
+    - invoke procedure buy
+    - invoke procedure run
+    - invoke procedure notify
+    - invoke procedure output
+    - invoke procedure communicate
+    - invoke procedure call
+    - invoke procedure send
+    - invoke procedure input
+    - invoke procedure subtract
+    - invoke procedure multiply
+    - invoke procedure divide
+    - invoke procedure modulus
+    - invoke procedure check
+    - invoke procedure display
+    - invoke procedure show
+    - invoke procedure view
+    - invoke procedure max
+    - invoke procedure min
+    - invoke procedure is
+    - invoke procedure contain
+    - invoke procedure remove
+    - invoke procedure clear
+    - invoke procedure clean
+    - invoke procedure put
+    - invoke procedure set
+    - invoke procedure build
+    - invoke procedure plus
+    - invoke procedure minus
+    - invoke procedure append
+    - invoke procedure reset
+    - invoke procedure rebuild
+    - invoke procedure change
+    - invoke procedure select
+    - invoke procedure generate
+
+- intent: createparameterprocedure
+  examples: |
+    - add integer parameter red to repository procedure
+    - add byte parameter master to api procedure
+    - add short parameter y to controller procedure
+    - add string parameter key to service procedure
+    - add long parameter phone to model procedure
+    - add flout parameter vegetable to repo procedure
+    - add short parameter b to sum procedure
+    - add flout parameter car to addition procedure
+    - add long parameter red to answer procedure
+    - add string parameter height to result procedure
+    - add integer parameter a to get procedure
+    - add double parameter cost to update procedure
+    - add byte parameter userid to create procedure
+    - add byte parameter contact to delete procedure
+    - add double parameter department to find procedure
+    - add byte parameter a to receive procedure
+    - add boolean parameter id to calculate procedure
+    - add string parameter phone to decrement procedure
+    - add short parameter smartphone to increment procedure
+    - add string parameter address to calc procedure
+    - add double parameter main to add procedure
+    - add byte parameter subtract to valid procedure
+    - add byte parameter s to move procedure
+    - add long parameter hospital to work procedure
+    - add short parameter p to write procedure
+    - add flout parameter a to spec procedure
+    - add double parameter c to buy procedure
+    - add byte parameter price to run procedure
+    - add short parameter seat to notify procedure
+    - add char parameter food to output procedure
+    - add boolean parameter laptop to communicate procedure
+    - add char parameter i to call procedure
+    - add char parameter b to send procedure
+    - add string parameter food to input procedure
+    - add double parameter val to subtract procedure
+    - add long parameter key to multiply procedure
+    - add boolean parameter location to divide procedure
+    - add boolean parameter phone to modulus procedure
+    - add long parameter emailaddress to check procedure
+    - add char parameter red to display procedure
+    - add boolean parameter valid to show procedure
+    - add char parameter answer to view procedure
+    - add short parameter main to max procedure
+    - add long parameter location to min procedure
+    - add long parameter wheel to is procedure
+    - add integer parameter x to contain procedure
+    - add short parameter num to remove procedure
+    - add string parameter r to clear procedure
+    - add string parameter computer to clean procedure
+    - add integer parameter black to put procedure
+    - add string parameter email to set procedure
+    - add boolean parameter can to build procedure
+    - add string parameter laptop to plus procedure
+    - add double parameter subtract to minus procedure
+    - add long parameter can to append procedure
+    - add byte parameter contact to reset procedure
+    - add flout parameter laptop to rebuild procedure
+    - add long parameter wheel to change procedure
+    - add long parameter p to select procedure
+    - add string parameter fruit to generate procedure    
+    - create string parameter size to repository procedure
+    - create flout parameter eatables to api procedure
+    - create char parameter can to controller procedure
+    - create char parameter fruit to service procedure
+    - create flout parameter q to model procedure
+    - create boolean parameter eatables to repo procedure
+    - create byte parameter fruit to sum procedure
+    - create char parameter mobilephone to addition procedure
+    - create byte parameter vegetable to answer procedure
+    - create flout parameter arr to result procedure
+    - create string parameter main to get procedure
+    - create string parameter weight to update procedure
+    - create boolean parameter p to create procedure
+    - create string parameter cost to delete procedure
+    - create char parameter wheel to find procedure
+    - create boolean parameter computer to receive procedure
+    - create boolean parameter address to calculate procedure
+    - create boolean parameter bag to decrement procedure
+    - create short parameter seat to increment procedure
+    - create double parameter phonenumber to calc procedure
+    - create double parameter id to add procedure
+    - create flout parameter s to valid procedure
+    - create char parameter val to move procedure
+    - create boolean parameter valid to work procedure
+    - create char parameter food to write procedure
+    - create long parameter r to spec procedure
+    - create string parameter smartphone to buy procedure
+    - create boolean parameter glass to run procedure
+    - create long parameter addition to notify procedure
+    - create byte parameter glass to output procedure
+    - create boolean parameter id to communicate procedure
+    - create byte parameter red to call procedure
+    - create byte parameter laptop to send procedure
+    - create short parameter touchscreen to input procedure
+    - create double parameter white to subtract procedure
+    - create integer parameter mouse to multiply procedure
+    - create string parameter department to divide procedure
+    - create flout parameter mobilephone to modulus procedure
+    - create integer parameter location to check procedure
+    - create byte parameter addition to display procedure
+    - create string parameter key to show procedure
+    - create long parameter p to view procedure
+    - create short parameter arr to max procedure
+    - create integer parameter location to min procedure
+    - create char parameter seat to is procedure
+    - create flout parameter count to contain procedure
+    - create integer parameter userid to remove procedure
+    - create char parameter food to clear procedure
+    - create byte parameter vegetable to clean procedure
+    - create short parameter subtract to put procedure
+    - create double parameter num to set procedure
+    - create byte parameter c to build procedure
+    - create boolean parameter c to plus procedure
+    - create integer parameter i to minus procedure
+    - create double parameter id to append procedure
+    - create double parameter contact to reset procedure
+    - create boolean parameter val to rebuild procedure
+    - create char parameter hospital to change procedure
+    - create byte parameter laptop to select procedure
+    - create integer parameter sum to generate procedure
+    - add char argument screen to repository procedure
+    - add string argument c to api procedure
+    - add char argument email to controller procedure
+    - add byte argument email to service procedure
+    - add double argument result to model procedure
+    - add boolean argument car to repo procedure
+    - add integer argument age to sum procedure
+    - add integer argument vegetable to addition procedure
+    - add short argument glass to answer procedure
+    - add flout argument contactnumber to result procedure
+    - add string argument contact to get procedure
+    - add flout argument contact to update procedure
+    - add double argument vegetable to create procedure
+    - add string argument location to delete procedure
+    - add double argument mobilephone to find procedure
+    - add double argument x to receive procedure
+    - add byte argument email to calculate procedure
+    - add boolean argument keyboard to decrement procedure
+    - add flout argument subtract to increment procedure
+    - add byte argument c to calc procedure
+    - add integer argument result to add procedure
+    - add integer argument num to valid procedure
+    - add integer argument emailaddress to move procedure
+    - add long argument i to work procedure
+    - add byte argument emailaddress to write procedure
+    - add char argument can to spec procedure
+    - add boolean argument main to buy procedure
+    - add short argument price to run procedure
+    - add short argument bus to notify procedure
+    - add boolean argument computer to output procedure
+    - add long argument screen to communicate procedure
+    - add flout argument van to call procedure
+    - add short argument s to send procedure
+    - add double argument food to input procedure
+    - add double argument val to subtract procedure
+    - add boolean argument master to multiply procedure
+    - add integer argument contact to divide procedure
+    - add char argument userid to modulus procedure
+    - add string argument sum to check procedure
+    - add byte argument value to display procedure
+    - add integer argument blue to show procedure
+    - add short argument value to view procedure
+    - add short argument vegetable to max procedure
+    - add string argument q to min procedure
+    - add double argument department to is procedure
+    - add string argument cost to contain procedure
+    - add flout argument x to remove procedure
+    - add long argument vegetable to clear procedure
+    - add char argument main to clean procedure
+    - add long argument userid to put procedure
+    - add integer argument r to set procedure
+    - add boolean argument yellow to build procedure
+    - add flout argument keyboard to plus procedure
+    - add long argument computer to minus procedure
+    - add double argument p to append procedure
+    - add flout argument mouse to reset procedure
+    - add integer argument emailaddress to rebuild procedure
+    - add double argument contactnumber to change procedure
+    - add flout argument count to select procedure
+    - add char argument bus to generate procedure
+    - create short argument can to repository procedure
+    - create flout argument phone to api procedure
+    - create double argument keyboard to controller procedure
+    - create integer argument addition to service procedure
+    - create flout argument car to model procedure
+    - create integer argument hospital to repo procedure
+    - create boolean argument touchscreen to sum procedure
+    - create flout argument r to addition procedure
+    - create char argument seat to answer procedure
+    - create byte argument master to result procedure
+    - create boolean argument phone to get procedure
+    - create flout argument count to update procedure
+    - create byte argument master to create procedure
+    - create byte argument keyboard to delete procedure
+    - create short argument a to find procedure
+    - create flout argument answer to receive procedure
+    - create integer argument x to calculate procedure
+    - create long argument seat to decrement procedure
+    - create flout argument i to increment procedure
+    - create char argument fruit to calc procedure
+    - create double argument r to add procedure
+    - create boolean argument vegetable to valid procedure
+    - create flout argument q to move procedure
+    - create integer argument master to work procedure
+    - create flout argument car to write procedure
+    - create integer argument subtract to spec procedure
+    - create byte argument sum to buy procedure
+    - create integer argument screen to run procedure
+    - create byte argument address to notify procedure
+    - create double argument bag to output procedure
+    - create integer argument val to communicate procedure
+    - create short argument bag to call procedure
+    - create flout argument user to send procedure
+    - create short argument val to input procedure
+    - create integer argument touchscreen to subtract procedure
+    - create long argument arr to multiply procedure
+    - create short argument glass to divide procedure
+    - create flout argument smartphone to modulus procedure
+    - create char argument smartphone to check procedure
+    - create string argument bike to display procedure
+    - create byte argument addition to show procedure
+    - create integer argument result to view procedure
+    - create integer argument z to max procedure
+    - create byte argument van to min procedure
+    - create string argument master to is procedure
+    - create string argument b to contain procedure
+    - create flout argument x to remove procedure
+    - create long argument bag to clear procedure
+    - create short argument contactnumber to clean procedure
+    - create double argument van to put procedure
+    - create double argument car to set procedure
+    - create long argument z to build procedure
+    - create long argument phone to plus procedure
+    - create flout argument num to minus procedure
+    - create short argument touchscreen to append procedure
+    - create boolean argument wheel to reset procedure
+    - create boolean argument z to rebuild procedure
+    - create short argument emailaddress to change procedure
+    - create long argument value to select procedure
+    - create byte argument height to generate procedure
+
+# ADDED TO NLU/TEST

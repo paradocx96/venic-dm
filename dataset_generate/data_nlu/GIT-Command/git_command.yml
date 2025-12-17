@@ -1,0 +1,1774 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: gitinit
+  examples: |
+    - git init
+    - create git repository
+    - create git repository for project
+    - create git repository for the project
+    - create git repository for this project
+    - create new git repository
+    - create new git repository for project
+    - create new git repository for the project
+    - create new git repository for this project
+    - create a new git repository
+    - create a new git repository for project
+    - create a new git repository for the project
+    - create a new git repository for this project
+    - create a git repository
+    - create a git repository for project
+    - create a git repository for the project
+    - create a git repository for this project
+    - initialize git repository
+    - initialize git repository for project
+    - initialize git repository for the project
+    - initialize git repository for this project
+    - initialize new git repository
+    - initialize new git repository for project
+    - initialize new git repository for the project
+    - initialize new git repository for this project
+    - initialize a new git repository
+    - initialize a new git repository for project
+    - initialize a new git repository for the project
+    - initialize a new git repository for this project
+    - initialize a git repository
+    - initialize a git repository for project
+    - initialize a git repository for the project
+    - initialize a git repository for this project
+    - make git repository
+    - make git repository for project
+    - make git repository for the project
+    - make git repository for this project
+    - make new git repository
+    - make new git repository for project
+    - make new git repository for the project
+    - make new git repository for this project
+    - make a new git repository
+    - make a new git repository for project
+    - make a new git repository for the project
+    - make a new git repository for this project
+    - make a git repository
+    - make a git repository for project
+    - make a git repository for the project
+    - make a git repository for this project
+
+- intent: gitcreatebranch
+  examples: |
+    - create new branch [dev](name)
+    - create new branch name [dev](name)
+    - create new branch named [dev](name)
+    - create new git branch [dev](name)
+    - create new git branch name [dev](name)
+    - create new git branch named [dev](name)
+    - create a new branch [dev](name)
+    - create a new branch name [dev](name)
+    - create a new branch named [dev](name)
+    - initialize new branch [dev](name)
+    - initialize new branch name [dev](name)
+    - initialize new branch named [dev](name)
+    - initialize new git branch [dev](name)
+    - initialize new git branch name [dev](name)
+    - initialize new git branch named [dev](name)
+    - initialize a new branch [dev](name)
+    - initialize a new branch name [dev](name)
+    - initialize a new branch named [dev](name)
+    - make new branch [dev](name)
+    - make new branch name [dev](name)
+    - make new branch named [dev](name)
+    - make new git branch [dev](name)
+    - make new git branch name [dev](name)
+    - make new git branch named [dev](name)
+    - make a new branch [dev](name)
+    - make a new branch name [dev](name)
+    - make a new branch named [dev](name)
+    - create new branch [development](name)
+    - create new branch name [development](name)
+    - create new branch named [development](name)
+    - create new git branch [development](name)
+    - create new git branch name [development](name)
+    - create new git branch named [development](name)
+    - create a new branch [development](name)
+    - create a new branch name [development](name)
+    - create a new branch named [development](name)
+    - initialize new branch [development](name)
+    - initialize new branch name [development](name)
+    - initialize new branch named [development](name)
+    - initialize new git branch [development](name)
+    - initialize new git branch name [development](name)
+    - initialize new git branch named [development](name)
+    - initialize a new branch [development](name)
+    - initialize a new branch name [development](name)
+    - initialize a new branch named [development](name)
+    - make new branch [development](name)
+    - make new branch name [development](name)
+    - make new branch named [development](name)
+    - make new git branch [development](name)
+    - make new git branch name [development](name)
+    - make new git branch named [development](name)
+    - make a new branch [development](name)
+    - make a new branch name [development](name)
+    - make a new branch named [development](name)
+    - create new branch [checkpoint](name)
+    - create new branch name [checkpoint](name)
+    - create new branch named [checkpoint](name)
+    - create new git branch [checkpoint](name)
+    - create new git branch name [checkpoint](name)
+    - create new git branch named [checkpoint](name)
+    - create a new branch [checkpoint](name)
+    - create a new branch name [checkpoint](name)
+    - create a new branch named [checkpoint](name)
+    - initialize new branch [checkpoint](name)
+    - initialize new branch name [checkpoint](name)
+    - initialize new branch named [checkpoint](name)
+    - initialize new git branch [checkpoint](name)
+    - initialize new git branch name [checkpoint](name)
+    - initialize new git branch named [checkpoint](name)
+    - initialize a new branch [checkpoint](name)
+    - initialize a new branch name [checkpoint](name)
+    - initialize a new branch named [checkpoint](name)
+    - make new branch [checkpoint](name)
+    - make new branch name [checkpoint](name)
+    - make new branch named [checkpoint](name)
+    - make new git branch [checkpoint](name)
+    - make new git branch name [checkpoint](name)
+    - make new git branch named [checkpoint](name)
+    - make a new branch [checkpoint](name)
+    - make a new branch name [checkpoint](name)
+    - make a new branch named [checkpoint](name)
+    - create new branch [master](name)
+    - create new branch name [master](name)
+    - create new branch named [master](name)
+    - create new git branch [master](name)
+    - create new git branch name [master](name)
+    - create new git branch named [master](name)
+    - create a new branch [master](name)
+    - create a new branch name [master](name)
+    - create a new branch named [master](name)
+    - initialize new branch [master](name)
+    - initialize new branch name [master](name)
+    - initialize new branch named [master](name)
+    - initialize new git branch [master](name)
+    - initialize new git branch name [master](name)
+    - initialize new git branch named [master](name)
+    - initialize a new branch [master](name)
+    - initialize a new branch name [master](name)
+    - initialize a new branch named [master](name)
+    - make new branch [master](name)
+    - make new branch name [master](name)
+    - make new branch named [master](name)
+    - make new git branch [master](name)
+    - make new git branch name [master](name)
+    - make new git branch named [master](name)
+    - make a new branch [master](name)
+    - make a new branch name [master](name)
+    - make a new branch named [master](name)
+    - create new branch [qa](name)
+    - create new branch name [qa](name)
+    - create new branch named [qa](name)
+    - create new git branch [qa](name)
+    - create new git branch name [qa](name)
+    - create new git branch named [qa](name)
+    - create a new branch [qa](name)
+    - create a new branch name [qa](name)
+    - create a new branch named [qa](name)
+    - initialize new branch [qa](name)
+    - initialize new branch name [qa](name)
+    - initialize new branch named [qa](name)
+    - initialize new git branch [qa](name)
+    - initialize new git branch name [qa](name)
+    - initialize new git branch named [qa](name)
+    - initialize a new branch [qa](name)
+    - initialize a new branch name [qa](name)
+    - initialize a new branch named [qa](name)
+    - make new branch [qa](name)
+    - make new branch name [qa](name)
+    - make new branch named [qa](name)
+    - make new git branch [qa](name)
+    - make new git branch name [qa](name)
+    - make new git branch named [qa](name)
+    - make a new branch [qa](name)
+    - make a new branch name [qa](name)
+    - make a new branch named [qa](name)
+    - create new branch [bugfix](name)
+    - create new branch name [bugfix](name)
+    - create new branch named [bugfix](name)
+    - create new git branch [bugfix](name)
+    - create new git branch name [bugfix](name)
+    - create new git branch named [bugfix](name)
+    - create a new branch [bugfix](name)
+    - create a new branch name [bugfix](name)
+    - create a new branch named [bugfix](name)
+    - initialize new branch [bugfix](name)
+    - initialize new branch name [bugfix](name)
+    - initialize new branch named [bugfix](name)
+    - initialize new git branch [bugfix](name)
+    - initialize new git branch name [bugfix](name)
+    - initialize new git branch named [bugfix](name)
+    - initialize a new branch [bugfix](name)
+    - initialize a new branch name [bugfix](name)
+    - initialize a new branch named [bugfix](name)
+    - make new branch [bugfix](name)
+    - make new branch name [bugfix](name)
+    - make new branch named [bugfix](name)
+    - make new git branch [bugfix](name)
+    - make new git branch name [bugfix](name)
+    - make new git branch named [bugfix](name)
+    - make a new branch [bugfix](name)
+    - make a new branch name [bugfix](name)
+    - make a new branch named [bugfix](name)
+    - create new branch [hotfix](name)
+    - create new branch name [hotfix](name)
+    - create new branch named [hotfix](name)
+    - create new git branch [hotfix](name)
+    - create new git branch name [hotfix](name)
+    - create new git branch named [hotfix](name)
+    - create a new branch [hotfix](name)
+    - create a new branch name [hotfix](name)
+    - create a new branch named [hotfix](name)
+    - initialize new branch [hotfix](name)
+    - initialize new branch name [hotfix](name)
+    - initialize new branch named [hotfix](name)
+    - initialize new git branch [hotfix](name)
+    - initialize new git branch name [hotfix](name)
+    - initialize new git branch named [hotfix](name)
+    - initialize a new branch [hotfix](name)
+    - initialize a new branch name [hotfix](name)
+    - initialize a new branch named [hotfix](name)
+    - make new branch [hotfix](name)
+    - make new branch name [hotfix](name)
+    - make new branch named [hotfix](name)
+    - make new git branch [hotfix](name)
+    - make new git branch name [hotfix](name)
+    - make new git branch named [hotfix](name)
+    - make a new branch [hotfix](name)
+    - make a new branch name [hotfix](name)
+    - make a new branch named [hotfix](name)
+    - create new branch [feature](name)
+    - create new branch name [feature](name)
+    - create new branch named [feature](name)
+    - create new git branch [feature](name)
+    - create new git branch name [feature](name)
+    - create new git branch named [feature](name)
+    - create a new branch [feature](name)
+    - create a new branch name [feature](name)
+    - create a new branch named [feature](name)
+    - initialize new branch [feature](name)
+    - initialize new branch name [feature](name)
+    - initialize new branch named [feature](name)
+    - initialize new git branch [feature](name)
+    - initialize new git branch name [feature](name)
+    - initialize new git branch named [feature](name)
+    - initialize a new branch [feature](name)
+    - initialize a new branch name [feature](name)
+    - initialize a new branch named [feature](name)
+    - make new branch [feature](name)
+    - make new branch name [feature](name)
+    - make new branch named [feature](name)
+    - make new git branch [feature](name)
+    - make new git branch name [feature](name)
+    - make new git branch named [feature](name)
+    - make a new branch [feature](name)
+    - make a new branch name [feature](name)
+    - make a new branch named [feature](name)
+    - create new branch [experiment](name)
+    - create new branch name [experiment](name)
+    - create new branch named [experiment](name)
+    - create new git branch [experiment](name)
+    - create new git branch name [experiment](name)
+    - create new git branch named [experiment](name)
+    - create a new branch [experiment](name)
+    - create a new branch name [experiment](name)
+    - create a new branch named [experiment](name)
+    - initialize new branch [experiment](name)
+    - initialize new branch name [experiment](name)
+    - initialize new branch named [experiment](name)
+    - initialize new git branch [experiment](name)
+    - initialize new git branch name [experiment](name)
+    - initialize new git branch named [experiment](name)
+    - initialize a new branch [experiment](name)
+    - initialize a new branch name [experiment](name)
+    - initialize a new branch named [experiment](name)
+    - make new branch [experiment](name)
+    - make new branch name [experiment](name)
+    - make new branch named [experiment](name)
+    - make new git branch [experiment](name)
+    - make new git branch name [experiment](name)
+    - make new git branch named [experiment](name)
+    - make a new branch [experiment](name)
+    - make a new branch name [experiment](name)
+    - make a new branch named [experiment](name)
+    - create new branch [wip](name)
+    - create new branch name [wip](name)
+    - create new branch named [wip](name)
+    - create new git branch [wip](name)
+    - create new git branch name [wip](name)
+    - create new git branch named [wip](name)
+    - create a new branch [wip](name)
+    - create a new branch name [wip](name)
+    - create a new branch named [wip](name)
+    - initialize new branch [wip](name)
+    - initialize new branch name [wip](name)
+    - initialize new branch named [wip](name)
+    - initialize new git branch [wip](name)
+    - initialize new git branch name [wip](name)
+    - initialize new git branch named [wip](name)
+    - initialize a new branch [wip](name)
+    - initialize a new branch name [wip](name)
+    - initialize a new branch named [wip](name)
+    - make new branch [wip](name)
+    - make new branch name [wip](name)
+    - make new branch named [wip](name)
+    - make new git branch [wip](name)
+    - make new git branch name [wip](name)
+    - make new git branch named [wip](name)
+    - make a new branch [wip](name)
+    - make a new branch name [wip](name)
+    - make a new branch named [wip](name)
+    - create new branch [bug](name)
+    - create new branch name [bug](name)
+    - create new branch named [bug](name)
+    - create new git branch [bug](name)
+    - create new git branch name [bug](name)
+    - create new git branch named [bug](name)
+    - create a new branch [bug](name)
+    - create a new branch name [bug](name)
+    - create a new branch named [bug](name)
+    - initialize new branch [bug](name)
+    - initialize new branch name [bug](name)
+    - initialize new branch named [bug](name)
+    - initialize new git branch [bug](name)
+    - initialize new git branch name [bug](name)
+    - initialize new git branch named [bug](name)
+    - initialize a new branch [bug](name)
+    - initialize a new branch name [bug](name)
+    - initialize a new branch named [bug](name)
+    - make new branch [bug](name)
+    - make new branch name [bug](name)
+    - make new branch named [bug](name)
+    - make new git branch [bug](name)
+    - make new git branch name [bug](name)
+    - make new git branch named [bug](name)
+    - make a new branch [bug](name)
+    - make a new branch name [bug](name)
+    - make a new branch named [bug](name)
+    - create new branch [version](name)
+    - create new branch name [version](name)
+    - create new branch named [version](name)
+    - create new git branch [version](name)
+    - create new git branch name [version](name)
+    - create new git branch named [version](name)
+    - create a new branch [version](name)
+    - create a new branch name [version](name)
+    - create a new branch named [version](name)
+    - initialize new branch [version](name)
+    - initialize new branch name [version](name)
+    - initialize new branch named [version](name)
+    - initialize new git branch [version](name)
+    - initialize new git branch name [version](name)
+    - initialize new git branch named [version](name)
+    - initialize a new branch [version](name)
+    - initialize a new branch name [version](name)
+    - initialize a new branch named [version](name)
+    - make new branch [version](name)
+    - make new branch name [version](name)
+    - make new branch named [version](name)
+    - make new git branch [version](name)
+    - make new git branch name [version](name)
+    - make new git branch named [version](name)
+    - make a new branch [version](name)
+    - make a new branch name [version](name)
+    - make a new branch named [version](name)
+    - create new branch [profile](name)
+    - create new branch name [profile](name)
+    - create new branch named [profile](name)
+    - create new git branch [profile](name)
+    - create new git branch name [profile](name)
+    - create new git branch named [profile](name)
+    - create a new branch [profile](name)
+    - create a new branch name [profile](name)
+    - create a new branch named [profile](name)
+    - initialize new branch [profile](name)
+    - initialize new branch name [profile](name)
+    - initialize new branch named [profile](name)
+    - initialize new git branch [profile](name)
+    - initialize new git branch name [profile](name)
+    - initialize new git branch named [profile](name)
+    - initialize a new branch [profile](name)
+    - initialize a new branch name [profile](name)
+    - initialize a new branch named [profile](name)
+    - make new branch [profile](name)
+    - make new branch name [profile](name)
+    - make new branch named [profile](name)
+    - make new git branch [profile](name)
+    - make new git branch name [profile](name)
+    - make new git branch named [profile](name)
+    - make a new branch [profile](name)
+    - make a new branch name [profile](name)
+    - make a new branch named [profile](name)
+    - create new branch [login](name)
+    - create new branch name [login](name)
+    - create new branch named [login](name)
+    - create new git branch [login](name)
+    - create new git branch name [login](name)
+    - create new git branch named [login](name)
+    - create a new branch [login](name)
+    - create a new branch name [login](name)
+    - create a new branch named [login](name)
+    - initialize new branch [login](name)
+    - initialize new branch name [login](name)
+    - initialize new branch named [login](name)
+    - initialize new git branch [login](name)
+    - initialize new git branch name [login](name)
+    - initialize new git branch named [login](name)
+    - initialize a new branch [login](name)
+    - initialize a new branch name [login](name)
+    - initialize a new branch named [login](name)
+    - make new branch [login](name)
+    - make new branch name [login](name)
+    - make new branch named [login](name)
+    - make new git branch [login](name)
+    - make new git branch name [login](name)
+    - make new git branch named [login](name)
+    - make a new branch [login](name)
+    - make a new branch name [login](name)
+    - make a new branch named [login](name)
+    - create new branch [menu](name)
+    - create new branch name [menu](name)
+    - create new branch named [menu](name)
+    - create new git branch [menu](name)
+    - create new git branch name [menu](name)
+    - create new git branch named [menu](name)
+    - create a new branch [menu](name)
+    - create a new branch name [menu](name)
+    - create a new branch named [menu](name)
+    - initialize new branch [menu](name)
+    - initialize new branch name [menu](name)
+    - initialize new branch named [menu](name)
+    - initialize new git branch [menu](name)
+    - initialize new git branch name [menu](name)
+    - initialize new git branch named [menu](name)
+    - initialize a new branch [menu](name)
+    - initialize a new branch name [menu](name)
+    - initialize a new branch named [menu](name)
+    - make new branch [menu](name)
+    - make new branch name [menu](name)
+    - make new branch named [menu](name)
+    - make new git branch [menu](name)
+    - make new git branch name [menu](name)
+    - make new git branch named [menu](name)
+    - make a new branch [menu](name)
+    - make a new branch name [menu](name)
+    - make a new branch named [menu](name)
+    - create new branch [release](name)
+    - create new branch name [release](name)
+    - create new branch named [release](name)
+    - create new git branch [release](name)
+    - create new git branch name [release](name)
+    - create new git branch named [release](name)
+    - create a new branch [release](name)
+    - create a new branch name [release](name)
+    - create a new branch named [release](name)
+    - initialize new branch [release](name)
+    - initialize new branch name [release](name)
+    - initialize new branch named [release](name)
+    - initialize new git branch [release](name)
+    - initialize new git branch name [release](name)
+    - initialize new git branch named [release](name)
+    - initialize a new branch [release](name)
+    - initialize a new branch name [release](name)
+    - initialize a new branch named [release](name)
+    - make new branch [release](name)
+    - make new branch name [release](name)
+    - make new branch named [release](name)
+    - make new git branch [release](name)
+    - make new git branch name [release](name)
+    - make new git branch named [release](name)
+    - make a new branch [release](name)
+    - make a new branch name [release](name)
+    - make a new branch named [release](name)
+    - create new branch [alpha](name)
+    - create new branch name [alpha](name)
+    - create new branch named [alpha](name)
+    - create new git branch [alpha](name)
+    - create new git branch name [alpha](name)
+    - create new git branch named [alpha](name)
+    - create a new branch [alpha](name)
+    - create a new branch name [alpha](name)
+    - create a new branch named [alpha](name)
+    - initialize new branch [alpha](name)
+    - initialize new branch name [alpha](name)
+    - initialize new branch named [alpha](name)
+    - initialize new git branch [alpha](name)
+    - initialize new git branch name [alpha](name)
+    - initialize new git branch named [alpha](name)
+    - initialize a new branch [alpha](name)
+    - initialize a new branch name [alpha](name)
+    - initialize a new branch named [alpha](name)
+    - make new branch [alpha](name)
+    - make new branch name [alpha](name)
+    - make new branch named [alpha](name)
+    - make new git branch [alpha](name)
+    - make new git branch name [alpha](name)
+    - make new git branch named [alpha](name)
+    - make a new branch [alpha](name)
+    - make a new branch name [alpha](name)
+    - make a new branch named [alpha](name)
+    - create new branch [beta](name)
+    - create new branch name [beta](name)
+    - create new branch named [beta](name)
+    - create new git branch [beta](name)
+    - create new git branch name [beta](name)
+    - create new git branch named [beta](name)
+    - create a new branch [beta](name)
+    - create a new branch name [beta](name)
+    - create a new branch named [beta](name)
+    - initialize new branch [beta](name)
+    - initialize new branch name [beta](name)
+    - initialize new branch named [beta](name)
+    - initialize new git branch [beta](name)
+    - initialize new git branch name [beta](name)
+    - initialize new git branch named [beta](name)
+    - initialize a new branch [beta](name)
+    - initialize a new branch name [beta](name)
+    - initialize a new branch named [beta](name)
+    - make new branch [beta](name)
+    - make new branch name [beta](name)
+    - make new branch named [beta](name)
+    - make new git branch [beta](name)
+    - make new git branch name [beta](name)
+    - make new git branch named [beta](name)
+    - make a new branch [beta](name)
+    - make a new branch name [beta](name)
+    - make a new branch named [beta](name)
+    - create new branch [preview](name)
+    - create new branch name [preview](name)
+    - create new branch named [preview](name)
+    - create new git branch [preview](name)
+    - create new git branch name [preview](name)
+    - create new git branch named [preview](name)
+    - create a new branch [preview](name)
+    - create a new branch name [preview](name)
+    - create a new branch named [preview](name)
+    - initialize new branch [preview](name)
+    - initialize new branch name [preview](name)
+    - initialize new branch named [preview](name)
+    - initialize new git branch [preview](name)
+    - initialize new git branch name [preview](name)
+    - initialize new git branch named [preview](name)
+    - initialize a new branch [preview](name)
+    - initialize a new branch name [preview](name)
+    - initialize a new branch named [preview](name)
+    - make new branch [preview](name)
+    - make new branch name [preview](name)
+    - make new branch named [preview](name)
+    - make new git branch [preview](name)
+    - make new git branch name [preview](name)
+    - make new git branch named [preview](name)
+    - make a new branch [preview](name)
+    - make a new branch name [preview](name)
+    - make a new branch named [preview](name)
+
+- intent: gitswitchbranch
+  examples: |
+    - switch branch [dev](name)
+    - switch branch to [dev](name)
+    - switch to branch [dev](name)
+    - switch current branch to [dev](name)
+    - switch current branch to branch [dev](name)
+    - checkout branch [dev](name)
+    - checkout branch to [dev](name)
+    - checkout to branch [dev](name)
+    - checkout current branch to [dev](name)
+    - checkout current branch to branch [dev](name)    
+    - change current branch to [dev](name)
+    - change current branch to branch [dev](name)    
+    - switch branch name [dev](name)
+    - switch branch to name [dev](name)
+    - switch to branch name [dev](name)
+    - switch current branch to name [dev](name)
+    - switch current branch to branch name [dev](name)
+    - checkout branch name [dev](name)
+    - checkout branch to name [dev](name)
+    - checkout to branch name [dev](name)
+    - checkout current branch to name [dev](name)
+    - checkout current branch to branch name [dev](name)    
+    - change current branch to name [dev](name)
+    - change current branch to branch name [dev](name)    
+    - switch branch named [dev](name)
+    - switch branch to named [dev](name)
+    - switch to branch named [dev](name)
+    - switch current branch to named [dev](name)
+    - switch current branch to branch named [dev](name)
+    - checkout branch named [dev](name)
+    - checkout branch to named [dev](name)
+    - checkout to branch named [dev](name)
+    - checkout current branch to named [dev](name)
+    - checkout current branch to branch named [dev](name)    
+    - change current branch to named [dev](name)
+    - change current branch to branch named [dev](name)    
+    - switch branch [development](name)
+    - switch branch to [development](name)
+    - switch to branch [development](name)
+    - switch current branch to [development](name)
+    - switch current branch to branch [development](name)
+    - checkout branch [development](name)
+    - checkout branch to [development](name)
+    - checkout to branch [development](name)
+    - checkout current branch to [development](name)
+    - checkout current branch to branch [development](name)
+    - change current branch to [development](name)
+    - change current branch to branch [development](name)
+    - switch branch name [development](name)
+    - switch branch to name [development](name)
+    - switch to branch name [development](name)
+    - switch current branch to name [development](name)
+    - switch current branch to branch name [development](name)
+    - checkout branch name [development](name)
+    - checkout branch to name [development](name)
+    - checkout to branch name [development](name)
+    - checkout current branch to name [development](name)
+    - checkout current branch to branch name [development](name)
+    - change current branch to name [development](name)
+    - change current branch to branch name [development](name)
+    - switch branch named [development](name)
+    - switch branch to named [development](name)
+    - switch to branch named [development](name)
+    - switch current branch to named [development](name)
+    - switch current branch to branch named [development](name)
+    - checkout branch named [development](name)
+    - checkout branch to named [development](name)
+    - checkout to branch named [development](name)
+    - checkout current branch to named [development](name)
+    - checkout current branch to branch named [development](name)
+    - change current branch to named [development](name)
+    - change current branch to branch named [development](name)    
+    - switch branch [checkpoint](name)
+    - switch branch to [checkpoint](name)
+    - switch to branch [checkpoint](name)
+    - switch current branch to [checkpoint](name)
+    - switch current branch to branch [checkpoint](name)
+    - checkout branch [checkpoint](name)
+    - checkout branch to [checkpoint](name)
+    - checkout to branch [checkpoint](name)
+    - checkout current branch to [checkpoint](name)
+    - checkout current branch to branch [checkpoint](name)
+    - change current branch to [checkpoint](name)
+    - change current branch to branch [checkpoint](name)
+    - switch branch name [checkpoint](name)
+    - switch branch to name [checkpoint](name)
+    - switch to branch name [checkpoint](name)
+    - switch current branch to name [checkpoint](name)
+    - switch current branch to branch name [checkpoint](name)
+    - checkout branch name [checkpoint](name)
+    - checkout branch to name [checkpoint](name)
+    - checkout to branch name [checkpoint](name)
+    - checkout current branch to name [checkpoint](name)
+    - checkout current branch to branch name [checkpoint](name)
+    - change current branch to name [checkpoint](name)
+    - change current branch to branch name [checkpoint](name)
+    - switch branch named [checkpoint](name)
+    - switch branch to named [checkpoint](name)
+    - switch to branch named [checkpoint](name)
+    - switch current branch to named [checkpoint](name)
+    - switch current branch to branch named [checkpoint](name)
+    - checkout branch named [checkpoint](name)
+    - checkout branch to named [checkpoint](name)
+    - checkout to branch named [checkpoint](name)
+    - checkout current branch to named [checkpoint](name)
+    - checkout current branch to branch named [checkpoint](name)
+    - change current branch to named [checkpoint](name)
+    - change current branch to branch named [checkpoint](name)    
+    - switch branch [master](name)
+    - switch branch to [master](name)
+    - switch to branch [master](name)
+    - switch current branch to [master](name)
+    - switch current branch to branch [master](name)
+    - checkout branch [master](name)
+    - checkout branch to [master](name)
+    - checkout to branch [master](name)
+    - checkout current branch to [master](name)
+    - checkout current branch to branch [master](name)
+    - change current branch to [master](name)
+    - change current branch to branch [master](name)
+    - switch branch name [master](name)
+    - switch branch to name [master](name)
+    - switch to branch name [master](name)
+    - switch current branch to name [master](name)
+    - switch current branch to branch name [master](name)
+    - checkout branch name [master](name)
+    - checkout branch to name [master](name)
+    - checkout to branch name [master](name)
+    - checkout current branch to name [master](name)
+    - checkout current branch to branch name [master](name)
+    - change current branch to name [master](name)
+    - change current branch to branch name [master](name)
+    - switch branch named [master](name)
+    - switch branch to named [master](name)
+    - switch to branch named [master](name)
+    - switch current branch to named [master](name)
+    - switch current branch to branch named [master](name)
+    - checkout branch named [master](name)
+    - checkout branch to named [master](name)
+    - checkout to branch named [master](name)
+    - checkout current branch to named [master](name)
+    - checkout current branch to branch named [master](name)
+    - change current branch to named [master](name)
+    - change current branch to branch named [master](name)    
+    - switch branch [qa](name)
+    - switch branch to [qa](name)
+    - switch to branch [qa](name)
+    - switch current branch to [qa](name)
+    - switch current branch to branch [qa](name)
+    - checkout branch [qa](name)
+    - checkout branch to [qa](name)
+    - checkout to branch [qa](name)
+    - checkout current branch to [qa](name)
+    - checkout current branch to branch [qa](name)
+    - change current branch to [qa](name)
+    - change current branch to branch [qa](name)
+    - switch branch name [qa](name)
+    - switch branch to name [qa](name)
+    - switch to branch name [qa](name)
+    - switch current branch to name [qa](name)
+    - switch current branch to branch name [qa](name)
+    - checkout branch name [qa](name)
+    - checkout branch to name [qa](name)
+    - checkout to branch name [qa](name)
+    - checkout current branch to name [qa](name)
+    - checkout current branch to branch name [qa](name)
+    - change current branch to name [qa](name)
+    - change current branch to branch name [qa](name)
+    - switch branch named [qa](name)
+    - switch branch to named [qa](name)
+    - switch to branch named [qa](name)
+    - switch current branch to named [qa](name)
+    - switch current branch to branch named [qa](name)
+    - checkout branch named [qa](name)
+    - checkout branch to named [qa](name)
+    - checkout to branch named [qa](name)
+    - checkout current branch to named [qa](name)
+    - checkout current branch to branch named [qa](name)
+    - change current branch to named [qa](name)
+    - change current branch to branch named [qa](name)    
+    - switch branch [bugfix](name)
+    - switch branch to [bugfix](name)
+    - switch to branch [bugfix](name)
+    - switch current branch to [bugfix](name)
+    - switch current branch to branch [bugfix](name)
+    - checkout branch [bugfix](name)
+    - checkout branch to [bugfix](name)
+    - checkout to branch [bugfix](name)
+    - checkout current branch to [bugfix](name)
+    - checkout current branch to branch [bugfix](name)
+    - change current branch to [bugfix](name)
+    - change current branch to branch [bugfix](name)
+    - switch branch name [bugfix](name)
+    - switch branch to name [bugfix](name)
+    - switch to branch name [bugfix](name)
+    - switch current branch to name [bugfix](name)
+    - switch current branch to branch name [bugfix](name)
+    - checkout branch name [bugfix](name)
+    - checkout branch to name [bugfix](name)
+    - checkout to branch name [bugfix](name)
+    - checkout current branch to name [bugfix](name)
+    - checkout current branch to branch name [bugfix](name)
+    - change current branch to name [bugfix](name)
+    - change current branch to branch name [bugfix](name)
+    - switch branch named [bugfix](name)
+    - switch branch to named [bugfix](name)
+    - switch to branch named [bugfix](name)
+    - switch current branch to named [bugfix](name)
+    - switch current branch to branch named [bugfix](name)
+    - checkout branch named [bugfix](name)
+    - checkout branch to named [bugfix](name)
+    - checkout to branch named [bugfix](name)
+    - checkout current branch to named [bugfix](name)
+    - checkout current branch to branch named [bugfix](name)
+    - change current branch to named [bugfix](name)
+    - change current branch to branch named [bugfix](name)    
+    - switch branch [hotfix](name)
+    - switch branch to [hotfix](name)
+    - switch to branch [hotfix](name)
+    - switch current branch to [hotfix](name)
+    - switch current branch to branch [hotfix](name)
+    - checkout branch [hotfix](name)
+    - checkout branch to [hotfix](name)
+    - checkout to branch [hotfix](name)
+    - checkout current branch to [hotfix](name)
+    - checkout current branch to branch [hotfix](name)
+    - change current branch to [hotfix](name)
+    - change current branch to branch [hotfix](name)
+    - switch branch name [hotfix](name)
+    - switch branch to name [hotfix](name)
+    - switch to branch name [hotfix](name)
+    - switch current branch to name [hotfix](name)
+    - switch current branch to branch name [hotfix](name)
+    - checkout branch name [hotfix](name)
+    - checkout branch to name [hotfix](name)
+    - checkout to branch name [hotfix](name)
+    - checkout current branch to name [hotfix](name)
+    - checkout current branch to branch name [hotfix](name)
+    - change current branch to name [hotfix](name)
+    - change current branch to branch name [hotfix](name)
+    - switch branch named [hotfix](name)
+    - switch branch to named [hotfix](name)
+    - switch to branch named [hotfix](name)
+    - switch current branch to named [hotfix](name)
+    - switch current branch to branch named [hotfix](name)
+    - checkout branch named [hotfix](name)
+    - checkout branch to named [hotfix](name)
+    - checkout to branch named [hotfix](name)
+    - checkout current branch to named [hotfix](name)
+    - checkout current branch to branch named [hotfix](name)
+    - change current branch to named [hotfix](name)
+    - change current branch to branch named [hotfix](name)    
+    - switch branch [feature](name)
+    - switch branch to [feature](name)
+    - switch to branch [feature](name)
+    - switch current branch to [feature](name)
+    - switch current branch to branch [feature](name)
+    - checkout branch [feature](name)
+    - checkout branch to [feature](name)
+    - checkout to branch [feature](name)
+    - checkout current branch to [feature](name)
+    - checkout current branch to branch [feature](name)
+    - change current branch to [feature](name)
+    - change current branch to branch [feature](name)
+    - switch branch name [feature](name)
+    - switch branch to name [feature](name)
+    - switch to branch name [feature](name)
+    - switch current branch to name [feature](name)
+    - switch current branch to branch name [feature](name)
+    - checkout branch name [feature](name)
+    - checkout branch to name [feature](name)
+    - checkout to branch name [feature](name)
+    - checkout current branch to name [feature](name)
+    - checkout current branch to branch name [feature](name)
+    - change current branch to name [feature](name)
+    - change current branch to branch name [feature](name)
+    - switch branch named [feature](name)
+    - switch branch to named [feature](name)
+    - switch to branch named [feature](name)
+    - switch current branch to named [feature](name)
+    - switch current branch to branch named [feature](name)
+    - checkout branch named [feature](name)
+    - checkout branch to named [feature](name)
+    - checkout to branch named [feature](name)
+    - checkout current branch to named [feature](name)
+    - checkout current branch to branch named [feature](name)
+    - change current branch to named [feature](name)
+    - change current branch to branch named [feature](name)    
+    - switch branch [experiment](name)
+    - switch branch to [experiment](name)
+    - switch to branch [experiment](name)
+    - switch current branch to [experiment](name)
+    - switch current branch to branch [experiment](name)
+    - checkout branch [experiment](name)
+    - checkout branch to [experiment](name)
+    - checkout to branch [experiment](name)
+    - checkout current branch to [experiment](name)
+    - checkout current branch to branch [experiment](name)
+    - change current branch to [experiment](name)
+    - change current branch to branch [experiment](name)
+    - switch branch name [experiment](name)
+    - switch branch to name [experiment](name)
+    - switch to branch name [experiment](name)
+    - switch current branch to name [experiment](name)
+    - switch current branch to branch name [experiment](name)
+    - checkout branch name [experiment](name)
+    - checkout branch to name [experiment](name)
+    - checkout to branch name [experiment](name)
+    - checkout current branch to name [experiment](name)
+    - checkout current branch to branch name [experiment](name)
+    - change current branch to name [experiment](name)
+    - change current branch to branch name [experiment](name)
+    - switch branch named [experiment](name)
+    - switch branch to named [experiment](name)
+    - switch to branch named [experiment](name)
+    - switch current branch to named [experiment](name)
+    - switch current branch to branch named [experiment](name)
+    - checkout branch named [experiment](name)
+    - checkout branch to named [experiment](name)
+    - checkout to branch named [experiment](name)
+    - checkout current branch to named [experiment](name)
+    - checkout current branch to branch named [experiment](name)
+    - change current branch to named [experiment](name)
+    - change current branch to branch named [experiment](name)    
+    - switch branch [wip](name)
+    - switch branch to [wip](name)
+    - switch to branch [wip](name)
+    - switch current branch to [wip](name)
+    - switch current branch to branch [wip](name)
+    - checkout branch [wip](name)
+    - checkout branch to [wip](name)
+    - checkout to branch [wip](name)
+    - checkout current branch to [wip](name)
+    - checkout current branch to branch [wip](name)
+    - change current branch to [wip](name)
+    - change current branch to branch [wip](name)
+    - switch branch name [wip](name)
+    - switch branch to name [wip](name)
+    - switch to branch name [wip](name)
+    - switch current branch to name [wip](name)
+    - switch current branch to branch name [wip](name)
+    - checkout branch name [wip](name)
+    - checkout branch to name [wip](name)
+    - checkout to branch name [wip](name)
+    - checkout current branch to name [wip](name)
+    - checkout current branch to branch name [wip](name)
+    - change current branch to name [wip](name)
+    - change current branch to branch name [wip](name)
+    - switch branch named [wip](name)
+    - switch branch to named [wip](name)
+    - switch to branch named [wip](name)
+    - switch current branch to named [wip](name)
+    - switch current branch to branch named [wip](name)
+    - checkout branch named [wip](name)
+    - checkout branch to named [wip](name)
+    - checkout to branch named [wip](name)
+    - checkout current branch to named [wip](name)
+    - checkout current branch to branch named [wip](name)
+    - change current branch to named [wip](name)
+    - change current branch to branch named [wip](name)    
+    - switch branch [bug](name)
+    - switch branch to [bug](name)
+    - switch to branch [bug](name)
+    - switch current branch to [bug](name)
+    - switch current branch to branch [bug](name)
+    - checkout branch [bug](name)
+    - checkout branch to [bug](name)
+    - checkout to branch [bug](name)
+    - checkout current branch to [bug](name)
+    - checkout current branch to branch [bug](name)
+    - change current branch to [bug](name)
+    - change current branch to branch [bug](name)
+    - switch branch name [bug](name)
+    - switch branch to name [bug](name)
+    - switch to branch name [bug](name)
+    - switch current branch to name [bug](name)
+    - switch current branch to branch name [bug](name)
+    - checkout branch name [bug](name)
+    - checkout branch to name [bug](name)
+    - checkout to branch name [bug](name)
+    - checkout current branch to name [bug](name)
+    - checkout current branch to branch name [bug](name)
+    - change current branch to name [bug](name)
+    - change current branch to branch name [bug](name)
+    - switch branch named [bug](name)
+    - switch branch to named [bug](name)
+    - switch to branch named [bug](name)
+    - switch current branch to named [bug](name)
+    - switch current branch to branch named [bug](name)
+    - checkout branch named [bug](name)
+    - checkout branch to named [bug](name)
+    - checkout to branch named [bug](name)
+    - checkout current branch to named [bug](name)
+    - checkout current branch to branch named [bug](name)
+    - change current branch to named [bug](name)
+    - change current branch to branch named [bug](name)    
+    - switch branch [version](name)
+    - switch branch to [version](name)
+    - switch to branch [version](name)
+    - switch current branch to [version](name)
+    - switch current branch to branch [version](name)
+    - checkout branch [version](name)
+    - checkout branch to [version](name)
+    - checkout to branch [version](name)
+    - checkout current branch to [version](name)
+    - checkout current branch to branch [version](name)
+    - change current branch to [version](name)
+    - change current branch to branch [version](name)
+    - switch branch name [version](name)
+    - switch branch to name [version](name)
+    - switch to branch name [version](name)
+    - switch current branch to name [version](name)
+    - switch current branch to branch name [version](name)
+    - checkout branch name [version](name)
+    - checkout branch to name [version](name)
+    - checkout to branch name [version](name)
+    - checkout current branch to name [version](name)
+    - checkout current branch to branch name [version](name)
+    - change current branch to name [version](name)
+    - change current branch to branch name [version](name)
+    - switch branch named [version](name)
+    - switch branch to named [version](name)
+    - switch to branch named [version](name)
+    - switch current branch to named [version](name)
+    - switch current branch to branch named [version](name)
+    - checkout branch named [version](name)
+    - checkout branch to named [version](name)
+    - checkout to branch named [version](name)
+    - checkout current branch to named [version](name)
+    - checkout current branch to branch named [version](name)
+    - change current branch to named [version](name)
+    - change current branch to branch named [version](name)    
+    - switch branch [profile](name)
+    - switch branch to [profile](name)
+    - switch to branch [profile](name)
+    - switch current branch to [profile](name)
+    - switch current branch to branch [profile](name)
+    - checkout branch [profile](name)
+    - checkout branch to [profile](name)
+    - checkout to branch [profile](name)
+    - checkout current branch to [profile](name)
+    - checkout current branch to branch [profile](name)
+    - change current branch to [profile](name)
+    - change current branch to branch [profile](name)
+    - switch branch name [profile](name)
+    - switch branch to name [profile](name)
+    - switch to branch name [profile](name)
+    - switch current branch to name [profile](name)
+    - switch current branch to branch name [profile](name)
+    - checkout branch name [profile](name)
+    - checkout branch to name [profile](name)
+    - checkout to branch name [profile](name)
+    - checkout current branch to name [profile](name)
+    - checkout current branch to branch name [profile](name)
+    - change current branch to name [profile](name)
+    - change current branch to branch name [profile](name)
+    - switch branch named [profile](name)
+    - switch branch to named [profile](name)
+    - switch to branch named [profile](name)
+    - switch current branch to named [profile](name)
+    - switch current branch to branch named [profile](name)
+    - checkout branch named [profile](name)
+    - checkout branch to named [profile](name)
+    - checkout to branch named [profile](name)
+    - checkout current branch to named [profile](name)
+    - checkout current branch to branch named [profile](name)
+    - change current branch to named [profile](name)
+    - change current branch to branch named [profile](name)    
+    - switch branch [login](name)
+    - switch branch to [login](name)
+    - switch to branch [login](name)
+    - switch current branch to [login](name)
+    - switch current branch to branch [login](name)
+    - checkout branch [login](name)
+    - checkout branch to [login](name)
+    - checkout to branch [login](name)
+    - checkout current branch to [login](name)
+    - checkout current branch to branch [login](name)
+    - change current branch to [login](name)
+    - change current branch to branch [login](name)
+    - switch branch name [login](name)
+    - switch branch to name [login](name)
+    - switch to branch name [login](name)
+    - switch current branch to name [login](name)
+    - switch current branch to branch name [login](name)
+    - checkout branch name [login](name)
+    - checkout branch to name [login](name)
+    - checkout to branch name [login](name)
+    - checkout current branch to name [login](name)
+    - checkout current branch to branch name [login](name)
+    - change current branch to name [login](name)
+    - change current branch to branch name [login](name)
+    - switch branch named [login](name)
+    - switch branch to named [login](name)
+    - switch to branch named [login](name)
+    - switch current branch to named [login](name)
+    - switch current branch to branch named [login](name)
+    - checkout branch named [login](name)
+    - checkout branch to named [login](name)
+    - checkout to branch named [login](name)
+    - checkout current branch to named [login](name)
+    - checkout current branch to branch named [login](name)
+    - change current branch to named [login](name)
+    - change current branch to branch named [login](name)    
+    - switch branch [menu](name)
+    - switch branch to [menu](name)
+    - switch to branch [menu](name)
+    - switch current branch to [menu](name)
+    - switch current branch to branch [menu](name)
+    - checkout branch [menu](name)
+    - checkout branch to [menu](name)
+    - checkout to branch [menu](name)
+    - checkout current branch to [menu](name)
+    - checkout current branch to branch [menu](name)
+    - change current branch to [menu](name)
+    - change current branch to branch [menu](name)
+    - switch branch name [menu](name)
+    - switch branch to name [menu](name)
+    - switch to branch name [menu](name)
+    - switch current branch to name [menu](name)
+    - switch current branch to branch name [menu](name)
+    - checkout branch name [menu](name)
+    - checkout branch to name [menu](name)
+    - checkout to branch name [menu](name)
+    - checkout current branch to name [menu](name)
+    - checkout current branch to branch name [menu](name)
+    - change current branch to name [menu](name)
+    - change current branch to branch name [menu](name)
+    - switch branch named [menu](name)
+    - switch branch to named [menu](name)
+    - switch to branch named [menu](name)
+    - switch current branch to named [menu](name)
+    - switch current branch to branch named [menu](name)
+    - checkout branch named [menu](name)
+    - checkout branch to named [menu](name)
+    - checkout to branch named [menu](name)
+    - checkout current branch to named [menu](name)
+    - checkout current branch to branch named [menu](name)
+    - change current branch to named [menu](name)
+    - change current branch to branch named [menu](name)    
+    - switch branch [release](name)
+    - switch branch to [release](name)
+    - switch to branch [release](name)
+    - switch current branch to [release](name)
+    - switch current branch to branch [release](name)
+    - checkout branch [release](name)
+    - checkout branch to [release](name)
+    - checkout to branch [release](name)
+    - checkout current branch to [release](name)
+    - checkout current branch to branch [release](name)
+    - change current branch to [release](name)
+    - change current branch to branch [release](name)
+    - switch branch name [release](name)
+    - switch branch to name [release](name)
+    - switch to branch name [release](name)
+    - switch current branch to name [release](name)
+    - switch current branch to branch name [release](name)
+    - checkout branch name [release](name)
+    - checkout branch to name [release](name)
+    - checkout to branch name [release](name)
+    - checkout current branch to name [release](name)
+    - checkout current branch to branch name [release](name)
+    - change current branch to name [release](name)
+    - change current branch to branch name [release](name)
+    - switch branch named [release](name)
+    - switch branch to named [release](name)
+    - switch to branch named [release](name)
+    - switch current branch to named [release](name)
+    - switch current branch to branch named [release](name)
+    - checkout branch named [release](name)
+    - checkout branch to named [release](name)
+    - checkout to branch named [release](name)
+    - checkout current branch to named [release](name)
+    - checkout current branch to branch named [release](name)
+    - change current branch to named [release](name)
+    - change current branch to branch named [release](name)    
+    - switch branch [alpha](name)
+    - switch branch to [alpha](name)
+    - switch to branch [alpha](name)
+    - switch current branch to [alpha](name)
+    - switch current branch to branch [alpha](name)
+    - checkout branch [alpha](name)
+    - checkout branch to [alpha](name)
+    - checkout to branch [alpha](name)
+    - checkout current branch to [alpha](name)
+    - checkout current branch to branch [alpha](name)
+    - change current branch to [alpha](name)
+    - change current branch to branch [alpha](name)
+    - switch branch name [alpha](name)
+    - switch branch to name [alpha](name)
+    - switch to branch name [alpha](name)
+    - switch current branch to name [alpha](name)
+    - switch current branch to branch name [alpha](name)
+    - checkout branch name [alpha](name)
+    - checkout branch to name [alpha](name)
+    - checkout to branch name [alpha](name)
+    - checkout current branch to name [alpha](name)
+    - checkout current branch to branch name [alpha](name)
+    - change current branch to name [alpha](name)
+    - change current branch to branch name [alpha](name)
+    - switch branch named [alpha](name)
+    - switch branch to named [alpha](name)
+    - switch to branch named [alpha](name)
+    - switch current branch to named [alpha](name)
+    - switch current branch to branch named [alpha](name)
+    - checkout branch named [alpha](name)
+    - checkout branch to named [alpha](name)
+    - checkout to branch named [alpha](name)
+    - checkout current branch to named [alpha](name)
+    - checkout current branch to branch named [alpha](name)
+    - change current branch to named [alpha](name)
+    - change current branch to branch named [alpha](name)    
+    - switch branch [beta](name)
+    - switch branch to [beta](name)
+    - switch to branch [beta](name)
+    - switch current branch to [beta](name)
+    - switch current branch to branch [beta](name)
+    - checkout branch [beta](name)
+    - checkout branch to [beta](name)
+    - checkout to branch [beta](name)
+    - checkout current branch to [beta](name)
+    - checkout current branch to branch [beta](name)
+    - change current branch to [beta](name)
+    - change current branch to branch [beta](name)
+    - switch branch name [beta](name)
+    - switch branch to name [beta](name)
+    - switch to branch name [beta](name)
+    - switch current branch to name [beta](name)
+    - switch current branch to branch name [beta](name)
+    - checkout branch name [beta](name)
+    - checkout branch to name [beta](name)
+    - checkout to branch name [beta](name)
+    - checkout current branch to name [beta](name)
+    - checkout current branch to branch name [beta](name)
+    - change current branch to name [beta](name)
+    - change current branch to branch name [beta](name)
+    - switch branch named [beta](name)
+    - switch branch to named [beta](name)
+    - switch to branch named [beta](name)
+    - switch current branch to named [beta](name)
+    - switch current branch to branch named [beta](name)
+    - checkout branch named [beta](name)
+    - checkout branch to named [beta](name)
+    - checkout to branch named [beta](name)
+    - checkout current branch to named [beta](name)
+    - checkout current branch to branch named [beta](name)
+    - change current branch to named [beta](name)
+    - change current branch to branch named [beta](name)    
+    - switch branch [preview](name)
+    - switch branch to [preview](name)
+    - switch to branch [preview](name)
+    - switch current branch to [preview](name)
+    - switch current branch to branch [preview](name)
+    - checkout branch [preview](name)
+    - checkout branch to [preview](name)
+    - checkout to branch [preview](name)
+    - checkout current branch to [preview](name)
+    - checkout current branch to branch [preview](name)
+    - change current branch to [preview](name)
+    - change current branch to branch [preview](name)
+    - switch branch name [preview](name)
+    - switch branch to name [preview](name)
+    - switch to branch name [preview](name)
+    - switch current branch to name [preview](name)
+    - switch current branch to branch name [preview](name)
+    - checkout branch name [preview](name)
+    - checkout branch to name [preview](name)
+    - checkout to branch name [preview](name)
+    - checkout current branch to name [preview](name)
+    - checkout current branch to branch name [preview](name)
+    - change current branch to name [preview](name)
+    - change current branch to branch name [preview](name)
+    - switch branch named [preview](name)
+    - switch branch to named [preview](name)
+    - switch to branch named [preview](name)
+    - switch current branch to named [preview](name)
+    - switch current branch to branch named [preview](name)
+    - checkout branch named [preview](name)
+    - checkout branch to named [preview](name)
+    - checkout to branch named [preview](name)
+    - checkout current branch to named [preview](name)
+    - checkout current branch to branch named [preview](name)
+    - change current branch to named [preview](name)
+    - change current branch to branch named [preview](name)
+
+- intent: gitadd
+  examples: |
+    - git add
+    - git add *
+    - git add star
+    - git add file
+    - git add files
+    - git add all files
+    - initiate git add
+    - initiate git add files
+    - proceed git add
+    - proceed git add file
+
+- intent: gitcommit
+  examples: |
+    - git commit
+    - git commit message
+    - git commit with message
+    - perform commit
+    - perform git commit
+    - perform git commit with message
+    - make commit
+    - make git commit
+    - make git commit with message
+    - initiate commit
+    - initiate git commit
+    - initiate git commit with message
+    - proceed commit
+    - proceed git commit
+    - proceed git commit with message
+
+- intent: gitpush
+  examples: |
+    - git push
+    - git push origin
+    - git push origin dev
+    - git push origin development
+    - git push origin checkpoint
+    - git push origin master
+    - git push origin qa
+    - git push origin bugfix
+    - git push origin hotfix
+    - git push origin feature
+    - git push origin experimental
+    - git push origin wip
+    - git push origin bug
+    - git push origin version
+    - git push origin profile
+    - git push origin login
+    - git push origin menu
+    - git push origin release
+    - git push origin alpha
+    - git push origin beta
+    - git push origin preview
+    - git push origin main
+    - initiate git push
+    - initiate git push origin
+    - initiate git push origin dev
+    - initiate git push origin development
+    - initiate git push origin checkpoint
+    - initiate git push origin master
+    - initiate git push origin qa
+    - initiate git push origin bugfix
+    - initiate git push origin hotfix
+    - initiate git push origin feature
+    - initiate git push origin experimental
+    - initiate git push origin wip
+    - initiate git push origin bug
+    - initiate git push origin version
+    - initiate git push origin profile
+    - initiate git push origin login
+    - initiate git push origin menu
+    - initiate git push origin release
+    - initiate git push origin alpha
+    - initiate git push origin beta
+    - initiate git push origin preview
+    - initiate git push origin main
+    - proceed git push
+    - proceed git push origin
+    - proceed git push origin dev
+    - proceed git push origin development
+    - proceed git push origin checkpoint
+    - proceed git push origin master
+    - proceed git push origin qa
+    - proceed git push origin bugfix
+    - proceed git push origin hotfix
+    - proceed git push origin feature
+    - proceed git push origin experimental
+    - proceed git push origin wip
+    - proceed git push origin bug
+    - proceed git push origin version
+    - proceed git push origin profile
+    - proceed git push origin login
+    - proceed git push origin menu
+    - proceed git push origin release
+    - proceed git push origin alpha
+    - proceed git push origin beta
+    - proceed git push origin preview
+    - proceed git push origin main
+    - make git push
+    - make git push origin
+    - make git push origin dev
+    - make git push origin development
+    - make git push origin checkpoint
+    - make git push origin master
+    - make git push origin qa
+    - make git push origin bugfix
+    - make git push origin hotfix
+    - make git push origin feature
+    - make git push origin experimental
+    - make git push origin wip
+    - make git push origin bug
+    - make git push origin version
+    - make git push origin profile
+    - make git push origin login
+    - make git push origin menu
+    - make git push origin release
+    - make git push origin alpha
+    - make git push origin beta
+    - make git push origin preview
+    - make git push origin main
+
+- intent: gitmerge
+  examples: |
+    - git merge 
+    - git merge dev
+    - git merge development
+    - git merge checkpoint
+    - git merge master
+    - git merge qa
+    - git merge bugfix
+    - git merge hotfix
+    - git merge feature
+    - git merge experimental
+    - git merge wip
+    - git merge bug
+    - git merge version
+    - git merge profile
+    - git merge login
+    - git merge menu
+    - git merge release
+    - git merge alpha
+    - git merge beta
+    - git merge preview
+    - git merge main
+    - initiate git merge 
+    - initiate git merge dev
+    - initiate git merge development
+    - initiate git merge checkpoint
+    - initiate git merge master
+    - initiate git merge qa
+    - initiate git merge bugfix
+    - initiate git merge hotfix
+    - initiate git merge feature
+    - initiate git merge experimental
+    - initiate git merge wip
+    - initiate git merge bug
+    - initiate git merge version
+    - initiate git merge profile
+    - initiate git merge login
+    - initiate git merge menu
+    - initiate git merge release
+    - initiate git merge alpha
+    - initiate git merge beta
+    - initiate git merge preview
+    - initiate git merge main
+    - proceed git merge 
+    - proceed git merge dev
+    - proceed git merge development
+    - proceed git merge checkpoint
+    - proceed git merge master
+    - proceed git merge qa
+    - proceed git merge bugfix
+    - proceed git merge hotfix
+    - proceed git merge feature
+    - proceed git merge experimental
+    - proceed git merge wip
+    - proceed git merge bug
+    - proceed git merge version
+    - proceed git merge profile
+    - proceed git merge login
+    - proceed git merge menu
+    - proceed git merge release
+    - proceed git merge alpha
+    - proceed git merge beta
+    - proceed git merge preview
+    - proceed git merge main
+    - make git merge 
+    - make git merge dev
+    - make git merge development
+    - make git merge checkpoint
+    - make git merge master
+    - make git merge qa
+    - make git merge bugfix
+    - make git merge hotfix
+    - make git merge feature
+    - make git merge experimental
+    - make git merge wip
+    - make git merge bug
+    - make git merge version
+    - make git merge profile
+    - make git merge login
+    - make git merge menu
+    - make git merge release
+    - make git merge alpha
+    - make git merge beta
+    - make git merge preview
+    - make git merge main
+
+- intent: gitstatus
+  examples: |
+    - git status
+    - initiate git status
+    - proceed git status
+    - get git status
+    - show git status
+    - view git status
+
+- intent: gitpull
+  examples: |
+    - git pull
+    - git pull origin
+    - git pull rebase
+    - git pull rebase origin
+    - git pull verbose
+    - git pull verbose origin
+    - git pull dev
+    - git pull development
+    - git pull checkpoint
+    - git pull master
+    - git pull qa
+    - git pull bugfix
+    - git pull hotfix
+    - git pull feature
+    - git pull experimental
+    - git pull wip
+    - git pull bug
+    - git pull version
+    - git pull profile
+    - git pull login
+    - git pull menu
+    - git pull release
+    - git pull alpha
+    - git pull beta
+    - git pull preview
+    - git pull main
+    - initiate git pull
+    - initiate git pull origin
+    - initiate git pull rebase
+    - initiate git pull rebase origin
+    - initiate git pull verbose
+    - initiate git pull verbose origin
+    - initiate git pull dev
+    - initiate git pull development
+    - initiate git pull checkpoint
+    - initiate git pull master
+    - initiate git pull qa
+    - initiate git pull bugfix
+    - initiate git pull hotfix
+    - initiate git pull feature
+    - initiate git pull experimental
+    - initiate git pull wip
+    - initiate git pull bug
+    - initiate git pull version
+    - initiate git pull profile
+    - initiate git pull login
+    - initiate git pull menu
+    - initiate git pull release
+    - initiate git pull alpha
+    - initiate git pull beta
+    - initiate git pull preview
+    - initiate git pull main
+    - proceed git pull
+    - proceed git pull origin
+    - proceed git pull rebase
+    - proceed git pull rebase origin
+    - proceed git pull verbose
+    - proceed git pull verbose origin
+    - proceed git pull dev
+    - proceed git pull development
+    - proceed git pull checkpoint
+    - proceed git pull master
+    - proceed git pull qa
+    - proceed git pull bugfix
+    - proceed git pull hotfix
+    - proceed git pull feature
+    - proceed git pull experimental
+    - proceed git pull wip
+    - proceed git pull bug
+    - proceed git pull version
+    - proceed git pull profile
+    - proceed git pull login
+    - proceed git pull menu
+    - proceed git pull release
+    - proceed git pull alpha
+    - proceed git pull beta
+    - proceed git pull preview
+    - proceed git pull main
+    - make git pull
+    - make git pull origin
+    - make git pull rebase
+    - make git pull rebase origin
+    - make git pull verbose
+    - make git pull verbose origin
+    - make git pull dev
+    - make git pull development
+    - make git pull checkpoint
+    - make git pull master
+    - make git pull qa
+    - make git pull bugfix
+    - make git pull hotfix
+    - make git pull feature
+    - make git pull experimental
+    - make git pull wip
+    - make git pull bug
+    - make git pull version
+    - make git pull profile
+    - make git pull login
+    - make git pull menu
+    - make git pull release
+    - make git pull alpha
+    - make git pull beta
+    - make git pull preview
+    - make git pull main
+
+- intent: gitdiff
+  examples: |
+    - git diff
+    - git diff staged
+    - git show diff
+    - git show diff staged
+    - git difference
+    - git file difference
+    - git staged file difference
+    - git files difference
+    - git staged files difference
+    - git show difference
+    - git show file difference
+    - git show staged file difference
+    - git show files difference
+    - git show staged files difference
+    - initiate git diff
+    - initiate git diff staged
+    - initiate git difference
+    - proceed git diff
+    - proceed git diff staged
+    - proceed git difference
+    - get git diff
+    - get git diff staged
+    - get git difference
+    - show git diff
+    - show git diff staged
+    - show git difference
+    - view git diff
+    - view git diff staged
+    - view git difference
+
+- intent: gitlog
+  examples: |
+    - git log
+    - initiate git log
+    - proceed git log
+    - get git log
+    - show git log
+    - view git log
+
+- intent: gitbranch
+  examples: |
+    - git branch
+    - git branch dev
+    - git branch development
+    - git branch checkpoint
+    - git branch master
+    - git branch qa
+    - git branch bugfix
+    - git branch hotfix
+    - git branch feature
+    - git branch experimental
+    - git branch wip
+    - git branch bug
+    - git branch version
+    - git branch profile
+    - git branch login
+    - git branch menu
+    - git branch release
+    - git branch alpha
+    - git branch beta
+    - git branch preview
+    - git branch main
+    - initiate git branch
+    - initiate git branch dev
+    - initiate git branch development
+    - initiate git branch checkpoint
+    - initiate git branch master
+    - initiate git branch qa
+    - initiate git branch bugfix
+    - initiate git branch hotfix
+    - initiate git branch feature
+    - initiate git branch experimental
+    - initiate git branch wip
+    - initiate git branch bug
+    - initiate git branch version
+    - initiate git branch profile
+    - initiate git branch login
+    - initiate git branch menu
+    - initiate git branch release
+    - initiate git branch alpha
+    - initiate git branch beta
+    - initiate git branch preview
+    - initiate git branch main
+    - proceed git branch
+    - proceed git branch dev
+    - proceed git branch development
+    - proceed git branch checkpoint
+    - proceed git branch master
+    - proceed git branch qa
+    - proceed git branch bugfix
+    - proceed git branch hotfix
+    - proceed git branch feature
+    - proceed git branch experimental
+    - proceed git branch wip
+    - proceed git branch bug
+    - proceed git branch version
+    - proceed git branch profile
+    - proceed git branch login
+    - proceed git branch menu
+    - proceed git branch release
+    - proceed git branch alpha
+    - proceed git branch beta
+    - proceed git branch preview
+    - proceed git branch main
+    - get git branch
+    - get git branch dev
+    - get git branch development
+    - get git branch checkpoint
+    - get git branch master
+    - get git branch qa
+    - get git branch bugfix
+    - get git branch hotfix
+    - get git branch feature
+    - get git branch experimental
+    - get git branch wip
+    - get git branch bug
+    - get git branch version
+    - get git branch profile
+    - get git branch login
+    - get git branch menu
+    - get git branch release
+    - get git branch alpha
+    - get git branch beta
+    - get git branch preview
+    - get git branch main
+    - show git branch
+    - show git branch dev
+    - show git branch development
+    - show git branch checkpoint
+    - show git branch master
+    - show git branch qa
+    - show git branch bugfix
+    - show git branch hotfix
+    - show git branch feature
+    - show git branch experimental
+    - show git branch wip
+    - show git branch bug
+    - show git branch version
+    - show git branch profile
+    - show git branch login
+    - show git branch menu
+    - show git branch release
+    - show git branch alpha
+    - show git branch beta
+    - show git branch preview
+    - show git branch main
+    - view git branch
+    - view git branch dev
+    - view git branch development
+    - view git branch checkpoint
+    - view git branch master
+    - view git branch qa
+    - view git branch bugfix
+    - view git branch hotfix
+    - view git branch feature
+    - view git branch experimental
+    - view git branch wip
+    - view git branch bug
+    - view git branch version
+    - view git branch profile
+    - view git branch login
+    - view git branch menu
+    - view git branch release
+    - view git branch alpha
+    - view git branch beta
+    - view git branch preview
+    - view git branch main
+
+- intent: gitstash
+  examples: |
+    - git stash
+    - git stash save
+    - git stash pop
+    - git stash list
+    - git stash drop
+    - initiate git stash
+    - initiate git stash save
+    - initiate git stash pop
+    - initiate git stash list
+    - initiate git stash drop
+    - proceed git stash
+    - proceed git stash save
+    - proceed git stash pop
+    - proceed git stash list
+    - proceed git stash drop
+
+
+# ADDED TO NLU/TEST

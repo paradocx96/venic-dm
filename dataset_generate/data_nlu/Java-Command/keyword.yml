@@ -1,0 +1,47 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: unwrap
+  examples: |
+    - unwrap
+    - unwrap if statement
+    - unwrap if command
+    - unwrap this if statement
+    - unwrap this if command
+    - unwrap while loop
+    - unwrap do while loop
+    - unwrap for loop
+    - unwrap for each loop
+    - unwrap this while loop
+    - unwrap this do while loop
+    - unwrap this for loop
+    - unwrap this for each loop
+
+- intent: createthis
+  examples: |
+    - create this
+    - create this word
+    - create this property
+    - create this keyword
+    - create this statement
+    - add this
+    - add this word
+    - add this property
+    - add this keyword
+    - add this statement
+
+- intent: deletethis
+  examples: |
+    - delete this
+    - delete this word
+    - delete this property
+    - delete this keyword
+    - delete this statement
+    - remove this
+    - remove this word
+    - remove this property
+    - remove this keyword
+    - remove this statement
+
+# ADDED TO NLU/TEST

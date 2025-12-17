@@ -1,0 +1,83 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createproject
+  examples: |    
+    - create a new project named [hospitalproject](name)
+    - create a new project named [department](name)
+    - create a new project named [school](name)
+    - create a new project named [myapp](name)
+    - create a new project named [example](name)
+    - Create new project named [hospitalproject](name)
+    - Create new project named [department](name)
+    - Create new project named [school](name)
+    - Create new project named [myapp](name)
+    - Create new project named [example](name)
+    - create a new project [hospitalproject](name)
+    - create a new project [department](name)
+    - create a new project [school](name)
+    - create a new project [myapp](name)
+    - create a new project [example](name)
+    - Create new project [hospitalproject](name)
+    - Create new project [department](name)
+    - Create new project [school](name)
+    - Create new project [myapp](name)
+    - Create new project [example](name)
+    - Create a project [hospitalproject](name)
+    - Create a project [department](name)
+    - Create a project [school](name)
+    - Create a project [myapp](name)
+    - Create a project [example](name)
+    - Create project [hospitalproject](name)
+    - Create project [department](name)
+    - Create project [school](name)
+    - Create project [myapp](name)
+    - Create project [example](name)
+    - initialize a new project named [hospitalproject](name)
+    - initialize a new project named [department](name)
+    - initialize a new project named [school](name)
+    - initialize a new project named [myapp](name)
+    - initialize a new project named [example](name)
+    - initialize new project named [hospitalproject](name)
+    - initialize new project named [department](name)
+    - initialize new project named [school](name)
+    - initialize new project named [myapp](name)
+    - initialize new project named [example](name)
+    - initialize a new project [hospitalproject](name)
+    - initialize a new project [department](name)
+    - initialize a new project [school](name)
+    - initialize a new project [myapp](name)
+    - initialize a new project [example](name)
+    - initialize new project [hospitalproject](name)
+    - initialize new project [department](name)
+    - initialize new project [school](name)
+    - initialize new project [myapp](name)
+    - initialize new project [example](name)
+    - initialize a project [hospitalproject](name)
+    - initialize a project [department](name)
+    - initialize a project [school](name)
+    - initialize a project [myapp](name)
+    - initialize a project [example](name)
+    - initialize project [hospitalproject](name)
+    - initialize project [department](name)
+    - initialize project [school](name)
+    - initialize project [myapp](name)
+    - initialize project [example](name)
+
+- intent: createprojectunknown
+  examples: |
+    - create a new java project
+    - create new java project
+    - create a new project
+    - create new project
+    - create a project
+    - create project
+    - initialize a new java project
+    - initialize new java project
+    - initialize a new project
+    - initialize new project
+    - initialize a project
+    - initialize project
+
+# ADDED TO NLU/TEST

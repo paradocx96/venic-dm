@@ -1,0 +1,2032 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: startproject
+  examples: |
+    - run project
+    - run the project
+    - run this project
+    - start project
+    - start the project
+    - start this project
+    - run application
+    - run the application
+    - run this application
+    - start application
+    - start the application
+    - start this application
+    - run program
+    - run the program
+    - run this program
+    - start program
+    - start the program
+    - start this program
+
+- intent: buildproject
+  examples: |
+    - build project
+    - build the project
+    - build this project
+
+- intent: cleanproject
+  examples: |
+    - clean project
+    - clean the project
+    - clean this project
+
+- intent: compileproject
+  examples: |
+    - compile project
+    - compile the project
+    - compile this project
+
+- intent: debugproject
+  examples: |
+    - debug project
+    - debug the project
+    - debug this project
+    - run in debugging mode
+    - start in debugging mode
+
+- intent: stopproject
+  examples: |
+    - terminate project
+    - terminate the project
+    - terminate this project
+    - terminate program
+    - terminate the program
+    - terminate this program
+    - terminate application
+    - terminate the application
+    - terminate this application
+    - Stop project
+    - Stop the project
+    - Stop this project
+    - Stop program
+    - Stop the program
+    - Stop this program
+    - Stop application
+    - Stop the application
+    - Stop this application
+    - shutdown project
+    - shutdown the project
+    - shutdown this project
+    - shutdown program
+    - shutdown the program
+    - shutdown this program
+    - shutdown application
+    - shutdown the application
+    - shutdown this application
+
+- intent: runsimulator
+  examples: |
+    - run simulator
+    - run the simulator
+    - run this simulator
+    - start simulator
+    - start the simulator
+    - start this simulator
+    - run simulation
+    - run the simulation
+    - run this simulation
+    - start simulation
+    - start the simulation
+    - start this simulation
+
+- intent: runemulator
+  examples: |
+    - run emulator
+    - run the emulator
+    - run this emulator
+    - start emulator
+    - start the emulator
+    - start this emulator
+    
+- intent: newwindow
+  examples: |
+    - open new window
+    - open new visual studio code window
+    - open new vs code window
+    - open visual studio code window
+    - open vs code window
+
+- intent: openfolder
+  examples: |
+    - open folder
+    - open folder option
+    - view open folder
+    - view open folder option
+    - show open folder
+    - show open folder option
+    - open project by folder
+    - open project through folder
+
+- intent: openworkspace
+  examples: |
+    - open workspace
+    - open workspace option
+    - view open workspace
+    - view open workspace option
+    - show open workspace
+    - show open workspace option
+    - open workspace by folder
+    - open workspace through folder
+    - open workspace by file
+    - open workspace through file
+
+- intent: openrecent
+  examples: |
+    - open recent project
+    - open recent project option
+    - view recent project
+    - view recent project option
+    - show recent project
+    - show recent project option
+    - open recent project by folder
+    - open recent project through folder
+    - open recent workspace
+    - open recent workspace option
+    - view recent workspace
+    - view recent workspace option
+    - show recent workspace
+    - show recent workspace option
+    - open recent workspace by folder
+    - open recent workspace through folder
+
+- intent: addfolderworkspace
+  examples: |
+    - add folder to workspace
+    - add folder to workspace option
+    - add folder to current workspace
+    - add folder to current workspace option
+
+- intent: saveworkspaceas
+  examples: |
+    - save workspace
+    - save this workspace
+    - save workspace as
+    - save current workspace
+    - save current workspace as
+    - save project workspace
+    - save project workspace as
+    - save current project workspace
+    - save current project workspace as
+    - workspace save as
+    - workspace save as option
+    - view workspace save as
+    - view workspace save as option
+    - show workspace save as
+    - show workspace save as option
+
+- intent: duplicateworkspace
+  examples: |
+    - duplicate workspace
+    - duplicate current workspace
+    - duplicate this workspace
+    - duplicate project workspace
+    - duplicate current project workspace
+    - duplicate this project workspace
+
+- intent: save
+  examples: |
+    - save
+    - save option
+    - save project
+    - save project state
+    - save current project state
+    - save this project
+    - save current state
+
+- intent: saveas
+  examples: |
+    - save as
+    - save as option
+    - project save as
+    - project save as option
+    - view project save as
+    - view project save as option
+    - show project save as
+    - show project save as option
+
+- intent: saveall
+  examples: |
+    - save all
+    - save all option
+    - project save all
+    - project save all option
+    - view project save all
+    - view project save all option
+    - show project save all
+    - show project save all option
+    - workspace save all
+    - workspace save all option
+    - view workspace save all
+    - view workspace save all option
+    - show workspace save all
+    - show workspace save all option
+
+- intent: saveauto
+  examples: |
+    - save auto
+    - save auto checked
+    - select save auto
+    - enable save auto
+    - initialize save auto
+    - auto save
+    - auto save checked
+    - select auto save
+    - enable auto save
+    - initialize auto save
+
+- intent: setting
+  examples: |
+    - setting
+    - setting option
+    - open setting
+    - view setting
+    - show setting
+    - ide setting
+    - open ide setting
+    - view ide setting
+    - show ide setting
+
+- intent: settingtelemetry
+  examples: |
+    - telemetry setting
+    - telemetry setting option
+    - open telemetry setting
+    - view telemetry setting
+    - show telemetry setting
+    - ide telemetry setting
+    - open ide telemetry setting
+    - view ide telemetry setting
+    - show ide telemetry setting
+
+- intent: settingonlineservices
+  examples: |
+    - online services setting
+    - online services setting option
+    - open online services setting
+    - view online services setting
+    - show online services setting
+    - ide online services setting
+    - open ide online services setting
+    - view ide online services setting
+    - show ide online services setting
+
+- intent: extension
+  examples: |
+    - extension
+    - extensions
+    - open extension
+    - view extension
+    - show extension
+    - ide extension
+    - open ide extension
+    - view ide extension
+    - show ide extension
+
+- intent: keyboardshortcuts
+  examples: |
+    - keyboard shortcut
+    - keyboard shortcuts
+    - open keyboard shortcut
+    - view keyboard shortcut
+    - show keyboard shortcut
+    - ide keyboard shortcut
+    - open ide keyboard shortcut
+    - view ide keyboard shortcut
+    - show ide keyboard shortcut
+
+- intent: keyboardshortcutsmigrate
+  examples: |
+    - migrate keyboard shortcut
+    - migrate keyboard shortcuts
+    - migrate keyboard shortcuts option
+    - migrate keyboard shortcuts from
+    - migrate keyboard shortcuts from option
+    - migrate keyboard shortcuts by extension
+    - keyboard shortcut migrate
+    - keyboard shortcuts migrate
+    - keyboard shortcuts migrate option
+    - keyboard shortcuts migrate from
+    - keyboard shortcuts migrate from option
+    - keyboard shortcuts migrate by extension
+
+- intent: usersnippet
+  examples: |
+    - user snippet
+    - user snippets
+    - user snippet option
+    - open user snippet
+    - initialize user snippet
+
+- intent: themecolor
+  examples: |
+    - color theme
+    - color theme option
+    - open color theme
+    - open color theme option
+    - view color theme
+    - view color theme option
+    - show color theme
+    - show color theme option
+    - select color theme
+    - select color theme option
+    - change color theme
+    - change color theme option
+    - theme color
+    - theme color option
+    - open theme color
+    - open theme color option
+    - view theme color
+    - view theme color option
+    - show theme color
+    - show theme color option
+    - select theme color
+    - select theme color option
+    - change theme color
+    - change theme color option
+
+- intent: themefileicon
+  examples: |
+    - file icon theme
+    - file icon theme option
+    - open file icon theme
+    - open file icon theme option
+    - view file icon theme
+    - view file icon theme option
+    - show file icon theme
+    - show file icon theme option
+    - select file icon theme
+    - select file icon theme option
+    - change file icon theme
+    - change file icon theme option
+    - theme file icon
+    - theme file icon option
+    - open theme file icon
+    - open theme file icon option
+    - view theme file icon
+    - view theme file icon option
+    - show theme file icon
+    - show theme file icon option
+    - select theme file icon
+    - select theme file icon option
+    - change theme file icon
+    - change theme file icon option
+
+- intent: themeproducticon
+  examples: |
+    - product icon theme
+    - product icon theme option
+    - open product icon theme
+    - open product icon theme option
+    - view product icon theme
+    - view product icon theme option
+    - show product icon theme
+    - show product icon theme option
+    - select product icon theme
+    - select product icon theme option
+    - change product icon theme
+    - change product icon theme option
+    - theme product icon
+    - theme product icon option
+    - open theme product icon
+    - open theme product icon option
+    - view theme product icon
+    - view theme product icon option
+    - show theme product icon
+    - show theme product icon option
+    - select theme product icon
+    - select theme product icon option
+    - change theme product icon
+    - change theme product icon option
+
+- intent: settingsync
+  examples: |
+    - setting sync
+    - sync setting
+    - setting sync option
+    - sync setting option
+    - view setting sync
+    - view sync setting
+    - view setting sync option
+    - view sync setting option
+    - show setting sync
+    - show sync setting
+    - show setting sync option
+    - show sync setting option
+    - enable setting sync
+    - enable sync setting
+    - enable setting sync option
+    - enable sync setting option
+
+- intent: filerevert
+  examples: |
+    - revert file
+    - revert file option
+    - select revert file
+    - select revert file option
+    - check revert file
+    - check revert file option
+    - open revert file
+    - open revert file option
+    - initialize revert file
+    - initialize revert file option
+
+- intent: closeeditor
+  examples: |
+    - close editor
+    - close the editor
+    - close this editor
+    - close editor option
+    - close visual studio code editor
+    - close vs code editor
+    - close the ide
+    - close this ide
+
+- intent: closefolder
+  examples: |
+    - close folder
+    - close the folder
+    - close this folder
+    - close the project
+    - close the project folder
+    - close the application folder
+    - close this project
+    - close this project folder
+    - close this application folder
+
+- intent: closewindow
+  examples: |
+    - close window
+    - close window option
+    - close the window
+    - close this window
+    - close current window
+    - close the current window
+    - close this current window
+    - window close
+    - the window close
+    - this window close
+    - current window close
+
+- intent: exit
+  examples: |
+    - exit
+    - exit option
+    - exit from visual studio code
+    - exit from vs code
+    - exit from ide
+    - ide exit
+
+- intent: undo
+  examples: |
+    - undo
+    - undo option
+    - undo process
+    - undo statement
+    - undo statements
+    - undo current state
+    - do undo
+    - do statement undo
+
+- intent: redo
+  examples: |
+    - redo
+    - redo option
+    - redo process
+    - redo statement
+    - redo statements
+    - redo current state
+    - do redo
+    - do statement redo
+
+- intent: cut
+  examples: |
+    - cut
+    - cut statement
+    - cut statements
+    - cut the statement
+    - cut the statements
+    - cut this statement
+    - cut this statements
+    - cut variable
+    - cut variables
+    - cut the variable
+    - cut the variables
+    - cut this variable
+    - cut this variables
+    - cut attribute
+    - cut attributes
+    - cut the attribute
+    - cut the attributes
+    - cut this attribute
+    - cut this attributes
+    - cut property
+    - cut properties
+    - cut the property
+    - cut the properties
+    - cut this property
+    - cut this properties
+    - cut method
+    - cut the method
+    - cut this method
+    - cut class
+    - cut the class
+    - cut this class
+    - cut constant
+    - cut the constant
+    - cut this constant
+    - cut interface
+    - cut the interface
+    - cut this interface
+
+- intent: copy
+  examples: |
+    - copy
+    - copy statement
+    - copy statements
+    - copy the statement
+    - copy the statements
+    - copy this statement
+    - copy this statements
+    - copy variable
+    - copy variables
+    - copy the variable
+    - copy the variables
+    - copy this variable
+    - copy this variables
+    - copy attribute
+    - copy attributes
+    - copy the attribute
+    - copy the attributes
+    - copy this attribute
+    - copy this attributes
+    - copy property
+    - copy properties
+    - copy the property
+    - copy the properties
+    - copy this property
+    - copy this properties
+    - copy method
+    - copy the method
+    - copy this method
+    - copy class
+    - copy the class
+    - copy this class
+    - copy constant
+    - copy the constant
+    - copy this constant
+    - copy interface
+    - copy the interface
+    - copy this interface
+
+- intent: paste
+  examples: |
+    - paste
+    - paste statement
+    - paste statements
+    - paste the statement
+    - paste the statements
+    - paste that statement
+    - paste that statements
+    - paste variable
+    - paste variables
+    - paste the variable
+    - paste the variables
+    - paste that variable
+    - paste that variables
+    - paste attribute
+    - paste attributes
+    - paste the attribute
+    - paste the attributes
+    - paste that attribute
+    - paste that attributes
+    - paste property
+    - paste properties
+    - paste the property
+    - paste the properties
+    - paste that property
+    - paste that properties
+    - paste method
+    - paste the method
+    - paste that method
+    - paste class
+    - paste the class
+    - paste that class
+    - paste constant
+    - paste the constant
+    - paste that constant
+    - paste interface
+    - paste the interface
+    - paste that interface
+
+- intent: find
+  examples: |
+    - find
+    - finder
+    - find option
+    - finder option
+    - open find
+    - open find option
+    - open finder
+    - view find
+    - view find option
+    - view finder
+    - show find
+    - show find option
+    - show finder
+
+- intent: replace
+  examples: |
+    - replace
+    - replace option
+    - open replace
+    - open replace option
+    - view replace
+    - view replace option
+    - show replace
+    - show replace option
+
+- intent: findinfile
+  examples: |
+    - find in file
+    - find in file option
+    - open find in file
+    - open finder in file
+    - open find in file option
+    - open finder in file option
+    - view find in file
+    - view finder in file
+    - view find in file option
+    - view finder in file option
+    - show find in file
+    - show finder in file
+    - show find in file option
+    - show finder in file option
+
+- intent: replaceinfile
+  examples: |
+    - replace in file
+    - replace in file option
+    - open replace in file
+    - open replace in file option
+    - view replace in file
+    - view replace in file option
+    - show replace in file
+    - show replace in file option
+
+- intent: linecomment
+  examples: |
+    - line comment
+    - toggle line comment
+    - toggle line comment for this statement
+    - add line comment
+    - add line comment for this statement
+    - insert line comment
+    - insert line comment for this statement
+    - make this statement line comment
+    - make this statement as line comment
+
+- intent: blockcomment
+  examples: |
+    - block comment
+    - toggle block comment
+    - add block comment
+    - insert block comment
+    - initialize block comment
+
+- intent: emmet
+  examples: |
+    - add emmet
+    - insert emmet
+    - expand abbreviation
+    - expand abbreviation here
+
+- intent: selectall
+  examples: |
+    - select all
+    - select all statement
+    - select all statements
+    - select all codes
+    - do select all
+    - do select all statement
+    - do select all statements
+    - do select all codes
+    - select the all
+    - select the all statement
+    - select the all statements
+    - select the all codes
+    - select this all statement
+    - select this all statements
+    - select this all codes
+
+- intent: selectexpand
+  examples: |
+    - expand select
+    - expand selection
+    - expand the selection
+    - expand selected
+    - expand selected statement
+    - expand selected statements
+    - expand selected codes
+    - expand the selected
+    - expand the selected statement
+    - expand the selected statements
+    - expand the selected codes
+    - expand this selected statement
+    - expand this selected statements
+    - expand this selected codes
+
+- intent: selectshrink
+  examples: |
+    - shrink select
+    - shrink selection
+    - shrink the selection
+    - shrink selected
+    - shrink selected statement
+    - shrink selected statements
+    - shrink selected codes
+    - shrink the selected
+    - shrink the selected statement
+    - shrink the selected statements
+    - shrink the selected codes
+    - shrink this selected statement
+    - shrink this selected statements
+    - shrink this selected codes
+
+- intent: copylineup
+  examples: |
+    - copy line up
+    - copy the line up
+    - copy this line up
+    - do copy line up
+    - do copy the line up
+    - do copy this line up
+    - copy up statement
+    - copy the up statement
+    - copy this up statement
+    - do copy up statement
+    - do copy the up statement
+    - do copy this up statement
+    - copy up code statement
+    - copy the up code statement
+    - copy this up code statement
+
+- intent: copylinedown
+  examples: |
+    - copy line down
+    - copy the line down
+    - copy this line down
+    - do copy line down
+    - do copy the line down
+    - do copy this line down
+    - copy down statement
+    - copy the down statement
+    - copy this down statement
+    - do copy down statement
+    - do copy the down statement
+    - do copy this down statement
+    - copy down code statement
+    - copy the down code statement
+    - copy this down code statement
+
+- intent: movelineup
+  examples: |
+    - move line up
+    - move the line up
+    - move this line up
+    - do move line up
+    - do move the line up
+    - do move this line up
+    - move statement up
+    - move the statement up
+    - move this statement up
+    - do move statement up
+    - do move the statement up
+    - do move this statement up
+    - move code statement up
+    - move the code statement up
+    - move this code statement up
+
+- intent: movelinedown
+  examples: |
+    - move line down
+    - move the line down
+    - move this line down
+    - do move line down
+    - do move the line down
+    - do move this line down
+    - move statement down
+    - move the statement down
+    - move this statement down
+    - do move statement down
+    - do move the statement down
+    - do move this statement down
+    - move code statement down
+    - move the code statement down
+    - move this code statement down
+
+- intent: duplicateselection
+  examples: |
+    - duplicate select
+    - do duplicate select
+    - duplicate selected
+    - duplicate selection
+    - duplicate selected statement
+    - duplicate selected area
+    - duplicate selected code
+    - duplicate selected code segment
+    - duplicate selected code line
+    - duplicate the selected statement
+    - duplicate the selected area
+    - duplicate the selected code
+    - duplicate the selected code segment
+    - duplicate the selected code line
+    - duplicate this selected statement
+    - duplicate this selected area
+    - duplicate this selected code
+    - duplicate this selected code segment
+    - duplicate this selected code line
+
+- intent: occurrencenext
+  examples: |
+    - add occurrence
+    - add next occurrence
+    - add the next occurrence
+    - select occurrence
+    - select next occurrence
+    - select the next occurrence
+    - add occurrence from code segment
+    - add next occurrence from code segment
+    - add the next occurrence from code segment
+    - select occurrence from code segment
+    - select next occurrence from code segment
+    - select the next occurrence from code segment
+    - add occurrence from code base
+    - add next occurrence from code base
+    - add the next occurrence from code base
+    - select occurrence from code base
+    - select next occurrence from code base
+    - select the next occurrence from code base
+    - add occurrence from statements
+    - add next occurrence from statements
+    - add the next occurrence from statements
+    - select occurrence from statements
+    - select next occurrence from statements
+    - select the next occurrence from statements
+
+- intent: occurrenceprevious
+  examples: |
+    - add previous occurrence
+    - add the previous occurrence
+    - select previous occurrence
+    - select the previous occurrence
+    - add previous occurrence from code segment
+    - add the previous occurrence from code segment
+    - select previous occurrence from code segment
+    - select the previous occurrence from code segment
+    - add previous occurrence from code base
+    - add the previous occurrence from code base
+    - select previous occurrence from code base
+    - select the previous occurrence from code base
+    - add previous occurrence from statements
+    - add the previous occurrence from statements
+    - select previous occurrence from statements
+    - select the previous occurrence from statements
+
+- intent: occurrenceall
+  examples: |
+    - all occurrence
+    - select occurrences
+    - select all occurrence
+    - all occurrence from code segment
+    - select occurrences from code segment
+    - select all occurrence from code segment
+    - all occurrence from code base
+    - select occurrences from code base
+    - select all occurrence from code base
+    - all occurrence from statements
+    - select occurrences from statements
+    - select all occurrence from statements
+
+- intent: columnselection
+  examples: |
+    - column selection mode
+    - enable column selection mode
+    - switch column selection mode
+    - switch on column selection mode
+    - switch off column selection mode
+    - select column selection mode
+    - checked column selection mode
+    - turn on column selection mode
+    - turn off column selection mode
+
+- intent: commandpalette
+  examples: |
+    - command palette
+    - view command palette
+    - enable command palette
+    - show command palette
+    - get command palette
+
+- intent: cursoraddabove
+  examples: |
+    - add cursor above
+    - add cursor above statement
+    - add cursor above statement line
+    - add cursor above code
+    - add cursor above code line
+    - init cursor above
+    - init cursor above statement
+    - init cursor above statement line
+    - init cursor above code
+    - init cursor above code line
+    - initialize cursor above
+    - initialize cursor above statement
+    - initialize cursor above statement line
+    - initialize cursor above code
+    - initialize cursor above code line
+
+- intent: cursoraddbelow
+  examples: |
+    - add cursor below
+    - add cursor below statement
+    - add cursor below statement line
+    - add cursor below code
+    - add cursor below code line
+    - init cursor below
+    - init cursor below statement
+    - init cursor below statement line
+    - init cursor below code
+    - init cursor below code line
+    - initialize cursor below
+    - initialize cursor below statement
+    - initialize cursor below statement line
+    - initialize cursor below code
+    - initialize cursor below code line
+
+- intent: cursoraddlineend
+  examples: |
+    - add cursor to line end
+    - add cursor to statement end
+    - add cursor to code line end
+    - add cursor to the line end
+    - add cursor to the statement end
+    - add cursor to the code line end
+    - add cursor to this line end
+    - add cursor to this statement end
+    - add cursor to this code line end
+    - init cursor to line end
+    - init cursor to statement end
+    - init cursor to code line end
+    - init cursor to the line end
+    - init cursor to the statement end
+    - init cursor to the code line end
+    - init cursor to this line end
+    - init cursor to this statement end
+    - init cursor to this code line end
+    - initialize cursor to line end
+    - initialize cursor to statement end
+    - initialize cursor to code line end
+    - initialize cursor to the line end
+    - initialize cursor to the statement end
+    - initialize cursor to the code line end
+    - initialize cursor to this line end
+    - initialize cursor to this statement end
+    - initialize cursor to this code line end
+
+- intent: switchmulticursor
+  examples: |
+    - switch to multi cursor
+    - switch to alter plus click for multi cursor
+    - switch to control plus click for multi cursor
+    - enable multi cursor
+    - enable multi cursor for alter plus click
+    - enable multi cursor for control plus click
+    - enable to alter plus click for multi cursor
+    - enable to control plus click for multi cursor
+
+# NEW ***************************************************
+- intent: open_view
+  examples: |
+    - open view
+    - open viewer
+    - show view
+    - show viewer
+    - get view
+    - get viewer
+    - enable view
+    - enable viewer
+
+- intent: full_screen
+  examples: |
+    - full screen
+    - full screen window
+    - full screen view
+    - full screen ide
+    - full screen vs code
+    - full screen visual studio code
+    - switch to full screen
+    - switch to full screen window
+    - switch to full screen view
+    - switch to full screen ide
+    - switch to full screen vs code
+    - switch to full screen visual studio code
+    - show full screen
+    - show full screen window
+    - show full screen view
+    - show full screen ide
+    - show full screen vs code
+    - show full screen visual studio code
+    - enable full screen
+    - enable full screen window
+    - enable full screen view
+    - enable full screen ide
+    - enable full screen vs code
+    - enable full screen visual studio code
+
+- intent: zen_mode
+  examples: |
+    - zen mode
+    - screen zen mode
+    - zen mode window
+    - zen mode view
+    - zen mode ide
+    - zen mode vs code
+    - zen mode visual studio code
+    - show zen mode
+    - show screen zen mode
+    - show zen mode window
+    - show zen mode view
+    - show zen mode ide
+    - show zen mode vs code
+    - show zen mode visual studio code
+    - enable zen mode
+    - enable screen zen mode
+    - enable zen mode window
+    - enable zen mode view
+    - enable zen mode ide
+    - enable zen mode vs code
+    - enable zen mode visual studio code
+    - switch to zen mode
+    - switch screen to zen mode
+    - switch to zen mode window
+    - switch to zen mode view
+    - switch to zen mode ide
+    - switch to zen mode vs code
+    - switch to zen mode visual studio code
+
+- intent: centered_layout
+  examples: |
+    - centered layout
+    - screen centered layout
+    - centered layout window
+    - centered layout view
+    - centered layout ide
+    - centered layout vs code
+    - centered layout visual studio code
+    - switch to centered layout
+    - switch screen to centered layout
+    - switch to centered layout window
+    - switch to centered layout view
+    - switch to centered layout ide
+    - switch to centered layout vs code
+    - switch to centered layout visual studio code
+    - show centered layout
+    - show screen centered layout
+    - show centered layout window
+    - show centered layout view
+    - show centered layout ide
+    - show centered layout vs code
+    - show centered layout visual studio code
+    - enable centered layout
+    - enable screen centered layout
+    - enable centered layout window
+    - enable centered layout view
+    - enable centered layout ide
+    - enable centered layout vs code
+    - enable centered layout visual studio code
+
+- intent: menu_bar
+  examples: |
+    - menu bar
+    - show menu bar
+    - enable menu bar
+    - view menu bar
+    - get menu bar
+    - check menu bar
+    - display menu bar
+
+- intent: side_bar_primary
+  examples: |
+    - side bar primary
+    - primary side bar
+    - show side bar primary
+    - show primary side bar
+    - enable side bar primary
+    - enable primary side bar
+    - view side bar primary
+    - view primary side bar
+    - check side bar primary
+    - check primary side bar
+
+- intent: side_bar_secondary
+  examples: |
+    - side bar secondary
+    - secondary side bar
+    - show side bar secondary
+    - show secondary side bar
+    - enable side bar secondary
+    - enable secondary side bar
+    - view side bar secondary
+    - view secondary side bar
+    - check side bar secondary
+    - check secondary side bar
+
+- intent: status_bar
+  examples: |
+    - status bar
+    - show status bar
+    - enable status bar
+    - view status bar
+    - check status bar
+    - get status bar
+    - display status bar
+
+- intent: activity_bar
+  examples: |
+    - activity bar
+    - show activity bar
+    - enable activity bar
+    - view activity bar
+    - check activity bar
+    - get activity bar
+    - display activity bar
+
+- intent: panel_show
+  examples: |
+    - panel
+    - show panel
+    - enable panel
+    - view panel
+    - check panel
+    - get panel
+    - display panel
+
+- intent: side_bar_move
+  examples: |
+    - move primary side bar right
+    - move primary side bar left
+    - move side bar primary right
+    - move side bar primary left
+    - move primary side bar to right
+    - move primary side bar to left
+    - move side bar primary to right
+    - move side bar primary to left
+    - switch primary side bar right
+    - switch primary side bar left
+    - switch side bar primary right
+    - switch side bar primary left
+    - switch primary side bar to right
+    - switch primary side bar to left
+    - switch side bar primary to right
+    - switch side bar primary to left
+    - reposition primary side bar right
+    - reposition primary side bar left
+    - reposition side bar primary right
+    - reposition side bar primary left
+    - reposition primary side bar to right
+    - reposition primary side bar to left
+    - reposition side bar primary to right
+    - reposition side bar primary to left
+    - change primary side bar right
+    - change primary side bar left
+    - change side bar primary right
+    - change side bar primary left
+    - change primary side bar to right
+    - change primary side bar to left
+    - change side bar primary to right
+    - change side bar primary to left
+
+- intent: panel_position
+  examples: |
+    - panel left
+    - panel right
+    - panel bottom
+    - move panel left
+    - move panel right
+    - move panel bottom
+    - move panel to left
+    - move panel to right
+    - move panel to bottom
+    - switch panel left
+    - switch panel right
+    - switch panel bottom
+    - switch panel to left
+    - switch panel to right
+    - switch panel to bottom
+    - reposition panel left
+    - reposition panel right
+    - reposition panel bottom
+    - reposition panel to left
+    - reposition panel to right
+    - reposition panel to bottom
+    - change panel left
+    - change panel right
+    - change panel bottom
+    - change panel to left
+    - change panel to right
+    - change panel to bottom
+    - panel left side
+    - panel right side
+    - panel bottom side
+    - move panel left side
+    - move panel right side
+    - move panel bottom side
+    - move panel to left side
+    - move panel to right side
+    - move panel to bottom side
+    - switch panel left side
+    - switch panel right side
+    - switch panel bottom side
+    - switch panel to left side
+    - switch panel to right side
+    - switch panel to bottom side
+    - reposition panel left side
+    - reposition panel right side
+    - reposition panel bottom side
+    - reposition panel to left side
+    - reposition panel to right side
+    - reposition panel to bottom side
+    - change panel left side
+    - change panel right side
+    - change panel bottom side
+    - change panel to left side
+    - change panel to right side
+    - change panel to bottom side
+
+- intent: panel_align
+  examples: |
+    - panel align left
+    - panel align right
+    - panel align center
+    - panel align justify
+    - panel align to left
+    - panel align to right
+    - panel align to center
+    - panel align to justify
+    - move panel align left
+    - move panel align right
+    - move panel align center
+    - move panel align justify
+    - move panel align to left
+    - move panel align to right
+    - move panel align to center
+    - move panel align to justify
+    - switch panel align left
+    - switch panel align right
+    - switch panel align center
+    - switch panel align justify
+    - switch panel align to left
+    - switch panel align to right
+    - switch panel align to center
+    - switch panel align to justify
+    - reposition panel align left
+    - reposition panel align right
+    - reposition panel align center
+    - reposition panel align justify
+    - reposition panel align to left
+    - reposition panel align to right
+    - reposition panel align to center
+    - reposition panel align to justify
+    - change panel align left
+    - change panel align right
+    - change panel align center
+    - change panel align justify
+    - change panel align to left
+    - change panel align to right
+    - change panel align to center
+    - change panel align to justify
+
+- intent: zoom_in
+  examples: |
+    - zoom in
+    - zoom in window
+    - zoom in view
+    - zoom in ide
+    - zoom in vs code
+    - zoom in visual studio code
+    - increase window
+    - increase view
+    - increase ide
+    - increase vs code
+    - increase visual studio code
+    - increase window size
+    - increase view size
+    - increase ide size
+    - increase vs code size
+    - increase visual studio code size
+    - show zoom in
+    - show zoom in window
+    - show zoom in view
+    - show zoom in ide
+    - show zoom in vs code
+    - show zoom in visual studio code
+
+- intent: zoom_out
+  examples: |
+    - zoom out
+    - zoom out window
+    - zoom out view
+    - zoom out ide
+    - zoom out vs code
+    - zoom out visual studio code
+    - decrease window
+    - decrease view
+    - decrease ide
+    - decrease vs code
+    - decrease visual studio code
+    - decrease window size
+    - decrease view size
+    - decrease ide size
+    - decrease vs code size
+    - decrease visual studio code size
+    - show zoom out
+    - show zoom out window
+    - show zoom out view
+    - show zoom out ide
+    - show zoom out vs code
+    - show zoom out visual studio code
+
+- intent: zoom_reset
+  examples: |
+    - reset zoom
+    - do reset zoom
+    - change reset zoom
+    - init reset zoom
+    - zoom reset
+    - do zoom reset
+    - change zoom reset
+    - init zoom reset
+
+- intent: editor_layout_split
+  examples: |
+    - editor layout split up
+    - editor layout split down
+    - editor layout split left
+    - editor layout split right
+    - do editor layout split up
+    - do editor layout split down
+    - do editor layout split left
+    - do editor layout split right
+    - show editor layout split up
+    - show editor layout split down
+    - show editor layout split left
+    - show editor layout split right
+    - change editor layout split up
+    - change editor layout split down
+    - change editor layout split left
+    - change editor layout split right
+    - switch editor layout split up
+    - switch editor layout split down
+    - switch editor layout split left
+    - switch editor layout split right
+    - reposition editor layout split up
+    - reposition editor layout split down
+    - reposition editor layout split left
+    - reposition editor layout split right
+
+- intent: editor_layout_split_group
+  examples: |
+    - editor layout split in group
+    - show editor layout split in group
+    - view editor layout split in group
+    - get editor layout split in group
+
+- intent: editor_layout_join_group
+  examples: |
+    - editor layout join in group
+    - show editor layout join in group
+    - view editor layout join in group
+    - get editor layout join in group
+
+- intent: editor_layout
+  examples: |
+    - editor layout single
+    - editor layout two columns
+    - editor layout three columns
+    - editor layout two rows
+    - editor layout three rows
+    - editor layout grid two by two
+    - editor layout two by two grid
+    - editor layout grid view two by two
+    - editor layout two by two grid view
+    - editor layout two rows right
+    - editor layout two columns bottom
+    - show editor layout single
+    - show editor layout two columns
+    - show editor layout three columns
+    - show editor layout two rows
+    - show editor layout three rows
+    - show editor layout grid two by two
+    - show editor layout two by two grid
+    - show editor layout grid view two by two
+    - show editor layout two by two grid view
+    - show editor layout two rows right
+    - show editor layout two columns bottom
+    - view editor layout single
+    - view editor layout two columns
+    - view editor layout three columns
+    - view editor layout two rows
+    - view editor layout three rows
+    - view editor layout grid two by two
+    - view editor layout two by two grid
+    - view editor layout grid view two by two
+    - view editor layout two by two grid view
+    - view editor layout two rows right
+    - view editor layout two columns bottom
+    - get editor layout single
+    - get editor layout two columns
+    - get editor layout three columns
+    - get editor layout two rows
+    - get editor layout three rows
+    - get editor layout grid two by two
+    - get editor layout two by two grid
+    - get editor layout grid view two by two
+    - get editor layout two by two grid view
+    - get editor layout two rows right
+    - get editor layout two columns bottom
+
+- intent: editor_layout_flip
+  examples: |
+    - editor layout flip
+    - editor layout flip layout
+    - editor layout to flip layout
+    - view editor layout flip
+    - view editor layout flip layout
+    - view editor layout to flip layout
+    - show editor layout flip
+    - show editor layout flip layout
+    - show editor layout to flip layout
+    - get editor layout flip
+    - get editor layout flip layout
+    - get editor layout to flip layout
+
+- intent: explorer
+  examples: |
+    - explorer
+    - explorer window
+    - ide explorer
+    - file explorer
+    - ide explorer window
+    - file explorer window
+    - open explorer
+    - open file explorer
+    - open ide explorer
+    - view explorer
+    - view file explorer
+    - view ide explorer
+    - show explorer
+    - show file explorer
+    - show ide explorer
+    - get explorer
+    - get file explorer
+    - get ide explorer
+    - open explorer window
+    - open file explorer window
+    - open ide explorer window
+    - view explorer window
+    - view file explorer window
+    - view ide explorer window
+    - show explorer window
+    - show file explorer window
+    - show ide explorer window
+    - get explorer window
+    - get file explorer window
+    - get ide explorer window
+
+- intent: search
+  examples: |
+    - search
+    - search window
+    - ide search
+    - file search
+    - ide search window
+    - file search window
+    - open search
+    - open file search
+    - open ide search
+    - view search
+    - view file search
+    - view ide search
+    - show search
+    - show file search
+    - show ide search
+    - get search
+    - get file search
+    - get ide search
+    - open search window
+    - open file search window
+    - open ide search window
+    - view search window
+    - view file search window
+    - view ide search window
+    - show search window
+    - show file search window
+    - show ide search window
+    - get search window
+    - get file search window
+    - get ide search window
+
+- intent: source_control
+  examples: |
+    - scm
+    - source control management
+    - scm window
+    - ide scm
+    - ide scm window
+    - open scm
+    - open ide scm
+    - view scm
+    - view ide scm
+    - show scm
+    - show ide scm
+    - get scm
+    - get ide scm
+    - open scm window
+    - open ide scm window
+    - view scm window
+    - view ide scm window
+    - show scm window
+    - show ide scm window
+    - get scm window
+    - get ide scm window
+    - source control management window
+    - ide source control management
+    - ide source control management window
+    - open source control management
+    - open ide source control management
+    - view source control management
+    - view ide source control management
+    - show source control management
+    - show ide source control management
+    - get source control management
+    - get ide source control management
+    - open source control management window
+    - open ide source control management window
+    - view source control management window
+    - view ide source control management window
+    - show source control management window
+    - show ide source control management window
+    - get source control management window
+    - get ide source control management window
+
+- intent: run_debug
+  examples: |
+    - run
+    - run and debug
+    - run window
+    - ide run
+    - file run
+    - ide run window
+    - file run window
+    - open run
+    - open file run
+    - open ide run
+    - view run
+    - view file run
+    - view ide run
+    - show run
+    - show file run
+    - show ide run
+    - get run
+    - get file run
+    - get ide run
+    - open run window
+    - open file run window
+    - open ide run window
+    - view run window
+    - view file run window
+    - view ide run window
+    - show run window
+    - show file run window
+    - show ide run window
+    - get run window
+    - get file run window
+    - get ide run window
+    - run and debug window
+    - ide run and debug
+    - file run and debug
+    - ide run and debug window
+    - file run and debug window
+    - open run and debug
+    - open file run and debug
+    - open ide run and debug
+    - view run and debug
+    - view file run and debug
+    - view ide run and debug
+    - show run and debug
+    - show file run and debug
+    - show ide run and debug
+    - get run and debug
+    - get file run and debug
+    - get ide run and debug
+    - open run and debug window
+    - open file run and debug window
+    - open ide run and debug window
+    - view run and debug window
+    - view file run and debug window
+    - view ide run and debug window
+    - show run and debug window
+    - show file run and debug window
+    - show ide run and debug window
+    - get run and debug window
+    - get file run and debug window
+    - get ide run and debug window
+
+- intent: testing
+  examples: |
+    - testing
+    - testing window
+    - ide testing
+    - file testing
+    - ide testing window
+    - file testing window
+    - open testing
+    - open file testing
+    - open ide testing
+    - view testing
+    - view file testing
+    - view ide testing
+    - show testing
+    - show file testing
+    - show ide testing
+    - get testing
+    - get file testing
+    - get ide testing
+    - open testing window
+    - open file testing window
+    - open ide testing window
+    - view testing window
+    - view file testing window
+    - view ide testing window
+    - show testing window
+    - show file testing window
+    - show ide testing window
+    - get testing window
+    - get file testing window
+    - get ide testing window
+    - test
+    - test window
+    - ide test
+    - file test
+    - ide test window
+    - file test window
+    - open test
+    - open file test
+    - open ide test
+    - view test
+    - view file test
+    - view ide test
+    - show test
+    - show file test
+    - show ide test
+    - get test
+    - get file test
+    - get ide test
+    - open test window
+    - open file test window
+    - open ide test window
+    - view test window
+    - view file test window
+    - view ide test window
+    - show test window
+    - show file test window
+    - show ide test window
+    - get test window
+    - get file test window
+    - get ide test window
+
+- intent: problems
+  examples: |
+    - problem
+    - problem window
+    - ide problem
+    - file problem
+    - ide problem window
+    - file problem window
+    - open problem
+    - open file problem
+    - open ide problem
+    - view problem
+    - view file problem
+    - view ide problem
+    - show problem
+    - show file problem
+    - show ide problem
+    - get problem
+    - get file problem
+    - get ide problem
+    - open problem window
+    - open file problem window
+    - open ide problem window
+    - view problem window
+    - view file problem window
+    - view ide problem window
+    - show problem window
+    - show file problem window
+    - show ide problem window
+    - get problem window
+    - get file problem window
+    - get ide problem window
+
+- intent: output
+  examples: |
+    - output
+    - output window
+    - ide output
+    - ide output window
+    - open output
+    - open ide output
+    - view output
+    - view ide output
+    - show output
+    - show ide output
+    - get output
+    - get ide output
+    - open output window
+    - open ide output window
+    - view output window
+    - view ide output window
+    - show output window
+    - show ide output window
+    - get output window
+    - get ide output window
+
+- intent: debug_console
+  examples: |
+    - debug console
+    - debug console window
+    - ide debug console
+    - file debug console
+    - ide debug console window
+    - file debug console window
+    - open debug console
+    - open file debug console
+    - open ide debug console
+    - view debug console
+    - view file debug console
+    - view ide debug console
+    - show debug console
+    - show file debug console
+    - show ide debug console
+    - get debug console
+    - get file debug console
+    - get ide debug console
+    - open debug console window
+    - open file debug console window
+    - open ide debug console window
+    - view debug console window
+    - view file debug console window
+    - view ide debug console window
+    - show debug console window
+    - show file debug console window
+    - show ide debug console window
+    - get debug console window
+    - get file debug console window
+    - get ide debug console window
+
+- intent: terminal
+  examples: |
+    - terminal
+    - terminal window
+    - ide terminal
+    - ide terminal window
+    - open terminal
+    - open ide terminal
+    - view terminal
+    - view ide terminal
+    - show terminal
+    - show ide terminal
+    - get terminal
+    - get ide terminal
+    - open terminal window
+    - open ide terminal window
+    - view terminal window
+    - view ide terminal window
+    - show terminal window
+    - show ide terminal window
+    - get terminal window
+    - get ide terminal window
+
+- intent: word_wrap
+  examples: |
+    - word wrap
+    - do word wrap
+    - make word wrap
+    - change word wrap
+    - enable word wrap
+    - check word wrap
+
+- intent: minimap
+  examples: |
+    - minimap
+    - show minimap
+    - view minimap
+    - get minimap
+    - display minimap
+    - enable minimap
+    - check minimap
+    - minimap line
+
+- intent: breadcrumb
+  examples: |
+    - breadcrumb
+    - show breadcrumb
+    - view breadcrumb
+    - get breadcrumb
+    - display breadcrumb
+    - enable breadcrumb
+    - check breadcrumb
+    - breadcrumb line
+
+- intent: whitespace
+  examples: |
+    - render whitespace
+    - show render whitespace
+    - view render whitespace
+    - get render whitespace
+    - display render whitespace
+    - enable render whitespace
+    - check render whitespace
+
+- intent: control_character
+  examples: |
+    - render control character
+    - show render control character
+    - view render control character
+    - get render control character
+    - display render control character
+    - enable render control character
+    - check render control character
+
+- intent: go_back
+  examples: |
+    - back
+    - go back
+    - do back
+    - let back
+    - backward
+    - go backward
+    - do backward
+    - let backward
+
+- intent: go_forward
+  examples: |
+    - forward
+    - go forward
+    - do forward
+    - let forward
+
+- intent: last_edit
+  examples: |
+    - last edit location
+    - go last edit location
+    - get last edit location
+    - view last edit location
+    - show last edit location
+    - display last edit location
+    - cursor to last edit location
+
+- intent: switch_editor
+  examples: |
+    - next editor
+    - previous editor
+    - next used editor
+    - previous used editor
+    - next editor in group
+    - previous editor in group
+    - next used editor in group
+    - previous used editor in group
+    - go next editor
+    - go previous editor
+    - go next used editor
+    - go previous used editor
+    - go next editor in group
+    - go previous editor in group
+    - go next used editor in group
+    - go previous used editor in group
+    - get next editor
+    - get previous editor
+    - get next used editor
+    - get previous used editor
+    - get next editor in group
+    - get previous editor in group
+    - get next used editor in group
+    - get previous used editor in group
+    - view next editor
+    - view previous editor
+    - view next used editor
+    - view previous used editor
+    - view next editor in group
+    - view previous editor in group
+    - view next used editor in group
+    - view previous used editor in group
+    - show next editor
+    - show previous editor
+    - show next used editor
+    - show previous used editor
+    - show next editor in group
+    - show previous editor in group
+    - show next used editor in group
+    - show previous used editor in group
+    - display next editor
+    - display previous editor
+    - display next used editor
+    - display previous used editor
+    - display next editor in group
+    - display previous editor in group
+    - display next used editor in group
+    - display previous used editor in group
+
+- intent: switch_group
+  examples: |
+    - group 1
+    - group 2
+    - group 3
+    - group 4
+    - group 5
+    - next group
+    - previous group
+    - group left
+    - group right
+    - group above
+    - group below
+    - get group 1
+    - get group 2
+    - get group 3
+    - get group 4
+    - get group 5
+    - get next group
+    - get previous group
+    - get group left
+    - get group right
+    - get group above
+    - get group below
+    - view group 1
+    - view group 2
+    - view group 3
+    - view group 4
+    - view group 5
+    - view next group
+    - view previous group
+    - view group left
+    - view group right
+    - view group above
+    - view group below
+    - display group 1
+    - display group 2
+    - display group 3
+    - display group 4
+    - display group 5
+    - display next group
+    - display previous group
+    - display group left
+    - display group right
+    - display group above
+    - display group below
+    - show group 1
+    - show group 2
+    - show group 3
+    - show group 4
+    - show group 5
+    - show next group
+    - show previous group
+    - show group left
+    - show group right
+    - show group above
+    - show group below
+    - go group 1
+    - go group 2
+    - go group 3
+    - go group 4
+    - go group 5
+    - go next group
+    - go previous group
+    - go group left
+    - go group right
+    - go group above
+    - go group below
+
+- intent: go_to_file
+  examples: |
+    - go to file
+    - open go to file
+    - view go to file
+    - show go to file
+    - option go to file
+
+# ADDED TO NLU/TEST

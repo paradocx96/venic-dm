@@ -1,0 +1,41 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: create_constructor
+  examples: |
+    - generate constructor
+    - create constructor
+    - add constructor
+    - initialize constructor
+    - make constructor
+
+
+- intent: create_constructor_default
+  examples: |
+    - generate default constructor
+    - add default constructor
+    - create default constructor
+    - initialize default constructor
+    - make default constructor
+    - generate constructor default
+    - add constructor default
+    - create constructor default
+    - initialize constructor default
+    - make constructor default
+
+
+- intent: create_constructor_overloaded
+  examples: |
+    - generate overloaded constructor
+    - add overloaded constructor
+    - create overloaded constructor
+    - initialize overloaded constructor
+    - make overloaded constructor
+    - generate constructor overloaded
+    - add constructor overloaded
+    - create constructor overloaded
+    - initialize constructor overloaded
+    - make constructor overloaded
+
+# ADDED TO NLU/TEST

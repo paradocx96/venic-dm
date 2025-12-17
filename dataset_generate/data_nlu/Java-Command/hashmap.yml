@@ -1,0 +1,3369 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createhashmap
+  examples: |
+    - add new hashmap named [main](name)
+    - add new hashmap named [master](name)
+    - add new hashmap named [size](name)
+    - add new hashmap named [height](name)
+    - add new hashmap named [weight](name)
+    - add new hashmap named [bag](name)
+    - add new hashmap named [can](name)
+    - add new hashmap named [computer](name)
+    - add new hashmap named [phone](name)
+    - add new hashmap named [laptop](name)
+    - add new hashmap named [mobilephone](name)
+    - add new hashmap named [smartphone](name)
+    - add new hashmap named [phonenumber](name)
+    - add new hashmap named [contactnumber](name)
+    - add new hashmap named [address](name)
+    - add new hashmap named [location](name)
+    - add new hashmap named [email](name)
+    - add new hashmap named [contact](name)
+    - add new hashmap named [emailaddress](name)
+    - add new hashmap named [mouse](name)
+    - add new hashmap named [keyboard](name)
+    - add new hashmap named [screen](name)
+    - add new hashmap named [touchscreen](name)
+    - add new hashmap named [fruit](name)
+    - add new hashmap named [food](name)
+    - add new hashmap named [vegetable](name)
+    - add new hashmap named [eatables](name)
+    - add new hashmap named [price](name)
+    - add new hashmap named [cost](name)
+    - add new hashmap named [sum](name)
+    - add new hashmap named [addition](name)
+    - add new hashmap named [a](name)
+    - add new hashmap named [b](name)
+    - add new hashmap named [c](name)
+    - add new hashmap named [p](name)
+    - add new hashmap named [q](name)
+    - add new hashmap named [r](name)
+    - add new hashmap named [s](name)
+    - add new hashmap named [x](name)
+    - add new hashmap named [y](name)
+    - add new hashmap named [z](name)
+    - add new hashmap named [answer](name)
+    - add new hashmap named [result](name)
+    - add new hashmap named [user](name)
+    - add new hashmap named [userid](name)
+    - add new hashmap named [id](name)
+    - add new hashmap named [num](name)
+    - add new hashmap named [age](name)
+    - add new hashmap named [department](name)
+    - add new hashmap named [hospital](name)
+    - add new hashmap named [wheel](name)
+    - add new hashmap named [seat](name)
+    - add new hashmap named [car](name)
+    - add new hashmap named [bus](name)
+    - add new hashmap named [van](name)
+    - add new hashmap named [bike](name)
+    - add new hashmap named [glass](name)
+    - add new hashmap named [red](name)
+    - add new hashmap named [black](name)
+    - add new hashmap named [white](name)
+    - add new hashmap named [blue](name)
+    - add new hashmap named [yellow](name)
+    - add new hashmap named [valid](name)
+    - add new hashmap named [subtract](name)
+    - add new hashmap named [value](name)
+    - add new hashmap named [arr](name)
+    - add new hashmap named [val](name)
+    - add new hashmap named [key](name)
+    - add new hashmap named [count](name)
+    - add hashmap named [main](name)
+    - add hashmap named [master](name)
+    - add hashmap named [size](name)
+    - add hashmap named [height](name)
+    - add hashmap named [weight](name)
+    - add hashmap named [bag](name)
+    - add hashmap named [can](name)
+    - add hashmap named [computer](name)
+    - add hashmap named [phone](name)
+    - add hashmap named [laptop](name)
+    - add hashmap named [mobilephone](name)
+    - add hashmap named [smartphone](name)
+    - add hashmap named [phonenumber](name)
+    - add hashmap named [contactnumber](name)
+    - add hashmap named [address](name)
+    - add hashmap named [location](name)
+    - add hashmap named [email](name)
+    - add hashmap named [contact](name)
+    - add hashmap named [emailaddress](name)
+    - add hashmap named [mouse](name)
+    - add hashmap named [keyboard](name)
+    - add hashmap named [screen](name)
+    - add hashmap named [touchscreen](name)
+    - add hashmap named [fruit](name)
+    - add hashmap named [food](name)
+    - add hashmap named [vegetable](name)
+    - add hashmap named [eatables](name)
+    - add hashmap named [price](name)
+    - add hashmap named [cost](name)
+    - add hashmap named [sum](name)
+    - add hashmap named [addition](name)
+    - add hashmap named [a](name)
+    - add hashmap named [b](name)
+    - add hashmap named [c](name)
+    - add hashmap named [p](name)
+    - add hashmap named [q](name)
+    - add hashmap named [r](name)
+    - add hashmap named [s](name)
+    - add hashmap named [x](name)
+    - add hashmap named [y](name)
+    - add hashmap named [z](name)
+    - add hashmap named [answer](name)
+    - add hashmap named [result](name)
+    - add hashmap named [user](name)
+    - add hashmap named [userid](name)
+    - add hashmap named [id](name)
+    - add hashmap named [num](name)
+    - add hashmap named [age](name)
+    - add hashmap named [department](name)
+    - add hashmap named [hospital](name)
+    - add hashmap named [wheel](name)
+    - add hashmap named [seat](name)
+    - add hashmap named [car](name)
+    - add hashmap named [bus](name)
+    - add hashmap named [van](name)
+    - add hashmap named [bike](name)
+    - add hashmap named [glass](name)
+    - add hashmap named [red](name)
+    - add hashmap named [black](name)
+    - add hashmap named [white](name)
+    - add hashmap named [blue](name)
+    - add hashmap named [yellow](name)
+    - add hashmap named [valid](name)
+    - add hashmap named [subtract](name)
+    - add hashmap named [value](name)
+    - add hashmap named [arr](name)
+    - add hashmap named [val](name)
+    - add hashmap named [key](name)
+    - add hashmap named [count](name)
+    - add hashmap [main](name)
+    - add hashmap [master](name)
+    - add hashmap [size](name)
+    - add hashmap [height](name)
+    - add hashmap [weight](name)
+    - add hashmap [bag](name)
+    - add hashmap [can](name)
+    - add hashmap [computer](name)
+    - add hashmap [phone](name)
+    - add hashmap [laptop](name)
+    - add hashmap [mobilephone](name)
+    - add hashmap [smartphone](name)
+    - add hashmap [phonenumber](name)
+    - add hashmap [contactnumber](name)
+    - add hashmap [address](name)
+    - add hashmap [location](name)
+    - add hashmap [email](name)
+    - add hashmap [contact](name)
+    - add hashmap [emailaddress](name)
+    - add hashmap [mouse](name)
+    - add hashmap [keyboard](name)
+    - add hashmap [screen](name)
+    - add hashmap [touchscreen](name)
+    - add hashmap [fruit](name)
+    - add hashmap [food](name)
+    - add hashmap [vegetable](name)
+    - add hashmap [eatables](name)
+    - add hashmap [price](name)
+    - add hashmap [cost](name)
+    - add hashmap [sum](name)
+    - add hashmap [addition](name)
+    - add hashmap [a](name)
+    - add hashmap [b](name)
+    - add hashmap [c](name)
+    - add hashmap [p](name)
+    - add hashmap [q](name)
+    - add hashmap [r](name)
+    - add hashmap [s](name)
+    - add hashmap [x](name)
+    - add hashmap [y](name)
+    - add hashmap [z](name)
+    - add hashmap [answer](name)
+    - add hashmap [result](name)
+    - add hashmap [user](name)
+    - add hashmap [userid](name)
+    - add hashmap [id](name)
+    - add hashmap [num](name)
+    - add hashmap [age](name)
+    - add hashmap [department](name)
+    - add hashmap [hospital](name)
+    - add hashmap [wheel](name)
+    - add hashmap [seat](name)
+    - add hashmap [car](name)
+    - add hashmap [bus](name)
+    - add hashmap [van](name)
+    - add hashmap [bike](name)
+    - add hashmap [glass](name)
+    - add hashmap [red](name)
+    - add hashmap [black](name)
+    - add hashmap [white](name)
+    - add hashmap [blue](name)
+    - add hashmap [yellow](name)
+    - add hashmap [valid](name)
+    - add hashmap [subtract](name)
+    - add hashmap [value](name)
+    - add hashmap [arr](name)
+    - add hashmap [val](name)
+    - add hashmap [key](name)
+    - add hashmap [count](name)
+    - create new hashmap named [main](name)
+    - create new hashmap named [master](name)
+    - create new hashmap named [size](name)
+    - create new hashmap named [height](name)
+    - create new hashmap named [weight](name)
+    - create new hashmap named [bag](name)
+    - create new hashmap named [can](name)
+    - create new hashmap named [computer](name)
+    - create new hashmap named [phone](name)
+    - create new hashmap named [laptop](name)
+    - create new hashmap named [mobilephone](name)
+    - create new hashmap named [smartphone](name)
+    - create new hashmap named [phonenumber](name)
+    - create new hashmap named [contactnumber](name)
+    - create new hashmap named [address](name)
+    - create new hashmap named [location](name)
+    - create new hashmap named [email](name)
+    - create new hashmap named [contact](name)
+    - create new hashmap named [emailaddress](name)
+    - create new hashmap named [mouse](name)
+    - create new hashmap named [keyboard](name)
+    - create new hashmap named [screen](name)
+    - create new hashmap named [touchscreen](name)
+    - create new hashmap named [fruit](name)
+    - create new hashmap named [food](name)
+    - create new hashmap named [vegetable](name)
+    - create new hashmap named [eatables](name)
+    - create new hashmap named [price](name)
+    - create new hashmap named [cost](name)
+    - create new hashmap named [sum](name)
+    - create new hashmap named [addition](name)
+    - create new hashmap named [a](name)
+    - create new hashmap named [b](name)
+    - create new hashmap named [c](name)
+    - create new hashmap named [p](name)
+    - create new hashmap named [q](name)
+    - create new hashmap named [r](name)
+    - create new hashmap named [s](name)
+    - create new hashmap named [x](name)
+    - create new hashmap named [y](name)
+    - create new hashmap named [z](name)
+    - create new hashmap named [answer](name)
+    - create new hashmap named [result](name)
+    - create new hashmap named [user](name)
+    - create new hashmap named [userid](name)
+    - create new hashmap named [id](name)
+    - create new hashmap named [num](name)
+    - create new hashmap named [age](name)
+    - create new hashmap named [department](name)
+    - create new hashmap named [hospital](name)
+    - create new hashmap named [wheel](name)
+    - create new hashmap named [seat](name)
+    - create new hashmap named [car](name)
+    - create new hashmap named [bus](name)
+    - create new hashmap named [van](name)
+    - create new hashmap named [bike](name)
+    - create new hashmap named [glass](name)
+    - create new hashmap named [red](name)
+    - create new hashmap named [black](name)
+    - create new hashmap named [white](name)
+    - create new hashmap named [blue](name)
+    - create new hashmap named [yellow](name)
+    - create new hashmap named [valid](name)
+    - create new hashmap named [subtract](name)
+    - create new hashmap named [value](name)
+    - create new hashmap named [arr](name)
+    - create new hashmap named [val](name)
+    - create new hashmap named [key](name)
+    - create new hashmap named [count](name)
+    - create hashmap named [main](name)
+    - create hashmap named [master](name)
+    - create hashmap named [size](name)
+    - create hashmap named [height](name)
+    - create hashmap named [weight](name)
+    - create hashmap named [bag](name)
+    - create hashmap named [can](name)
+    - create hashmap named [computer](name)
+    - create hashmap named [phone](name)
+    - create hashmap named [laptop](name)
+    - create hashmap named [mobilephone](name)
+    - create hashmap named [smartphone](name)
+    - create hashmap named [phonenumber](name)
+    - create hashmap named [contactnumber](name)
+    - create hashmap named [address](name)
+    - create hashmap named [location](name)
+    - create hashmap named [email](name)
+    - create hashmap named [contact](name)
+    - create hashmap named [emailaddress](name)
+    - create hashmap named [mouse](name)
+    - create hashmap named [keyboard](name)
+    - create hashmap named [screen](name)
+    - create hashmap named [touchscreen](name)
+    - create hashmap named [fruit](name)
+    - create hashmap named [food](name)
+    - create hashmap named [vegetable](name)
+    - create hashmap named [eatables](name)
+    - create hashmap named [price](name)
+    - create hashmap named [cost](name)
+    - create hashmap named [sum](name)
+    - create hashmap named [addition](name)
+    - create hashmap named [a](name)
+    - create hashmap named [b](name)
+    - create hashmap named [c](name)
+    - create hashmap named [p](name)
+    - create hashmap named [q](name)
+    - create hashmap named [r](name)
+    - create hashmap named [s](name)
+    - create hashmap named [x](name)
+    - create hashmap named [y](name)
+    - create hashmap named [z](name)
+    - create hashmap named [answer](name)
+    - create hashmap named [result](name)
+    - create hashmap named [user](name)
+    - create hashmap named [userid](name)
+    - create hashmap named [id](name)
+    - create hashmap named [num](name)
+    - create hashmap named [age](name)
+    - create hashmap named [department](name)
+    - create hashmap named [hospital](name)
+    - create hashmap named [wheel](name)
+    - create hashmap named [seat](name)
+    - create hashmap named [car](name)
+    - create hashmap named [bus](name)
+    - create hashmap named [van](name)
+    - create hashmap named [bike](name)
+    - create hashmap named [glass](name)
+    - create hashmap named [red](name)
+    - create hashmap named [black](name)
+    - create hashmap named [white](name)
+    - create hashmap named [blue](name)
+    - create hashmap named [yellow](name)
+    - create hashmap named [valid](name)
+    - create hashmap named [subtract](name)
+    - create hashmap named [value](name)
+    - create hashmap named [arr](name)
+    - create hashmap named [val](name)
+    - create hashmap named [key](name)
+    - create hashmap named [count](name)
+    - create hashmap [main](name)
+    - create hashmap [master](name)
+    - create hashmap [size](name)
+    - create hashmap [height](name)
+    - create hashmap [weight](name)
+    - create hashmap [bag](name)
+    - create hashmap [can](name)
+    - create hashmap [computer](name)
+    - create hashmap [phone](name)
+    - create hashmap [laptop](name)
+    - create hashmap [mobilephone](name)
+    - create hashmap [smartphone](name)
+    - create hashmap [phonenumber](name)
+    - create hashmap [contactnumber](name)
+    - create hashmap [address](name)
+    - create hashmap [location](name)
+    - create hashmap [email](name)
+    - create hashmap [contact](name)
+    - create hashmap [emailaddress](name)
+    - create hashmap [mouse](name)
+    - create hashmap [keyboard](name)
+    - create hashmap [screen](name)
+    - create hashmap [touchscreen](name)
+    - create hashmap [fruit](name)
+    - create hashmap [food](name)
+    - create hashmap [vegetable](name)
+    - create hashmap [eatables](name)
+    - create hashmap [price](name)
+    - create hashmap [cost](name)
+    - create hashmap [sum](name)
+    - create hashmap [addition](name)
+    - create hashmap [a](name)
+    - create hashmap [b](name)
+    - create hashmap [c](name)
+    - create hashmap [p](name)
+    - create hashmap [q](name)
+    - create hashmap [r](name)
+    - create hashmap [s](name)
+    - create hashmap [x](name)
+    - create hashmap [y](name)
+    - create hashmap [z](name)
+    - create hashmap [answer](name)
+    - create hashmap [result](name)
+    - create hashmap [user](name)
+    - create hashmap [userid](name)
+    - create hashmap [id](name)
+    - create hashmap [num](name)
+    - create hashmap [age](name)
+    - create hashmap [department](name)
+    - create hashmap [hospital](name)
+    - create hashmap [wheel](name)
+    - create hashmap [seat](name)
+    - create hashmap [car](name)
+    - create hashmap [bus](name)
+    - create hashmap [van](name)
+    - create hashmap [bike](name)
+    - create hashmap [glass](name)
+    - create hashmap [red](name)
+    - create hashmap [black](name)
+    - create hashmap [white](name)
+    - create hashmap [blue](name)
+    - create hashmap [yellow](name)
+    - create hashmap [valid](name)
+    - create hashmap [subtract](name)
+    - create hashmap [value](name)
+    - create hashmap [arr](name)
+    - create hashmap [val](name)
+    - create hashmap [key](name)
+    - create hashmap [count](name)
+
+- intent: deletehashmap
+  examples: |
+    - delete hashmap named [main](name)
+    - delete hashmap named [master](name)
+    - delete hashmap named [size](name)
+    - delete hashmap named [height](name)
+    - delete hashmap named [weight](name)
+    - delete hashmap named [bag](name)
+    - delete hashmap named [can](name)
+    - delete hashmap named [computer](name)
+    - delete hashmap named [phone](name)
+    - delete hashmap named [laptop](name)
+    - delete hashmap named [mobilephone](name)
+    - delete hashmap named [smartphone](name)
+    - delete hashmap named [phonenumber](name)
+    - delete hashmap named [contactnumber](name)
+    - delete hashmap named [address](name)
+    - delete hashmap named [location](name)
+    - delete hashmap named [email](name)
+    - delete hashmap named [contact](name)
+    - delete hashmap named [emailaddress](name)
+    - delete hashmap named [mouse](name)
+    - delete hashmap named [keyboard](name)
+    - delete hashmap named [screen](name)
+    - delete hashmap named [touchscreen](name)
+    - delete hashmap named [fruit](name)
+    - delete hashmap named [food](name)
+    - delete hashmap named [vegetable](name)
+    - delete hashmap named [eatables](name)
+    - delete hashmap named [price](name)
+    - delete hashmap named [cost](name)
+    - delete hashmap named [sum](name)
+    - delete hashmap named [addition](name)
+    - delete hashmap named [a](name)
+    - delete hashmap named [b](name)
+    - delete hashmap named [c](name)
+    - delete hashmap named [p](name)
+    - delete hashmap named [q](name)
+    - delete hashmap named [r](name)
+    - delete hashmap named [s](name)
+    - delete hashmap named [x](name)
+    - delete hashmap named [y](name)
+    - delete hashmap named [z](name)
+    - delete hashmap named [answer](name)
+    - delete hashmap named [result](name)
+    - delete hashmap named [user](name)
+    - delete hashmap named [userid](name)
+    - delete hashmap named [id](name)
+    - delete hashmap named [num](name)
+    - delete hashmap named [age](name)
+    - delete hashmap named [department](name)
+    - delete hashmap named [hospital](name)
+    - delete hashmap named [wheel](name)
+    - delete hashmap named [seat](name)
+    - delete hashmap named [car](name)
+    - delete hashmap named [bus](name)
+    - delete hashmap named [van](name)
+    - delete hashmap named [bike](name)
+    - delete hashmap named [glass](name)
+    - delete hashmap named [red](name)
+    - delete hashmap named [black](name)
+    - delete hashmap named [white](name)
+    - delete hashmap named [blue](name)
+    - delete hashmap named [yellow](name)
+    - delete hashmap named [valid](name)
+    - delete hashmap named [subtract](name)
+    - delete hashmap named [value](name)
+    - delete hashmap named [arr](name)
+    - delete hashmap named [val](name)
+    - delete hashmap named [key](name)
+    - delete hashmap named [count](name)
+    - delete hashmap [main](name)
+    - delete hashmap [master](name)
+    - delete hashmap [size](name)
+    - delete hashmap [height](name)
+    - delete hashmap [weight](name)
+    - delete hashmap [bag](name)
+    - delete hashmap [can](name)
+    - delete hashmap [computer](name)
+    - delete hashmap [phone](name)
+    - delete hashmap [laptop](name)
+    - delete hashmap [mobilephone](name)
+    - delete hashmap [smartphone](name)
+    - delete hashmap [phonenumber](name)
+    - delete hashmap [contactnumber](name)
+    - delete hashmap [address](name)
+    - delete hashmap [location](name)
+    - delete hashmap [email](name)
+    - delete hashmap [contact](name)
+    - delete hashmap [emailaddress](name)
+    - delete hashmap [mouse](name)
+    - delete hashmap [keyboard](name)
+    - delete hashmap [screen](name)
+    - delete hashmap [touchscreen](name)
+    - delete hashmap [fruit](name)
+    - delete hashmap [food](name)
+    - delete hashmap [vegetable](name)
+    - delete hashmap [eatables](name)
+    - delete hashmap [price](name)
+    - delete hashmap [cost](name)
+    - delete hashmap [sum](name)
+    - delete hashmap [addition](name)
+    - delete hashmap [a](name)
+    - delete hashmap [b](name)
+    - delete hashmap [c](name)
+    - delete hashmap [p](name)
+    - delete hashmap [q](name)
+    - delete hashmap [r](name)
+    - delete hashmap [s](name)
+    - delete hashmap [x](name)
+    - delete hashmap [y](name)
+    - delete hashmap [z](name)
+    - delete hashmap [answer](name)
+    - delete hashmap [result](name)
+    - delete hashmap [user](name)
+    - delete hashmap [userid](name)
+    - delete hashmap [id](name)
+    - delete hashmap [num](name)
+    - delete hashmap [age](name)
+    - delete hashmap [department](name)
+    - delete hashmap [hospital](name)
+    - delete hashmap [wheel](name)
+    - delete hashmap [seat](name)
+    - delete hashmap [car](name)
+    - delete hashmap [bus](name)
+    - delete hashmap [van](name)
+    - delete hashmap [bike](name)
+    - delete hashmap [glass](name)
+    - delete hashmap [red](name)
+    - delete hashmap [black](name)
+    - delete hashmap [white](name)
+    - delete hashmap [blue](name)
+    - delete hashmap [yellow](name)
+    - delete hashmap [valid](name)
+    - delete hashmap [subtract](name)
+    - delete hashmap [value](name)
+    - delete hashmap [arr](name)
+    - delete hashmap [val](name)
+    - delete hashmap [key](name)
+    - delete hashmap [count](name)
+    - remove hashmap named [main](name)
+    - remove hashmap named [master](name)
+    - remove hashmap named [size](name)
+    - remove hashmap named [height](name)
+    - remove hashmap named [weight](name)
+    - remove hashmap named [bag](name)
+    - remove hashmap named [can](name)
+    - remove hashmap named [computer](name)
+    - remove hashmap named [phone](name)
+    - remove hashmap named [laptop](name)
+    - remove hashmap named [mobilephone](name)
+    - remove hashmap named [smartphone](name)
+    - remove hashmap named [phonenumber](name)
+    - remove hashmap named [contactnumber](name)
+    - remove hashmap named [address](name)
+    - remove hashmap named [location](name)
+    - remove hashmap named [email](name)
+    - remove hashmap named [contact](name)
+    - remove hashmap named [emailaddress](name)
+    - remove hashmap named [mouse](name)
+    - remove hashmap named [keyboard](name)
+    - remove hashmap named [screen](name)
+    - remove hashmap named [touchscreen](name)
+    - remove hashmap named [fruit](name)
+    - remove hashmap named [food](name)
+    - remove hashmap named [vegetable](name)
+    - remove hashmap named [eatables](name)
+    - remove hashmap named [price](name)
+    - remove hashmap named [cost](name)
+    - remove hashmap named [sum](name)
+    - remove hashmap named [addition](name)
+    - remove hashmap named [a](name)
+    - remove hashmap named [b](name)
+    - remove hashmap named [c](name)
+    - remove hashmap named [p](name)
+    - remove hashmap named [q](name)
+    - remove hashmap named [r](name)
+    - remove hashmap named [s](name)
+    - remove hashmap named [x](name)
+    - remove hashmap named [y](name)
+    - remove hashmap named [z](name)
+    - remove hashmap named [answer](name)
+    - remove hashmap named [result](name)
+    - remove hashmap named [user](name)
+    - remove hashmap named [userid](name)
+    - remove hashmap named [id](name)
+    - remove hashmap named [num](name)
+    - remove hashmap named [age](name)
+    - remove hashmap named [department](name)
+    - remove hashmap named [hospital](name)
+    - remove hashmap named [wheel](name)
+    - remove hashmap named [seat](name)
+    - remove hashmap named [car](name)
+    - remove hashmap named [bus](name)
+    - remove hashmap named [van](name)
+    - remove hashmap named [bike](name)
+    - remove hashmap named [glass](name)
+    - remove hashmap named [red](name)
+    - remove hashmap named [black](name)
+    - remove hashmap named [white](name)
+    - remove hashmap named [blue](name)
+    - remove hashmap named [yellow](name)
+    - remove hashmap named [valid](name)
+    - remove hashmap named [subtract](name)
+    - remove hashmap named [value](name)
+    - remove hashmap named [arr](name)
+    - remove hashmap named [val](name)
+    - remove hashmap named [key](name)
+    - remove hashmap named [count](name)
+    - remove hashmap [main](name)
+    - remove hashmap [master](name)
+    - remove hashmap [size](name)
+    - remove hashmap [height](name)
+    - remove hashmap [weight](name)
+    - remove hashmap [bag](name)
+    - remove hashmap [can](name)
+    - remove hashmap [computer](name)
+    - remove hashmap [phone](name)
+    - remove hashmap [laptop](name)
+    - remove hashmap [mobilephone](name)
+    - remove hashmap [smartphone](name)
+    - remove hashmap [phonenumber](name)
+    - remove hashmap [contactnumber](name)
+    - remove hashmap [address](name)
+    - remove hashmap [location](name)
+    - remove hashmap [email](name)
+    - remove hashmap [contact](name)
+    - remove hashmap [emailaddress](name)
+    - remove hashmap [mouse](name)
+    - remove hashmap [keyboard](name)
+    - remove hashmap [screen](name)
+    - remove hashmap [touchscreen](name)
+    - remove hashmap [fruit](name)
+    - remove hashmap [food](name)
+    - remove hashmap [vegetable](name)
+    - remove hashmap [eatables](name)
+    - remove hashmap [price](name)
+    - remove hashmap [cost](name)
+    - remove hashmap [sum](name)
+    - remove hashmap [addition](name)
+    - remove hashmap [a](name)
+    - remove hashmap [b](name)
+    - remove hashmap [c](name)
+    - remove hashmap [p](name)
+    - remove hashmap [q](name)
+    - remove hashmap [r](name)
+    - remove hashmap [s](name)
+    - remove hashmap [x](name)
+    - remove hashmap [y](name)
+    - remove hashmap [z](name)
+    - remove hashmap [answer](name)
+    - remove hashmap [result](name)
+    - remove hashmap [user](name)
+    - remove hashmap [userid](name)
+    - remove hashmap [id](name)
+    - remove hashmap [num](name)
+    - remove hashmap [age](name)
+    - remove hashmap [department](name)
+    - remove hashmap [hospital](name)
+    - remove hashmap [wheel](name)
+    - remove hashmap [seat](name)
+    - remove hashmap [car](name)
+    - remove hashmap [bus](name)
+    - remove hashmap [van](name)
+    - remove hashmap [bike](name)
+    - remove hashmap [glass](name)
+    - remove hashmap [red](name)
+    - remove hashmap [black](name)
+    - remove hashmap [white](name)
+    - remove hashmap [blue](name)
+    - remove hashmap [yellow](name)
+    - remove hashmap [valid](name)
+    - remove hashmap [subtract](name)
+    - remove hashmap [value](name)
+    - remove hashmap [arr](name)
+    - remove hashmap [val](name)
+    - remove hashmap [key](name)
+    - remove hashmap [count](name)
+
+- intent: cuthashmap
+  examples: |
+    - cut hashmap named [main](name)
+    - cut hashmap named [master](name)
+    - cut hashmap named [size](name)
+    - cut hashmap named [height](name)
+    - cut hashmap named [weight](name)
+    - cut hashmap named [bag](name)
+    - cut hashmap named [can](name)
+    - cut hashmap named [computer](name)
+    - cut hashmap named [phone](name)
+    - cut hashmap named [laptop](name)
+    - cut hashmap named [mobilephone](name)
+    - cut hashmap named [smartphone](name)
+    - cut hashmap named [phonenumber](name)
+    - cut hashmap named [contactnumber](name)
+    - cut hashmap named [address](name)
+    - cut hashmap named [location](name)
+    - cut hashmap named [email](name)
+    - cut hashmap named [contact](name)
+    - cut hashmap named [emailaddress](name)
+    - cut hashmap named [mouse](name)
+    - cut hashmap named [keyboard](name)
+    - cut hashmap named [screen](name)
+    - cut hashmap named [touchscreen](name)
+    - cut hashmap named [fruit](name)
+    - cut hashmap named [food](name)
+    - cut hashmap named [vegetable](name)
+    - cut hashmap named [eatables](name)
+    - cut hashmap named [price](name)
+    - cut hashmap named [cost](name)
+    - cut hashmap named [sum](name)
+    - cut hashmap named [addition](name)
+    - cut hashmap named [a](name)
+    - cut hashmap named [b](name)
+    - cut hashmap named [c](name)
+    - cut hashmap named [p](name)
+    - cut hashmap named [q](name)
+    - cut hashmap named [r](name)
+    - cut hashmap named [s](name)
+    - cut hashmap named [x](name)
+    - cut hashmap named [y](name)
+    - cut hashmap named [z](name)
+    - cut hashmap named [answer](name)
+    - cut hashmap named [result](name)
+    - cut hashmap named [user](name)
+    - cut hashmap named [userid](name)
+    - cut hashmap named [id](name)
+    - cut hashmap named [num](name)
+    - cut hashmap named [age](name)
+    - cut hashmap named [department](name)
+    - cut hashmap named [hospital](name)
+    - cut hashmap named [wheel](name)
+    - cut hashmap named [seat](name)
+    - cut hashmap named [car](name)
+    - cut hashmap named [bus](name)
+    - cut hashmap named [van](name)
+    - cut hashmap named [bike](name)
+    - cut hashmap named [glass](name)
+    - cut hashmap named [red](name)
+    - cut hashmap named [black](name)
+    - cut hashmap named [white](name)
+    - cut hashmap named [blue](name)
+    - cut hashmap named [yellow](name)
+    - cut hashmap named [valid](name)
+    - cut hashmap named [subtract](name)
+    - cut hashmap named [value](name)
+    - cut hashmap named [arr](name)
+    - cut hashmap named [hashmap](name)
+    - cut hashmap named [val](name)
+    - cut hashmap named [key](name)
+    - cut hashmap named [count](name)
+    - cut hashmap [main](name)
+    - cut hashmap [master](name)
+    - cut hashmap [size](name)
+    - cut hashmap [height](name)
+    - cut hashmap [weight](name)
+    - cut hashmap [bag](name)
+    - cut hashmap [can](name)
+    - cut hashmap [computer](name)
+    - cut hashmap [phone](name)
+    - cut hashmap [laptop](name)
+    - cut hashmap [mobilephone](name)
+    - cut hashmap [smartphone](name)
+    - cut hashmap [phonenumber](name)
+    - cut hashmap [contactnumber](name)
+    - cut hashmap [address](name)
+    - cut hashmap [location](name)
+    - cut hashmap [email](name)
+    - cut hashmap [contact](name)
+    - cut hashmap [emailaddress](name)
+    - cut hashmap [mouse](name)
+    - cut hashmap [keyboard](name)
+    - cut hashmap [screen](name)
+    - cut hashmap [touchscreen](name)
+    - cut hashmap [fruit](name)
+    - cut hashmap [food](name)
+    - cut hashmap [vegetable](name)
+    - cut hashmap [eatables](name)
+    - cut hashmap [price](name)
+    - cut hashmap [cost](name)
+    - cut hashmap [sum](name)
+    - cut hashmap [addition](name)
+    - cut hashmap [a](name)
+    - cut hashmap [b](name)
+    - cut hashmap [c](name)
+    - cut hashmap [p](name)
+    - cut hashmap [q](name)
+    - cut hashmap [r](name)
+    - cut hashmap [s](name)
+    - cut hashmap [x](name)
+    - cut hashmap [y](name)
+    - cut hashmap [z](name)
+    - cut hashmap [answer](name)
+    - cut hashmap [result](name)
+    - cut hashmap [user](name)
+    - cut hashmap [userid](name)
+    - cut hashmap [id](name)
+    - cut hashmap [num](name)
+    - cut hashmap [age](name)
+    - cut hashmap [department](name)
+    - cut hashmap [hospital](name)
+    - cut hashmap [wheel](name)
+    - cut hashmap [seat](name)
+    - cut hashmap [car](name)
+    - cut hashmap [bus](name)
+    - cut hashmap [van](name)
+    - cut hashmap [bike](name)
+    - cut hashmap [glass](name)
+    - cut hashmap [red](name)
+    - cut hashmap [black](name)
+    - cut hashmap [white](name)
+    - cut hashmap [blue](name)
+    - cut hashmap [yellow](name)
+    - cut hashmap [valid](name)
+    - cut hashmap [subtract](name)
+    - cut hashmap [value](name)
+    - cut hashmap [arr](name)
+    - cut hashmap [hashmap](name)
+    - cut hashmap [val](name)
+    - cut hashmap [key](name)
+    - cut hashmap [count](name)
+
+- intent: changehashmap
+  examples: |
+    - change hashmap named z to result
+    - change hashmap named vegetable to fruit
+    - change hashmap named c to computer
+    - change hashmap named department to user
+    - change hashmap named email to mouse
+    - change hashmap named valid to addition
+    - change hashmap named van to price
+    - change hashmap named smartphone to computer
+    - change hashmap named glass to car
+    - change hashmap named department to id
+    - change hashmap named main to keyboard
+    - change hashmap named id to z
+    - change hashmap named s to sum
+    - change hashmap named answer to emailaddress
+    - change hashmap named a to smartphone
+    - change hashmap named yellow to vegetable
+    - change hashmap named val to seat
+    - change hashmap named r to userid
+    - change hashmap named emailaddress to keyboard
+    - change hashmap named yellow to subtract
+    - change hashmap named height to master
+    - change hashmap named c to fruit
+    - change hashmap named y to hospital
+    - change hashmap named email to key
+    - change hashmap named height to bus
+    - change hashmap named keyboard to hospital
+    - change hashmap named mobilephone to key
+    - change hashmap named keyboard to seat
+    - change hashmap named seat to x
+    - change hashmap named contact to touchscreen
+    - change hashmap named id to blue
+    - change hashmap named r to c
+    - change hashmap named num to smartphone
+    - change hashmap named key to userid
+    - change hashmap named wheel to z
+    - change hashmap named s to can
+    - change hashmap named age to phonenumber
+    - change hashmap named main to subtract
+    - change hashmap named size to main
+    - change hashmap named num to s
+    - change hashmap named yellow to phonenumber
+    - change hashmap named phonenumber to touchscreen
+    - change hashmap named bus to black
+    - change hashmap named fruit to q
+    - change hashmap named b to value
+    - change hashmap named value to user
+    - change hashmap named yellow to food
+    - change hashmap named size to age
+    - change hashmap named valid to glass
+    - change hashmap named laptop to arr
+    - change hashmap named computer to contactnumber
+    - change hashmap named x to email
+    - change hashmap named z to id
+    - change hashmap named keyboard to email
+    - change hashmap named sum to num
+    - change hashmap named fruit to emailaddress
+    - change hashmap named van to email
+    - change hashmap named red to email
+    - change hashmap named glass to cost
+    - change hashmap named smartphone to value
+    - change hashmap named hospital to email
+    - change hashmap named car to vegetable
+    - change hashmap named department to white
+    - change hashmap named computer to arr
+    - change hashmap named seat to mouse
+    - change hashmap named userid to arr
+    - change hashmap named num to main
+    - change hashmap named food to r
+    - change hashmap named yellow to bike
+    - change hashmap named weight to hospital
+    - change hashmap named can to answer
+    - change hashmap named value to price
+    - change hashmap named height to size
+    - change hashmap named eatables to laptop
+    - change hashmap named price to bike
+    - change hashmap named smartphone to blue
+    - change hashmap named main to phone
+    - change hashmap named weight to i
+    - change hashmap named userid to mouse
+    - change hashmap named hospital to email
+    - change hashmap named mouse to height
+    - change hashmap named r to main
+    - change hashmap named location to email
+    - change hashmap named height to age
+    - change hashmap named addition to smartphone
+    - change hashmap named subtract to arr
+    - change hashmap named arr to can
+    - change hashmap named blue to user
+    - change hashmap named bus to location
+    - change hashmap named id to value
+    - change hashmap named a to b
+    - change hashmap named s to key
+    - change hashmap named yellow to blue
+    - change hashmap named x to bag
+    - change hashmap named computer to red
+    - change hashmap named contact to p
+    - change hashmap named num to address
+    - change hashmap named user to x
+    - change hashmap named subtract to answer
+    - change hashmap named computer to car
+    - change hashmap named touchscreen to price
+    - change hashmap named hospital to count
+    - change hashmap named arr to a
+    - change hashmap named x to price
+    - change hashmap named height to s
+    - change hashmap named contact to mouse
+    - change hashmap named userid to hospital
+    - change hashmap named user to userid
+    - change hashmap named weight to department
+    - change hashmap named arr to answer
+    - change hashmap named address to height
+    - change hashmap named a to hospital
+    - change hashmap named arr to a
+    - change hashmap named wheel to height
+    - change hashmap named location to car
+    - change hashmap named bus to contact
+    - change hashmap named r to size
+    - change hashmap named num to userid
+    - change hashmap named email to bus
+    - change hashmap named weight to phonenumber
+    - change hashmap named height to r
+    - change hashmap named vegetable to screen
+    - change hashmap named b to age
+    - change hashmap named red to wheel
+    - change hashmap named z to num
+    - change hashmap named food to seat
+    - change hashmap named black to s
+    - change hashmap named mobilephone to val
+    - change hashmap named valid to fruit
+    - change hashmap named count to keyboard
+    - change hashmap named p to age
+    - change hashmap named touchscreen to phonenumber
+    - change hashmap named q to value
+    - change hashmap named answer to main
+    - change hashmap named addition to key
+    - change hashmap named fruit to bag
+    - change hashmap named subtract to valid
+    - change hashmap named x to vegetable
+    - change hashmap named eatables to car
+    - change hashmap name bike to eatables
+    - change hashmap name addition to i
+    - change hashmap name count to size
+    - change hashmap name bag to subtract
+    - change hashmap name price to weight
+    - change hashmap name touchscreen to r
+    - change hashmap name i to fruit
+    - change hashmap name emailaddress to red
+    - change hashmap name laptop to addition
+    - change hashmap name height to emailaddress
+    - change hashmap name user to subtract
+    - change hashmap name result to red
+    - change hashmap name arr to smartphone
+    - change hashmap name contactnumber to vegetable
+    - change hashmap name weight to smartphone
+    - change hashmap name master to touchscreen
+    - change hashmap name emailaddress to price
+    - change hashmap name q to sum
+    - change hashmap name num to price
+    - change hashmap name bike to y
+    - change hashmap name arr to van
+    - change hashmap name sum to emailaddress
+    - change hashmap name eatables to i
+    - change hashmap name touchscreen to bike
+    - change hashmap name laptop to glass
+    - change hashmap name val to screen
+    - change hashmap name email to subtract
+    - change hashmap name vegetable to department
+    - change hashmap name address to i
+    - change hashmap name emailaddress to car
+    - change hashmap name emailaddress to vegetable
+    - change hashmap name location to black
+    - change hashmap name sum to glass
+    - change hashmap name touchscreen to bag
+    - change hashmap name screen to price
+    - change hashmap name z to addition
+    - change hashmap name val to s
+    - change hashmap name emailaddress to car
+    - change hashmap name value to white
+    - change hashmap name result to bag
+    - change hashmap name arr to bus
+    - change hashmap name c to price
+    - change hashmap name weight to keyboard
+    - change hashmap name screen to main
+    - change hashmap name emailaddress to valid
+    - change hashmap name p to height
+    - change hashmap name key to weight
+    - change hashmap name key to location
+    - change hashmap name laptop to y
+    - change hashmap name vegetable to mobilephone
+    - change hashmap name arr to smartphone
+    - change hashmap name computer to hospital
+    - change hashmap name red to p
+    - change hashmap name r to touchscreen
+    - change hashmap name eatables to contact
+    - change hashmap name size to fruit
+    - change hashmap name address to laptop
+    - change hashmap name price to red
+    - change hashmap name q to master
+    - change hashmap name mouse to subtract
+    - change hashmap name val to num
+    - change hashmap name smartphone to screen
+    - change hashmap name email to age
+    - change hashmap name p to black
+    - change hashmap name computer to weight
+    - change hashmap name q to x
+    - change hashmap name contact to screen
+    - change hashmap name smartphone to white
+    - change hashmap name c to white
+    - change hashmap name weight to main
+    - change hashmap name white to i
+    - change hashmap name q to price
+    - change hashmap name fruit to addition
+    - change hashmap name computer to address
+    - change hashmap name s to contactnumber
+    - change hashmap name red to bus
+    - change hashmap name white to result
+    - change hashmap name keyboard to arr
+    - change hashmap name yellow to black
+    - change hashmap name phone to subtract
+    - change hashmap name cost to hospital
+    - change hashmap name r to contactnumber
+    - change hashmap name touchscreen to arr
+    - change hashmap name val to seat
+    - change hashmap name r to car
+    - change hashmap name val to van
+    - change hashmap name food to c
+    - change hashmap name food to age
+    - change hashmap name department to hospital
+    - change hashmap name black to id
+    - change hashmap name van to id
+    - change hashmap name count to car
+    - change hashmap name keyboard to q
+    - change hashmap name c to a
+    - change hashmap name answer to location
+    - change hashmap name eatables to id
+    - change hashmap name r to main
+    - change hashmap name hospital to num
+    - change hashmap name yellow to main
+    - change hashmap name black to r
+    - change hashmap name id to wheel
+    - change hashmap name fruit to value
+    - change hashmap name email to i
+    - change hashmap name glass to vegetable
+    - change hashmap name key to b
+    - change hashmap name computer to department
+    - change hashmap name laptop to key
+    - change hashmap name x to valid
+    - change hashmap name arr to car
+    - change hashmap name age to wheel
+    - change hashmap name q to age
+    - change hashmap name fruit to vegetable
+    - change hashmap name laptop to val
+    - change hashmap name cost to result
+    - change hashmap name bag to white
+    - change hashmap name addition to smartphone
+    - change hashmap name touchscreen to id
+    - change hashmap name s to answer
+    - change hashmap name red to result
+    - change hashmap name q to price
+    - change hashmap name eatables to location
+    - change hashmap name glass to result
+    - change hashmap name computer to contact
+    - change hashmap name y to key
+    - change hashmap name phone to bike
+    - change hashmap name email to wheel
+    - change hashmap name q to val
+    - change hashmap name laptop to screen
+    - change hashmap name yellow to s
+    - change hashmap name black to size
+    - change hashmap name size to value
+    - change hashmap name user to z
+    - change hashmap name master to hospital
+    - change hashmap name eatables to seat
+    - change hashmap name user to blue
+    - change hashmap name screen to car
+    - change hashmap name department to addition
+    - change hashmap name p to a
+    - change hashmap name can to s
+    - change hashmap sum to email
+    - change hashmap smartphone to location
+    - change hashmap screen to smartphone
+    - change hashmap white to c
+    - change hashmap touchscreen to value
+    - change hashmap computer to glass
+    - change hashmap computer to food
+    - change hashmap s to cost
+    - change hashmap id to wheel
+    - change hashmap size to id
+    - change hashmap fruit to yellow
+    - change hashmap bag to p
+    - change hashmap screen to count
+    - change hashmap bus to value
+    - change hashmap bike to a
+    - change hashmap answer to black
+    - change hashmap y to black
+    - change hashmap van to z
+    - change hashmap arr to z
+    - change hashmap touchscreen to wheel
+    - change hashmap white to hospital
+    - change hashmap email to wheel
+    - change hashmap eatables to q
+    - change hashmap p to main
+    - change hashmap black to email
+    - change hashmap contactnumber to hospital
+    - change hashmap id to key
+    - change hashmap age to key
+    - change hashmap eatables to cost
+    - change hashmap answer to location
+    - change hashmap contactnumber to s
+    - change hashmap subtract to s
+    - change hashmap location to red
+    - change hashmap yellow to answer
+    - change hashmap food to y
+    - change hashmap wheel to mobilephone
+    - change hashmap keyboard to z
+    - change hashmap bag to yellow
+    - change hashmap smartphone to valid
+    - change hashmap num to contactnumber
+    - change hashmap arr to blue
+    - change hashmap r to addition
+    - change hashmap vegetable to address
+    - change hashmap weight to glass
+    - change hashmap result to sum
+    - change hashmap userid to val
+    - change hashmap contactnumber to x
+    - change hashmap answer to q
+    - change hashmap main to val
+    - change hashmap user to bus
+    - change hashmap p to num
+    - change hashmap num to addition
+    - change hashmap mouse to s
+    - change hashmap red to bag
+    - change hashmap bag to x
+    - change hashmap contact to yellow
+    - change hashmap answer to subtract
+    - change hashmap height to r
+    - change hashmap answer to x
+    - change hashmap seat to black
+    - change hashmap val to i
+    - change hashmap smartphone to email
+    - change hashmap contact to fruit
+    - change hashmap addition to can
+    - change hashmap phone to blue
+    - change hashmap car to van
+    - change hashmap email to i
+    - change hashmap size to smartphone
+    - change hashmap computer to p
+    - change hashmap price to subtract
+    - change hashmap blue to fruit
+    - change hashmap user to userid
+    - change hashmap c to q
+    - change hashmap can to white
+    - change hashmap q to hospital
+    - change hashmap x to glass
+    - change hashmap glass to smartphone
+    - change hashmap seat to computer
+    - change hashmap id to arr
+    - change hashmap blue to can
+    - change hashmap hospital to seat
+    - change hashmap red to subtract
+    - change hashmap height to mobilephone
+    - change hashmap hospital to price
+    - change hashmap id to laptop
+    - change hashmap valid to vegetable
+    - change hashmap laptop to blue
+    - change hashmap master to cost
+    - change hashmap glass to mouse
+    - change hashmap size to contact
+    - change hashmap wheel to touchscreen
+    - change hashmap subtract to hospital
+    - change hashmap a to arr
+    - change hashmap s to size
+    - change hashmap wheel to fruit
+    - change hashmap touchscreen to contact
+    - change hashmap location to weight
+    - change hashmap van to phonenumber
+    - change hashmap val to wheel
+    - change hashmap subtract to result
+    - change hashmap x to master
+    - change hashmap valid to phonenumber
+    - change hashmap s to can
+    - change hashmap size to keyboard
+    - change hashmap height to arr
+    - change hashmap weight to mobilephone
+    - change hashmap fruit to department
+    - change hashmap can to fruit
+    - change hashmap a to screen
+    - change hashmap bag to can
+    - change hashmap hospital to num
+    - change hashmap cost to mobilephone
+    - change hashmap eatables to count
+    - change hashmap z to y
+    - change hashmap weight to red
+    - change hashmap smartphone to white
+    - change hashmap q to phonenumber
+    - change hashmap yellow to touchscreen
+    - change hashmap r to white
+    - change hashmap x to phonenumber
+    - change hashmap q to computer
+    - change hashmap arr to age
+    - change hashmap result to email
+    - change hashmap answer to num
+    - change hashmap touchscreen to user
+    - change hashmap phone to sum
+    - change hashmap keyboard to a
+    - change hashmap arr to num
+    - change hashmap department to arr
+    - change hashmap id to sum
+    - change hashmap fruit to arr
+    - change hashmap valid to userid
+    - change hashmap cost to sum
+    - change hashmap x to user
+    - change hashmap master to valid
+    - change hashmap bike to bag
+    - change hashmap bus to hospital
+
+- intent: edithashmap
+  examples: |
+    - edit hashmap named main to master
+    - edit hashmap name answer to result
+    - edit hashmap main to master
+    - edit hashmap named contact to food
+    - edit hashmap named laptop to yellow
+    - edit hashmap named contactnumber to seat
+    - edit hashmap named computer to phonenumber
+    - edit hashmap named phone to can
+    - edit hashmap named eatables to computer
+    - edit hashmap named z to bike
+    - edit hashmap named count to r
+    - edit hashmap named contact to glass
+    - edit hashmap named emailaddress to y
+    - edit hashmap named vegetable to location
+    - edit hashmap named yellow to hospital
+    - edit hashmap named eatables to count
+    - edit hashmap named age to x
+    - edit hashmap named x to white
+    - edit hashmap named fruit to van
+    - edit hashmap named user to bus
+    - edit hashmap named main to vegetable
+    - edit hashmap named value to hashmap
+    - edit hashmap named q to blue
+    - edit hashmap named price to email
+    - edit hashmap named c to userid
+    - edit hashmap named red to valid
+    - edit hashmap named p to q
+    - edit hashmap named user to contact
+    - edit hashmap named weight to cost
+    - edit hashmap named count to yellow
+    - edit hashmap named laptop to yellow
+    - edit hashmap named main to emailaddress
+    - edit hashmap named value to can
+    - edit hashmap named email to addition
+    - edit hashmap named size to hospital
+    - edit hashmap named size to laptop
+    - edit hashmap named car to answer
+    - edit hashmap named q to wheel
+    - edit hashmap named location to contact
+    - edit hashmap named c to id
+    - edit hashmap named q to computer
+    - edit hashmap named email to id
+    - edit hashmap named key to q
+    - edit hashmap named eatables to c
+    - edit hashmap named height to mobilephone
+    - edit hashmap named subtract to hashmap
+    - edit hashmap named b to y
+    - edit hashmap named r to white
+    - edit hashmap named phonenumber to smartphone
+    - edit hashmap named keyboard to master
+    - edit hashmap named email to height
+    - edit hashmap named arr to laptop
+    - edit hashmap named screen to p
+    - edit hashmap named cost to phonenumber
+    - edit hashmap named can to bike
+    - edit hashmap named addition to mouse
+    - edit hashmap named contactnumber to yellow
+    - edit hashmap named smartphone to wheel
+    - edit hashmap named subtract to red
+    - edit hashmap named laptop to c
+    - edit hashmap named eatables to answer
+    - edit hashmap named keyboard to phonenumber
+    - edit hashmap named hashmap to hospital
+    - edit hashmap named seat to van
+    - edit hashmap named emailaddress to arr
+    - edit hashmap named valid to result
+    - edit hashmap named smartphone to phonenumber
+    - edit hashmap named sum to vegetable
+    - edit hashmap named touchscreen to red
+    - edit hashmap named valid to can
+    - edit hashmap named laptop to can
+    - edit hashmap named r to valid
+    - edit hashmap named bike to wheel
+    - edit hashmap named num to vegetable
+    - edit hashmap named userid to screen
+    - edit hashmap named eatables to blue
+    - edit hashmap named s to userid
+    - edit hashmap named price to hospital
+    - edit hashmap named location to bus
+    - edit hashmap named bus to hashmap
+    - edit hashmap named height to q
+    - edit hashmap named r to valid
+    - edit hashmap named hospital to screen
+    - edit hashmap named age to b
+    - edit hashmap named main to van
+    - edit hashmap named red to age
+    - edit hashmap named x to z
+    - edit hashmap named userid to y
+    - edit hashmap named smartphone to a
+    - edit hashmap named userid to eatables
+    - edit hashmap named subtract to arr
+    - edit hashmap named van to phonenumber
+    - edit hashmap named subtract to value
+    - edit hashmap named main to a
+    - edit hashmap named master to key
+    - edit hashmap named count to eatables
+    - edit hashmap named emailaddress to master
+    - edit hashmap named department to van
+    - edit hashmap named price to red
+    - edit hashmap named z to white
+    - edit hashmap named white to contactnumber
+    - edit hashmap named p to value
+    - edit hashmap named key to fruit
+    - edit hashmap named price to b
+    - edit hashmap named bus to b
+    - edit hashmap named y to userid
+    - edit hashmap named size to main
+    - edit hashmap named num to value
+    - edit hashmap named size to height
+    - edit hashmap named keyboard to touchscreen
+    - edit hashmap named hospital to computer
+    - edit hashmap named addition to z
+    - edit hashmap named q to address
+    - edit hashmap named val to result
+    - edit hashmap named result to subtract
+    - edit hashmap named seat to y
+    - edit hashmap named emailaddress to cost
+    - edit hashmap named email to result
+    - edit hashmap named glass to z
+    - edit hashmap named keyboard to id
+    - edit hashmap named screen to eatables
+    - edit hashmap named age to phone
+    - edit hashmap named hospital to master
+    - edit hashmap named screen to value
+    - edit hashmap named yellow to bus
+    - edit hashmap named price to can
+    - edit hashmap named count to num
+    - edit hashmap named phonenumber to van
+    - edit hashmap named contact to contactnumber
+    - edit hashmap named touchscreen to p
+    - edit hashmap named eatables to sum
+    - edit hashmap named department to can
+    - edit hashmap named vegetable to value
+    - edit hashmap named address to id
+    - edit hashmap named contact to cost
+    - edit hashmap named phone to user
+    - edit hashmap named price to bike
+    - edit hashmap name car to main
+    - edit hashmap name contact to fruit
+    - edit hashmap name contact to wheel
+    - edit hashmap name num to result
+    - edit hashmap name contactnumber to emailaddress
+    - edit hashmap name master to size
+    - edit hashmap name phone to bus
+    - edit hashmap name screen to bike
+    - edit hashmap name can to main
+    - edit hashmap name yellow to car
+    - edit hashmap name q to addition
+    - edit hashmap name contact to val
+    - edit hashmap name yellow to address
+    - edit hashmap name weight to emailaddress
+    - edit hashmap name sum to value
+    - edit hashmap name sum to black
+    - edit hashmap name arr to touchscreen
+    - edit hashmap name wheel to location
+    - edit hashmap name mobilephone to wheel
+    - edit hashmap name z to size
+    - edit hashmap name p to result
+    - edit hashmap name cost to black
+    - edit hashmap name yellow to addition
+    - edit hashmap name food to mobilephone
+    - edit hashmap name result to value
+    - edit hashmap name black to van
+    - edit hashmap name z to master
+    - edit hashmap name department to car
+    - edit hashmap name c to addition
+    - edit hashmap name q to b
+    - edit hashmap name y to answer
+    - edit hashmap name weight to x
+    - edit hashmap name q to email
+    - edit hashmap name s to result
+    - edit hashmap name keyboard to bag
+    - edit hashmap name emailaddress to phone
+    - edit hashmap name touchscreen to c
+    - edit hashmap name contactnumber to laptop
+    - edit hashmap name price to answer
+    - edit hashmap name computer to weight
+    - edit hashmap name val to height
+    - edit hashmap name location to arr
+    - edit hashmap name black to answer
+    - edit hashmap name main to s
+    - edit hashmap name bag to seat
+    - edit hashmap name blue to screen
+    - edit hashmap name r to mouse
+    - edit hashmap name laptop to val
+    - edit hashmap name white to c
+    - edit hashmap name size to car
+    - edit hashmap name s to value
+    - edit hashmap name glass to mouse
+    - edit hashmap name keyboard to value
+    - edit hashmap name glass to r
+    - edit hashmap name black to red
+    - edit hashmap name can to master
+    - edit hashmap name phone to cost
+    - edit hashmap name yellow to c
+    - edit hashmap name b to yellow
+    - edit hashmap name val to age
+    - edit hashmap name s to y
+    - edit hashmap name c to phone
+    - edit hashmap name arr to computer
+    - edit hashmap name hashmap to touchscreen
+    - edit hashmap name bag to x
+    - edit hashmap name touchscreen to laptop
+    - edit hashmap name department to food
+    - edit hashmap name red to can
+    - edit hashmap name result to subtract
+    - edit hashmap name laptop to main
+    - edit hashmap name emailaddress to hashmap
+    - edit hashmap name height to van
+    - edit hashmap name black to userid
+    - edit hashmap name red to touchscreen
+    - edit hashmap name height to weight
+    - edit hashmap name sum to y
+    - edit hashmap name can to emailaddress
+    - edit hashmap name wheel to phonenumber
+    - edit hashmap name a to main
+    - edit hashmap name user to food
+    - edit hashmap name sum to user
+    - edit hashmap name car to r
+    - edit hashmap name location to vegetable
+    - edit hashmap name answer to x
+    - edit hashmap name seat to size
+    - edit hashmap name arr to wheel
+    - edit hashmap name white to smartphone
+    - edit hashmap name addition to glass
+    - edit hashmap name contactnumber to x
+    - edit hashmap name arr to location
+    - edit hashmap name bike to vegetable
+    - edit hashmap name id to smartphone
+    - edit hashmap name wheel to x
+    - edit hashmap name user to email
+    - edit hashmap name phone to contact
+    - edit hashmap name main to count
+    - edit hashmap name seat to r
+    - edit hashmap name laptop to eatables
+    - edit hashmap name bus to val
+    - edit hashmap name hospital to sum
+    - edit hashmap name key to seat
+    - edit hashmap name cost to answer
+    - edit hashmap name red to keyboard
+    - edit hashmap name blue to contact
+    - edit hashmap name height to s
+    - edit hashmap name hospital to keyboard
+    - edit hashmap name fruit to white
+    - edit hashmap name hospital to size
+    - edit hashmap name laptop to blue
+    - edit hashmap name vegetable to size
+    - edit hashmap name black to bag
+    - edit hashmap name touchscreen to hashmap
+    - edit hashmap name vegetable to price
+    - edit hashmap name a to size
+    - edit hashmap name height to addition
+    - edit hashmap name cost to c
+    - edit hashmap name age to emailaddress
+    - edit hashmap name email to result
+    - edit hashmap name subtract to glass
+    - edit hashmap name p to key
+    - edit hashmap name c to cost
+    - edit hashmap name key to num
+    - edit hashmap name wheel to black
+    - edit hashmap name subtract to blue
+    - edit hashmap name hashmap to blue
+    - edit hashmap name emailaddress to key
+    - edit hashmap name glass to main
+    - edit hashmap name height to eatables
+    - edit hashmap name bike to wheel
+    - edit hashmap name mouse to vegetable
+    - edit hashmap name main to contactnumber
+    - edit hashmap name glass to vegetable
+    - edit hashmap name eatables to laptop
+    - edit hashmap name red to seat
+    - edit hashmap name wheel to user
+    - edit hashmap name blue to a
+    - edit hashmap name result to white
+    - edit hashmap name glass to yellow
+    - edit hashmap name answer to can
+    - edit hashmap name z to hospital
+    - edit hashmap size to computer
+    - edit hashmap glass to mobilephone
+    - edit hashmap x to computer
+    - edit hashmap fruit to address
+    - edit hashmap num to weight
+    - edit hashmap cost to userid
+    - edit hashmap size to mouse
+    - edit hashmap y to computer
+    - edit hashmap screen to count
+    - edit hashmap yellow to laptop
+    - edit hashmap num to z
+    - edit hashmap userid to bus
+    - edit hashmap count to location
+    - edit hashmap email to hashmap
+    - edit hashmap department to mouse
+    - edit hashmap seat to s
+    - edit hashmap phone to food
+    - edit hashmap location to department
+    - edit hashmap keyboard to contactnumber
+    - edit hashmap keyboard to sum
+    - edit hashmap bus to valid
+    - edit hashmap mouse to a
+    - edit hashmap hospital to key
+    - edit hashmap department to car
+    - edit hashmap keyboard to computer
+    - edit hashmap address to height
+    - edit hashmap y to answer
+    - edit hashmap bag to addition
+    - edit hashmap cost to contactnumber
+    - edit hashmap y to addition
+    - edit hashmap addition to a
+    - edit hashmap cost to age
+    - edit hashmap answer to location
+    - edit hashmap z to x
+    - edit hashmap val to main
+    - edit hashmap car to emailaddress
+    - edit hashmap email to weight
+    - edit hashmap eatables to van
+    - edit hashmap id to userid
+    - edit hashmap yellow to red
+    - edit hashmap emailaddress to value
+    - edit hashmap a to user
+    - edit hashmap fruit to phone
+    - edit hashmap c to mobilephone
+    - edit hashmap userid to yellow
+    - edit hashmap age to q
+    - edit hashmap c to vegetable
+    - edit hashmap emailaddress to sum
+    - edit hashmap price to val
+    - edit hashmap key to food
+    - edit hashmap food to count
+    - edit hashmap addition to computer
+    - edit hashmap arr to yellow
+    - edit hashmap address to mouse
+    - edit hashmap computer to vegetable
+    - edit hashmap screen to z
+    - edit hashmap department to van
+    - edit hashmap eatables to cost
+    - edit hashmap count to glass
+    - edit hashmap num to y
+    - edit hashmap phone to computer
+    - edit hashmap black to smartphone
+    - edit hashmap mouse to food
+    - edit hashmap a to val
+    - edit hashmap arr to main
+    - edit hashmap fruit to y
+    - edit hashmap y to black
+    - edit hashmap count to van
+    - edit hashmap keyboard to touchscreen
+    - edit hashmap yellow to contactnumber
+    - edit hashmap p to food
+    - edit hashmap black to department
+    - edit hashmap vegetable to count
+    - edit hashmap black to hashmap
+    - edit hashmap mobilephone to white
+    - edit hashmap answer to id
+    - edit hashmap hospital to location
+    - edit hashmap weight to height
+    - edit hashmap laptop to bike
+    - edit hashmap black to eatables
+    - edit hashmap yellow to a
+    - edit hashmap laptop to white
+    - edit hashmap z to addition
+    - edit hashmap key to white
+    - edit hashmap count to r
+    - edit hashmap seat to userid
+    - edit hashmap bag to valid
+    - edit hashmap age to p
+    - edit hashmap phonenumber to b
+    - edit hashmap contact to main
+    - edit hashmap r to computer
+    - edit hashmap s to location
+    - edit hashmap can to main
+    - edit hashmap arr to contactnumber
+    - edit hashmap user to department
+    - edit hashmap contactnumber to contact
+    - edit hashmap black to y
+    - edit hashmap valid to main
+    - edit hashmap p to emailaddress
+    - edit hashmap count to height
+    - edit hashmap screen to b
+    - edit hashmap smartphone to location
+    - edit hashmap price to arr
+    - edit hashmap s to fruit
+    - edit hashmap red to bus
+    - edit hashmap p to yellow
+    - edit hashmap x to mouse
+    - edit hashmap z to value
+    - edit hashmap phone to x
+    - edit hashmap z to a
+    - edit hashmap mobilephone to val
+    - edit hashmap cost to answer
+    - edit hashmap fruit to laptop
+    - edit hashmap car to cost
+    - edit hashmap arr to vegetable
+    - edit hashmap size to value
+    - edit hashmap food to bag
+    - edit hashmap hospital to fruit
+    - edit hashmap mouse to a
+    - edit hashmap fruit to result
+    - edit hashmap num to x
+    - edit hashmap price to y
+    - edit hashmap van to id
+    - edit hashmap yellow to userid
+    - edit hashmap q to valid
+    - edit hashmap key to screen
+    - edit hashmap food to red
+    - edit hashmap vegetable to bag
+    - edit hashmap y to department
+    - edit hashmap mouse to master
+    - edit hashmap white to blue
+    - edit hashmap mouse to van
+    - edit hashmap count to sum
+    - edit hashmap b to hashmap
+    - edit hashmap red to result
+    - edit hashmap hospital to contactnumber
+    - edit hashmap address to laptop
+    - edit hashmap addition to answer
+    - edit hashmap master to department
+    - edit hashmap s to laptop
+
+- intent: clearhashmap
+  examples: |    
+    - clear hashmap named main
+    - clear hashmap named master
+    - clear hashmap named size
+    - clear hashmap named height
+    - clear hashmap named weight
+    - clear hashmap named bag
+    - clear hashmap named can
+    - clear hashmap named computer
+    - clear hashmap named phone
+    - clear hashmap named laptop
+    - clear hashmap named mobilephone
+    - clear hashmap named smartphone
+    - clear hashmap named phonenumber
+    - clear hashmap named contactnumber
+    - clear hashmap named address
+    - clear hashmap named location
+    - clear hashmap named email
+    - clear hashmap named contact
+    - clear hashmap named emailaddress
+    - clear hashmap named mouse
+    - clear hashmap named keyboard
+    - clear hashmap named screen
+    - clear hashmap named touchscreen
+    - clear hashmap named fruit
+    - clear hashmap named food
+    - clear hashmap named vegetable
+    - clear hashmap named eatables
+    - clear hashmap named price
+    - clear hashmap named cost
+    - clear hashmap named sum
+    - clear hashmap named addition
+    - clear hashmap named a
+    - clear hashmap named b
+    - clear hashmap named c
+    - clear hashmap named p
+    - clear hashmap named q
+    - clear hashmap named r
+    - clear hashmap named s
+    - clear hashmap named x
+    - clear hashmap named y
+    - clear hashmap named z
+    - clear hashmap named answer
+    - clear hashmap named result
+    - clear hashmap named user
+    - clear hashmap named userid
+    - clear hashmap named id
+    - clear hashmap named num
+    - clear hashmap named age
+    - clear hashmap named department
+    - clear hashmap named hospital
+    - clear hashmap named wheel
+    - clear hashmap named seat
+    - clear hashmap named car
+    - clear hashmap named bus
+    - clear hashmap named van
+    - clear hashmap named bike
+    - clear hashmap named glass
+    - clear hashmap named red
+    - clear hashmap named black
+    - clear hashmap named white
+    - clear hashmap named blue
+    - clear hashmap named yellow
+    - clear hashmap named valid
+    - clear hashmap named subtract
+    - clear hashmap named value
+    - clear hashmap named arr
+    - clear hashmap named i
+    - clear hashmap named val
+    - clear hashmap named key
+    - clear hashmap named count
+    - clear hashmap name main
+    - clear hashmap name master
+    - clear hashmap name size
+    - clear hashmap name height
+    - clear hashmap name weight
+    - clear hashmap name bag
+    - clear hashmap name can
+    - clear hashmap name computer
+    - clear hashmap name phone
+    - clear hashmap name laptop
+    - clear hashmap name mobilephone
+    - clear hashmap name smartphone
+    - clear hashmap name phonenumber
+    - clear hashmap name contactnumber
+    - clear hashmap name address
+    - clear hashmap name location
+    - clear hashmap name email
+    - clear hashmap name contact
+    - clear hashmap name emailaddress
+    - clear hashmap name mouse
+    - clear hashmap name keyboard
+    - clear hashmap name screen
+    - clear hashmap name touchscreen
+    - clear hashmap name fruit
+    - clear hashmap name food
+    - clear hashmap name vegetable
+    - clear hashmap name eatables
+    - clear hashmap name price
+    - clear hashmap name cost
+    - clear hashmap name sum
+    - clear hashmap name addition
+    - clear hashmap name a
+    - clear hashmap name b
+    - clear hashmap name c
+    - clear hashmap name p
+    - clear hashmap name q
+    - clear hashmap name r
+    - clear hashmap name s
+    - clear hashmap name x
+    - clear hashmap name y
+    - clear hashmap name z
+    - clear hashmap name answer
+    - clear hashmap name result
+    - clear hashmap name user
+    - clear hashmap name userid
+    - clear hashmap name id
+    - clear hashmap name num
+    - clear hashmap name age
+    - clear hashmap name department
+    - clear hashmap name hospital
+    - clear hashmap name wheel
+    - clear hashmap name seat
+    - clear hashmap name car
+    - clear hashmap name bus
+    - clear hashmap name van
+    - clear hashmap name bike
+    - clear hashmap name glass
+    - clear hashmap name red
+    - clear hashmap name black
+    - clear hashmap name white
+    - clear hashmap name blue
+    - clear hashmap name yellow
+    - clear hashmap name valid
+    - clear hashmap name subtract
+    - clear hashmap name value
+    - clear hashmap name arr
+    - clear hashmap name i
+    - clear hashmap name val
+    - clear hashmap name key
+    - clear hashmap name count
+    - clear hashmap main
+    - clear hashmap master
+    - clear hashmap size
+    - clear hashmap height
+    - clear hashmap weight
+    - clear hashmap bag
+    - clear hashmap can
+    - clear hashmap computer
+    - clear hashmap phone
+    - clear hashmap laptop
+    - clear hashmap mobilephone
+    - clear hashmap smartphone
+    - clear hashmap phonenumber
+    - clear hashmap contactnumber
+    - clear hashmap address
+    - clear hashmap location
+    - clear hashmap email
+    - clear hashmap contact
+    - clear hashmap emailaddress
+    - clear hashmap mouse
+    - clear hashmap keyboard
+    - clear hashmap screen
+    - clear hashmap touchscreen
+    - clear hashmap fruit
+    - clear hashmap food
+    - clear hashmap vegetable
+    - clear hashmap eatables
+    - clear hashmap price
+    - clear hashmap cost
+    - clear hashmap sum
+    - clear hashmap addition
+    - clear hashmap a
+    - clear hashmap b
+    - clear hashmap c
+    - clear hashmap p
+    - clear hashmap q
+    - clear hashmap r
+    - clear hashmap s
+    - clear hashmap x
+    - clear hashmap y
+    - clear hashmap z
+    - clear hashmap answer
+    - clear hashmap result
+    - clear hashmap user
+    - clear hashmap userid
+    - clear hashmap id
+    - clear hashmap num
+    - clear hashmap age
+    - clear hashmap department
+    - clear hashmap hospital
+    - clear hashmap wheel
+    - clear hashmap seat
+    - clear hashmap car
+    - clear hashmap bus
+    - clear hashmap van
+    - clear hashmap bike
+    - clear hashmap glass
+    - clear hashmap red
+    - clear hashmap black
+    - clear hashmap white
+    - clear hashmap blue
+    - clear hashmap yellow
+    - clear hashmap valid
+    - clear hashmap subtract
+    - clear hashmap value
+    - clear hashmap arr
+    - clear hashmap i
+    - clear hashmap val
+    - clear hashmap key
+    - clear hashmap count
+    - initialize clear hashmap named main
+    - initialize clear hashmap named master
+    - initialize clear hashmap named size
+    - initialize clear hashmap named height
+    - initialize clear hashmap named weight
+    - initialize clear hashmap named bag
+    - initialize clear hashmap named can
+    - initialize clear hashmap named computer
+    - initialize clear hashmap named phone
+    - initialize clear hashmap named laptop
+    - initialize clear hashmap named mobilephone
+    - initialize clear hashmap named smartphone
+    - initialize clear hashmap named phonenumber
+    - initialize clear hashmap named contactnumber
+    - initialize clear hashmap named address
+    - initialize clear hashmap named location
+    - initialize clear hashmap named email
+    - initialize clear hashmap named contact
+    - initialize clear hashmap named emailaddress
+    - initialize clear hashmap named mouse
+    - initialize clear hashmap named keyboard
+    - initialize clear hashmap named screen
+    - initialize clear hashmap named touchscreen
+    - initialize clear hashmap named fruit
+    - initialize clear hashmap named food
+    - initialize clear hashmap named vegetable
+    - initialize clear hashmap named eatables
+    - initialize clear hashmap named price
+    - initialize clear hashmap named cost
+    - initialize clear hashmap named sum
+    - initialize clear hashmap named addition
+    - initialize clear hashmap named a
+    - initialize clear hashmap named b
+    - initialize clear hashmap named c
+    - initialize clear hashmap named p
+    - initialize clear hashmap named q
+    - initialize clear hashmap named r
+    - initialize clear hashmap named s
+    - initialize clear hashmap named x
+    - initialize clear hashmap named y
+    - initialize clear hashmap named z
+    - initialize clear hashmap named answer
+    - initialize clear hashmap named result
+    - initialize clear hashmap named user
+    - initialize clear hashmap named userid
+    - initialize clear hashmap named id
+    - initialize clear hashmap named num
+    - initialize clear hashmap named age
+    - initialize clear hashmap named department
+    - initialize clear hashmap named hospital
+    - initialize clear hashmap named wheel
+    - initialize clear hashmap named seat
+    - initialize clear hashmap named car
+    - initialize clear hashmap named bus
+    - initialize clear hashmap named van
+    - initialize clear hashmap named bike
+    - initialize clear hashmap named glass
+    - initialize clear hashmap named red
+    - initialize clear hashmap named black
+    - initialize clear hashmap named white
+    - initialize clear hashmap named blue
+    - initialize clear hashmap named yellow
+    - initialize clear hashmap named valid
+    - initialize clear hashmap named subtract
+    - initialize clear hashmap named value
+    - initialize clear hashmap named arr
+    - initialize clear hashmap named i
+    - initialize clear hashmap named val
+    - initialize clear hashmap named key
+    - initialize clear hashmap named count
+    - initialize clear hashmap name main
+    - initialize clear hashmap name master
+    - initialize clear hashmap name size
+    - initialize clear hashmap name height
+    - initialize clear hashmap name weight
+    - initialize clear hashmap name bag
+    - initialize clear hashmap name can
+    - initialize clear hashmap name computer
+    - initialize clear hashmap name phone
+    - initialize clear hashmap name laptop
+    - initialize clear hashmap name mobilephone
+    - initialize clear hashmap name smartphone
+    - initialize clear hashmap name phonenumber
+    - initialize clear hashmap name contactnumber
+    - initialize clear hashmap name address
+    - initialize clear hashmap name location
+    - initialize clear hashmap name email
+    - initialize clear hashmap name contact
+    - initialize clear hashmap name emailaddress
+    - initialize clear hashmap name mouse
+    - initialize clear hashmap name keyboard
+    - initialize clear hashmap name screen
+    - initialize clear hashmap name touchscreen
+    - initialize clear hashmap name fruit
+    - initialize clear hashmap name food
+    - initialize clear hashmap name vegetable
+    - initialize clear hashmap name eatables
+    - initialize clear hashmap name price
+    - initialize clear hashmap name cost
+    - initialize clear hashmap name sum
+    - initialize clear hashmap name addition
+    - initialize clear hashmap name a
+    - initialize clear hashmap name b
+    - initialize clear hashmap name c
+    - initialize clear hashmap name p
+    - initialize clear hashmap name q
+    - initialize clear hashmap name r
+    - initialize clear hashmap name s
+    - initialize clear hashmap name x
+    - initialize clear hashmap name y
+    - initialize clear hashmap name z
+    - initialize clear hashmap name answer
+    - initialize clear hashmap name result
+    - initialize clear hashmap name user
+    - initialize clear hashmap name userid
+    - initialize clear hashmap name id
+    - initialize clear hashmap name num
+    - initialize clear hashmap name age
+    - initialize clear hashmap name department
+    - initialize clear hashmap name hospital
+    - initialize clear hashmap name wheel
+    - initialize clear hashmap name seat
+    - initialize clear hashmap name car
+    - initialize clear hashmap name bus
+    - initialize clear hashmap name van
+    - initialize clear hashmap name bike
+    - initialize clear hashmap name glass
+    - initialize clear hashmap name red
+    - initialize clear hashmap name black
+    - initialize clear hashmap name white
+    - initialize clear hashmap name blue
+    - initialize clear hashmap name yellow
+    - initialize clear hashmap name valid
+    - initialize clear hashmap name subtract
+    - initialize clear hashmap name value
+    - initialize clear hashmap name arr
+    - initialize clear hashmap name i
+    - initialize clear hashmap name val
+    - initialize clear hashmap name key
+    - initialize clear hashmap name count
+    - initialize clear hashmap main
+    - initialize clear hashmap master
+    - initialize clear hashmap size
+    - initialize clear hashmap height
+    - initialize clear hashmap weight
+    - initialize clear hashmap bag
+    - initialize clear hashmap can
+    - initialize clear hashmap computer
+    - initialize clear hashmap phone
+    - initialize clear hashmap laptop
+    - initialize clear hashmap mobilephone
+    - initialize clear hashmap smartphone
+    - initialize clear hashmap phonenumber
+    - initialize clear hashmap contactnumber
+    - initialize clear hashmap address
+    - initialize clear hashmap location
+    - initialize clear hashmap email
+    - initialize clear hashmap contact
+    - initialize clear hashmap emailaddress
+    - initialize clear hashmap mouse
+    - initialize clear hashmap keyboard
+    - initialize clear hashmap screen
+    - initialize clear hashmap touchscreen
+    - initialize clear hashmap fruit
+    - initialize clear hashmap food
+    - initialize clear hashmap vegetable
+    - initialize clear hashmap eatables
+    - initialize clear hashmap price
+    - initialize clear hashmap cost
+    - initialize clear hashmap sum
+    - initialize clear hashmap addition
+    - initialize clear hashmap a
+    - initialize clear hashmap b
+    - initialize clear hashmap c
+    - initialize clear hashmap p
+    - initialize clear hashmap q
+    - initialize clear hashmap r
+    - initialize clear hashmap s
+    - initialize clear hashmap x
+    - initialize clear hashmap y
+    - initialize clear hashmap z
+    - initialize clear hashmap answer
+    - initialize clear hashmap result
+    - initialize clear hashmap user
+    - initialize clear hashmap userid
+    - initialize clear hashmap id
+    - initialize clear hashmap num
+    - initialize clear hashmap age
+    - initialize clear hashmap department
+    - initialize clear hashmap hospital
+    - initialize clear hashmap wheel
+    - initialize clear hashmap seat
+    - initialize clear hashmap car
+    - initialize clear hashmap bus
+    - initialize clear hashmap van
+    - initialize clear hashmap bike
+    - initialize clear hashmap glass
+    - initialize clear hashmap red
+    - initialize clear hashmap black
+    - initialize clear hashmap white
+    - initialize clear hashmap blue
+    - initialize clear hashmap yellow
+    - initialize clear hashmap valid
+    - initialize clear hashmap subtract
+    - initialize clear hashmap value
+    - initialize clear hashmap arr
+    - initialize clear hashmap i
+    - initialize clear hashmap val
+    - initialize clear hashmap key
+    - initialize clear hashmap count
+    - init clear hashmap named main
+    - init clear hashmap named master
+    - init clear hashmap named size
+    - init clear hashmap named height
+    - init clear hashmap named weight
+    - init clear hashmap named bag
+    - init clear hashmap named can
+    - init clear hashmap named computer
+    - init clear hashmap named phone
+    - init clear hashmap named laptop
+    - init clear hashmap named mobilephone
+    - init clear hashmap named smartphone
+    - init clear hashmap named phonenumber
+    - init clear hashmap named contactnumber
+    - init clear hashmap named address
+    - init clear hashmap named location
+    - init clear hashmap named email
+    - init clear hashmap named contact
+    - init clear hashmap named emailaddress
+    - init clear hashmap named mouse
+    - init clear hashmap named keyboard
+    - init clear hashmap named screen
+    - init clear hashmap named touchscreen
+    - init clear hashmap named fruit
+    - init clear hashmap named food
+    - init clear hashmap named vegetable
+    - init clear hashmap named eatables
+    - init clear hashmap named price
+    - init clear hashmap named cost
+    - init clear hashmap named sum
+    - init clear hashmap named addition
+    - init clear hashmap named a
+    - init clear hashmap named b
+    - init clear hashmap named c
+    - init clear hashmap named p
+    - init clear hashmap named q
+    - init clear hashmap named r
+    - init clear hashmap named s
+    - init clear hashmap named x
+    - init clear hashmap named y
+    - init clear hashmap named z
+    - init clear hashmap named answer
+    - init clear hashmap named result
+    - init clear hashmap named user
+    - init clear hashmap named userid
+    - init clear hashmap named id
+    - init clear hashmap named num
+    - init clear hashmap named age
+    - init clear hashmap named department
+    - init clear hashmap named hospital
+    - init clear hashmap named wheel
+    - init clear hashmap named seat
+    - init clear hashmap named car
+    - init clear hashmap named bus
+    - init clear hashmap named van
+    - init clear hashmap named bike
+    - init clear hashmap named glass
+    - init clear hashmap named red
+    - init clear hashmap named black
+    - init clear hashmap named white
+    - init clear hashmap named blue
+    - init clear hashmap named yellow
+    - init clear hashmap named valid
+    - init clear hashmap named subtract
+    - init clear hashmap named value
+    - init clear hashmap named arr
+    - init clear hashmap named i
+    - init clear hashmap named val
+    - init clear hashmap named key
+    - init clear hashmap named count
+    - init clear hashmap name main
+    - init clear hashmap name master
+    - init clear hashmap name size
+    - init clear hashmap name height
+    - init clear hashmap name weight
+    - init clear hashmap name bag
+    - init clear hashmap name can
+    - init clear hashmap name computer
+    - init clear hashmap name phone
+    - init clear hashmap name laptop
+    - init clear hashmap name mobilephone
+    - init clear hashmap name smartphone
+    - init clear hashmap name phonenumber
+    - init clear hashmap name contactnumber
+    - init clear hashmap name address
+    - init clear hashmap name location
+    - init clear hashmap name email
+    - init clear hashmap name contact
+    - init clear hashmap name emailaddress
+    - init clear hashmap name mouse
+    - init clear hashmap name keyboard
+    - init clear hashmap name screen
+    - init clear hashmap name touchscreen
+    - init clear hashmap name fruit
+    - init clear hashmap name food
+    - init clear hashmap name vegetable
+    - init clear hashmap name eatables
+    - init clear hashmap name price
+    - init clear hashmap name cost
+    - init clear hashmap name sum
+    - init clear hashmap name addition
+    - init clear hashmap name a
+    - init clear hashmap name b
+    - init clear hashmap name c
+    - init clear hashmap name p
+    - init clear hashmap name q
+    - init clear hashmap name r
+    - init clear hashmap name s
+    - init clear hashmap name x
+    - init clear hashmap name y
+    - init clear hashmap name z
+    - init clear hashmap name answer
+    - init clear hashmap name result
+    - init clear hashmap name user
+    - init clear hashmap name userid
+    - init clear hashmap name id
+    - init clear hashmap name num
+    - init clear hashmap name age
+    - init clear hashmap name department
+    - init clear hashmap name hospital
+    - init clear hashmap name wheel
+    - init clear hashmap name seat
+    - init clear hashmap name car
+    - init clear hashmap name bus
+    - init clear hashmap name van
+    - init clear hashmap name bike
+    - init clear hashmap name glass
+    - init clear hashmap name red
+    - init clear hashmap name black
+    - init clear hashmap name white
+    - init clear hashmap name blue
+    - init clear hashmap name yellow
+    - init clear hashmap name valid
+    - init clear hashmap name subtract
+    - init clear hashmap name value
+    - init clear hashmap name arr
+    - init clear hashmap name i
+    - init clear hashmap name val
+    - init clear hashmap name key
+    - init clear hashmap name count
+    - init clear hashmap main
+    - init clear hashmap master
+    - init clear hashmap size
+    - init clear hashmap height
+    - init clear hashmap weight
+    - init clear hashmap bag
+    - init clear hashmap can
+    - init clear hashmap computer
+    - init clear hashmap phone
+    - init clear hashmap laptop
+    - init clear hashmap mobilephone
+    - init clear hashmap smartphone
+    - init clear hashmap phonenumber
+    - init clear hashmap contactnumber
+    - init clear hashmap address
+    - init clear hashmap location
+    - init clear hashmap email
+    - init clear hashmap contact
+    - init clear hashmap emailaddress
+    - init clear hashmap mouse
+    - init clear hashmap keyboard
+    - init clear hashmap screen
+    - init clear hashmap touchscreen
+    - init clear hashmap fruit
+    - init clear hashmap food
+    - init clear hashmap vegetable
+    - init clear hashmap eatables
+    - init clear hashmap price
+    - init clear hashmap cost
+    - init clear hashmap sum
+    - init clear hashmap addition
+    - init clear hashmap a
+    - init clear hashmap b
+    - init clear hashmap c
+    - init clear hashmap p
+    - init clear hashmap q
+    - init clear hashmap r
+    - init clear hashmap s
+    - init clear hashmap x
+    - init clear hashmap y
+    - init clear hashmap z
+    - init clear hashmap answer
+    - init clear hashmap result
+    - init clear hashmap user
+    - init clear hashmap userid
+    - init clear hashmap id
+    - init clear hashmap num
+    - init clear hashmap age
+    - init clear hashmap department
+    - init clear hashmap hospital
+    - init clear hashmap wheel
+    - init clear hashmap seat
+    - init clear hashmap car
+    - init clear hashmap bus
+    - init clear hashmap van
+    - init clear hashmap bike
+    - init clear hashmap glass
+    - init clear hashmap red
+    - init clear hashmap black
+    - init clear hashmap white
+    - init clear hashmap blue
+    - init clear hashmap yellow
+    - init clear hashmap valid
+    - init clear hashmap subtract
+    - init clear hashmap value
+    - init clear hashmap arr
+    - init clear hashmap i
+    - init clear hashmap val
+    - init clear hashmap key
+    - init clear hashmap count
+    - make clear hashmap named main
+    - make clear hashmap named master
+    - make clear hashmap named size
+    - make clear hashmap named height
+    - make clear hashmap named weight
+    - make clear hashmap named bag
+    - make clear hashmap named can
+    - make clear hashmap named computer
+    - make clear hashmap named phone
+    - make clear hashmap named laptop
+    - make clear hashmap named mobilephone
+    - make clear hashmap named smartphone
+    - make clear hashmap named phonenumber
+    - make clear hashmap named contactnumber
+    - make clear hashmap named address
+    - make clear hashmap named location
+    - make clear hashmap named email
+    - make clear hashmap named contact
+    - make clear hashmap named emailaddress
+    - make clear hashmap named mouse
+    - make clear hashmap named keyboard
+    - make clear hashmap named screen
+    - make clear hashmap named touchscreen
+    - make clear hashmap named fruit
+    - make clear hashmap named food
+    - make clear hashmap named vegetable
+    - make clear hashmap named eatables
+    - make clear hashmap named price
+    - make clear hashmap named cost
+    - make clear hashmap named sum
+    - make clear hashmap named addition
+    - make clear hashmap named a
+    - make clear hashmap named b
+    - make clear hashmap named c
+    - make clear hashmap named p
+    - make clear hashmap named q
+    - make clear hashmap named r
+    - make clear hashmap named s
+    - make clear hashmap named x
+    - make clear hashmap named y
+    - make clear hashmap named z
+    - make clear hashmap named answer
+    - make clear hashmap named result
+    - make clear hashmap named user
+    - make clear hashmap named userid
+    - make clear hashmap named id
+    - make clear hashmap named num
+    - make clear hashmap named age
+    - make clear hashmap named department
+    - make clear hashmap named hospital
+    - make clear hashmap named wheel
+    - make clear hashmap named seat
+    - make clear hashmap named car
+    - make clear hashmap named bus
+    - make clear hashmap named van
+    - make clear hashmap named bike
+    - make clear hashmap named glass
+    - make clear hashmap named red
+    - make clear hashmap named black
+    - make clear hashmap named white
+    - make clear hashmap named blue
+    - make clear hashmap named yellow
+    - make clear hashmap named valid
+    - make clear hashmap named subtract
+    - make clear hashmap named value
+    - make clear hashmap named arr
+    - make clear hashmap named i
+    - make clear hashmap named val
+    - make clear hashmap named key
+    - make clear hashmap named count
+    - make clear hashmap name main
+    - make clear hashmap name master
+    - make clear hashmap name size
+    - make clear hashmap name height
+    - make clear hashmap name weight
+    - make clear hashmap name bag
+    - make clear hashmap name can
+    - make clear hashmap name computer
+    - make clear hashmap name phone
+    - make clear hashmap name laptop
+    - make clear hashmap name mobilephone
+    - make clear hashmap name smartphone
+    - make clear hashmap name phonenumber
+    - make clear hashmap name contactnumber
+    - make clear hashmap name address
+    - make clear hashmap name location
+    - make clear hashmap name email
+    - make clear hashmap name contact
+    - make clear hashmap name emailaddress
+    - make clear hashmap name mouse
+    - make clear hashmap name keyboard
+    - make clear hashmap name screen
+    - make clear hashmap name touchscreen
+    - make clear hashmap name fruit
+    - make clear hashmap name food
+    - make clear hashmap name vegetable
+    - make clear hashmap name eatables
+    - make clear hashmap name price
+    - make clear hashmap name cost
+    - make clear hashmap name sum
+    - make clear hashmap name addition
+    - make clear hashmap name a
+    - make clear hashmap name b
+    - make clear hashmap name c
+    - make clear hashmap name p
+    - make clear hashmap name q
+    - make clear hashmap name r
+    - make clear hashmap name s
+    - make clear hashmap name x
+    - make clear hashmap name y
+    - make clear hashmap name z
+    - make clear hashmap name answer
+    - make clear hashmap name result
+    - make clear hashmap name user
+    - make clear hashmap name userid
+    - make clear hashmap name id
+    - make clear hashmap name num
+    - make clear hashmap name age
+    - make clear hashmap name department
+    - make clear hashmap name hospital
+    - make clear hashmap name wheel
+    - make clear hashmap name seat
+    - make clear hashmap name car
+    - make clear hashmap name bus
+    - make clear hashmap name van
+    - make clear hashmap name bike
+    - make clear hashmap name glass
+    - make clear hashmap name red
+    - make clear hashmap name black
+    - make clear hashmap name white
+    - make clear hashmap name blue
+    - make clear hashmap name yellow
+    - make clear hashmap name valid
+    - make clear hashmap name subtract
+    - make clear hashmap name value
+    - make clear hashmap name arr
+    - make clear hashmap name i
+    - make clear hashmap name val
+    - make clear hashmap name key
+    - make clear hashmap name count
+    - make clear hashmap main
+    - make clear hashmap master
+    - make clear hashmap size
+    - make clear hashmap height
+    - make clear hashmap weight
+    - make clear hashmap bag
+    - make clear hashmap can
+    - make clear hashmap computer
+    - make clear hashmap phone
+    - make clear hashmap laptop
+    - make clear hashmap mobilephone
+    - make clear hashmap smartphone
+    - make clear hashmap phonenumber
+    - make clear hashmap contactnumber
+    - make clear hashmap address
+    - make clear hashmap location
+    - make clear hashmap email
+    - make clear hashmap contact
+    - make clear hashmap emailaddress
+    - make clear hashmap mouse
+    - make clear hashmap keyboard
+    - make clear hashmap screen
+    - make clear hashmap touchscreen
+    - make clear hashmap fruit
+    - make clear hashmap food
+    - make clear hashmap vegetable
+    - make clear hashmap eatables
+    - make clear hashmap price
+    - make clear hashmap cost
+    - make clear hashmap sum
+    - make clear hashmap addition
+    - make clear hashmap a
+    - make clear hashmap b
+    - make clear hashmap c
+    - make clear hashmap p
+    - make clear hashmap q
+    - make clear hashmap r
+    - make clear hashmap s
+    - make clear hashmap x
+    - make clear hashmap y
+    - make clear hashmap z
+    - make clear hashmap answer
+    - make clear hashmap result
+    - make clear hashmap user
+    - make clear hashmap userid
+    - make clear hashmap id
+    - make clear hashmap num
+    - make clear hashmap age
+    - make clear hashmap department
+    - make clear hashmap hospital
+    - make clear hashmap wheel
+    - make clear hashmap seat
+    - make clear hashmap car
+    - make clear hashmap bus
+    - make clear hashmap van
+    - make clear hashmap bike
+    - make clear hashmap glass
+    - make clear hashmap red
+    - make clear hashmap black
+    - make clear hashmap white
+    - make clear hashmap blue
+    - make clear hashmap yellow
+    - make clear hashmap valid
+    - make clear hashmap subtract
+    - make clear hashmap value
+    - make clear hashmap arr
+    - make clear hashmap i
+    - make clear hashmap val
+    - make clear hashmap key
+    - make clear hashmap count
+
+- intent: sizehashmap
+  examples: |    
+    - get size hashmap named main
+    - get size hashmap named master
+    - get size hashmap named size
+    - get size hashmap named height
+    - get size hashmap named weight
+    - get size hashmap named bag
+    - get size hashmap named can
+    - get size hashmap named computer
+    - get size hashmap named phone
+    - get size hashmap named laptop
+    - get size hashmap named mobilephone
+    - get size hashmap named smartphone
+    - get size hashmap named phonenumber
+    - get size hashmap named contactnumber
+    - get size hashmap named address
+    - get size hashmap named location
+    - get size hashmap named email
+    - get size hashmap named contact
+    - get size hashmap named emailaddress
+    - get size hashmap named mouse
+    - get size hashmap named keyboard
+    - get size hashmap named screen
+    - get size hashmap named touchscreen
+    - get size hashmap named fruit
+    - get size hashmap named food
+    - get size hashmap named vegetable
+    - get size hashmap named eatables
+    - get size hashmap named price
+    - get size hashmap named cost
+    - get size hashmap named sum
+    - get size hashmap named addition
+    - get size hashmap named a
+    - get size hashmap named b
+    - get size hashmap named c
+    - get size hashmap named p
+    - get size hashmap named q
+    - get size hashmap named r
+    - get size hashmap named s
+    - get size hashmap named x
+    - get size hashmap named y
+    - get size hashmap named z
+    - get size hashmap named answer
+    - get size hashmap named result
+    - get size hashmap named user
+    - get size hashmap named userid
+    - get size hashmap named id
+    - get size hashmap named num
+    - get size hashmap named age
+    - get size hashmap named department
+    - get size hashmap named hospital
+    - get size hashmap named wheel
+    - get size hashmap named seat
+    - get size hashmap named car
+    - get size hashmap named bus
+    - get size hashmap named van
+    - get size hashmap named bike
+    - get size hashmap named glass
+    - get size hashmap named red
+    - get size hashmap named black
+    - get size hashmap named white
+    - get size hashmap named blue
+    - get size hashmap named yellow
+    - get size hashmap named valid
+    - get size hashmap named subtract
+    - get size hashmap named value
+    - get size hashmap named arr
+    - get size hashmap named i
+    - get size hashmap named val
+    - get size hashmap named key
+    - get size hashmap named count
+    - get size hashmap name main
+    - get size hashmap name master
+    - get size hashmap name size
+    - get size hashmap name height
+    - get size hashmap name weight
+    - get size hashmap name bag
+    - get size hashmap name can
+    - get size hashmap name computer
+    - get size hashmap name phone
+    - get size hashmap name laptop
+    - get size hashmap name mobilephone
+    - get size hashmap name smartphone
+    - get size hashmap name phonenumber
+    - get size hashmap name contactnumber
+    - get size hashmap name address
+    - get size hashmap name location
+    - get size hashmap name email
+    - get size hashmap name contact
+    - get size hashmap name emailaddress
+    - get size hashmap name mouse
+    - get size hashmap name keyboard
+    - get size hashmap name screen
+    - get size hashmap name touchscreen
+    - get size hashmap name fruit
+    - get size hashmap name food
+    - get size hashmap name vegetable
+    - get size hashmap name eatables
+    - get size hashmap name price
+    - get size hashmap name cost
+    - get size hashmap name sum
+    - get size hashmap name addition
+    - get size hashmap name a
+    - get size hashmap name b
+    - get size hashmap name c
+    - get size hashmap name p
+    - get size hashmap name q
+    - get size hashmap name r
+    - get size hashmap name s
+    - get size hashmap name x
+    - get size hashmap name y
+    - get size hashmap name z
+    - get size hashmap name answer
+    - get size hashmap name result
+    - get size hashmap name user
+    - get size hashmap name userid
+    - get size hashmap name id
+    - get size hashmap name num
+    - get size hashmap name age
+    - get size hashmap name department
+    - get size hashmap name hospital
+    - get size hashmap name wheel
+    - get size hashmap name seat
+    - get size hashmap name car
+    - get size hashmap name bus
+    - get size hashmap name van
+    - get size hashmap name bike
+    - get size hashmap name glass
+    - get size hashmap name red
+    - get size hashmap name black
+    - get size hashmap name white
+    - get size hashmap name blue
+    - get size hashmap name yellow
+    - get size hashmap name valid
+    - get size hashmap name subtract
+    - get size hashmap name value
+    - get size hashmap name arr
+    - get size hashmap name i
+    - get size hashmap name val
+    - get size hashmap name key
+    - get size hashmap name count
+    - get size hashmap main
+    - get size hashmap master
+    - get size hashmap size
+    - get size hashmap height
+    - get size hashmap weight
+    - get size hashmap bag
+    - get size hashmap can
+    - get size hashmap computer
+    - get size hashmap phone
+    - get size hashmap laptop
+    - get size hashmap mobilephone
+    - get size hashmap smartphone
+    - get size hashmap phonenumber
+    - get size hashmap contactnumber
+    - get size hashmap address
+    - get size hashmap location
+    - get size hashmap email
+    - get size hashmap contact
+    - get size hashmap emailaddress
+    - get size hashmap mouse
+    - get size hashmap keyboard
+    - get size hashmap screen
+    - get size hashmap touchscreen
+    - get size hashmap fruit
+    - get size hashmap food
+    - get size hashmap vegetable
+    - get size hashmap eatables
+    - get size hashmap price
+    - get size hashmap cost
+    - get size hashmap sum
+    - get size hashmap addition
+    - get size hashmap a
+    - get size hashmap b
+    - get size hashmap c
+    - get size hashmap p
+    - get size hashmap q
+    - get size hashmap r
+    - get size hashmap s
+    - get size hashmap x
+    - get size hashmap y
+    - get size hashmap z
+    - get size hashmap answer
+    - get size hashmap result
+    - get size hashmap user
+    - get size hashmap userid
+    - get size hashmap id
+    - get size hashmap num
+    - get size hashmap age
+    - get size hashmap department
+    - get size hashmap hospital
+    - get size hashmap wheel
+    - get size hashmap seat
+    - get size hashmap car
+    - get size hashmap bus
+    - get size hashmap van
+    - get size hashmap bike
+    - get size hashmap glass
+    - get size hashmap red
+    - get size hashmap black
+    - get size hashmap white
+    - get size hashmap blue
+    - get size hashmap yellow
+    - get size hashmap valid
+    - get size hashmap subtract
+    - get size hashmap value
+    - get size hashmap arr
+    - get size hashmap i
+    - get size hashmap val
+    - get size hashmap key
+    - get size hashmap count
+    - initialize size of hashmap named main
+    - initialize size of hashmap named master
+    - initialize size of hashmap named size
+    - initialize size of hashmap named height
+    - initialize size of hashmap named weight
+    - initialize size of hashmap named bag
+    - initialize size of hashmap named can
+    - initialize size of hashmap named computer
+    - initialize size of hashmap named phone
+    - initialize size of hashmap named laptop
+    - initialize size of hashmap named mobilephone
+    - initialize size of hashmap named smartphone
+    - initialize size of hashmap named phonenumber
+    - initialize size of hashmap named contactnumber
+    - initialize size of hashmap named address
+    - initialize size of hashmap named location
+    - initialize size of hashmap named email
+    - initialize size of hashmap named contact
+    - initialize size of hashmap named emailaddress
+    - initialize size of hashmap named mouse
+    - initialize size of hashmap named keyboard
+    - initialize size of hashmap named screen
+    - initialize size of hashmap named touchscreen
+    - initialize size of hashmap named fruit
+    - initialize size of hashmap named food
+    - initialize size of hashmap named vegetable
+    - initialize size of hashmap named eatables
+    - initialize size of hashmap named price
+    - initialize size of hashmap named cost
+    - initialize size of hashmap named sum
+    - initialize size of hashmap named addition
+    - initialize size of hashmap named a
+    - initialize size of hashmap named b
+    - initialize size of hashmap named c
+    - initialize size of hashmap named p
+    - initialize size of hashmap named q
+    - initialize size of hashmap named r
+    - initialize size of hashmap named s
+    - initialize size of hashmap named x
+    - initialize size of hashmap named y
+    - initialize size of hashmap named z
+    - initialize size of hashmap named answer
+    - initialize size of hashmap named result
+    - initialize size of hashmap named user
+    - initialize size of hashmap named userid
+    - initialize size of hashmap named id
+    - initialize size of hashmap named num
+    - initialize size of hashmap named age
+    - initialize size of hashmap named department
+    - initialize size of hashmap named hospital
+    - initialize size of hashmap named wheel
+    - initialize size of hashmap named seat
+    - initialize size of hashmap named car
+    - initialize size of hashmap named bus
+    - initialize size of hashmap named van
+    - initialize size of hashmap named bike
+    - initialize size of hashmap named glass
+    - initialize size of hashmap named red
+    - initialize size of hashmap named black
+    - initialize size of hashmap named white
+    - initialize size of hashmap named blue
+    - initialize size of hashmap named yellow
+    - initialize size of hashmap named valid
+    - initialize size of hashmap named subtract
+    - initialize size of hashmap named value
+    - initialize size of hashmap named arr
+    - initialize size of hashmap named i
+    - initialize size of hashmap named val
+    - initialize size of hashmap named key
+    - initialize size of hashmap named count
+    - initialize size of hashmap name main
+    - initialize size of hashmap name master
+    - initialize size of hashmap name size
+    - initialize size of hashmap name height
+    - initialize size of hashmap name weight
+    - initialize size of hashmap name bag
+    - initialize size of hashmap name can
+    - initialize size of hashmap name computer
+    - initialize size of hashmap name phone
+    - initialize size of hashmap name laptop
+    - initialize size of hashmap name mobilephone
+    - initialize size of hashmap name smartphone
+    - initialize size of hashmap name phonenumber
+    - initialize size of hashmap name contactnumber
+    - initialize size of hashmap name address
+    - initialize size of hashmap name location
+    - initialize size of hashmap name email
+    - initialize size of hashmap name contact
+    - initialize size of hashmap name emailaddress
+    - initialize size of hashmap name mouse
+    - initialize size of hashmap name keyboard
+    - initialize size of hashmap name screen
+    - initialize size of hashmap name touchscreen
+    - initialize size of hashmap name fruit
+    - initialize size of hashmap name food
+    - initialize size of hashmap name vegetable
+    - initialize size of hashmap name eatables
+    - initialize size of hashmap name price
+    - initialize size of hashmap name cost
+    - initialize size of hashmap name sum
+    - initialize size of hashmap name addition
+    - initialize size of hashmap name a
+    - initialize size of hashmap name b
+    - initialize size of hashmap name c
+    - initialize size of hashmap name p
+    - initialize size of hashmap name q
+    - initialize size of hashmap name r
+    - initialize size of hashmap name s
+    - initialize size of hashmap name x
+    - initialize size of hashmap name y
+    - initialize size of hashmap name z
+    - initialize size of hashmap name answer
+    - initialize size of hashmap name result
+    - initialize size of hashmap name user
+    - initialize size of hashmap name userid
+    - initialize size of hashmap name id
+    - initialize size of hashmap name num
+    - initialize size of hashmap name age
+    - initialize size of hashmap name department
+    - initialize size of hashmap name hospital
+    - initialize size of hashmap name wheel
+    - initialize size of hashmap name seat
+    - initialize size of hashmap name car
+    - initialize size of hashmap name bus
+    - initialize size of hashmap name van
+    - initialize size of hashmap name bike
+    - initialize size of hashmap name glass
+    - initialize size of hashmap name red
+    - initialize size of hashmap name black
+    - initialize size of hashmap name white
+    - initialize size of hashmap name blue
+    - initialize size of hashmap name yellow
+    - initialize size of hashmap name valid
+    - initialize size of hashmap name subtract
+    - initialize size of hashmap name value
+    - initialize size of hashmap name arr
+    - initialize size of hashmap name i
+    - initialize size of hashmap name val
+    - initialize size of hashmap name key
+    - initialize size of hashmap name count
+    - initialize size of hashmap main
+    - initialize size of hashmap master
+    - initialize size of hashmap size
+    - initialize size of hashmap height
+    - initialize size of hashmap weight
+    - initialize size of hashmap bag
+    - initialize size of hashmap can
+    - initialize size of hashmap computer
+    - initialize size of hashmap phone
+    - initialize size of hashmap laptop
+    - initialize size of hashmap mobilephone
+    - initialize size of hashmap smartphone
+    - initialize size of hashmap phonenumber
+    - initialize size of hashmap contactnumber
+    - initialize size of hashmap address
+    - initialize size of hashmap location
+    - initialize size of hashmap email
+    - initialize size of hashmap contact
+    - initialize size of hashmap emailaddress
+    - initialize size of hashmap mouse
+    - initialize size of hashmap keyboard
+    - initialize size of hashmap screen
+    - initialize size of hashmap touchscreen
+    - initialize size of hashmap fruit
+    - initialize size of hashmap food
+    - initialize size of hashmap vegetable
+    - initialize size of hashmap eatables
+    - initialize size of hashmap price
+    - initialize size of hashmap cost
+    - initialize size of hashmap sum
+    - initialize size of hashmap addition
+    - initialize size of hashmap a
+    - initialize size of hashmap b
+    - initialize size of hashmap c
+    - initialize size of hashmap p
+    - initialize size of hashmap q
+    - initialize size of hashmap r
+    - initialize size of hashmap s
+    - initialize size of hashmap x
+    - initialize size of hashmap y
+    - initialize size of hashmap z
+    - initialize size of hashmap answer
+    - initialize size of hashmap result
+    - initialize size of hashmap user
+    - initialize size of hashmap userid
+    - initialize size of hashmap id
+    - initialize size of hashmap num
+    - initialize size of hashmap age
+    - initialize size of hashmap department
+    - initialize size of hashmap hospital
+    - initialize size of hashmap wheel
+    - initialize size of hashmap seat
+    - initialize size of hashmap car
+    - initialize size of hashmap bus
+    - initialize size of hashmap van
+    - initialize size of hashmap bike
+    - initialize size of hashmap glass
+    - initialize size of hashmap red
+    - initialize size of hashmap black
+    - initialize size of hashmap white
+    - initialize size of hashmap blue
+    - initialize size of hashmap yellow
+    - initialize size of hashmap valid
+    - initialize size of hashmap subtract
+    - initialize size of hashmap value
+    - initialize size of hashmap arr
+    - initialize size of hashmap i
+    - initialize size of hashmap val
+    - initialize size of hashmap key
+    - initialize size of hashmap count
+    - init size of hashmap named main
+    - init size of hashmap named master
+    - init size of hashmap named size
+    - init size of hashmap named height
+    - init size of hashmap named weight
+    - init size of hashmap named bag
+    - init size of hashmap named can
+    - init size of hashmap named computer
+    - init size of hashmap named phone
+    - init size of hashmap named laptop
+    - init size of hashmap named mobilephone
+    - init size of hashmap named smartphone
+    - init size of hashmap named phonenumber
+    - init size of hashmap named contactnumber
+    - init size of hashmap named address
+    - init size of hashmap named location
+    - init size of hashmap named email
+    - init size of hashmap named contact
+    - init size of hashmap named emailaddress
+    - init size of hashmap named mouse
+    - init size of hashmap named keyboard
+    - init size of hashmap named screen
+    - init size of hashmap named touchscreen
+    - init size of hashmap named fruit
+    - init size of hashmap named food
+    - init size of hashmap named vegetable
+    - init size of hashmap named eatables
+    - init size of hashmap named price
+    - init size of hashmap named cost
+    - init size of hashmap named sum
+    - init size of hashmap named addition
+    - init size of hashmap named a
+    - init size of hashmap named b
+    - init size of hashmap named c
+    - init size of hashmap named p
+    - init size of hashmap named q
+    - init size of hashmap named r
+    - init size of hashmap named s
+    - init size of hashmap named x
+    - init size of hashmap named y
+    - init size of hashmap named z
+    - init size of hashmap named answer
+    - init size of hashmap named result
+    - init size of hashmap named user
+    - init size of hashmap named userid
+    - init size of hashmap named id
+    - init size of hashmap named num
+    - init size of hashmap named age
+    - init size of hashmap named department
+    - init size of hashmap named hospital
+    - init size of hashmap named wheel
+    - init size of hashmap named seat
+    - init size of hashmap named car
+    - init size of hashmap named bus
+    - init size of hashmap named van
+    - init size of hashmap named bike
+    - init size of hashmap named glass
+    - init size of hashmap named red
+    - init size of hashmap named black
+    - init size of hashmap named white
+    - init size of hashmap named blue
+    - init size of hashmap named yellow
+    - init size of hashmap named valid
+    - init size of hashmap named subtract
+    - init size of hashmap named value
+    - init size of hashmap named arr
+    - init size of hashmap named i
+    - init size of hashmap named val
+    - init size of hashmap named key
+    - init size of hashmap named count
+    - init size of hashmap name main
+    - init size of hashmap name master
+    - init size of hashmap name size
+    - init size of hashmap name height
+    - init size of hashmap name weight
+    - init size of hashmap name bag
+    - init size of hashmap name can
+    - init size of hashmap name computer
+    - init size of hashmap name phone
+    - init size of hashmap name laptop
+    - init size of hashmap name mobilephone
+    - init size of hashmap name smartphone
+    - init size of hashmap name phonenumber
+    - init size of hashmap name contactnumber
+    - init size of hashmap name address
+    - init size of hashmap name location
+    - init size of hashmap name email
+    - init size of hashmap name contact
+    - init size of hashmap name emailaddress
+    - init size of hashmap name mouse
+    - init size of hashmap name keyboard
+    - init size of hashmap name screen
+    - init size of hashmap name touchscreen
+    - init size of hashmap name fruit
+    - init size of hashmap name food
+    - init size of hashmap name vegetable
+    - init size of hashmap name eatables
+    - init size of hashmap name price
+    - init size of hashmap name cost
+    - init size of hashmap name sum
+    - init size of hashmap name addition
+    - init size of hashmap name a
+    - init size of hashmap name b
+    - init size of hashmap name c
+    - init size of hashmap name p
+    - init size of hashmap name q
+    - init size of hashmap name r
+    - init size of hashmap name s
+    - init size of hashmap name x
+    - init size of hashmap name y
+    - init size of hashmap name z
+    - init size of hashmap name answer
+    - init size of hashmap name result
+    - init size of hashmap name user
+    - init size of hashmap name userid
+    - init size of hashmap name id
+    - init size of hashmap name num
+    - init size of hashmap name age
+    - init size of hashmap name department
+    - init size of hashmap name hospital
+    - init size of hashmap name wheel
+    - init size of hashmap name seat
+    - init size of hashmap name car
+    - init size of hashmap name bus
+    - init size of hashmap name van
+    - init size of hashmap name bike
+    - init size of hashmap name glass
+    - init size of hashmap name red
+    - init size of hashmap name black
+    - init size of hashmap name white
+    - init size of hashmap name blue
+    - init size of hashmap name yellow
+    - init size of hashmap name valid
+    - init size of hashmap name subtract
+    - init size of hashmap name value
+    - init size of hashmap name arr
+    - init size of hashmap name i
+    - init size of hashmap name val
+    - init size of hashmap name key
+    - init size of hashmap name count
+    - init size of hashmap main
+    - init size of hashmap master
+    - init size of hashmap size
+    - init size of hashmap height
+    - init size of hashmap weight
+    - init size of hashmap bag
+    - init size of hashmap can
+    - init size of hashmap computer
+    - init size of hashmap phone
+    - init size of hashmap laptop
+    - init size of hashmap mobilephone
+    - init size of hashmap smartphone
+    - init size of hashmap phonenumber
+    - init size of hashmap contactnumber
+    - init size of hashmap address
+    - init size of hashmap location
+    - init size of hashmap email
+    - init size of hashmap contact
+    - init size of hashmap emailaddress
+    - init size of hashmap mouse
+    - init size of hashmap keyboard
+    - init size of hashmap screen
+    - init size of hashmap touchscreen
+    - init size of hashmap fruit
+    - init size of hashmap food
+    - init size of hashmap vegetable
+    - init size of hashmap eatables
+    - init size of hashmap price
+    - init size of hashmap cost
+    - init size of hashmap sum
+    - init size of hashmap addition
+    - init size of hashmap a
+    - init size of hashmap b
+    - init size of hashmap c
+    - init size of hashmap p
+    - init size of hashmap q
+    - init size of hashmap r
+    - init size of hashmap s
+    - init size of hashmap x
+    - init size of hashmap y
+    - init size of hashmap z
+    - init size of hashmap answer
+    - init size of hashmap result
+    - init size of hashmap user
+    - init size of hashmap userid
+    - init size of hashmap id
+    - init size of hashmap num
+    - init size of hashmap age
+    - init size of hashmap department
+    - init size of hashmap hospital
+    - init size of hashmap wheel
+    - init size of hashmap seat
+    - init size of hashmap car
+    - init size of hashmap bus
+    - init size of hashmap van
+    - init size of hashmap bike
+    - init size of hashmap glass
+    - init size of hashmap red
+    - init size of hashmap black
+    - init size of hashmap white
+    - init size of hashmap blue
+    - init size of hashmap yellow
+    - init size of hashmap valid
+    - init size of hashmap subtract
+    - init size of hashmap value
+    - init size of hashmap arr
+    - init size of hashmap i
+    - init size of hashmap val
+    - init size of hashmap key
+    - init size of hashmap count
+    - call size of hashmap named main
+    - call size of hashmap named master
+    - call size of hashmap named size
+    - call size of hashmap named height
+    - call size of hashmap named weight
+    - call size of hashmap named bag
+    - call size of hashmap named can
+    - call size of hashmap named computer
+    - call size of hashmap named phone
+    - call size of hashmap named laptop
+    - call size of hashmap named mobilephone
+    - call size of hashmap named smartphone
+    - call size of hashmap named phonenumber
+    - call size of hashmap named contactnumber
+    - call size of hashmap named address
+    - call size of hashmap named location
+    - call size of hashmap named email
+    - call size of hashmap named contact
+    - call size of hashmap named emailaddress
+    - call size of hashmap named mouse
+    - call size of hashmap named keyboard
+    - call size of hashmap named screen
+    - call size of hashmap named touchscreen
+    - call size of hashmap named fruit
+    - call size of hashmap named food
+    - call size of hashmap named vegetable
+    - call size of hashmap named eatables
+    - call size of hashmap named price
+    - call size of hashmap named cost
+    - call size of hashmap named sum
+    - call size of hashmap named addition
+    - call size of hashmap named a
+    - call size of hashmap named b
+    - call size of hashmap named c
+    - call size of hashmap named p
+    - call size of hashmap named q
+    - call size of hashmap named r
+    - call size of hashmap named s
+    - call size of hashmap named x
+    - call size of hashmap named y
+    - call size of hashmap named z
+    - call size of hashmap named answer
+    - call size of hashmap named result
+    - call size of hashmap named user
+    - call size of hashmap named userid
+    - call size of hashmap named id
+    - call size of hashmap named num
+    - call size of hashmap named age
+    - call size of hashmap named department
+    - call size of hashmap named hospital
+    - call size of hashmap named wheel
+    - call size of hashmap named seat
+    - call size of hashmap named car
+    - call size of hashmap named bus
+    - call size of hashmap named van
+    - call size of hashmap named bike
+    - call size of hashmap named glass
+    - call size of hashmap named red
+    - call size of hashmap named black
+    - call size of hashmap named white
+    - call size of hashmap named blue
+    - call size of hashmap named yellow
+    - call size of hashmap named valid
+    - call size of hashmap named subtract
+    - call size of hashmap named value
+    - call size of hashmap named arr
+    - call size of hashmap named i
+    - call size of hashmap named val
+    - call size of hashmap named key
+    - call size of hashmap named count
+    - call size of hashmap name main
+    - call size of hashmap name master
+    - call size of hashmap name size
+    - call size of hashmap name height
+    - call size of hashmap name weight
+    - call size of hashmap name bag
+    - call size of hashmap name can
+    - call size of hashmap name computer
+    - call size of hashmap name phone
+    - call size of hashmap name laptop
+    - call size of hashmap name mobilephone
+    - call size of hashmap name smartphone
+    - call size of hashmap name phonenumber
+    - call size of hashmap name contactnumber
+    - call size of hashmap name address
+    - call size of hashmap name location
+    - call size of hashmap name email
+    - call size of hashmap name contact
+    - call size of hashmap name emailaddress
+    - call size of hashmap name mouse
+    - call size of hashmap name keyboard
+    - call size of hashmap name screen
+    - call size of hashmap name touchscreen
+    - call size of hashmap name fruit
+    - call size of hashmap name food
+    - call size of hashmap name vegetable
+    - call size of hashmap name eatables
+    - call size of hashmap name price
+    - call size of hashmap name cost
+    - call size of hashmap name sum
+    - call size of hashmap name addition
+    - call size of hashmap name a
+    - call size of hashmap name b
+    - call size of hashmap name c
+    - call size of hashmap name p
+    - call size of hashmap name q
+    - call size of hashmap name r
+    - call size of hashmap name s
+    - call size of hashmap name x
+    - call size of hashmap name y
+    - call size of hashmap name z
+    - call size of hashmap name answer
+    - call size of hashmap name result
+    - call size of hashmap name user
+    - call size of hashmap name userid
+    - call size of hashmap name id
+    - call size of hashmap name num
+    - call size of hashmap name age
+    - call size of hashmap name department
+    - call size of hashmap name hospital
+    - call size of hashmap name wheel
+    - call size of hashmap name seat
+    - call size of hashmap name car
+    - call size of hashmap name bus
+    - call size of hashmap name van
+    - call size of hashmap name bike
+    - call size of hashmap name glass
+    - call size of hashmap name red
+    - call size of hashmap name black
+    - call size of hashmap name white
+    - call size of hashmap name blue
+    - call size of hashmap name yellow
+    - call size of hashmap name valid
+    - call size of hashmap name subtract
+    - call size of hashmap name value
+    - call size of hashmap name arr
+    - call size of hashmap name i
+    - call size of hashmap name val
+    - call size of hashmap name key
+    - call size of hashmap name count
+    - call size of hashmap main
+    - call size of hashmap master
+    - call size of hashmap size
+    - call size of hashmap height
+    - call size of hashmap weight
+    - call size of hashmap bag
+    - call size of hashmap can
+    - call size of hashmap computer
+    - call size of hashmap phone
+    - call size of hashmap laptop
+    - call size of hashmap mobilephone
+    - call size of hashmap smartphone
+    - call size of hashmap phonenumber
+    - call size of hashmap contactnumber
+    - call size of hashmap address
+    - call size of hashmap location
+    - call size of hashmap email
+    - call size of hashmap contact
+    - call size of hashmap emailaddress
+    - call size of hashmap mouse
+    - call size of hashmap keyboard
+    - call size of hashmap screen
+    - call size of hashmap touchscreen
+    - call size of hashmap fruit
+    - call size of hashmap food
+    - call size of hashmap vegetable
+    - call size of hashmap eatables
+    - call size of hashmap price
+    - call size of hashmap cost
+    - call size of hashmap sum
+    - call size of hashmap addition
+    - call size of hashmap a
+    - call size of hashmap b
+    - call size of hashmap c
+    - call size of hashmap p
+    - call size of hashmap q
+    - call size of hashmap r
+    - call size of hashmap s
+    - call size of hashmap x
+    - call size of hashmap y
+    - call size of hashmap z
+    - call size of hashmap answer
+    - call size of hashmap result
+    - call size of hashmap user
+    - call size of hashmap userid
+    - call size of hashmap id
+    - call size of hashmap num
+    - call size of hashmap age
+    - call size of hashmap department
+    - call size of hashmap hospital
+    - call size of hashmap wheel
+    - call size of hashmap seat
+    - call size of hashmap car
+    - call size of hashmap bus
+    - call size of hashmap van
+    - call size of hashmap bike
+    - call size of hashmap glass
+    - call size of hashmap red
+    - call size of hashmap black
+    - call size of hashmap white
+    - call size of hashmap blue
+    - call size of hashmap yellow
+    - call size of hashmap valid
+    - call size of hashmap subtract
+    - call size of hashmap value
+    - call size of hashmap arr
+    - call size of hashmap i
+    - call size of hashmap val
+    - call size of hashmap key
+    - call size of hashmap count
+
+
+# ADDED TO NLU/TEST

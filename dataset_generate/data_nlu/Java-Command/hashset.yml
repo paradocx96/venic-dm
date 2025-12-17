@@ -1,0 +1,5039 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createhashset
+  examples: |
+    - add new hashset named [main](name)
+    - add new hashset named [master](name)
+    - add new hashset named [size](name)
+    - add new hashset named [height](name)
+    - add new hashset named [weight](name)
+    - add new hashset named [bag](name)
+    - add new hashset named [can](name)
+    - add new hashset named [computer](name)
+    - add new hashset named [phone](name)
+    - add new hashset named [laptop](name)
+    - add new hashset named [mobilephone](name)
+    - add new hashset named [smartphone](name)
+    - add new hashset named [phonenumber](name)
+    - add new hashset named [contactnumber](name)
+    - add new hashset named [address](name)
+    - add new hashset named [location](name)
+    - add new hashset named [email](name)
+    - add new hashset named [contact](name)
+    - add new hashset named [emailaddress](name)
+    - add new hashset named [mouse](name)
+    - add new hashset named [keyboard](name)
+    - add new hashset named [screen](name)
+    - add new hashset named [touchscreen](name)
+    - add new hashset named [fruit](name)
+    - add new hashset named [food](name)
+    - add new hashset named [vegetable](name)
+    - add new hashset named [eatables](name)
+    - add new hashset named [price](name)
+    - add new hashset named [cost](name)
+    - add new hashset named [sum](name)
+    - add new hashset named [addition](name)
+    - add new hashset named [a](name)
+    - add new hashset named [b](name)
+    - add new hashset named [c](name)
+    - add new hashset named [p](name)
+    - add new hashset named [q](name)
+    - add new hashset named [r](name)
+    - add new hashset named [s](name)
+    - add new hashset named [x](name)
+    - add new hashset named [y](name)
+    - add new hashset named [z](name)
+    - add new hashset named [answer](name)
+    - add new hashset named [result](name)
+    - add new hashset named [user](name)
+    - add new hashset named [userid](name)
+    - add new hashset named [id](name)
+    - add new hashset named [num](name)
+    - add new hashset named [age](name)
+    - add new hashset named [department](name)
+    - add new hashset named [hospital](name)
+    - add new hashset named [wheel](name)
+    - add new hashset named [seat](name)
+    - add new hashset named [car](name)
+    - add new hashset named [bus](name)
+    - add new hashset named [van](name)
+    - add new hashset named [bike](name)
+    - add new hashset named [glass](name)
+    - add new hashset named [red](name)
+    - add new hashset named [black](name)
+    - add new hashset named [white](name)
+    - add new hashset named [blue](name)
+    - add new hashset named [yellow](name)
+    - add new hashset named [valid](name)
+    - add new hashset named [subtract](name)
+    - add new hashset named [value](name)
+    - add new hashset named [arr](name)
+    - add new hashset named [val](name)
+    - add new hashset named [key](name)
+    - add new hashset named [count](name)
+    - add hashset named [main](name)
+    - add hashset named [master](name)
+    - add hashset named [size](name)
+    - add hashset named [height](name)
+    - add hashset named [weight](name)
+    - add hashset named [bag](name)
+    - add hashset named [can](name)
+    - add hashset named [computer](name)
+    - add hashset named [phone](name)
+    - add hashset named [laptop](name)
+    - add hashset named [mobilephone](name)
+    - add hashset named [smartphone](name)
+    - add hashset named [phonenumber](name)
+    - add hashset named [contactnumber](name)
+    - add hashset named [address](name)
+    - add hashset named [location](name)
+    - add hashset named [email](name)
+    - add hashset named [contact](name)
+    - add hashset named [emailaddress](name)
+    - add hashset named [mouse](name)
+    - add hashset named [keyboard](name)
+    - add hashset named [screen](name)
+    - add hashset named [touchscreen](name)
+    - add hashset named [fruit](name)
+    - add hashset named [food](name)
+    - add hashset named [vegetable](name)
+    - add hashset named [eatables](name)
+    - add hashset named [price](name)
+    - add hashset named [cost](name)
+    - add hashset named [sum](name)
+    - add hashset named [addition](name)
+    - add hashset named [a](name)
+    - add hashset named [b](name)
+    - add hashset named [c](name)
+    - add hashset named [p](name)
+    - add hashset named [q](name)
+    - add hashset named [r](name)
+    - add hashset named [s](name)
+    - add hashset named [x](name)
+    - add hashset named [y](name)
+    - add hashset named [z](name)
+    - add hashset named [answer](name)
+    - add hashset named [result](name)
+    - add hashset named [user](name)
+    - add hashset named [userid](name)
+    - add hashset named [id](name)
+    - add hashset named [num](name)
+    - add hashset named [age](name)
+    - add hashset named [department](name)
+    - add hashset named [hospital](name)
+    - add hashset named [wheel](name)
+    - add hashset named [seat](name)
+    - add hashset named [car](name)
+    - add hashset named [bus](name)
+    - add hashset named [van](name)
+    - add hashset named [bike](name)
+    - add hashset named [glass](name)
+    - add hashset named [red](name)
+    - add hashset named [black](name)
+    - add hashset named [white](name)
+    - add hashset named [blue](name)
+    - add hashset named [yellow](name)
+    - add hashset named [valid](name)
+    - add hashset named [subtract](name)
+    - add hashset named [value](name)
+    - add hashset named [arr](name)
+    - add hashset named [val](name)
+    - add hashset named [key](name)
+    - add hashset named [count](name)
+    - add hashset [main](name)
+    - add hashset [master](name)
+    - add hashset [size](name)
+    - add hashset [height](name)
+    - add hashset [weight](name)
+    - add hashset [bag](name)
+    - add hashset [can](name)
+    - add hashset [computer](name)
+    - add hashset [phone](name)
+    - add hashset [laptop](name)
+    - add hashset [mobilephone](name)
+    - add hashset [smartphone](name)
+    - add hashset [phonenumber](name)
+    - add hashset [contactnumber](name)
+    - add hashset [address](name)
+    - add hashset [location](name)
+    - add hashset [email](name)
+    - add hashset [contact](name)
+    - add hashset [emailaddress](name)
+    - add hashset [mouse](name)
+    - add hashset [keyboard](name)
+    - add hashset [screen](name)
+    - add hashset [touchscreen](name)
+    - add hashset [fruit](name)
+    - add hashset [food](name)
+    - add hashset [vegetable](name)
+    - add hashset [eatables](name)
+    - add hashset [price](name)
+    - add hashset [cost](name)
+    - add hashset [sum](name)
+    - add hashset [addition](name)
+    - add hashset [a](name)
+    - add hashset [b](name)
+    - add hashset [c](name)
+    - add hashset [p](name)
+    - add hashset [q](name)
+    - add hashset [r](name)
+    - add hashset [s](name)
+    - add hashset [x](name)
+    - add hashset [y](name)
+    - add hashset [z](name)
+    - add hashset [answer](name)
+    - add hashset [result](name)
+    - add hashset [user](name)
+    - add hashset [userid](name)
+    - add hashset [id](name)
+    - add hashset [num](name)
+    - add hashset [age](name)
+    - add hashset [department](name)
+    - add hashset [hospital](name)
+    - add hashset [wheel](name)
+    - add hashset [seat](name)
+    - add hashset [car](name)
+    - add hashset [bus](name)
+    - add hashset [van](name)
+    - add hashset [bike](name)
+    - add hashset [glass](name)
+    - add hashset [red](name)
+    - add hashset [black](name)
+    - add hashset [white](name)
+    - add hashset [blue](name)
+    - add hashset [yellow](name)
+    - add hashset [valid](name)
+    - add hashset [subtract](name)
+    - add hashset [value](name)
+    - add hashset [arr](name)
+    - add hashset [val](name)
+    - add hashset [key](name)
+    - add hashset [count](name)
+    - create new hashset named [main](name)
+    - create new hashset named [master](name)
+    - create new hashset named [size](name)
+    - create new hashset named [height](name)
+    - create new hashset named [weight](name)
+    - create new hashset named [bag](name)
+    - create new hashset named [can](name)
+    - create new hashset named [computer](name)
+    - create new hashset named [phone](name)
+    - create new hashset named [laptop](name)
+    - create new hashset named [mobilephone](name)
+    - create new hashset named [smartphone](name)
+    - create new hashset named [phonenumber](name)
+    - create new hashset named [contactnumber](name)
+    - create new hashset named [address](name)
+    - create new hashset named [location](name)
+    - create new hashset named [email](name)
+    - create new hashset named [contact](name)
+    - create new hashset named [emailaddress](name)
+    - create new hashset named [mouse](name)
+    - create new hashset named [keyboard](name)
+    - create new hashset named [screen](name)
+    - create new hashset named [touchscreen](name)
+    - create new hashset named [fruit](name)
+    - create new hashset named [food](name)
+    - create new hashset named [vegetable](name)
+    - create new hashset named [eatables](name)
+    - create new hashset named [price](name)
+    - create new hashset named [cost](name)
+    - create new hashset named [sum](name)
+    - create new hashset named [addition](name)
+    - create new hashset named [a](name)
+    - create new hashset named [b](name)
+    - create new hashset named [c](name)
+    - create new hashset named [p](name)
+    - create new hashset named [q](name)
+    - create new hashset named [r](name)
+    - create new hashset named [s](name)
+    - create new hashset named [x](name)
+    - create new hashset named [y](name)
+    - create new hashset named [z](name)
+    - create new hashset named [answer](name)
+    - create new hashset named [result](name)
+    - create new hashset named [user](name)
+    - create new hashset named [userid](name)
+    - create new hashset named [id](name)
+    - create new hashset named [num](name)
+    - create new hashset named [age](name)
+    - create new hashset named [department](name)
+    - create new hashset named [hospital](name)
+    - create new hashset named [wheel](name)
+    - create new hashset named [seat](name)
+    - create new hashset named [car](name)
+    - create new hashset named [bus](name)
+    - create new hashset named [van](name)
+    - create new hashset named [bike](name)
+    - create new hashset named [glass](name)
+    - create new hashset named [red](name)
+    - create new hashset named [black](name)
+    - create new hashset named [white](name)
+    - create new hashset named [blue](name)
+    - create new hashset named [yellow](name)
+    - create new hashset named [valid](name)
+    - create new hashset named [subtract](name)
+    - create new hashset named [value](name)
+    - create new hashset named [arr](name)
+    - create new hashset named [val](name)
+    - create new hashset named [key](name)
+    - create new hashset named [count](name)
+    - create hashset named [main](name)
+    - create hashset named [master](name)
+    - create hashset named [size](name)
+    - create hashset named [height](name)
+    - create hashset named [weight](name)
+    - create hashset named [bag](name)
+    - create hashset named [can](name)
+    - create hashset named [computer](name)
+    - create hashset named [phone](name)
+    - create hashset named [laptop](name)
+    - create hashset named [mobilephone](name)
+    - create hashset named [smartphone](name)
+    - create hashset named [phonenumber](name)
+    - create hashset named [contactnumber](name)
+    - create hashset named [address](name)
+    - create hashset named [location](name)
+    - create hashset named [email](name)
+    - create hashset named [contact](name)
+    - create hashset named [emailaddress](name)
+    - create hashset named [mouse](name)
+    - create hashset named [keyboard](name)
+    - create hashset named [screen](name)
+    - create hashset named [touchscreen](name)
+    - create hashset named [fruit](name)
+    - create hashset named [food](name)
+    - create hashset named [vegetable](name)
+    - create hashset named [eatables](name)
+    - create hashset named [price](name)
+    - create hashset named [cost](name)
+    - create hashset named [sum](name)
+    - create hashset named [addition](name)
+    - create hashset named [a](name)
+    - create hashset named [b](name)
+    - create hashset named [c](name)
+    - create hashset named [p](name)
+    - create hashset named [q](name)
+    - create hashset named [r](name)
+    - create hashset named [s](name)
+    - create hashset named [x](name)
+    - create hashset named [y](name)
+    - create hashset named [z](name)
+    - create hashset named [answer](name)
+    - create hashset named [result](name)
+    - create hashset named [user](name)
+    - create hashset named [userid](name)
+    - create hashset named [id](name)
+    - create hashset named [num](name)
+    - create hashset named [age](name)
+    - create hashset named [department](name)
+    - create hashset named [hospital](name)
+    - create hashset named [wheel](name)
+    - create hashset named [seat](name)
+    - create hashset named [car](name)
+    - create hashset named [bus](name)
+    - create hashset named [van](name)
+    - create hashset named [bike](name)
+    - create hashset named [glass](name)
+    - create hashset named [red](name)
+    - create hashset named [black](name)
+    - create hashset named [white](name)
+    - create hashset named [blue](name)
+    - create hashset named [yellow](name)
+    - create hashset named [valid](name)
+    - create hashset named [subtract](name)
+    - create hashset named [value](name)
+    - create hashset named [arr](name)
+    - create hashset named [val](name)
+    - create hashset named [key](name)
+    - create hashset named [count](name)
+    - create hashset [main](name)
+    - create hashset [master](name)
+    - create hashset [size](name)
+    - create hashset [height](name)
+    - create hashset [weight](name)
+    - create hashset [bag](name)
+    - create hashset [can](name)
+    - create hashset [computer](name)
+    - create hashset [phone](name)
+    - create hashset [laptop](name)
+    - create hashset [mobilephone](name)
+    - create hashset [smartphone](name)
+    - create hashset [phonenumber](name)
+    - create hashset [contactnumber](name)
+    - create hashset [address](name)
+    - create hashset [location](name)
+    - create hashset [email](name)
+    - create hashset [contact](name)
+    - create hashset [emailaddress](name)
+    - create hashset [mouse](name)
+    - create hashset [keyboard](name)
+    - create hashset [screen](name)
+    - create hashset [touchscreen](name)
+    - create hashset [fruit](name)
+    - create hashset [food](name)
+    - create hashset [vegetable](name)
+    - create hashset [eatables](name)
+    - create hashset [price](name)
+    - create hashset [cost](name)
+    - create hashset [sum](name)
+    - create hashset [addition](name)
+    - create hashset [a](name)
+    - create hashset [b](name)
+    - create hashset [c](name)
+    - create hashset [p](name)
+    - create hashset [q](name)
+    - create hashset [r](name)
+    - create hashset [s](name)
+    - create hashset [x](name)
+    - create hashset [y](name)
+    - create hashset [z](name)
+    - create hashset [answer](name)
+    - create hashset [result](name)
+    - create hashset [user](name)
+    - create hashset [userid](name)
+    - create hashset [id](name)
+    - create hashset [num](name)
+    - create hashset [age](name)
+    - create hashset [department](name)
+    - create hashset [hospital](name)
+    - create hashset [wheel](name)
+    - create hashset [seat](name)
+    - create hashset [car](name)
+    - create hashset [bus](name)
+    - create hashset [van](name)
+    - create hashset [bike](name)
+    - create hashset [glass](name)
+    - create hashset [red](name)
+    - create hashset [black](name)
+    - create hashset [white](name)
+    - create hashset [blue](name)
+    - create hashset [yellow](name)
+    - create hashset [valid](name)
+    - create hashset [subtract](name)
+    - create hashset [value](name)
+    - create hashset [arr](name)
+    - create hashset [val](name)
+    - create hashset [key](name)
+    - create hashset [count](name)
+
+- intent: deletehashset
+  examples: |
+    - delete hashset named [main](name)
+    - delete hashset named [master](name)
+    - delete hashset named [size](name)
+    - delete hashset named [height](name)
+    - delete hashset named [weight](name)
+    - delete hashset named [bag](name)
+    - delete hashset named [can](name)
+    - delete hashset named [computer](name)
+    - delete hashset named [phone](name)
+    - delete hashset named [laptop](name)
+    - delete hashset named [mobilephone](name)
+    - delete hashset named [smartphone](name)
+    - delete hashset named [phonenumber](name)
+    - delete hashset named [contactnumber](name)
+    - delete hashset named [address](name)
+    - delete hashset named [location](name)
+    - delete hashset named [email](name)
+    - delete hashset named [contact](name)
+    - delete hashset named [emailaddress](name)
+    - delete hashset named [mouse](name)
+    - delete hashset named [keyboard](name)
+    - delete hashset named [screen](name)
+    - delete hashset named [touchscreen](name)
+    - delete hashset named [fruit](name)
+    - delete hashset named [food](name)
+    - delete hashset named [vegetable](name)
+    - delete hashset named [eatables](name)
+    - delete hashset named [price](name)
+    - delete hashset named [cost](name)
+    - delete hashset named [sum](name)
+    - delete hashset named [addition](name)
+    - delete hashset named [a](name)
+    - delete hashset named [b](name)
+    - delete hashset named [c](name)
+    - delete hashset named [p](name)
+    - delete hashset named [q](name)
+    - delete hashset named [r](name)
+    - delete hashset named [s](name)
+    - delete hashset named [x](name)
+    - delete hashset named [y](name)
+    - delete hashset named [z](name)
+    - delete hashset named [answer](name)
+    - delete hashset named [result](name)
+    - delete hashset named [user](name)
+    - delete hashset named [userid](name)
+    - delete hashset named [id](name)
+    - delete hashset named [num](name)
+    - delete hashset named [age](name)
+    - delete hashset named [department](name)
+    - delete hashset named [hospital](name)
+    - delete hashset named [wheel](name)
+    - delete hashset named [seat](name)
+    - delete hashset named [car](name)
+    - delete hashset named [bus](name)
+    - delete hashset named [van](name)
+    - delete hashset named [bike](name)
+    - delete hashset named [glass](name)
+    - delete hashset named [red](name)
+    - delete hashset named [black](name)
+    - delete hashset named [white](name)
+    - delete hashset named [blue](name)
+    - delete hashset named [yellow](name)
+    - delete hashset named [valid](name)
+    - delete hashset named [subtract](name)
+    - delete hashset named [value](name)
+    - delete hashset named [arr](name)
+    - delete hashset named [val](name)
+    - delete hashset named [key](name)
+    - delete hashset named [count](name)
+    - delete hashset [main](name)
+    - delete hashset [master](name)
+    - delete hashset [size](name)
+    - delete hashset [height](name)
+    - delete hashset [weight](name)
+    - delete hashset [bag](name)
+    - delete hashset [can](name)
+    - delete hashset [computer](name)
+    - delete hashset [phone](name)
+    - delete hashset [laptop](name)
+    - delete hashset [mobilephone](name)
+    - delete hashset [smartphone](name)
+    - delete hashset [phonenumber](name)
+    - delete hashset [contactnumber](name)
+    - delete hashset [address](name)
+    - delete hashset [location](name)
+    - delete hashset [email](name)
+    - delete hashset [contact](name)
+    - delete hashset [emailaddress](name)
+    - delete hashset [mouse](name)
+    - delete hashset [keyboard](name)
+    - delete hashset [screen](name)
+    - delete hashset [touchscreen](name)
+    - delete hashset [fruit](name)
+    - delete hashset [food](name)
+    - delete hashset [vegetable](name)
+    - delete hashset [eatables](name)
+    - delete hashset [price](name)
+    - delete hashset [cost](name)
+    - delete hashset [sum](name)
+    - delete hashset [addition](name)
+    - delete hashset [a](name)
+    - delete hashset [b](name)
+    - delete hashset [c](name)
+    - delete hashset [p](name)
+    - delete hashset [q](name)
+    - delete hashset [r](name)
+    - delete hashset [s](name)
+    - delete hashset [x](name)
+    - delete hashset [y](name)
+    - delete hashset [z](name)
+    - delete hashset [answer](name)
+    - delete hashset [result](name)
+    - delete hashset [user](name)
+    - delete hashset [userid](name)
+    - delete hashset [id](name)
+    - delete hashset [num](name)
+    - delete hashset [age](name)
+    - delete hashset [department](name)
+    - delete hashset [hospital](name)
+    - delete hashset [wheel](name)
+    - delete hashset [seat](name)
+    - delete hashset [car](name)
+    - delete hashset [bus](name)
+    - delete hashset [van](name)
+    - delete hashset [bike](name)
+    - delete hashset [glass](name)
+    - delete hashset [red](name)
+    - delete hashset [black](name)
+    - delete hashset [white](name)
+    - delete hashset [blue](name)
+    - delete hashset [yellow](name)
+    - delete hashset [valid](name)
+    - delete hashset [subtract](name)
+    - delete hashset [value](name)
+    - delete hashset [arr](name)
+    - delete hashset [val](name)
+    - delete hashset [key](name)
+    - delete hashset [count](name)
+    - remove hashset named [main](name)
+    - remove hashset named [master](name)
+    - remove hashset named [size](name)
+    - remove hashset named [height](name)
+    - remove hashset named [weight](name)
+    - remove hashset named [bag](name)
+    - remove hashset named [can](name)
+    - remove hashset named [computer](name)
+    - remove hashset named [phone](name)
+    - remove hashset named [laptop](name)
+    - remove hashset named [mobilephone](name)
+    - remove hashset named [smartphone](name)
+    - remove hashset named [phonenumber](name)
+    - remove hashset named [contactnumber](name)
+    - remove hashset named [address](name)
+    - remove hashset named [location](name)
+    - remove hashset named [email](name)
+    - remove hashset named [contact](name)
+    - remove hashset named [emailaddress](name)
+    - remove hashset named [mouse](name)
+    - remove hashset named [keyboard](name)
+    - remove hashset named [screen](name)
+    - remove hashset named [touchscreen](name)
+    - remove hashset named [fruit](name)
+    - remove hashset named [food](name)
+    - remove hashset named [vegetable](name)
+    - remove hashset named [eatables](name)
+    - remove hashset named [price](name)
+    - remove hashset named [cost](name)
+    - remove hashset named [sum](name)
+    - remove hashset named [addition](name)
+    - remove hashset named [a](name)
+    - remove hashset named [b](name)
+    - remove hashset named [c](name)
+    - remove hashset named [p](name)
+    - remove hashset named [q](name)
+    - remove hashset named [r](name)
+    - remove hashset named [s](name)
+    - remove hashset named [x](name)
+    - remove hashset named [y](name)
+    - remove hashset named [z](name)
+    - remove hashset named [answer](name)
+    - remove hashset named [result](name)
+    - remove hashset named [user](name)
+    - remove hashset named [userid](name)
+    - remove hashset named [id](name)
+    - remove hashset named [num](name)
+    - remove hashset named [age](name)
+    - remove hashset named [department](name)
+    - remove hashset named [hospital](name)
+    - remove hashset named [wheel](name)
+    - remove hashset named [seat](name)
+    - remove hashset named [car](name)
+    - remove hashset named [bus](name)
+    - remove hashset named [van](name)
+    - remove hashset named [bike](name)
+    - remove hashset named [glass](name)
+    - remove hashset named [red](name)
+    - remove hashset named [black](name)
+    - remove hashset named [white](name)
+    - remove hashset named [blue](name)
+    - remove hashset named [yellow](name)
+    - remove hashset named [valid](name)
+    - remove hashset named [subtract](name)
+    - remove hashset named [value](name)
+    - remove hashset named [arr](name)
+    - remove hashset named [val](name)
+    - remove hashset named [key](name)
+    - remove hashset named [count](name)
+    - remove hashset [main](name)
+    - remove hashset [master](name)
+    - remove hashset [size](name)
+    - remove hashset [height](name)
+    - remove hashset [weight](name)
+    - remove hashset [bag](name)
+    - remove hashset [can](name)
+    - remove hashset [computer](name)
+    - remove hashset [phone](name)
+    - remove hashset [laptop](name)
+    - remove hashset [mobilephone](name)
+    - remove hashset [smartphone](name)
+    - remove hashset [phonenumber](name)
+    - remove hashset [contactnumber](name)
+    - remove hashset [address](name)
+    - remove hashset [location](name)
+    - remove hashset [email](name)
+    - remove hashset [contact](name)
+    - remove hashset [emailaddress](name)
+    - remove hashset [mouse](name)
+    - remove hashset [keyboard](name)
+    - remove hashset [screen](name)
+    - remove hashset [touchscreen](name)
+    - remove hashset [fruit](name)
+    - remove hashset [food](name)
+    - remove hashset [vegetable](name)
+    - remove hashset [eatables](name)
+    - remove hashset [price](name)
+    - remove hashset [cost](name)
+    - remove hashset [sum](name)
+    - remove hashset [addition](name)
+    - remove hashset [a](name)
+    - remove hashset [b](name)
+    - remove hashset [c](name)
+    - remove hashset [p](name)
+    - remove hashset [q](name)
+    - remove hashset [r](name)
+    - remove hashset [s](name)
+    - remove hashset [x](name)
+    - remove hashset [y](name)
+    - remove hashset [z](name)
+    - remove hashset [answer](name)
+    - remove hashset [result](name)
+    - remove hashset [user](name)
+    - remove hashset [userid](name)
+    - remove hashset [id](name)
+    - remove hashset [num](name)
+    - remove hashset [age](name)
+    - remove hashset [department](name)
+    - remove hashset [hospital](name)
+    - remove hashset [wheel](name)
+    - remove hashset [seat](name)
+    - remove hashset [car](name)
+    - remove hashset [bus](name)
+    - remove hashset [van](name)
+    - remove hashset [bike](name)
+    - remove hashset [glass](name)
+    - remove hashset [red](name)
+    - remove hashset [black](name)
+    - remove hashset [white](name)
+    - remove hashset [blue](name)
+    - remove hashset [yellow](name)
+    - remove hashset [valid](name)
+    - remove hashset [subtract](name)
+    - remove hashset [value](name)
+    - remove hashset [arr](name)
+    - remove hashset [val](name)
+    - remove hashset [key](name)
+    - remove hashset [count](name)
+
+- intent: cuthashset
+  examples: |
+    - cut hashset named [main](name)
+    - cut hashset named [master](name)
+    - cut hashset named [size](name)
+    - cut hashset named [height](name)
+    - cut hashset named [weight](name)
+    - cut hashset named [bag](name)
+    - cut hashset named [can](name)
+    - cut hashset named [computer](name)
+    - cut hashset named [phone](name)
+    - cut hashset named [laptop](name)
+    - cut hashset named [mobilephone](name)
+    - cut hashset named [smartphone](name)
+    - cut hashset named [phonenumber](name)
+    - cut hashset named [contactnumber](name)
+    - cut hashset named [address](name)
+    - cut hashset named [location](name)
+    - cut hashset named [email](name)
+    - cut hashset named [contact](name)
+    - cut hashset named [emailaddress](name)
+    - cut hashset named [mouse](name)
+    - cut hashset named [keyboard](name)
+    - cut hashset named [screen](name)
+    - cut hashset named [touchscreen](name)
+    - cut hashset named [fruit](name)
+    - cut hashset named [food](name)
+    - cut hashset named [vegetable](name)
+    - cut hashset named [eatables](name)
+    - cut hashset named [price](name)
+    - cut hashset named [cost](name)
+    - cut hashset named [sum](name)
+    - cut hashset named [addition](name)
+    - cut hashset named [a](name)
+    - cut hashset named [b](name)
+    - cut hashset named [c](name)
+    - cut hashset named [p](name)
+    - cut hashset named [q](name)
+    - cut hashset named [r](name)
+    - cut hashset named [s](name)
+    - cut hashset named [x](name)
+    - cut hashset named [y](name)
+    - cut hashset named [z](name)
+    - cut hashset named [answer](name)
+    - cut hashset named [result](name)
+    - cut hashset named [user](name)
+    - cut hashset named [userid](name)
+    - cut hashset named [id](name)
+    - cut hashset named [num](name)
+    - cut hashset named [age](name)
+    - cut hashset named [department](name)
+    - cut hashset named [hospital](name)
+    - cut hashset named [wheel](name)
+    - cut hashset named [seat](name)
+    - cut hashset named [car](name)
+    - cut hashset named [bus](name)
+    - cut hashset named [van](name)
+    - cut hashset named [bike](name)
+    - cut hashset named [glass](name)
+    - cut hashset named [red](name)
+    - cut hashset named [black](name)
+    - cut hashset named [white](name)
+    - cut hashset named [blue](name)
+    - cut hashset named [yellow](name)
+    - cut hashset named [valid](name)
+    - cut hashset named [subtract](name)
+    - cut hashset named [value](name)
+    - cut hashset named [arr](name)
+    - cut hashset named [hashset](name)
+    - cut hashset named [val](name)
+    - cut hashset named [key](name)
+    - cut hashset named [count](name)
+    - cut hashset [main](name)
+    - cut hashset [master](name)
+    - cut hashset [size](name)
+    - cut hashset [height](name)
+    - cut hashset [weight](name)
+    - cut hashset [bag](name)
+    - cut hashset [can](name)
+    - cut hashset [computer](name)
+    - cut hashset [phone](name)
+    - cut hashset [laptop](name)
+    - cut hashset [mobilephone](name)
+    - cut hashset [smartphone](name)
+    - cut hashset [phonenumber](name)
+    - cut hashset [contactnumber](name)
+    - cut hashset [address](name)
+    - cut hashset [location](name)
+    - cut hashset [email](name)
+    - cut hashset [contact](name)
+    - cut hashset [emailaddress](name)
+    - cut hashset [mouse](name)
+    - cut hashset [keyboard](name)
+    - cut hashset [screen](name)
+    - cut hashset [touchscreen](name)
+    - cut hashset [fruit](name)
+    - cut hashset [food](name)
+    - cut hashset [vegetable](name)
+    - cut hashset [eatables](name)
+    - cut hashset [price](name)
+    - cut hashset [cost](name)
+    - cut hashset [sum](name)
+    - cut hashset [addition](name)
+    - cut hashset [a](name)
+    - cut hashset [b](name)
+    - cut hashset [c](name)
+    - cut hashset [p](name)
+    - cut hashset [q](name)
+    - cut hashset [r](name)
+    - cut hashset [s](name)
+    - cut hashset [x](name)
+    - cut hashset [y](name)
+    - cut hashset [z](name)
+    - cut hashset [answer](name)
+    - cut hashset [result](name)
+    - cut hashset [user](name)
+    - cut hashset [userid](name)
+    - cut hashset [id](name)
+    - cut hashset [num](name)
+    - cut hashset [age](name)
+    - cut hashset [department](name)
+    - cut hashset [hospital](name)
+    - cut hashset [wheel](name)
+    - cut hashset [seat](name)
+    - cut hashset [car](name)
+    - cut hashset [bus](name)
+    - cut hashset [van](name)
+    - cut hashset [bike](name)
+    - cut hashset [glass](name)
+    - cut hashset [red](name)
+    - cut hashset [black](name)
+    - cut hashset [white](name)
+    - cut hashset [blue](name)
+    - cut hashset [yellow](name)
+    - cut hashset [valid](name)
+    - cut hashset [subtract](name)
+    - cut hashset [value](name)
+    - cut hashset [arr](name)
+    - cut hashset [hashset](name)
+    - cut hashset [val](name)
+    - cut hashset [key](name)
+    - cut hashset [count](name)
+
+- intent: changehashset
+  examples: |
+    - change hashset named z to result
+    - change hashset named vegetable to fruit
+    - change hashset named c to computer
+    - change hashset named department to user
+    - change hashset named email to mouse
+    - change hashset named valid to addition
+    - change hashset named van to price
+    - change hashset named smartphone to computer
+    - change hashset named glass to car
+    - change hashset named department to id
+    - change hashset named main to keyboard
+    - change hashset named id to z
+    - change hashset named s to sum
+    - change hashset named answer to emailaddress
+    - change hashset named a to smartphone
+    - change hashset named yellow to vegetable
+    - change hashset named val to seat
+    - change hashset named r to userid
+    - change hashset named emailaddress to keyboard
+    - change hashset named yellow to subtract
+    - change hashset named height to master
+    - change hashset named c to fruit
+    - change hashset named y to hospital
+    - change hashset named email to key
+    - change hashset named height to bus
+    - change hashset named keyboard to hospital
+    - change hashset named mobilephone to key
+    - change hashset named keyboard to seat
+    - change hashset named seat to x
+    - change hashset named contact to touchscreen
+    - change hashset named id to blue
+    - change hashset named r to c
+    - change hashset named num to smartphone
+    - change hashset named key to userid
+    - change hashset named wheel to z
+    - change hashset named s to can
+    - change hashset named age to phonenumber
+    - change hashset named main to subtract
+    - change hashset named size to main
+    - change hashset named num to s
+    - change hashset named yellow to phonenumber
+    - change hashset named phonenumber to touchscreen
+    - change hashset named bus to black
+    - change hashset named fruit to q
+    - change hashset named b to value
+    - change hashset named value to user
+    - change hashset named yellow to food
+    - change hashset named size to age
+    - change hashset named valid to glass
+    - change hashset named laptop to arr
+    - change hashset named computer to contactnumber
+    - change hashset named x to email
+    - change hashset named z to id
+    - change hashset named keyboard to email
+    - change hashset named sum to num
+    - change hashset named fruit to emailaddress
+    - change hashset named van to email
+    - change hashset named red to email
+    - change hashset named glass to cost
+    - change hashset named smartphone to value
+    - change hashset named hospital to email
+    - change hashset named car to vegetable
+    - change hashset named department to white
+    - change hashset named computer to arr
+    - change hashset named seat to mouse
+    - change hashset named userid to arr
+    - change hashset named num to main
+    - change hashset named food to r
+    - change hashset named yellow to bike
+    - change hashset named weight to hospital
+    - change hashset named can to answer
+    - change hashset named value to price
+    - change hashset named height to size
+    - change hashset named eatables to laptop
+    - change hashset named price to bike
+    - change hashset named smartphone to blue
+    - change hashset named main to phone
+    - change hashset named weight to i
+    - change hashset named userid to mouse
+    - change hashset named hospital to email
+    - change hashset named mouse to height
+    - change hashset named r to main
+    - change hashset named location to email
+    - change hashset named height to age
+    - change hashset named addition to smartphone
+    - change hashset named subtract to arr
+    - change hashset named arr to can
+    - change hashset named blue to user
+    - change hashset named bus to location
+    - change hashset named id to value
+    - change hashset named a to b
+    - change hashset named s to key
+    - change hashset named yellow to blue
+    - change hashset named x to bag
+    - change hashset named computer to red
+    - change hashset named contact to p
+    - change hashset named num to address
+    - change hashset named user to x
+    - change hashset named subtract to answer
+    - change hashset named computer to car
+    - change hashset named touchscreen to price
+    - change hashset named hospital to count
+    - change hashset named arr to a
+    - change hashset named x to price
+    - change hashset named height to s
+    - change hashset named contact to mouse
+    - change hashset named userid to hospital
+    - change hashset named user to userid
+    - change hashset named weight to department
+    - change hashset named arr to answer
+    - change hashset named address to height
+    - change hashset named a to hospital
+    - change hashset named arr to a
+    - change hashset named wheel to height
+    - change hashset named location to car
+    - change hashset named bus to contact
+    - change hashset named r to size
+    - change hashset named num to userid
+    - change hashset named email to bus
+    - change hashset named weight to phonenumber
+    - change hashset named height to r
+    - change hashset named vegetable to screen
+    - change hashset named b to age
+    - change hashset named red to wheel
+    - change hashset named z to num
+    - change hashset named food to seat
+    - change hashset named black to s
+    - change hashset named mobilephone to val
+    - change hashset named valid to fruit
+    - change hashset named count to keyboard
+    - change hashset named p to age
+    - change hashset named touchscreen to phonenumber
+    - change hashset named q to value
+    - change hashset named answer to main
+    - change hashset named addition to key
+    - change hashset named fruit to bag
+    - change hashset named subtract to valid
+    - change hashset named x to vegetable
+    - change hashset named eatables to car
+    - change hashset name bike to eatables
+    - change hashset name addition to i
+    - change hashset name count to size
+    - change hashset name bag to subtract
+    - change hashset name price to weight
+    - change hashset name touchscreen to r
+    - change hashset name i to fruit
+    - change hashset name emailaddress to red
+    - change hashset name laptop to addition
+    - change hashset name height to emailaddress
+    - change hashset name user to subtract
+    - change hashset name result to red
+    - change hashset name arr to smartphone
+    - change hashset name contactnumber to vegetable
+    - change hashset name weight to smartphone
+    - change hashset name master to touchscreen
+    - change hashset name emailaddress to price
+    - change hashset name q to sum
+    - change hashset name num to price
+    - change hashset name bike to y
+    - change hashset name arr to van
+    - change hashset name sum to emailaddress
+    - change hashset name eatables to i
+    - change hashset name touchscreen to bike
+    - change hashset name laptop to glass
+    - change hashset name val to screen
+    - change hashset name email to subtract
+    - change hashset name vegetable to department
+    - change hashset name address to i
+    - change hashset name emailaddress to car
+    - change hashset name emailaddress to vegetable
+    - change hashset name location to black
+    - change hashset name sum to glass
+    - change hashset name touchscreen to bag
+    - change hashset name screen to price
+    - change hashset name z to addition
+    - change hashset name val to s
+    - change hashset name emailaddress to car
+    - change hashset name value to white
+    - change hashset name result to bag
+    - change hashset name arr to bus
+    - change hashset name c to price
+    - change hashset name weight to keyboard
+    - change hashset name screen to main
+    - change hashset name emailaddress to valid
+    - change hashset name p to height
+    - change hashset name key to weight
+    - change hashset name key to location
+    - change hashset name laptop to y
+    - change hashset name vegetable to mobilephone
+    - change hashset name arr to smartphone
+    - change hashset name computer to hospital
+    - change hashset name red to p
+    - change hashset name r to touchscreen
+    - change hashset name eatables to contact
+    - change hashset name size to fruit
+    - change hashset name address to laptop
+    - change hashset name price to red
+    - change hashset name q to master
+    - change hashset name mouse to subtract
+    - change hashset name val to num
+    - change hashset name smartphone to screen
+    - change hashset name email to age
+    - change hashset name p to black
+    - change hashset name computer to weight
+    - change hashset name q to x
+    - change hashset name contact to screen
+    - change hashset name smartphone to white
+    - change hashset name c to white
+    - change hashset name weight to main
+    - change hashset name white to i
+    - change hashset name q to price
+    - change hashset name fruit to addition
+    - change hashset name computer to address
+    - change hashset name s to contactnumber
+    - change hashset name red to bus
+    - change hashset name white to result
+    - change hashset name keyboard to arr
+    - change hashset name yellow to black
+    - change hashset name phone to subtract
+    - change hashset name cost to hospital
+    - change hashset name r to contactnumber
+    - change hashset name touchscreen to arr
+    - change hashset name val to seat
+    - change hashset name r to car
+    - change hashset name val to van
+    - change hashset name food to c
+    - change hashset name food to age
+    - change hashset name department to hospital
+    - change hashset name black to id
+    - change hashset name van to id
+    - change hashset name count to car
+    - change hashset name keyboard to q
+    - change hashset name c to a
+    - change hashset name answer to location
+    - change hashset name eatables to id
+    - change hashset name r to main
+    - change hashset name hospital to num
+    - change hashset name yellow to main
+    - change hashset name black to r
+    - change hashset name id to wheel
+    - change hashset name fruit to value
+    - change hashset name email to i
+    - change hashset name glass to vegetable
+    - change hashset name key to b
+    - change hashset name computer to department
+    - change hashset name laptop to key
+    - change hashset name x to valid
+    - change hashset name arr to car
+    - change hashset name age to wheel
+    - change hashset name q to age
+    - change hashset name fruit to vegetable
+    - change hashset name laptop to val
+    - change hashset name cost to result
+    - change hashset name bag to white
+    - change hashset name addition to smartphone
+    - change hashset name touchscreen to id
+    - change hashset name s to answer
+    - change hashset name red to result
+    - change hashset name q to price
+    - change hashset name eatables to location
+    - change hashset name glass to result
+    - change hashset name computer to contact
+    - change hashset name y to key
+    - change hashset name phone to bike
+    - change hashset name email to wheel
+    - change hashset name q to val
+    - change hashset name laptop to screen
+    - change hashset name yellow to s
+    - change hashset name black to size
+    - change hashset name size to value
+    - change hashset name user to z
+    - change hashset name master to hospital
+    - change hashset name eatables to seat
+    - change hashset name user to blue
+    - change hashset name screen to car
+    - change hashset name department to addition
+    - change hashset name p to a
+    - change hashset name can to s
+    - change hashset sum to email
+    - change hashset smartphone to location
+    - change hashset screen to smartphone
+    - change hashset white to c
+    - change hashset touchscreen to value
+    - change hashset computer to glass
+    - change hashset computer to food
+    - change hashset s to cost
+    - change hashset id to wheel
+    - change hashset size to id
+    - change hashset fruit to yellow
+    - change hashset bag to p
+    - change hashset screen to count
+    - change hashset bus to value
+    - change hashset bike to a
+    - change hashset answer to black
+    - change hashset y to black
+    - change hashset van to z
+    - change hashset arr to z
+    - change hashset touchscreen to wheel
+    - change hashset white to hospital
+    - change hashset email to wheel
+    - change hashset eatables to q
+    - change hashset p to main
+    - change hashset black to email
+    - change hashset contactnumber to hospital
+    - change hashset id to key
+    - change hashset age to key
+    - change hashset eatables to cost
+    - change hashset answer to location
+    - change hashset contactnumber to s
+    - change hashset subtract to s
+    - change hashset location to red
+    - change hashset yellow to answer
+    - change hashset food to y
+    - change hashset wheel to mobilephone
+    - change hashset keyboard to z
+    - change hashset bag to yellow
+    - change hashset smartphone to valid
+    - change hashset num to contactnumber
+    - change hashset arr to blue
+    - change hashset r to addition
+    - change hashset vegetable to address
+    - change hashset weight to glass
+    - change hashset result to sum
+    - change hashset userid to val
+    - change hashset contactnumber to x
+    - change hashset answer to q
+    - change hashset main to val
+    - change hashset user to bus
+    - change hashset p to num
+    - change hashset num to addition
+    - change hashset mouse to s
+    - change hashset red to bag
+    - change hashset bag to x
+    - change hashset contact to yellow
+    - change hashset answer to subtract
+    - change hashset height to r
+    - change hashset answer to x
+    - change hashset seat to black
+    - change hashset val to i
+    - change hashset smartphone to email
+    - change hashset contact to fruit
+    - change hashset addition to can
+    - change hashset phone to blue
+    - change hashset car to van
+    - change hashset email to i
+    - change hashset size to smartphone
+    - change hashset computer to p
+    - change hashset price to subtract
+    - change hashset blue to fruit
+    - change hashset user to userid
+    - change hashset c to q
+    - change hashset can to white
+    - change hashset q to hospital
+    - change hashset x to glass
+    - change hashset glass to smartphone
+    - change hashset seat to computer
+    - change hashset id to arr
+    - change hashset blue to can
+    - change hashset hospital to seat
+    - change hashset red to subtract
+    - change hashset height to mobilephone
+    - change hashset hospital to price
+    - change hashset id to laptop
+    - change hashset valid to vegetable
+    - change hashset laptop to blue
+    - change hashset master to cost
+    - change hashset glass to mouse
+    - change hashset size to contact
+    - change hashset wheel to touchscreen
+    - change hashset subtract to hospital
+    - change hashset a to arr
+    - change hashset s to size
+    - change hashset wheel to fruit
+    - change hashset touchscreen to contact
+    - change hashset location to weight
+    - change hashset van to phonenumber
+    - change hashset val to wheel
+    - change hashset subtract to result
+    - change hashset x to master
+    - change hashset valid to phonenumber
+    - change hashset s to can
+    - change hashset size to keyboard
+    - change hashset height to arr
+    - change hashset weight to mobilephone
+    - change hashset fruit to department
+    - change hashset can to fruit
+    - change hashset a to screen
+    - change hashset bag to can
+    - change hashset hospital to num
+    - change hashset cost to mobilephone
+    - change hashset eatables to count
+    - change hashset z to y
+    - change hashset weight to red
+    - change hashset smartphone to white
+    - change hashset q to phonenumber
+    - change hashset yellow to touchscreen
+    - change hashset r to white
+    - change hashset x to phonenumber
+    - change hashset q to computer
+    - change hashset arr to age
+    - change hashset result to email
+    - change hashset answer to num
+    - change hashset touchscreen to user
+    - change hashset phone to sum
+    - change hashset keyboard to a
+    - change hashset arr to num
+    - change hashset department to arr
+    - change hashset id to sum
+    - change hashset fruit to arr
+    - change hashset valid to userid
+    - change hashset cost to sum
+    - change hashset x to user
+    - change hashset master to valid
+    - change hashset bike to bag
+    - change hashset bus to hospital
+
+- intent: edithashset
+  examples: |
+    - edit hashset named main to master
+    - edit hashset name answer to result
+    - edit hashset main to master
+    - edit hashset named contact to food
+    - edit hashset named laptop to yellow
+    - edit hashset named contactnumber to seat
+    - edit hashset named computer to phonenumber
+    - edit hashset named phone to can
+    - edit hashset named eatables to computer
+    - edit hashset named z to bike
+    - edit hashset named count to r
+    - edit hashset named contact to glass
+    - edit hashset named emailaddress to y
+    - edit hashset named vegetable to location
+    - edit hashset named yellow to hospital
+    - edit hashset named eatables to count
+    - edit hashset named age to x
+    - edit hashset named x to white
+    - edit hashset named fruit to van
+    - edit hashset named user to bus
+    - edit hashset named main to vegetable
+    - edit hashset named value to hashset
+    - edit hashset named q to blue
+    - edit hashset named price to email
+    - edit hashset named c to userid
+    - edit hashset named red to valid
+    - edit hashset named p to q
+    - edit hashset named user to contact
+    - edit hashset named weight to cost
+    - edit hashset named count to yellow
+    - edit hashset named laptop to yellow
+    - edit hashset named main to emailaddress
+    - edit hashset named value to can
+    - edit hashset named email to addition
+    - edit hashset named size to hospital
+    - edit hashset named size to laptop
+    - edit hashset named car to answer
+    - edit hashset named q to wheel
+    - edit hashset named location to contact
+    - edit hashset named c to id
+    - edit hashset named q to computer
+    - edit hashset named email to id
+    - edit hashset named key to q
+    - edit hashset named eatables to c
+    - edit hashset named height to mobilephone
+    - edit hashset named subtract to hashset
+    - edit hashset named b to y
+    - edit hashset named r to white
+    - edit hashset named phonenumber to smartphone
+    - edit hashset named keyboard to master
+    - edit hashset named email to height
+    - edit hashset named arr to laptop
+    - edit hashset named screen to p
+    - edit hashset named cost to phonenumber
+    - edit hashset named can to bike
+    - edit hashset named addition to mouse
+    - edit hashset named contactnumber to yellow
+    - edit hashset named smartphone to wheel
+    - edit hashset named subtract to red
+    - edit hashset named laptop to c
+    - edit hashset named eatables to answer
+    - edit hashset named keyboard to phonenumber
+    - edit hashset named hashset to hospital
+    - edit hashset named seat to van
+    - edit hashset named emailaddress to arr
+    - edit hashset named valid to result
+    - edit hashset named smartphone to phonenumber
+    - edit hashset named sum to vegetable
+    - edit hashset named touchscreen to red
+    - edit hashset named valid to can
+    - edit hashset named laptop to can
+    - edit hashset named r to valid
+    - edit hashset named bike to wheel
+    - edit hashset named num to vegetable
+    - edit hashset named userid to screen
+    - edit hashset named eatables to blue
+    - edit hashset named s to userid
+    - edit hashset named price to hospital
+    - edit hashset named location to bus
+    - edit hashset named bus to hashset
+    - edit hashset named height to q
+    - edit hashset named r to valid
+    - edit hashset named hospital to screen
+    - edit hashset named age to b
+    - edit hashset named main to van
+    - edit hashset named red to age
+    - edit hashset named x to z
+    - edit hashset named userid to y
+    - edit hashset named smartphone to a
+    - edit hashset named userid to eatables
+    - edit hashset named subtract to arr
+    - edit hashset named van to phonenumber
+    - edit hashset named subtract to value
+    - edit hashset named main to a
+    - edit hashset named master to key
+    - edit hashset named count to eatables
+    - edit hashset named emailaddress to master
+    - edit hashset named department to van
+    - edit hashset named price to red
+    - edit hashset named z to white
+    - edit hashset named white to contactnumber
+    - edit hashset named p to value
+    - edit hashset named key to fruit
+    - edit hashset named price to b
+    - edit hashset named bus to b
+    - edit hashset named y to userid
+    - edit hashset named size to main
+    - edit hashset named num to value
+    - edit hashset named size to height
+    - edit hashset named keyboard to touchscreen
+    - edit hashset named hospital to computer
+    - edit hashset named addition to z
+    - edit hashset named q to address
+    - edit hashset named val to result
+    - edit hashset named result to subtract
+    - edit hashset named seat to y
+    - edit hashset named emailaddress to cost
+    - edit hashset named email to result
+    - edit hashset named glass to z
+    - edit hashset named keyboard to id
+    - edit hashset named screen to eatables
+    - edit hashset named age to phone
+    - edit hashset named hospital to master
+    - edit hashset named screen to value
+    - edit hashset named yellow to bus
+    - edit hashset named price to can
+    - edit hashset named count to num
+    - edit hashset named phonenumber to van
+    - edit hashset named contact to contactnumber
+    - edit hashset named touchscreen to p
+    - edit hashset named eatables to sum
+    - edit hashset named department to can
+    - edit hashset named vegetable to value
+    - edit hashset named address to id
+    - edit hashset named contact to cost
+    - edit hashset named phone to user
+    - edit hashset named price to bike
+    - edit hashset name car to main
+    - edit hashset name contact to fruit
+    - edit hashset name contact to wheel
+    - edit hashset name num to result
+    - edit hashset name contactnumber to emailaddress
+    - edit hashset name master to size
+    - edit hashset name phone to bus
+    - edit hashset name screen to bike
+    - edit hashset name can to main
+    - edit hashset name yellow to car
+    - edit hashset name q to addition
+    - edit hashset name contact to val
+    - edit hashset name yellow to address
+    - edit hashset name weight to emailaddress
+    - edit hashset name sum to value
+    - edit hashset name sum to black
+    - edit hashset name arr to touchscreen
+    - edit hashset name wheel to location
+    - edit hashset name mobilephone to wheel
+    - edit hashset name z to size
+    - edit hashset name p to result
+    - edit hashset name cost to black
+    - edit hashset name yellow to addition
+    - edit hashset name food to mobilephone
+    - edit hashset name result to value
+    - edit hashset name black to van
+    - edit hashset name z to master
+    - edit hashset name department to car
+    - edit hashset name c to addition
+    - edit hashset name q to b
+    - edit hashset name y to answer
+    - edit hashset name weight to x
+    - edit hashset name q to email
+    - edit hashset name s to result
+    - edit hashset name keyboard to bag
+    - edit hashset name emailaddress to phone
+    - edit hashset name touchscreen to c
+    - edit hashset name contactnumber to laptop
+    - edit hashset name price to answer
+    - edit hashset name computer to weight
+    - edit hashset name val to height
+    - edit hashset name location to arr
+    - edit hashset name black to answer
+    - edit hashset name main to s
+    - edit hashset name bag to seat
+    - edit hashset name blue to screen
+    - edit hashset name r to mouse
+    - edit hashset name laptop to val
+    - edit hashset name white to c
+    - edit hashset name size to car
+    - edit hashset name s to value
+    - edit hashset name glass to mouse
+    - edit hashset name keyboard to value
+    - edit hashset name glass to r
+    - edit hashset name black to red
+    - edit hashset name can to master
+    - edit hashset name phone to cost
+    - edit hashset name yellow to c
+    - edit hashset name b to yellow
+    - edit hashset name val to age
+    - edit hashset name s to y
+    - edit hashset name c to phone
+    - edit hashset name arr to computer
+    - edit hashset name hashset to touchscreen
+    - edit hashset name bag to x
+    - edit hashset name touchscreen to laptop
+    - edit hashset name department to food
+    - edit hashset name red to can
+    - edit hashset name result to subtract
+    - edit hashset name laptop to main
+    - edit hashset name emailaddress to hashset
+    - edit hashset name height to van
+    - edit hashset name black to userid
+    - edit hashset name red to touchscreen
+    - edit hashset name height to weight
+    - edit hashset name sum to y
+    - edit hashset name can to emailaddress
+    - edit hashset name wheel to phonenumber
+    - edit hashset name a to main
+    - edit hashset name user to food
+    - edit hashset name sum to user
+    - edit hashset name car to r
+    - edit hashset name location to vegetable
+    - edit hashset name answer to x
+    - edit hashset name seat to size
+    - edit hashset name arr to wheel
+    - edit hashset name white to smartphone
+    - edit hashset name addition to glass
+    - edit hashset name contactnumber to x
+    - edit hashset name arr to location
+    - edit hashset name bike to vegetable
+    - edit hashset name id to smartphone
+    - edit hashset name wheel to x
+    - edit hashset name user to email
+    - edit hashset name phone to contact
+    - edit hashset name main to count
+    - edit hashset name seat to r
+    - edit hashset name laptop to eatables
+    - edit hashset name bus to val
+    - edit hashset name hospital to sum
+    - edit hashset name key to seat
+    - edit hashset name cost to answer
+    - edit hashset name red to keyboard
+    - edit hashset name blue to contact
+    - edit hashset name height to s
+    - edit hashset name hospital to keyboard
+    - edit hashset name fruit to white
+    - edit hashset name hospital to size
+    - edit hashset name laptop to blue
+    - edit hashset name vegetable to size
+    - edit hashset name black to bag
+    - edit hashset name touchscreen to hashset
+    - edit hashset name vegetable to price
+    - edit hashset name a to size
+    - edit hashset name height to addition
+    - edit hashset name cost to c
+    - edit hashset name age to emailaddress
+    - edit hashset name email to result
+    - edit hashset name subtract to glass
+    - edit hashset name p to key
+    - edit hashset name c to cost
+    - edit hashset name key to num
+    - edit hashset name wheel to black
+    - edit hashset name subtract to blue
+    - edit hashset name hashset to blue
+    - edit hashset name emailaddress to key
+    - edit hashset name glass to main
+    - edit hashset name height to eatables
+    - edit hashset name bike to wheel
+    - edit hashset name mouse to vegetable
+    - edit hashset name main to contactnumber
+    - edit hashset name glass to vegetable
+    - edit hashset name eatables to laptop
+    - edit hashset name red to seat
+    - edit hashset name wheel to user
+    - edit hashset name blue to a
+    - edit hashset name result to white
+    - edit hashset name glass to yellow
+    - edit hashset name answer to can
+    - edit hashset name z to hospital
+    - edit hashset size to computer
+    - edit hashset glass to mobilephone
+    - edit hashset x to computer
+    - edit hashset fruit to address
+    - edit hashset num to weight
+    - edit hashset cost to userid
+    - edit hashset size to mouse
+    - edit hashset y to computer
+    - edit hashset screen to count
+    - edit hashset yellow to laptop
+    - edit hashset num to z
+    - edit hashset userid to bus
+    - edit hashset count to location
+    - edit hashset email to hashset
+    - edit hashset department to mouse
+    - edit hashset seat to s
+    - edit hashset phone to food
+    - edit hashset location to department
+    - edit hashset keyboard to contactnumber
+    - edit hashset keyboard to sum
+    - edit hashset bus to valid
+    - edit hashset mouse to a
+    - edit hashset hospital to key
+    - edit hashset department to car
+    - edit hashset keyboard to computer
+    - edit hashset address to height
+    - edit hashset y to answer
+    - edit hashset bag to addition
+    - edit hashset cost to contactnumber
+    - edit hashset y to addition
+    - edit hashset addition to a
+    - edit hashset cost to age
+    - edit hashset answer to location
+    - edit hashset z to x
+    - edit hashset val to main
+    - edit hashset car to emailaddress
+    - edit hashset email to weight
+    - edit hashset eatables to van
+    - edit hashset id to userid
+    - edit hashset yellow to red
+    - edit hashset emailaddress to value
+    - edit hashset a to user
+    - edit hashset fruit to phone
+    - edit hashset c to mobilephone
+    - edit hashset userid to yellow
+    - edit hashset age to q
+    - edit hashset c to vegetable
+    - edit hashset emailaddress to sum
+    - edit hashset price to val
+    - edit hashset key to food
+    - edit hashset food to count
+    - edit hashset addition to computer
+    - edit hashset arr to yellow
+    - edit hashset address to mouse
+    - edit hashset computer to vegetable
+    - edit hashset screen to z
+    - edit hashset department to van
+    - edit hashset eatables to cost
+    - edit hashset count to glass
+    - edit hashset num to y
+    - edit hashset phone to computer
+    - edit hashset black to smartphone
+    - edit hashset mouse to food
+    - edit hashset a to val
+    - edit hashset arr to main
+    - edit hashset fruit to y
+    - edit hashset y to black
+    - edit hashset count to van
+    - edit hashset keyboard to touchscreen
+    - edit hashset yellow to contactnumber
+    - edit hashset p to food
+    - edit hashset black to department
+    - edit hashset vegetable to count
+    - edit hashset black to hashset
+    - edit hashset mobilephone to white
+    - edit hashset answer to id
+    - edit hashset hospital to location
+    - edit hashset weight to height
+    - edit hashset laptop to bike
+    - edit hashset black to eatables
+    - edit hashset yellow to a
+    - edit hashset laptop to white
+    - edit hashset z to addition
+    - edit hashset key to white
+    - edit hashset count to r
+    - edit hashset seat to userid
+    - edit hashset bag to valid
+    - edit hashset age to p
+    - edit hashset phonenumber to b
+    - edit hashset contact to main
+    - edit hashset r to computer
+    - edit hashset s to location
+    - edit hashset can to main
+    - edit hashset arr to contactnumber
+    - edit hashset user to department
+    - edit hashset contactnumber to contact
+    - edit hashset black to y
+    - edit hashset valid to main
+    - edit hashset p to emailaddress
+    - edit hashset count to height
+    - edit hashset screen to b
+    - edit hashset smartphone to location
+    - edit hashset price to arr
+    - edit hashset s to fruit
+    - edit hashset red to bus
+    - edit hashset p to yellow
+    - edit hashset x to mouse
+    - edit hashset z to value
+    - edit hashset phone to x
+    - edit hashset z to a
+    - edit hashset mobilephone to val
+    - edit hashset cost to answer
+    - edit hashset fruit to laptop
+    - edit hashset car to cost
+    - edit hashset arr to vegetable
+    - edit hashset size to value
+    - edit hashset food to bag
+    - edit hashset hospital to fruit
+    - edit hashset mouse to a
+    - edit hashset fruit to result
+    - edit hashset num to x
+    - edit hashset price to y
+    - edit hashset van to id
+    - edit hashset yellow to userid
+    - edit hashset q to valid
+    - edit hashset key to screen
+    - edit hashset food to red
+    - edit hashset vegetable to bag
+    - edit hashset y to department
+    - edit hashset mouse to master
+    - edit hashset white to blue
+    - edit hashset mouse to van
+    - edit hashset count to sum
+    - edit hashset b to hashset
+    - edit hashset red to result
+    - edit hashset hospital to contactnumber
+    - edit hashset address to laptop
+    - edit hashset addition to answer
+    - edit hashset master to department
+    - edit hashset s to laptop
+
+- intent: addvaluehashset
+  examples: |    
+    - add value five to hashset named main
+    - add value computer to hashset named master
+    - add value sum to hashset named size
+    - add value p to hashset named height
+    - add value id to hashset named weight
+    - add value userid to hashset named bag
+    - add value red to hashset named can
+    - add value bag to hashset named computer
+    - add value service to hashset named phone
+    - add value master to hashset named laptop
+    - add value aeroplane to hashset named mobilephone
+    - add value sum to hashset named smartphone
+    - add value campus to hashset named phonenumber
+    - add value kamal to hashset named contactnumber
+    - add value b to hashset named address
+    - add value one to hashset named location
+    - add value mobile to hashset named email
+    - add value computer to hashset named contact
+    - add value three to hashset named emailaddress
+    - add value z to hashset named mouse
+    - add value price to hashset named keyboard
+    - add value eatables to hashset named screen
+    - add value contact to hashset named touchscreen
+    - add value num to hashset named fruit
+    - add value touch to hashset named food
+    - add value blue to hashset named vegetable
+    - add value email to hashset named eatables
+    - add value fruit to hashset named price
+    - add value car to hashset named cost
+    - add value mobilephone to hashset named sum
+    - add value p to hashset named addition
+    - add value plate to hashset named a
+    - add value q to hashset named b
+    - add value main to hashset named c
+    - add value y to hashset named p
+    - add value z to hashset named q
+    - add value user to hashset named r
+    - add value size to hashset named s
+    - add value eatables to hashset named x
+    - add value mobilephone to hashset named y
+    - add value vegetable to hashset named z
+    - add value wheel to hashset named answer
+    - add value phone to hashset named result
+    - add value two to hashset named user
+    - add value three to hashset named userid
+    - add value c to hashset named id
+    - add value main to hashset named num
+    - add value mobilephone to hashset named age
+    - add value hospital to hashset named department
+    - add value userid to hashset named hospital
+    - add value blue to hashset named wheel
+    - add value num to hashset named seat
+    - add value home to hashset named car
+    - add value blue to hashset named bus
+    - add value school to hashset named van
+    - add value one to hashset named glass
+    - add value three to hashset named red
+    - add value r to hashset named black
+    - add value ten to hashset named white
+    - add value black to hashset named blue
+    - add value q to hashset named yellow
+    - add value size to hashset named valid
+    - add value hospital to hashset named subtract
+    - add value two to hashset named value
+    - add value service to hashset named arr
+    - add value car to hashset named i
+    - add value location to hashset named val
+    - add value z to hashset named key
+    - add value laptop to hashset named count
+    - add value laptop to hashset name main
+    - add value x to hashset name master
+    - add value c to hashset name size
+    - add value id to hashset name height
+    - add value service to hashset name weight
+    - add value university to hashset name bag
+    - add value fruit to hashset name can
+    - add value master to hashset name computer
+    - add value q to hashset name phone
+    - add value three to hashset name laptop
+    - add value school to hashset name mobilephone
+    - add value bag to hashset name smartphone
+    - add value six to hashset name phonenumber
+    - add value api to hashset name contactnumber
+    - add value screen to hashset name address
+    - add value result to hashset name location
+    - add value controller to hashset name email
+    - add value university to hashset name contact
+    - add value id to hashset name emailaddress
+    - add value eatables to hashset name mouse
+    - add value black to hashset name keyboard
+    - add value van to hashset name screen
+    - add value r to hashset name touchscreen
+    - add value one to hashset name fruit
+    - add value sum to hashset name food
+    - add value num to hashset name vegetable
+    - add value cost to hashset name eatables
+    - add value age to hashset name price
+    - add value id to hashset name cost
+    - add value laptop to hashset name sum
+    - add value seat to hashset name addition
+    - add value university to hashset name a
+    - add value university to hashset name b
+    - add value repository to hashset name c
+    - add value size to hashset name p
+    - add value kamal to hashset name q
+    - add value id to hashset name r
+    - add value address to hashset name s
+    - add value model to hashset name x
+    - add value mobile to hashset name y
+    - add value fruit to hashset name z
+    - add value van to hashset name answer
+    - add value food to hashset name result
+    - add value age to hashset name user
+    - add value vegetable to hashset name userid
+    - add value repo to hashset name id
+    - add value department to hashset name num
+    - add value four to hashset name age
+    - add value repo to hashset name department
+    - add value z to hashset name hospital
+    - add value eatables to hashset name wheel
+    - add value campus to hashset name seat
+    - add value eight to hashset name car
+    - add value six to hashset name bus
+    - add value vegetable to hashset name van
+    - add value three to hashset name bike
+    - add value house to hashset name glass
+    - add value size to hashset name red
+    - add value blue to hashset name black
+    - add value model to hashset name white
+    - add value screen to hashset name blue
+    - add value result to hashset name yellow
+    - add value computer to hashset name valid
+    - add value mouse to hashset name subtract
+    - add value sunil to hashset name value
+    - add value seven to hashset name arr
+    - add value ten to hashset name i
+    - add value van to hashset name val
+    - add value campus to hashset name key
+    - add value school to hashset name count
+    - add value phone to hashset main
+    - add value car to hashset master
+    - add value red to hashset size
+    - add value sunil to hashset height
+    - add value x to hashset weight
+    - add value eight to hashset bag
+    - add value bus to hashset can
+    - add value weight to hashset computer
+    - add value hospital to hashset phone
+    - add value computer to hashset laptop
+    - add value location to hashset mobilephone
+    - add value main to hashset smartphone
+    - add value mobile to hashset phonenumber
+    - add value aeroplane to hashset contactnumber
+    - add value campus to hashset address
+    - add value answer to hashset location
+    - add value cost to hashset email
+    - add value bottle to hashset contact
+    - add value department to hashset emailaddress
+    - add value eatables to hashset mouse
+    - add value addition to hashset keyboard
+    - add value aeroplane to hashset screen
+    - add value touch to hashset touchscreen
+    - add value one to hashset fruit
+    - add value repo to hashset food
+    - add value age to hashset vegetable
+    - add value vegetable to hashset eatables
+    - add value location to hashset price
+    - add value can to hashset sum
+    - add value four to hashset addition
+    - add value can to hashset a
+    - add value phone to hashset b
+    - add value aeroplane to hashset c
+    - add value university to hashset p
+    - add value wheel to hashset q
+    - add value university to hashset r
+    - add value location to hashset s
+    - add value q to hashset x
+    - add value computer to hashset y
+    - add value p to hashset z
+    - add value seat to hashset answer
+    - add value chandra to hashset result
+    - add value two to hashset user
+    - add value contact to hashset userid
+    - add value cost to hashset id
+    - add value five to hashset num
+    - add value black to hashset age
+    - add value university to hashset department
+    - add value bottle to hashset hospital
+    - add value email to hashset wheel
+    - add value two to hashset seat
+    - add value q to hashset bus
+    - add value chandra to hashset van
+    - add value user to hashset bike
+    - add value five to hashset glass
+    - add value answer to hashset red
+    - add value kamal to hashset black
+    - add value service to hashset white
+    - add value smartphone to hashset blue
+    - add value q to hashset yellow
+    - add value controller to hashset valid
+    - add value aeroplane to hashset subtract
+    - add value five to hashset value
+    - add value cost to hashset arr
+    - add value mobilephone to hashset i
+    - add value laptop to hashset val
+    - add value car to hashset key
+    - add value laptop to hashset count
+    - value hospital add to hashset named main
+    - value bottle add to hashset named master
+    - value glass add to hashset named size
+    - value glass add to hashset named height
+    - value location add to hashset named weight
+    - value q add to hashset named bag
+    - value school add to hashset named can
+    - value master add to hashset named computer
+    - value repository add to hashset named phone
+    - value sunil add to hashset named laptop
+    - value z add to hashset named mobilephone
+    - value answer add to hashset named smartphone
+    - value computer add to hashset named phonenumber
+    - value address add to hashset named contactnumber
+    - value eight add to hashset named address
+    - value util add to hashset named location
+    - value sum add to hashset named email
+    - value b add to hashset named contact
+    - value blue add to hashset named emailaddress
+    - value a add to hashset named mouse
+    - value van add to hashset named keyboard
+    - value bus add to hashset named screen
+    - value car add to hashset named touchscreen
+    - value white add to hashset named fruit
+    - value plate add to hashset named food
+    - value main add to hashset named vegetable
+    - value contact add to hashset named eatables
+    - value computer add to hashset named price
+    - value fruit add to hashset named cost
+    - value blue add to hashset named sum
+    - value two add to hashset named addition
+    - value master add to hashset named a
+    - value keyboard add to hashset named b
+    - value answer add to hashset named c
+    - value two add to hashset named p
+    - value aeroplane add to hashset named q
+    - value bottle add to hashset named r
+    - value white add to hashset named s
+    - value nine add to hashset named x
+    - value campus add to hashset named y
+    - value van add to hashset named z
+    - value c add to hashset named answer
+    - value seat add to hashset named result
+    - value two add to hashset named user
+    - value z add to hashset named userid
+    - value food add to hashset named id
+    - value s add to hashset named num
+    - value p add to hashset named age
+    - value service add to hashset named department
+    - value cost add to hashset named hospital
+    - value size add to hashset named wheel
+    - value aeroplane add to hashset named seat
+    - value r add to hashset named car
+    - value contact add to hashset named bus
+    - value bus add to hashset named van
+    - value keyboard add to hashset named bike
+    - value addition add to hashset named glass
+    - value controller add to hashset named red
+    - value cost add to hashset named black
+    - value can add to hashset named white
+    - value five add to hashset named blue
+    - value department add to hashset named yellow
+    - value bike add to hashset named valid
+    - value one add to hashset named subtract
+    - value chandra add to hashset named value
+    - value keyboard add to hashset named arr
+    - value model add to hashset named i
+    - value answer add to hashset named val
+    - value hospital add to hashset named key
+    - value fruit add to hashset named count
+    - value seven add to hashset name main
+    - value house add to hashset name master
+    - value amal add to hashset name size
+    - value addition add to hashset name height
+    - value userid add to hashset name weight
+    - value price add to hashset name bag
+    - value service add to hashset name can
+    - value car add to hashset name computer
+    - value chandra add to hashset name phone
+    - value master add to hashset name laptop
+    - value address add to hashset name mobilephone
+    - value five add to hashset name smartphone
+    - value master add to hashset name phonenumber
+    - value cup add to hashset name contactnumber
+    - value bag add to hashset name address
+    - value touch add to hashset name location
+    - value addition add to hashset name email
+    - value hospital add to hashset name contact
+    - value food add to hashset name emailaddress
+    - value p add to hashset name mouse
+    - value p add to hashset name keyboard
+    - value service add to hashset name screen
+    - value a add to hashset name touchscreen
+    - value can add to hashset name fruit
+    - value six add to hashset name food
+    - value p add to hashset name vegetable
+    - value master add to hashset name eatables
+    - value three add to hashset name price
+    - value mobile add to hashset name cost
+    - value price add to hashset name sum
+    - value mouse add to hashset name addition
+    - value laptop add to hashset name a
+    - value black add to hashset name b
+    - value amal add to hashset name c
+    - value blue add to hashset name p
+    - value house add to hashset name q
+    - value white add to hashset name r
+    - value age add to hashset name s
+    - value userid add to hashset name x
+    - value a add to hashset name y
+    - value api add to hashset name z
+    - value aeroplane add to hashset name answer
+    - value mobilephone add to hashset name result
+    - value car add to hashset name user
+    - value university add to hashset name userid
+    - value q add to hashset name id
+    - value controller add to hashset name num
+    - value q add to hashset name age
+    - value three add to hashset name department
+    - value cup add to hashset name hospital
+    - value white add to hashset name wheel
+    - value contact add to hashset name seat
+    - value chandra add to hashset name bus
+    - value b add to hashset name van
+    - value wheel add to hashset name bike
+    - value eatables add to hashset name glass
+    - value mouse add to hashset name red
+    - value bike add to hashset name black
+    - value location add to hashset name white
+    - value utility add to hashset name blue
+    - value three add to hashset name yellow
+    - value can add to hashset name valid
+    - value blue add to hashset name subtract
+    - value mouse add to hashset name value
+    - value address add to hashset name arr
+    - value size add to hashset name i
+    - value food add to hashset name val
+    - value one add to hashset name key
+    - value address add to hashset name count
+    - value touch add to hashset main
+    - value a add to hashset master
+    - value controller add to hashset size
+    - value campus add to hashset height
+    - value user add to hashset weight
+    - value sum add to hashset bag
+    - value computer add to hashset can
+    - value vegetable add to hashset computer
+    - value bottle add to hashset phone
+    - value mouse add to hashset laptop
+    - value laptop add to hashset mobilephone
+    - value controller add to hashset smartphone
+    - value sum add to hashset phonenumber
+    - value y add to hashset contactnumber
+    - value hospital add to hashset address
+    - value weight add to hashset location
+    - value car add to hashset email
+    - value model add to hashset contact
+    - value z add to hashset emailaddress
+    - value q add to hashset mouse
+    - value b add to hashset keyboard
+    - value size add to hashset screen
+    - value main add to hashset touchscreen
+    - value email add to hashset fruit
+    - value b add to hashset food
+    - value touch add to hashset vegetable
+    - value aeroplane add to hashset eatables
+    - value c add to hashset price
+    - value eatables add to hashset cost
+    - value school add to hashset sum
+    - value contact add to hashset addition
+    - value mobilephone add to hashset a
+    - value controller add to hashset b
+    - value result add to hashset c
+    - value id add to hashset p
+    - value email add to hashset q
+    - value touch add to hashset r
+    - value black add to hashset s
+    - value house add to hashset x
+    - value kamal add to hashset y
+    - value utility add to hashset z
+    - value hospital add to hashset answer
+    - value cup add to hashset result
+    - value answer add to hashset user
+    - value sum add to hashset userid
+    - value screen add to hashset id
+    - value r add to hashset num
+    - value sum add to hashset age
+    - value ten add to hashset department
+    - value ten add to hashset hospital
+    - value height add to hashset wheel
+    - value q add to hashset seat
+    - value x add to hashset car
+    - value contact add to hashset bus
+    - value house add to hashset van
+    - value z add to hashset bike
+    - value age add to hashset glass
+    - value seven add to hashset red
+    - value bag add to hashset black
+    - value location add to hashset white
+    - value sunil add to hashset blue
+    - value bag add to hashset yellow
+    - value p add to hashset valid
+    - value service add to hashset subtract
+    - value fruit add to hashset value
+    - value car add to hashset arr
+    - value plate add to hashset i
+    - value bottle add to hashset val
+    - value master add to hashset key
+    - value glass add to hashset count
+    - add red to hashset named main
+    - add campus to hashset named master
+    - add mouse to hashset named size
+    - add c to hashset named height
+    - add age to hashset named weight
+    - add utility to hashset named bag
+    - add weight to hashset named can
+    - add laptop to hashset named computer
+    - add department to hashset named phone
+    - add ten to hashset named laptop
+    - add b to hashset named mobilephone
+    - add computer to hashset named smartphone
+    - add id to hashset named phonenumber
+    - add eatables to hashset named contactnumber
+    - add smartphone to hashset named address
+    - add chandra to hashset named location
+    - add s to hashset named email
+    - add white to hashset named contact
+    - add price to hashset named emailaddress
+    - add cost to hashset named mouse
+    - add bag to hashset named keyboard
+    - add phone to hashset named screen
+    - add controller to hashset named touchscreen
+    - add model to hashset named fruit
+    - add bus to hashset named food
+    - add bottle to hashset named vegetable
+    - add school to hashset named eatables
+    - add hospital to hashset named price
+    - add answer to hashset named cost
+    - add weight to hashset named sum
+    - add a to hashset named addition
+    - add ten to hashset named a
+    - add red to hashset named b
+    - add utility to hashset named c
+    - add contact to hashset named p
+    - add eatables to hashset named q
+    - add bus to hashset named r
+    - add bag to hashset named s
+    - add eatables to hashset named x
+    - add red to hashset named y
+    - add blue to hashset named z
+    - add weight to hashset named answer
+    - add eatables to hashset named result
+    - add sunil to hashset named user
+    - add email to hashset named userid
+    - add van to hashset named id
+    - add a to hashset named num
+    - add black to hashset named age
+    - add userid to hashset named department
+    - add contact to hashset named hospital
+    - add black to hashset named wheel
+    - add p to hashset named seat
+    - add r to hashset named car
+    - add mouse to hashset named bus
+    - add api to hashset named van
+    - add food to hashset named bike
+    - add cup to hashset named glass
+    - add location to hashset named red
+    - add master to hashset named black
+    - add hospital to hashset named white
+    - add p to hashset named blue
+    - add utility to hashset named yellow
+    - add repository to hashset named valid
+    - add main to hashset named subtract
+    - add bottle to hashset named value
+    - add bottle to hashset named arr
+    - add num to hashset named i
+    - add cup to hashset named val
+    - add p to hashset named key
+    - add size to hashset named count
+    - add touch to hashset name main
+    - add service to hashset name master
+    - add six to hashset name size
+    - add amal to hashset name height
+    - add answer to hashset name weight
+    - add age to hashset name bag
+    - add two to hashset name can
+    - add user to hashset name computer
+    - add mobile to hashset name phone
+    - add location to hashset name laptop
+    - add black to hashset name mobilephone
+    - add wheel to hashset name smartphone
+    - add location to hashset name phonenumber
+    - add b to hashset name contactnumber
+    - add weight to hashset name address
+    - add chandra to hashset name location
+    - add black to hashset name email
+    - add user to hashset name contact
+    - add hospital to hashset name emailaddress
+    - add vegetable to hashset name mouse
+    - add university to hashset name keyboard
+    - add s to hashset name screen
+    - add utility to hashset name touchscreen
+    - add four to hashset name fruit
+    - add bottle to hashset name food
+    - add phone to hashset name vegetable
+    - add q to hashset name eatables
+    - add ten to hashset name price
+    - add address to hashset name cost
+    - add api to hashset name sum
+    - add q to hashset name addition
+    - add car to hashset name a
+    - add seat to hashset name b
+    - add black to hashset name c
+    - add bus to hashset name p
+    - add amal to hashset name q
+    - add bottle to hashset name r
+    - add service to hashset name s
+    - add email to hashset name x
+    - add contact to hashset name y
+    - add amal to hashset name z
+    - add four to hashset name answer
+    - add red to hashset name result
+    - add bag to hashset name user
+    - add bus to hashset name userid
+    - add num to hashset name id
+    - add result to hashset name num
+    - add email to hashset name age
+    - add fruit to hashset name department
+    - add keyboard to hashset name hospital
+    - add aeroplane to hashset name wheel
+    - add mobile to hashset name seat
+    - add mouse to hashset name car
+    - add red to hashset name bus
+    - add sunil to hashset name van
+    - add smartphone to hashset name bike
+    - add touch to hashset name glass
+    - add userid to hashset name red
+    - add result to hashset name black
+    - add aeroplane to hashset name white
+    - add repository to hashset name blue
+    - add red to hashset name yellow
+    - add model to hashset name valid
+    - add util to hashset name subtract
+    - add result to hashset name value
+    - add s to hashset name arr
+    - add two to hashset name i
+    - add service to hashset name val
+    - add four to hashset name key
+    - add address to hashset name count
+    - add age to hashset main
+    - add p to hashset master
+    - add university to hashset size
+    - add aeroplane to hashset height
+    - add main to hashset weight
+    - add c to hashset bag
+    - add eight to hashset can
+    - add hospital to hashset computer
+    - add can to hashset phone
+    - add userid to hashset mobilephone
+    - add y to hashset smartphone
+    - add sum to hashset phonenumber
+    - add school to hashset contactnumber
+    - add c to hashset address
+    - add five to hashset location
+    - add four to hashset email
+    - add wheel to hashset contact
+    - add mobilephone to hashset emailaddress
+    - add aeroplane to hashset mouse
+    - add three to hashset keyboard
+    - add x to hashset screen
+    - add seven to hashset touchscreen
+    - add phone to hashset fruit
+    - add weight to hashset food
+    - add house to hashset vegetable
+    - add q to hashset eatables
+    - add phone to hashset price
+    - add s to hashset cost
+    - add aeroplane to hashset sum
+    - add size to hashset addition
+    - add car to hashset a
+    - add four to hashset b
+    - add b to hashset c
+    - add b to hashset q
+    - add wheel to hashset r
+    - add sum to hashset s
+    - add amal to hashset x
+    - add phone to hashset y
+    - add utility to hashset z
+    - add vegetable to hashset answer
+    - add user to hashset result
+    - add five to hashset user
+    - add aeroplane to hashset userid
+    - add height to hashset id
+    - add two to hashset num
+    - add kamal to hashset age
+    - add bag to hashset department
+    - add weight to hashset hospital
+    - add red to hashset wheel
+    - add touch to hashset seat
+    - add eatables to hashset car
+    - add campus to hashset bus
+    - add x to hashset van
+    - add three to hashset bike
+    - add screen to hashset glass
+    - add z to hashset red
+    - add nine to hashset black
+    - add eight to hashset white
+    - add seat to hashset blue
+    - add age to hashset yellow
+    - add keyboard to hashset valid
+    - add kamal to hashset subtract
+    - add x to hashset value
+    - add age to hashset arr
+    - add can to hashset i
+    - add food to hashset val
+    - add y to hashset key
+    - add address to hashset count
+    - size add to hashset named main
+    - three add to hashset named master
+    - service add to hashset named size
+    - amal add to hashset named height
+    - eatables add to hashset named weight
+    - num add to hashset named bag
+    - computer add to hashset named can
+    - size add to hashset named computer
+    - repo add to hashset named phone
+    - r add to hashset named laptop
+    - house add to hashset named mobilephone
+    - car add to hashset named smartphone
+    - contact add to hashset named phonenumber
+    - location add to hashset named contactnumber
+    - height add to hashset named address
+    - white add to hashset named location
+    - q add to hashset named email
+    - cup add to hashset named contact
+    - six add to hashset named emailaddress
+    - house add to hashset named mouse
+    - addition add to hashset named keyboard
+    - house add to hashset named screen
+    - four add to hashset named touchscreen
+    - vegetable add to hashset named fruit
+    - home add to hashset named food
+    - service add to hashset named vegetable
+    - size add to hashset named eatables
+    - repo add to hashset named price
+    - eatables add to hashset named cost
+    - four add to hashset named sum
+    - car add to hashset named addition
+    - black add to hashset named a
+    - bus add to hashset named b
+    - nine add to hashset named c
+    - blue add to hashset named p
+    - touch add to hashset named q
+    - addition add to hashset named r
+    - hospital add to hashset named s
+    - answer add to hashset named x
+    - main add to hashset named y
+    - p add to hashset named z
+    - bottle add to hashset named answer
+    - z add to hashset named result
+    - r add to hashset named user
+    - weight add to hashset named userid
+    - price add to hashset named id
+    - food add to hashset named num
+    - phone add to hashset named age
+    - home add to hashset named department
+    - service add to hashset named hospital
+    - controller add to hashset named wheel
+    - bottle add to hashset named seat
+    - fruit add to hashset named car
+    - mobilephone add to hashset named bus
+    - height add to hashset named van
+    - computer add to hashset named bike
+    - master add to hashset named glass
+    - answer add to hashset named red
+    - house add to hashset named black
+    - wheel add to hashset named white
+    - five add to hashset named blue
+    - mobile add to hashset named yellow
+    - num add to hashset named valid
+    - car add to hashset named subtract
+    - mobile add to hashset named value
+    - food add to hashset named arr
+    - bike add to hashset named i
+    - controller add to hashset named val
+    - bottle add to hashset named key
+    - six add to hashset named count
+    - util add to hashset name main
+    - size add to hashset name master
+    - contact add to hashset name size
+    - location add to hashset name height
+    - sunil add to hashset name weight
+    - service add to hashset name bag
+    - size add to hashset name can
+    - x add to hashset name computer
+    - c add to hashset name phone
+    - red add to hashset name laptop
+    - bag add to hashset name mobilephone
+    - car add to hashset name smartphone
+    - red add to hashset name phonenumber
+    - eatables add to hashset name contactnumber
+    - repo add to hashset name address
+    - height add to hashset name location
+    - four add to hashset name email
+    - bag add to hashset name contact
+    - y add to hashset name emailaddress
+    - sunil add to hashset name mouse
+    - seven add to hashset name keyboard
+    - y add to hashset name screen
+    - model add to hashset name touchscreen
+    - size add to hashset name fruit
+    - s add to hashset name food
+    - sunil add to hashset name vegetable
+    - van add to hashset name eatables
+    - q add to hashset name price
+    - three add to hashset name cost
+    - cup add to hashset name sum
+    - ten add to hashset name addition
+    - five add to hashset name a
+    - num add to hashset name b
+    - department add to hashset name c
+    - black add to hashset name p
+    - phone add to hashset name q
+    - computer add to hashset name r
+    - amal add to hashset name s
+    - q add to hashset name x
+    - laptop add to hashset name y
+    - two add to hashset name z
+    - blue add to hashset name answer
+    - touch add to hashset name result
+    - aeroplane add to hashset name user
+    - a add to hashset name userid
+    - sum add to hashset name id
+    - department add to hashset name num
+    - six add to hashset name age
+    - user add to hashset name department
+    - api add to hashset name hospital
+    - four add to hashset name wheel
+    - vegetable add to hashset name seat
+    - model add to hashset name car
+    - chandra add to hashset name bus
+    - addition add to hashset name van
+    - user add to hashset name bike
+    - smartphone add to hashset name glass
+    - school add to hashset name red
+    - model add to hashset name black
+    - ten add to hashset name white
+    - screen add to hashset name blue
+    - two add to hashset name yellow
+    - keyboard add to hashset name valid
+    - six add to hashset name subtract
+    - cup add to hashset name value
+    - phone add to hashset name arr
+    - aeroplane add to hashset name i
+    - touch add to hashset name val
+    - keyboard add to hashset name key
+    - bus add to hashset name count
+    - seat add to hashset main
+    - six add to hashset master
+    - r add to hashset size
+    - bike add to hashset height
+    - chandra add to hashset weight
+    - bus add to hashset bag
+    - z add to hashset can
+    - address add to hashset computer
+    - main add to hashset phone
+    - location add to hashset laptop
+    - aeroplane add to hashset mobilephone
+    - height add to hashset smartphone
+    - blue add to hashset phonenumber
+    - c add to hashset contactnumber
+    - weight add to hashset address
+    - util add to hashset location
+    - smartphone add to hashset email
+    - bike add to hashset contact
+    - school add to hashset emailaddress
+    - a add to hashset mouse
+    - sunil add to hashset keyboard
+    - hospital add to hashset screen
+    - kamal add to hashset touchscreen
+    - addition add to hashset fruit
+    - three add to hashset food
+    - one add to hashset vegetable
+    - ten add to hashset eatables
+    - eatables add to hashset price
+    - controller add to hashset cost
+    - car add to hashset sum
+    - screen add to hashset addition
+    - s add to hashset a
+    - location add to hashset b
+    - service add to hashset c
+    - location add to hashset p
+    - campus add to hashset q
+    - cost add to hashset r
+    - laptop add to hashset s
+    - laptop add to hashset x
+    - nine add to hashset y
+    - mobilephone add to hashset z
+    - sunil add to hashset answer
+    - red add to hashset result
+    - q add to hashset user
+    - location add to hashset userid
+    - keyboard add to hashset id
+    - size add to hashset num
+    - van add to hashset age
+    - eatables add to hashset department
+    - campus add to hashset hospital
+    - z add to hashset wheel
+    - price add to hashset seat
+    - can add to hashset car
+    - main add to hashset bus
+    - contact add to hashset van
+    - cost add to hashset bike
+    - ten add to hashset glass
+    - car add to hashset red
+    - kamal add to hashset black
+    - black add to hashset white
+    - bottle add to hashset blue
+    - computer add to hashset yellow
+    - controller add to hashset valid
+    - api add to hashset subtract
+    - price add to hashset value
+    - z add to hashset arr
+    - service add to hashset i
+    - five add to hashset val
+    - eatables add to hashset key
+    - bag add to hashset count
+    - insert value cost to hashset named main
+    - insert value ten to hashset named master
+    - insert value mobile to hashset named size
+    - insert value bag to hashset named height
+    - insert value two to hashset named weight
+    - insert value mobile to hashset named bag
+    - insert value laptop to hashset named can
+    - insert value num to hashset named computer
+    - insert value home to hashset named phone
+    - insert value cost to hashset named laptop
+    - insert value cup to hashset named mobilephone
+    - insert value bottle to hashset named smartphone
+    - insert value red to hashset named phonenumber
+    - insert value ten to hashset named contactnumber
+    - insert value height to hashset named address
+    - insert value red to hashset named location
+    - insert value seven to hashset named email
+    - insert value address to hashset named contact
+    - insert value chandra to hashset named emailaddress
+    - insert value email to hashset named mouse
+    - insert value r to hashset named keyboard
+    - insert value age to hashset named screen
+    - insert value eatables to hashset named touchscreen
+    - insert value id to hashset named fruit
+    - insert value userid to hashset named food
+    - insert value y to hashset named vegetable
+    - insert value address to hashset named eatables
+    - insert value y to hashset named price
+    - insert value p to hashset named cost
+    - insert value answer to hashset named sum
+    - insert value repo to hashset named addition
+    - insert value three to hashset named a
+    - insert value height to hashset named b
+    - insert value z to hashset named c
+    - insert value car to hashset named p
+    - insert value six to hashset named q
+    - insert value aeroplane to hashset named r
+    - insert value user to hashset named s
+    - insert value utility to hashset named x
+    - insert value bag to hashset named y
+    - insert value controller to hashset named z
+    - insert value x to hashset named answer
+    - insert value main to hashset named result
+    - insert value bike to hashset named user
+    - insert value mobile to hashset named userid
+    - insert value bag to hashset named id
+    - insert value keyboard to hashset named num
+    - insert value main to hashset named age
+    - insert value seat to hashset named department
+    - insert value department to hashset named hospital
+    - insert value six to hashset named wheel
+    - insert value one to hashset named seat
+    - insert value address to hashset named car
+    - insert value height to hashset named bus
+    - insert value food to hashset named van
+    - insert value mouse to hashset named bike
+    - insert value bag to hashset named glass
+    - insert value userid to hashset named red
+    - insert value glass to hashset named black
+    - insert value chandra to hashset named white
+    - insert value house to hashset named blue
+    - insert value school to hashset named yellow
+    - insert value p to hashset named valid
+    - insert value age to hashset named subtract
+    - insert value repository to hashset named value
+    - insert value userid to hashset named arr
+    - insert value api to hashset named i
+    - insert value four to hashset named val
+    - insert value utility to hashset named key
+    - insert value p to hashset named count
+    - insert value b to hashset name main
+    - insert value mobile to hashset name master
+    - insert value red to hashset name size
+    - insert value eatables to hashset name height
+    - insert value hospital to hashset name weight
+    - insert value id to hashset name bag
+    - insert value address to hashset name can
+    - insert value bag to hashset name computer
+    - insert value weight to hashset name phone
+    - insert value age to hashset name laptop
+    - insert value contact to hashset name mobilephone
+    - insert value nine to hashset name smartphone
+    - insert value b to hashset name phonenumber
+    - insert value repo to hashset name contactnumber
+    - insert value two to hashset name address
+    - insert value bottle to hashset name location
+    - insert value six to hashset name email
+    - insert value x to hashset name contact
+    - insert value cup to hashset name emailaddress
+    - insert value eight to hashset name mouse
+    - insert value util to hashset name keyboard
+    - insert value result to hashset name screen
+    - insert value repo to hashset name touchscreen
+    - insert value laptop to hashset name fruit
+    - insert value smartphone to hashset name food
+    - insert value num to hashset name vegetable
+    - insert value z to hashset name eatables
+    - insert value amal to hashset name price
+    - insert value fruit to hashset name cost
+    - insert value cost to hashset name sum
+    - insert value mouse to hashset name addition
+    - insert value answer to hashset name a
+    - insert value vegetable to hashset name b
+    - insert value api to hashset name c
+    - insert value red to hashset name p
+    - insert value six to hashset name q
+    - insert value age to hashset name r
+    - insert value blue to hashset name s
+    - insert value q to hashset name x
+    - insert value car to hashset name y
+    - insert value food to hashset name z
+    - insert value screen to hashset name answer
+    - insert value bag to hashset name result
+    - insert value sum to hashset name user
+    - insert value nine to hashset name userid
+    - insert value addition to hashset name id
+    - insert value email to hashset name num
+    - insert value bus to hashset name age
+    - insert value house to hashset name department
+    - insert value utility to hashset name hospital
+    - insert value a to hashset name wheel
+    - insert value bike to hashset name seat
+    - insert value campus to hashset name car
+    - insert value id to hashset name bus
+    - insert value glass to hashset name van
+    - insert value hospital to hashset name bike
+    - insert value kamal to hashset name glass
+    - insert value university to hashset name red
+    - insert value chandra to hashset name black
+    - insert value red to hashset name white
+    - insert value glass to hashset name blue
+    - insert value three to hashset name yellow
+    - insert value a to hashset name valid
+    - insert value bottle to hashset name subtract
+    - insert value blue to hashset name value
+    - insert value vegetable to hashset name arr
+    - insert value y to hashset name i
+    - insert value computer to hashset name val
+    - insert value height to hashset name key
+    - insert value three to hashset name count
+    - insert value university to hashset main
+    - insert value black to hashset master
+    - insert value glass to hashset size
+    - insert value food to hashset height
+    - insert value bus to hashset weight
+    - insert value p to hashset bag
+    - insert value num to hashset can
+    - insert value bottle to hashset computer
+    - insert value black to hashset phone
+    - insert value eight to hashset laptop
+    - insert value six to hashset mobilephone
+    - insert value sunil to hashset smartphone
+    - insert value kamal to hashset phonenumber
+    - insert value result to hashset contactnumber
+    - insert value black to hashset address
+    - insert value white to hashset location
+    - insert value addition to hashset email
+    - insert value can to hashset contact
+    - insert value location to hashset emailaddress
+    - insert value weight to hashset mouse
+    - insert value z to hashset keyboard
+    - insert value service to hashset screen
+    - insert value eatables to hashset touchscreen
+    - insert value can to hashset fruit
+    - insert value two to hashset food
+    - insert value model to hashset vegetable
+    - insert value addition to hashset eatables
+    - insert value c to hashset price
+    - insert value a to hashset cost
+    - insert value a to hashset sum
+    - insert value result to hashset addition
+    - insert value location to hashset a
+    - insert value service to hashset b
+    - insert value two to hashset c
+    - insert value house to hashset p
+    - insert value location to hashset q
+    - insert value phone to hashset r
+    - insert value a to hashset s
+    - insert value eatables to hashset x
+    - insert value house to hashset y
+    - insert value amal to hashset z
+    - insert value email to hashset answer
+    - insert value service to hashset result
+    - insert value black to hashset user
+    - insert value c to hashset userid
+    - insert value c to hashset id
+    - insert value five to hashset num
+    - insert value ten to hashset age
+    - insert value q to hashset department
+    - insert value controller to hashset hospital
+    - insert value red to hashset wheel
+    - insert value home to hashset seat
+    - insert value ten to hashset car
+    - insert value util to hashset bus
+    - insert value cup to hashset van
+    - insert value van to hashset bike
+    - insert value s to hashset glass
+    - insert value fruit to hashset red
+    - insert value repo to hashset black
+    - insert value computer to hashset white
+    - insert value mobile to hashset blue
+    - insert value wheel to hashset yellow
+    - insert value computer to hashset valid
+    - insert value weight to hashset subtract
+    - insert value laptop to hashset value
+    - insert value one to hashset arr
+    - insert value keyboard to hashset i
+    - insert value wheel to hashset val
+    - insert value age to hashset key
+    - insert value answer to hashset count
+    - value food insert to hashset named main
+    - value ten insert to hashset named master
+    - value white insert to hashset named size
+    - value r insert to hashset named height
+    - value mobile insert to hashset named weight
+    - value six insert to hashset named bag
+    - value vegetable insert to hashset named can
+    - value userid insert to hashset named computer
+    - value userid insert to hashset named phone
+    - value two insert to hashset named laptop
+    - value id insert to hashset named mobilephone
+    - value five insert to hashset named smartphone
+    - value chandra insert to hashset named phonenumber
+    - value touch insert to hashset named contactnumber
+    - value service insert to hashset named address
+    - value chandra insert to hashset named location
+    - value contact insert to hashset named email
+    - value screen insert to hashset named contact
+    - value sunil insert to hashset named emailaddress
+    - value department insert to hashset named mouse
+    - value controller insert to hashset named keyboard
+    - value seat insert to hashset named screen
+    - value eight insert to hashset named touchscreen
+    - value y insert to hashset named fruit
+    - value white insert to hashset named food
+    - value contact insert to hashset named vegetable
+    - value touch insert to hashset named eatables
+    - value p insert to hashset named price
+    - value userid insert to hashset named cost
+    - value s insert to hashset named sum
+    - value computer insert to hashset named addition
+    - value z insert to hashset named a
+    - value computer insert to hashset named b
+    - value phone insert to hashset named c
+    - value van insert to hashset named p
+    - value price insert to hashset named q
+    - value plate insert to hashset named r
+    - value six insert to hashset named s
+    - value mobilephone insert to hashset named x
+    - value computer insert to hashset named y
+    - value addition insert to hashset named z
+    - value can insert to hashset named answer
+    - value seat insert to hashset named result
+    - value six insert to hashset named user
+    - value eight insert to hashset named userid
+    - value sum insert to hashset named num
+    - value three insert to hashset named age
+    - value location insert to hashset named department
+    - value cup insert to hashset named hospital
+    - value num insert to hashset named wheel
+    - value fruit insert to hashset named seat
+    - value laptop insert to hashset named car
+    - value repository insert to hashset named bus
+    - value bottle insert to hashset named van
+    - value hospital insert to hashset named bike
+    - value y insert to hashset named glass
+    - value r insert to hashset named red
+    - value height insert to hashset named black
+    - value util insert to hashset named white
+    - value location insert to hashset named blue
+    - value six insert to hashset named yellow
+    - value five insert to hashset named valid
+    - value laptop insert to hashset named subtract
+    - value three insert to hashset named value
+    - value wheel insert to hashset named arr
+    - value location insert to hashset named i
+    - value answer insert to hashset named val
+    - value seven insert to hashset named key
+    - value eatables insert to hashset named count
+    - value eight insert to hashset name main
+    - value four insert to hashset name master
+    - value s insert to hashset name size
+    - value z insert to hashset name height
+    - value eatables insert to hashset name weight
+    - value university insert to hashset name bag
+    - value address insert to hashset name can
+    - value plate insert to hashset name computer
+    - value util insert to hashset name phone
+    - value one insert to hashset name laptop
+    - value mouse insert to hashset name mobilephone
+    - value bike insert to hashset name smartphone
+    - value size insert to hashset name phonenumber
+    - value q insert to hashset name contactnumber
+    - value y insert to hashset name address
+    - value computer insert to hashset name location
+    - value id insert to hashset name email
+    - value bottle insert to hashset name contact
+    - value food insert to hashset name emailaddress
+    - value three insert to hashset name mouse
+    - value address insert to hashset name keyboard
+    - value seven insert to hashset name screen
+    - value userid insert to hashset name touchscreen
+    - value chandra insert to hashset name fruit
+    - value bus insert to hashset name food
+    - value a insert to hashset name vegetable
+    - value screen insert to hashset name eatables
+    - value laptop insert to hashset name price
+    - value two insert to hashset name cost
+    - value weight insert to hashset name sum
+    - value bottle insert to hashset name addition
+    - value department insert to hashset name a
+    - value two insert to hashset name b
+    - value phone insert to hashset name c
+    - value price insert to hashset name p
+    - value location insert to hashset name q
+    - value repo insert to hashset name r
+    - value department insert to hashset name s
+    - value car insert to hashset name x
+    - value addition insert to hashset name y
+    - value wheel insert to hashset name z
+    - value four insert to hashset name answer
+    - value hospital insert to hashset name result
+    - value van insert to hashset name user
+    - value wheel insert to hashset name userid
+    - value b insert to hashset name id
+    - value contact insert to hashset name num
+    - value screen insert to hashset name age
+    - value email insert to hashset name department
+    - value eatables insert to hashset name hospital
+    - value phone insert to hashset name wheel
+    - value r insert to hashset name seat
+    - value wheel insert to hashset name car
+    - value eight insert to hashset name bus
+    - value id insert to hashset name van
+    - value fruit insert to hashset name bike
+    - value eatables insert to hashset name glass
+    - value contact insert to hashset name red
+    - value q insert to hashset name black
+    - value num insert to hashset name white
+    - value smartphone insert to hashset name blue
+    - value screen insert to hashset name yellow
+    - value two insert to hashset name valid
+    - value bottle insert to hashset name subtract
+    - value model insert to hashset name value
+    - value vegetable insert to hashset name arr
+    - value s insert to hashset name i
+    - value addition insert to hashset name val
+    - value bottle insert to hashset name key
+    - value campus insert to hashset name count
+    - value y insert to hashset main
+    - value r insert to hashset master
+    - value white insert to hashset size
+    - value four insert to hashset height
+    - value utility insert to hashset weight
+    - value cost insert to hashset bag
+    - value r insert to hashset can
+    - value four insert to hashset computer
+    - value util insert to hashset phone
+    - value repository insert to hashset laptop
+    - value bag insert to hashset mobilephone
+    - value bike insert to hashset smartphone
+    - value mobilephone insert to hashset phonenumber
+    - value age insert to hashset contactnumber
+    - value seat insert to hashset address
+    - value nine insert to hashset location
+    - value q insert to hashset email
+    - value answer insert to hashset contact
+    - value one insert to hashset emailaddress
+    - value smartphone insert to hashset mouse
+    - value result insert to hashset keyboard
+    - value address insert to hashset screen
+    - value ten insert to hashset touchscreen
+    - value location insert to hashset fruit
+    - value cost insert to hashset food
+    - value utility insert to hashset vegetable
+    - value cup insert to hashset eatables
+    - value controller insert to hashset price
+    - value seat insert to hashset cost
+    - value util insert to hashset sum
+    - value num insert to hashset addition
+    - value sunil insert to hashset a
+    - value kamal insert to hashset b
+    - value touch insert to hashset c
+    - value repository insert to hashset p
+    - value department insert to hashset q
+    - value result insert to hashset r
+    - value height insert to hashset s
+    - value kamal insert to hashset x
+    - value seven insert to hashset y
+    - value util insert to hashset z
+    - value eatables insert to hashset answer
+    - value c insert to hashset result
+    - value a insert to hashset user
+    - value id insert to hashset userid
+    - value bottle insert to hashset id
+    - value mouse insert to hashset num
+    - value university insert to hashset age
+    - value car insert to hashset department
+    - value home insert to hashset hospital
+    - value white insert to hashset wheel
+    - value three insert to hashset seat
+    - value contact insert to hashset car
+    - value fruit insert to hashset bus
+    - value can insert to hashset van
+    - value red insert to hashset bike
+    - value sum insert to hashset glass
+    - value id insert to hashset red
+    - value van insert to hashset black
+    - value chandra insert to hashset white
+    - value white insert to hashset blue
+    - value eight insert to hashset yellow
+    - value model insert to hashset valid
+    - value amal insert to hashset subtract
+    - value weight insert to hashset value
+    - value location insert to hashset arr
+    - value home insert to hashset i
+    - value glass insert to hashset val
+    - value b insert to hashset key
+    - value chandra insert to hashset count
+    - insert weight to hashset named main
+    - insert model to hashset named master
+    - insert bottle to hashset named size
+    - insert university to hashset named height
+    - insert two to hashset named weight
+    - insert nine to hashset named bag
+    - insert keyboard to hashset named can
+    - insert size to hashset named computer
+    - insert s to hashset named phone
+    - insert controller to hashset named laptop
+    - insert id to hashset named mobilephone
+    - insert sum to hashset named smartphone
+    - insert size to hashset named phonenumber
+    - insert university to hashset named contactnumber
+    - insert campus to hashset named address
+    - insert service to hashset named location
+    - insert y to hashset named email
+    - insert food to hashset named contact
+    - insert blue to hashset named emailaddress
+    - insert seven to hashset named mouse
+    - insert s to hashset named keyboard
+    - insert department to hashset named screen
+    - insert size to hashset named touchscreen
+    - insert y to hashset named fruit
+    - insert size to hashset named food
+    - insert master to hashset named vegetable
+    - insert num to hashset named eatables
+    - insert addition to hashset named price
+    - insert mobilephone to hashset named cost
+    - insert sunil to hashset named sum
+    - insert mobile to hashset named addition
+    - insert x to hashset named a
+    - insert phone to hashset named b
+    - insert a to hashset named c
+    - insert glass to hashset named p
+    - insert bus to hashset named q
+    - insert utility to hashset named r
+    - insert plate to hashset named s
+    - insert van to hashset named x
+    - insert a to hashset named y
+    - insert screen to hashset named z
+    - insert department to hashset named answer
+    - insert b to hashset named result
+    - insert y to hashset named user
+    - insert r to hashset named userid
+    - insert keyboard to hashset named id
+    - insert computer to hashset named num
+    - insert one to hashset named age
+    - insert service to hashset named department
+    - insert bag to hashset named hospital
+    - insert size to hashset named wheel
+    - insert price to hashset named seat
+    - insert q to hashset named car
+    - insert location to hashset named bus
+    - insert address to hashset named van
+    - insert main to hashset named bike
+    - insert keyboard to hashset named glass
+    - insert r to hashset named red
+    - insert size to hashset named black
+    - insert screen to hashset named white
+    - insert kamal to hashset named blue
+    - insert smartphone to hashset named yellow
+    - insert bottle to hashset named valid
+    - insert house to hashset named subtract
+    - insert c to hashset named value
+    - insert ten to hashset named arr
+    - insert wheel to hashset named i
+    - insert price to hashset named val
+    - insert three to hashset named key
+    - insert amal to hashset named count
+    - insert contact to hashset name master
+    - insert sunil to hashset name size
+    - insert smartphone to hashset name height
+    - insert kamal to hashset name weight
+    - insert laptop to hashset name bag
+    - insert master to hashset name can
+    - insert p to hashset name computer
+    - insert touch to hashset name phone
+    - insert hospital to hashset name laptop
+    - insert ten to hashset name mobilephone
+    - insert home to hashset name smartphone
+    - insert mobilephone to hashset name phonenumber
+    - insert master to hashset name contactnumber
+    - insert r to hashset name address
+    - insert home to hashset name location
+    - insert id to hashset name email
+    - insert util to hashset name contact
+    - insert size to hashset name emailaddress
+    - insert black to hashset name mouse
+    - insert r to hashset name keyboard
+    - insert school to hashset name screen
+    - insert api to hashset name touchscreen
+    - insert food to hashset name fruit
+    - insert six to hashset name food
+    - insert black to hashset name vegetable
+    - insert cup to hashset name eatables
+    - insert six to hashset name price
+    - insert user to hashset name cost
+    - insert computer to hashset name sum
+    - insert five to hashset name addition
+    - insert eight to hashset name a
+    - insert mobile to hashset name b
+    - insert mobile to hashset name c
+    - insert ten to hashset name p
+    - insert main to hashset name q
+    - insert p to hashset name r
+    - insert smartphone to hashset name s
+    - insert blue to hashset name x
+    - insert model to hashset name y
+    - insert b to hashset name z
+    - insert weight to hashset name answer
+    - insert weight to hashset name result
+    - insert car to hashset name user
+    - insert location to hashset name userid
+    - insert bag to hashset name id
+    - insert email to hashset name num
+    - insert util to hashset name age
+    - insert van to hashset name department
+    - insert bag to hashset name hospital
+    - insert email to hashset name wheel
+    - insert cost to hashset name seat
+    - insert university to hashset name car
+    - insert sunil to hashset name bus
+    - insert house to hashset name van
+    - insert wheel to hashset name bike
+    - insert p to hashset name glass
+    - insert p to hashset name red
+    - insert contact to hashset name black
+    - insert cup to hashset name white
+    - insert sunil to hashset name blue
+    - insert b to hashset name yellow
+    - insert model to hashset name valid
+    - insert bottle to hashset name subtract
+    - insert s to hashset name value
+    - insert house to hashset name arr
+    - insert num to hashset name i
+    - insert utility to hashset name val
+    - insert eatables to hashset name key
+    - insert repository to hashset name count
+    - insert plate to hashset main
+    - insert six to hashset master
+    - insert computer to hashset size
+    - insert school to hashset height
+    - insert seat to hashset bag
+    - insert cup to hashset can
+    - insert black to hashset computer
+    - insert wheel to hashset phone
+    - insert cost to hashset laptop
+    - insert hospital to hashset mobilephone
+    - insert touch to hashset smartphone
+    - insert van to hashset phonenumber
+    - insert cup to hashset contactnumber
+    - insert keyboard to hashset address
+    - insert bus to hashset location
+    - insert contact to hashset email
+    - insert repository to hashset contact
+    - insert size to hashset emailaddress
+    - insert cost to hashset mouse
+    - insert z to hashset keyboard
+    - insert sum to hashset screen
+    - insert food to hashset touchscreen
+    - insert keyboard to hashset fruit
+    - insert num to hashset food
+    - insert glass to hashset vegetable
+    - insert controller to hashset eatables
+    - insert size to hashset price
+    - insert eight to hashset cost
+    - insert addition to hashset sum
+    - insert campus to hashset addition
+    - insert eight to hashset a
+    - insert car to hashset b
+    - insert laptop to hashset c
+    - insert bus to hashset p
+    - insert weight to hashset q
+    - insert model to hashset r
+    - insert z to hashset s
+    - insert campus to hashset x
+    - insert addition to hashset y
+    - insert x to hashset z
+    - insert b to hashset answer
+    - insert b to hashset result
+    - insert fruit to hashset user
+    - insert sum to hashset userid
+    - insert laptop to hashset id
+    - insert answer to hashset num
+    - insert p to hashset age
+    - insert y to hashset department
+    - insert x to hashset hospital
+    - insert glass to hashset wheel
+    - insert kamal to hashset seat
+    - insert eight to hashset car
+    - insert price to hashset bus
+    - insert two to hashset van
+    - insert result to hashset bike
+    - insert plate to hashset glass
+    - insert computer to hashset red
+    - insert five to hashset black
+    - insert fruit to hashset white
+    - insert school to hashset blue
+    - insert num to hashset yellow
+    - insert cost to hashset valid
+    - insert weight to hashset subtract
+    - insert car to hashset value
+    - insert answer to hashset arr
+    - insert a to hashset i
+    - insert a to hashset val
+    - insert sum to hashset key
+    - insert age to hashset count
+    - touch insert to hashset named main
+    - wheel insert to hashset named master
+    - nine insert to hashset named size
+    - email insert to hashset named height
+    - red insert to hashset named weight
+    - vegetable insert to hashset named bag
+    - three insert to hashset named can
+    - screen insert to hashset named computer
+    - house insert to hashset named phone
+    - four insert to hashset named laptop
+    - three insert to hashset named mobilephone
+    - r insert to hashset named smartphone
+    - user insert to hashset named phonenumber
+    - bus insert to hashset named contactnumber
+    - red insert to hashset named address
+    - bag insert to hashset named location
+    - p insert to hashset named email
+    - s insert to hashset named emailaddress
+    - user insert to hashset named mouse
+    - five insert to hashset named keyboard
+    - laptop insert to hashset named touchscreen
+    - school insert to hashset named fruit
+    - blue insert to hashset named food
+    - height insert to hashset named vegetable
+    - mouse insert to hashset named eatables
+    - contact insert to hashset named price
+    - two insert to hashset named cost
+    - s insert to hashset named sum
+    - school insert to hashset named addition
+    - s insert to hashset named a
+    - food insert to hashset named b
+    - black insert to hashset named c
+    - cup insert to hashset named p
+    - num insert to hashset named q
+    - address insert to hashset named r
+    - cup insert to hashset named s
+    - eight insert to hashset named x
+    - address insert to hashset named y
+    - campus insert to hashset named z
+    - three insert to hashset named answer
+    - university insert to hashset named result
+    - num insert to hashset named user
+    - x insert to hashset named userid
+    - contact insert to hashset named id
+    - id insert to hashset named num
+    - num insert to hashset named age
+    - phone insert to hashset named department
+    - sum insert to hashset named hospital
+    - repository insert to hashset named wheel
+    - cup insert to hashset named seat
+    - keyboard insert to hashset named car
+    - mouse insert to hashset named bus
+    - mobile insert to hashset named van
+    - userid insert to hashset named bike
+    - university insert to hashset named glass
+    - fruit insert to hashset named red
+    - keyboard insert to hashset named black
+    - vegetable insert to hashset named white
+    - cup insert to hashset named blue
+    - phone insert to hashset named yellow
+    - mobile insert to hashset named valid
+    - service insert to hashset named subtract
+    - y insert to hashset named value
+    - laptop insert to hashset named arr
+    - api insert to hashset named i
+    - x insert to hashset named val
+    - sum insert to hashset named key
+    - ten insert to hashset named count
+    - z insert to hashset name main
+    - bike insert to hashset name master
+    - phone insert to hashset name size
+    - user insert to hashset name height
+    - glass insert to hashset name weight
+    - chandra insert to hashset name bag
+    - cost insert to hashset name can
+    - glass insert to hashset name computer
+    - food insert to hashset name phone
+    - sunil insert to hashset name laptop
+    - five insert to hashset name mobilephone
+    - age insert to hashset name smartphone
+    - bag insert to hashset name phonenumber
+    - num insert to hashset name contactnumber
+    - sum insert to hashset name address
+    - size insert to hashset name location
+    - address insert to hashset name email
+    - price insert to hashset name contact
+    - red insert to hashset name emailaddress
+    - screen insert to hashset name mouse
+    - bike insert to hashset name keyboard
+    - cup insert to hashset name screen
+    - z insert to hashset name touchscreen
+    - age insert to hashset name fruit
+    - controller insert to hashset name food
+    - master insert to hashset name vegetable
+    - result insert to hashset name eatables
+    - plate insert to hashset name price
+    - vegetable insert to hashset name cost
+    - cost insert to hashset name sum
+    - computer insert to hashset name addition
+    - three insert to hashset name a
+    - repository insert to hashset name b
+    - campus insert to hashset name c
+    - can insert to hashset name p
+    - glass insert to hashset name q
+    - eatables insert to hashset name r
+    - api insert to hashset name s
+    - r insert to hashset name x
+    - phone insert to hashset name y
+    - plate insert to hashset name z
+    - api insert to hashset name answer
+    - screen insert to hashset name result
+    - smartphone insert to hashset name user
+    - four insert to hashset name userid
+    - q insert to hashset name id
+    - p insert to hashset name num
+    - a insert to hashset name age
+    - two insert to hashset name department
+    - three insert to hashset name hospital
+    - phone insert to hashset name wheel
+    - cost insert to hashset name seat
+    - university insert to hashset name car
+    - bag insert to hashset name bus
+    - height insert to hashset name van
+    - chandra insert to hashset name bike
+    - white insert to hashset name glass
+    - num insert to hashset name red
+    - result insert to hashset name black
+    - van insert to hashset name white
+    - sunil insert to hashset name blue
+    - result insert to hashset name yellow
+    - model insert to hashset name valid
+    - can insert to hashset name subtract
+    - sum insert to hashset name value
+    - van insert to hashset name arr
+    - id insert to hashset name i
+    - home insert to hashset name val
+    - price insert to hashset name key
+    - master insert to hashset name count
+    - bus insert to hashset main
+    - home insert to hashset size
+    - eight insert to hashset height
+    - computer insert to hashset weight
+    - s insert to hashset bag
+    - userid insert to hashset can
+    - s insert to hashset computer
+    - six insert to hashset phone
+    - b insert to hashset laptop
+    - chandra insert to hashset mobilephone
+    - seven insert to hashset smartphone
+    - bike insert to hashset phonenumber
+    - three insert to hashset contactnumber
+    - university insert to hashset address
+    - screen insert to hashset location
+    - a insert to hashset email
+    - van insert to hashset contact
+    - seat insert to hashset emailaddress
+    - mobile insert to hashset mouse
+    - six insert to hashset keyboard
+    - r insert to hashset screen
+    - height insert to hashset touchscreen
+    - glass insert to hashset food
+    - p insert to hashset vegetable
+    - p insert to hashset eatables
+    - utility insert to hashset price
+    - bag insert to hashset cost
+    - computer insert to hashset sum
+    - house insert to hashset addition
+    - repo insert to hashset a
+    - a insert to hashset b
+    - car insert to hashset c
+    - chandra insert to hashset p
+    - util insert to hashset q
+    - p insert to hashset r
+    - keyboard insert to hashset s
+    - car insert to hashset x
+    - screen insert to hashset y
+    - chandra insert to hashset z
+    - screen insert to hashset answer
+    - repo insert to hashset result
+    - c insert to hashset user
+    - sunil insert to hashset userid
+    - smartphone insert to hashset id
+    - screen insert to hashset num
+    - ten insert to hashset age
+    - two insert to hashset department
+    - keyboard insert to hashset hospital
+    - master insert to hashset wheel
+    - six insert to hashset seat
+    - amal insert to hashset car
+    - main insert to hashset bus
+    - master insert to hashset van
+    - sum insert to hashset bike
+    - black insert to hashset glass
+    - util insert to hashset red
+    - user insert to hashset black
+    - one insert to hashset white
+    - x insert to hashset blue
+    - user insert to hashset yellow
+    - mobile insert to hashset valid
+    - controller insert to hashset subtract
+    - red insert to hashset value
+    - x insert to hashset arr
+    - q insert to hashset i
+    - red insert to hashset val
+    - api insert to hashset key
+    - z insert to hashset count
+
+- intent: clearhashset
+  examples: |    
+    - clear hashset named main
+    - clear hashset named master
+    - clear hashset named size
+    - clear hashset named height
+    - clear hashset named weight
+    - clear hashset named bag
+    - clear hashset named can
+    - clear hashset named computer
+    - clear hashset named phone
+    - clear hashset named laptop
+    - clear hashset named mobilephone
+    - clear hashset named smartphone
+    - clear hashset named phonenumber
+    - clear hashset named contactnumber
+    - clear hashset named address
+    - clear hashset named location
+    - clear hashset named email
+    - clear hashset named contact
+    - clear hashset named emailaddress
+    - clear hashset named mouse
+    - clear hashset named keyboard
+    - clear hashset named screen
+    - clear hashset named touchscreen
+    - clear hashset named fruit
+    - clear hashset named food
+    - clear hashset named vegetable
+    - clear hashset named eatables
+    - clear hashset named price
+    - clear hashset named cost
+    - clear hashset named sum
+    - clear hashset named addition
+    - clear hashset named a
+    - clear hashset named b
+    - clear hashset named c
+    - clear hashset named p
+    - clear hashset named q
+    - clear hashset named r
+    - clear hashset named s
+    - clear hashset named x
+    - clear hashset named y
+    - clear hashset named z
+    - clear hashset named answer
+    - clear hashset named result
+    - clear hashset named user
+    - clear hashset named userid
+    - clear hashset named id
+    - clear hashset named num
+    - clear hashset named age
+    - clear hashset named department
+    - clear hashset named hospital
+    - clear hashset named wheel
+    - clear hashset named seat
+    - clear hashset named car
+    - clear hashset named bus
+    - clear hashset named van
+    - clear hashset named bike
+    - clear hashset named glass
+    - clear hashset named red
+    - clear hashset named black
+    - clear hashset named white
+    - clear hashset named blue
+    - clear hashset named yellow
+    - clear hashset named valid
+    - clear hashset named subtract
+    - clear hashset named value
+    - clear hashset named arr
+    - clear hashset named i
+    - clear hashset named val
+    - clear hashset named key
+    - clear hashset named count
+    - clear hashset name main
+    - clear hashset name master
+    - clear hashset name size
+    - clear hashset name height
+    - clear hashset name weight
+    - clear hashset name bag
+    - clear hashset name can
+    - clear hashset name computer
+    - clear hashset name phone
+    - clear hashset name laptop
+    - clear hashset name mobilephone
+    - clear hashset name smartphone
+    - clear hashset name phonenumber
+    - clear hashset name contactnumber
+    - clear hashset name address
+    - clear hashset name location
+    - clear hashset name email
+    - clear hashset name contact
+    - clear hashset name emailaddress
+    - clear hashset name mouse
+    - clear hashset name keyboard
+    - clear hashset name screen
+    - clear hashset name touchscreen
+    - clear hashset name fruit
+    - clear hashset name food
+    - clear hashset name vegetable
+    - clear hashset name eatables
+    - clear hashset name price
+    - clear hashset name cost
+    - clear hashset name sum
+    - clear hashset name addition
+    - clear hashset name a
+    - clear hashset name b
+    - clear hashset name c
+    - clear hashset name p
+    - clear hashset name q
+    - clear hashset name r
+    - clear hashset name s
+    - clear hashset name x
+    - clear hashset name y
+    - clear hashset name z
+    - clear hashset name answer
+    - clear hashset name result
+    - clear hashset name user
+    - clear hashset name userid
+    - clear hashset name id
+    - clear hashset name num
+    - clear hashset name age
+    - clear hashset name department
+    - clear hashset name hospital
+    - clear hashset name wheel
+    - clear hashset name seat
+    - clear hashset name car
+    - clear hashset name bus
+    - clear hashset name van
+    - clear hashset name bike
+    - clear hashset name glass
+    - clear hashset name red
+    - clear hashset name black
+    - clear hashset name white
+    - clear hashset name blue
+    - clear hashset name yellow
+    - clear hashset name valid
+    - clear hashset name subtract
+    - clear hashset name value
+    - clear hashset name arr
+    - clear hashset name i
+    - clear hashset name val
+    - clear hashset name key
+    - clear hashset name count
+    - clear hashset main
+    - clear hashset master
+    - clear hashset size
+    - clear hashset height
+    - clear hashset weight
+    - clear hashset bag
+    - clear hashset can
+    - clear hashset computer
+    - clear hashset phone
+    - clear hashset laptop
+    - clear hashset mobilephone
+    - clear hashset smartphone
+    - clear hashset phonenumber
+    - clear hashset contactnumber
+    - clear hashset address
+    - clear hashset location
+    - clear hashset email
+    - clear hashset contact
+    - clear hashset emailaddress
+    - clear hashset mouse
+    - clear hashset keyboard
+    - clear hashset screen
+    - clear hashset touchscreen
+    - clear hashset fruit
+    - clear hashset food
+    - clear hashset vegetable
+    - clear hashset eatables
+    - clear hashset price
+    - clear hashset cost
+    - clear hashset sum
+    - clear hashset addition
+    - clear hashset a
+    - clear hashset b
+    - clear hashset c
+    - clear hashset p
+    - clear hashset q
+    - clear hashset r
+    - clear hashset s
+    - clear hashset x
+    - clear hashset y
+    - clear hashset z
+    - clear hashset answer
+    - clear hashset result
+    - clear hashset user
+    - clear hashset userid
+    - clear hashset id
+    - clear hashset num
+    - clear hashset age
+    - clear hashset department
+    - clear hashset hospital
+    - clear hashset wheel
+    - clear hashset seat
+    - clear hashset car
+    - clear hashset bus
+    - clear hashset van
+    - clear hashset bike
+    - clear hashset glass
+    - clear hashset red
+    - clear hashset black
+    - clear hashset white
+    - clear hashset blue
+    - clear hashset yellow
+    - clear hashset valid
+    - clear hashset subtract
+    - clear hashset value
+    - clear hashset arr
+    - clear hashset i
+    - clear hashset val
+    - clear hashset key
+    - clear hashset count
+    - initialize clear hashset named main
+    - initialize clear hashset named master
+    - initialize clear hashset named size
+    - initialize clear hashset named height
+    - initialize clear hashset named weight
+    - initialize clear hashset named bag
+    - initialize clear hashset named can
+    - initialize clear hashset named computer
+    - initialize clear hashset named phone
+    - initialize clear hashset named laptop
+    - initialize clear hashset named mobilephone
+    - initialize clear hashset named smartphone
+    - initialize clear hashset named phonenumber
+    - initialize clear hashset named contactnumber
+    - initialize clear hashset named address
+    - initialize clear hashset named location
+    - initialize clear hashset named email
+    - initialize clear hashset named contact
+    - initialize clear hashset named emailaddress
+    - initialize clear hashset named mouse
+    - initialize clear hashset named keyboard
+    - initialize clear hashset named screen
+    - initialize clear hashset named touchscreen
+    - initialize clear hashset named fruit
+    - initialize clear hashset named food
+    - initialize clear hashset named vegetable
+    - initialize clear hashset named eatables
+    - initialize clear hashset named price
+    - initialize clear hashset named cost
+    - initialize clear hashset named sum
+    - initialize clear hashset named addition
+    - initialize clear hashset named a
+    - initialize clear hashset named b
+    - initialize clear hashset named c
+    - initialize clear hashset named p
+    - initialize clear hashset named q
+    - initialize clear hashset named r
+    - initialize clear hashset named s
+    - initialize clear hashset named x
+    - initialize clear hashset named y
+    - initialize clear hashset named z
+    - initialize clear hashset named answer
+    - initialize clear hashset named result
+    - initialize clear hashset named user
+    - initialize clear hashset named userid
+    - initialize clear hashset named id
+    - initialize clear hashset named num
+    - initialize clear hashset named age
+    - initialize clear hashset named department
+    - initialize clear hashset named hospital
+    - initialize clear hashset named wheel
+    - initialize clear hashset named seat
+    - initialize clear hashset named car
+    - initialize clear hashset named bus
+    - initialize clear hashset named van
+    - initialize clear hashset named bike
+    - initialize clear hashset named glass
+    - initialize clear hashset named red
+    - initialize clear hashset named black
+    - initialize clear hashset named white
+    - initialize clear hashset named blue
+    - initialize clear hashset named yellow
+    - initialize clear hashset named valid
+    - initialize clear hashset named subtract
+    - initialize clear hashset named value
+    - initialize clear hashset named arr
+    - initialize clear hashset named i
+    - initialize clear hashset named val
+    - initialize clear hashset named key
+    - initialize clear hashset named count
+    - initialize clear hashset name main
+    - initialize clear hashset name master
+    - initialize clear hashset name size
+    - initialize clear hashset name height
+    - initialize clear hashset name weight
+    - initialize clear hashset name bag
+    - initialize clear hashset name can
+    - initialize clear hashset name computer
+    - initialize clear hashset name phone
+    - initialize clear hashset name laptop
+    - initialize clear hashset name mobilephone
+    - initialize clear hashset name smartphone
+    - initialize clear hashset name phonenumber
+    - initialize clear hashset name contactnumber
+    - initialize clear hashset name address
+    - initialize clear hashset name location
+    - initialize clear hashset name email
+    - initialize clear hashset name contact
+    - initialize clear hashset name emailaddress
+    - initialize clear hashset name mouse
+    - initialize clear hashset name keyboard
+    - initialize clear hashset name screen
+    - initialize clear hashset name touchscreen
+    - initialize clear hashset name fruit
+    - initialize clear hashset name food
+    - initialize clear hashset name vegetable
+    - initialize clear hashset name eatables
+    - initialize clear hashset name price
+    - initialize clear hashset name cost
+    - initialize clear hashset name sum
+    - initialize clear hashset name addition
+    - initialize clear hashset name a
+    - initialize clear hashset name b
+    - initialize clear hashset name c
+    - initialize clear hashset name p
+    - initialize clear hashset name q
+    - initialize clear hashset name r
+    - initialize clear hashset name s
+    - initialize clear hashset name x
+    - initialize clear hashset name y
+    - initialize clear hashset name z
+    - initialize clear hashset name answer
+    - initialize clear hashset name result
+    - initialize clear hashset name user
+    - initialize clear hashset name userid
+    - initialize clear hashset name id
+    - initialize clear hashset name num
+    - initialize clear hashset name age
+    - initialize clear hashset name department
+    - initialize clear hashset name hospital
+    - initialize clear hashset name wheel
+    - initialize clear hashset name seat
+    - initialize clear hashset name car
+    - initialize clear hashset name bus
+    - initialize clear hashset name van
+    - initialize clear hashset name bike
+    - initialize clear hashset name glass
+    - initialize clear hashset name red
+    - initialize clear hashset name black
+    - initialize clear hashset name white
+    - initialize clear hashset name blue
+    - initialize clear hashset name yellow
+    - initialize clear hashset name valid
+    - initialize clear hashset name subtract
+    - initialize clear hashset name value
+    - initialize clear hashset name arr
+    - initialize clear hashset name i
+    - initialize clear hashset name val
+    - initialize clear hashset name key
+    - initialize clear hashset name count
+    - initialize clear hashset main
+    - initialize clear hashset master
+    - initialize clear hashset size
+    - initialize clear hashset height
+    - initialize clear hashset weight
+    - initialize clear hashset bag
+    - initialize clear hashset can
+    - initialize clear hashset computer
+    - initialize clear hashset phone
+    - initialize clear hashset laptop
+    - initialize clear hashset mobilephone
+    - initialize clear hashset smartphone
+    - initialize clear hashset phonenumber
+    - initialize clear hashset contactnumber
+    - initialize clear hashset address
+    - initialize clear hashset location
+    - initialize clear hashset email
+    - initialize clear hashset contact
+    - initialize clear hashset emailaddress
+    - initialize clear hashset mouse
+    - initialize clear hashset keyboard
+    - initialize clear hashset screen
+    - initialize clear hashset touchscreen
+    - initialize clear hashset fruit
+    - initialize clear hashset food
+    - initialize clear hashset vegetable
+    - initialize clear hashset eatables
+    - initialize clear hashset price
+    - initialize clear hashset cost
+    - initialize clear hashset sum
+    - initialize clear hashset addition
+    - initialize clear hashset a
+    - initialize clear hashset b
+    - initialize clear hashset c
+    - initialize clear hashset p
+    - initialize clear hashset q
+    - initialize clear hashset r
+    - initialize clear hashset s
+    - initialize clear hashset x
+    - initialize clear hashset y
+    - initialize clear hashset z
+    - initialize clear hashset answer
+    - initialize clear hashset result
+    - initialize clear hashset user
+    - initialize clear hashset userid
+    - initialize clear hashset id
+    - initialize clear hashset num
+    - initialize clear hashset age
+    - initialize clear hashset department
+    - initialize clear hashset hospital
+    - initialize clear hashset wheel
+    - initialize clear hashset seat
+    - initialize clear hashset car
+    - initialize clear hashset bus
+    - initialize clear hashset van
+    - initialize clear hashset bike
+    - initialize clear hashset glass
+    - initialize clear hashset red
+    - initialize clear hashset black
+    - initialize clear hashset white
+    - initialize clear hashset blue
+    - initialize clear hashset yellow
+    - initialize clear hashset valid
+    - initialize clear hashset subtract
+    - initialize clear hashset value
+    - initialize clear hashset arr
+    - initialize clear hashset i
+    - initialize clear hashset val
+    - initialize clear hashset key
+    - initialize clear hashset count
+    - init clear hashset named main
+    - init clear hashset named master
+    - init clear hashset named size
+    - init clear hashset named height
+    - init clear hashset named weight
+    - init clear hashset named bag
+    - init clear hashset named can
+    - init clear hashset named computer
+    - init clear hashset named phone
+    - init clear hashset named laptop
+    - init clear hashset named mobilephone
+    - init clear hashset named smartphone
+    - init clear hashset named phonenumber
+    - init clear hashset named contactnumber
+    - init clear hashset named address
+    - init clear hashset named location
+    - init clear hashset named email
+    - init clear hashset named contact
+    - init clear hashset named emailaddress
+    - init clear hashset named mouse
+    - init clear hashset named keyboard
+    - init clear hashset named screen
+    - init clear hashset named touchscreen
+    - init clear hashset named fruit
+    - init clear hashset named food
+    - init clear hashset named vegetable
+    - init clear hashset named eatables
+    - init clear hashset named price
+    - init clear hashset named cost
+    - init clear hashset named sum
+    - init clear hashset named addition
+    - init clear hashset named a
+    - init clear hashset named b
+    - init clear hashset named c
+    - init clear hashset named p
+    - init clear hashset named q
+    - init clear hashset named r
+    - init clear hashset named s
+    - init clear hashset named x
+    - init clear hashset named y
+    - init clear hashset named z
+    - init clear hashset named answer
+    - init clear hashset named result
+    - init clear hashset named user
+    - init clear hashset named userid
+    - init clear hashset named id
+    - init clear hashset named num
+    - init clear hashset named age
+    - init clear hashset named department
+    - init clear hashset named hospital
+    - init clear hashset named wheel
+    - init clear hashset named seat
+    - init clear hashset named car
+    - init clear hashset named bus
+    - init clear hashset named van
+    - init clear hashset named bike
+    - init clear hashset named glass
+    - init clear hashset named red
+    - init clear hashset named black
+    - init clear hashset named white
+    - init clear hashset named blue
+    - init clear hashset named yellow
+    - init clear hashset named valid
+    - init clear hashset named subtract
+    - init clear hashset named value
+    - init clear hashset named arr
+    - init clear hashset named i
+    - init clear hashset named val
+    - init clear hashset named key
+    - init clear hashset named count
+    - init clear hashset name main
+    - init clear hashset name master
+    - init clear hashset name size
+    - init clear hashset name height
+    - init clear hashset name weight
+    - init clear hashset name bag
+    - init clear hashset name can
+    - init clear hashset name computer
+    - init clear hashset name phone
+    - init clear hashset name laptop
+    - init clear hashset name mobilephone
+    - init clear hashset name smartphone
+    - init clear hashset name phonenumber
+    - init clear hashset name contactnumber
+    - init clear hashset name address
+    - init clear hashset name location
+    - init clear hashset name email
+    - init clear hashset name contact
+    - init clear hashset name emailaddress
+    - init clear hashset name mouse
+    - init clear hashset name keyboard
+    - init clear hashset name screen
+    - init clear hashset name touchscreen
+    - init clear hashset name fruit
+    - init clear hashset name food
+    - init clear hashset name vegetable
+    - init clear hashset name eatables
+    - init clear hashset name price
+    - init clear hashset name cost
+    - init clear hashset name sum
+    - init clear hashset name addition
+    - init clear hashset name a
+    - init clear hashset name b
+    - init clear hashset name c
+    - init clear hashset name p
+    - init clear hashset name q
+    - init clear hashset name r
+    - init clear hashset name s
+    - init clear hashset name x
+    - init clear hashset name y
+    - init clear hashset name z
+    - init clear hashset name answer
+    - init clear hashset name result
+    - init clear hashset name user
+    - init clear hashset name userid
+    - init clear hashset name id
+    - init clear hashset name num
+    - init clear hashset name age
+    - init clear hashset name department
+    - init clear hashset name hospital
+    - init clear hashset name wheel
+    - init clear hashset name seat
+    - init clear hashset name car
+    - init clear hashset name bus
+    - init clear hashset name van
+    - init clear hashset name bike
+    - init clear hashset name glass
+    - init clear hashset name red
+    - init clear hashset name black
+    - init clear hashset name white
+    - init clear hashset name blue
+    - init clear hashset name yellow
+    - init clear hashset name valid
+    - init clear hashset name subtract
+    - init clear hashset name value
+    - init clear hashset name arr
+    - init clear hashset name i
+    - init clear hashset name val
+    - init clear hashset name key
+    - init clear hashset name count
+    - init clear hashset main
+    - init clear hashset master
+    - init clear hashset size
+    - init clear hashset height
+    - init clear hashset weight
+    - init clear hashset bag
+    - init clear hashset can
+    - init clear hashset computer
+    - init clear hashset phone
+    - init clear hashset laptop
+    - init clear hashset mobilephone
+    - init clear hashset smartphone
+    - init clear hashset phonenumber
+    - init clear hashset contactnumber
+    - init clear hashset address
+    - init clear hashset location
+    - init clear hashset email
+    - init clear hashset contact
+    - init clear hashset emailaddress
+    - init clear hashset mouse
+    - init clear hashset keyboard
+    - init clear hashset screen
+    - init clear hashset touchscreen
+    - init clear hashset fruit
+    - init clear hashset food
+    - init clear hashset vegetable
+    - init clear hashset eatables
+    - init clear hashset price
+    - init clear hashset cost
+    - init clear hashset sum
+    - init clear hashset addition
+    - init clear hashset a
+    - init clear hashset b
+    - init clear hashset c
+    - init clear hashset p
+    - init clear hashset q
+    - init clear hashset r
+    - init clear hashset s
+    - init clear hashset x
+    - init clear hashset y
+    - init clear hashset z
+    - init clear hashset answer
+    - init clear hashset result
+    - init clear hashset user
+    - init clear hashset userid
+    - init clear hashset id
+    - init clear hashset num
+    - init clear hashset age
+    - init clear hashset department
+    - init clear hashset hospital
+    - init clear hashset wheel
+    - init clear hashset seat
+    - init clear hashset car
+    - init clear hashset bus
+    - init clear hashset van
+    - init clear hashset bike
+    - init clear hashset glass
+    - init clear hashset red
+    - init clear hashset black
+    - init clear hashset white
+    - init clear hashset blue
+    - init clear hashset yellow
+    - init clear hashset valid
+    - init clear hashset subtract
+    - init clear hashset value
+    - init clear hashset arr
+    - init clear hashset i
+    - init clear hashset val
+    - init clear hashset key
+    - init clear hashset count
+    - make clear hashset named main
+    - make clear hashset named master
+    - make clear hashset named size
+    - make clear hashset named height
+    - make clear hashset named weight
+    - make clear hashset named bag
+    - make clear hashset named can
+    - make clear hashset named computer
+    - make clear hashset named phone
+    - make clear hashset named laptop
+    - make clear hashset named mobilephone
+    - make clear hashset named smartphone
+    - make clear hashset named phonenumber
+    - make clear hashset named contactnumber
+    - make clear hashset named address
+    - make clear hashset named location
+    - make clear hashset named email
+    - make clear hashset named contact
+    - make clear hashset named emailaddress
+    - make clear hashset named mouse
+    - make clear hashset named keyboard
+    - make clear hashset named screen
+    - make clear hashset named touchscreen
+    - make clear hashset named fruit
+    - make clear hashset named food
+    - make clear hashset named vegetable
+    - make clear hashset named eatables
+    - make clear hashset named price
+    - make clear hashset named cost
+    - make clear hashset named sum
+    - make clear hashset named addition
+    - make clear hashset named a
+    - make clear hashset named b
+    - make clear hashset named c
+    - make clear hashset named p
+    - make clear hashset named q
+    - make clear hashset named r
+    - make clear hashset named s
+    - make clear hashset named x
+    - make clear hashset named y
+    - make clear hashset named z
+    - make clear hashset named answer
+    - make clear hashset named result
+    - make clear hashset named user
+    - make clear hashset named userid
+    - make clear hashset named id
+    - make clear hashset named num
+    - make clear hashset named age
+    - make clear hashset named department
+    - make clear hashset named hospital
+    - make clear hashset named wheel
+    - make clear hashset named seat
+    - make clear hashset named car
+    - make clear hashset named bus
+    - make clear hashset named van
+    - make clear hashset named bike
+    - make clear hashset named glass
+    - make clear hashset named red
+    - make clear hashset named black
+    - make clear hashset named white
+    - make clear hashset named blue
+    - make clear hashset named yellow
+    - make clear hashset named valid
+    - make clear hashset named subtract
+    - make clear hashset named value
+    - make clear hashset named arr
+    - make clear hashset named i
+    - make clear hashset named val
+    - make clear hashset named key
+    - make clear hashset named count
+    - make clear hashset name main
+    - make clear hashset name master
+    - make clear hashset name size
+    - make clear hashset name height
+    - make clear hashset name weight
+    - make clear hashset name bag
+    - make clear hashset name can
+    - make clear hashset name computer
+    - make clear hashset name phone
+    - make clear hashset name laptop
+    - make clear hashset name mobilephone
+    - make clear hashset name smartphone
+    - make clear hashset name phonenumber
+    - make clear hashset name contactnumber
+    - make clear hashset name address
+    - make clear hashset name location
+    - make clear hashset name email
+    - make clear hashset name contact
+    - make clear hashset name emailaddress
+    - make clear hashset name mouse
+    - make clear hashset name keyboard
+    - make clear hashset name screen
+    - make clear hashset name touchscreen
+    - make clear hashset name fruit
+    - make clear hashset name food
+    - make clear hashset name vegetable
+    - make clear hashset name eatables
+    - make clear hashset name price
+    - make clear hashset name cost
+    - make clear hashset name sum
+    - make clear hashset name addition
+    - make clear hashset name a
+    - make clear hashset name b
+    - make clear hashset name c
+    - make clear hashset name p
+    - make clear hashset name q
+    - make clear hashset name r
+    - make clear hashset name s
+    - make clear hashset name x
+    - make clear hashset name y
+    - make clear hashset name z
+    - make clear hashset name answer
+    - make clear hashset name result
+    - make clear hashset name user
+    - make clear hashset name userid
+    - make clear hashset name id
+    - make clear hashset name num
+    - make clear hashset name age
+    - make clear hashset name department
+    - make clear hashset name hospital
+    - make clear hashset name wheel
+    - make clear hashset name seat
+    - make clear hashset name car
+    - make clear hashset name bus
+    - make clear hashset name van
+    - make clear hashset name bike
+    - make clear hashset name glass
+    - make clear hashset name red
+    - make clear hashset name black
+    - make clear hashset name white
+    - make clear hashset name blue
+    - make clear hashset name yellow
+    - make clear hashset name valid
+    - make clear hashset name subtract
+    - make clear hashset name value
+    - make clear hashset name arr
+    - make clear hashset name i
+    - make clear hashset name val
+    - make clear hashset name key
+    - make clear hashset name count
+    - make clear hashset main
+    - make clear hashset master
+    - make clear hashset size
+    - make clear hashset height
+    - make clear hashset weight
+    - make clear hashset bag
+    - make clear hashset can
+    - make clear hashset computer
+    - make clear hashset phone
+    - make clear hashset laptop
+    - make clear hashset mobilephone
+    - make clear hashset smartphone
+    - make clear hashset phonenumber
+    - make clear hashset contactnumber
+    - make clear hashset address
+    - make clear hashset location
+    - make clear hashset email
+    - make clear hashset contact
+    - make clear hashset emailaddress
+    - make clear hashset mouse
+    - make clear hashset keyboard
+    - make clear hashset screen
+    - make clear hashset touchscreen
+    - make clear hashset fruit
+    - make clear hashset food
+    - make clear hashset vegetable
+    - make clear hashset eatables
+    - make clear hashset price
+    - make clear hashset cost
+    - make clear hashset sum
+    - make clear hashset addition
+    - make clear hashset a
+    - make clear hashset b
+    - make clear hashset c
+    - make clear hashset p
+    - make clear hashset q
+    - make clear hashset r
+    - make clear hashset s
+    - make clear hashset x
+    - make clear hashset y
+    - make clear hashset z
+    - make clear hashset answer
+    - make clear hashset result
+    - make clear hashset user
+    - make clear hashset userid
+    - make clear hashset id
+    - make clear hashset num
+    - make clear hashset age
+    - make clear hashset department
+    - make clear hashset hospital
+    - make clear hashset wheel
+    - make clear hashset seat
+    - make clear hashset car
+    - make clear hashset bus
+    - make clear hashset van
+    - make clear hashset bike
+    - make clear hashset glass
+    - make clear hashset red
+    - make clear hashset black
+    - make clear hashset white
+    - make clear hashset blue
+    - make clear hashset yellow
+    - make clear hashset valid
+    - make clear hashset subtract
+    - make clear hashset value
+    - make clear hashset arr
+    - make clear hashset i
+    - make clear hashset val
+    - make clear hashset key
+    - make clear hashset count
+
+- intent: sizehashset
+  examples: |    
+    - get size hashset named main
+    - get size hashset named master
+    - get size hashset named size
+    - get size hashset named height
+    - get size hashset named weight
+    - get size hashset named bag
+    - get size hashset named can
+    - get size hashset named computer
+    - get size hashset named phone
+    - get size hashset named laptop
+    - get size hashset named mobilephone
+    - get size hashset named smartphone
+    - get size hashset named phonenumber
+    - get size hashset named contactnumber
+    - get size hashset named address
+    - get size hashset named location
+    - get size hashset named email
+    - get size hashset named contact
+    - get size hashset named emailaddress
+    - get size hashset named mouse
+    - get size hashset named keyboard
+    - get size hashset named screen
+    - get size hashset named touchscreen
+    - get size hashset named fruit
+    - get size hashset named food
+    - get size hashset named vegetable
+    - get size hashset named eatables
+    - get size hashset named price
+    - get size hashset named cost
+    - get size hashset named sum
+    - get size hashset named addition
+    - get size hashset named a
+    - get size hashset named b
+    - get size hashset named c
+    - get size hashset named p
+    - get size hashset named q
+    - get size hashset named r
+    - get size hashset named s
+    - get size hashset named x
+    - get size hashset named y
+    - get size hashset named z
+    - get size hashset named answer
+    - get size hashset named result
+    - get size hashset named user
+    - get size hashset named userid
+    - get size hashset named id
+    - get size hashset named num
+    - get size hashset named age
+    - get size hashset named department
+    - get size hashset named hospital
+    - get size hashset named wheel
+    - get size hashset named seat
+    - get size hashset named car
+    - get size hashset named bus
+    - get size hashset named van
+    - get size hashset named bike
+    - get size hashset named glass
+    - get size hashset named red
+    - get size hashset named black
+    - get size hashset named white
+    - get size hashset named blue
+    - get size hashset named yellow
+    - get size hashset named valid
+    - get size hashset named subtract
+    - get size hashset named value
+    - get size hashset named arr
+    - get size hashset named i
+    - get size hashset named val
+    - get size hashset named key
+    - get size hashset named count
+    - get size hashset name main
+    - get size hashset name master
+    - get size hashset name size
+    - get size hashset name height
+    - get size hashset name weight
+    - get size hashset name bag
+    - get size hashset name can
+    - get size hashset name computer
+    - get size hashset name phone
+    - get size hashset name laptop
+    - get size hashset name mobilephone
+    - get size hashset name smartphone
+    - get size hashset name phonenumber
+    - get size hashset name contactnumber
+    - get size hashset name address
+    - get size hashset name location
+    - get size hashset name email
+    - get size hashset name contact
+    - get size hashset name emailaddress
+    - get size hashset name mouse
+    - get size hashset name keyboard
+    - get size hashset name screen
+    - get size hashset name touchscreen
+    - get size hashset name fruit
+    - get size hashset name food
+    - get size hashset name vegetable
+    - get size hashset name eatables
+    - get size hashset name price
+    - get size hashset name cost
+    - get size hashset name sum
+    - get size hashset name addition
+    - get size hashset name a
+    - get size hashset name b
+    - get size hashset name c
+    - get size hashset name p
+    - get size hashset name q
+    - get size hashset name r
+    - get size hashset name s
+    - get size hashset name x
+    - get size hashset name y
+    - get size hashset name z
+    - get size hashset name answer
+    - get size hashset name result
+    - get size hashset name user
+    - get size hashset name userid
+    - get size hashset name id
+    - get size hashset name num
+    - get size hashset name age
+    - get size hashset name department
+    - get size hashset name hospital
+    - get size hashset name wheel
+    - get size hashset name seat
+    - get size hashset name car
+    - get size hashset name bus
+    - get size hashset name van
+    - get size hashset name bike
+    - get size hashset name glass
+    - get size hashset name red
+    - get size hashset name black
+    - get size hashset name white
+    - get size hashset name blue
+    - get size hashset name yellow
+    - get size hashset name valid
+    - get size hashset name subtract
+    - get size hashset name value
+    - get size hashset name arr
+    - get size hashset name i
+    - get size hashset name val
+    - get size hashset name key
+    - get size hashset name count
+    - get size hashset main
+    - get size hashset master
+    - get size hashset size
+    - get size hashset height
+    - get size hashset weight
+    - get size hashset bag
+    - get size hashset can
+    - get size hashset computer
+    - get size hashset phone
+    - get size hashset laptop
+    - get size hashset mobilephone
+    - get size hashset smartphone
+    - get size hashset phonenumber
+    - get size hashset contactnumber
+    - get size hashset address
+    - get size hashset location
+    - get size hashset email
+    - get size hashset contact
+    - get size hashset emailaddress
+    - get size hashset mouse
+    - get size hashset keyboard
+    - get size hashset screen
+    - get size hashset touchscreen
+    - get size hashset fruit
+    - get size hashset food
+    - get size hashset vegetable
+    - get size hashset eatables
+    - get size hashset price
+    - get size hashset cost
+    - get size hashset sum
+    - get size hashset addition
+    - get size hashset a
+    - get size hashset b
+    - get size hashset c
+    - get size hashset p
+    - get size hashset q
+    - get size hashset r
+    - get size hashset s
+    - get size hashset x
+    - get size hashset y
+    - get size hashset z
+    - get size hashset answer
+    - get size hashset result
+    - get size hashset user
+    - get size hashset userid
+    - get size hashset id
+    - get size hashset num
+    - get size hashset age
+    - get size hashset department
+    - get size hashset hospital
+    - get size hashset wheel
+    - get size hashset seat
+    - get size hashset car
+    - get size hashset bus
+    - get size hashset van
+    - get size hashset bike
+    - get size hashset glass
+    - get size hashset red
+    - get size hashset black
+    - get size hashset white
+    - get size hashset blue
+    - get size hashset yellow
+    - get size hashset valid
+    - get size hashset subtract
+    - get size hashset value
+    - get size hashset arr
+    - get size hashset i
+    - get size hashset val
+    - get size hashset key
+    - get size hashset count
+    - initialize size of hashset named main
+    - initialize size of hashset named master
+    - initialize size of hashset named size
+    - initialize size of hashset named height
+    - initialize size of hashset named weight
+    - initialize size of hashset named bag
+    - initialize size of hashset named can
+    - initialize size of hashset named computer
+    - initialize size of hashset named phone
+    - initialize size of hashset named laptop
+    - initialize size of hashset named mobilephone
+    - initialize size of hashset named smartphone
+    - initialize size of hashset named phonenumber
+    - initialize size of hashset named contactnumber
+    - initialize size of hashset named address
+    - initialize size of hashset named location
+    - initialize size of hashset named email
+    - initialize size of hashset named contact
+    - initialize size of hashset named emailaddress
+    - initialize size of hashset named mouse
+    - initialize size of hashset named keyboard
+    - initialize size of hashset named screen
+    - initialize size of hashset named touchscreen
+    - initialize size of hashset named fruit
+    - initialize size of hashset named food
+    - initialize size of hashset named vegetable
+    - initialize size of hashset named eatables
+    - initialize size of hashset named price
+    - initialize size of hashset named cost
+    - initialize size of hashset named sum
+    - initialize size of hashset named addition
+    - initialize size of hashset named a
+    - initialize size of hashset named b
+    - initialize size of hashset named c
+    - initialize size of hashset named p
+    - initialize size of hashset named q
+    - initialize size of hashset named r
+    - initialize size of hashset named s
+    - initialize size of hashset named x
+    - initialize size of hashset named y
+    - initialize size of hashset named z
+    - initialize size of hashset named answer
+    - initialize size of hashset named result
+    - initialize size of hashset named user
+    - initialize size of hashset named userid
+    - initialize size of hashset named id
+    - initialize size of hashset named num
+    - initialize size of hashset named age
+    - initialize size of hashset named department
+    - initialize size of hashset named hospital
+    - initialize size of hashset named wheel
+    - initialize size of hashset named seat
+    - initialize size of hashset named car
+    - initialize size of hashset named bus
+    - initialize size of hashset named van
+    - initialize size of hashset named bike
+    - initialize size of hashset named glass
+    - initialize size of hashset named red
+    - initialize size of hashset named black
+    - initialize size of hashset named white
+    - initialize size of hashset named blue
+    - initialize size of hashset named yellow
+    - initialize size of hashset named valid
+    - initialize size of hashset named subtract
+    - initialize size of hashset named value
+    - initialize size of hashset named arr
+    - initialize size of hashset named i
+    - initialize size of hashset named val
+    - initialize size of hashset named key
+    - initialize size of hashset named count
+    - initialize size of hashset name main
+    - initialize size of hashset name master
+    - initialize size of hashset name size
+    - initialize size of hashset name height
+    - initialize size of hashset name weight
+    - initialize size of hashset name bag
+    - initialize size of hashset name can
+    - initialize size of hashset name computer
+    - initialize size of hashset name phone
+    - initialize size of hashset name laptop
+    - initialize size of hashset name mobilephone
+    - initialize size of hashset name smartphone
+    - initialize size of hashset name phonenumber
+    - initialize size of hashset name contactnumber
+    - initialize size of hashset name address
+    - initialize size of hashset name location
+    - initialize size of hashset name email
+    - initialize size of hashset name contact
+    - initialize size of hashset name emailaddress
+    - initialize size of hashset name mouse
+    - initialize size of hashset name keyboard
+    - initialize size of hashset name screen
+    - initialize size of hashset name touchscreen
+    - initialize size of hashset name fruit
+    - initialize size of hashset name food
+    - initialize size of hashset name vegetable
+    - initialize size of hashset name eatables
+    - initialize size of hashset name price
+    - initialize size of hashset name cost
+    - initialize size of hashset name sum
+    - initialize size of hashset name addition
+    - initialize size of hashset name a
+    - initialize size of hashset name b
+    - initialize size of hashset name c
+    - initialize size of hashset name p
+    - initialize size of hashset name q
+    - initialize size of hashset name r
+    - initialize size of hashset name s
+    - initialize size of hashset name x
+    - initialize size of hashset name y
+    - initialize size of hashset name z
+    - initialize size of hashset name answer
+    - initialize size of hashset name result
+    - initialize size of hashset name user
+    - initialize size of hashset name userid
+    - initialize size of hashset name id
+    - initialize size of hashset name num
+    - initialize size of hashset name age
+    - initialize size of hashset name department
+    - initialize size of hashset name hospital
+    - initialize size of hashset name wheel
+    - initialize size of hashset name seat
+    - initialize size of hashset name car
+    - initialize size of hashset name bus
+    - initialize size of hashset name van
+    - initialize size of hashset name bike
+    - initialize size of hashset name glass
+    - initialize size of hashset name red
+    - initialize size of hashset name black
+    - initialize size of hashset name white
+    - initialize size of hashset name blue
+    - initialize size of hashset name yellow
+    - initialize size of hashset name valid
+    - initialize size of hashset name subtract
+    - initialize size of hashset name value
+    - initialize size of hashset name arr
+    - initialize size of hashset name i
+    - initialize size of hashset name val
+    - initialize size of hashset name key
+    - initialize size of hashset name count
+    - initialize size of hashset main
+    - initialize size of hashset master
+    - initialize size of hashset size
+    - initialize size of hashset height
+    - initialize size of hashset weight
+    - initialize size of hashset bag
+    - initialize size of hashset can
+    - initialize size of hashset computer
+    - initialize size of hashset phone
+    - initialize size of hashset laptop
+    - initialize size of hashset mobilephone
+    - initialize size of hashset smartphone
+    - initialize size of hashset phonenumber
+    - initialize size of hashset contactnumber
+    - initialize size of hashset address
+    - initialize size of hashset location
+    - initialize size of hashset email
+    - initialize size of hashset contact
+    - initialize size of hashset emailaddress
+    - initialize size of hashset mouse
+    - initialize size of hashset keyboard
+    - initialize size of hashset screen
+    - initialize size of hashset touchscreen
+    - initialize size of hashset fruit
+    - initialize size of hashset food
+    - initialize size of hashset vegetable
+    - initialize size of hashset eatables
+    - initialize size of hashset price
+    - initialize size of hashset cost
+    - initialize size of hashset sum
+    - initialize size of hashset addition
+    - initialize size of hashset a
+    - initialize size of hashset b
+    - initialize size of hashset c
+    - initialize size of hashset p
+    - initialize size of hashset q
+    - initialize size of hashset r
+    - initialize size of hashset s
+    - initialize size of hashset x
+    - initialize size of hashset y
+    - initialize size of hashset z
+    - initialize size of hashset answer
+    - initialize size of hashset result
+    - initialize size of hashset user
+    - initialize size of hashset userid
+    - initialize size of hashset id
+    - initialize size of hashset num
+    - initialize size of hashset age
+    - initialize size of hashset department
+    - initialize size of hashset hospital
+    - initialize size of hashset wheel
+    - initialize size of hashset seat
+    - initialize size of hashset car
+    - initialize size of hashset bus
+    - initialize size of hashset van
+    - initialize size of hashset bike
+    - initialize size of hashset glass
+    - initialize size of hashset red
+    - initialize size of hashset black
+    - initialize size of hashset white
+    - initialize size of hashset blue
+    - initialize size of hashset yellow
+    - initialize size of hashset valid
+    - initialize size of hashset subtract
+    - initialize size of hashset value
+    - initialize size of hashset arr
+    - initialize size of hashset i
+    - initialize size of hashset val
+    - initialize size of hashset key
+    - initialize size of hashset count
+    - init size of hashset named main
+    - init size of hashset named master
+    - init size of hashset named size
+    - init size of hashset named height
+    - init size of hashset named weight
+    - init size of hashset named bag
+    - init size of hashset named can
+    - init size of hashset named computer
+    - init size of hashset named phone
+    - init size of hashset named laptop
+    - init size of hashset named mobilephone
+    - init size of hashset named smartphone
+    - init size of hashset named phonenumber
+    - init size of hashset named contactnumber
+    - init size of hashset named address
+    - init size of hashset named location
+    - init size of hashset named email
+    - init size of hashset named contact
+    - init size of hashset named emailaddress
+    - init size of hashset named mouse
+    - init size of hashset named keyboard
+    - init size of hashset named screen
+    - init size of hashset named touchscreen
+    - init size of hashset named fruit
+    - init size of hashset named food
+    - init size of hashset named vegetable
+    - init size of hashset named eatables
+    - init size of hashset named price
+    - init size of hashset named cost
+    - init size of hashset named sum
+    - init size of hashset named addition
+    - init size of hashset named a
+    - init size of hashset named b
+    - init size of hashset named c
+    - init size of hashset named p
+    - init size of hashset named q
+    - init size of hashset named r
+    - init size of hashset named s
+    - init size of hashset named x
+    - init size of hashset named y
+    - init size of hashset named z
+    - init size of hashset named answer
+    - init size of hashset named result
+    - init size of hashset named user
+    - init size of hashset named userid
+    - init size of hashset named id
+    - init size of hashset named num
+    - init size of hashset named age
+    - init size of hashset named department
+    - init size of hashset named hospital
+    - init size of hashset named wheel
+    - init size of hashset named seat
+    - init size of hashset named car
+    - init size of hashset named bus
+    - init size of hashset named van
+    - init size of hashset named bike
+    - init size of hashset named glass
+    - init size of hashset named red
+    - init size of hashset named black
+    - init size of hashset named white
+    - init size of hashset named blue
+    - init size of hashset named yellow
+    - init size of hashset named valid
+    - init size of hashset named subtract
+    - init size of hashset named value
+    - init size of hashset named arr
+    - init size of hashset named i
+    - init size of hashset named val
+    - init size of hashset named key
+    - init size of hashset named count
+    - init size of hashset name main
+    - init size of hashset name master
+    - init size of hashset name size
+    - init size of hashset name height
+    - init size of hashset name weight
+    - init size of hashset name bag
+    - init size of hashset name can
+    - init size of hashset name computer
+    - init size of hashset name phone
+    - init size of hashset name laptop
+    - init size of hashset name mobilephone
+    - init size of hashset name smartphone
+    - init size of hashset name phonenumber
+    - init size of hashset name contactnumber
+    - init size of hashset name address
+    - init size of hashset name location
+    - init size of hashset name email
+    - init size of hashset name contact
+    - init size of hashset name emailaddress
+    - init size of hashset name mouse
+    - init size of hashset name keyboard
+    - init size of hashset name screen
+    - init size of hashset name touchscreen
+    - init size of hashset name fruit
+    - init size of hashset name food
+    - init size of hashset name vegetable
+    - init size of hashset name eatables
+    - init size of hashset name price
+    - init size of hashset name cost
+    - init size of hashset name sum
+    - init size of hashset name addition
+    - init size of hashset name a
+    - init size of hashset name b
+    - init size of hashset name c
+    - init size of hashset name p
+    - init size of hashset name q
+    - init size of hashset name r
+    - init size of hashset name s
+    - init size of hashset name x
+    - init size of hashset name y
+    - init size of hashset name z
+    - init size of hashset name answer
+    - init size of hashset name result
+    - init size of hashset name user
+    - init size of hashset name userid
+    - init size of hashset name id
+    - init size of hashset name num
+    - init size of hashset name age
+    - init size of hashset name department
+    - init size of hashset name hospital
+    - init size of hashset name wheel
+    - init size of hashset name seat
+    - init size of hashset name car
+    - init size of hashset name bus
+    - init size of hashset name van
+    - init size of hashset name bike
+    - init size of hashset name glass
+    - init size of hashset name red
+    - init size of hashset name black
+    - init size of hashset name white
+    - init size of hashset name blue
+    - init size of hashset name yellow
+    - init size of hashset name valid
+    - init size of hashset name subtract
+    - init size of hashset name value
+    - init size of hashset name arr
+    - init size of hashset name i
+    - init size of hashset name val
+    - init size of hashset name key
+    - init size of hashset name count
+    - init size of hashset main
+    - init size of hashset master
+    - init size of hashset size
+    - init size of hashset height
+    - init size of hashset weight
+    - init size of hashset bag
+    - init size of hashset can
+    - init size of hashset computer
+    - init size of hashset phone
+    - init size of hashset laptop
+    - init size of hashset mobilephone
+    - init size of hashset smartphone
+    - init size of hashset phonenumber
+    - init size of hashset contactnumber
+    - init size of hashset address
+    - init size of hashset location
+    - init size of hashset email
+    - init size of hashset contact
+    - init size of hashset emailaddress
+    - init size of hashset mouse
+    - init size of hashset keyboard
+    - init size of hashset screen
+    - init size of hashset touchscreen
+    - init size of hashset fruit
+    - init size of hashset food
+    - init size of hashset vegetable
+    - init size of hashset eatables
+    - init size of hashset price
+    - init size of hashset cost
+    - init size of hashset sum
+    - init size of hashset addition
+    - init size of hashset a
+    - init size of hashset b
+    - init size of hashset c
+    - init size of hashset p
+    - init size of hashset q
+    - init size of hashset r
+    - init size of hashset s
+    - init size of hashset x
+    - init size of hashset y
+    - init size of hashset z
+    - init size of hashset answer
+    - init size of hashset result
+    - init size of hashset user
+    - init size of hashset userid
+    - init size of hashset id
+    - init size of hashset num
+    - init size of hashset age
+    - init size of hashset department
+    - init size of hashset hospital
+    - init size of hashset wheel
+    - init size of hashset seat
+    - init size of hashset car
+    - init size of hashset bus
+    - init size of hashset van
+    - init size of hashset bike
+    - init size of hashset glass
+    - init size of hashset red
+    - init size of hashset black
+    - init size of hashset white
+    - init size of hashset blue
+    - init size of hashset yellow
+    - init size of hashset valid
+    - init size of hashset subtract
+    - init size of hashset value
+    - init size of hashset arr
+    - init size of hashset i
+    - init size of hashset val
+    - init size of hashset key
+    - init size of hashset count
+    - call size of hashset named main
+    - call size of hashset named master
+    - call size of hashset named size
+    - call size of hashset named height
+    - call size of hashset named weight
+    - call size of hashset named bag
+    - call size of hashset named can
+    - call size of hashset named computer
+    - call size of hashset named phone
+    - call size of hashset named laptop
+    - call size of hashset named mobilephone
+    - call size of hashset named smartphone
+    - call size of hashset named phonenumber
+    - call size of hashset named contactnumber
+    - call size of hashset named address
+    - call size of hashset named location
+    - call size of hashset named email
+    - call size of hashset named contact
+    - call size of hashset named emailaddress
+    - call size of hashset named mouse
+    - call size of hashset named keyboard
+    - call size of hashset named screen
+    - call size of hashset named touchscreen
+    - call size of hashset named fruit
+    - call size of hashset named food
+    - call size of hashset named vegetable
+    - call size of hashset named eatables
+    - call size of hashset named price
+    - call size of hashset named cost
+    - call size of hashset named sum
+    - call size of hashset named addition
+    - call size of hashset named a
+    - call size of hashset named b
+    - call size of hashset named c
+    - call size of hashset named p
+    - call size of hashset named q
+    - call size of hashset named r
+    - call size of hashset named s
+    - call size of hashset named x
+    - call size of hashset named y
+    - call size of hashset named z
+    - call size of hashset named answer
+    - call size of hashset named result
+    - call size of hashset named user
+    - call size of hashset named userid
+    - call size of hashset named id
+    - call size of hashset named num
+    - call size of hashset named age
+    - call size of hashset named department
+    - call size of hashset named hospital
+    - call size of hashset named wheel
+    - call size of hashset named seat
+    - call size of hashset named car
+    - call size of hashset named bus
+    - call size of hashset named van
+    - call size of hashset named bike
+    - call size of hashset named glass
+    - call size of hashset named red
+    - call size of hashset named black
+    - call size of hashset named white
+    - call size of hashset named blue
+    - call size of hashset named yellow
+    - call size of hashset named valid
+    - call size of hashset named subtract
+    - call size of hashset named value
+    - call size of hashset named arr
+    - call size of hashset named i
+    - call size of hashset named val
+    - call size of hashset named key
+    - call size of hashset named count
+    - call size of hashset name main
+    - call size of hashset name master
+    - call size of hashset name size
+    - call size of hashset name height
+    - call size of hashset name weight
+    - call size of hashset name bag
+    - call size of hashset name can
+    - call size of hashset name computer
+    - call size of hashset name phone
+    - call size of hashset name laptop
+    - call size of hashset name mobilephone
+    - call size of hashset name smartphone
+    - call size of hashset name phonenumber
+    - call size of hashset name contactnumber
+    - call size of hashset name address
+    - call size of hashset name location
+    - call size of hashset name email
+    - call size of hashset name contact
+    - call size of hashset name emailaddress
+    - call size of hashset name mouse
+    - call size of hashset name keyboard
+    - call size of hashset name screen
+    - call size of hashset name touchscreen
+    - call size of hashset name fruit
+    - call size of hashset name food
+    - call size of hashset name vegetable
+    - call size of hashset name eatables
+    - call size of hashset name price
+    - call size of hashset name cost
+    - call size of hashset name sum
+    - call size of hashset name addition
+    - call size of hashset name a
+    - call size of hashset name b
+    - call size of hashset name c
+    - call size of hashset name p
+    - call size of hashset name q
+    - call size of hashset name r
+    - call size of hashset name s
+    - call size of hashset name x
+    - call size of hashset name y
+    - call size of hashset name z
+    - call size of hashset name answer
+    - call size of hashset name result
+    - call size of hashset name user
+    - call size of hashset name userid
+    - call size of hashset name id
+    - call size of hashset name num
+    - call size of hashset name age
+    - call size of hashset name department
+    - call size of hashset name hospital
+    - call size of hashset name wheel
+    - call size of hashset name seat
+    - call size of hashset name car
+    - call size of hashset name bus
+    - call size of hashset name van
+    - call size of hashset name bike
+    - call size of hashset name glass
+    - call size of hashset name red
+    - call size of hashset name black
+    - call size of hashset name white
+    - call size of hashset name blue
+    - call size of hashset name yellow
+    - call size of hashset name valid
+    - call size of hashset name subtract
+    - call size of hashset name value
+    - call size of hashset name arr
+    - call size of hashset name i
+    - call size of hashset name val
+    - call size of hashset name key
+    - call size of hashset name count
+    - call size of hashset main
+    - call size of hashset master
+    - call size of hashset size
+    - call size of hashset height
+    - call size of hashset weight
+    - call size of hashset bag
+    - call size of hashset can
+    - call size of hashset computer
+    - call size of hashset phone
+    - call size of hashset laptop
+    - call size of hashset mobilephone
+    - call size of hashset smartphone
+    - call size of hashset phonenumber
+    - call size of hashset contactnumber
+    - call size of hashset address
+    - call size of hashset location
+    - call size of hashset email
+    - call size of hashset contact
+    - call size of hashset emailaddress
+    - call size of hashset mouse
+    - call size of hashset keyboard
+    - call size of hashset screen
+    - call size of hashset touchscreen
+    - call size of hashset fruit
+    - call size of hashset food
+    - call size of hashset vegetable
+    - call size of hashset eatables
+    - call size of hashset price
+    - call size of hashset cost
+    - call size of hashset sum
+    - call size of hashset addition
+    - call size of hashset a
+    - call size of hashset b
+    - call size of hashset c
+    - call size of hashset p
+    - call size of hashset q
+    - call size of hashset r
+    - call size of hashset s
+    - call size of hashset x
+    - call size of hashset y
+    - call size of hashset z
+    - call size of hashset answer
+    - call size of hashset result
+    - call size of hashset user
+    - call size of hashset userid
+    - call size of hashset id
+    - call size of hashset num
+    - call size of hashset age
+    - call size of hashset department
+    - call size of hashset hospital
+    - call size of hashset wheel
+    - call size of hashset seat
+    - call size of hashset car
+    - call size of hashset bus
+    - call size of hashset van
+    - call size of hashset bike
+    - call size of hashset glass
+    - call size of hashset red
+    - call size of hashset black
+    - call size of hashset white
+    - call size of hashset blue
+    - call size of hashset yellow
+    - call size of hashset valid
+    - call size of hashset subtract
+    - call size of hashset value
+    - call size of hashset arr
+    - call size of hashset i
+    - call size of hashset val
+    - call size of hashset key
+    - call size of hashset count
+
+
+# ADDED TO NLU/TEST

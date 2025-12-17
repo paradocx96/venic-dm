@@ -1,0 +1,397 @@
+# Venic - Voice Enabled Intelligent Programming Assistant
+# @author IT19180526 - S.A.N.L.D. Chandrasiri
+# @version 1.0
+
+- intent: createloop
+  examples: |
+    - create while loop
+    - create do while loop
+    - create for loop
+    - create for each loop
+    - create while loop add condition
+    - create do while loop add condition
+    - create for loop add condition
+    - create for each loop add condition
+    - create while loop with condition
+    - create do while loop with condition
+    - create for loop with condition
+    - create for each loop with condition
+    - add while loop
+    - add do while loop
+    - add for loop
+    - add for each loop
+    - add while loop add condition
+    - add do while loop add condition
+    - add for loop add condition
+    - add for each loop add condition
+    - add while loop with condition
+    - add do while loop with condition
+    - add for loop with condition
+    - add for each loop with condition
+    - initiate while loop
+    - initiate do while loop
+    - initiate for loop
+    - initiate for each loop
+    - initiate while loop add condition
+    - initiate do while loop add condition
+    - initiate for loop add condition
+    - initiate for each loop add condition
+    - initiate while loop with condition
+    - initiate do while loop with condition
+    - initiate for loop with condition
+    - initiate for each loop with condition
+    - loop through main
+    - loop through master
+    - loop through size
+    - loop through height
+    - loop through weight
+    - loop through bag
+    - loop through can
+    - loop through computer
+    - loop through phone
+    - loop through laptop
+    - loop through smartphone
+    - loop through contact
+    - loop through address
+    - loop through user
+    - loop through userid
+    - loop through location
+    - loop through email
+    - loop through contact
+    - loop through mouse
+    - loop through value
+    - loop through keyboard
+    - loop through screen
+    - loop through touchscreen
+    - loop through fruit
+    - loop through food
+    - loop through vegetable
+    - loop through eatables
+    - loop through price
+    - loop through cost
+    - loop through sum
+    - loop through addition
+    - loop through x
+    - loop through y
+    - loop through z
+    - loop through answer
+    - loop through id
+    - loop through num
+    - loop through age
+    - loop through department
+    - loop through hospital
+    - loop through wheel
+    - loop through seat
+    - loop through car
+    - loop through bus
+    - loop through van
+    - loop through bike
+    - loop through glass
+    - loop through red
+    - loop through black
+    - loop through result
+    - loop main and call contain
+    - loop master and call add
+    - loop size and call build
+    - loop height and call get
+    - loop weight and call notify
+    - loop bag and call addition
+    - loop can and call divide
+    - loop computer and call work
+    - loop phone and call display
+    - loop laptop and call answer
+    - loop smartphone and call call
+    - loop contact and call select
+    - loop address and call output
+    - loop user and call reset
+    - loop userid and call receive
+    - loop location and call build
+    - loop email and call divide
+    - loop contact and call valid
+    - loop mouse and call append
+    - loop value and call change
+    - loop keyboard and call find
+    - loop screen and call add
+    - loop touchscreen and call set
+    - loop fruit and call input
+    - loop food and call set
+    - loop vegetable and call notify
+    - loop eatables and call valid
+    - loop price and call modulus
+    - loop cost and call max
+    - loop sum and call output
+    - loop addition and call show
+    - loop x and call model
+    - loop y and call get
+    - loop z and call append
+    - loop answer and call valid
+    - loop id and call check
+    - loop num and call add
+    - loop age and call subtract
+    - loop department and call update
+    - loop hospital and call build
+    - loop wheel and call output
+    - loop seat and call update
+    - loop car and call communicate
+    - loop bus and call repo
+    - loop van and call build
+    - loop bike and call clear
+    - loop glass and call input
+    - loop red and call minus
+    - loop black and call show
+    - loop result and call sum
+    - loop through main and call calculate
+    - loop through master and call work
+    - loop through size and call calc
+    - loop through height and call select
+    - loop through weight and call display
+    - loop through bag and call update
+    - loop through can and call repository
+    - loop through computer and call result
+    - loop through phone and call plus
+    - loop through laptop and call subtract
+    - loop through smartphone and call run
+    - loop through contact and call multiply
+    - loop through address and call view
+    - loop through user and call show
+    - loop through userid and call repo
+    - loop through location and call output
+    - loop through email and call remove
+    - loop through contact and call repo
+    - loop through mouse and call repo
+    - loop through value and call calc
+    - loop through keyboard and call buy
+    - loop through screen and call generate
+    - loop through touchscreen and call multiply
+    - loop through fruit and call select
+    - loop through food and call max
+    - loop through vegetable and call select
+    - loop through eatables and call call
+    - loop through price and call put
+    - loop through cost and call generate
+    - loop through sum and call generate
+    - loop through addition and call update
+    - loop through x and call add
+    - loop through y and call decrement
+    - loop through z and call build
+    - loop through answer and call clear
+    - loop through id and call generate
+    - loop through num and call show
+    - loop through age and call plus
+    - loop through department and call buy
+    - loop through hospital and call decrement
+    - loop through wheel and call minus
+    - loop through seat and call communicate
+    - loop through car and call model
+    - loop through bus and call increment
+    - loop through van and call update
+    - loop through bike and call get
+    - loop through glass and call rebuild
+    - loop through red and call generate
+    - loop through black and call modulus
+    - loop through result and call calculate
+    - iterate through main
+    - iterate through master
+    - iterate through size
+    - iterate through height
+    - iterate through weight
+    - iterate through bag
+    - iterate through can
+    - iterate through computer
+    - iterate through phone
+    - iterate through laptop
+    - iterate through smartphone
+    - iterate through contact
+    - iterate through address
+    - iterate through user
+    - iterate through userid
+    - iterate through location
+    - iterate through email
+    - iterate through contact
+    - iterate through mouse
+    - iterate through value
+    - iterate through keyboard
+    - iterate through screen
+    - iterate through touchscreen
+    - iterate through fruit
+    - iterate through food
+    - iterate through vegetable
+    - iterate through eatables
+    - iterate through price
+    - iterate through cost
+    - iterate through sum
+    - iterate through addition
+    - iterate through x
+    - iterate through y
+    - iterate through z
+    - iterate through answer
+    - iterate through id
+    - iterate through num
+    - iterate through age
+    - iterate through department
+    - iterate through hospital
+    - iterate through wheel
+    - iterate through seat
+    - iterate through car
+    - iterate through bus
+    - iterate through van
+    - iterate through bike
+    - iterate through glass
+    - iterate through red
+    - iterate through black
+    - iterate through result
+    - iterate main and call contain
+    - iterate master and call add
+    - iterate size and call build
+    - iterate height and call get
+    - iterate weight and call notify
+    - iterate bag and call addition
+    - iterate can and call divide
+    - iterate computer and call work
+    - iterate phone and call display
+    - iterate laptop and call answer
+    - iterate smartphone and call call
+    - iterate contact and call select
+    - iterate address and call output
+    - iterate user and call reset
+    - iterate userid and call receive
+    - iterate location and call build
+    - iterate email and call divide
+    - iterate contact and call valid
+    - iterate mouse and call append
+    - iterate value and call change
+    - iterate keyboard and call find
+    - iterate screen and call add
+    - iterate touchscreen and call set
+    - iterate fruit and call input
+    - iterate food and call set
+    - iterate vegetable and call notify
+    - iterate eatables and call valid
+    - iterate price and call modulus
+    - iterate cost and call max
+    - iterate sum and call output
+    - iterate addition and call show
+    - iterate x and call model
+    - iterate y and call get
+    - iterate z and call append
+    - iterate answer and call valid
+    - iterate id and call check
+    - iterate num and call add
+    - iterate age and call subtract
+    - iterate department and call update
+    - iterate hospital and call build
+    - iterate wheel and call output
+    - iterate seat and call update
+    - iterate car and call communicate
+    - iterate bus and call repo
+    - iterate van and call build
+    - iterate bike and call clear
+    - iterate glass and call input
+    - iterate red and call minus
+    - iterate black and call show
+    - iterate result and call sum
+    - iterate through main and call calculate
+    - iterate through master and call work
+    - iterate through size and call calc
+    - iterate through height and call select
+    - iterate through weight and call display
+    - iterate through bag and call update
+    - iterate through can and call repository
+    - iterate through computer and call result
+    - iterate through phone and call plus
+    - iterate through laptop and call subtract
+    - iterate through smartphone and call run
+    - iterate through contact and call multiply
+    - iterate through address and call view
+    - iterate through user and call show
+    - iterate through userid and call repo
+    - iterate through location and call output
+    - iterate through email and call remove
+    - iterate through contact and call repo
+    - iterate through mouse and call repo
+    - iterate through value and call calc
+    - iterate through keyboard and call buy
+    - iterate through screen and call generate
+    - iterate through touchscreen and call multiply
+    - iterate through fruit and call select
+    - iterate through food and call max
+    - iterate through vegetable and call select
+    - iterate through eatables and call call
+    - iterate through price and call put
+    - iterate through cost and call generate
+    - iterate through sum and call generate
+    - iterate through addition and call update
+    - iterate through x and call add
+    - iterate through y and call decrement
+    - iterate through z and call build
+    - iterate through answer and call clear
+    - iterate through id and call generate
+    - iterate through num and call show
+    - iterate through age and call plus
+    - iterate through department and call buy
+    - iterate through hospital and call decrement
+    - iterate through wheel and call minus
+    - iterate through seat and call communicate
+    - iterate through car and call model
+    - iterate through bus and call increment
+    - iterate through van and call update
+    - iterate through bike and call get
+    - iterate through glass and call rebuild
+    - iterate through red and call generate
+    - iterate through black and call modulus
+    - iterate through result and call calculate
+
+- intent: deleteloop
+  examples: |
+    - delete while loop
+    - delete do while loop
+    - delete for loop
+    - delete for each loop
+    - delete while loop with condition
+    - delete do while loop with condition
+    - delete for loop with condition
+    - delete for each loop with condition
+    - remove while loop
+    - remove do while loop
+    - remove for loop
+    - remove for each loop
+    - remove while loop with condition
+    - remove do while loop with condition
+    - remove for loop with condition
+    - remove for each loop with condition
+
+- intent: cutloop
+  examples: |
+    - cut while loop
+    - cut do while loop
+    - cut for loop
+    - cut for each loop
+    - cut while loop with condition
+    - cut do while loop with condition
+    - cut for loop with condition
+    - cut for each loop with condition
+
+- intent: changeloop
+  examples: |
+    - change while loop
+    - change do while loop
+    - change for loop
+    - change for each loop
+    - change while loop with condition
+    - change do while loop with condition
+    - change for loop with condition
+    - change for each loop with condition
+
+- intent: editloop
+  examples: |
+    - edit while loop
+    - edit do while loop
+    - edit for loop
+    - edit for each loop
+    - edit while loop with condition
+    - edit do while loop with condition
+    - edit for loop with condition
+    - edit for each loop with condition
+
+
+# ADDED TO NLU/TEST
